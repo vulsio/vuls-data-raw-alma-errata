@@ -1,0 +1,208 @@
+{
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\nSecurity Fix(es):\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n* kernel: race condition in perf_event_open leads to privilege escalation (CVE-2022-1729)\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-1966)\n* kernel: buffer overflow in IPsec ESP transformation code (CVE-2022-27666)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* kernel-rt: update RT source tree to the latest AlmaLinux-9.0.z1 Batch (BZ#2089492)",
+  "id": "ALSA-2022:5267",
+  "issued_date": 1656374400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "02fc0158918e30273b82afc53fac22e69dd28ba3050e46d2b28e56cf70056d8d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-modules-extra-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug-modules-extra",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5c3a42b7fabaaccb7b15fa5d43d982893613ac4fbea2c147a0263101b278a569",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-devel-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-devel",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "6ec45928bbbfdad22d03a8957f13f63c351b2c48e4e8766745fae57a8c53db3a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-core-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug-core",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "7a0ccd9fe5c04bc2c591a17723dad834f29ca031c3ccfc9a9e42594b9444a5ef",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-modules-extra-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-modules-extra",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "8ed218996e2991b7dc6e4daa81d88c77178922dafc6f82d464060700073cc6ed",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-core-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-core",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "a13b1749dcce5802bf77a55621c4109ce184e391e7a162fd18367a1f9c5108cf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "a9999f42cf0a40500ec4de44a1a996dae81d9aba5a8ba7d9d3adff532fb04f09",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-kvm-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug-kvm",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "bb8a24390b05a735df0a1b6a207873c7bf2badacbe7b8e9fe072c869116606f0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-kvm-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-kvm",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "be10c8e75bf9b67c081002fce5b7331b0d6bdd1a6e56ea412c44b4552a8ce9d7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-modules-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug-modules",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e1bd8711e63d6ca50f96aaf45d48bf7f9f11c9ccf685da983b6707c76533bcda",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-modules-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-modules",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "ea50dd085d2efd0278c94383f6b761ce10507f35231b1cdc7e204cb6828bd5e5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "eba7e7ff0c517fc97dc42d0bf54680eb8df08099195cd45fa1c55741022c1190",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-devel-5.14.0-70.17.1.rt21.89.el9_0.x86_64.rpm",
+      "name": "kernel-rt-debug-devel",
+      "reboot_suggested": 0,
+      "release": "70.17.1.rt21.89.el9_0",
+      "src": "kernel-rt-5.14.0-70.17.1.rt21.89.el9_0.src.rpm",
+      "version": "5.14.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5267",
+      "id": "RHSA-2022:5267",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1012",
+      "id": "CVE-2022-1012",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1729",
+      "id": "CVE-2022-1729",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1966",
+      "id": "CVE-2022-1966",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-27666",
+      "id": "CVE-2022-27666",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2061633",
+      "id": "2061633",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2064604",
+      "id": "2064604",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2086753",
+      "id": "2086753",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2092427",
+      "id": "2092427",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-5267.html",
+      "id": "ALSA-2022:5267",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: kernel-rt security and bug fix update",
+  "type": "security",
+  "updated_date": 1656578548
+}

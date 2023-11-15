@@ -1,0 +1,128 @@
+{
+  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3).\n\nSecurity Fix(es):\n\n* nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746)\n\n* nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747)\n\n* nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754)\n\n* nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs: use-after-free in the TLS implementation (CVE-2020-8265)\n\n* nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2021:0549",
+  "issued_date": 1613460869,
+  "modules": [
+    {
+      "arch": "x86_64",
+      "context": "9edba152",
+      "name": "nodejs",
+      "stream": "12",
+      "version": "8060020220621120033"
+    },
+    {
+      "arch": "aarch64",
+      "context": "229f0a1c",
+      "name": "nodejs",
+      "stream": "10",
+      "version": "8040020210504103258"
+    },
+    {
+      "arch": "ppc64le",
+      "context": "9edba152",
+      "name": "nodejs",
+      "stream": "12",
+      "version": "8060020220621120033"
+    }
+  ],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "866fca29b11c2772a119fa9bcf208c5d4a6e7cea51445fcb2194e1ad3c4ddc0e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-packaging-17-3.module_el8.3.0+2023+d2377ea3.noarch.rpm",
+      "module": "nodejs:12:8060020220621120033:9edba152:x86_64",
+      "name": "nodejs-packaging",
+      "reboot_suggested": 0,
+      "release": "3.module_el8.3.0+2023+d2377ea3",
+      "src": "nodejs-packaging-17-3.module_el8.3.0+2023+d2377ea3.src.rpm",
+      "version": "17"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+      "module": "nodejs:12:8060020220621120033:9edba152:x86_64",
+      "name": "nodejs-nodemon",
+      "reboot_suggested": 0,
+      "release": "1.module_el8.4.0+2521+c668cc9f",
+      "src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
+      "version": "2.0.3"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "34d06c7655fa3e83fb4c8cd1af3eeee4471f30a9231142e5561fa34eac5e1cb5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.noarch.rpm",
+      "module": "nodejs:10:8040020210504103258:229f0a1c:aarch64",
+      "name": "nodejs-packaging",
+      "reboot_suggested": 0,
+      "release": "3.module_el8.4.0+2224+b07ac28e",
+      "src": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.src.rpm",
+      "version": "17"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "48a2bb3aaf5af5eb9eff27d730f873dfcb942c9bc4ff765f9fbcaddd031cd78f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+      "module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
+      "name": "nodejs-packaging",
+      "reboot_suggested": 0,
+      "release": "3.module_el8.4.0+2521+c668cc9f",
+      "src": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.src.rpm",
+      "version": "17"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-0549.html",
+      "id": "ALSA-2021-0549",
+      "type": "self"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2018-3750",
+      "id": "CVE-2018-3750",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2019-10746",
+      "id": "CVE-2019-10746",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2019-10747",
+      "id": "CVE-2019-10747",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-7754",
+      "id": "CVE-2020-7754",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-7788",
+      "id": "CVE-2020-7788",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-8265",
+      "id": "CVE-2020-8265",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-8287",
+      "id": "CVE-2020-8287",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: nodejs:12 security update",
+  "type": "security",
+  "updated_date": 1613480585
+}

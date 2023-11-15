@@ -1,0 +1,55 @@
+{
+  "description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits (CVE-2021-27219)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Refcounting issue causes crashes and slow workarounds (BZ#1953553)",
+  "id": "ALSA-2021:2170",
+  "issued_date": 1622538265,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "1364c2eabcab5549e2846782671952d99dedc906f58668bcf1c2105a6f5ce8e1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-doc-2.56.4-10.el8_4.noarch.rpm",
+      "name": "glib2-doc",
+      "reboot_suggested": 0,
+      "release": "10.el8_4",
+      "src": "glib2-2.56.4-10.el8_4.src.rpm",
+      "version": "2.56.4"
+    },
+    {
+      "arch": "i686",
+      "checksum": "3b5c8aa8c65c522a6bbb375dc55aabfb0e41b69a0e8f2614f310acecdeee685a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-static-2.56.4-10.el8_4.i686.rpm",
+      "name": "glib2-static",
+      "reboot_suggested": 0,
+      "release": "10.el8_4",
+      "src": "glib2-2.56.4-10.el8_4.src.rpm",
+      "version": "2.56.4"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9b4040395c0d4cf05bafc5c0d51770b2e6240b8501b1032dc4e4546f0cf50ad3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-static-2.56.4-10.el8_4.x86_64.rpm",
+      "name": "glib2-static",
+      "reboot_suggested": 0,
+      "release": "10.el8_4",
+      "src": "glib2-2.56.4-10.el8_4.src.rpm",
+      "version": "2.56.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-27219",
+      "id": "CVE-2021-27219",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: glib2 security and bug fix update",
+  "type": "security",
+  "updated_date": 1628672040
+}

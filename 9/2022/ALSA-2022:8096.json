@@ -1,0 +1,164 @@
+{
+  "description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Code injection via Lua script execution environment (CVE-2022-24735)\n* redis: Malformed Lua script can crash Redis (CVE-2022-24736)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2022:8096",
+  "issued_date": 1668470400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "142f8f9a73b8b4e8f94dd2bd4a7cde5f54880fe6e5dd1a54ec5c41a6bd33ac58",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-doc-6.2.7-1.el9.noarch.rpm",
+      "name": "redis-doc",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "i686",
+      "checksum": "7aa3e793576437268a42d168c4febef9a03d425b0d5375e0d73f189024e16528",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-devel-6.2.7-1.el9.i686.rpm",
+      "name": "redis-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
+      "name": "redis-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-6.2.7-1.el9.ppc64le.rpm",
+      "name": "redis",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "57a9f6a8531b7d443cba4c73032962da474d5cbc35e93ca9ab28929c32c45c68",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-6.2.7-1.el9.x86_64.rpm",
+      "name": "redis",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "61d0783787f472866d8adf69d7ceeb80bba0f42165675efedf4f2d22bada5f9c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-devel-6.2.7-1.el9.x86_64.rpm",
+      "name": "redis-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "17036c47134ffcbed862a422ef7d397ef1f07c8549e843c6eb2790ace8935bb8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-devel-6.2.7-1.el9.s390x.rpm",
+      "name": "redis-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "c8fdc219bf77d509dfbc0c17c2a93e2e8be945384c9c281cc8fb22dc6bd2ba56",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-6.2.7-1.el9.s390x.rpm",
+      "name": "redis",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "66f6158952241a26323601cfbf5f929687ad1c326488309a7393e09f1f160e41",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-6.2.7-1.el9.aarch64.rpm",
+      "name": "redis",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "ce8c061d66961a97d2fba567733884e17f854e687a024db00b2b1892634f3954",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "redis-devel-6.2.7-1.el9.aarch64.rpm",
+      "name": "redis-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "redis-6.2.7-1.el9.src.rpm",
+      "version": "6.2.7"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:8096",
+      "id": "RHSA-2022:8096",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-24735",
+      "id": "CVE-2022-24735",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-24736",
+      "id": "CVE-2022-24736",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2080286",
+      "id": "2080286",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2080289",
+      "id": "2080289",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-8096.html",
+      "id": "ALSA-2022:8096",
+      "type": "self"
+    }
+  ],
+  "severity": "Low",
+  "title": "Low: redis security and bug fix update",
+  "type": "security",
+  "updated_date": 1668745089
+}

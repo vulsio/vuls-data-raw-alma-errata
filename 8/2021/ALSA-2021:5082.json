@@ -1,0 +1,113 @@
+{
+  "description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nSecurity Fix(es):\n\n* samba: Active Directory (AD) domain user could become root on domain members (CVE-2020-25717)\n\n* samba: SMB1 client connections can be downgraded to plaintext authentication (CVE-2016-2124)\n\n* samba: Subsequent DCE/RPC fragment injection vulnerability (CVE-2021-23192)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2021:5082",
+  "issued_date": 1639383338,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "40d6cdf0813e4f8e6af683657dc3e946f22af272d8f94d47019bde44ee7097b1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libwbclient-devel-4.14.5-7.el8_5.i686.rpm",
+      "name": "libwbclient-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "476ba6009b4404484a8e2f76c0736eae11c28222f539922a002c2a6e6f5fc3b2",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "samba-devel-4.14.5-7.el8_5.x86_64.rpm",
+      "name": "samba-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "8b47981b6f1062c8283231cea50150f0ed4ed9deb2773e85bee04fca1660cee1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libwbclient-devel-4.14.5-7.el8_5.x86_64.rpm",
+      "name": "libwbclient-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "i686",
+      "checksum": "9d5e5837d4db71847505e8675c14b26e68f7b76f8ff6d8ae7881982e8f1cc735",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsmbclient-devel-4.14.5-7.el8_5.i686.rpm",
+      "name": "libsmbclient-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "i686",
+      "checksum": "b13b174ef334e48d706b8cc562609a5173bc2bc2b83e0368440cf977938f002b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "samba-devel-4.14.5-7.el8_5.i686.rpm",
+      "name": "samba-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b8a1f15e15698a81b7de9dd1edadd435b99d8a5bd148a4bfdd5e23922afa3a98",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsmbclient-devel-4.14.5-7.el8_5.x86_64.rpm",
+      "name": "libsmbclient-devel",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "7dc5728cf2063194b99d625c7e9ad209e221bcb4dd6a25d425f93e74b08e302e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "samba-vfs-iouring-4.14.5-7.el8_5.x86_64.rpm",
+      "name": "samba-vfs-iouring",
+      "reboot_suggested": 0,
+      "release": "7.el8_5",
+      "src": "samba-4.14.5-7.el8_5.src.rpm",
+      "version": "4.14.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2016-2124",
+      "id": "CVE-2016-2124",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25717",
+      "id": "CVE-2020-25717",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-23192",
+      "id": "CVE-2021-23192",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: samba security update",
+  "type": "security",
+  "updated_date": 1639439128
+}

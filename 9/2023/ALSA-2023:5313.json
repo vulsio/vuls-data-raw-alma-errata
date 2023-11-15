@@ -1,0 +1,130 @@
+{
+  "description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: SAML token signature bypass (CVE-2023-20900)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:5313",
+  "issued_date": 1695168000,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "14cd92cb434579ab2c30e30710e60ce220a0d23a741da0d91954d90f92e6440d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-desktop-12.1.5-1.el9_2.3.alma.1.x86_64.rpm",
+      "name": "open-vm-tools-desktop",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "7cff9120fd3cf1f7733193593a1d1405e652becc11e4c5719c30c086b02449da",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-test-12.1.5-1.el9_2.3.alma.1.x86_64.rpm",
+      "name": "open-vm-tools-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b4485eec46f9914e2fec586648a4894b0817e1db752d04b4c0cff9d8fc888547",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.x86_64.rpm",
+      "name": "open-vm-tools",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "bf596773166ccb76faaf0bc21e5cf0ab6644509f6d51c3bbd6deaf97c2470a44",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-sdmp-12.1.5-1.el9_2.3.alma.1.x86_64.rpm",
+      "name": "open-vm-tools-sdmp",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e4d22ffc2eced1047391b0c512551178e6010fee0bb1937ac30315112054a5ce",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-salt-minion-12.1.5-1.el9_2.3.alma.1.x86_64.rpm",
+      "name": "open-vm-tools-salt-minion",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "4321062e57c9f51eb73b16a831b29af7d0351022502eb1f3fdc7aaa70b269f29",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-desktop-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+      "name": "open-vm-tools-desktop",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "47d4a0a2084487c7b3eb1ef32c8c94c186659b0d0f4342892bdf3ab35797939a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-test-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+      "name": "open-vm-tools-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "79da4088161ecee0c601b6bdca69554e7c9563aa1fdd414282f7b9d9bf29f89c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+      "name": "open-vm-tools",
+      "reboot_suggested": 0,
+      "release": "1.el9_2.3.alma.1",
+      "src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+      "version": "12.1.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5313",
+      "id": "RHSA-2023:5313",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-20900",
+      "id": "CVE-2023-20900",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2236542",
+      "id": "2236542",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-5313.html",
+      "id": "ALSA-2023:5313",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: open-vm-tools security update",
+  "type": "security",
+  "updated_date": 1695300632
+}

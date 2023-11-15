@@ -1,0 +1,94 @@
+{
+  "description": "The rsync utility enables the users to copy and synchronize files locally or across a network. Synchronization with rsync is fast because rsync only sends the differences in files over the network instead of sending whole files. The rsync utility is also used as a mirroring tool.\n\nSecurity Fix(es):\n\n* zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field (CVE-2022-37434)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2022:8291",
+  "issued_date": 1668470400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "1b7b8d0f1db62a381e9185eebd1de7e50598cff114744e8b9f5608fc7689b231",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rsync-daemon-3.2.3-18.el9.noarch.rpm",
+      "name": "rsync-daemon",
+      "reboot_suggested": 0,
+      "release": "18.el9",
+      "src": "rsync-3.2.3-18.el9.src.rpm",
+      "version": "3.2.3"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e2d83f9e45848b39bd69a8d19f84a0c92912c70fcfd88801954a43de23218328",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rsync-3.2.3-18.el9.x86_64.rpm",
+      "name": "rsync",
+      "reboot_suggested": 0,
+      "release": "18.el9",
+      "src": "rsync-3.2.3-18.el9.src.rpm",
+      "version": "3.2.3"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "80a5233faa503ab7a879be7ea59d9884e9594c23700a078d28bfd146e2ba6630",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rsync-3.2.3-18.el9.ppc64le.rpm",
+      "name": "rsync",
+      "reboot_suggested": 0,
+      "release": "18.el9",
+      "src": "rsync-3.2.3-18.el9.src.rpm",
+      "version": "3.2.3"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "8fbbb83bfd308d8cc9fd5430308610dff74f251316c65d0abf0a3c8294571937",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rsync-3.2.3-18.el9.s390x.rpm",
+      "name": "rsync",
+      "reboot_suggested": 0,
+      "release": "18.el9",
+      "src": "rsync-3.2.3-18.el9.src.rpm",
+      "version": "3.2.3"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "1d47dcb05b345e40ca12ae885dfbdcfda7d3d401e47890a6cca994ac3c1815e7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rsync-3.2.3-18.el9.aarch64.rpm",
+      "name": "rsync",
+      "reboot_suggested": 0,
+      "release": "18.el9",
+      "src": "rsync-3.2.3-18.el9.src.rpm",
+      "version": "3.2.3"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:8291",
+      "id": "RHSA-2022:8291",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-37434",
+      "id": "CVE-2022-37434",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2116639",
+      "id": "2116639",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-8291.html",
+      "id": "ALSA-2022:8291",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: rsync security and bug fix update",
+  "type": "security",
+  "updated_date": 1668731969
+}

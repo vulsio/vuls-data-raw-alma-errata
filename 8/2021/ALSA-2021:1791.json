@@ -1,0 +1,46 @@
+{
+  "description": "The spice-vdagent packages provide a SPICE agent for Linux guests.\n\nSecurity Fix(es):\n\n* spice-vdagent: possible file transfer DoS and information leak via active_xfers hash map (CVE-2020-25651)\n\n* spice-vdagent: UNIX domain socket peer PID retrieved via SO_PEERCRED is subject to race condition (CVE-2020-25653)\n\n* spice-vdagent: memory DoS via arbitrary entries in active_xfers hash table (CVE-2020-25650)\n\n* spice-vdagent: possibility to exhaust file descriptors in vdagentd (CVE-2020-25652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:1791",
+  "issued_date": 1621317933,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "f2948e5fcead7704cc229f34fffe37c682b5a211312b3d3c86701889b5b6d3df",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "spice-vdagent-0.20.0-3.el8.x86_64.rpm",
+      "name": "spice-vdagent",
+      "reboot_suggested": 0,
+      "release": "3.el8",
+      "src": "spice-vdagent-0.20.0-3.el8.src.rpm",
+      "version": "0.20.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25650",
+      "id": "CVE-2020-25650",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25651",
+      "id": "CVE-2020-25651",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25652",
+      "id": "CVE-2020-25652",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25653",
+      "id": "CVE-2020-25653",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: spice-vdagent security and bug fix update",
+  "type": "security",
+  "updated_date": 1636712456
+}

@@ -1,0 +1,110 @@
+{
+  "description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (12.5).\n\nSecurity Fix(es):\n\n* postgresql: Reconnection can downgrade connection security settings (CVE-2020-25694)\n\n* postgresql: Multiple features escape \"security restricted operation\" sandbox (CVE-2020-25695)\n\n* postgresql: Uncontrolled search path element in logical replication (CVE-2020-14349)\n\n* postgresql: Uncontrolled search path element in CREATE EXTENSION (CVE-2020-14350)\n\n* postgresql: psql's \\gset allows overwriting specially treated variables (CVE-2020-25696)\n\n* postgresql: ALTER ... DEPENDS ON EXTENSION is missing authorization checks (CVE-2020-1720)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2020:5620",
+  "issued_date": 1608219010,
+  "modules": [
+    {
+      "arch": "x86_64",
+      "context": "9edba152",
+      "name": "postgresql",
+      "stream": "12",
+      "version": "8060020220531080156"
+    },
+    {
+      "arch": "aarch64",
+      "context": "9edba152",
+      "name": "postgresql",
+      "stream": "12",
+      "version": "8060020220531080156"
+    },
+    {
+      "arch": "ppc64le",
+      "context": "9edba152",
+      "name": "postgresql",
+      "stream": "12",
+      "version": "8060020220531080156"
+    }
+  ],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "b7099985335638e75d956dbda5dd4d74e89f0c8878675d9b2bad276428897041",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.x86_64.rpm",
+      "module": "postgresql:12:8060020220531080156:9edba152:x86_64",
+      "name": "postgres-decoderbufs",
+      "reboot_suggested": 0,
+      "release": "2.module_el8.6.0+2758+4f4474df",
+      "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
+      "version": "0.10.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
+      "module": "postgresql:12:8060020220531080156:9edba152:aarch64",
+      "name": "postgres-decoderbufs",
+      "reboot_suggested": 0,
+      "release": "2.module_el8.6.0+2758+4f4474df",
+      "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
+      "version": "0.10.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
+      "module": "postgresql:12:8060020220531080156:9edba152:ppc64le",
+      "name": "postgres-decoderbufs",
+      "reboot_suggested": 0,
+      "release": "2.module_el8.6.0+2760+1746ec94",
+      "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
+      "version": "0.10.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-5620.html",
+      "id": "ALSA-2020-5620",
+      "type": "self"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-14349",
+      "id": "CVE-2020-14349",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-14350",
+      "id": "CVE-2020-14350",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-1720",
+      "id": "CVE-2020-1720",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25694",
+      "id": "CVE-2020-25694",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25695",
+      "id": "CVE-2020-25695",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-25696",
+      "id": "CVE-2020-25696",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: postgresql:12 security update",
+  "type": "security",
+  "updated_date": 1608219010
+}

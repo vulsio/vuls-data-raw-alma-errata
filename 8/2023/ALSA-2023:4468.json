@@ -1,0 +1,162 @@
+{
+  "description": "TODO: add package description\n\nThis update upgrades Firefox to version 102.14.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Offscreen Canvas could have bypassed cross-origin restrictions (CVE-2023-4045)\n* Mozilla: Incorrect value used during WASM compilation (CVE-2023-4046)\n* Mozilla: Potential permissions request bypass via clickjacking (CVE-2023-4047)\n* Mozilla: Crash in DOMParser due to out-of-memory conditions (CVE-2023-4048)\n* Mozilla: Fix potential race conditions when releasing platform objects (CVE-2023-4049)\n* Mozilla: Stack buffer overflow in StorageManager (CVE-2023-4050)\n* Mozilla: Memory safety bugs fixed in Firefox 116, Firefox ESR 115.1, Firefox ESR 102.14, Thunderbird 115.1, and Thunderbird 102.14 (CVE-2023-4056)\n* Mozilla: Memory safety bugs fixed in Firefox 116, Firefox ESR 115.1, and Thunderbird 115.1 (CVE-2023-4057)\n* Mozilla: Cookie jar overflow caused unexpected cookie jar state (CVE-2023-4055)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:4468",
+  "issued_date": 1691020800,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "5cb1ec451909dacad4c7bafb1a8b40b6ebda59c08d0a9e7ada418d59f87aeb73",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.14.0-1.el8_8.alma.x86_64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.14.0-1.el8_8.alma.src.rpm",
+      "version": "102.14.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "dfe536c8bf222198081a7cbfac4b4e8be4f09ec56a572c3b0a77eef270866ba6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.14.0-1.el8_8.alma.aarch64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.14.0-1.el8_8.alma.src.rpm",
+      "version": "102.14.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "28967002408329d0a08c4e1ebb38c3893d778e69a57de41db1ca24ba77cbf976",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.14.0-1.el8_8.alma.s390x.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.14.0-1.el8_8.alma.src.rpm",
+      "version": "102.14.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "bb40461b5566e91fbf816c1e916b4d3fe64a1abf0801b38515ea3c8a8e86dbe1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.14.0-1.el8_8.alma.ppc64le.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.14.0-1.el8_8.alma.src.rpm",
+      "version": "102.14.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:4468",
+      "id": "RHSA-2023:4468",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4045",
+      "id": "CVE-2023-4045",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4046",
+      "id": "CVE-2023-4046",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4047",
+      "id": "CVE-2023-4047",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4048",
+      "id": "CVE-2023-4048",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4049",
+      "id": "CVE-2023-4049",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4050",
+      "id": "CVE-2023-4050",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4055",
+      "id": "CVE-2023-4055",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4056",
+      "id": "CVE-2023-4056",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-4057",
+      "id": "CVE-2023-4057",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228360",
+      "id": "2228360",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228361",
+      "id": "2228361",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228362",
+      "id": "2228362",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228363",
+      "id": "2228363",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228364",
+      "id": "2228364",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228365",
+      "id": "2228365",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228367",
+      "id": "2228367",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228370",
+      "id": "2228370",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2228371",
+      "id": "2228371",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2023-4468.html",
+      "id": "ALSA-2023:4468",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: firefox security update",
+  "type": "security",
+  "updated_date": 1691178852
+}

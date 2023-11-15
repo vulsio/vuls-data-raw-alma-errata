@@ -1,0 +1,120 @@
+{
+  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930)\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940)\n\n* c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672)\n\n* nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931)\n\n* nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803)\n\n* nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804)\n\n* nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939)\n\n* nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:14/nodejs: Make FIPS options always available (BZ#1993924)",
+  "id": "ALSA-2021:3666",
+  "issued_date": 1632725255,
+  "modules": [
+    {
+      "arch": "x86_64",
+      "context": "9edba152",
+      "name": "nodejs",
+      "stream": "14",
+      "version": "8060020220913100258"
+    },
+    {
+      "arch": "aarch64",
+      "context": "9edba152",
+      "name": "nodejs",
+      "stream": "14",
+      "version": "8060020220913100258"
+    },
+    {
+      "arch": "ppc64le",
+      "context": "9edba152",
+      "name": "nodejs",
+      "stream": "14",
+      "version": "8060020220913100258"
+    }
+  ],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "5ec709f70c833b784601552cba74067eb2a98aecaf8403431e26580abb8601b5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-packaging-23-3.module_el8.4.0+2522+3bd42762.noarch.rpm",
+      "module": "nodejs:14:8060020220913100258:9edba152:x86_64",
+      "name": "nodejs-packaging",
+      "reboot_suggested": 0,
+      "release": "3.module_el8.4.0+2522+3bd42762",
+      "src": "nodejs-packaging-23-3.module_el8.4.0+2522+3bd42762.src.rpm",
+      "version": "23"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+      "module": "nodejs:14:8060020220913100258:9edba152:x86_64",
+      "name": "nodejs-nodemon",
+      "reboot_suggested": 0,
+      "release": "1.module_el8.4.0+2521+c668cc9f",
+      "src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
+      "version": "2.0.3"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "46efea0b245114ef59fb19785c77620fd338becc1d36c6c3ecf7e67d916cd8ed",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.noarch.rpm",
+      "module": "nodejs:14:8060020220913100258:9edba152:ppc64le",
+      "name": "nodejs-packaging",
+      "reboot_suggested": 0,
+      "release": "3.module_el8.5.0+254+b4526b16",
+      "src": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.src.rpm",
+      "version": "23"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-3666.html",
+      "id": "ALSA-2021-3666",
+      "type": "self"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-22930",
+      "id": "CVE-2021-22930",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-22931",
+      "id": "CVE-2021-22931",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-22939",
+      "id": "CVE-2021-22939",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-22940",
+      "id": "CVE-2021-22940",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-23343",
+      "id": "CVE-2021-23343",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-32803",
+      "id": "CVE-2021-32803",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-32804",
+      "id": "CVE-2021-32804",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-3672",
+      "id": "CVE-2021-3672",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: nodejs:14 security and bug fix update",
+  "type": "security",
+  "updated_date": 1667843244
+}

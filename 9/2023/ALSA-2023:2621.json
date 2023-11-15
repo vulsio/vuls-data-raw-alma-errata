@@ -1,0 +1,730 @@
+{
+  "description": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.32). (BZ#2177731, BZ#2177732)\n\nSecurity Fix(es):\n\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2023) (CVE-2023-21912)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21594)\n* mysql: Server: Stored Procedure unspecified vulnerability (CPU Oct 2022) (CVE-2022-21599)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21604)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21608)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21611)\n* mysql: Server: Connection Handling unspecified vulnerability (CPU Oct 2022) (CVE-2022-21617)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21625)\n* mysql: Server: Security: Privileges unspecified vulnerability (CPU Oct 2022) (CVE-2022-21632)\n* mysql: Server: Replication unspecified vulnerability (CPU Oct 2022) (CVE-2022-21633)\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2022) (CVE-2022-21637)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-21640)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39400)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39408)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2022) (CVE-2022-39410)\n* mysql: Server: DML unspecified vulnerability (CPU Jan 2023) (CVE-2023-21836)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21863)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21864)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21865)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21867)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21868)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21869)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21870)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21871)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21873)\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jan 2023) (CVE-2023-21875)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21876)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21877)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21878)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21879)\n* mysql: InnoDB unspecified vulnerability (CPU Jan 2023) (CVE-2023-21880)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21881)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21883)\n* mysql: Server: GIS unspecified vulnerability (CPU Jan 2023) (CVE-2023-21887)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2023) (CVE-2023-21917)\n* mysql: Server: Thread Pooling unspecified vulnerability (CPU Jan 2023) (CVE-2023-21874)\n* mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2023) (CVE-2023-21882)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:2621",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "29b1db7389264f35d948e03724c4f607d1023cb2f1a5583b7926ee707afe8a2e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-common-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-common",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "35d8b009ca11a272164568ac5d3cba8f65f28ec5af284069c0ce31ed58692836",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "96c38339b01e8d60b2e1911051480571bd33f5b57454cd8d1745bdbb1dc4f1ca",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-server-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-server",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "fdfb946826497d79c6cf25b55184ea48023ef1dfbf6a58068a61c15cbeee84f5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-errmsg-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-errmsg",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "0cc2777dfa04f3af5db8ff1465ff13e0d29abe3ad6fc68775eb1bf46fd9a0a6d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-errmsg-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-errmsg",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "354b79408f967d968ca8489bed7913c7f745af5089dbcb95e22a7a197636ee57",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-common-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-common",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5636e40cb39b98b0f12f3658c21974f9cd839c776a071840f6cce17f77f07da7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9b131cf6aa992363301e2cfaa8bfc48903ce1049ae8847eec4ab44639d94ea96",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-server-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-server",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "24e0ef7336867d9923f7652b61658991f7d52ec6ee8e54a82640136c25239db3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-server-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-server",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "56455736741baf7acec535b328a6a8ad6071217716a6888a367054766765d9ca",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-errmsg-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-errmsg",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "e970646980978d5d1fd7f5b3e965288477bfe4440400d38b84048c28e716eb6b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "f8ae9c156bd94b8853e91ab370cbf25503148afe3ce1bf749397956e7034fc52",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-common-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-common",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "47cdd1796fabd29352f60f58340cb561df794e756e285f1907789d0049657ca5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "654295fe109a9f2bb8e4cb3e43fcf71972b4c430138c46dadb930c5ea1ddaeed",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-common-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-common",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "6cd5d7aaa294bb79085bc2b4dfddf85158b75ac178ca7f64069786c378cf3eab",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-errmsg-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-errmsg",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "a8af67d26b488f82b861334ff8ced0fecaf28d04c24db480667018e9668ca925",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-server-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-server",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "00cd391e36ba21bb9b05500779ed4e7ccade3190b59bf4346f91ec73ade7bb75",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-devel-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "21ec791e89f373fd2e142e4de674aeb8db3007ae631c5b54e79eb44d7d53405f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-test-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "920778bbdec3e371ff179143202cc81b4f50ee6f30ff1cde40c39ac2d2da5e40",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-libs-8.0.32-1.el9_2.x86_64.rpm",
+      "name": "mysql-libs",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "11bd8e0477ca47e055e85e06df1e84acd002e5494d882980a15d4e2b56d2b725",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-libs-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-libs",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "92d36df02fb8dae46c2b5511689a2767193d75776784014fa2153a3067860fa9",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-test-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "ce538465f1628f9e53a1ea2a01b204fe92156427e2fd3eb77d56455e96fa3563",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-devel-8.0.32-1.el9_2.ppc64le.rpm",
+      "name": "mysql-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "425e7b5e2f1fac862f379a7b39422a8e6d9146e80719b3a698581b2e87550f2c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-devel-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "be1a689452d853e8ec3201eea74888fda6a14b5e6f8bcd46df96ca7c23444303",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-libs-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-libs",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "fc2d375076303ffbbd80717d06df14188a333ba2e029b689fc02615c563d6389",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-test-8.0.32-1.el9_2.aarch64.rpm",
+      "name": "mysql-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "d38bc4c5311567218e3d39d900ce59a2c534884b4c92ec2309af4702336ad4d9",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-devel-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "f3904adf6d2f7933f1acd2b2a585088ecef7872d57af8b45279c9232f188b539",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-libs-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-libs",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "f5fdf2255c33263e4972957b0a036ec232c9a418cc28be5373781b5dd89cab4d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mysql-test-8.0.32-1.el9_2.s390x.rpm",
+      "name": "mysql-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_2",
+      "src": "mysql-8.0.32-1.el9_2.src.rpm",
+      "version": "8.0.32"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2621",
+      "id": "RHSA-2023:2621",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21594",
+      "id": "CVE-2022-21594",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21599",
+      "id": "CVE-2022-21599",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21604",
+      "id": "CVE-2022-21604",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21608",
+      "id": "CVE-2022-21608",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21611",
+      "id": "CVE-2022-21611",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21617",
+      "id": "CVE-2022-21617",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21625",
+      "id": "CVE-2022-21625",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21632",
+      "id": "CVE-2022-21632",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21633",
+      "id": "CVE-2022-21633",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21637",
+      "id": "CVE-2022-21637",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-21640",
+      "id": "CVE-2022-21640",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39400",
+      "id": "CVE-2022-39400",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39408",
+      "id": "CVE-2022-39408",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39410",
+      "id": "CVE-2022-39410",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21836",
+      "id": "CVE-2023-21836",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21863",
+      "id": "CVE-2023-21863",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21864",
+      "id": "CVE-2023-21864",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21865",
+      "id": "CVE-2023-21865",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21867",
+      "id": "CVE-2023-21867",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21868",
+      "id": "CVE-2023-21868",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21869",
+      "id": "CVE-2023-21869",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21870",
+      "id": "CVE-2023-21870",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21871",
+      "id": "CVE-2023-21871",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21873",
+      "id": "CVE-2023-21873",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21874",
+      "id": "CVE-2023-21874",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21875",
+      "id": "CVE-2023-21875",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21876",
+      "id": "CVE-2023-21876",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21877",
+      "id": "CVE-2023-21877",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21878",
+      "id": "CVE-2023-21878",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21879",
+      "id": "CVE-2023-21879",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21880",
+      "id": "CVE-2023-21880",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21881",
+      "id": "CVE-2023-21881",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21882",
+      "id": "CVE-2023-21882",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21883",
+      "id": "CVE-2023-21883",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21887",
+      "id": "CVE-2023-21887",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21912",
+      "id": "CVE-2023-21912",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-21917",
+      "id": "CVE-2023-21917",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142861",
+      "id": "2142861",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142863",
+      "id": "2142863",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142865",
+      "id": "2142865",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142868",
+      "id": "2142868",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142869",
+      "id": "2142869",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142870",
+      "id": "2142870",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142871",
+      "id": "2142871",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142872",
+      "id": "2142872",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142873",
+      "id": "2142873",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142875",
+      "id": "2142875",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142877",
+      "id": "2142877",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142879",
+      "id": "2142879",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142880",
+      "id": "2142880",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142881",
+      "id": "2142881",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162268",
+      "id": "2162268",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162270",
+      "id": "2162270",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162271",
+      "id": "2162271",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162272",
+      "id": "2162272",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162274",
+      "id": "2162274",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162275",
+      "id": "2162275",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162276",
+      "id": "2162276",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162277",
+      "id": "2162277",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162278",
+      "id": "2162278",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162280",
+      "id": "2162280",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162281",
+      "id": "2162281",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162282",
+      "id": "2162282",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162283",
+      "id": "2162283",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162284",
+      "id": "2162284",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162285",
+      "id": "2162285",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162286",
+      "id": "2162286",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162287",
+      "id": "2162287",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162288",
+      "id": "2162288",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162289",
+      "id": "2162289",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162290",
+      "id": "2162290",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2162291",
+      "id": "2162291",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2188110",
+      "id": "2188110",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2188112",
+      "id": "2188112",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2621.html",
+      "id": "ALSA-2023:2621",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: mysql security update",
+  "type": "security",
+  "updated_date": 1683846889
+}

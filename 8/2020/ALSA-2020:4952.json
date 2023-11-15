@@ -1,0 +1,120 @@
+{
+  "description": "FreeType is a free, high-quality, portable font engine that can open and manage font files. FreeType loads, hints, and renders individual glyphs efficiently.\n\nSecurity Fix(es):\n\n* freetype: Heap-based buffer overflow due to integer truncation in Load_SBit_Png (CVE-2020-15999)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2020:4952",
+  "issued_date": 1604564803,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "a25cd062fc8ef8b7e1c97e55efc12583b01189f73b6c3836c4efef6e1d56add6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-devel-2.9.1-4.el8_3.1.x86_64.rpm",
+      "name": "freetype-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "a25cd062fc8ef8b7e1c97e55efc12583b01189f73b6c3836c4efef6e1d56add6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-devel-2.9.1-4.el8_3.1.x86_64.rpm",
+      "name": "freetype-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "a92025e423625ffbac3b7532fa58cc907510e53edb09e5638d54b06f39d0bffc",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-2.9.1-4.el8_3.1.x86_64.rpm",
+      "name": "freetype",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "a92025e423625ffbac3b7532fa58cc907510e53edb09e5638d54b06f39d0bffc",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-2.9.1-4.el8_3.1.x86_64.rpm",
+      "name": "freetype",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "39e523691d5451dd0fddb4282951e25829c43db1d49e48a2b36c30c2bd513ffc",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-devel-2.9.1-4.el8_3.1.aarch64.rpm",
+      "name": "freetype-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "c3aa93202821c51508e18c50d694f9b486d22e22da1ca0ab63bc568b11168e2a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-2.9.1-4.el8_3.1.aarch64.rpm",
+      "name": "freetype",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "17697d7c42c76ddcf694a4d3b87800670ed9ccaeb181b62d8d46fa4dbd5ac938",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-devel-2.9.1-4.el8_3.1.ppc64le.rpm",
+      "name": "freetype-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "26d8a7de5651e7015af7be2f89e821cd05bf9cf601735abe5c5bdb9a724dbaa8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "freetype-2.9.1-4.el8_3.1.ppc64le.rpm",
+      "name": "freetype",
+      "reboot_suggested": 0,
+      "release": "4.el8_3.1",
+      "src": "freetype-2.9.1-4.el8_3.1.src.rpm",
+      "version": "2.9.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4952.html",
+      "id": "ALSA-2020-4952",
+      "type": "self"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-15999",
+      "id": "CVE-2020-15999",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: freetype security update",
+  "type": "security",
+  "updated_date": 1604564803
+}

@@ -1,0 +1,78 @@
+{
+  "description": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.\n\nThe following packages have been upgraded to a later upstream version: freerdp (2.2.0). (BZ#1881971)\n\nSecurity Fix(es):\n\n* freerdp: out of bounds read in TrioParse (CVE-2020-4030)\n\n* freerdp: out of bound reads resulting in accessing memory location outside of static array PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11095)\n\n* freerdp: out of bounds read in PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11097)\n\n* freerdp: out of bounds read in license_read_new_or_upgrade_license_packet (CVE-2020-11099)\n\n* freerdp: integer overflow due to missing input sanitation in rdpegfx channel (CVE-2020-15103)\n\n* freerdp: out-of-bounds read in RLEDECOMPRESS (CVE-2020-4033)\n\n* freerdp: out-of-bound read in update_read_cache_bitmap_v3_order (CVE-2020-11096)\n\n* freerdp: out-of-bound read in glyph_cache_put (CVE-2020-11098)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:1849",
+  "issued_date": 1621318476,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "2ee662cf77b8f3ffb5e7c931b5104bc3ba49a3d43547314999a31ca196c78752",
+      "checksum_type": "sha256",
+      "epoch": "2",
+      "filename": "freerdp-devel-2.2.0-1.el8.x86_64.rpm",
+      "name": "freerdp-devel",
+      "reboot_suggested": 0,
+      "release": "1.el8",
+      "src": "freerdp-2.2.0-1.el8.src.rpm",
+      "version": "2.2.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "8da088728d08d5c1ee780eb4c28c6fe0896a5c80832ddf7375ffad79a4f7be62",
+      "checksum_type": "sha256",
+      "epoch": "2",
+      "filename": "freerdp-devel-2.2.0-1.el8.i686.rpm",
+      "name": "freerdp-devel",
+      "reboot_suggested": 0,
+      "release": "1.el8",
+      "src": "freerdp-2.2.0-1.el8.src.rpm",
+      "version": "2.2.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-11095",
+      "id": "CVE-2020-11095",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-11096",
+      "id": "CVE-2020-11096",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-11097",
+      "id": "CVE-2020-11097",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-11098",
+      "id": "CVE-2020-11098",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-11099",
+      "id": "CVE-2020-11099",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-15103",
+      "id": "CVE-2020-15103",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-4030",
+      "id": "CVE-2020-4030",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-4033",
+      "id": "CVE-2020-4033",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: freerdp security, bug fix, and enhancement update",
+  "type": "security",
+  "updated_date": 1628672040
+}

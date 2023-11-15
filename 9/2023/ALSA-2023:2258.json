@@ -1,0 +1,46 @@
+{
+  "description": "Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.\n\nSecurity Fix(es):\n\n* python-mako: REDoS in Lexer class (CVE-2022-40023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2258",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "87df3d16e78b6d737409258c82f6cdb53c0949dfb9adeb3cd2d9d280ce255fd3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-mako-1.1.4-6.el9.noarch.rpm",
+      "name": "python3-mako",
+      "reboot_suggested": 0,
+      "release": "6.el9",
+      "src": "python-mako-1.1.4-6.el9.src.rpm",
+      "version": "1.1.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2258",
+      "id": "RHSA-2023:2258",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-40023",
+      "id": "CVE-2022-40023",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2128977",
+      "id": "2128977",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2258.html",
+      "id": "ALSA-2023:2258",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: python-mako security update",
+  "type": "security",
+  "updated_date": 1683881587
+}

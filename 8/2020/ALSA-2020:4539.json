@@ -1,0 +1,204 @@
+{
+  "description": "The pcre2 package contains a new generation of the Perl Compatible Regular Expression libraries for implementing regular expression pattern matching using the same syntax and semantics as Perl. \n\nSecurity Fix(es):\n\n* pcre: Out of bounds read in JIT mode when \\X is used in non-UTF mode (CVE-2019-20454)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2020:4539",
+  "issued_date": 1604405634,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "3a98aa1426210c8286682313a842459777c6e9a37a086cc90fc658c9cb787d86",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf16-10.32-2.el8.x86_64.rpm",
+      "name": "pcre2-utf16",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "597fffd0047e916fd238026305627cbe43098c0724a340e19ae2e7e8887af6f8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf32-10.32-2.el8.x86_64.rpm",
+      "name": "pcre2-utf32",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "60849450a5ca2ea463ba7412de9a7010eef4f96c9d5a80127920f14e026fd255",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-10.32-2.el8.x86_64.rpm",
+      "name": "pcre2",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "7a2a60a3247cbe8739d1a2c38f31bcb1d67c4e2c539f8ea3ba9f22c284139594",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-devel-10.32-2.el8.x86_64.rpm",
+      "name": "pcre2-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e0414d240b422deb7a8afcbeb56c20bb55c4952de9bf971cb52315ca8e91d6a3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-tools-10.32-2.el8.x86_64.rpm",
+      "name": "pcre2-tools",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "0acce01a42792cba7449f51e116f8be4fdb67e315dd12ef06110d4f03d3e2845",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf32-10.32-2.el8.aarch64.rpm",
+      "name": "pcre2-utf32",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "81d39a354a10c5ad54f1582aae1f30be7fdb9a8029ca826ec0c698927a4e28a8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-10.32-2.el8.aarch64.rpm",
+      "name": "pcre2",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "82cad17f7e8ae5a4079e0ce4fff3a31a347e2b6cdf36ddd5fa4ee37253be157e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf16-10.32-2.el8.aarch64.rpm",
+      "name": "pcre2-utf16",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "b977eaab7b914978f4ca6ea1494e5b970e5909b356172cdb6e9cb619973e246e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-devel-10.32-2.el8.aarch64.rpm",
+      "name": "pcre2-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "e3ca860ccf34c24df3afd7d01da2159ef7a0fea826787a80f91d6c06b1bcd711",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-tools-10.32-2.el8.aarch64.rpm",
+      "name": "pcre2-tools",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "32497c11dcabd6f092fccebeb9ac87a4e57c39a9e8735a2bee1f2dce9c3593c6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-devel-10.32-2.el8.ppc64le.rpm",
+      "name": "pcre2-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "338d39eaf77f849894d4fbaca6f7b5458439770bc7d5d92897651bd6405f12bf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf32-10.32-2.el8.ppc64le.rpm",
+      "name": "pcre2-utf32",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "c4ea42241db36a45c1987dcac5cbc5d92782cb5877354c00f9918930fb764cab",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-utf16-10.32-2.el8.ppc64le.rpm",
+      "name": "pcre2-utf16",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "d718cc4f9925ae06c37bcb09fecb08082f3f4719da5515fb2702fe2ab74ae422",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-10.32-2.el8.ppc64le.rpm",
+      "name": "pcre2",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "eacc21b463a806ed5fb21be9d010f2526562ca59aea6a04e32bd8d4b0a244e9b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pcre2-tools-10.32-2.el8.ppc64le.rpm",
+      "name": "pcre2-tools",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "pcre2-10.32-2.el8.src.rpm",
+      "version": "10.32"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2019-20454",
+      "id": "CVE-2019-20454",
+      "type": "cve"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4539.html",
+      "id": "ALSA-2020-4539",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: pcre2 security and enhancement update",
+  "type": "security",
+  "updated_date": 1628672040
+}

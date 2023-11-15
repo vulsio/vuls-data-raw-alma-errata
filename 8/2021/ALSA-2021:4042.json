@@ -1,0 +1,79 @@
+{
+  "description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nSecurity Fix(es):\n\n* flatpak: Sandbox bypass via recent VFS-manipulating syscalls (CVE-2021-41133)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2021:4042",
+  "issued_date": 1635772318,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "12c706c454eb2bfa2721fcaae4aed5e1e0cf5adf83696953a2c7ed5a4fb6d021",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "flatpak-selinux-1.8.5-4.el8_4.noarch.rpm",
+      "name": "flatpak-selinux",
+      "reboot_suggested": 0,
+      "release": "4.el8_4",
+      "src": "flatpak-1.8.5-4.el8_4.src.rpm",
+      "version": "1.8.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "14b4dac161ff1447abd77453378f49fdfa9d94582edc3bbd3a1aee1c91aa20cd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "flatpak-libs-1.8.5-4.el8_4.x86_64.rpm",
+      "name": "flatpak-libs",
+      "reboot_suggested": 0,
+      "release": "4.el8_4",
+      "src": "flatpak-1.8.5-4.el8_4.src.rpm",
+      "version": "1.8.5"
+    },
+    {
+      "arch": "i686",
+      "checksum": "a9f51a5dd9a130ef7fafd68a46e1a064a8654f0450c3ad7f34b03b397fa22b5c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "flatpak-libs-1.8.5-4.el8_4.i686.rpm",
+      "name": "flatpak-libs",
+      "reboot_suggested": 0,
+      "release": "4.el8_4",
+      "src": "flatpak-1.8.5-4.el8_4.src.rpm",
+      "version": "1.8.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "d3fa8d29b919846c5091b1ffc729b3c417349fb6a176eee3f4c0e9b41918adce",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "flatpak-1.8.5-4.el8_4.x86_64.rpm",
+      "name": "flatpak",
+      "reboot_suggested": 0,
+      "release": "4.el8_4",
+      "src": "flatpak-1.8.5-4.el8_4.src.rpm",
+      "version": "1.8.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "d861d5a05350a9ce06f7b163d824250360c74c5ff339679979d2615c495308c7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "flatpak-session-helper-1.8.5-4.el8_4.x86_64.rpm",
+      "name": "flatpak-session-helper",
+      "reboot_suggested": 0,
+      "release": "4.el8_4",
+      "src": "flatpak-1.8.5-4.el8_4.src.rpm",
+      "version": "1.8.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-41133",
+      "id": "CVE-2021-41133",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: flatpak security update",
+  "type": "security",
+  "updated_date": 1636712456
+}

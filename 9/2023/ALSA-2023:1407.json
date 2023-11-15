@@ -1,0 +1,122 @@
+{
+  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.9.0.\n\nSecurity Fix(es):\n\n* Mozilla: Incorrect code generation during JIT compilation (CVE-2023-25751)\n* Mozilla: Memory safety bugs fixed in Firefox 111 and Firefox ESR 102.9 (CVE-2023-28176)\n* Mozilla: Potential out-of-bounds when accessing throttled streams (CVE-2023-25752)\n* Mozilla: Invalid downcast in Worklets (CVE-2023-28162)\n* Mozilla: URL being dragged from a removed cross-origin iframe into the same tab triggered navigation (CVE-2023-28164)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:1407",
+  "issued_date": 1679443200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "cfe3557a666f436c24f35fdee279519fbe3fc10c99e1ac5e661898399e0ba8d0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "thunderbird-102.9.0-1.el9_1.alma.ppc64le.rpm",
+      "name": "thunderbird",
+      "reboot_suggested": 0,
+      "release": "1.el9_1.alma",
+      "src": "thunderbird-102.9.0-1.el9_1.alma.src.rpm",
+      "version": "102.9.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "31d7de266823439de1c54e624edf5905b41baa4256d098cc8e0827bcc2602aa6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "thunderbird-102.9.0-1.el9_1.alma.x86_64.rpm",
+      "name": "thunderbird",
+      "reboot_suggested": 0,
+      "release": "1.el9_1.alma",
+      "src": "thunderbird-102.9.0-1.el9_1.alma.src.rpm",
+      "version": "102.9.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "466527c63581bc5360ab6c4b0520d6d2298ff45b68e05448d0b9dce8e2a208ec",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "thunderbird-102.9.0-1.el9_1.alma.s390x.rpm",
+      "name": "thunderbird",
+      "reboot_suggested": 0,
+      "release": "1.el9_1.alma",
+      "src": "thunderbird-102.9.0-1.el9_1.alma.src.rpm",
+      "version": "102.9.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "1c59b0a6aecf349f4ffc115a84cb036fb23a142a9ab7a3438529bd006920b791",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "thunderbird-102.9.0-1.el9_1.alma.aarch64.rpm",
+      "name": "thunderbird",
+      "reboot_suggested": 0,
+      "release": "1.el9_1.alma",
+      "src": "thunderbird-102.9.0-1.el9_1.alma.src.rpm",
+      "version": "102.9.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:1407",
+      "id": "RHSA-2023:1407",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-25751",
+      "id": "CVE-2023-25751",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-25752",
+      "id": "CVE-2023-25752",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-28162",
+      "id": "CVE-2023-28162",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-28164",
+      "id": "CVE-2023-28164",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-28176",
+      "id": "CVE-2023-28176",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178458",
+      "id": "2178458",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178460",
+      "id": "2178460",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178466",
+      "id": "2178466",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178470",
+      "id": "2178470",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178472",
+      "id": "2178472",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-1407.html",
+      "id": "ALSA-2023:1407",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: thunderbird security update",
+  "type": "security",
+  "updated_date": 1679593224
+}

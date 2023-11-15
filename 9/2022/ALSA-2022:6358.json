@@ -1,0 +1,118 @@
+{
+  "description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: local root privilege escalation in the virtual machine (CVE-2022-31676)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2022:6358",
+  "issued_date": 1662422400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "42a17fe0cfb7a607b8db576c0c4cb2f504f64838b6722461e4f1a82d4665e0f0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.x86_64.rpm",
+      "name": "open-vm-tools-desktop",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "86bd79e9ffa31d7870ad4fcce8bba042d0ccb509ce8484bafc9ae4df51560c8a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-sdmp-11.3.5-1.el9_0.1.x86_64.rpm",
+      "name": "open-vm-tools-sdmp",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9585045fa63e9a156c3e58290d1103f03a5fe3b20a2829ca02738a33cf8fd2ee",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-test-11.3.5-1.el9_0.1.x86_64.rpm",
+      "name": "open-vm-tools-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e358123c40e1cdfc3ef2dfbedabebf782eb125314229c22d7b9cf1cdd2d90fd7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-11.3.5-1.el9_0.1.x86_64.rpm",
+      "name": "open-vm-tools",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "0163f2058626381eeaad47438383c6c20f6bbdb730866497d8485271925f90ed",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-11.3.5-1.el9_0.1.aarch64.rpm",
+      "name": "open-vm-tools",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "0dfb44ce9cec1c29b3a6966d8b4fd2ef739d07c97fedb026945f383293db1aca",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.aarch64.rpm",
+      "name": "open-vm-tools-desktop",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "6902baab93fd4535b23c201b9fd95ce04a707c3422e1b7d36c3b5f294e710d6f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "open-vm-tools-test-11.3.5-1.el9_0.1.aarch64.rpm",
+      "name": "open-vm-tools-test",
+      "reboot_suggested": 0,
+      "release": "1.el9_0.1",
+      "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+      "version": "11.3.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:6358",
+      "id": "RHSA-2022:6358",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-31676",
+      "id": "CVE-2022-31676",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2118714",
+      "id": "2118714",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-6358.html",
+      "id": "ALSA-2022:6358",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: open-vm-tools security update",
+  "type": "security",
+  "updated_date": 1665129628
+}

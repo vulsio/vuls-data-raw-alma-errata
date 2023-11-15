@@ -1,0 +1,202 @@
+{
+  "description": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:5924",
+  "issued_date": 1697673600,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "3ea12d71bfd788dcb1f8af61ec02e76eaecc290bb084ec91ad10106f14b44f0a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-6.6.2-3.el9_2.1.i686.rpm",
+      "name": "varnish",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "7a82be6da317cc4a73e1efa8105f2eade092a46c5a26692ddc7a11ce26d00642",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-docs-6.6.2-3.el9_2.1.ppc64le.rpm",
+      "name": "varnish-docs",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "84c3de9483c6a70447645ff0e6d7ad4af7a67c6e9089dae76c5d49aa0964c34a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-6.6.2-3.el9_2.1.ppc64le.rpm",
+      "name": "varnish",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "74b149f708fe554563385557cb3da8f6df5de413d9127b3ca2f54d04c7116b42",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-6.6.2-3.el9_2.1.x86_64.rpm",
+      "name": "varnish",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "fb9a628913d4db7818b14711d25463da2d71caa4cfce421ede94a917430b2089",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-docs-6.6.2-3.el9_2.1.x86_64.rpm",
+      "name": "varnish-docs",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "9ce53e484f6ba49f4a9f4cd5b87d97326beda8e88cb1a74f842e1838b2397904",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-6.6.2-3.el9_2.1.s390x.rpm",
+      "name": "varnish",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "f846c3f702fd438999a77f0d13a47313133671ca0de5bd8d315364387940d38c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-docs-6.6.2-3.el9_2.1.s390x.rpm",
+      "name": "varnish-docs",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "2cba6ac414e7339c2b9985d622fb9893fe5f3800144e419fe53b9a4281a0c51a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-6.6.2-3.el9_2.1.aarch64.rpm",
+      "name": "varnish",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "9745ad4d0c7abac78f3ac0686e743d3e3e69cdf14e2253f050e1775d0dfb4731",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-docs-6.6.2-3.el9_2.1.aarch64.rpm",
+      "name": "varnish-docs",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "i686",
+      "checksum": "2d4dd60359da52773b3648ed7b225e5e025d08526b53bccf76014b8d2c81c00e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-devel-6.6.2-3.el9_2.1.i686.rpm",
+      "name": "varnish-devel",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "8f2d19affb8edefa3c982380ed47db3946930832356ed485880e683af9fb0da5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-devel-6.6.2-3.el9_2.1.x86_64.rpm",
+      "name": "varnish-devel",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "f4032a9a38ca78d961b0efcc53735c49e0dc212721fd8c5b55deb22e114a3d10",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-devel-6.6.2-3.el9_2.1.ppc64le.rpm",
+      "name": "varnish-devel",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "2e7718164e5eb7fe70678be2cd2e77841f52a31c2f58b66b3bace81f6e2b0483",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-devel-6.6.2-3.el9_2.1.aarch64.rpm",
+      "name": "varnish-devel",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "4422d532b1e1accf0804fd6b6572bc5685b1484b9b7d1de8f8c388a5cd161724",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "varnish-devel-6.6.2-3.el9_2.1.s390x.rpm",
+      "name": "varnish-devel",
+      "reboot_suggested": 0,
+      "release": "3.el9_2.1",
+      "src": "varnish-6.6.2-3.el9_2.1.src.rpm",
+      "version": "6.6.2"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5924",
+      "id": "RHSA-2023:5924",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-44487",
+      "id": "CVE-2023-44487",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2242803",
+      "id": "2242803",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-5924.html",
+      "id": "ALSA-2023:5924",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: varnish security update",
+  "type": "security",
+  "updated_date": 1697787770
+}

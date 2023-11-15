@@ -1,0 +1,82 @@
+{
+  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.3.0 ESR.\n\nSecurity Fix(es):\n\n* expat: a use-after-free in the doContent function in xmlparse.c (CVE-2022-40674)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2022:7020",
+  "issued_date": 1666051200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "04c3cd4053febde4fb604dab8efc761821a927f96ce8faa755209cb8e5be998e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.3.0-7.el9_0.alma.ppc64le.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "7.el9_0.alma",
+      "src": "firefox-102.3.0-7.el9_0.alma.src.rpm",
+      "version": "102.3.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "7918bd6504766faa724533507a104d6912a62180a2a6380393fbabf95577360f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.3.0-7.el9_0.alma.x86_64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "7.el9_0.alma",
+      "src": "firefox-102.3.0-7.el9_0.alma.src.rpm",
+      "version": "102.3.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "74bd0fe9a65c88c4e8a4dd17979b98619056ce696c225b62348b8ce319f6debf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.3.0-7.el9_0.alma.s390x.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "7.el9_0.alma",
+      "src": "firefox-102.3.0-7.el9_0.alma.src.rpm",
+      "version": "102.3.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "c37d59c5d229b8a2ba241f91cf8184c63a8d5b22e5d04f63b516e3da345c1108",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.3.0-7.el9_0.alma.aarch64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "7.el9_0.alma",
+      "src": "firefox-102.3.0-7.el9_0.alma.src.rpm",
+      "version": "102.3.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7020",
+      "id": "RHSA-2022:7020",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-40674",
+      "id": "CVE-2022-40674",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2130769",
+      "id": "2130769",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-7020.html",
+      "id": "ALSA-2022:7020",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: firefox security update",
+  "type": "security",
+  "updated_date": 1666182443
+}

@@ -1,0 +1,43 @@
+{
+  "description": "The bluez packages contain the following utilities for use in Bluetooth applications: hcitool, hciattach, hciconfig, bluetoothd, l2ping, start scripts (AlmaLinux), and pcmcia configuration files. \n\nSecurity Fix(es):\n\n* bluez: double free in gatttool client disconnect callback handler in src/shared/att.c could lead to DoS or RCE (CVE-2020-27153)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:1598",
+  "issued_date": 1621316227,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "53cd8d54555bd05cef2c8d82c1c1ee706b19a51e0cf9d8c9d7a1dea5fd84e377",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "bluez-libs-devel-5.52-4.el8.alma.i686.rpm",
+      "name": "bluez-libs-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8.alma",
+      "src": "bluez-5.52-4.el8.alma.src.rpm",
+      "version": "5.52"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b746f511f883d9823cdd23f4a605cea569e02c7ba492540e69e17f306c0654ee",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "bluez-libs-devel-5.52-4.el8.alma.x86_64.rpm",
+      "name": "bluez-libs-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8.alma",
+      "src": "bluez-5.52-4.el8.alma.src.rpm",
+      "version": "5.52"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27153",
+      "id": "CVE-2020-27153",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: bluez security update",
+  "type": "security",
+  "updated_date": 1628672040
+}

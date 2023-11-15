@@ -1,0 +1,82 @@
+{
+  "description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: arithmetic overflow in allocate_structures() on 32 bit systems (CVE-2022-39377)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2234",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "86d116240c27665c33d0ce98f295e0fddca5008a9049d709c4445f586b587471",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sysstat-12.5.4-5.el9.ppc64le.rpm",
+      "name": "sysstat",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "sysstat-12.5.4-5.el9.src.rpm",
+      "version": "12.5.4"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "f50925d0d4a5d2f4ce873dc1480de6031f78e096787f0ebcc24a285e70e9d79c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sysstat-12.5.4-5.el9.x86_64.rpm",
+      "name": "sysstat",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "sysstat-12.5.4-5.el9.src.rpm",
+      "version": "12.5.4"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "3518add89885755c858def536a420c343ae8c30a30fe9f0327f56bc85c5e1471",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sysstat-12.5.4-5.el9.s390x.rpm",
+      "name": "sysstat",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "sysstat-12.5.4-5.el9.src.rpm",
+      "version": "12.5.4"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "91c6ebbeab132b1109c3ed91e975979a9883aec4319f5e4da03cdb7116110079",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sysstat-12.5.4-5.el9.aarch64.rpm",
+      "name": "sysstat",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "sysstat-12.5.4-5.el9.src.rpm",
+      "version": "12.5.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2234",
+      "id": "RHSA-2023:2234",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39377",
+      "id": "CVE-2022-39377",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2141207",
+      "id": "2141207",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2234.html",
+      "id": "ALSA-2023:2234",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: sysstat security and bug fix update",
+  "type": "security",
+  "updated_date": 1683893910
+}

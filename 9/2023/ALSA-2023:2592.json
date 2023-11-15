@@ -1,0 +1,82 @@
+{
+  "description": "go-md2man converts markdown into roff (man pages).\n\nSecurity Fix(es):\n\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2592",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "14f43471dc1c7ba8786e6ee18647e55f4e3f373ac2309299892d6d3092b4ddb4",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.x86_64.rpm",
+      "name": "golang-github-cpuguy83-md2man",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
+      "version": "2.0.2"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "e02c71ea84567840847dd089b330ae3492b95b2ee425db177428858c2d730666",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.ppc64le.rpm",
+      "name": "golang-github-cpuguy83-md2man",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
+      "version": "2.0.2"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "521aa2918f29b6dafff48a407a0bf64abad13727640ab0709e2bcd7be061f612",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.aarch64.rpm",
+      "name": "golang-github-cpuguy83-md2man",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
+      "version": "2.0.2"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "e3f8dd33b933a9c8c0d459cdeac265ddb0ccf275e95cf32feb64596d27b171af",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "golang-github-cpuguy83-md2man-2.0.2-4.el9.s390x.rpm",
+      "name": "golang-github-cpuguy83-md2man",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "golang-github-cpuguy83-md2man-2.0.2-4.el9.src.rpm",
+      "version": "2.0.2"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2592",
+      "id": "RHSA-2023:2592",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41715",
+      "id": "CVE-2022-41715",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2132872",
+      "id": "2132872",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2592.html",
+      "id": "ALSA-2023:2592",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: golang-github-cpuguy83-md2man security, bug fix, and enhancement update",
+  "type": "security",
+  "updated_date": 1683847919
+}

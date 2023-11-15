@@ -1,0 +1,60 @@
+{
+  "description": "psutil is a module providing an interface for retrieving information on all running processes and system utilization (CPU, memory, disks, network, users) in a portable way by using Python.\n\nSecurity Fix(es):\n\n* python-psutil: double free because of refcount mishandling (CVE-2019-18874)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:4324",
+  "issued_date": 1636448464,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "4e993304e6ce8fed5aebedb5ae4c0227601bf2069d9c5f5f14321630876ab848",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-psutil-5.4.3-11.el8.x86_64.rpm",
+      "name": "python3-psutil",
+      "reboot_suggested": 0,
+      "release": "11.el8",
+      "src": "python-psutil-5.4.3-11.el8.src.rpm",
+      "version": "5.4.3"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "eb1b1ee8db4253133d88262471786684d3a9dcab34321851f92f21e04aba4506",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-psutil-5.4.3-11.el8.aarch64.rpm",
+      "name": "python3-psutil",
+      "reboot_suggested": 0,
+      "release": "11.el8",
+      "src": "python-psutil-5.4.3-11.el8.src.rpm",
+      "version": "5.4.3"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "8ff707907dc2dc55b14bbafd928bb12907daf3602d4428035264aae6ccaaf805",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-psutil-5.4.3-11.el8.ppc64le.rpm",
+      "name": "python3-psutil",
+      "reboot_suggested": 0,
+      "release": "11.el8",
+      "src": "python-psutil-5.4.3-11.el8.src.rpm",
+      "version": "5.4.3"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2019-18874",
+      "id": "CVE-2019-18874",
+      "type": "cve"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4324.html",
+      "id": "ALSA-2021-4324",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: python-psutil security update",
+  "type": "security",
+  "updated_date": 1636712456
+}

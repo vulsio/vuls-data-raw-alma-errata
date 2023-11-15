@@ -1,0 +1,130 @@
+{
+  "description": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: Heap use after free in dhcp6_no_relay (CVE-2022-0934)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2022:8070",
+  "issued_date": 1668470400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "13f0cf13c4a737f4d2da5be9dbd3fe7b551c79606ab1bf8f20f316b8cf095b62",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-utils-2.85-5.el9.ppc64le.rpm",
+      "name": "dnsmasq-utils",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "4e057799a9dc6c3fce5617d8892c1042189d2b711afa6e32812e4e543d4a52c7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-2.85-5.el9.ppc64le.rpm",
+      "name": "dnsmasq",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "de0b95d8cc27945e4134a49506def0763c6a1972ee7c70a51fa9563844c4b367",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-utils-2.85-5.el9.x86_64.rpm",
+      "name": "dnsmasq-utils",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "f465b75549e6ffbe3baa1643a4c6d0b28f996baabef0473b15e97b4cd872420b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-2.85-5.el9.x86_64.rpm",
+      "name": "dnsmasq",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "befc0ce49ef070be44450c87b5fda262618218da15cee9c438b5e5ffe0eea5c7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-2.85-5.el9.s390x.rpm",
+      "name": "dnsmasq",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "d1db7e1e9e9b0e2afbe32723d76c0dbd3228709ef4ef8b59994f1d567b7a4f9d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-utils-2.85-5.el9.s390x.rpm",
+      "name": "dnsmasq-utils",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "56a187cb23a02de14c9607281b50bc6c383c297e3ca32d7363897300756481d0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-2.85-5.el9.aarch64.rpm",
+      "name": "dnsmasq",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "7896a120eafd04cc41b335c81a9f0b9ca65a6dab81ad1d5df04a95e779402260",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dnsmasq-utils-2.85-5.el9.aarch64.rpm",
+      "name": "dnsmasq-utils",
+      "reboot_suggested": 0,
+      "release": "5.el9",
+      "src": "dnsmasq-2.85-5.el9.src.rpm",
+      "version": "2.85"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:8070",
+      "id": "RHSA-2022:8070",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-0934",
+      "id": "CVE-2022-0934",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2057075",
+      "id": "2057075",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-8070.html",
+      "id": "ALSA-2022:8070",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: dnsmasq security and bug fix update",
+  "type": "security",
+  "updated_date": 1668745789
+}

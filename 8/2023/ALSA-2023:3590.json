@@ -1,0 +1,92 @@
+{
+  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.12.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Click-jacking certificate exceptions through rendering lag (CVE-2023-34414)\n* Mozilla: Memory safety bugs fixed in Firefox 114 and Firefox ESR 102.12 (CVE-2023-34416)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:3590",
+  "issued_date": 1686700800,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "3b7ad61c981f83a358e033c12f295dfde704b2a21963d007a7dd5f2d1b2322a4",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.12.0-1.el8_8.alma.x86_64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
+      "version": "102.12.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "0ef3e51c4d73a69ea10ac2a7822cb015e0703b82d3f0d92d2b1d049f052cc22f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.12.0-1.el8_8.alma.aarch64.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
+      "version": "102.12.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "9e5069c033c35b7fd6ef49b08b37352da17958aeddca05193adcc7131a451fd4",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.12.0-1.el8_8.alma.s390x.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
+      "version": "102.12.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "fabf2920b2e32b216935ccac33e7f4bb60f18c85cdad1c4d75b3ae4901c3e4ee",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "firefox-102.12.0-1.el8_8.alma.ppc64le.rpm",
+      "name": "firefox",
+      "reboot_suggested": 0,
+      "release": "1.el8_8.alma",
+      "src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
+      "version": "102.12.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:3590",
+      "id": "RHSA-2023:3590",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-34414",
+      "id": "CVE-2023-34414",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-34416",
+      "id": "CVE-2023-34416",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2212841",
+      "id": "2212841",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2212842",
+      "id": "2212842",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2023-3590.html",
+      "id": "ALSA-2023:3590",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: firefox security update",
+  "type": "security",
+  "updated_date": 1687357596
+}

@@ -1,0 +1,82 @@
+{
+  "description": "Image Builder is a service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood.\n\nSecurity Fix(es):\n\n* golang: math/big: decoding big.Float and big.Rat types can panic if the encoded message is too short, potentially allowing a denial of service (CVE-2022-32189)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2022:7950",
+  "issued_date": 1668470400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "2399e22775018a59092bd7d244177a51f1221ec82f62f1a53e6e6b7fd5471f7e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "weldr-client-35.5-4.el9.ppc64le.rpm",
+      "name": "weldr-client",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "weldr-client-35.5-4.el9.src.rpm",
+      "version": "35.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "89a8ded9a65be524146fd974c00c90628076e2d1f5d49ed4d05827471aa8d285",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "weldr-client-35.5-4.el9.x86_64.rpm",
+      "name": "weldr-client",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "weldr-client-35.5-4.el9.src.rpm",
+      "version": "35.5"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "8ddc566887b0c2bae85d85f10d3baec7045bc9002feec2a801d2349221b9f98a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "weldr-client-35.5-4.el9.s390x.rpm",
+      "name": "weldr-client",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "weldr-client-35.5-4.el9.src.rpm",
+      "version": "35.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "d6c2f676650099b342cae167b0701f70cbcb26c727d64f69390713330a994b34",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "weldr-client-35.5-4.el9.aarch64.rpm",
+      "name": "weldr-client",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "weldr-client-35.5-4.el9.src.rpm",
+      "version": "35.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:7950",
+      "id": "RHSA-2022:7950",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-32189",
+      "id": "CVE-2022-32189",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2113814",
+      "id": "2113814",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-7950.html",
+      "id": "ALSA-2022:7950",
+      "type": "self"
+    }
+  ],
+  "severity": "Low",
+  "title": "Low: Image Builder security, bug fix, and enhancement update",
+  "type": "security",
+  "updated_date": 1668760327
+}

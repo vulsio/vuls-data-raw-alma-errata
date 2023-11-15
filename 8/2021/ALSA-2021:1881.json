@@ -1,0 +1,187 @@
+{
+  "description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\n\nThe evince packages provide a simple multi-page document viewer for Portable Document Format (PDF), PostScript (PS), Encapsulated PostScript (EPS) files, and, with additional back-ends, also the Device Independent File format (DVI) files.\n\nThe following packages have been upgraded to a later upstream version: poppler (20.11.0). (BZ#1644423)\n\nSecurity Fix(es):\n\n* poppler: pdftohtml: access to uninitialized pointer could lead to DoS (CVE-2020-27778)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:1881",
+  "issued_date": 1621318728,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "1d222d1be01bf9317e523117403202b00234658740fba21659327c29461c1523",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evince-devel-3.28.4-11.el8.i686.rpm",
+      "name": "evince-devel",
+      "reboot_suggested": 0,
+      "release": "11.el8",
+      "src": "evince-3.28.4-11.el8.src.rpm",
+      "version": "3.28.4"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "1e220521711b75e5955298b20334dbdf8a5bd74689b0cac0ae93c0c16556f072",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-glib-devel-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-glib-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "2c342a803a62a0aa9f7c8e17ef81211fc361c3514e9ae398465fd564623123e1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-cpp-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-cpp",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "36d63b4da09e453a4ff4431953511383ed89776d2efe7c492f7fdf9cf1b8587c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-cpp-devel-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-cpp-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "3eed8f4ea2934e836d454df14edfffe3a88b80ad82ceab0c91dbe3238ab7c574",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-qt5-devel-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-qt5-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "4dc2ed376c4683f3db7ceabd6891967b431b85c6fe0e59cd247a8a79e72a6058",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-devel-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "4f827736c6542649e0d32c72b4b3b1b20785f20c80b2c11970ddc1201879a9d7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-cpp-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-cpp",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "6797fa284bc59d586493deeb6bb20bff3696573be51de5e55550e2b95c04cfcf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-qt5-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-qt5",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "68a64663858701a736c4f81e0976c2b6e16bc26aaec05b78ba3fd90b316e6e85",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-qt5-devel-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-qt5-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "6bd29c996b184c6da0a634e1a5d270c7b0489ad6462a756893a3cc5cb1cc830e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evince-devel-3.28.4-11.el8.x86_64.rpm",
+      "name": "evince-devel",
+      "reboot_suggested": 0,
+      "release": "11.el8",
+      "src": "evince-3.28.4-11.el8.src.rpm",
+      "version": "3.28.4"
+    },
+    {
+      "arch": "i686",
+      "checksum": "9519555fbcc9f09f7b09ae45024fa7f5e63422d1005a2852030ec194acb7daaf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-qt5-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-qt5",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "c0f0a993f0fbd34910daeb045a1af5e47284064d0bc40d19be18a98c045b9f92",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-glib-devel-20.11.0-2.el8.i686.rpm",
+      "name": "poppler-glib-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "c16af004d62df5f8e7088ba1b82fd8823e162c9943a08ec5abc4ebfd170cc6bc",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-devel-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "f3ae108e6dec90fd7964335c43da2a4546ea5684a381da24b994981b716f7023",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "poppler-cpp-devel-20.11.0-2.el8.x86_64.rpm",
+      "name": "poppler-cpp-devel",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "poppler-20.11.0-2.el8.src.rpm",
+      "version": "20.11.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27778",
+      "id": "CVE-2020-27778",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: poppler and evince security, bug fix, and enhancement update",
+  "type": "security",
+  "updated_date": 1628672040
+}

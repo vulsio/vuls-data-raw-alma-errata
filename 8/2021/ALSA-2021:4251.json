@@ -1,0 +1,245 @@
+{
+  "description": "OpenJPEG is an open source library for reading and writing image files in JPEG2000 format.\n\nThe following packages have been upgraded to a later upstream version: openjpeg2 (2.4.0).\n\nSecurity Fix(es):\n\n* openjpeg: use-after-free and double-free via a mix of valid and invalid files in a directory operated on by the decompressor (CVE-2020-15389)\n\n* openjpeg: heap-buffer-overflow in lib/openjp2/mqc.c could result in DoS (CVE-2020-27814)\n\n* openjpeg: heap-buffer-overflow write in opj_tcd_dc_level_shift_encode() (CVE-2020-27823)\n\n* openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution (CVE-2021-3575)\n\n* openjpeg: integer overflow in opj_t1_encode_cblks in src/lib/openjp2/t1.c (CVE-2018-5727)\n\n* openjpeg: integer overflow in opj_j2k_setup_encoder function in openjp2/j2k.c (CVE-2018-5785)\n\n* openjpeg: division-by-zero in functions pi_next_pcrl, pi_next_cprl, and pi_next_rpcl in openmj2/pi.c (CVE-2018-20845)\n\n* openjpeg: integer overflow in function opj_get_encoding_parameters in openjp2/pi.c (CVE-2018-20847)\n\n* openjpeg: denial of service in function opj_t1_encode_cblks in openjp2/t1.c (CVE-2019-12973)\n\n* openjpeg: global-buffer-overflow read in opj_dwt_calc_explicit_stepsizes() (CVE-2020-27824)\n\n* openjpeg: null pointer dereference in opj_tgt_reset function in lib/openjp2/tgt.c (CVE-2020-27842)\n\n* openjpeg: out-of-bounds read in opj_t2_encode_packet function in openjp2/t2.c (CVE-2020-27843)\n\n* openjpeg: heap-based buffer overflow in functions opj_pi_next_rlcp, opj_pi_next_rpcl and opj_pi_next_lrcp in openjp2/pi.c (CVE-2020-27845)\n\n* openjpeg: out-of-bounds write due to an integer overflow in opj_compress.c (CVE-2021-29338)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:4251",
+  "issued_date": 1636447871,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "1db7e11b8f8b662b9012afc7673bbdcef3eab69bea84132682c3a869e4889096",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-devel-2.4.0-4.el8.i686.rpm",
+      "name": "openjpeg2-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "4fc177c317c576c98da8ef24f15b6fc0aeccdc7d3ca62eec7a5c58dcc76c5bd1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-tools-2.4.0-4.el8.i686.rpm",
+      "name": "openjpeg2-tools",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "6bde46ae06a70b193e567d4a8cc186b7976a1e7dee9984b44020a9840d82a9c2",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-devel-docs-2.4.0-4.el8.noarch.rpm",
+      "name": "openjpeg2-devel-docs",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9132f3531bcdf6c876238607431f7039826fb658114a3bb31c1b54adda93599d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-2.4.0-4.el8.x86_64.rpm",
+      "name": "openjpeg2",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9fe7a2467afc23433f68e95c8600bbe7a8a1b948fe1b09da34441a00f88aa40c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-tools-2.4.0-4.el8.x86_64.rpm",
+      "name": "openjpeg2-tools",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "eb9636f0b9ea78ce1f44644612d04161fa527bdd94dbe8cf834cfab3fbc2655a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-devel-2.4.0-4.el8.x86_64.rpm",
+      "name": "openjpeg2-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "97a4e5404c0faf20d1c15932982805508bb4566458e282a644b6c09cbea8edb7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-devel-2.4.0-4.el8.aarch64.rpm",
+      "name": "openjpeg2-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "99be2e41c35001971460010569be92c7d3598df29ce60b873379c84ed3ecc4fa",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-2.4.0-4.el8.aarch64.rpm",
+      "name": "openjpeg2",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "ff30d2db507c005744b79a585fc52a7f9408cc7f56f2eee6d13790fd62f733d3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-tools-2.4.0-4.el8.aarch64.rpm",
+      "name": "openjpeg2-tools",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "1fb05fa02b693d59fb11a9d94420e40c3dcd783656ba28142b1916df032b1be2",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-devel-2.4.0-4.el8.ppc64le.rpm",
+      "name": "openjpeg2-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "6a0aa914cf726cb74dd4e042ffef8b924f4e16252ab09b74177206127747aee2",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-tools-2.4.0-4.el8.ppc64le.rpm",
+      "name": "openjpeg2-tools",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "b22f80cac2c210647e7a27fcad69799a34a31f4413e166071d15163010379d64",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-2.4.0-4.el8.ppc64le.rpm",
+      "name": "openjpeg2",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "0cdd5dadeabbb0bb1e5eb758776298470c6bbfdca2b87eb790b69b498822c460",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "openjpeg2-2.4.0-4.el8.i686.rpm",
+      "name": "openjpeg2",
+      "reboot_suggested": 0,
+      "release": "4.el8",
+      "src": "openjpeg2-2.4.0-4.el8.src.rpm",
+      "version": "2.4.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2018-20845",
+      "id": "CVE-2018-20845",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2018-20847",
+      "id": "CVE-2018-20847",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2018-5727",
+      "id": "CVE-2018-5727",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2018-5785",
+      "id": "CVE-2018-5785",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2019-12973",
+      "id": "CVE-2019-12973",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-15389",
+      "id": "CVE-2020-15389",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27814",
+      "id": "CVE-2020-27814",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27823",
+      "id": "CVE-2020-27823",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27824",
+      "id": "CVE-2020-27824",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27842",
+      "id": "CVE-2020-27842",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27843",
+      "id": "CVE-2020-27843",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2020-27845",
+      "id": "CVE-2020-27845",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-29338",
+      "id": "CVE-2021-29338",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2021-3575",
+      "id": "CVE-2021-3575",
+      "type": "cve"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4251.html",
+      "id": "ALSA-2021-4251",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: openjpeg2 security update",
+  "type": "security",
+  "updated_date": 1636712461
+}

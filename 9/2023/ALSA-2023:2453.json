@@ -1,0 +1,92 @@
+{
+  "description": "The libtpms is a library providing Trusted Platform Module (TPM) functionality for virtual machines.\n\nSecurity Fix(es):\n\n* tpm: TCG TPM2.0 implementations vulnerable to memory corruption (CVE-2023-1017)\n* tpm2: TCG TPM2.0 implementations vulnerable to memory corruption (CVE-2023-1018)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2453",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "3aa2baa955025352d8a8977fa650c161d6047dac5ad169c07715f1c1a69d2f0a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.i686.rpm",
+      "name": "libtpms",
+      "reboot_suggested": 0,
+      "release": "3.20211126git1ff6fe1f43.el9_2",
+      "src": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.src.rpm",
+      "version": "0.9.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "f3df32290420368c3d0fa190156458a071451d87dc05c7a6f8ff34ec8ef2344f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.x86_64.rpm",
+      "name": "libtpms",
+      "reboot_suggested": 0,
+      "release": "3.20211126git1ff6fe1f43.el9_2",
+      "src": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.src.rpm",
+      "version": "0.9.1"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "00a9952a31efe56483c28606b8048d838e7dd6e46cf7beeb3c5fb9b7622358d8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.s390x.rpm",
+      "name": "libtpms",
+      "reboot_suggested": 0,
+      "release": "3.20211126git1ff6fe1f43.el9_2",
+      "src": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.src.rpm",
+      "version": "0.9.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "cc01cfbe8e6d163edec7efd02491a7b542a800759d2f7333b89c56eb87dd21ad",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.aarch64.rpm",
+      "name": "libtpms",
+      "reboot_suggested": 0,
+      "release": "3.20211126git1ff6fe1f43.el9_2",
+      "src": "libtpms-0.9.1-3.20211126git1ff6fe1f43.el9_2.src.rpm",
+      "version": "0.9.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2453",
+      "id": "RHSA-2023:2453",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-1017",
+      "id": "CVE-2023-1017",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-1018",
+      "id": "CVE-2023-1018",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2149416",
+      "id": "2149416",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2149420",
+      "id": "2149420",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2453.html",
+      "id": "ALSA-2023:2453",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: libtpms security update",
+  "type": "security",
+  "updated_date": 1683864134
+}

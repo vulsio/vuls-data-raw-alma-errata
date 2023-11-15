@@ -1,0 +1,120 @@
+{
+  "description": "The libcroco is a standalone Cascading Style Sheet level 2 (CSS2) parsing and manipulation library. \n\nSecurity Fix(es):\n\n* libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c (CVE-2020-12825)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2020:3654",
+  "issued_date": 1599554190,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-0.6.12-4.el8_2.1.x86_64.rpm",
+      "name": "libcroco",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "i686",
+      "checksum": "414f1c5025b1f548afd752fd19252c43888b1e7ed4ce8bdfba572f64145c4166",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-devel-0.6.12-4.el8_2.1.i686.rpm",
+      "name": "libcroco-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b805d882904907b1091da34a222acca1963c068ab85c187aad010fa85cb5fe2b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-devel-0.6.12-4.el8_2.1.x86_64.rpm",
+      "name": "libcroco-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "i686",
+      "checksum": "79f72726aa5f4f0149b80dcbbb93fca05dc74c53cc1dbef445dbe08e9383dcce",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "Packages/libcroco-0.6.12-4.el8_2.1.i686.rpm",
+      "name": "libcroco",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "a0b040bb48976fde2843c923a31eca04318ec9cefb3e7d8de256b423e3ad01b1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-devel-0.6.12-4.el8_2.1.aarch64.rpm",
+      "name": "libcroco-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "f3bdd1daecafd47b451e84e862aa53a6f30b49058a78c7daf7c672df57e513e7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-0.6.12-4.el8_2.1.aarch64.rpm",
+      "name": "libcroco",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "2a8f943358cadebb591486b6f0edf3422fc7b575528f52416b1e1f045205f5ad",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-devel-0.6.12-4.el8_2.1.ppc64le.rpm",
+      "name": "libcroco-devel",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "90437c81caa5294762a874ac3321a5983203ed47f48057266afa9e2cd06cc3c8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libcroco-0.6.12-4.el8_2.1.ppc64le.rpm",
+      "name": "libcroco",
+      "reboot_suggested": 0,
+      "release": "4.el8_2.1",
+      "src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+      "version": "0.6.12"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-12825",
+      "id": "CVE-2020-12825",
+      "type": "cve"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-3654.html",
+      "id": "ALSA-2020-3654",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: libcroco security update",
+  "type": "security",
+  "updated_date": 1628672040
+}

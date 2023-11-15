@@ -1,0 +1,82 @@
+{
+  "description": "Prometheus JMX Exporter is a JMX to Prometheus exporter: a collector that can be configured to scrape and expose MBeans of a JMX target.\n\nSecurity Fix(es):\n\n* SnakeYaml: Constructor Deserialization Remote Code Execution (CVE-2022-1471)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2022:9058",
+  "issued_date": 1671062400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "092595c3e3675725ca57c286ed2b02968305444ce9fe5f4f716da9c41776040a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "prometheus-jmx-exporter-openjdk11-0.12.0-9.el8_7.noarch.rpm",
+      "name": "prometheus-jmx-exporter-openjdk11",
+      "reboot_suggested": 0,
+      "release": "9.el8_7",
+      "src": "prometheus-jmx-exporter-0.12.0-9.el8_7.src.rpm",
+      "version": "0.12.0"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "716f4872b3b42348e3f280dfdec7c8a494cab8538cf3676db28a51c120d64612",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "prometheus-jmx-exporter-openjdk8-0.12.0-9.el8_7.noarch.rpm",
+      "name": "prometheus-jmx-exporter-openjdk8",
+      "reboot_suggested": 0,
+      "release": "9.el8_7",
+      "src": "prometheus-jmx-exporter-0.12.0-9.el8_7.src.rpm",
+      "version": "0.12.0"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "9f16fd5ecb5b22aee02dfb06d9ba8e18f3fb1ab6648e4e07e0f9d89f61a06306",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "prometheus-jmx-exporter-openjdk17-0.12.0-9.el8_7.noarch.rpm",
+      "name": "prometheus-jmx-exporter-openjdk17",
+      "reboot_suggested": 0,
+      "release": "9.el8_7",
+      "src": "prometheus-jmx-exporter-0.12.0-9.el8_7.src.rpm",
+      "version": "0.12.0"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "bb67c53ce5918db88c91dbf399fa57bdd2217245f96e037f6974503852055e5c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "prometheus-jmx-exporter-0.12.0-9.el8_7.noarch.rpm",
+      "name": "prometheus-jmx-exporter",
+      "reboot_suggested": 0,
+      "release": "9.el8_7",
+      "src": "prometheus-jmx-exporter-0.12.0-9.el8_7.src.rpm",
+      "version": "0.12.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:9058",
+      "id": "RHSA-2022:9058",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-1471",
+      "id": "CVE-2022-1471",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2150009",
+      "id": "2150009",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-9058.html",
+      "id": "ALSA-2022:9058",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: prometheus-jmx-exporter security update",
+  "type": "security",
+  "updated_date": 1671185515
+}

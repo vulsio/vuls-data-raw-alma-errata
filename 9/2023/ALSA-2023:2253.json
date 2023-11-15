@@ -1,0 +1,140 @@
+{
+  "description": "The buildah package provides a tool for facilitating building OCI container images. Among other things, buildah enables you to: Create a working container, either from scratch or using an image as a starting point; Create an image, either from a working container or using the instructions in a Dockerfile; Build both Docker and OCI images. \n\nSecurity Fix(es):\n\n* golang: net/http: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n* golang: crypto/tls: session tickets lack random ticket_age_add (CVE-2022-30629)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2253",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "ppc64le",
+      "checksum": "d464c3f9e218652ef2ffe72cb073dcc6c0aa3b01f57488252189b6e38ee3b1a5",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-1.29.1-1.el9.ppc64le.rpm",
+      "name": "buildah",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "f4407ec2f8c4eb829a655656ecf25787494e9d6824f68f24fdb93a123f2368ed",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-tests-1.29.1-1.el9.ppc64le.rpm",
+      "name": "buildah-tests",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "996a11327780b6c638a62ed459d29dbd7b8576673acd8fc100ac35df67caee93",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-1.29.1-1.el9.x86_64.rpm",
+      "name": "buildah",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "ef0c18bf71f6ffa80ebdc069c85d5fc694e28a749215cdbb7e8b15c6c3301f10",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-tests-1.29.1-1.el9.x86_64.rpm",
+      "name": "buildah-tests",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "5996606f57a5e8357c89d8f5f274a2d28d1c50e3a6ac393ef3791c24b2e50d9f",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-1.29.1-1.el9.s390x.rpm",
+      "name": "buildah",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "803a91a19198392e39eb4d11adbd216c241c6aa614e0f8809c6a2f8d4b6fb22d",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-tests-1.29.1-1.el9.s390x.rpm",
+      "name": "buildah-tests",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "3ecb136abb148c45a7fea413b6ab4b228bfdb6577d0c43abdf585b0b8dd320fd",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-1.29.1-1.el9.aarch64.rpm",
+      "name": "buildah",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "954dd6a1645923efbce9e241841da2c92ae05f3c270bf0e57ca095c3c2b10bbc",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "buildah-tests-1.29.1-1.el9.aarch64.rpm",
+      "name": "buildah-tests",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "buildah-1.29.1-1.el9.src.rpm",
+      "version": "1.29.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2253",
+      "id": "RHSA-2023:2253",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-30629",
+      "id": "CVE-2022-30629",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41717",
+      "id": "CVE-2022-41717",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2092793",
+      "id": "2092793",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2161274",
+      "id": "2161274",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2253.html",
+      "id": "ALSA-2023:2253",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: buildah security and bug fix update",
+  "type": "security",
+  "updated_date": 1683883929
+}

@@ -1,0 +1,132 @@
+{
+  "description": "Evolution is a GNOME application that provides integrated email, calendar, contact management, and communications functionality.\n\nThe evolution-data-server packages provide a unified back end for applications which interact with contacts, tasks and calendar information. Evolution Data Server was originally developed as a back end for the Evolution information management application, but is now used by various other applications.\n\nOpenChange provides libraries to access Microsoft Exchange servers using native protocols.\n\nSecurity Fix(es):\n\n* evolution-data-server: Response injection via STARTTLS in SMTP and POP3 (CVE-2020-14928)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2020:4649",
+  "issued_date": 1604406221,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "2342e87c6ca2f5d306c34d22983a5bbb3f7876d281d7fd4a2d7cc94c21729055",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-data-server-perl-3.28.5-14.el8.x86_64.rpm",
+      "name": "evolution-data-server-perl",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-data-server-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "49830ba6466cad7f7e76a4f0cec989a9d04a275acbef1307a6f9299b1be9ff39",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "bogofilter-1.2.5-2.el8.x86_64.rpm",
+      "name": "bogofilter",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "bogofilter-1.2.5-2.el8.src.rpm",
+      "version": "1.2.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "bb5059fec5f56c294b4b6e9dffd2b1b53517d2bc6f228a87f39f52536b4c6a15",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-devel-3.28.5-14.el8.x86_64.rpm",
+      "name": "evolution-devel",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "i686",
+      "checksum": "e11a63fc708d99a54c212f3d598163a979bff95f6f0f853f53527651f19ce997",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-data-server-tests-3.28.5-14.el8.i686.rpm",
+      "name": "evolution-data-server-tests",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-data-server-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "e187a2d0d8b1590fc91fe3b44b7e44de06f77c907f3abecd756f1392043e9e8c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-data-server-doc-3.28.5-14.el8.noarch.rpm",
+      "name": "evolution-data-server-doc",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-data-server-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "i686",
+      "checksum": "f247b202a6ac87cfcc732c6cd6f3bd59273019522332796b95233299dfb23ac9",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-devel-3.28.5-14.el8.i686.rpm",
+      "name": "evolution-devel",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "fdc55207c1f7e7c3c4caa8b410d71717ac263cd225ca41ceb5819d85a5d55de4",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "evolution-data-server-tests-3.28.5-14.el8.x86_64.rpm",
+      "name": "evolution-data-server-tests",
+      "reboot_suggested": 0,
+      "release": "14.el8",
+      "src": "evolution-data-server-3.28.5-14.el8.src.rpm",
+      "version": "3.28.5"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "106d7463cdcb13a1d949fc6928e4e9038a22f10f4ae0b9b5284fceb66dd78390",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "bogofilter-1.2.5-2.el8.aarch64.rpm",
+      "name": "bogofilter",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "bogofilter-1.2.5-2.el8.src.rpm",
+      "version": "1.2.5"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "2da41fb4e29b5c2b7c8a89681f0d921e59fc7a08eac890c37b9be5409231745f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "bogofilter-1.2.5-2.el8.ppc64le.rpm",
+      "name": "bogofilter",
+      "reboot_suggested": 0,
+      "release": "2.el8",
+      "src": "bogofilter-1.2.5-2.el8.src.rpm",
+      "version": "1.2.5"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-14928",
+      "id": "CVE-2020-14928",
+      "type": "cve"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4649.html",
+      "id": "ALSA-2020-4649",
+      "type": "self"
+    }
+  ],
+  "severity": "Low",
+  "title": "Low: evolution security and bug fix update",
+  "type": "security",
+  "updated_date": 1628672040
+}

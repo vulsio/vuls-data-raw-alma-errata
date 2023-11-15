@@ -1,0 +1,67 @@
+{
+  "description": "GEGL (Generic Graphics Library) is a graph-based image processing framework.\n\nSecurity Fix(es):\n\n* gegl: shell expansion via a crafted pathname (CVE-2021-45463)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2022:0177",
+  "issued_date": 1642585422,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "01bda9a1c881d8d060601f884510ce90f075fc077bb723db86b02ba39a469fd1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "gegl04-devel-0.4.4-6.el8_5.2.x86_64.rpm",
+      "name": "gegl04-devel",
+      "reboot_suggested": 0,
+      "release": "6.el8_5.2",
+      "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+      "version": "0.4.4"
+    },
+    {
+      "arch": "i686",
+      "checksum": "deef0f3d2d3297d96e5bdc61b324fea8fd660252281c04fb72055a0116e436eb",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "gegl04-devel-0.4.4-6.el8_5.2.i686.rpm",
+      "name": "gegl04-devel",
+      "reboot_suggested": 0,
+      "release": "6.el8_5.2",
+      "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+      "version": "0.4.4"
+    },
+    {
+      "arch": "i686",
+      "checksum": "cf7d36e03c3ff74f8226d38eda2d4a4d5f3d6078397169090538a3b48aa3d471",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "gegl04-0.4.4-6.el8_5.2.i686.rpm",
+      "name": "gegl04",
+      "reboot_suggested": 0,
+      "release": "6.el8_5.2",
+      "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+      "version": "0.4.4"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "ed23836fda0f6125f2d30aee3afc676c818d8d074ec68fb9035beebb8a03b657",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "gegl04-0.4.4-6.el8_5.2.x86_64.rpm",
+      "name": "gegl04",
+      "reboot_suggested": 0,
+      "release": "6.el8_5.2",
+      "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+      "version": "0.4.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-45463",
+      "id": "CVE-2021-45463",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: gegl04 security update",
+  "type": "security",
+  "updated_date": 1642682019
+}

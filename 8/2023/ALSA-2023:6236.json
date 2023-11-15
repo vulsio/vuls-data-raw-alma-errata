@@ -1,0 +1,142 @@
+{
+  "description": "The binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nSecurity Fix(es):\n\n* binutils: NULL pointer dereference in _bfd_elf_get_symbol_version_string leads to segfault (CVE-2022-4285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:6236",
+  "issued_date": 1698796800,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "1a0332d7b5d063797c9b06f6ed6336e4b02fa58c65b1658764c1e723b8328325",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-devel-2.30-119.el8_8.2.i686.rpm",
+      "name": "binutils-devel",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5faa29deecce202dd2e0a78dfad208360540f353193c7d144451330fc12cf0d3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-2.30-119.el8_8.2.x86_64.rpm",
+      "name": "binutils",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "213529a75f7157cf5a18fc401a754ac9b8b0e25b91d31384dc7ff389eabe277e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-2.30-119.el8_8.2.aarch64.rpm",
+      "name": "binutils",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "cbfaac50a3b63a3818ce6edf74c453506c90ae6af2c7794e09bd32d8fcf0b08a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-2.30-119.el8_8.2.ppc64le.rpm",
+      "name": "binutils",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5cbf3891c7511ca1d9cc7c2c6405eca7b7fb6a4b11d6467bdd27109149654739",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-devel-2.30-119.el8_8.2.x86_64.rpm",
+      "name": "binutils-devel",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "cc020c914cec25ceb36495a213ae626ffe6349fbefb7025e48353f8f9a0fa00c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-2.30-119.el8_8.2.s390x.rpm",
+      "name": "binutils",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "77969ee58f730d8e36c3927bcb43a9382e8a7e9a5f4e3b6e5c42b9716edb2cb3",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-devel-2.30-119.el8_8.2.aarch64.rpm",
+      "name": "binutils-devel",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "c4d78bac931150e226eccfca6226513b422942e22397866466c2820224aa5703",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-devel-2.30-119.el8_8.2.s390x.rpm",
+      "name": "binutils-devel",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "7cf7a881b06160f0c889b8df2370e1d27c6bc00dbea411dbfa436776a5afc7ff",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "binutils-devel-2.30-119.el8_8.2.ppc64le.rpm",
+      "name": "binutils-devel",
+      "reboot_suggested": 0,
+      "release": "119.el8_8.2",
+      "src": "binutils-2.30-119.el8_8.2.src.rpm",
+      "version": "2.30"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6236",
+      "id": "RHSA-2023:6236",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-4285",
+      "id": "CVE-2022-4285",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2150768",
+      "id": "2150768",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2023-6236.html",
+      "id": "ALSA-2023:6236",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: binutils security update",
+  "type": "security",
+  "updated_date": 1699004266
+}

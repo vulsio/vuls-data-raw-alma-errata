@@ -1,0 +1,58 @@
+{
+  "description": "The dmidecode packages provide utilities for extracting Intel 64 and Intel Itanium hardware information from the system BIOS or Extensible Firmware Interface (EFI), depending on the SMBIOS/DMI standard. This information typically includes system manufacturer, model name, serial number, BIOS version, and asset tag, as well as other details, depending on the manufacturer.\n\nSecurity Fix(es):\n\n* dmidecode: dump-bin to overwrite a local file (CVE-2023-30630)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:5252",
+  "issued_date": 1695081600,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "fd6a04ca000765001567a4783ffe7952a812e2012a24410a2765e72ddc5991e2",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "dmidecode-3.3-4.el8_8.1.x86_64.rpm",
+      "name": "dmidecode",
+      "reboot_suggested": 0,
+      "release": "4.el8_8.1",
+      "src": "dmidecode-3.3-4.el8_8.1.src.rpm",
+      "version": "3.3"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "17764f569a1e080515185d3e682d0945f69ce1e457f514dc5a7a9f77c71e16cb",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "dmidecode-3.3-4.el8_8.1.aarch64.rpm",
+      "name": "dmidecode",
+      "reboot_suggested": 0,
+      "release": "4.el8_8.1",
+      "src": "dmidecode-3.3-4.el8_8.1.src.rpm",
+      "version": "3.3"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5252",
+      "id": "RHSA-2023:5252",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-30630",
+      "id": "CVE-2023-30630",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2186669",
+      "id": "2186669",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2023-5252.html",
+      "id": "ALSA-2023:5252",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: dmidecode security update",
+  "type": "security",
+  "updated_date": 1695301931
+}

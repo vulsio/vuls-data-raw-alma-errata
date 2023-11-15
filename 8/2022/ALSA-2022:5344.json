@@ -1,0 +1,188 @@
+{
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\nSecurity Fix(es):\n* kernel: buffer overflow in IPsec ESP transformation code (CVE-2022-27666)\n* kernel: out-of-bounds read in fbcon_get_font function (CVE-2020-28915)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* kernel-rt: update RT source tree to the latest AlmaLinux-8.6.z0 Batch (BZ#2081704)",
+  "id": "ALSA-2022:5344",
+  "issued_date": 1656374400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "193c6ffd71932f5cfe668851b9f1db57f6866b49d967ad835b12b6464d7253df",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-kvm-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug-kvm",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "2151d769fec8067c3bcdb1bc289b2ef703ad026ffc6b5da837499d7003a56a9a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "4344f499edf7ff200d036e5b9333b0140fd20a443647006217c935f129523af9",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-core-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-core",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "59fbedd55d8e77fa53446ce9f8356605730ea036c934c3a48a53674ea5c9ecef",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-modules-extra-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug-modules-extra",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5b38cd7beeedb7aaf2e8bb21ad10cb05b7979f29b2095da0207e3b54ffb253e8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-devel-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-devel",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "8e56d3795117189f1be022c56592c3a1e4f8af1d1d04777498bde7a1625a257c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-modules-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug-modules",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "ad8929a39c4763947cfdf92214cc8c78e74d7bf8c3fdcef382158a7802113703",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b566e8d8e247ea1cc7bc09987804d7a5003a66695c167c2ca7cb7aa944d38deb",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-core-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug-core",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "c255aed5e2119458724b9f6c1dce6c1cdffc99688e5827adc93d897b0acec11b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-debug-devel-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-debug-devel",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "d40547cf35053d0e25f1d86dc9544ffb90f576c8c23644c2bf24cfa0785b0ae5",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-modules-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-modules",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e3da5b081a44ffcb3dfbe69d3bf43f17fa9652b5b3dee68c52719344ed99994e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-modules-extra-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-modules-extra",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "eb1eaa03ca4d98a54952d7557ba732446d4f8bbb7b98a078314faf73f89dc262",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "kernel-rt-kvm-4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+      "name": "kernel-rt-kvm",
+      "reboot_suggested": 0,
+      "release": "372.13.1.rt7.170.el8_6",
+      "src": "kernel-rt-4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+      "version": "4.18.0"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5344",
+      "id": "RHSA-2022:5344",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2020-28915",
+      "id": "CVE-2020-28915",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-27666",
+      "id": "CVE-2022-27666",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/1899177",
+      "id": "1899177",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2061633",
+      "id": "2061633",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-5344.html",
+      "id": "ALSA-2022:5344",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: kernel-rt security and bug fix update",
+  "type": "security",
+  "updated_date": 1657097201
+}

@@ -1,0 +1,94 @@
+{
+  "description": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* frr: Incorrect handling of a error in parsing of an invalid section of a BGP update can de-peer a router (CVE-2023-38802)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:5194",
+  "issued_date": 1694995200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "9f2cdde8e80c69a0ccfaf75e0a5547962330d34480d455d467beb0e0ddd801b8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "frr-selinux-8.3.1-5.el9_2.2.alma.noarch.rpm",
+      "name": "frr-selinux",
+      "reboot_suggested": 0,
+      "release": "5.el9_2.2.alma",
+      "src": "frr-8.3.1-5.el9_2.2.alma.src.rpm",
+      "version": "8.3.1"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "cbfb07a57856164b90609dd5f3f8fa58a17309cab223b1ab937a39b3451c223a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "frr-8.3.1-5.el9_2.2.alma.ppc64le.rpm",
+      "name": "frr",
+      "reboot_suggested": 0,
+      "release": "5.el9_2.2.alma",
+      "src": "frr-8.3.1-5.el9_2.2.alma.src.rpm",
+      "version": "8.3.1"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "be40e5b1f271d0fd77b9856026112ca7a11f1996f931de0b361223d0e590ecda",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "frr-8.3.1-5.el9_2.2.alma.x86_64.rpm",
+      "name": "frr",
+      "reboot_suggested": 0,
+      "release": "5.el9_2.2.alma",
+      "src": "frr-8.3.1-5.el9_2.2.alma.src.rpm",
+      "version": "8.3.1"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "fc10a4d7e58e41b008bc770ce16dc81a2f83bdcf35d795e9a74bdd7abe96fcec",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "frr-8.3.1-5.el9_2.2.alma.s390x.rpm",
+      "name": "frr",
+      "reboot_suggested": 0,
+      "release": "5.el9_2.2.alma",
+      "src": "frr-8.3.1-5.el9_2.2.alma.src.rpm",
+      "version": "8.3.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "56b9960b1489a01a869d261261247617b7b1d89f51be466c2e135964a06c25bd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "frr-8.3.1-5.el9_2.2.alma.aarch64.rpm",
+      "name": "frr",
+      "reboot_suggested": 0,
+      "release": "5.el9_2.2.alma",
+      "src": "frr-8.3.1-5.el9_2.2.alma.src.rpm",
+      "version": "8.3.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:5194",
+      "id": "RHSA-2023:5194",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-38802",
+      "id": "CVE-2023-38802",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2230983",
+      "id": "2230983",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-5194.html",
+      "id": "ALSA-2023:5194",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: frr security update",
+  "type": "security",
+  "updated_date": 1695210666
+}

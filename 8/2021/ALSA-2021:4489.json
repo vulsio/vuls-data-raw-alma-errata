@@ -1,0 +1,43 @@
+{
+  "description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages.\n\nSecurity Fix(es):\n\n* rpm: missing length checks in hdrblobInit() (CVE-2021-20266)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2021:4489",
+  "issued_date": 1636450353,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "b6b59440661ba48e54754d66d98b7217912221d4fe01343fede926c51d214d1b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rpm-build-4.14.3-19.el8.x86_64.rpm",
+      "name": "rpm-build",
+      "reboot_suggested": 0,
+      "release": "19.el8",
+      "src": "rpm-4.14.3-19.el8.src.rpm",
+      "version": "4.14.3"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "ea73522baf95462d210fe97daa8a7d81ba456c312fcb66f917c9f3304893f159",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "rpm-plugin-fapolicyd-4.14.3-19.el8.x86_64.rpm",
+      "name": "rpm-plugin-fapolicyd",
+      "reboot_suggested": 0,
+      "release": "19.el8",
+      "src": "rpm-4.14.3-19.el8.src.rpm",
+      "version": "4.14.3"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-20266",
+      "id": "CVE-2021-20266",
+      "type": "cve"
+    }
+  ],
+  "severity": "Low",
+  "title": "Low: rpm security, bug fix, and enhancement update",
+  "type": "security",
+  "updated_date": 1636712456
+}

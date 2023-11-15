@@ -1,0 +1,46 @@
+{
+  "description": "Jackson is a suite of data-processing tools for Java, including the flagship streaming JSON parser / generator library, matching data-binding library, and additional modules to process data encoded in various other data formats.\n\nSecurity Fix(es):\n\n* jackson-databind: denial of service via a large depth of nested objects (CVE-2020-36518)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:2312",
+  "issued_date": 1683590400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "da28784a41fd010e96065fdf2a2dc83360004f68ea9615c72e57e671cfba7fbd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "pki-jackson-databind-2.14.1-2.el9.noarch.rpm",
+      "name": "pki-jackson-databind",
+      "reboot_suggested": 0,
+      "release": "2.el9",
+      "src": "jackson-databind-2.14.1-2.el9.src.rpm",
+      "version": "2.14.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:2312",
+      "id": "RHSA-2023:2312",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2020-36518",
+      "id": "CVE-2020-36518",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2064698",
+      "id": "2064698",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-2312.html",
+      "id": "ALSA-2023:2312",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: jackson security update",
+  "type": "security",
+  "updated_date": 1683875549
+}

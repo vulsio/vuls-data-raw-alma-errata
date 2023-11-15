@@ -1,0 +1,137 @@
+{
+  "description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address security vulnerabilities are now available. The updated versions are .NET SDK 5.0.212 and .NET Runtime 5.0.15.\n\nSecurity Fix(es):\n\n* dotnet: ASP.NET Denial of Service via FormPipeReader (CVE-2022-24464)\n\n* dotnet: double parser stack buffer overrun (CVE-2022-24512)\n\n* brotli: buffer overflow when input chunk is larger than 2GiB (CVE-2020-8927)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2022:0830",
+  "issued_date": 1646923616,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "b9fb56d928664d6126eb081f7db3b57b45896a2de658efd21589fa2cd8335292",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-sdk-5.0-source-built-artifacts-5.0.212-1.el8_5.x86_64.rpm",
+      "name": "dotnet-sdk-5.0-source-built-artifacts",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.212"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "101a44523812ce747c4aec60024e92ec7d6f7e27af73b06ec3f844890504a486",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-hostfxr-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "dotnet-hostfxr-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "3c01fb4177320dc744699fb1f344acd06891dd5b1425a25e8b418e1e2102e640",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-runtime-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "dotnet-runtime-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "5db74ffb686a46a2adad34dd72e493f91bfd346ea9487308c30b9338a23a69ce",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "aspnetcore-targeting-pack-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "aspnetcore-targeting-pack-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "9c4ad01323274cd719df0373ed52136a465e1594ac79620cb3d259e0c45c17cb",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-apphost-pack-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "dotnet-apphost-pack-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "aabc90edbb9ed101b0e7366ac752780cf7b99fafa0ad90cc88183c482899beff",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-sdk-5.0-5.0.212-1.el8_5.x86_64.rpm",
+      "name": "dotnet-sdk-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.212"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b2b401a016abbb099c9b5746e92290343c4557b4f5b52259e5f1c21b0164addc",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "aspnetcore-runtime-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "aspnetcore-runtime-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b2defd2bc6213b290bee4406fb27269b16a3baf9ed006ce60d0dfbf5058859cb",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-templates-5.0-5.0.212-1.el8_5.x86_64.rpm",
+      "name": "dotnet-templates-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.212"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "e93d8bf6907bbdfb338c666709ba97d165de03ef58dfa16e63d97dac832d04c1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "dotnet-targeting-pack-5.0-5.0.15-1.el8_5.x86_64.rpm",
+      "name": "dotnet-targeting-pack-5.0",
+      "reboot_suggested": 0,
+      "release": "1.el8_5",
+      "src": "dotnet5.0-5.0.212-1.el8_5.src.rpm",
+      "version": "5.0.15"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2020-8927",
+      "id": "CVE-2020-8927",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2022-24464",
+      "id": "CVE-2022-24464",
+      "type": "cve"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2022-24512",
+      "id": "CVE-2022-24512",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: .NET 5.0 security and bugfix update",
+  "type": "security",
+  "updated_date": 1647014483
+}

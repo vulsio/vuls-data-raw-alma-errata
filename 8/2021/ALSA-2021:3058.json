@@ -1,0 +1,55 @@
+{
+  "description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform (CVE-2021-27218)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2021:3058",
+  "issued_date": 1628596586,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "76f0e02d5f96effac1d054e06c59b6601738ae8121878b346121e63d2491dc6a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-static-2.56.4-10.el8_4.1.x86_64.rpm",
+      "name": "glib2-static",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "glib2-2.56.4-10.el8_4.1.src.rpm",
+      "version": "2.56.4"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "9ecc69a1e2f56342473db7dcec30bd55b9fe0820f9e6fdc697377e21ab1cd855",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-doc-2.56.4-10.el8_4.1.noarch.rpm",
+      "name": "glib2-doc",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "glib2-2.56.4-10.el8_4.1.src.rpm",
+      "version": "2.56.4"
+    },
+    {
+      "arch": "i686",
+      "checksum": "d6ea255e2e1fd470e4e7ff026ee637146d819283efbd6deea5e575bdfeb564de",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "glib2-static-2.56.4-10.el8_4.1.i686.rpm",
+      "name": "glib2-static",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "glib2-2.56.4-10.el8_4.1.src.rpm",
+      "version": "2.56.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-27218",
+      "id": "CVE-2021-27218",
+      "type": "cve"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: glib2 security update",
+  "type": "security",
+  "updated_date": 1628672040
+}

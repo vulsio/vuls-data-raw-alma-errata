@@ -1,0 +1,82 @@
+{
+  "description": "The sudo packages contain the sudo utility which allows system administrators to provide certain users with the permission to execute privileged commands, which are used for system management purposes, without having to log in as root.\n\nSecurity Fix(es):\n\n* sudo: arbitrary file write with privileges of the RunAs user (CVE-2023-22809)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2023:0284",
+  "issued_date": 1674432000,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "526348643a9e784c55e63ee963ce63182565ed25fde1ba077c89ac432e162bc8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sudo-1.8.29-8.el8_7.1.x86_64.rpm",
+      "name": "sudo",
+      "reboot_suggested": 0,
+      "release": "8.el8_7.1",
+      "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+      "version": "1.8.29"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "d0e47a84aba9cfa0ffefd3693553157c7399dfc64b5110de3f7d695879dab392",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sudo-1.8.29-8.el8_7.1.aarch64.rpm",
+      "name": "sudo",
+      "reboot_suggested": 0,
+      "release": "8.el8_7.1",
+      "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+      "version": "1.8.29"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "f72be42bc157e9f3f0d210ab0541b072563e0b5c239ebdf8e8821f06277a74fa",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sudo-1.8.29-8.el8_7.1.ppc64le.rpm",
+      "name": "sudo",
+      "reboot_suggested": 0,
+      "release": "8.el8_7.1",
+      "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+      "version": "1.8.29"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "9be73dec95446d6ee4a4b6bb8ad563a1095d4c60da0992552f5ea4a91f979d1c",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "sudo-1.8.29-8.el8_7.1.s390x.rpm",
+      "name": "sudo",
+      "reboot_suggested": 0,
+      "release": "8.el8_7.1",
+      "src": "sudo-1.8.29-8.el8_7.1.src.rpm",
+      "version": "1.8.29"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:0284",
+      "id": "RHSA-2023:0284",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-22809",
+      "id": "CVE-2023-22809",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2161142",
+      "id": "2161142",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2023-0284.html",
+      "id": "ALSA-2023:0284",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: sudo security update",
+  "type": "security",
+  "updated_date": 1674545159
+}

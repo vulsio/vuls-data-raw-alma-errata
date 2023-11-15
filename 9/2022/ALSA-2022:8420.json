@@ -1,0 +1,82 @@
+{
+  "description": "The zlib packages provide a general-purpose lossless data compression library that is used by many different programs.\n\nSecurity Fix(es):\n\n* zlib: A flaw found in zlib when compressing (not decompressing) certain inputs (CVE-2018-25032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2022:8420",
+  "issued_date": 1668470400,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "141ced7558b0c4108b083043b831fb0ff11a3c22718afc296ffe6a3dc29572bd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mingw64-zlib-1.2.12-2.el9.noarch.rpm",
+      "name": "mingw64-zlib",
+      "reboot_suggested": 0,
+      "release": "2.el9",
+      "src": "mingw-zlib-1.2.12-2.el9.src.rpm",
+      "version": "1.2.12"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "476423e5702c743ee55dcd06b3fd3c3e50749067a0cd381eea30a758a5b07b06",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mingw32-zlib-1.2.12-2.el9.noarch.rpm",
+      "name": "mingw32-zlib",
+      "reboot_suggested": 0,
+      "release": "2.el9",
+      "src": "mingw-zlib-1.2.12-2.el9.src.rpm",
+      "version": "1.2.12"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "56bf125aad4c173fe9a92b96ce653c7e04958452feb99f9c58d4cfc252499cbf",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mingw64-zlib-static-1.2.12-2.el9.noarch.rpm",
+      "name": "mingw64-zlib-static",
+      "reboot_suggested": 0,
+      "release": "2.el9",
+      "src": "mingw-zlib-1.2.12-2.el9.src.rpm",
+      "version": "1.2.12"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "eefea7eb65d51b1bb20332c8d92583e83ed52e135ed333dd69e9ad4a3f6fab4b",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mingw32-zlib-static-1.2.12-2.el9.noarch.rpm",
+      "name": "mingw32-zlib-static",
+      "reboot_suggested": 0,
+      "release": "2.el9",
+      "src": "mingw-zlib-1.2.12-2.el9.src.rpm",
+      "version": "1.2.12"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:8420",
+      "id": "RHSA-2022:8420",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2018-25032",
+      "id": "CVE-2018-25032",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2067945",
+      "id": "2067945",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2022-8420.html",
+      "id": "ALSA-2022:8420",
+      "type": "self"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: mingw-zlib security update",
+  "type": "security",
+  "updated_date": 1668773184
+}

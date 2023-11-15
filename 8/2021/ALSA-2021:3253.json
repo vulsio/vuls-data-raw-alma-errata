@@ -1,0 +1,67 @@
+{
+  "description": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: Heap buffer overflow via crafted WAV file allows arbitrary code execution (CVE-2021-3246)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "id": "ALSA-2021:3253",
+  "issued_date": 1629790196,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "bfba28389d3443b9ff9381a38c2441360e475d9c846f6a1188ef249186c46ce6",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsndfile-devel-1.0.28-10.el8_4.1.x86_64.rpm",
+      "name": "libsndfile-devel",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "libsndfile-1.0.28-10.el8_4.1.src.rpm",
+      "version": "1.0.28"
+    },
+    {
+      "arch": "i686",
+      "checksum": "f1df4ddddf0da9017cf1ae85f40d30d977b79be67e87e356495ed7e90af3cf83",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsndfile-devel-1.0.28-10.el8_4.1.i686.rpm",
+      "name": "libsndfile-devel",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "libsndfile-1.0.28-10.el8_4.1.src.rpm",
+      "version": "1.0.28"
+    },
+    {
+      "arch": "i686",
+      "checksum": "a3f34fa6b1fbcdedc6a71458aad13e977b6daea9e40aea94d723e5cfaefff1a0",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsndfile-1.0.28-10.el8_4.1.i686.rpm",
+      "name": "libsndfile",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "libsndfile-1.0.28-10.el8_4.1.src.rpm",
+      "version": "1.0.28"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "c16dcef117a3a396e0040d1e37f9ec3ae46bb3d34dc18b569f43be345832ba25",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libsndfile-1.0.28-10.el8_4.1.x86_64.rpm",
+      "name": "libsndfile",
+      "reboot_suggested": 0,
+      "release": "10.el8_4.1",
+      "src": "libsndfile-1.0.28-10.el8_4.1.src.rpm",
+      "version": "1.0.28"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://vulners.com/cve/CVE-2021-3246",
+      "id": "CVE-2021-3246",
+      "type": "cve"
+    }
+  ],
+  "severity": "Important",
+  "title": "Important: libsndfile security update",
+  "type": "security",
+  "updated_date": 1636712461
+}
