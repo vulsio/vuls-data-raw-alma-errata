@@ -1,0 +1,220 @@
+{
+  "description": "Toolbox is a tool for Linux operating systems, which allows the use of containerized command line environments. It is built on top of Podman and other standard container technologies from OCI.\n\nSecurity Fix(es):\n\n* go-yaml: Improve heuristics preventing CPU/memory abuse by parsing malicious or large YAML documents (CVE-2022-3064)\n* golang: html/template: improper handling of JavaScript whitespace (CVE-2023-24540)\n* net/http, golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding (CVE-2022-41723)\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n* golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption (CVE-2023-24536)\n* golang: html/template: backticks not treated as string delimiters (CVE-2023-24538)\n* golang: html/template: improper sanitization of CSS values (CVE-2023-24539)\n* golang: html/template: improper handling of empty HTML attributes (CVE-2023-29400)\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6346",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "461edd29647551d997fe4732bf4ee565b6a1fb4310f63db7c087a01ab8233ad7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-0.0.99.4-6.el9_3.x86_64.rpm",
+      "name": "toolbox",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "4d56dcbf34f20e64089677511ef37220cd382c284a4aefd86b1d66f79756d648",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-tests-0.0.99.4-6.el9_3.x86_64.rpm",
+      "name": "toolbox-tests",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "bdf00125168872500d054767c500a237e4d306b50164518f663db75045b6f2ab",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-0.0.99.4-6.el9_3.ppc64le.rpm",
+      "name": "toolbox",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "dd8a3b93e08123028384be4833e1777deec61b0b78448b0c52fb3d1a05dd6591",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-tests-0.0.99.4-6.el9_3.ppc64le.rpm",
+      "name": "toolbox-tests",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "c47ffb47a8211c3af430dbe75e2e995f8add0eded894003c061f30c07a1747e1",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-tests-0.0.99.4-6.el9_3.aarch64.rpm",
+      "name": "toolbox-tests",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "cd624da414b58373445a2723d7734dbd6f32e9af17d7050ec5f92a1fd872dd81",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-0.0.99.4-6.el9_3.aarch64.rpm",
+      "name": "toolbox",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "727fa3a5d3284a41bd5a6d5b881e419d133207944c89cb74aebbf72e5e7e8134",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-tests-0.0.99.4-6.el9_3.s390x.rpm",
+      "name": "toolbox-tests",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "cc4b88aa654d722001a6c974cd5739dc49ae032bbb32e0e4f8dd007f5e9b745e",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "toolbox-0.0.99.4-6.el9_3.s390x.rpm",
+      "name": "toolbox",
+      "reboot_suggested": 0,
+      "release": "6.el9_3",
+      "src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+      "version": "0.0.99.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6346",
+      "id": "RHSA-2023:6346",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-3064",
+      "id": "CVE-2022-3064",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41723",
+      "id": "CVE-2022-41723",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41725",
+      "id": "CVE-2022-41725",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24534",
+      "id": "CVE-2023-24534",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24536",
+      "id": "CVE-2023-24536",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24538",
+      "id": "CVE-2023-24538",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24539",
+      "id": "CVE-2023-24539",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24540",
+      "id": "CVE-2023-24540",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-29400",
+      "id": "CVE-2023-29400",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-29406",
+      "id": "CVE-2023-29406",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2163037",
+      "id": "2163037",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178358",
+      "id": "2178358",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2178488",
+      "id": "2178488",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2184481",
+      "id": "2184481",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2184482",
+      "id": "2184482",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2184483",
+      "id": "2184483",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2196026",
+      "id": "2196026",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2196027",
+      "id": "2196027",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2196029",
+      "id": "2196029",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2222167",
+      "id": "2222167",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6346.html",
+      "id": "ALSA-2023:6346",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: toolbox security and bug fix update",
+  "type": "security",
+  "updated_date": 1699963532
+}

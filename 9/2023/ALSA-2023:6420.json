@@ -1,0 +1,162 @@
+{
+  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* grafana: persistent xss in grafana core plugins (CVE-2022-23552)\n* grafana: plugin signature bypass (CVE-2022-31123)\n* grafana: data source and plugin proxy endpoints leaking authentication tokens to some destination plugins (CVE-2022-31130)\n* grafana: Data source and plugin proxy endpoints could leak the authentication cookie to some destination plugins (CVE-2022-39201)\n* grafana: email addresses and usernames cannot be trusted (CVE-2022-39306)\n* grafana: User enumeration via forget password (CVE-2022-39307)\n* grafana: Spoofing of the originalUrl parameter of snapshots (CVE-2022-39324)\n* golang: net/http: excessive memory growth in a Go server accepting HTTP/2 requests (CVE-2022-41717)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6420",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "79ba80aefdd8291999cfeaa1d3a19e309ee162216b148ca86200ea4935c0af35",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "grafana-9.2.10-7.el9_3.alma.1.x86_64.rpm",
+      "name": "grafana",
+      "reboot_suggested": 0,
+      "release": "7.el9_3.alma.1",
+      "src": "grafana-9.2.10-7.el9_3.alma.1.src.rpm",
+      "version": "9.2.10"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "6e51f26de0294a0016a588df3d1f9510ecb87ce805b729f3ebd988f8d9402bbd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "grafana-9.2.10-7.el9_3.alma.1.ppc64le.rpm",
+      "name": "grafana",
+      "reboot_suggested": 0,
+      "release": "7.el9_3.alma.1",
+      "src": "grafana-9.2.10-7.el9_3.alma.1.src.rpm",
+      "version": "9.2.10"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "508ccc88d7eb43d159f3f78a3fc2fda1212e34f13622ead2d8f54d4208b76f15",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "grafana-9.2.10-7.el9_3.alma.1.aarch64.rpm",
+      "name": "grafana",
+      "reboot_suggested": 0,
+      "release": "7.el9_3.alma.1",
+      "src": "grafana-9.2.10-7.el9_3.alma.1.src.rpm",
+      "version": "9.2.10"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "5d80796062db2034a000a3b5525d8596f183e5630674668a3c55db728e405738",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "grafana-9.2.10-7.el9_3.alma.1.s390x.rpm",
+      "name": "grafana",
+      "reboot_suggested": 0,
+      "release": "7.el9_3.alma.1",
+      "src": "grafana-9.2.10-7.el9_3.alma.1.src.rpm",
+      "version": "9.2.10"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6420",
+      "id": "RHSA-2023:6420",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-23552",
+      "id": "CVE-2022-23552",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-31123",
+      "id": "CVE-2022-31123",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-31130",
+      "id": "CVE-2022-31130",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39201",
+      "id": "CVE-2022-39201",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39306",
+      "id": "CVE-2022-39306",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39307",
+      "id": "CVE-2022-39307",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-39324",
+      "id": "CVE-2022-39324",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41717",
+      "id": "CVE-2022-41717",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-24534",
+      "id": "CVE-2023-24534",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2131146",
+      "id": "2131146",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2131147",
+      "id": "2131147",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2131148",
+      "id": "2131148",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2138014",
+      "id": "2138014",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2138015",
+      "id": "2138015",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2148252",
+      "id": "2148252",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2158420",
+      "id": "2158420",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2161274",
+      "id": "2161274",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2184483",
+      "id": "2184483",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6420.html",
+      "id": "ALSA-2023:6420",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: grafana security and enhancement update",
+  "type": "security",
+  "updated_date": 1699963509
+}

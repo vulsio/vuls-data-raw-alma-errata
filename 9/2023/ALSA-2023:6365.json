@@ -1,0 +1,92 @@
+{
+  "description": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server. \n\nSecurity Fix(es):\n\n* mod_auth_openidc: Open Redirect in oidc_validate_redirect_url() using tab character (CVE-2022-23527)\n* mod_auth_openidc: NULL pointer dereference when OIDCStripCookies is set and a crafted Cookie header is supplied (CVE-2023-28625)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6365",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "7e93469e82148934c763c1bd09e279157ec5af8e2766d196cc4af4339b9fc219",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mod_auth_openidc-2.4.9.4-4.el9.x86_64.rpm",
+      "name": "mod_auth_openidc",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "mod_auth_openidc-2.4.9.4-4.el9.src.rpm",
+      "version": "2.4.9.4"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "fae66748a64059fbf96aa63aa59a90cc506b228607fed192e4a7cf6c243927c8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mod_auth_openidc-2.4.9.4-4.el9.ppc64le.rpm",
+      "name": "mod_auth_openidc",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "mod_auth_openidc-2.4.9.4-4.el9.src.rpm",
+      "version": "2.4.9.4"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "8bcaf1853126764573366fb6d34c5d1c1e9b500dc2eabb8831ed9454a90e2e3f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mod_auth_openidc-2.4.9.4-4.el9.aarch64.rpm",
+      "name": "mod_auth_openidc",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "mod_auth_openidc-2.4.9.4-4.el9.src.rpm",
+      "version": "2.4.9.4"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "c1c5ef13f60c1956d11a3b0aa1aba63446cde2a0822fecc100420cec77dd7f64",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "mod_auth_openidc-2.4.9.4-4.el9.s390x.rpm",
+      "name": "mod_auth_openidc",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "mod_auth_openidc-2.4.9.4-4.el9.src.rpm",
+      "version": "2.4.9.4"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6365",
+      "id": "RHSA-2023:6365",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-23527",
+      "id": "CVE-2022-23527",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-28625",
+      "id": "CVE-2023-28625",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2153655",
+      "id": "2153655",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2184118",
+      "id": "2184118",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6365.html",
+      "id": "ALSA-2023:6365",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: mod_auth_openidc security and bug fix update",
+  "type": "security",
+  "updated_date": 1699963507
+}

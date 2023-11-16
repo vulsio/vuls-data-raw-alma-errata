@@ -1,0 +1,154 @@
+{
+  "description": "The libpq package provides the PostgreSQL client library, which allows client programs to connect to PostgreSQL servers. \n\nSecurity Fix(es):\n\n* postgresql: Client memory disclosure when connecting with Kerberos to modified server (CVE-2022-41862)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6429",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "i686",
+      "checksum": "07a0cfd17af6336a83611a46c4555652344b2c45f26b83e7501902fb5705cb48",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-13.11-1.el9.i686.rpm",
+      "name": "libpq",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "i686",
+      "checksum": "72df89a91cc614ce5c1c015a4a4ced3bf0fbf1f492b56fdace8ad87d21d40a06",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-devel-13.11-1.el9.i686.rpm",
+      "name": "libpq-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "6b473d2e208dd380320d26295a1f140403cd84973c5f3dc0c7ce91610e585709",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-devel-13.11-1.el9.x86_64.rpm",
+      "name": "libpq-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "x86_64",
+      "checksum": "b678679df83ef63c67277134379f6f46885438b7e87d42b8cb6abe5c69c6a581",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-13.11-1.el9.x86_64.rpm",
+      "name": "libpq",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "17f4552c0af10a6b579e9ec30373b874ca2a9b59c751427440c7dc15ea155275",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-13.11-1.el9.ppc64le.rpm",
+      "name": "libpq",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "6cf86bd099495233153e2caa5ffb33703332ec46d09d0d640942e09e432fdf56",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-devel-13.11-1.el9.ppc64le.rpm",
+      "name": "libpq-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "0648c3cdcfbdc707937494928b47bcb0dadb09356c5fe9ceea65f175a44f5ccd",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-13.11-1.el9.aarch64.rpm",
+      "name": "libpq",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "cff310266c49e6629c1b6a23878bba9af75ebbed3539efd1e03f80373c6a7ea7",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-devel-13.11-1.el9.aarch64.rpm",
+      "name": "libpq-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "6c22bf505478f0159651c22aae97df04ef82bcf8de6ce2043ec9046c98fa8213",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-13.11-1.el9.s390x.rpm",
+      "name": "libpq",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "8b3f4f98467e08f776c8cf86fb313340709ef5c6b48d748176ec1a0d5a8b7f9a",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "libpq-devel-13.11-1.el9.s390x.rpm",
+      "name": "libpq-devel",
+      "reboot_suggested": 0,
+      "release": "1.el9",
+      "src": "libpq-13.11-1.el9.src.rpm",
+      "version": "13.11"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6429",
+      "id": "RHSA-2023:6429",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-41862",
+      "id": "CVE-2022-41862",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2165722",
+      "id": "2165722",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6429.html",
+      "id": "ALSA-2023:6429",
+      "type": "self"
+    }
+  ],
+  "severity": "Low",
+  "title": "Low: libpq security update",
+  "type": "security",
+  "updated_date": 1699963535
+}

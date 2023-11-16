@@ -1,0 +1,58 @@
+{
+  "description": "pip is a package management system used to install and manage software packages written in Python. Many packages can be found in the Python Package Index (PyPI). pip is a recursive acronym that can stand for either \"Pip Installs Packages\" or \"Pip Installs Python\".\n\nSecurity Fix(es):\n\n* python: tarfile module directory traversal (CVE-2007-4559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6324",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "noarch",
+      "checksum": "f7537bf8b9a5a45c95276f850dc1856a345144d4bce317f62c67d67e764f531d",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3.11-pip-wheel-22.3.1-4.el9.noarch.rpm",
+      "name": "python3.11-pip-wheel",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python3.11-pip-22.3.1-4.el9.src.rpm",
+      "version": "22.3.1"
+    },
+    {
+      "arch": "noarch",
+      "checksum": "fd34722a1fe8e4736de5eaeb450f8b85fb79323b61846de58407d9df71ab1ad8",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3.11-pip-22.3.1-4.el9.noarch.rpm",
+      "name": "python3.11-pip",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python3.11-pip-22.3.1-4.el9.src.rpm",
+      "version": "22.3.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6324",
+      "id": "RHSA-2023:6324",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2007-4559",
+      "id": "CVE-2007-4559",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/263261",
+      "id": "263261",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6324.html",
+      "id": "ALSA-2023:6324",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: python3.11-pip security update",
+  "type": "security",
+  "updated_date": 1699963941
+}

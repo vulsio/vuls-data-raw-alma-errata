@@ -1,0 +1,82 @@
+{
+  "description": "The python-cryptography packages contain a Python Cryptographic Authority's (PyCA's) cryptography library, which provides cryptographic primitives and recipes to Python developers.\n\nSecurity Fix(es):\n\n* python-cryptography: memory corruption via immutable objects (CVE-2023-23931)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+  "id": "ALSA-2023:6615",
+  "issued_date": 1699315200,
+  "modules": [],
+  "packages": [
+    {
+      "arch": "x86_64",
+      "checksum": "6eb20a25eb4a2b3af19f489fab8afe89fdd3724cacdb88bff2cc340a5cdc16ff",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-cryptography-36.0.1-4.el9.x86_64.rpm",
+      "name": "python3-cryptography",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python-cryptography-36.0.1-4.el9.src.rpm",
+      "version": "36.0.1"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "19ccbf6d9e036c7353e317f4364fee7b20c0eba66b39c3889bc8ec7c3c8f0c21",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-cryptography-36.0.1-4.el9.s390x.rpm",
+      "name": "python3-cryptography",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python-cryptography-36.0.1-4.el9.src.rpm",
+      "version": "36.0.1"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "d3a702e6c73168d717a0e3cc145062d5cb3bb57f4026b1a15c95499e7c32b5eb",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-cryptography-36.0.1-4.el9.ppc64le.rpm",
+      "name": "python3-cryptography",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python-cryptography-36.0.1-4.el9.src.rpm",
+      "version": "36.0.1"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "a889e37cd2684f5d2815010fe0d17a737b01a8c7f1d553a18e6f91d983b2e68f",
+      "checksum_type": "sha256",
+      "epoch": "0",
+      "filename": "python3-cryptography-36.0.1-4.el9.aarch64.rpm",
+      "name": "python3-cryptography",
+      "reboot_suggested": 0,
+      "release": "4.el9",
+      "src": "python-cryptography-36.0.1-4.el9.src.rpm",
+      "version": "36.0.1"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:6615",
+      "id": "RHSA-2023:6615",
+      "type": "rhsa"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-23931",
+      "id": "CVE-2023-23931",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2171817",
+      "id": "2171817",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.almalinux.org/9/ALSA-2023-6615.html",
+      "id": "ALSA-2023:6615",
+      "type": "self"
+    }
+  ],
+  "severity": "Moderate",
+  "title": "Moderate: python-cryptography security update",
+  "type": "security",
+  "updated_date": 1699963519
+}
