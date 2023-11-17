@@ -17,18 +17,6 @@
       "version": "6.2.0"
     },
     {
-      "arch": "i686",
-      "checksum": "e264b735f72ee1959c0d0a524e64d8d47a9cfa7326447b30c8737a17c5d54aad",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "gmp-c++-6.2.0-13.el9.i686.rpm",
-      "name": "gmp-c++",
-      "reboot_suggested": 0,
-      "release": "13.el9",
-      "src": "gmp-6.2.0-13.el9.src.rpm",
-      "version": "6.2.0"
-    },
-    {
       "arch": "x86_64",
       "checksum": "5a1f855738c39815466a1c4d6c2d0545a04d28c3db449425fe93f50c10905fe6",
       "checksum_type": "sha256",
@@ -54,11 +42,11 @@
     },
     {
       "arch": "i686",
-      "checksum": "fe352f7d197ebdf2c92bbd6e548f9f6b7ac9e69e7a9d6c9861a6274482e79d73",
+      "checksum": "e264b735f72ee1959c0d0a524e64d8d47a9cfa7326447b30c8737a17c5d54aad",
       "checksum_type": "sha256",
       "epoch": "1",
-      "filename": "gmp-6.2.0-13.el9.i686.rpm",
-      "name": "gmp",
+      "filename": "gmp-c++-6.2.0-13.el9.i686.rpm",
+      "name": "gmp-c++",
       "reboot_suggested": 0,
       "release": "13.el9",
       "src": "gmp-6.2.0-13.el9.src.rpm",
@@ -83,6 +71,66 @@
       "epoch": "1",
       "filename": "gmp-devel-6.2.0-13.el9.ppc64le.rpm",
       "name": "gmp-devel",
+      "reboot_suggested": 0,
+      "release": "13.el9",
+      "src": "gmp-6.2.0-13.el9.src.rpm",
+      "version": "6.2.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "a8da50c9d278c087a7f02ec4d9b7d13552d32238d1fc38228d98757d947f9f9f",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "gmp-devel-6.2.0-13.el9.s390x.rpm",
+      "name": "gmp-devel",
+      "reboot_suggested": 0,
+      "release": "13.el9",
+      "src": "gmp-6.2.0-13.el9.src.rpm",
+      "version": "6.2.0"
+    },
+    {
+      "arch": "s390x",
+      "checksum": "dd7098caa7c41f5ccc5051284f46e34dabcadcef5c60924b18cb6f2089ad50ec",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "gmp-c++-6.2.0-13.el9.s390x.rpm",
+      "name": "gmp-c++",
+      "reboot_suggested": 0,
+      "release": "13.el9",
+      "src": "gmp-6.2.0-13.el9.src.rpm",
+      "version": "6.2.0"
+    },
+    {
+      "arch": "i686",
+      "checksum": "fe352f7d197ebdf2c92bbd6e548f9f6b7ac9e69e7a9d6c9861a6274482e79d73",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "gmp-6.2.0-13.el9.i686.rpm",
+      "name": "gmp",
+      "reboot_suggested": 0,
+      "release": "13.el9",
+      "src": "gmp-6.2.0-13.el9.src.rpm",
+      "version": "6.2.0"
+    },
+    {
+      "arch": "ppc64le",
+      "checksum": "0b5f78c208ffde8d0dc2563a2b8593a3611ba4268faa47d38d7a07493c3877b9",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "gmp-6.2.0-13.el9.ppc64le.rpm",
+      "name": "gmp",
+      "reboot_suggested": 0,
+      "release": "13.el9",
+      "src": "gmp-6.2.0-13.el9.src.rpm",
+      "version": "6.2.0"
+    },
+    {
+      "arch": "aarch64",
+      "checksum": "14953ab902c19b813af9a12242ed0f02bdc21ce6c87f1eca926cde1743dc1c3a",
+      "checksum_type": "sha256",
+      "epoch": "1",
+      "filename": "gmp-6.2.0-13.el9.aarch64.rpm",
+      "name": "gmp",
       "reboot_suggested": 0,
       "release": "13.el9",
       "src": "gmp-6.2.0-13.el9.src.rpm",
@@ -135,54 +183,6 @@
       "release": "13.el9",
       "src": "gmp-6.2.0-13.el9.src.rpm",
       "version": "6.2.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "0b5f78c208ffde8d0dc2563a2b8593a3611ba4268faa47d38d7a07493c3877b9",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "gmp-6.2.0-13.el9.ppc64le.rpm",
-      "name": "gmp",
-      "reboot_suggested": 0,
-      "release": "13.el9",
-      "src": "gmp-6.2.0-13.el9.src.rpm",
-      "version": "6.2.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "a8da50c9d278c087a7f02ec4d9b7d13552d32238d1fc38228d98757d947f9f9f",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "gmp-devel-6.2.0-13.el9.s390x.rpm",
-      "name": "gmp-devel",
-      "reboot_suggested": 0,
-      "release": "13.el9",
-      "src": "gmp-6.2.0-13.el9.src.rpm",
-      "version": "6.2.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "dd7098caa7c41f5ccc5051284f46e34dabcadcef5c60924b18cb6f2089ad50ec",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "gmp-c++-6.2.0-13.el9.s390x.rpm",
-      "name": "gmp-c++",
-      "reboot_suggested": 0,
-      "release": "13.el9",
-      "src": "gmp-6.2.0-13.el9.src.rpm",
-      "version": "6.2.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "14953ab902c19b813af9a12242ed0f02bdc21ce6c87f1eca926cde1743dc1c3a",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "gmp-6.2.0-13.el9.aarch64.rpm",
-      "name": "gmp",
-      "reboot_suggested": 0,
-      "release": "13.el9",
-      "src": "gmp-6.2.0-13.el9.src.rpm",
-      "version": "6.2.0"
     }
   ],
   "references": [
@@ -210,5 +210,5 @@
   "severity": "Low",
   "title": "Low: gmp security and enhancement update",
   "type": "security",
-  "updated_date": 1699963620
+  "updated_date": 1699963674
 }
