@@ -1,252 +1,252 @@
 {
-  "description": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.\n\nSecurity Fix(es):\n\n* wireshark: RTPS dissector crash (CVE-2023-0666)\n* wireshark: IEEE C37.118 Synchrophasor dissector crash (CVE-2023-0668)\n* wireshark: Candump log file parser crash (CVE-2023-2855)\n* wireshark: VMS TCPIPtrace file parser crash (CVE-2023-2856)\n* wireshark: NetScaler file parser crash (CVE-2023-2858)\n* wireshark: XRA dissector infinite loop (CVE-2023-2952)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6469",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "70e3ec86577a4d27054d84cf2827cdc15135dc49acb509d06fac00860def1592",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-cli-3.4.10-6.el9.x86_64.rpm",
-      "name": "wireshark-cli",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e313181d7e891c6801f414af6b26fe9c3025ce0dde26f93497990ed980ec930e",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-3.4.10-6.el9.x86_64.rpm",
-      "name": "wireshark",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "i686",
-      "checksum": "f9807c65159aa0e1d03d2f8c93ece61aa9ae11ddcd657d61914abbb3974f4834",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-cli-3.4.10-6.el9.i686.rpm",
-      "name": "wireshark-cli",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "0e23659195d621e30a04f0906e1a755f32c8b2fc37d54fd727af4935b55a8a9b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-cli-3.4.10-6.el9.ppc64le.rpm",
-      "name": "wireshark-cli",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "f35914bf30b602c63f7930f8378cb0a1aca9873f7966b9eb8c05e82e4f9799ac",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-3.4.10-6.el9.ppc64le.rpm",
-      "name": "wireshark",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "4c97f3a779880e3f96062ac21db0cc2856e366061fabf148ff617c6f56176499",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-3.4.10-6.el9.s390x.rpm",
-      "name": "wireshark",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "83f86c802d1e0ea0b497a5dee7aeb456fbc5c8c927525d3d70b563572c8922c1",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-cli-3.4.10-6.el9.s390x.rpm",
-      "name": "wireshark-cli",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "27001cc1c33b37907423ee78173f8317f778593efdae97e895bfd343d75a8f0b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-3.4.10-6.el9.aarch64.rpm",
-      "name": "wireshark",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "4a67801fb70b973f8da7a1ea7641e2603e2cdb59098cb57d8758a9cbc2cf6fef",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-cli-3.4.10-6.el9.aarch64.rpm",
-      "name": "wireshark-cli",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "i686",
-      "checksum": "e275ce6f25351d09d5e388ae94f760fb082195e69a3ccb8e67297bb9b047013d",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-devel-3.4.10-6.el9.i686.rpm",
-      "name": "wireshark-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "b1d7f9bed0c0af31994861c855986ce88aabd8e18cd230467bc9b76adc920dac",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-devel-3.4.10-6.el9.ppc64le.rpm",
-      "name": "wireshark-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "5165ce5486a5eed3686bff73a8590d3cafee395a2092ec1637cbd710940160f2",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-devel-3.4.10-6.el9.aarch64.rpm",
-      "name": "wireshark-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "7ef53c336d672a17d0fef285b3798f642e8f2bc61cefbec57646b9f59db4818b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-devel-3.4.10-6.el9.s390x.rpm",
-      "name": "wireshark-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6658c182f61601208350f4cb51b26f52c81f32181f244ff624fd95542b5c8aed",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "wireshark-devel-3.4.10-6.el9.x86_64.rpm",
-      "name": "wireshark-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "wireshark-3.4.10-6.el9.src.rpm",
-      "version": "3.4.10"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6469",
-      "id": "RHSA-2023:6469",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-0666",
-      "id": "CVE-2023-0666",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-0668",
-      "id": "CVE-2023-0668",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2855",
-      "id": "CVE-2023-2855",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2856",
-      "id": "CVE-2023-2856",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2858",
-      "id": "CVE-2023-2858",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2952",
-      "id": "CVE-2023-2952",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210822",
-      "id": "2210822",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210824",
-      "id": "2210824",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210829",
-      "id": "2210829",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210832",
-      "id": "2210832",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210835",
-      "id": "2210835",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2211406",
-      "id": "2211406",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6469.html",
-      "id": "ALSA-2023:6469",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: wireshark security update",
-  "type": "security",
-  "updated_date": 1699963570
+	"description": "The wireshark packages contain a network protocol analyzer used to capture and browse the traffic running on a computer network.\n\nSecurity Fix(es):\n\n* wireshark: RTPS dissector crash (CVE-2023-0666)\n* wireshark: IEEE C37.118 Synchrophasor dissector crash (CVE-2023-0668)\n* wireshark: Candump log file parser crash (CVE-2023-2855)\n* wireshark: VMS TCPIPtrace file parser crash (CVE-2023-2856)\n* wireshark: NetScaler file parser crash (CVE-2023-2858)\n* wireshark: XRA dissector infinite loop (CVE-2023-2952)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6469",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "70e3ec86577a4d27054d84cf2827cdc15135dc49acb509d06fac00860def1592",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-6.el9.x86_64.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e313181d7e891c6801f414af6b26fe9c3025ce0dde26f93497990ed980ec930e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-6.el9.x86_64.rpm",
+			"name": "wireshark",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f9807c65159aa0e1d03d2f8c93ece61aa9ae11ddcd657d61914abbb3974f4834",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-6.el9.i686.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0e23659195d621e30a04f0906e1a755f32c8b2fc37d54fd727af4935b55a8a9b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-6.el9.ppc64le.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f35914bf30b602c63f7930f8378cb0a1aca9873f7966b9eb8c05e82e4f9799ac",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-6.el9.ppc64le.rpm",
+			"name": "wireshark",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4c97f3a779880e3f96062ac21db0cc2856e366061fabf148ff617c6f56176499",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-6.el9.s390x.rpm",
+			"name": "wireshark",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "83f86c802d1e0ea0b497a5dee7aeb456fbc5c8c927525d3d70b563572c8922c1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-6.el9.s390x.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "27001cc1c33b37907423ee78173f8317f778593efdae97e895bfd343d75a8f0b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-6.el9.aarch64.rpm",
+			"name": "wireshark",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4a67801fb70b973f8da7a1ea7641e2603e2cdb59098cb57d8758a9cbc2cf6fef",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-6.el9.aarch64.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e275ce6f25351d09d5e388ae94f760fb082195e69a3ccb8e67297bb9b047013d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-6.el9.i686.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b1d7f9bed0c0af31994861c855986ce88aabd8e18cd230467bc9b76adc920dac",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-6.el9.ppc64le.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5165ce5486a5eed3686bff73a8590d3cafee395a2092ec1637cbd710940160f2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-6.el9.aarch64.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7ef53c336d672a17d0fef285b3798f642e8f2bc61cefbec57646b9f59db4818b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-6.el9.s390x.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6658c182f61601208350f4cb51b26f52c81f32181f244ff624fd95542b5c8aed",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-6.el9.x86_64.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "wireshark-3.4.10-6.el9.src.rpm",
+			"version": "3.4.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6469",
+			"id": "RHSA-2023:6469",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0666",
+			"id": "CVE-2023-0666",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0668",
+			"id": "CVE-2023-0668",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2855",
+			"id": "CVE-2023-2855",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2856",
+			"id": "CVE-2023-2856",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2858",
+			"id": "CVE-2023-2858",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2952",
+			"id": "CVE-2023-2952",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210822",
+			"id": "2210822",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210824",
+			"id": "2210824",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210829",
+			"id": "2210829",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210832",
+			"id": "2210832",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210835",
+			"id": "2210835",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2211406",
+			"id": "2211406",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6469.html",
+			"id": "ALSA-2023:6469",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: wireshark security update",
+	"type": "security",
+	"updated_date": 1699963570
 }

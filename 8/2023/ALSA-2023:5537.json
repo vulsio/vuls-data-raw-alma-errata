@@ -1,164 +1,164 @@
 {
-  "description": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Heap buffer overflow in vp8 encoding in libvpx (CVE-2023-5217)\n* libvpx: crash related to VP9 encoding in libvpx (CVE-2023-44488)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:5537",
-  "issued_date": 1696809600,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "d27b50db74f0264fcd0b584b810a757402bbf56fcec3aec88e8fb16aae14a0a6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.i686.rpm",
-      "name": "libvpx-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "i686",
-      "checksum": "2f053ddefad49e7625095f7b0be2239f0f60914566eeca42007d3338ff6d6042",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-1.7.0-10.el8_8.alma.1.i686.rpm",
-      "name": "libvpx",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e0de12c448cc711c1ccb10ec4dd9119f4e8baa08ba5c257c4b315da56814976f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.x86_64.rpm",
-      "name": "libvpx-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "57255797b0ab07cba7ac589745970c749007aa94a73c9eae5def7ff7e496de5a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.aarch64.rpm",
-      "name": "libvpx-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "8488ea28f20442c81b05e6679c958dd4cf25d80721e10e916884a23dd0d82f65",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
-      "name": "libvpx-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "895a48b844d6d5cfd97d3fc1894bdc411f31c6001523b123c55b99f58e4a20ce",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-1.7.0-10.el8_8.alma.1.x86_64.rpm",
-      "name": "libvpx",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "8f760e7d575c1ab48edad35b0f971a542f2fc94d984f00103acd2ab26cf4ac05",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.s390x.rpm",
-      "name": "libvpx-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "f30d5a5cd25fdb84606cb40a3e7ca141086237020e1e5a314d30e6b445de5551",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-1.7.0-10.el8_8.alma.1.aarch64.rpm",
-      "name": "libvpx",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "09ecc1b7a6e9a79272b6a712956b0201dd9c3fc98eb03240144bf97b20207393",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-1.7.0-10.el8_8.alma.1.s390x.rpm",
-      "name": "libvpx",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "b25078edd683725bc6e9d095be3b408e97bcc54217f5d497689035598363012c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvpx-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
-      "name": "libvpx",
-      "reboot_suggested": 0,
-      "release": "10.el8_8.alma.1",
-      "src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-      "version": "1.7.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:5537",
-      "id": "RHSA-2023:5537",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-44488",
-      "id": "CVE-2023-44488",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-5217",
-      "id": "CVE-2023-5217",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2241191",
-      "id": "2241191",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2241806",
-      "id": "2241806",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-5537.html",
-      "id": "ALSA-2023:5537",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: libvpx security update",
-  "type": "security",
-  "updated_date": 1696925563
+	"description": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Heap buffer overflow in vp8 encoding in libvpx (CVE-2023-5217)\n* libvpx: crash related to VP9 encoding in libvpx (CVE-2023-44488)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:5537",
+	"issued_date": 1696809600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "d27b50db74f0264fcd0b584b810a757402bbf56fcec3aec88e8fb16aae14a0a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.i686.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "2f053ddefad49e7625095f7b0be2239f0f60914566eeca42007d3338ff6d6042",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.i686.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e0de12c448cc711c1ccb10ec4dd9119f4e8baa08ba5c257c4b315da56814976f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.x86_64.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "57255797b0ab07cba7ac589745970c749007aa94a73c9eae5def7ff7e496de5a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.aarch64.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8488ea28f20442c81b05e6679c958dd4cf25d80721e10e916884a23dd0d82f65",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "895a48b844d6d5cfd97d3fc1894bdc411f31c6001523b123c55b99f58e4a20ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.x86_64.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8f760e7d575c1ab48edad35b0f971a542f2fc94d984f00103acd2ab26cf4ac05",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.s390x.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f30d5a5cd25fdb84606cb40a3e7ca141086237020e1e5a314d30e6b445de5551",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.aarch64.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "09ecc1b7a6e9a79272b6a712956b0201dd9c3fc98eb03240144bf97b20207393",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.s390x.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b25078edd683725bc6e9d095be3b408e97bcc54217f5d497689035598363012c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:5537",
+			"id": "RHSA-2023:5537",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-44488",
+			"id": "CVE-2023-44488",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-5217",
+			"id": "CVE-2023-5217",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2241191",
+			"id": "2241191",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2241806",
+			"id": "2241806",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-5537.html",
+			"id": "ALSA-2023:5537",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: libvpx security update",
+	"type": "security",
+	"updated_date": 1696925563
 }

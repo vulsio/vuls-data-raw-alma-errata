@@ -1,92 +1,92 @@
 {
-  "description": "Xwayland is an X server for running X clients under Wayland.\n\nSecurity Fix(es):\n\n* xorg-x11-server: X.Org Server ProcXkbSetGeometry out-of-bounds access (CVE-2022-2319)\n* xorg-x11-server: out-of-bounds access in ProcXkbSetDeviceInfo request handler of the Xkb extension (CVE-2022-2320)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:8222",
-  "issued_date": 1668470400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "27874991fce778378d14a1a31d24e8875e801cd028e3ba52c52c3870bceef05e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.x86_64.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
-      "version": "21.1.3"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "3d73ae83039d50014547b8baa2d02ab393f7489d385dc0950517c0978a8d249e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.ppc64le.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
-      "version": "21.1.3"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "f0e6835a8c7beabcf6eb0b57843fe31fcf5585c0488d8aa55b01a795d6232a21",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.s390x.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
-      "version": "21.1.3"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "a7ab87c596f8f217f946e37c4f545b4e90db2522e508a22af43ae7c63586733f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.aarch64.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
-      "version": "21.1.3"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8222",
-      "id": "RHSA-2022:8222",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2319",
-      "id": "CVE-2022-2319",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2320",
-      "id": "CVE-2022-2320",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2106671",
-      "id": "2106671",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2106683",
-      "id": "2106683",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-8222.html",
-      "id": "ALSA-2022:8222",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: xorg-x11-server-Xwayland security update",
-  "type": "security",
-  "updated_date": 1668735044
+	"description": "Xwayland is an X server for running X clients under Wayland.\n\nSecurity Fix(es):\n\n* xorg-x11-server: X.Org Server ProcXkbSetGeometry out-of-bounds access (CVE-2022-2319)\n* xorg-x11-server: out-of-bounds access in ProcXkbSetDeviceInfo request handler of the Xkb extension (CVE-2022-2320)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:8222",
+	"issued_date": 1668470400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "27874991fce778378d14a1a31d24e8875e801cd028e3ba52c52c3870bceef05e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.x86_64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
+			"version": "21.1.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3d73ae83039d50014547b8baa2d02ab393f7489d385dc0950517c0978a8d249e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.ppc64le.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
+			"version": "21.1.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f0e6835a8c7beabcf6eb0b57843fe31fcf5585c0488d8aa55b01a795d6232a21",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.s390x.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
+			"version": "21.1.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a7ab87c596f8f217f946e37c4f545b4e90db2522e508a22af43ae7c63586733f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-3.el9.aarch64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "xorg-x11-server-Xwayland-21.1.3-3.el9.src.rpm",
+			"version": "21.1.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:8222",
+			"id": "RHSA-2022:8222",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2319",
+			"id": "CVE-2022-2319",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2320",
+			"id": "CVE-2022-2320",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2106671",
+			"id": "2106671",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2106683",
+			"id": "2106683",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-8222.html",
+			"id": "ALSA-2022:8222",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: xorg-x11-server-Xwayland security update",
+	"type": "security",
+	"updated_date": 1668735044
 }

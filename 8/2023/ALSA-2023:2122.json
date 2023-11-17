@@ -1,82 +1,82 @@
 {
-  "description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Malicious IKEv1 Aggressive Mode packets can crash libreswan (CVE-2023-30570)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:2122",
-  "issued_date": 1683158400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "d66a00bfa3897ea79712e280bc20acd7e5a31d8c150e1bb0ac58be05b0f54ef4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libreswan-4.5-1.el8_7.1.x86_64.rpm",
-      "name": "libreswan",
-      "reboot_suggested": 0,
-      "release": "1.el8_7.1",
-      "src": "libreswan-4.5-1.el8_7.1.src.rpm",
-      "version": "4.5"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "5da0212cb0b8c9f267f47f1d84b0cc2e0e80cb11f644deb1ff062d71ff2e9c6d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libreswan-4.5-1.el8_7.1.aarch64.rpm",
-      "name": "libreswan",
-      "reboot_suggested": 0,
-      "release": "1.el8_7.1",
-      "src": "libreswan-4.5-1.el8_7.1.src.rpm",
-      "version": "4.5"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "8b7b6586bd2f0c65b7f0ce631d428b8671e261e93516bc78ae71f6d5a6ab63a6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libreswan-4.5-1.el8_7.1.s390x.rpm",
-      "name": "libreswan",
-      "reboot_suggested": 0,
-      "release": "1.el8_7.1",
-      "src": "libreswan-4.5-1.el8_7.1.src.rpm",
-      "version": "4.5"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "5f5009f54e32ec9a2a3b7b8ed0e6ee35adca1b8946a0ea0bd4b5582eb90a23e6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libreswan-4.5-1.el8_7.1.ppc64le.rpm",
-      "name": "libreswan",
-      "reboot_suggested": 0,
-      "release": "1.el8_7.1",
-      "src": "libreswan-4.5-1.el8_7.1.src.rpm",
-      "version": "4.5"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2122",
-      "id": "RHSA-2023:2122",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-30570",
-      "id": "CVE-2023-30570",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2187165",
-      "id": "2187165",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-2122.html",
-      "id": "ALSA-2023:2122",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: libreswan security update",
-  "type": "security",
-  "updated_date": 1683283269
+	"description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Malicious IKEv1 Aggressive Mode packets can crash libreswan (CVE-2023-30570)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:2122",
+	"issued_date": 1683158400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "d66a00bfa3897ea79712e280bc20acd7e5a31d8c150e1bb0ac58be05b0f54ef4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.5-1.el8_7.1.x86_64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.1",
+			"src": "libreswan-4.5-1.el8_7.1.src.rpm",
+			"version": "4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5da0212cb0b8c9f267f47f1d84b0cc2e0e80cb11f644deb1ff062d71ff2e9c6d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.5-1.el8_7.1.aarch64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.1",
+			"src": "libreswan-4.5-1.el8_7.1.src.rpm",
+			"version": "4.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8b7b6586bd2f0c65b7f0ce631d428b8671e261e93516bc78ae71f6d5a6ab63a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.5-1.el8_7.1.s390x.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.1",
+			"src": "libreswan-4.5-1.el8_7.1.src.rpm",
+			"version": "4.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5f5009f54e32ec9a2a3b7b8ed0e6ee35adca1b8946a0ea0bd4b5582eb90a23e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.5-1.el8_7.1.ppc64le.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.1",
+			"src": "libreswan-4.5-1.el8_7.1.src.rpm",
+			"version": "4.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:2122",
+			"id": "RHSA-2023:2122",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-30570",
+			"id": "CVE-2023-30570",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2187165",
+			"id": "2187165",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-2122.html",
+			"id": "ALSA-2023:2122",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: libreswan security update",
+	"type": "security",
+	"updated_date": 1683283269
 }

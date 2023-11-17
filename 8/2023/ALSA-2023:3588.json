@@ -1,140 +1,140 @@
 {
-  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.12.0.\n\nSecurity Fix(es):\n\n* Mozilla: Click-jacking certificate exceptions through rendering lag (CVE-2023-34414)\n* Mozilla: Memory safety bugs fixed in Firefox 114 and Firefox ESR 102.12 (CVE-2023-34416)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:3588",
-  "issued_date": 1686700800,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "aarch64",
-      "checksum": "0e4b34717658d67ec4684ae5c4bd396b6c7412f419fa4e903dac998a5347bafe",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.plus.aarch64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma.plus",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "f45d124ee8cb74eef5f357d7513e7e8f182332169de2de444383dae674631010",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.plus.ppc64le.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma.plus",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "28856597eac932bc81142a8f62feecfe7c5ee8f391f1e3b6d86368e507e107d2",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.plus.x86_64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma.plus",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "aacf0754bf9aff2c1718a2776e307539fdaceecdb5579d50ee8b6d252eb71440",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.x86_64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "14b947237fde347513dc6427183bd996c3e518233b5c6a2dda590dc11377e6de",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.plus.s390x.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma.plus",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "0a3f56f13ccd2587f5380c403725ac1334c13cbf74d9f26d6d5ccfdeecabbcbb",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.aarch64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "31a739b51ed9c10dfd6240d04446df03d5eaffe6b41b91de04e0047e4d5902cc",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.s390x.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
-      "version": "102.12.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "a2364971fdad3c12424cb5591d215c0bfbb58c1d7c42b3f61091357f243f2c9c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.12.0-1.el8_8.alma.ppc64le.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
-      "version": "102.12.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:3588",
-      "id": "RHSA-2023:3588",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-34414",
-      "id": "CVE-2023-34414",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-34416",
-      "id": "CVE-2023-34416",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2212841",
-      "id": "2212841",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2212842",
-      "id": "2212842",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-3588.html",
-      "id": "ALSA-2023:3588",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: thunderbird security update",
-  "type": "security",
-  "updated_date": 1687358075
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.12.0.\n\nSecurity Fix(es):\n\n* Mozilla: Click-jacking certificate exceptions through rendering lag (CVE-2023-34414)\n* Mozilla: Memory safety bugs fixed in Firefox 114 and Firefox ESR 102.12 (CVE-2023-34416)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:3588",
+	"issued_date": 1686700800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "0e4b34717658d67ec4684ae5c4bd396b6c7412f419fa4e903dac998a5347bafe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.plus.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma.plus",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f45d124ee8cb74eef5f357d7513e7e8f182332169de2de444383dae674631010",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.plus.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma.plus",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "28856597eac932bc81142a8f62feecfe7c5ee8f391f1e3b6d86368e507e107d2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.plus.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma.plus",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "aacf0754bf9aff2c1718a2776e307539fdaceecdb5579d50ee8b6d252eb71440",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "14b947237fde347513dc6427183bd996c3e518233b5c6a2dda590dc11377e6de",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.plus.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma.plus",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.plus.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0a3f56f13ccd2587f5380c403725ac1334c13cbf74d9f26d6d5ccfdeecabbcbb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "31a739b51ed9c10dfd6240d04446df03d5eaffe6b41b91de04e0047e4d5902cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a2364971fdad3c12424cb5591d215c0bfbb58c1d7c42b3f61091357f243f2c9c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.12.0-1.el8_8.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "thunderbird-102.12.0-1.el8_8.alma.src.rpm",
+			"version": "102.12.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:3588",
+			"id": "RHSA-2023:3588",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34414",
+			"id": "CVE-2023-34414",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34416",
+			"id": "CVE-2023-34416",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2212841",
+			"id": "2212841",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2212842",
+			"id": "2212842",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-3588.html",
+			"id": "ALSA-2023:3588",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: thunderbird security update",
+	"type": "security",
+	"updated_date": 1687358075
 }

@@ -1,317 +1,317 @@
 {
-  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \nSecurity Fix(es):\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: go/parser: stack exhaustion in all Parse* functions (CVE-2022-1962)\n* golang: encoding/xml: stack exhaustion in Decoder.Skip (CVE-2022-28131)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/xml: stack exhaustion in Unmarshal (CVE-2022-30633)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* Clean up dist-git patches (BZ#2110942)\n* Update Go to version 1.17.12 (BZ#2110943)",
-  "id": "ALSA-2022:5775",
-  "issued_date": 1659312000,
-  "modules": [
-    {
-      "arch": "x86_64",
-      "context": "b754926a",
-      "name": "go-toolset",
-      "stream": "rhel8",
-      "version": "8060020220802121322"
-    }
-  ],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "255ac6c4fb342b37b4247c474be650aeb244cd704a413b1579f30aaf68ab834f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-src-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-src",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "58010c22456a176edaf8881fff9f173cfc67ae529f91b4e8b5e30dae1d3e63e7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-tests-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-tests",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "dc02324c3cf9ef9f3f20cfc2334c67866eb0ae46a26d3c984e956ed3e21d7535",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-misc-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-misc",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "ea979b9c09b19ced4a8004150a89eba4cc00e12f719e75d94b66d1e2da7d75e3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-docs-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-docs",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "07c3d7d528c2274d8611684c10f4083e42dfab1e5518f0492154e23fa220abd0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3170e6ac95686fa186e1c6b70113641988ae1697aa734c39403a11c674438ec7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "delve-1.7.2-1.module_el8.6.0+2736+ec10aba8.x86_64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "delve",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2736+ec10aba8",
-      "src": "delve-1.7.2-1.module_el8.6.0+2736+ec10aba8.src.rpm",
-      "version": "1.7.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6adbfd417ece6d52f4e2c79c589c7c1b8528e7fab31b253bbb0ad25070d64d4a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-race-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-race",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "9628cf6787c2af3a228f447a212263258d5971e2f10c4415a1ac64e821af86eb",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-bin",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ba9c8d554e3435e2c45df47ff858892d02493d3fb3b8ce5e5f198799039fd38f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "go-toolset",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "0045ea825a61f9dbbfca83a17b8a093009941c56788e69ac81c6bf6e1c605fce",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "c3ff05e6dce25ea308d2a7d056f82f055169ed6f7b0cfc204b9d062bdb783e1c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "go-toolset",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "ee1aa0fc9440ebd333605481188506e6594d477fee63e728d40fe0190b798948",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-bin",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "136e08b7cbd6379c9e6255516ae958450c24a0b4f3684f92c52a130038311a9f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang-bin",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "7e6bb2271a35aac7b1ef4698eb7bb7b84a00e655bc3e7b31f075ba7a40764ab3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "go-toolset",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "fa03ae72befce125828729cde6a688814bf9a644644f3d6a9240edd402bd2b72",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
-      "module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
-      "name": "golang",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3065+e17ed2d4",
-      "src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
-      "version": "1.17.12"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5775",
-      "id": "RHSA-2022:5775",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1705",
-      "id": "CVE-2022-1705",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1962",
-      "id": "CVE-2022-1962",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-28131",
-      "id": "CVE-2022-28131",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30630",
-      "id": "CVE-2022-30630",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30631",
-      "id": "CVE-2022-30631",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30632",
-      "id": "CVE-2022-30632",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30633",
-      "id": "CVE-2022-30633",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30635",
-      "id": "CVE-2022-30635",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-32148",
-      "id": "CVE-2022-32148",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107342",
-      "id": "2107342",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107371",
-      "id": "2107371",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107374",
-      "id": "2107374",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107376",
-      "id": "2107376",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107383",
-      "id": "2107383",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107386",
-      "id": "2107386",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107388",
-      "id": "2107388",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107390",
-      "id": "2107390",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107392",
-      "id": "2107392",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-5775.html",
-      "id": "ALSA-2022:5775",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: go-toolset:rhel8 security and bug fix update",
-  "type": "security",
-  "updated_date": 1659717806
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \nSecurity Fix(es):\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: go/parser: stack exhaustion in all Parse* functions (CVE-2022-1962)\n* golang: encoding/xml: stack exhaustion in Decoder.Skip (CVE-2022-28131)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/xml: stack exhaustion in Unmarshal (CVE-2022-30633)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nBug Fix(es):\n* Clean up dist-git patches (BZ#2110942)\n* Update Go to version 1.17.12 (BZ#2110943)",
+	"id": "ALSA-2022:5775",
+	"issued_date": 1659312000,
+	"modules": [
+		{
+			"arch": "x86_64",
+			"context": "b754926a",
+			"name": "go-toolset",
+			"stream": "rhel8",
+			"version": "8060020220802121322"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "255ac6c4fb342b37b4247c474be650aeb244cd704a413b1579f30aaf68ab834f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-src-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-src",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "58010c22456a176edaf8881fff9f173cfc67ae529f91b4e8b5e30dae1d3e63e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-tests-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-tests",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "dc02324c3cf9ef9f3f20cfc2334c67866eb0ae46a26d3c984e956ed3e21d7535",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-misc-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-misc",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ea979b9c09b19ced4a8004150a89eba4cc00e12f719e75d94b66d1e2da7d75e3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-docs-1.17.12-1.module_el8.6.0+3065+e17ed2d4.noarch.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-docs",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "07c3d7d528c2274d8611684c10f4083e42dfab1e5518f0492154e23fa220abd0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3170e6ac95686fa186e1c6b70113641988ae1697aa734c39403a11c674438ec7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "delve-1.7.2-1.module_el8.6.0+2736+ec10aba8.x86_64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "delve",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2736+ec10aba8",
+			"src": "delve-1.7.2-1.module_el8.6.0+2736+ec10aba8.src.rpm",
+			"version": "1.7.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6adbfd417ece6d52f4e2c79c589c7c1b8528e7fab31b253bbb0ad25070d64d4a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-race-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-race",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9628cf6787c2af3a228f447a212263258d5971e2f10c4415a1ac64e821af86eb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ba9c8d554e3435e2c45df47ff858892d02493d3fb3b8ce5e5f198799039fd38f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.x86_64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0045ea825a61f9dbbfca83a17b8a093009941c56788e69ac81c6bf6e1c605fce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c3ff05e6dce25ea308d2a7d056f82f055169ed6f7b0cfc204b9d062bdb783e1c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ee1aa0fc9440ebd333605481188506e6594d477fee63e728d40fe0190b798948",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.aarch64.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "136e08b7cbd6379c9e6255516ae958450c24a0b4f3684f92c52a130038311a9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7e6bb2271a35aac7b1ef4698eb7bb7b84a00e655bc3e7b31f075ba7a40764ab3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "go-toolset-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fa03ae72befce125828729cde6a688814bf9a644644f3d6a9240edd402bd2b72",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8060020220802121322:b754926a:x86_64",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3065+e17ed2d4",
+			"src": "golang-1.17.12-1.module_el8.6.0+3065+e17ed2d4.src.rpm",
+			"version": "1.17.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:5775",
+			"id": "RHSA-2022:5775",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1705",
+			"id": "CVE-2022-1705",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1962",
+			"id": "CVE-2022-1962",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-28131",
+			"id": "CVE-2022-28131",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30630",
+			"id": "CVE-2022-30630",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30631",
+			"id": "CVE-2022-30631",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30632",
+			"id": "CVE-2022-30632",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30633",
+			"id": "CVE-2022-30633",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30635",
+			"id": "CVE-2022-30635",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-32148",
+			"id": "CVE-2022-32148",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107342",
+			"id": "2107342",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107371",
+			"id": "2107371",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107374",
+			"id": "2107374",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107376",
+			"id": "2107376",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107383",
+			"id": "2107383",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107386",
+			"id": "2107386",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107388",
+			"id": "2107388",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107390",
+			"id": "2107390",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107392",
+			"id": "2107392",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-5775.html",
+			"id": "ALSA-2022:5775",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: go-toolset:rhel8 security and bug fix update",
+	"type": "security",
+	"updated_date": 1659717806
 }

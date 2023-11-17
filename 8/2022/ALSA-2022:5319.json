@@ -1,200 +1,200 @@
 {
-  "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.\nSecurity Fix(es):\n* vim: heap buffer overflow (CVE-2022-1621)\n* vim: buffer over-read (CVE-2022-1629)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:5319",
-  "issued_date": 1656547200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "056034ec2850b25def174b1eb7edee2833e70c5c6a21e660e3481103a6ec18f7",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-filesystem-8.0.1763-19.el8_6.2.noarch.rpm",
-      "name": "vim-filesystem",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "0ce831321325db6c85dc5773382ff63f434c413c42eb22556d35793904d85626",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-enhanced-8.0.1763-19.el8_6.2.x86_64.rpm",
-      "name": "vim-enhanced",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "12eb893dd4221fe5ac14d7b9ca133577f351885097d39b0ed273b08052b7c685",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-common-8.0.1763-19.el8_6.2.x86_64.rpm",
-      "name": "vim-common",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "71286211ba75850d69b1faf7ef1895231e72c43e8f6a046e0a29fc2e1d6e5e1e",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-X11-8.0.1763-19.el8_6.2.x86_64.rpm",
-      "name": "vim-X11",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e5df49f82da367d6411f36ef1dc469e51ad74a0fc1fb4fb2c7c052c5d16ab525",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-minimal-8.0.1763-19.el8_6.2.x86_64.rpm",
-      "name": "vim-minimal",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "2aac74c4178cc988093db2fe89cdf49a56980b950177eaee74f64933d3eb4ee9",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-minimal-8.0.1763-19.el8_6.2.aarch64.rpm",
-      "name": "vim-minimal",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "6a0c9e67cb532ca22cec161669733263f43b667e5ac9f643ede82a577e5a237e",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-X11-8.0.1763-19.el8_6.2.aarch64.rpm",
-      "name": "vim-X11",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "c4ee3c77909ab2f84248134afc9924f38cc8970320f426ee0db5b029d6c264ae",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-common-8.0.1763-19.el8_6.2.aarch64.rpm",
-      "name": "vim-common",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "e8c35dadec3fd7996467e706852a64e0e0e8eceeea15f7ed64dc57fe8ede53c4",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-enhanced-8.0.1763-19.el8_6.2.aarch64.rpm",
-      "name": "vim-enhanced",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "2697a11238e95e5c771168cbf6dc5a2ba5eb6f2997550ccb5c24032cbf083867",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-X11-8.0.1763-19.el8_6.2.ppc64le.rpm",
-      "name": "vim-X11",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "4d39d2e2a6660e10bee5b374c97f90a5b1629d0a28168b793b09abbb6814b624",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-common-8.0.1763-19.el8_6.2.ppc64le.rpm",
-      "name": "vim-common",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "930103ef3b0d7bc22d0035b940d30816fa10947e43ab9069389395bbc50c76cf",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-minimal-8.0.1763-19.el8_6.2.ppc64le.rpm",
-      "name": "vim-minimal",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "ca8685282f236b24c74b0fca8ac0c6847ba6557680ddb33df3cc6f408329f125",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "vim-enhanced-8.0.1763-19.el8_6.2.ppc64le.rpm",
-      "name": "vim-enhanced",
-      "reboot_suggested": 0,
-      "release": "19.el8_6.2",
-      "src": "vim-8.0.1763-19.el8_6.2.src.rpm",
-      "version": "8.0.1763"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5319",
-      "id": "RHSA-2022:5319",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1621",
-      "id": "CVE-2022-1621",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1629",
-      "id": "CVE-2022-1629",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2083924",
-      "id": "2083924",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2083931",
-      "id": "2083931",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-5319.html",
-      "id": "ALSA-2022:5319",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: vim security update",
-  "type": "security",
-  "updated_date": 1659691096
+	"description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.\nSecurity Fix(es):\n* vim: heap buffer overflow (CVE-2022-1621)\n* vim: buffer over-read (CVE-2022-1629)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:5319",
+	"issued_date": 1656547200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "056034ec2850b25def174b1eb7edee2833e70c5c6a21e660e3481103a6ec18f7",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-filesystem-8.0.1763-19.el8_6.2.noarch.rpm",
+			"name": "vim-filesystem",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0ce831321325db6c85dc5773382ff63f434c413c42eb22556d35793904d85626",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-enhanced-8.0.1763-19.el8_6.2.x86_64.rpm",
+			"name": "vim-enhanced",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "12eb893dd4221fe5ac14d7b9ca133577f351885097d39b0ed273b08052b7c685",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-common-8.0.1763-19.el8_6.2.x86_64.rpm",
+			"name": "vim-common",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71286211ba75850d69b1faf7ef1895231e72c43e8f6a046e0a29fc2e1d6e5e1e",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-X11-8.0.1763-19.el8_6.2.x86_64.rpm",
+			"name": "vim-X11",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e5df49f82da367d6411f36ef1dc469e51ad74a0fc1fb4fb2c7c052c5d16ab525",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-minimal-8.0.1763-19.el8_6.2.x86_64.rpm",
+			"name": "vim-minimal",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2aac74c4178cc988093db2fe89cdf49a56980b950177eaee74f64933d3eb4ee9",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-minimal-8.0.1763-19.el8_6.2.aarch64.rpm",
+			"name": "vim-minimal",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6a0c9e67cb532ca22cec161669733263f43b667e5ac9f643ede82a577e5a237e",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-X11-8.0.1763-19.el8_6.2.aarch64.rpm",
+			"name": "vim-X11",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c4ee3c77909ab2f84248134afc9924f38cc8970320f426ee0db5b029d6c264ae",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-common-8.0.1763-19.el8_6.2.aarch64.rpm",
+			"name": "vim-common",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e8c35dadec3fd7996467e706852a64e0e0e8eceeea15f7ed64dc57fe8ede53c4",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-enhanced-8.0.1763-19.el8_6.2.aarch64.rpm",
+			"name": "vim-enhanced",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2697a11238e95e5c771168cbf6dc5a2ba5eb6f2997550ccb5c24032cbf083867",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-X11-8.0.1763-19.el8_6.2.ppc64le.rpm",
+			"name": "vim-X11",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4d39d2e2a6660e10bee5b374c97f90a5b1629d0a28168b793b09abbb6814b624",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-common-8.0.1763-19.el8_6.2.ppc64le.rpm",
+			"name": "vim-common",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "930103ef3b0d7bc22d0035b940d30816fa10947e43ab9069389395bbc50c76cf",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-minimal-8.0.1763-19.el8_6.2.ppc64le.rpm",
+			"name": "vim-minimal",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ca8685282f236b24c74b0fca8ac0c6847ba6557680ddb33df3cc6f408329f125",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "vim-enhanced-8.0.1763-19.el8_6.2.ppc64le.rpm",
+			"name": "vim-enhanced",
+			"reboot_suggested": 0,
+			"release": "19.el8_6.2",
+			"src": "vim-8.0.1763-19.el8_6.2.src.rpm",
+			"version": "8.0.1763"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:5319",
+			"id": "RHSA-2022:5319",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1621",
+			"id": "CVE-2022-1621",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1629",
+			"id": "CVE-2022-1629",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2083924",
+			"id": "2083924",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2083931",
+			"id": "2083931",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-5319.html",
+			"id": "ALSA-2022:5319",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: vim security update",
+	"type": "security",
+	"updated_date": 1659691096
 }

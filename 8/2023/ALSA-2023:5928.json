@@ -1,130 +1,130 @@
 {
-  "description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:5928",
-  "issued_date": 1697673600,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "51c075fe41c26e3d8d8e799baa45d4ece2219a3d62886ac2365cf4dcb46916b1",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-docs-webapp-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-docs-webapp",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "89106fb3321103f102da03a6cd8ff2948e1c89476e65ac084f3b2fcfe46c0d36",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "8b8c1f7e77f2f2edb728a4d0a6a403388d5dc606c2205c192cf898aad7a2a4b8",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-jsp-2.3-api-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-jsp-2.3-api",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "bc9448f9507c113e8d6dc1f4f6592378a5368a3b5f0eb96aee0912de0c0c0429",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-admin-webapps-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-admin-webapps",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "c2ad6c8f3df8b97a2afb6d43f00aebd1825b521c2ba07703ea7413762c784d2b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-webapps-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-webapps",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "ca5762dc44b100abf0f89cb17cbab1eed8114551ce3c8e6dc1ab35ab3af25efb",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-servlet-4.0-api-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-servlet-4.0-api",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "d5c4628e001915573f8ee60ca11346d46893323a8dd17b8c30ee6fdad73dcf3f",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-el-3.0-api-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-el-3.0-api",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "f5338717b080c4c62c82b7832c8e86200a02ff0039c84be7e0c97b8654f8ca50",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-lib-9.0.62-5.el8_8.2.noarch.rpm",
-      "name": "tomcat-lib",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.2",
-      "src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
-      "version": "9.0.62"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:5928",
-      "id": "RHSA-2023:5928",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-44487",
-      "id": "CVE-2023-44487",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2242803",
-      "id": "2242803",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-5928.html",
-      "id": "ALSA-2023:5928",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: tomcat security update",
-  "type": "security",
-  "updated_date": 1697800585
+	"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:5928",
+	"issued_date": 1697673600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "51c075fe41c26e3d8d8e799baa45d4ece2219a3d62886ac2365cf4dcb46916b1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-docs-webapp-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-docs-webapp",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "89106fb3321103f102da03a6cd8ff2948e1c89476e65ac084f3b2fcfe46c0d36",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "8b8c1f7e77f2f2edb728a4d0a6a403388d5dc606c2205c192cf898aad7a2a4b8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-jsp-2.3-api-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-jsp-2.3-api",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "bc9448f9507c113e8d6dc1f4f6592378a5368a3b5f0eb96aee0912de0c0c0429",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-admin-webapps-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-admin-webapps",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c2ad6c8f3df8b97a2afb6d43f00aebd1825b521c2ba07703ea7413762c784d2b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-webapps-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-webapps",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ca5762dc44b100abf0f89cb17cbab1eed8114551ce3c8e6dc1ab35ab3af25efb",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-servlet-4.0-api-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-servlet-4.0-api",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d5c4628e001915573f8ee60ca11346d46893323a8dd17b8c30ee6fdad73dcf3f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-el-3.0-api-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-el-3.0-api",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f5338717b080c4c62c82b7832c8e86200a02ff0039c84be7e0c97b8654f8ca50",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-lib-9.0.62-5.el8_8.2.noarch.rpm",
+			"name": "tomcat-lib",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.2",
+			"src": "tomcat-9.0.62-5.el8_8.2.src.rpm",
+			"version": "9.0.62"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:5928",
+			"id": "RHSA-2023:5928",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-44487",
+			"id": "CVE-2023-44487",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242803",
+			"id": "2242803",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-5928.html",
+			"id": "ALSA-2023:5928",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: tomcat security update",
+	"type": "security",
+	"updated_date": 1697800585
 }

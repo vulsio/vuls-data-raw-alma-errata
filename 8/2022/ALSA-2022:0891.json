@@ -1,187 +1,187 @@
 {
-  "description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: NULL pointer dereference via malformed requests (CVE-2021-34798)\n\n* httpd: Out-of-bounds write in ap_escape_quotes() via malicious input (CVE-2021-39275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:0891",
-  "issued_date": 1647335444,
-  "modules": [
-    {
-      "arch": "x86_64",
-      "context": "c5368500",
-      "name": "httpd",
-      "stream": "2.4",
-      "version": "8050020220315233132"
-    },
-    {
-      "arch": "aarch64",
-      "context": "9edba152",
-      "name": "httpd",
-      "stream": "2.4",
-      "version": "8060020220622110449"
-    }
-  ],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "06ac737e6218cb628008a1d9c8b42418e4a9e0e057d517c5b5c4a0809b608baa",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "httpd-manual-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.noarch.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "httpd-manual",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "2b085b6855973441353f1f51b65a7a4d44d8def054a68904b0a1299f3d22c713",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "httpd-devel-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "httpd-devel",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "2dd6c7eec3077ffc02ed51543ae224ac4a3c7ee4f654d5501b9745672d035011",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mod_ldap-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "mod_ldap",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3b1e101e6a9192ff94ee4d007aff494cf5631948586568da7a1c6ac1255c8a68",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "mod_md",
-      "reboot_suggested": 0,
-      "release": "8.module_el8.6.0+2872+fe0ff7aa",
-      "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-      "version": "2.0.8"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "58d48635fbc3cc0fd83e93b207bcb07d5e7f2929125e5c40cdc49d33d3fe8c8c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "httpd-filesystem-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.noarch.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "httpd-filesystem",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "5f84297bd22736ebc738c2e9dd91585f8e6e330814125d743d2c99ab55d233da",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "mod_ssl-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "mod_ssl",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "8d6339b2676dcaed00ee18e12645c6151588df96f4624ffc03aac364c649e24f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mod_session-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "mod_session",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ca3c0163b08a684d296a9e544d5104337fce74c2e80dae76f739067510943ced",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "httpd-tools-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "httpd-tools",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "cbb22114596b0993e36e3f96928dde55f8db0ffda1007b4706df35c02856bbb3",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "mod_proxy_html-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "mod_proxy_html",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "f0b275f25ec324f10bb03d4429fb0c7468a38be49d066c48247dccfd214a7e66",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
-      "module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
-      "name": "httpd",
-      "reboot_suggested": 0,
-      "release": "43.module_el8.5.0+2630+51c6d843.2.alma",
-      "src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
-      "version": "2.4.37"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
-      "module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
-      "name": "mod_md",
-      "reboot_suggested": 0,
-      "release": "8.module_el8.6.0+2872+fe0ff7aa",
-      "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-      "version": "2.0.8"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-34798",
-      "id": "CVE-2021-34798",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-39275",
-      "id": "CVE-2021-39275",
-      "type": "cve"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-0891.html",
-      "id": "ALSA-2022-0891",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: httpd:2.4 security update",
-  "type": "security",
-  "updated_date": 1647550279
+	"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: NULL pointer dereference via malformed requests (CVE-2021-34798)\n\n* httpd: Out-of-bounds write in ap_escape_quotes() via malicious input (CVE-2021-39275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:0891",
+	"issued_date": 1647335444,
+	"modules": [
+		{
+			"arch": "x86_64",
+			"context": "c5368500",
+			"name": "httpd",
+			"stream": "2.4",
+			"version": "8050020220315233132"
+		},
+		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "httpd",
+			"stream": "2.4",
+			"version": "8060020220622110449"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "06ac737e6218cb628008a1d9c8b42418e4a9e0e057d517c5b5c4a0809b608baa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.noarch.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2b085b6855973441353f1f51b65a7a4d44d8def054a68904b0a1299f3d22c713",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-devel-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "httpd-devel",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2dd6c7eec3077ffc02ed51543ae224ac4a3c7ee4f654d5501b9745672d035011",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_ldap-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "mod_ldap",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3b1e101e6a9192ff94ee4d007aff494cf5631948586568da7a1c6ac1255c8a68",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "mod_md",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2872+fe0ff7aa",
+			"src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+			"version": "2.0.8"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "58d48635fbc3cc0fd83e93b207bcb07d5e7f2929125e5c40cdc49d33d3fe8c8c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-filesystem-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.noarch.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5f84297bd22736ebc738c2e9dd91585f8e6e330814125d743d2c99ab55d233da",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "mod_ssl-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "mod_ssl",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8d6339b2676dcaed00ee18e12645c6151588df96f4624ffc03aac364c649e24f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_session-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "mod_session",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ca3c0163b08a684d296a9e544d5104337fce74c2e80dae76f739067510943ced",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-tools-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "httpd-tools",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cbb22114596b0993e36e3f96928dde55f8db0ffda1007b4706df35c02856bbb3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "mod_proxy_html-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "mod_proxy_html",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f0b275f25ec324f10bb03d4429fb0c7468a38be49d066c48247dccfd214a7e66",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.x86_64.rpm",
+			"module": "httpd:2.4:8050020220315233132:c5368500:x86_64",
+			"name": "httpd",
+			"reboot_suggested": 0,
+			"release": "43.module_el8.5.0+2630+51c6d843.2.alma",
+			"src": "httpd-2.4.37-43.module_el8.5.0+2630+51c6d843.2.alma.src.rpm",
+			"version": "2.4.37"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
+			"module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
+			"name": "mod_md",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2872+fe0ff7aa",
+			"src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+			"version": "2.0.8"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-34798",
+			"id": "CVE-2021-34798",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-39275",
+			"id": "CVE-2021-39275",
+			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-0891.html",
+			"id": "ALSA-2022-0891",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: httpd:2.4 security update",
+	"type": "security",
+	"updated_date": 1647550279
 }

@@ -1,40 +1,40 @@
 {
-  "description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nThe following packages have been upgraded to a later upstream version: rust (1.54.0). (BZ#1945805)\n\nSecurity Fix(es):\n\n* rust: incorrect parsing of extraneous zero characters at the beginning of an IP address string (CVE-2021-29922)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4270",
-  "issued_date": 1636448046,
-  "modules": [
-    {
-      "arch": "x86_64",
-      "context": "5c15747c",
-      "name": "rust-toolset",
-      "stream": "rhel8",
-      "version": "8050020211110212108"
-    }
-  ],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "dce7d72a4b478485cbd39b1999ac5d8a8c7ee6d150ec0cd07d5bae8f9bc30497",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "rust-toolset-1.54.0-1.module_el8.5.0+2599+d655d86c.x86_64.rpm",
-      "module": "rust-toolset:rhel8:8050020211110212108:5c15747c:x86_64",
-      "name": "rust-toolset",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.5.0+2599+d655d86c",
-      "src": "rust-toolset-1.54.0-1.module_el8.5.0+2599+d655d86c.src.rpm",
-      "version": "1.54.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-29922",
-      "id": "CVE-2021-29922",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: rust-toolset:rhel8 security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1636739657
+	"description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nThe following packages have been upgraded to a later upstream version: rust (1.54.0). (BZ#1945805)\n\nSecurity Fix(es):\n\n* rust: incorrect parsing of extraneous zero characters at the beginning of an IP address string (CVE-2021-29922)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4270",
+	"issued_date": 1636448046,
+	"modules": [
+		{
+			"arch": "x86_64",
+			"context": "5c15747c",
+			"name": "rust-toolset",
+			"stream": "rhel8",
+			"version": "8050020211110212108"
+		}
+	],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "dce7d72a4b478485cbd39b1999ac5d8a8c7ee6d150ec0cd07d5bae8f9bc30497",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rust-toolset-1.54.0-1.module_el8.5.0+2599+d655d86c.x86_64.rpm",
+			"module": "rust-toolset:rhel8:8050020211110212108:5c15747c:x86_64",
+			"name": "rust-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2599+d655d86c",
+			"src": "rust-toolset-1.54.0-1.module_el8.5.0+2599+d655d86c.src.rpm",
+			"version": "1.54.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-29922",
+			"id": "CVE-2021-29922",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: rust-toolset:rhel8 security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1636739657
 }

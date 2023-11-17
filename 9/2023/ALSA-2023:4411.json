@@ -1,94 +1,94 @@
 {
-  "description": "CJose is C library implementing the Javascript Object Signing and Encryption (JOSE).\n\nSecurity Fix(es):\n\n* cjose: AES GCM decryption uses the Tag length from the actual Authentication Tag provided in the JWE (CVE-2023-37464)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:4411",
-  "issued_date": 1690848000,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "82ac6e178f4a174521fe630b0a7151bcef641ec4698bc0fecde1fdb6d4877c95",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "cjose-0.6.1-13.el9_2.alma.i686.rpm",
-      "name": "cjose",
-      "reboot_suggested": 0,
-      "release": "13.el9_2.alma",
-      "src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
-      "version": "0.6.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ec92fb40f6ff1dcdb8f991a55494a943dcea3091d8bd828cade2b9b28e7df251",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "cjose-0.6.1-13.el9_2.alma.x86_64.rpm",
-      "name": "cjose",
-      "reboot_suggested": 0,
-      "release": "13.el9_2.alma",
-      "src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
-      "version": "0.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "eb2cb48a688d7c2b5e9a3a3d8317af46776ce43698a4d380d34a7b26cf06b1af",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "cjose-0.6.1-13.el9_2.alma.ppc64le.rpm",
-      "name": "cjose",
-      "reboot_suggested": 0,
-      "release": "13.el9_2.alma",
-      "src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
-      "version": "0.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "2c4b5ba1acd58f94e4d1d529c4e323138c97ae107b281a1fbede79cad62d33b0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "cjose-0.6.1-13.el9_2.alma.s390x.rpm",
-      "name": "cjose",
-      "reboot_suggested": 0,
-      "release": "13.el9_2.alma",
-      "src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
-      "version": "0.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "ba6a3e47385d426da1fb56f855cecb66dc3bed5061cd8f71fe13a7685cce858a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "cjose-0.6.1-13.el9_2.alma.aarch64.rpm",
-      "name": "cjose",
-      "reboot_suggested": 0,
-      "release": "13.el9_2.alma",
-      "src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
-      "version": "0.6.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:4411",
-      "id": "RHSA-2023:4411",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-37464",
-      "id": "CVE-2023-37464",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2223295",
-      "id": "2223295",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-4411.html",
-      "id": "ALSA-2023:4411",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: cjose security update",
-  "type": "security",
-  "updated_date": 1690992082
+	"description": "CJose is C library implementing the Javascript Object Signing and Encryption (JOSE).\n\nSecurity Fix(es):\n\n* cjose: AES GCM decryption uses the Tag length from the actual Authentication Tag provided in the JWE (CVE-2023-37464)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:4411",
+	"issued_date": 1690848000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "82ac6e178f4a174521fe630b0a7151bcef641ec4698bc0fecde1fdb6d4877c95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-13.el9_2.alma.i686.rpm",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "13.el9_2.alma",
+			"src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ec92fb40f6ff1dcdb8f991a55494a943dcea3091d8bd828cade2b9b28e7df251",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-13.el9_2.alma.x86_64.rpm",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "13.el9_2.alma",
+			"src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "eb2cb48a688d7c2b5e9a3a3d8317af46776ce43698a4d380d34a7b26cf06b1af",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-13.el9_2.alma.ppc64le.rpm",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "13.el9_2.alma",
+			"src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2c4b5ba1acd58f94e4d1d529c4e323138c97ae107b281a1fbede79cad62d33b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-13.el9_2.alma.s390x.rpm",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "13.el9_2.alma",
+			"src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ba6a3e47385d426da1fb56f855cecb66dc3bed5061cd8f71fe13a7685cce858a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-13.el9_2.alma.aarch64.rpm",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "13.el9_2.alma",
+			"src": "cjose-0.6.1-13.el9_2.alma.src.rpm",
+			"version": "0.6.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:4411",
+			"id": "RHSA-2023:4411",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-37464",
+			"id": "CVE-2023-37464",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2223295",
+			"id": "2223295",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-4411.html",
+			"id": "ALSA-2023:4411",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: cjose security update",
+	"type": "security",
+	"updated_date": 1690992082
 }

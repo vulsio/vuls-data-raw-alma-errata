@@ -1,150 +1,150 @@
 {
-  "description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* Apache Commons FileUpload: FileUpload DoS with excessive parts (CVE-2023-24998)\n* tomcat: not including the secure attribute causes information disclosure (CVE-2023-28708)\n* tomcat: Fix for CVE-2023-24998 was incomplete (CVE-2023-28709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6570",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "3243a5704e3756790a643180f73e6db416803a40c8121a29b02b63f7c09f15b4",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "631738483d1c8a4a83ce44a7c2dfbbe6629f04d2ae1669f548f08310077b32dc",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-docs-webapp-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-docs-webapp",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "7dbf1bd58a807f362e68132507b310d6a9d71b02568d2442aa26c7f8d2161d49",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-admin-webapps-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-admin-webapps",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "9c937a2e67dd58371fd0ea3f9fdc0505c7fdc3aff6a521207c3ebe86879f7243",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-el-3.0-api-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-el-3.0-api",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "b2b91cde77fa70d9f73654a89078e535a3d9bce64b1b28a06c3032707dc73089",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-webapps-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-webapps",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "b88307c078e6c360f31cf6274204b4c117363cd36c0daf1067805a883bd79f34",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-lib-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-lib",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "c1a61b95274a92645b2a93cb200d35d5b7a06654261aca78c9684364381edfd4",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-jsp-2.3-api-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-jsp-2.3-api",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "d4cde5b93ec9345cd3b3d3c8b851be99c6dcb7cdccc234e588f8045c52a56faa",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "tomcat-servlet-4.0-api-9.0.62-37.el9_3.noarch.rpm",
-      "name": "tomcat-servlet-4.0-api",
-      "reboot_suggested": 0,
-      "release": "37.el9_3",
-      "src": "tomcat-9.0.62-37.el9_3.src.rpm",
-      "version": "9.0.62"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6570",
-      "id": "RHSA-2023:6570",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24998",
-      "id": "CVE-2023-24998",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-28708",
-      "id": "CVE-2023-28708",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-28709",
-      "id": "CVE-2023-28709",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172298",
-      "id": "2172298",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2180856",
-      "id": "2180856",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2210321",
-      "id": "2210321",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6570.html",
-      "id": "ALSA-2023:6570",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: tomcat security and bug fix update",
-  "type": "security",
-  "updated_date": 1699964022
+	"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* Apache Commons FileUpload: FileUpload DoS with excessive parts (CVE-2023-24998)\n* tomcat: not including the secure attribute causes information disclosure (CVE-2023-28708)\n* tomcat: Fix for CVE-2023-24998 was incomplete (CVE-2023-28709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6570",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "3243a5704e3756790a643180f73e6db416803a40c8121a29b02b63f7c09f15b4",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "631738483d1c8a4a83ce44a7c2dfbbe6629f04d2ae1669f548f08310077b32dc",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-docs-webapp-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-docs-webapp",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7dbf1bd58a807f362e68132507b310d6a9d71b02568d2442aa26c7f8d2161d49",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-admin-webapps-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-admin-webapps",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9c937a2e67dd58371fd0ea3f9fdc0505c7fdc3aff6a521207c3ebe86879f7243",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-el-3.0-api-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-el-3.0-api",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b2b91cde77fa70d9f73654a89078e535a3d9bce64b1b28a06c3032707dc73089",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-webapps-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-webapps",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b88307c078e6c360f31cf6274204b4c117363cd36c0daf1067805a883bd79f34",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-lib-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-lib",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c1a61b95274a92645b2a93cb200d35d5b7a06654261aca78c9684364381edfd4",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-jsp-2.3-api-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-jsp-2.3-api",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d4cde5b93ec9345cd3b3d3c8b851be99c6dcb7cdccc234e588f8045c52a56faa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-servlet-4.0-api-9.0.62-37.el9_3.noarch.rpm",
+			"name": "tomcat-servlet-4.0-api",
+			"reboot_suggested": 0,
+			"release": "37.el9_3",
+			"src": "tomcat-9.0.62-37.el9_3.src.rpm",
+			"version": "9.0.62"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6570",
+			"id": "RHSA-2023:6570",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24998",
+			"id": "CVE-2023-24998",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28708",
+			"id": "CVE-2023-28708",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28709",
+			"id": "CVE-2023-28709",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172298",
+			"id": "2172298",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2180856",
+			"id": "2180856",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210321",
+			"id": "2210321",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6570.html",
+			"id": "ALSA-2023:6570",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: tomcat security and bug fix update",
+	"type": "security",
+	"updated_date": 1699964022
 }

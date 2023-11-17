@@ -1,43 +1,43 @@
 {
-  "description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nSecurity Fix(es):\n\n* libssh: NULL pointer dereference in sftpserver.c if ssh_buffer_new returns NULL (CVE-2020-16135)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4387",
-  "issued_date": 1636449367,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "b953f0aa285bd42e89644c300896e8e47fb5e7fd7fe81b7b5d9bc0486b2a7920",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libssh-devel-0.9.4-3.el8.i686.rpm",
-      "name": "libssh-devel",
-      "reboot_suggested": 0,
-      "release": "3.el8",
-      "src": "libssh-0.9.4-3.el8.src.rpm",
-      "version": "0.9.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "d81d7800ff455b0aa295dbec12943c62a1860767efd3e931f28b136318b7ab80",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libssh-devel-0.9.4-3.el8.x86_64.rpm",
-      "name": "libssh-devel",
-      "reboot_suggested": 0,
-      "release": "3.el8",
-      "src": "libssh-0.9.4-3.el8.src.rpm",
-      "version": "0.9.4"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-16135",
-      "id": "CVE-2020-16135",
-      "type": "cve"
-    }
-  ],
-  "severity": "Low",
-  "title": "Low: libssh security update",
-  "type": "security",
-  "updated_date": 1636712456
+	"description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nSecurity Fix(es):\n\n* libssh: NULL pointer dereference in sftpserver.c if ssh_buffer_new returns NULL (CVE-2020-16135)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4387",
+	"issued_date": 1636449367,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "b953f0aa285bd42e89644c300896e8e47fb5e7fd7fe81b7b5d9bc0486b2a7920",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libssh-devel-0.9.4-3.el8.i686.rpm",
+			"name": "libssh-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libssh-0.9.4-3.el8.src.rpm",
+			"version": "0.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d81d7800ff455b0aa295dbec12943c62a1860767efd3e931f28b136318b7ab80",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libssh-devel-0.9.4-3.el8.x86_64.rpm",
+			"name": "libssh-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libssh-0.9.4-3.el8.src.rpm",
+			"version": "0.9.4"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-16135",
+			"id": "CVE-2020-16135",
+			"type": "cve"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: libssh security update",
+	"type": "security",
+	"updated_date": 1636712456
 }

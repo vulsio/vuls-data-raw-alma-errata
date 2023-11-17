@@ -1,31 +1,31 @@
 {
-  "description": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.\n\nSecurity Fix(es):\n\n* openssh: Observable discrepancy leading to an information leak in the algorithm negotiation (CVE-2020-14145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4368",
-  "issued_date": 1636449101,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "896744b10c1ca0d49f6e1ed7c68ff0c9570cdf3e6c2ce738103b306dde736510",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "openssh-askpass-8.0p1-10.el8.x86_64.rpm",
-      "name": "openssh-askpass",
-      "reboot_suggested": 0,
-      "release": "10.el8",
-      "src": "openssh-8.0p1-10.el8.src.rpm",
-      "version": "8.0p1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-14145",
-      "id": "CVE-2020-14145",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: openssh security update",
-  "type": "security",
-  "updated_date": 1636712456
+	"description": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.\n\nSecurity Fix(es):\n\n* openssh: Observable discrepancy leading to an information leak in the algorithm negotiation (CVE-2020-14145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4368",
+	"issued_date": 1636449101,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "896744b10c1ca0d49f6e1ed7c68ff0c9570cdf3e6c2ce738103b306dde736510",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-askpass-8.0p1-10.el8.x86_64.rpm",
+			"name": "openssh-askpass",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "openssh-8.0p1-10.el8.src.rpm",
+			"version": "8.0p1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-14145",
+			"id": "CVE-2020-14145",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: openssh security update",
+	"type": "security",
+	"updated_date": 1636712456
 }

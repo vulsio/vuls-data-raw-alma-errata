@@ -1,132 +1,132 @@
 {
-  "description": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:8250",
-  "issued_date": 1668470400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "e15a7b876ccef351315221d600cfee655fc871a6cd4fcc1a7d681f949c850631",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-pcp-3.2.0-3.el9.x86_64.rpm",
-      "name": "grafana-pcp",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "grafana-pcp-3.2.0-3.el9.src.rpm",
-      "version": "3.2.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "ed9b0ee720680fefef4e3e9abc23eea4406d1551754dca5f902e954d0558fa95",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-pcp-3.2.0-3.el9.ppc64le.rpm",
-      "name": "grafana-pcp",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "grafana-pcp-3.2.0-3.el9.src.rpm",
-      "version": "3.2.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "2923a16af2b40a408f83362bd9652420b172807e92f0a05f3905490d04032f3a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-pcp-3.2.0-3.el9.s390x.rpm",
-      "name": "grafana-pcp",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "grafana-pcp-3.2.0-3.el9.src.rpm",
-      "version": "3.2.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "c2ff690b1887fe0f8ddb73ede3db978addc5f7e8a53d3b9be2d42629e416409a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-pcp-3.2.0-3.el9.aarch64.rpm",
-      "name": "grafana-pcp",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "grafana-pcp-3.2.0-3.el9.src.rpm",
-      "version": "3.2.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8250",
-      "id": "RHSA-2022:8250",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1705",
-      "id": "CVE-2022-1705",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30630",
-      "id": "CVE-2022-30630",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30631",
-      "id": "CVE-2022-30631",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30632",
-      "id": "CVE-2022-30632",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-30635",
-      "id": "CVE-2022-30635",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-32148",
-      "id": "CVE-2022-32148",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107342",
-      "id": "2107342",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107371",
-      "id": "2107371",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107374",
-      "id": "2107374",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107383",
-      "id": "2107383",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107386",
-      "id": "2107386",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2107388",
-      "id": "2107388",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-8250.html",
-      "id": "ALSA-2022:8250",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: grafana-pcp security update",
-  "type": "security",
-  "updated_date": 1668734393
+	"description": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:8250",
+	"issued_date": 1668470400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "e15a7b876ccef351315221d600cfee655fc871a6cd4fcc1a7d681f949c850631",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-pcp-3.2.0-3.el9.x86_64.rpm",
+			"name": "grafana-pcp",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "grafana-pcp-3.2.0-3.el9.src.rpm",
+			"version": "3.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ed9b0ee720680fefef4e3e9abc23eea4406d1551754dca5f902e954d0558fa95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-pcp-3.2.0-3.el9.ppc64le.rpm",
+			"name": "grafana-pcp",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "grafana-pcp-3.2.0-3.el9.src.rpm",
+			"version": "3.2.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2923a16af2b40a408f83362bd9652420b172807e92f0a05f3905490d04032f3a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-pcp-3.2.0-3.el9.s390x.rpm",
+			"name": "grafana-pcp",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "grafana-pcp-3.2.0-3.el9.src.rpm",
+			"version": "3.2.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c2ff690b1887fe0f8ddb73ede3db978addc5f7e8a53d3b9be2d42629e416409a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-pcp-3.2.0-3.el9.aarch64.rpm",
+			"name": "grafana-pcp",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "grafana-pcp-3.2.0-3.el9.src.rpm",
+			"version": "3.2.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:8250",
+			"id": "RHSA-2022:8250",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1705",
+			"id": "CVE-2022-1705",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30630",
+			"id": "CVE-2022-30630",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30631",
+			"id": "CVE-2022-30631",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30632",
+			"id": "CVE-2022-30632",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-30635",
+			"id": "CVE-2022-30635",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-32148",
+			"id": "CVE-2022-32148",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107342",
+			"id": "2107342",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107371",
+			"id": "2107371",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107374",
+			"id": "2107374",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107383",
+			"id": "2107383",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107386",
+			"id": "2107386",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2107388",
+			"id": "2107388",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-8250.html",
+			"id": "ALSA-2022:8250",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: grafana-pcp security update",
+	"type": "security",
+	"updated_date": 1668734393
 }

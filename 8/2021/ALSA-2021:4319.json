@@ -1,53 +1,53 @@
 {
-  "description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nSecurity Fix(es):\n\n* exiv2: Integer overflow in CrwMap:encode0x1810 leading to heap-based buffer overflow and DoS (CVE-2021-31292)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::printStructure (CVE-2021-37618)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-37619)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4319",
-  "issued_date": 1636448436,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "a090c839f977932c924c376fb5a8cc1628a3a95afc28f154d7e042fd5467b409",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-6.el8.i686.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "6.el8",
-      "src": "compat-exiv2-026-0.26-6.el8.src.rpm",
-      "version": "0.26"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "abbeb6449ead92732cf679a1929f753198429764254b2398a8937350358da672",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-6.el8.x86_64.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "6.el8",
-      "src": "compat-exiv2-026-0.26-6.el8.src.rpm",
-      "version": "0.26"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-31292",
-      "id": "CVE-2021-31292",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-37618",
-      "id": "CVE-2021-37618",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-37619",
-      "id": "CVE-2021-37619",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: compat-exiv2-026 security update",
-  "type": "security",
-  "updated_date": 1636712456
+	"description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nSecurity Fix(es):\n\n* exiv2: Integer overflow in CrwMap:encode0x1810 leading to heap-based buffer overflow and DoS (CVE-2021-31292)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::printStructure (CVE-2021-37618)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-37619)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4319",
+	"issued_date": 1636448436,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "a090c839f977932c924c376fb5a8cc1628a3a95afc28f154d7e042fd5467b409",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-6.el8.i686.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "compat-exiv2-026-0.26-6.el8.src.rpm",
+			"version": "0.26"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "abbeb6449ead92732cf679a1929f753198429764254b2398a8937350358da672",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-6.el8.x86_64.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "compat-exiv2-026-0.26-6.el8.src.rpm",
+			"version": "0.26"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-31292",
+			"id": "CVE-2021-31292",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-37618",
+			"id": "CVE-2021-37618",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-37619",
+			"id": "CVE-2021-37619",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: compat-exiv2-026 security update",
+	"type": "security",
+	"updated_date": 1636712456
 }

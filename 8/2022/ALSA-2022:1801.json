@@ -1,72 +1,72 @@
 {
-  "description": "GLib/GObject wrapper for the Facebook Graph API that integrates with GNOME Online Accounts.\n\nThe following packages have been upgraded to a later upstream version: gfbgraph (0.2.4). (BZ#1997941)\n\nSecurity Fix(es):\n\n* gfbgraph: missing TLS certificate verification (CVE-2021-39358)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:1801",
-  "issued_date": 1652164072,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "04670fff49de07aa36a2fd26670ef24a45db3439a72ba3a819d1a43707014a88",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gfbgraph-0.2.4-1.el8.i686.rpm",
-      "name": "gfbgraph",
-      "reboot_suggested": 0,
-      "release": "1.el8",
-      "src": "gfbgraph-0.2.4-1.el8.src.rpm",
-      "version": "0.2.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3be8bc184dca48642bb594f342c12b43a5f3e503ea06d681c7ed1223970374ce",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gfbgraph-0.2.4-1.el8.x86_64.rpm",
-      "name": "gfbgraph",
-      "reboot_suggested": 0,
-      "release": "1.el8",
-      "src": "gfbgraph-0.2.4-1.el8.src.rpm",
-      "version": "0.2.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3be8bc184dca48642bb594f342c12b43a5f3e503ea06d681c7ed1223970374ce",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gfbgraph-0.2.4-1.el8.x86_64.rpm",
-      "name": "gfbgraph",
-      "reboot_suggested": 0,
-      "release": "1.el8",
-      "src": "gfbgraph-0.2.4-1.el8.src.rpm",
-      "version": "0.2.4"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "8ed98c3f3fbc2226c64ee26d156eb46b2aa9e6409321da27daeeed7bd70fb2ff",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gfbgraph-0.2.4-1.el8.ppc64le.rpm",
-      "name": "gfbgraph",
-      "reboot_suggested": 0,
-      "release": "1.el8",
-      "src": "gfbgraph-0.2.4-1.el8.src.rpm",
-      "version": "0.2.4"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1801.html",
-      "id": "ALSA-2022-1801",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-39358",
-      "id": "CVE-2021-39358",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: gfbgraph security update",
-  "type": "security",
-  "updated_date": 1678725154
+	"description": "GLib/GObject wrapper for the Facebook Graph API that integrates with GNOME Online Accounts.\n\nThe following packages have been upgraded to a later upstream version: gfbgraph (0.2.4). (BZ#1997941)\n\nSecurity Fix(es):\n\n* gfbgraph: missing TLS certificate verification (CVE-2021-39358)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:1801",
+	"issued_date": 1652164072,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "04670fff49de07aa36a2fd26670ef24a45db3439a72ba3a819d1a43707014a88",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gfbgraph-0.2.4-1.el8.i686.rpm",
+			"name": "gfbgraph",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gfbgraph-0.2.4-1.el8.src.rpm",
+			"version": "0.2.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3be8bc184dca48642bb594f342c12b43a5f3e503ea06d681c7ed1223970374ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gfbgraph-0.2.4-1.el8.x86_64.rpm",
+			"name": "gfbgraph",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gfbgraph-0.2.4-1.el8.src.rpm",
+			"version": "0.2.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3be8bc184dca48642bb594f342c12b43a5f3e503ea06d681c7ed1223970374ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gfbgraph-0.2.4-1.el8.x86_64.rpm",
+			"name": "gfbgraph",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gfbgraph-0.2.4-1.el8.src.rpm",
+			"version": "0.2.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8ed98c3f3fbc2226c64ee26d156eb46b2aa9e6409321da27daeeed7bd70fb2ff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gfbgraph-0.2.4-1.el8.ppc64le.rpm",
+			"name": "gfbgraph",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gfbgraph-0.2.4-1.el8.src.rpm",
+			"version": "0.2.4"
+		}
+	],
+	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1801.html",
+			"id": "ALSA-2022-1801",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-39358",
+			"id": "CVE-2021-39358",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: gfbgraph security update",
+	"type": "security",
+	"updated_date": 1678725154
 }

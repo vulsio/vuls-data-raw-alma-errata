@@ -1,84 +1,84 @@
 {
-  "description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nSecurity Fix(es):\n\n* exiv2: stack exhaustion issue in the printIFDStructure function may lead to DoS (CVE-2020-18898)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:1797",
-  "issued_date": 1652169706,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "cdeb63ad38a448dad2dcf7a8cdfc3f26bd60950101b41762e7c90ecfc3e7bd77",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-7.el8.i686.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "7.el8",
-      "src": "compat-exiv2-026-0.26-7.el8.src.rpm",
-      "version": "0.26"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "eb6d782db96daaac2378566761da48a134d86de738fdb4d4569c8d4463829064",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-7.el8.x86_64.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "7.el8",
-      "src": "compat-exiv2-026-0.26-7.el8.src.rpm",
-      "version": "0.26"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "eb6d782db96daaac2378566761da48a134d86de738fdb4d4569c8d4463829064",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-7.el8.x86_64.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "7.el8",
-      "src": "compat-exiv2-026-0.26-7.el8.src.rpm",
-      "version": "0.26"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "5255323ebec716c97ca8a9797595edd0824f88cec186496894b6541f90fee3d0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-7.el8.aarch64.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "7.el8",
-      "src": "compat-exiv2-026-0.26-7.el8.src.rpm",
-      "version": "0.26"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "a1836d75cb1f3bec356dda36a75b135d961c7a0f51cb62214d6ce05cf75a8713",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "compat-exiv2-026-0.26-7.el8.ppc64le.rpm",
-      "name": "compat-exiv2-026",
-      "reboot_suggested": 0,
-      "release": "7.el8",
-      "src": "compat-exiv2-026-0.26-7.el8.src.rpm",
-      "version": "0.26"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1797.html",
-      "id": "ALSA-2022-1797",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-18898",
-      "id": "CVE-2020-18898",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: compat-exiv2-026 security update",
-  "type": "security",
-  "updated_date": 1678725153
+	"description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nSecurity Fix(es):\n\n* exiv2: stack exhaustion issue in the printIFDStructure function may lead to DoS (CVE-2020-18898)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:1797",
+	"issued_date": 1652169706,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "cdeb63ad38a448dad2dcf7a8cdfc3f26bd60950101b41762e7c90ecfc3e7bd77",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-7.el8.i686.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "compat-exiv2-026-0.26-7.el8.src.rpm",
+			"version": "0.26"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "eb6d782db96daaac2378566761da48a134d86de738fdb4d4569c8d4463829064",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-7.el8.x86_64.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "compat-exiv2-026-0.26-7.el8.src.rpm",
+			"version": "0.26"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "eb6d782db96daaac2378566761da48a134d86de738fdb4d4569c8d4463829064",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-7.el8.x86_64.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "compat-exiv2-026-0.26-7.el8.src.rpm",
+			"version": "0.26"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5255323ebec716c97ca8a9797595edd0824f88cec186496894b6541f90fee3d0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-7.el8.aarch64.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "compat-exiv2-026-0.26-7.el8.src.rpm",
+			"version": "0.26"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a1836d75cb1f3bec356dda36a75b135d961c7a0f51cb62214d6ce05cf75a8713",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-exiv2-026-0.26-7.el8.ppc64le.rpm",
+			"name": "compat-exiv2-026",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "compat-exiv2-026-0.26-7.el8.src.rpm",
+			"version": "0.26"
+		}
+	],
+	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1797.html",
+			"id": "ALSA-2022-1797",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-18898",
+			"id": "CVE-2020-18898",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: compat-exiv2-026 security update",
+	"type": "security",
+	"updated_date": 1678725153
 }

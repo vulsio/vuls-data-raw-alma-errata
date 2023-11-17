@@ -1,252 +1,252 @@
 {
-  "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:0302",
-  "issued_date": 1674432000,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "8e44488ae758325317bcb86ea672cfcbe81a64bcacdd7acff09d3ebf6e940596",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-devel-4.4.0-5.el9_1.i686.rpm",
-      "name": "libtiff-devel",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "i686",
-      "checksum": "96fc910832e3a04088a1213e3695002881c906e8a58484906d13f199a621856f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-4.4.0-5.el9_1.i686.rpm",
-      "name": "libtiff",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "a05a597f9a37c4d21bd6857d6c28fdccd2b5f7cccc08d5dcc1d64429f0879857",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-devel-4.4.0-5.el9_1.x86_64.rpm",
-      "name": "libtiff-devel",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "f07d90a02b459415757015fa2cc985c50132b4058555379f70dcc533ce6ef27a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-4.4.0-5.el9_1.x86_64.rpm",
-      "name": "libtiff",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "2aef83c8945caecad5c04b930b325ade1af79c732b4bed93d878e1292706672b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-4.4.0-5.el9_1.ppc64le.rpm",
-      "name": "libtiff",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "7a05b7b712ba7a6e88ad9cfbb31703830bc93dedaa39dbaf252ae133c3f62bff",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-devel-4.4.0-5.el9_1.ppc64le.rpm",
-      "name": "libtiff-devel",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "c39e07d5bd978b073b5e0b814f4b1a5f1d11f542fb4947421581aff96df50b4c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-4.4.0-5.el9_1.s390x.rpm",
-      "name": "libtiff",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "e4ee1fffb695774e39ffbbed996c36e274c2be3e1df6d0ea0468163ad119c916",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-devel-4.4.0-5.el9_1.s390x.rpm",
-      "name": "libtiff-devel",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "1d4ce129378bb45f836e3063578596eccf8420e33050e8e649efca16663dd5cd",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-devel-4.4.0-5.el9_1.aarch64.rpm",
-      "name": "libtiff-devel",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "98625e6eaafd31d57628601af91a13a021f697b9e390e4fc9c8a66d10f4b3f99",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-4.4.0-5.el9_1.aarch64.rpm",
-      "name": "libtiff",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "2a6eb9f59c0eaafdef2b37c769b51353de3e4f3906e3d04435450a345bbc4ffe",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-tools-4.4.0-5.el9_1.ppc64le.rpm",
-      "name": "libtiff-tools",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "b9e520a1d90d0a1f5f32092c5a2b1a52420d5e1e5c3841bd788f6cf40319cc7e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-tools-4.4.0-5.el9_1.aarch64.rpm",
-      "name": "libtiff-tools",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "d3026e526a0afcf1c5291c20a4de6b1b176913b8a7cccfa0a205a1c9a3ad02d9",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-tools-4.4.0-5.el9_1.s390x.rpm",
-      "name": "libtiff-tools",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "f3d5c153243cc2cce4d45acc7c98215ca9c39685bf9f1368545ab1b3bb75c854",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libtiff-tools-4.4.0-5.el9_1.x86_64.rpm",
-      "name": "libtiff-tools",
-      "reboot_suggested": 0,
-      "release": "5.el9_1",
-      "src": "libtiff-4.4.0-5.el9_1.src.rpm",
-      "version": "4.4.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0302",
-      "id": "RHSA-2023:0302",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2056",
-      "id": "CVE-2022-2056",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2057",
-      "id": "CVE-2022-2057",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2058",
-      "id": "CVE-2022-2058",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2519",
-      "id": "CVE-2022-2519",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2520",
-      "id": "CVE-2022-2520",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2521",
-      "id": "CVE-2022-2521",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2953",
-      "id": "CVE-2022-2953",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2103222",
-      "id": "2103222",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2122789",
-      "id": "2122789",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2122792",
-      "id": "2122792",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2122799",
-      "id": "2122799",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2134432",
-      "id": "2134432",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-0302.html",
-      "id": "ALSA-2023:0302",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: libtiff security update",
-  "type": "security",
-  "updated_date": 1678725407
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:0302",
+	"issued_date": 1674432000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "8e44488ae758325317bcb86ea672cfcbe81a64bcacdd7acff09d3ebf6e940596",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-5.el9_1.i686.rpm",
+			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "96fc910832e3a04088a1213e3695002881c906e8a58484906d13f199a621856f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-5.el9_1.i686.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a05a597f9a37c4d21bd6857d6c28fdccd2b5f7cccc08d5dcc1d64429f0879857",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-5.el9_1.x86_64.rpm",
+			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f07d90a02b459415757015fa2cc985c50132b4058555379f70dcc533ce6ef27a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-5.el9_1.x86_64.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2aef83c8945caecad5c04b930b325ade1af79c732b4bed93d878e1292706672b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-5.el9_1.ppc64le.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7a05b7b712ba7a6e88ad9cfbb31703830bc93dedaa39dbaf252ae133c3f62bff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-5.el9_1.ppc64le.rpm",
+			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c39e07d5bd978b073b5e0b814f4b1a5f1d11f542fb4947421581aff96df50b4c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-5.el9_1.s390x.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e4ee1fffb695774e39ffbbed996c36e274c2be3e1df6d0ea0468163ad119c916",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-5.el9_1.s390x.rpm",
+			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1d4ce129378bb45f836e3063578596eccf8420e33050e8e649efca16663dd5cd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-5.el9_1.aarch64.rpm",
+			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "98625e6eaafd31d57628601af91a13a021f697b9e390e4fc9c8a66d10f4b3f99",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-5.el9_1.aarch64.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2a6eb9f59c0eaafdef2b37c769b51353de3e4f3906e3d04435450a345bbc4ffe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.4.0-5.el9_1.ppc64le.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b9e520a1d90d0a1f5f32092c5a2b1a52420d5e1e5c3841bd788f6cf40319cc7e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.4.0-5.el9_1.aarch64.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d3026e526a0afcf1c5291c20a4de6b1b176913b8a7cccfa0a205a1c9a3ad02d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.4.0-5.el9_1.s390x.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f3d5c153243cc2cce4d45acc7c98215ca9c39685bf9f1368545ab1b3bb75c854",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.4.0-5.el9_1.x86_64.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "5.el9_1",
+			"src": "libtiff-4.4.0-5.el9_1.src.rpm",
+			"version": "4.4.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:0302",
+			"id": "RHSA-2023:0302",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2056",
+			"id": "CVE-2022-2056",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2057",
+			"id": "CVE-2022-2057",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2058",
+			"id": "CVE-2022-2058",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2519",
+			"id": "CVE-2022-2519",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2520",
+			"id": "CVE-2022-2520",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2521",
+			"id": "CVE-2022-2521",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2953",
+			"id": "CVE-2022-2953",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2103222",
+			"id": "2103222",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2122789",
+			"id": "2122789",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2122792",
+			"id": "2122792",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2122799",
+			"id": "2122799",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2134432",
+			"id": "2134432",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-0302.html",
+			"id": "ALSA-2023:0302",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libtiff security update",
+	"type": "security",
+	"updated_date": 1678725407
 }

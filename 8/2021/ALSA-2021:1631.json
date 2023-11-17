@@ -1,36 +1,36 @@
 {
-  "description": "The python-urllib3 package provides the Python HTTP module with connection pooling and file POST abilities.\n\nSecurity Fix(es):\n\n* python-urllib3: CRLF injection via HTTP request method (CVE-2020-26137)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:1631",
-  "issued_date": 1621316547,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "e1175a41eea32abfee3fdeabc1e1a5fbdd3d5b73de08c3bf4be6323a60a61c64",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-urllib3-1.24.2-5.el8.noarch.rpm",
-      "name": "python3-urllib3",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "python-urllib3-1.24.2-5.el8.src.rpm",
-      "version": "1.24.2"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1631.html",
-      "id": "ALSA-2021-1631",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-26137",
-      "id": "CVE-2020-26137",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: python-urllib3 security update",
-  "type": "security",
-  "updated_date": 1621316535
+	"description": "The python-urllib3 package provides the Python HTTP module with connection pooling and file POST abilities.\n\nSecurity Fix(es):\n\n* python-urllib3: CRLF injection via HTTP request method (CVE-2020-26137)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:1631",
+	"issued_date": 1621316547,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "e1175a41eea32abfee3fdeabc1e1a5fbdd3d5b73de08c3bf4be6323a60a61c64",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-urllib3-1.24.2-5.el8.noarch.rpm",
+			"name": "python3-urllib3",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "python-urllib3-1.24.2-5.el8.src.rpm",
+			"version": "1.24.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1631.html",
+			"id": "ALSA-2021-1631",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-26137",
+			"id": "CVE-2020-26137",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-urllib3 security update",
+	"type": "security",
+	"updated_date": 1621316535
 }

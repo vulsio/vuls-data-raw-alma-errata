@@ -1,202 +1,202 @@
 {
-  "description": "The librabbitmq packages provide an Advanced Message Queuing Protocol (AMQP) client library that allows you to communicate with AMQP servers using protocol version 0-9-1.\n\nSecurity Fix(es):\n\n* rabbitmq-c/librabbitmq: Insecure credentials submission (CVE-2023-35789)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6482",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "632ea79712aa20079359d3e728a4b9f9c2aa7d323ba1d7a79f746485e50d9ec8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-tools-0.11.0-7.el9.x86_64.rpm",
-      "name": "librabbitmq-tools",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fa27171c27447d95d8655bdcd7c30d14cda80b841acf9c2b1d1edc5c1c463aad",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-0.11.0-7.el9.x86_64.rpm",
-      "name": "librabbitmq",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "i686",
-      "checksum": "fe386f6d10c8787d132677906d9a8915ea57fed941460dcfba3f18800ba0b2e0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-0.11.0-7.el9.i686.rpm",
-      "name": "librabbitmq",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "30e3c288515b21717d96466ba2c2eca3a8ac136a9d90928ccab703cdcca7e63d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-0.11.0-7.el9.ppc64le.rpm",
-      "name": "librabbitmq",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "51eba931eed6fe3ed8dd9f2f4ee17a2e689e4081205588635d1565f70a55a8e5",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-tools-0.11.0-7.el9.ppc64le.rpm",
-      "name": "librabbitmq-tools",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "742cd67b1f4176bdacfd16f4afa3f18ecd70631b9fe2f999e487ce8716674d8e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-tools-0.11.0-7.el9.s390x.rpm",
-      "name": "librabbitmq-tools",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "ca6526bc24cda3289256c56cd2c5ba4b5cd3960a73777cd2bb274321377f10b3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-0.11.0-7.el9.s390x.rpm",
-      "name": "librabbitmq",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "6fdf8dbacac7008c47ecddcc1c5182363eef6432ab0c6be6b521646cd25e1bb1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-tools-0.11.0-7.el9.aarch64.rpm",
-      "name": "librabbitmq-tools",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "c6007122afb535dad1fde19d545bbc0818d07e5a44366a25f1708ee1a5d9ffed",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-0.11.0-7.el9.aarch64.rpm",
-      "name": "librabbitmq",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "i686",
-      "checksum": "308ca302f3750c8f431ed366f565ec9d35497fdb93d4f2d35a2662056cf0334a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-devel-0.11.0-7.el9.i686.rpm",
-      "name": "librabbitmq-devel",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "2fe74c5bc4071c88d655a938a949bce3d81f4f03004b29e7c138ed08f0776200",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-devel-0.11.0-7.el9.ppc64le.rpm",
-      "name": "librabbitmq-devel",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "8ecb642275347f4ed7f80bde795214888d2769c0fec35e943b3463741089015c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-devel-0.11.0-7.el9.aarch64.rpm",
-      "name": "librabbitmq-devel",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "d70cbea7c8c9b13f6e96a901d92552a02e47ebc8970045bf5022b1cac99c3d93",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-devel-0.11.0-7.el9.s390x.rpm",
-      "name": "librabbitmq-devel",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "483d5fc7a6fe26d9919e5b5a7c90ee1ee29b0eb9a05a39965fd8b047d03efb95",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "librabbitmq-devel-0.11.0-7.el9.x86_64.rpm",
-      "name": "librabbitmq-devel",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "librabbitmq-0.11.0-7.el9.src.rpm",
-      "version": "0.11.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6482",
-      "id": "RHSA-2023:6482",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-35789",
-      "id": "CVE-2023-35789",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2215762",
-      "id": "2215762",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6482.html",
-      "id": "ALSA-2023:6482",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: librabbitmq security update",
-  "type": "security",
-  "updated_date": 1699963572
+	"description": "The librabbitmq packages provide an Advanced Message Queuing Protocol (AMQP) client library that allows you to communicate with AMQP servers using protocol version 0-9-1.\n\nSecurity Fix(es):\n\n* rabbitmq-c/librabbitmq: Insecure credentials submission (CVE-2023-35789)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6482",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "632ea79712aa20079359d3e728a4b9f9c2aa7d323ba1d7a79f746485e50d9ec8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-tools-0.11.0-7.el9.x86_64.rpm",
+			"name": "librabbitmq-tools",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fa27171c27447d95d8655bdcd7c30d14cda80b841acf9c2b1d1edc5c1c463aad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-0.11.0-7.el9.x86_64.rpm",
+			"name": "librabbitmq",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "fe386f6d10c8787d132677906d9a8915ea57fed941460dcfba3f18800ba0b2e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-0.11.0-7.el9.i686.rpm",
+			"name": "librabbitmq",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "30e3c288515b21717d96466ba2c2eca3a8ac136a9d90928ccab703cdcca7e63d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-0.11.0-7.el9.ppc64le.rpm",
+			"name": "librabbitmq",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "51eba931eed6fe3ed8dd9f2f4ee17a2e689e4081205588635d1565f70a55a8e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-tools-0.11.0-7.el9.ppc64le.rpm",
+			"name": "librabbitmq-tools",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "742cd67b1f4176bdacfd16f4afa3f18ecd70631b9fe2f999e487ce8716674d8e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-tools-0.11.0-7.el9.s390x.rpm",
+			"name": "librabbitmq-tools",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ca6526bc24cda3289256c56cd2c5ba4b5cd3960a73777cd2bb274321377f10b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-0.11.0-7.el9.s390x.rpm",
+			"name": "librabbitmq",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6fdf8dbacac7008c47ecddcc1c5182363eef6432ab0c6be6b521646cd25e1bb1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-tools-0.11.0-7.el9.aarch64.rpm",
+			"name": "librabbitmq-tools",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c6007122afb535dad1fde19d545bbc0818d07e5a44366a25f1708ee1a5d9ffed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-0.11.0-7.el9.aarch64.rpm",
+			"name": "librabbitmq",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "308ca302f3750c8f431ed366f565ec9d35497fdb93d4f2d35a2662056cf0334a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-devel-0.11.0-7.el9.i686.rpm",
+			"name": "librabbitmq-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2fe74c5bc4071c88d655a938a949bce3d81f4f03004b29e7c138ed08f0776200",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-devel-0.11.0-7.el9.ppc64le.rpm",
+			"name": "librabbitmq-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8ecb642275347f4ed7f80bde795214888d2769c0fec35e943b3463741089015c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-devel-0.11.0-7.el9.aarch64.rpm",
+			"name": "librabbitmq-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d70cbea7c8c9b13f6e96a901d92552a02e47ebc8970045bf5022b1cac99c3d93",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-devel-0.11.0-7.el9.s390x.rpm",
+			"name": "librabbitmq-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "483d5fc7a6fe26d9919e5b5a7c90ee1ee29b0eb9a05a39965fd8b047d03efb95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "librabbitmq-devel-0.11.0-7.el9.x86_64.rpm",
+			"name": "librabbitmq-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "librabbitmq-0.11.0-7.el9.src.rpm",
+			"version": "0.11.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6482",
+			"id": "RHSA-2023:6482",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-35789",
+			"id": "CVE-2023-35789",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2215762",
+			"id": "2215762",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6482.html",
+			"id": "ALSA-2023:6482",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: librabbitmq security update",
+	"type": "security",
+	"updated_date": 1699963572
 }

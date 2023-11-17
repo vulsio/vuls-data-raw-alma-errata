@@ -1,31 +1,31 @@
 {
-  "description": "The zsh shell is a command interpreter usable as an interactive login shell and as a shell script command processor. Zsh resembles the ksh shell (the Korn shell), but includes many enhancements. Zsh supports command-line editing, built-in spelling correction, programmable command completion, shell functions (with autoloading), a history mechanism, and more.\n\nSecurity Fix(es):\n\n* zsh: insecure dropping of privileges when unsetting PRIVILEGED option (CVE-2019-20044)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2020:0903",
-  "issued_date": 1584614702,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "777f30348d22b72fc2836456ba23902a7960d086329ad71ee19ceed8bf4632c0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "zsh-html-5.5.1-6.el8_1.2.noarch.rpm",
-      "name": "zsh-html",
-      "reboot_suggested": 0,
-      "release": "6.el8_1.2",
-      "src": "zsh-5.5.1-6.el8_1.2.src.rpm",
-      "version": "5.5.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2019-20044",
-      "id": "CVE-2019-20044",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: zsh security update",
-  "type": "security",
-  "updated_date": 1636712455
+	"description": "The zsh shell is a command interpreter usable as an interactive login shell and as a shell script command processor. Zsh resembles the ksh shell (the Korn shell), but includes many enhancements. Zsh supports command-line editing, built-in spelling correction, programmable command completion, shell functions (with autoloading), a history mechanism, and more.\n\nSecurity Fix(es):\n\n* zsh: insecure dropping of privileges when unsetting PRIVILEGED option (CVE-2019-20044)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2020:0903",
+	"issued_date": 1584614702,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "777f30348d22b72fc2836456ba23902a7960d086329ad71ee19ceed8bf4632c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zsh-html-5.5.1-6.el8_1.2.noarch.rpm",
+			"name": "zsh-html",
+			"reboot_suggested": 0,
+			"release": "6.el8_1.2",
+			"src": "zsh-5.5.1-6.el8_1.2.src.rpm",
+			"version": "5.5.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2019-20044",
+			"id": "CVE-2019-20044",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: zsh security update",
+	"type": "security",
+	"updated_date": 1636712455
 }

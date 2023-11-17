@@ -1,82 +1,82 @@
 {
-  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: buffer-over-read in SSPI and SMB authentication (CVE-2022-41318)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:6839",
-  "issued_date": 1665014400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "6250ecd2c1d86fa46a5de752024e115cfba1f03e8e2e280538ff1647f0aa4a23",
-      "checksum_type": "sha256",
-      "epoch": "7",
-      "filename": "squid-5.2-1.el9_0.2.x86_64.rpm",
-      "name": "squid",
-      "reboot_suggested": 0,
-      "release": "1.el9_0.2",
-      "src": "squid-5.2-1.el9_0.2.src.rpm",
-      "version": "5.2"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "98d6df362735780f35ee4f54a054a3fcb88eedbcd4047d63dd1d4cfcc707c27e",
-      "checksum_type": "sha256",
-      "epoch": "7",
-      "filename": "squid-5.2-1.el9_0.2.ppc64le.rpm",
-      "name": "squid",
-      "reboot_suggested": 0,
-      "release": "1.el9_0.2",
-      "src": "squid-5.2-1.el9_0.2.src.rpm",
-      "version": "5.2"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "410e69fd923c3e6af28a08e5052fc2cfe0b2a260c1f29dd05403e81d8454cdb3",
-      "checksum_type": "sha256",
-      "epoch": "7",
-      "filename": "squid-5.2-1.el9_0.2.s390x.rpm",
-      "name": "squid",
-      "reboot_suggested": 0,
-      "release": "1.el9_0.2",
-      "src": "squid-5.2-1.el9_0.2.src.rpm",
-      "version": "5.2"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "503a2b43117f234e2817cd37ea4061d92967051f9505779ccbb0dc2af378f76a",
-      "checksum_type": "sha256",
-      "epoch": "7",
-      "filename": "squid-5.2-1.el9_0.2.aarch64.rpm",
-      "name": "squid",
-      "reboot_suggested": 0,
-      "release": "1.el9_0.2",
-      "src": "squid-5.2-1.el9_0.2.src.rpm",
-      "version": "5.2"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:6839",
-      "id": "RHSA-2022:6839",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-41318",
-      "id": "CVE-2022-41318",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2129771",
-      "id": "2129771",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-6839.html",
-      "id": "ALSA-2022:6839",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: squid security update",
-  "type": "security",
-  "updated_date": 1665143451
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: buffer-over-read in SSPI and SMB authentication (CVE-2022-41318)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:6839",
+	"issued_date": 1665014400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "6250ecd2c1d86fa46a5de752024e115cfba1f03e8e2e280538ff1647f0aa4a23",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.2-1.el9_0.2.x86_64.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.2",
+			"src": "squid-5.2-1.el9_0.2.src.rpm",
+			"version": "5.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "98d6df362735780f35ee4f54a054a3fcb88eedbcd4047d63dd1d4cfcc707c27e",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.2-1.el9_0.2.ppc64le.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.2",
+			"src": "squid-5.2-1.el9_0.2.src.rpm",
+			"version": "5.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "410e69fd923c3e6af28a08e5052fc2cfe0b2a260c1f29dd05403e81d8454cdb3",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.2-1.el9_0.2.s390x.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.2",
+			"src": "squid-5.2-1.el9_0.2.src.rpm",
+			"version": "5.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "503a2b43117f234e2817cd37ea4061d92967051f9505779ccbb0dc2af378f76a",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.2-1.el9_0.2.aarch64.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.2",
+			"src": "squid-5.2-1.el9_0.2.src.rpm",
+			"version": "5.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:6839",
+			"id": "RHSA-2022:6839",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-41318",
+			"id": "CVE-2022-41318",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2129771",
+			"id": "2129771",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-6839.html",
+			"id": "ALSA-2022:6839",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: squid security update",
+	"type": "security",
+	"updated_date": 1665143451
 }

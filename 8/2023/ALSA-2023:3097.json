@@ -1,122 +1,122 @@
 {
-  "description": "The gssntlmssp is a GSSAPI NTLM mechanism that allows to perform NTLM authentication in GSSAPI programs.\n\nSecurity Fix(es):\n\n* gssntlmssp: multiple out-of-bounds read when decoding NTLM fields (CVE-2023-25563)\n* gssntlmssp: memory corruption when decoding UTF16 strings (CVE-2023-25564)\n* gssntlmssp: incorrect free when decoding target information (CVE-2023-25565)\n* gssntlmssp: memory leak when parsing usernames (CVE-2023-25566)\n* gssntlmssp: out-of-bounds read when decoding target information (CVE-2023-25567)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:3097",
-  "issued_date": 1684195200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "7123785ba560c693bb9bb73e2d458cc030e076d6c9bf442836782175386865fe",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gssntlmssp-1.2.0-1.el8_8.x86_64.rpm",
-      "name": "gssntlmssp",
-      "reboot_suggested": 0,
-      "release": "1.el8_8",
-      "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-      "version": "1.2.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "9f2b080b2c099f7beb8fe2544a74c2529b517d889cbd887653ecad6c43f6bd84",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gssntlmssp-1.2.0-1.el8_8.aarch64.rpm",
-      "name": "gssntlmssp",
-      "reboot_suggested": 0,
-      "release": "1.el8_8",
-      "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-      "version": "1.2.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
-      "name": "gssntlmssp",
-      "reboot_suggested": 0,
-      "release": "1.el8_8",
-      "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-      "version": "1.2.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "b7f25c19ad978506b842396d55ddf2cfb56e259d3266cdf08c7912d2ec6f3aef",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gssntlmssp-1.2.0-1.el8_8.ppc64le.rpm",
-      "name": "gssntlmssp",
-      "reboot_suggested": 0,
-      "release": "1.el8_8",
-      "src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-      "version": "1.2.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:3097",
-      "id": "RHSA-2023:3097",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25563",
-      "id": "CVE-2023-25563",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25564",
-      "id": "CVE-2023-25564",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25565",
-      "id": "CVE-2023-25565",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25566",
-      "id": "CVE-2023-25566",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25567",
-      "id": "CVE-2023-25567",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172019",
-      "id": "2172019",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172020",
-      "id": "2172020",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172021",
-      "id": "2172021",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172022",
-      "id": "2172022",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172023",
-      "id": "2172023",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-3097.html",
-      "id": "ALSA-2023:3097",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: gssntlmssp security update",
-  "type": "security",
-  "updated_date": 1684533611
+	"description": "The gssntlmssp is a GSSAPI NTLM mechanism that allows to perform NTLM authentication in GSSAPI programs.\n\nSecurity Fix(es):\n\n* gssntlmssp: multiple out-of-bounds read when decoding NTLM fields (CVE-2023-25563)\n* gssntlmssp: memory corruption when decoding UTF16 strings (CVE-2023-25564)\n* gssntlmssp: incorrect free when decoding target information (CVE-2023-25565)\n* gssntlmssp: memory leak when parsing usernames (CVE-2023-25566)\n* gssntlmssp: out-of-bounds read when decoding target information (CVE-2023-25567)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:3097",
+	"issued_date": 1684195200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "7123785ba560c693bb9bb73e2d458cc030e076d6c9bf442836782175386865fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.x86_64.rpm",
+			"name": "gssntlmssp",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9f2b080b2c099f7beb8fe2544a74c2529b517d889cbd887653ecad6c43f6bd84",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.aarch64.rpm",
+			"name": "gssntlmssp",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
+			"name": "gssntlmssp",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b7f25c19ad978506b842396d55ddf2cfb56e259d3266cdf08c7912d2ec6f3aef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.ppc64le.rpm",
+			"name": "gssntlmssp",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+			"version": "1.2.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:3097",
+			"id": "RHSA-2023:3097",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25563",
+			"id": "CVE-2023-25563",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25564",
+			"id": "CVE-2023-25564",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25565",
+			"id": "CVE-2023-25565",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25566",
+			"id": "CVE-2023-25566",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25567",
+			"id": "CVE-2023-25567",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172019",
+			"id": "2172019",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172020",
+			"id": "2172020",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172021",
+			"id": "2172021",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172022",
+			"id": "2172022",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172023",
+			"id": "2172023",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-3097.html",
+			"id": "ALSA-2023:3097",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: gssntlmssp security update",
+	"type": "security",
+	"updated_date": 1684533611
 }

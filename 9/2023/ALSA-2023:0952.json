@@ -1,58 +1,58 @@
 {
-  "description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:0952",
-  "issued_date": 1677542400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "99bd05d0b078d46b51d11d727c21305e93d7d9a52a43b622d926b9b10658a756",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-setuptools-wheel-53.0.0-10.el9_1.1.noarch.rpm",
-      "name": "python3-setuptools-wheel",
-      "reboot_suggested": 0,
-      "release": "10.el9_1.1",
-      "src": "python-setuptools-53.0.0-10.el9_1.1.src.rpm",
-      "version": "53.0.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "bef4e0eb356f420b754a5d0983a2339389d354a2d0c5c04d548fe97dba555337",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-setuptools-53.0.0-10.el9_1.1.noarch.rpm",
-      "name": "python3-setuptools",
-      "reboot_suggested": 0,
-      "release": "10.el9_1.1",
-      "src": "python-setuptools-53.0.0-10.el9_1.1.src.rpm",
-      "version": "53.0.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0952",
-      "id": "RHSA-2023:0952",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-40897",
-      "id": "CVE-2022-40897",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2158559",
-      "id": "2158559",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-0952.html",
-      "id": "ALSA-2023:0952",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: python-setuptools security update",
-  "type": "security",
-  "updated_date": 1677605995
+	"description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:0952",
+	"issued_date": 1677542400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "99bd05d0b078d46b51d11d727c21305e93d7d9a52a43b622d926b9b10658a756",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-wheel-53.0.0-10.el9_1.1.noarch.rpm",
+			"name": "python3-setuptools-wheel",
+			"reboot_suggested": 0,
+			"release": "10.el9_1.1",
+			"src": "python-setuptools-53.0.0-10.el9_1.1.src.rpm",
+			"version": "53.0.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "bef4e0eb356f420b754a5d0983a2339389d354a2d0c5c04d548fe97dba555337",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-53.0.0-10.el9_1.1.noarch.rpm",
+			"name": "python3-setuptools",
+			"reboot_suggested": 0,
+			"release": "10.el9_1.1",
+			"src": "python-setuptools-53.0.0-10.el9_1.1.src.rpm",
+			"version": "53.0.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:0952",
+			"id": "RHSA-2023:0952",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40897",
+			"id": "CVE-2022-40897",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2158559",
+			"id": "2158559",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-0952.html",
+			"id": "ALSA-2023:0952",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-setuptools security update",
+	"type": "security",
+	"updated_date": 1677605995
 }

@@ -1,70 +1,70 @@
 {
-  "description": "The python-requests package contains a library designed to make HTTP requests easy for developers.\n\nSecurity Fix(es):\n\n* python-requests: Unintended leak of Proxy-Authorization header (CVE-2023-32681)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:4350",
-  "issued_date": 1690848000,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "3e24ebe477beb77a17f2aedb06e9312bef3771af9a0e11266b05774485bf9e76",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-requests+security-2.25.1-7.el9_2.noarch.rpm",
-      "name": "python3-requests+security",
-      "reboot_suggested": 0,
-      "release": "7.el9_2",
-      "src": "python-requests-2.25.1-7.el9_2.src.rpm",
-      "version": "2.25.1"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "8a27ca1c7eebbfd292640cf4d76adeeb9487862fd39ca3124cd03898c70da5e6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-requests+socks-2.25.1-7.el9_2.noarch.rpm",
-      "name": "python3-requests+socks",
-      "reboot_suggested": 0,
-      "release": "7.el9_2",
-      "src": "python-requests-2.25.1-7.el9_2.src.rpm",
-      "version": "2.25.1"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "7d4abc1a22686841b611f98116226e9a6904ab6e532f56bdff9783aac8e88444",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-requests-2.25.1-7.el9_2.noarch.rpm",
-      "name": "python3-requests",
-      "reboot_suggested": 0,
-      "release": "7.el9_2",
-      "src": "python-requests-2.25.1-7.el9_2.src.rpm",
-      "version": "2.25.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:4350",
-      "id": "RHSA-2023:4350",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-32681",
-      "id": "CVE-2023-32681",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2209469",
-      "id": "2209469",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-4350.html",
-      "id": "ALSA-2023:4350",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: python-requests security update",
-  "type": "security",
-  "updated_date": 1690981585
+	"description": "The python-requests package contains a library designed to make HTTP requests easy for developers.\n\nSecurity Fix(es):\n\n* python-requests: Unintended leak of Proxy-Authorization header (CVE-2023-32681)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:4350",
+	"issued_date": 1690848000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "3e24ebe477beb77a17f2aedb06e9312bef3771af9a0e11266b05774485bf9e76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-requests+security-2.25.1-7.el9_2.noarch.rpm",
+			"name": "python3-requests+security",
+			"reboot_suggested": 0,
+			"release": "7.el9_2",
+			"src": "python-requests-2.25.1-7.el9_2.src.rpm",
+			"version": "2.25.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "8a27ca1c7eebbfd292640cf4d76adeeb9487862fd39ca3124cd03898c70da5e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-requests+socks-2.25.1-7.el9_2.noarch.rpm",
+			"name": "python3-requests+socks",
+			"reboot_suggested": 0,
+			"release": "7.el9_2",
+			"src": "python-requests-2.25.1-7.el9_2.src.rpm",
+			"version": "2.25.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7d4abc1a22686841b611f98116226e9a6904ab6e532f56bdff9783aac8e88444",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-requests-2.25.1-7.el9_2.noarch.rpm",
+			"name": "python3-requests",
+			"reboot_suggested": 0,
+			"release": "7.el9_2",
+			"src": "python-requests-2.25.1-7.el9_2.src.rpm",
+			"version": "2.25.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:4350",
+			"id": "RHSA-2023:4350",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-32681",
+			"id": "CVE-2023-32681",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2209469",
+			"id": "2209469",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-4350.html",
+			"id": "ALSA-2023:4350",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-requests security update",
+	"type": "security",
+	"updated_date": 1690981585
 }

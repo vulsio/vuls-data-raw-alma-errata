@@ -1,48 +1,48 @@
 {
-  "description": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: stack-based buffer overflow in sndfile-deinterleave utility (CVE-2018-13139)\n\n* libsndfile: buffer over-read in the function i2alaw_array in alaw.c (CVE-2018-19662)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2020:1636",
-  "issued_date": 1588064355,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "4d761b7313d8c95165ce7a4e6e9da523c3d1484f9d943e816167e95dbb9fbb97",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libsndfile-devel-1.0.28-10.el8.x86_64.rpm",
-      "name": "libsndfile-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8",
-      "src": "libsndfile-1.0.28-10.el8.src.rpm",
-      "version": "1.0.28"
-    },
-    {
-      "arch": "i686",
-      "checksum": "897d0c8dc0108faaa5148d4b4906f74768fd16671a05bee0ac6397ef882d8bab",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libsndfile-devel-1.0.28-10.el8.i686.rpm",
-      "name": "libsndfile-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8",
-      "src": "libsndfile-1.0.28-10.el8.src.rpm",
-      "version": "1.0.28"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2018-13139",
-      "id": "CVE-2018-13139",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2018-19662",
-      "id": "CVE-2018-19662",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: libsndfile security update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: stack-based buffer overflow in sndfile-deinterleave utility (CVE-2018-13139)\n\n* libsndfile: buffer over-read in the function i2alaw_array in alaw.c (CVE-2018-19662)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2020:1636",
+	"issued_date": 1588064355,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "4d761b7313d8c95165ce7a4e6e9da523c3d1484f9d943e816167e95dbb9fbb97",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-devel-1.0.28-10.el8.x86_64.rpm",
+			"name": "libsndfile-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "libsndfile-1.0.28-10.el8.src.rpm",
+			"version": "1.0.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "897d0c8dc0108faaa5148d4b4906f74768fd16671a05bee0ac6397ef882d8bab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-devel-1.0.28-10.el8.i686.rpm",
+			"name": "libsndfile-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "libsndfile-1.0.28-10.el8.src.rpm",
+			"version": "1.0.28"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2018-13139",
+			"id": "CVE-2018-13139",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2018-19662",
+			"id": "CVE-2018-19662",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libsndfile security update",
+	"type": "security",
+	"updated_date": 1628672040
 }

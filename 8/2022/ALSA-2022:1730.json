@@ -1,95 +1,95 @@
 {
-  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.9.0.\n\nSecurity Fix(es):\n\n* Mozilla: Bypassing permission prompt in nested browsing contexts (CVE-2022-29909)\n\n* Mozilla: iframe Sandbox bypass (CVE-2022-29911)\n\n* Mozilla: Fullscreen notification bypass using popups (CVE-2022-29914)\n\n* Mozilla: Leaking browser history with CSS variables (CVE-2022-29916)\n\n* Mozilla: Memory safety bugs fixed in Firefox 100 and Firefox ESR 91.9 (CVE-2022-29917)\n\n* Mozilla: Reader mode bypassed SameSite cookies (CVE-2022-29912)\n\n* Mozilla: Speech Synthesis feature not properly disabled (CVE-2022-29913)\n\n* Mozilla: Incorrect security status shown after viewing an attached email (CVE-2022-1520)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:1730",
-  "issued_date": 1651757528,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "e237ec03335f626f6a8c5e88b1131b9747fe9944b62ed2daa2b1be622bb1aee9",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-91.9.0-3.el8_5.alma.x86_64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "3.el8_5.alma",
-      "src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
-      "version": "91.9.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "0beb99a9ecb26da80986c4d102311d2266f7624a5013311ca3ee754d90225d53",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-91.9.0-3.el8_5.alma.aarch64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "3.el8_5.alma",
-      "src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
-      "version": "91.9.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "ebf72ec1441a0ae6a454cf617c398dc1677e46f610583de7e3bd3bcbf52e8495",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-91.9.0-3.el8_5.alma.ppc64le.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "3.el8_5.alma",
-      "src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
-      "version": "91.9.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2022-1520",
-      "id": "CVE-2022-1520",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29909",
-      "id": "CVE-2022-29909",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29911",
-      "id": "CVE-2022-29911",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29912",
-      "id": "CVE-2022-29912",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29913",
-      "id": "CVE-2022-29913",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29914",
-      "id": "CVE-2022-29914",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29916",
-      "id": "CVE-2022-29916",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29917",
-      "id": "CVE-2022-29917",
-      "type": "cve"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1730.html",
-      "id": "ALSA-2022-1730",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: thunderbird security update",
-  "type": "security",
-  "updated_date": 1651934501
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.9.0.\n\nSecurity Fix(es):\n\n* Mozilla: Bypassing permission prompt in nested browsing contexts (CVE-2022-29909)\n\n* Mozilla: iframe Sandbox bypass (CVE-2022-29911)\n\n* Mozilla: Fullscreen notification bypass using popups (CVE-2022-29914)\n\n* Mozilla: Leaking browser history with CSS variables (CVE-2022-29916)\n\n* Mozilla: Memory safety bugs fixed in Firefox 100 and Firefox ESR 91.9 (CVE-2022-29917)\n\n* Mozilla: Reader mode bypassed SameSite cookies (CVE-2022-29912)\n\n* Mozilla: Speech Synthesis feature not properly disabled (CVE-2022-29913)\n\n* Mozilla: Incorrect security status shown after viewing an attached email (CVE-2022-1520)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:1730",
+	"issued_date": 1651757528,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "e237ec03335f626f6a8c5e88b1131b9747fe9944b62ed2daa2b1be622bb1aee9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-91.9.0-3.el8_5.alma.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "3.el8_5.alma",
+			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
+			"version": "91.9.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0beb99a9ecb26da80986c4d102311d2266f7624a5013311ca3ee754d90225d53",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-91.9.0-3.el8_5.alma.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "3.el8_5.alma",
+			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
+			"version": "91.9.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ebf72ec1441a0ae6a454cf617c398dc1677e46f610583de7e3bd3bcbf52e8495",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-91.9.0-3.el8_5.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "3.el8_5.alma",
+			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
+			"version": "91.9.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2022-1520",
+			"id": "CVE-2022-1520",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29909",
+			"id": "CVE-2022-29909",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29911",
+			"id": "CVE-2022-29911",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29912",
+			"id": "CVE-2022-29912",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29913",
+			"id": "CVE-2022-29913",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29914",
+			"id": "CVE-2022-29914",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29916",
+			"id": "CVE-2022-29916",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29917",
+			"id": "CVE-2022-29917",
+			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1730.html",
+			"id": "ALSA-2022-1730",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: thunderbird security update",
+	"type": "security",
+	"updated_date": 1651934501
 }

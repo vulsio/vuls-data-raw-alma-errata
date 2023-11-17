@@ -1,142 +1,142 @@
 {
-  "description": ".NET Core is a managed-software framework. It implements a subset of the .NET\nframework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET Core that address a security vulnerability are now available. The updated versions are .NET Core SDK 3.1.419 and .NET Core Runtime 3.1.25.\n\nSecurity Fix(es):\n\n* dotnet: excess memory allocation via HttpClient causes DoS (CVE-2022-23267)\n\n* dotnet: malicious content causes high CPU and memory usage (CVE-2022-29117)\n\n* dotnet: parsing HTML causes Denial of Service (CVE-2022-29145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:2202",
-  "issued_date": 1652275462,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "1905af48708b27e806f91328e3156f952511d32ac4c6c311a58886ffc7f83b14",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-sdk-3.1-source-built-artifacts-3.1.419-1.el8_6.x86_64.rpm",
-      "name": "dotnet-sdk-3.1-source-built-artifacts",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.419"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "257b541481c1b1f20034c406814ce6c3a8a0b3c038a7aa17cdc2e38428e233d4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-hostfxr-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "dotnet-hostfxr-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "29d2d57b0d08a5f2a5c5f10cf594059d528dddf06515f5fb261e6890b80ac3ae",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "aspnetcore-targeting-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "aspnetcore-targeting-pack-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3ce8ba953f8794dde0a9dd2ebafff6642af886e1263625d4e9c4cb819f445898",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-sdk-3.1-3.1.419-1.el8_6.x86_64.rpm",
-      "name": "dotnet-sdk-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.419"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3cfe5510def97c78f548ae95075abc30fc4f57eba9b7b265cac5056142379de3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "aspnetcore-runtime-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "aspnetcore-runtime-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "4cea0372de80df3e41f52d10edeae083aebcf2d114745c9f071d8d78572b4440",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-runtime-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "dotnet-runtime-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "71b842c3f342063057b406e486ac45bc90ef74ea1f0fcd952d10699825843178",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-apphost-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "dotnet-apphost-pack-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "8a2934228fecc0534e4924a5a7ee332e0fdbbb3e4258f9920e0c06528c309362",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-targeting-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
-      "name": "dotnet-targeting-pack-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.25"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c1d126e60eb22617cdd6e17262c176cf1644bfce8af1d437cbfc6c0becfd8fe4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-templates-3.1-3.1.419-1.el8_6.x86_64.rpm",
-      "name": "dotnet-templates-3.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_6",
-      "src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
-      "version": "3.1.419"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-2202.html",
-      "id": "ALSA-2022-2202",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-23267",
-      "id": "CVE-2022-23267",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29117",
-      "id": "CVE-2022-29117",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-29145",
-      "id": "CVE-2022-29145",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: .NET Core 3.1 security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1652275462
+	"description": ".NET Core is a managed-software framework. It implements a subset of the .NET\nframework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET Core that address a security vulnerability are now available. The updated versions are .NET Core SDK 3.1.419 and .NET Core Runtime 3.1.25.\n\nSecurity Fix(es):\n\n* dotnet: excess memory allocation via HttpClient causes DoS (CVE-2022-23267)\n\n* dotnet: malicious content causes high CPU and memory usage (CVE-2022-29117)\n\n* dotnet: parsing HTML causes Denial of Service (CVE-2022-29145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:2202",
+	"issued_date": 1652275462,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "1905af48708b27e806f91328e3156f952511d32ac4c6c311a58886ffc7f83b14",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-3.1-source-built-artifacts-3.1.419-1.el8_6.x86_64.rpm",
+			"name": "dotnet-sdk-3.1-source-built-artifacts",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.419"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "257b541481c1b1f20034c406814ce6c3a8a0b3c038a7aa17cdc2e38428e233d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-hostfxr-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "dotnet-hostfxr-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "29d2d57b0d08a5f2a5c5f10cf594059d528dddf06515f5fb261e6890b80ac3ae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "aspnetcore-targeting-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "aspnetcore-targeting-pack-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3ce8ba953f8794dde0a9dd2ebafff6642af886e1263625d4e9c4cb819f445898",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-3.1-3.1.419-1.el8_6.x86_64.rpm",
+			"name": "dotnet-sdk-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.419"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3cfe5510def97c78f548ae95075abc30fc4f57eba9b7b265cac5056142379de3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "aspnetcore-runtime-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "aspnetcore-runtime-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4cea0372de80df3e41f52d10edeae083aebcf2d114745c9f071d8d78572b4440",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-runtime-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "dotnet-runtime-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71b842c3f342063057b406e486ac45bc90ef74ea1f0fcd952d10699825843178",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-apphost-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "dotnet-apphost-pack-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8a2934228fecc0534e4924a5a7ee332e0fdbbb3e4258f9920e0c06528c309362",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-targeting-pack-3.1-3.1.25-1.el8_6.x86_64.rpm",
+			"name": "dotnet-targeting-pack-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.25"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c1d126e60eb22617cdd6e17262c176cf1644bfce8af1d437cbfc6c0becfd8fe4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-templates-3.1-3.1.419-1.el8_6.x86_64.rpm",
+			"name": "dotnet-templates-3.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_6",
+			"src": "dotnet3.1-3.1.419-1.el8_6.src.rpm",
+			"version": "3.1.419"
+		}
+	],
+	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-2202.html",
+			"id": "ALSA-2022-2202",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-23267",
+			"id": "CVE-2022-23267",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29117",
+			"id": "CVE-2022-29117",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-29145",
+			"id": "CVE-2022-29145",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: .NET Core 3.1 security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1652275462
 }

@@ -1,43 +1,43 @@
 {
-  "description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: buffer over-read in read_xbm_body in gui/image/qxbmhandler.cpp (CVE-2020-17507)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:1756",
-  "issued_date": 1621317681,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "31466c04213825248203c9df233600ceeafa2df326028ee12c121fba39280a21",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "qt5-qtbase-static-5.12.5-8.el8.x86_64.rpm",
-      "name": "qt5-qtbase-static",
-      "reboot_suggested": 0,
-      "release": "8.el8",
-      "src": "qt5-qtbase-5.12.5-8.el8.src.rpm",
-      "version": "5.12.5"
-    },
-    {
-      "arch": "i686",
-      "checksum": "dd7587451fbd401f3328e83bf34e820c535111e81db4096ea2a1ab1796cbeb2a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "qt5-qtbase-static-5.12.5-8.el8.i686.rpm",
-      "name": "qt5-qtbase-static",
-      "reboot_suggested": 0,
-      "release": "8.el8",
-      "src": "qt5-qtbase-5.12.5-8.el8.src.rpm",
-      "version": "5.12.5"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-17507",
-      "id": "CVE-2020-17507",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: qt5-qtbase security and bug fix update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: buffer over-read in read_xbm_body in gui/image/qxbmhandler.cpp (CVE-2020-17507)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:1756",
+	"issued_date": 1621317681,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "31466c04213825248203c9df233600ceeafa2df326028ee12c121fba39280a21",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.12.5-8.el8.x86_64.rpm",
+			"name": "qt5-qtbase-static",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "qt5-qtbase-5.12.5-8.el8.src.rpm",
+			"version": "5.12.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "dd7587451fbd401f3328e83bf34e820c535111e81db4096ea2a1ab1796cbeb2a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.12.5-8.el8.i686.rpm",
+			"name": "qt5-qtbase-static",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "qt5-qtbase-5.12.5-8.el8.src.rpm",
+			"version": "5.12.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-17507",
+			"id": "CVE-2020-17507",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: qt5-qtbase security and bug fix update",
+	"type": "security",
+	"updated_date": 1628672040
 }

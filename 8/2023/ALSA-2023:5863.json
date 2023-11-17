@@ -1,92 +1,92 @@
 {
-  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-39325)\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nA AlmaLinux Security Bulletin which addresses further details about this flaw is available in the References section.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:5863",
-  "issued_date": 1697587200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "d65be35ee8a09a73abe6d5bec57314cda73ef04db5fdc4df9e4d2132913cfb04",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-7.5.15-5.el8_8.alma.1.x86_64.rpm",
-      "name": "grafana",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.alma.1",
-      "src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
-      "version": "7.5.15"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "9e13caa191c8893cb74816188b0d17c8ea14da0d7fc1f10f52b801a0a264241e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-7.5.15-5.el8_8.alma.1.aarch64.rpm",
-      "name": "grafana",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.alma.1",
-      "src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
-      "version": "7.5.15"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "9a8b319eedc9291db41b655b48955e8a89ad3e444105c9355c0b4e951d7b6e58",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-7.5.15-5.el8_8.alma.1.s390x.rpm",
-      "name": "grafana",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.alma.1",
-      "src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
-      "version": "7.5.15"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "17e00ea66488e77e718829fcfb0a80b1d2e8d35a9e9049438fc0b1c06eb1ad95",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "grafana-7.5.15-5.el8_8.alma.1.ppc64le.rpm",
-      "name": "grafana",
-      "reboot_suggested": 0,
-      "release": "5.el8_8.alma.1",
-      "src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
-      "version": "7.5.15"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:5863",
-      "id": "RHSA-2023:5863",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-39325",
-      "id": "CVE-2023-39325",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-44487",
-      "id": "CVE-2023-44487",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2242803",
-      "id": "2242803",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2243296",
-      "id": "2243296",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-5863.html",
-      "id": "ALSA-2023:5863",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: grafana security update",
-  "type": "security",
-  "updated_date": 1697727487
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-39325)\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nA AlmaLinux Security Bulletin which addresses further details about this flaw is available in the References section.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:5863",
+	"issued_date": 1697587200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "d65be35ee8a09a73abe6d5bec57314cda73ef04db5fdc4df9e4d2132913cfb04",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.15-5.el8_8.alma.1.x86_64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.alma.1",
+			"src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
+			"version": "7.5.15"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9e13caa191c8893cb74816188b0d17c8ea14da0d7fc1f10f52b801a0a264241e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.15-5.el8_8.alma.1.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.alma.1",
+			"src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
+			"version": "7.5.15"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9a8b319eedc9291db41b655b48955e8a89ad3e444105c9355c0b4e951d7b6e58",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.15-5.el8_8.alma.1.s390x.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.alma.1",
+			"src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
+			"version": "7.5.15"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "17e00ea66488e77e718829fcfb0a80b1d2e8d35a9e9049438fc0b1c06eb1ad95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.15-5.el8_8.alma.1.ppc64le.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "5.el8_8.alma.1",
+			"src": "grafana-7.5.15-5.el8_8.alma.1.src.rpm",
+			"version": "7.5.15"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:5863",
+			"id": "RHSA-2023:5863",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-39325",
+			"id": "CVE-2023-39325",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-44487",
+			"id": "CVE-2023-44487",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242803",
+			"id": "2242803",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2243296",
+			"id": "2243296",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-5863.html",
+			"id": "ALSA-2023:5863",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: grafana security update",
+	"type": "security",
+	"updated_date": 1697727487
 }

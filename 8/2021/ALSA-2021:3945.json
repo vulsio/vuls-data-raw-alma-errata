@@ -1,162 +1,162 @@
 {
-  "description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Lua scripts can overflow the heap-based Lua stack (CVE-2021-32626)\n\n* redis: Integer overflow issue with Streams (CVE-2021-32627)\n\n* redis: Integer overflow bug in the ziplist data structure (CVE-2021-32628)\n\n* redis: Denial of service via Redis Standard Protocol (RESP) request (CVE-2021-32675)\n\n* redis: Integer overflow issue with intsets (CVE-2021-32687)\n\n* redis: Integer overflow issue with strings (CVE-2021-41099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2021:3945",
-  "issued_date": 1634734000,
-  "modules": [
-    {
-      "arch": "x86_64",
-      "context": "522a0ee4",
-      "name": "redis",
-      "stream": "6",
-      "version": "8040020211021114238"
-    },
-    {
-      "arch": "aarch64",
-      "context": "522a0ee4",
-      "name": "redis",
-      "stream": "6",
-      "version": "8040020211021114238"
-    },
-    {
-      "arch": "ppc64le",
-      "context": "9edba152",
-      "name": "redis",
-      "stream": "6",
-      "version": "8050020211210114846"
-    }
-  ],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "6ddb14ed99da80933665008be57b151ed938c78a5abba7d757aefff923d27226",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.x86_64.rpm",
-      "module": "redis:6:8040020211021114238:522a0ee4:x86_64",
-      "name": "redis",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.4.0+2584+1bb0d2aa",
-      "src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "d3ca202e231f4b9cbe67d0ca96ad8a62876b5a3d9ef94da8d3d4101fbc05f941",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.x86_64.rpm",
-      "module": "redis:6:8040020211021114238:522a0ee4:x86_64",
-      "name": "redis-devel",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.4.0+2584+1bb0d2aa",
-      "src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "f441db69f61afb941d9500c5d3e3dd3168e996d454c653c11038fcf92e04333d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-doc-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.noarch.rpm",
-      "module": "redis:6:8040020211021114238:522a0ee4:x86_64",
-      "name": "redis-doc",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.4.0+2584+1bb0d2aa",
-      "src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "7516d84d36f4b8760216b01a8971ca88512fe7c897c45061665fa197f7982a6a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
-      "module": "redis:6:8040020211021114238:522a0ee4:aarch64",
-      "name": "redis-devel",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.4.0+2584+1bb0d2aa",
-      "src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "d84c4a1b53a46f135ae5a5d9a3f08cb0475c3cf9833cefbd08c3d0126a29c34f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
-      "module": "redis:6:8040020211021114238:522a0ee4:aarch64",
-      "name": "redis",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.4.0+2584+1bb0d2aa",
-      "src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "0510ce5610f67e323bf1d0a1838d7e79e5e178060c5ef2bdf098db186da6de16",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.ppc64le.rpm",
-      "module": "redis:6:8050020211210114846:9edba152:ppc64le",
-      "name": "redis",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.5.0+67+a3c431d9",
-      "src": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.src.rpm",
-      "version": "6.0.9"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "64ca6f14611a52a4f022bfea39f6f953e45fe18bcb091f283b23324d8e3fa962",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "redis-devel-6.0.9-5.module_el8.5.0+67+a3c431d9.ppc64le.rpm",
-      "module": "redis:6:8050020211210114846:9edba152:ppc64le",
-      "name": "redis-devel",
-      "reboot_suggested": 0,
-      "release": "5.module_el8.5.0+67+a3c431d9",
-      "src": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.src.rpm",
-      "version": "6.0.9"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-3945.html",
-      "id": "ALSA-2021-3945",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-32626",
-      "id": "CVE-2021-32626",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-32627",
-      "id": "CVE-2021-32627",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-32628",
-      "id": "CVE-2021-32628",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-32675",
-      "id": "CVE-2021-32675",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-32687",
-      "id": "CVE-2021-32687",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-41099",
-      "id": "CVE-2021-41099",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: redis:6 security update",
-  "type": "security",
-  "updated_date": 1634734000
+	"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Lua scripts can overflow the heap-based Lua stack (CVE-2021-32626)\n\n* redis: Integer overflow issue with Streams (CVE-2021-32627)\n\n* redis: Integer overflow bug in the ziplist data structure (CVE-2021-32628)\n\n* redis: Denial of service via Redis Standard Protocol (RESP) request (CVE-2021-32675)\n\n* redis: Integer overflow issue with intsets (CVE-2021-32687)\n\n* redis: Integer overflow issue with strings (CVE-2021-41099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2021:3945",
+	"issued_date": 1634734000,
+	"modules": [
+		{
+			"arch": "x86_64",
+			"context": "522a0ee4",
+			"name": "redis",
+			"stream": "6",
+			"version": "8040020211021114238"
+		},
+		{
+			"arch": "aarch64",
+			"context": "522a0ee4",
+			"name": "redis",
+			"stream": "6",
+			"version": "8040020211021114238"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8050020211210114846"
+		}
+	],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "6ddb14ed99da80933665008be57b151ed938c78a5abba7d757aefff923d27226",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.x86_64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:x86_64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d3ca202e231f4b9cbe67d0ca96ad8a62876b5a3d9ef94da8d3d4101fbc05f941",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.x86_64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:x86_64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f441db69f61afb941d9500c5d3e3dd3168e996d454c653c11038fcf92e04333d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-doc-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.noarch.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:x86_64",
+			"name": "redis-doc",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7516d84d36f4b8760216b01a8971ca88512fe7c897c45061665fa197f7982a6a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d84c4a1b53a46f135ae5a5d9a3f08cb0475c3cf9833cefbd08c3d0126a29c34f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0510ce5610f67e323bf1d0a1838d7e79e5e178060c5ef2bdf098db186da6de16",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.ppc64le.rpm",
+			"module": "redis:6:8050020211210114846:9edba152:ppc64le",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.5.0+67+a3c431d9",
+			"src": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "64ca6f14611a52a4f022bfea39f6f953e45fe18bcb091f283b23324d8e3fa962",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.0.9-5.module_el8.5.0+67+a3c431d9.ppc64le.rpm",
+			"module": "redis:6:8050020211210114846:9edba152:ppc64le",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.5.0+67+a3c431d9",
+			"src": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.src.rpm",
+			"version": "6.0.9"
+		}
+	],
+	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-3945.html",
+			"id": "ALSA-2021-3945",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-32626",
+			"id": "CVE-2021-32626",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-32627",
+			"id": "CVE-2021-32627",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-32628",
+			"id": "CVE-2021-32628",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-32675",
+			"id": "CVE-2021-32675",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-32687",
+			"id": "CVE-2021-32687",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-41099",
+			"id": "CVE-2021-41099",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: redis:6 security update",
+	"type": "security",
+	"updated_date": 1634734000
 }

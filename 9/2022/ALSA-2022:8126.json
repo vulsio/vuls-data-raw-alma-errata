@@ -1,82 +1,82 @@
 {
-  "description": "Ignition is a utility used to manipulate systems during the initramfs. This includes partitioning disks, formatting partitions, writing files (regular files, systemd units, etc.), and configuring users. On first boot, Ignition reads its configuration from a source of truth (remote URL, network metadata service, hypervisor bridge, etc.) and applies the configuration.\n\nThe following packages have been upgraded to a later upstream version: ignition (2.14.0). (BZ#2090647)\n\nSecurity Fix(es):\n\n* ignition: configs are accessible from unprivileged containers in VMs running on VMware products (CVE-2022-1706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:8126",
-  "issued_date": 1668470400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "6e20f4a1374a8e2129789d350c5fedc5155e972de05362c6fb1ecbd6a298a092",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "ignition-2.14.0-1.el9.x86_64.rpm",
-      "name": "ignition",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "ignition-2.14.0-1.el9.src.rpm",
-      "version": "2.14.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "988e6ceb284ede89305f74dd3aff1e1c9cb439adcc79c941e4cd3e50cf3949f1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "ignition-2.14.0-1.el9.ppc64le.rpm",
-      "name": "ignition",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "ignition-2.14.0-1.el9.src.rpm",
-      "version": "2.14.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "7a66ee1796c74b36dc6db1842cabc66e34222441f8bc54a4e6a8f78047d91a07",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "ignition-2.14.0-1.el9.s390x.rpm",
-      "name": "ignition",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "ignition-2.14.0-1.el9.src.rpm",
-      "version": "2.14.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "e9625f5d50376a62c5955151beb24ce191f4caba368e73ae898944a4dd7bdf08",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "ignition-2.14.0-1.el9.aarch64.rpm",
-      "name": "ignition",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "ignition-2.14.0-1.el9.src.rpm",
-      "version": "2.14.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8126",
-      "id": "RHSA-2022:8126",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1706",
-      "id": "CVE-2022-1706",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2082274",
-      "id": "2082274",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-8126.html",
-      "id": "ALSA-2022:8126",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: ignition security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1668744408
+	"description": "Ignition is a utility used to manipulate systems during the initramfs. This includes partitioning disks, formatting partitions, writing files (regular files, systemd units, etc.), and configuring users. On first boot, Ignition reads its configuration from a source of truth (remote URL, network metadata service, hypervisor bridge, etc.) and applies the configuration.\n\nThe following packages have been upgraded to a later upstream version: ignition (2.14.0). (BZ#2090647)\n\nSecurity Fix(es):\n\n* ignition: configs are accessible from unprivileged containers in VMs running on VMware products (CVE-2022-1706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:8126",
+	"issued_date": 1668470400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "6e20f4a1374a8e2129789d350c5fedc5155e972de05362c6fb1ecbd6a298a092",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ignition-2.14.0-1.el9.x86_64.rpm",
+			"name": "ignition",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "ignition-2.14.0-1.el9.src.rpm",
+			"version": "2.14.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "988e6ceb284ede89305f74dd3aff1e1c9cb439adcc79c941e4cd3e50cf3949f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ignition-2.14.0-1.el9.ppc64le.rpm",
+			"name": "ignition",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "ignition-2.14.0-1.el9.src.rpm",
+			"version": "2.14.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7a66ee1796c74b36dc6db1842cabc66e34222441f8bc54a4e6a8f78047d91a07",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ignition-2.14.0-1.el9.s390x.rpm",
+			"name": "ignition",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "ignition-2.14.0-1.el9.src.rpm",
+			"version": "2.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e9625f5d50376a62c5955151beb24ce191f4caba368e73ae898944a4dd7bdf08",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ignition-2.14.0-1.el9.aarch64.rpm",
+			"name": "ignition",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "ignition-2.14.0-1.el9.src.rpm",
+			"version": "2.14.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:8126",
+			"id": "RHSA-2022:8126",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1706",
+			"id": "CVE-2022-1706",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2082274",
+			"id": "2082274",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-8126.html",
+			"id": "ALSA-2022:8126",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: ignition security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1668744408
 }

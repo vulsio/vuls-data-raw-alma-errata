@@ -1,115 +1,115 @@
 {
-  "description": "The Pacemaker cluster resource manager is a collection of technologies working together to maintain data integrity and application availability in the event of failures. \n\nSecurity Fix(es):\n\n* pacemaker: ACL restrictions bypass (CVE-2020-25654)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2020:5487",
-  "issued_date": 1608048086,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "0a0f10fbdbee806a506def82a0b928fccb1e574e6bf5d5bfcfeb2bee6bba9311",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.x86_64.rpm",
-      "name": "pacemaker-libs-devel",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "2669037f04f076e3d088293f3420d107e0c608ec8bf28bcd3954cce546c9a4f0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-nagios-plugins-metadata-2.0.4-6.el8_3.1.noarch.rpm",
-      "name": "pacemaker-nagios-plugins-metadata",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3e94f36637c2c097c1fd14196ec43eacd734e6fb2dca5665c69f1a9a991bf0e6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-remote-2.0.4-6.el8_3.1.x86_64.rpm",
-      "name": "pacemaker-remote",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "5083abd69da87badb31ba60dec97b2d9d18c5b22591a58e3573c85b1670773a7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-2.0.4-6.el8_3.1.x86_64.rpm",
-      "name": "pacemaker",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "69c97ac385ff86cf18c1d5a38bbd7bef8dc3fb5b93b35500e82c8e48c05ae62e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-cts-2.0.4-6.el8_3.1.noarch.rpm",
-      "name": "pacemaker-cts",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "i686",
-      "checksum": "6b642aa7845fb8abe9c3705104c824e35ebdc072cb2775c208df8fc39953e3fe",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.i686.rpm",
-      "name": "pacemaker-libs-devel",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "703474fb81d4397c55bb9b88f83faad6aa56afc0a2ffbe09cad2f06c67266b47",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-cli-2.0.4-6.el8_3.1.x86_64.rpm",
-      "name": "pacemaker-cli",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "b208aa7e25804decfb2d9ed1e2867ce14bea2020e8200ee287fc964ec58ebaa6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pacemaker-doc-2.0.4-6.el8_3.1.noarch.rpm",
-      "name": "pacemaker-doc",
-      "reboot_suggested": 0,
-      "release": "6.el8_3.1",
-      "src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
-      "version": "2.0.4"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-25654",
-      "id": "CVE-2020-25654",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: pacemaker security update",
-  "type": "security",
-  "updated_date": 1628680708
+	"description": "The Pacemaker cluster resource manager is a collection of technologies working together to maintain data integrity and application availability in the event of failures. \n\nSecurity Fix(es):\n\n* pacemaker: ACL restrictions bypass (CVE-2020-25654)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2020:5487",
+	"issued_date": 1608048086,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "0a0f10fbdbee806a506def82a0b928fccb1e574e6bf5d5bfcfeb2bee6bba9311",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.x86_64.rpm",
+			"name": "pacemaker-libs-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "2669037f04f076e3d088293f3420d107e0c608ec8bf28bcd3954cce546c9a4f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-nagios-plugins-metadata-2.0.4-6.el8_3.1.noarch.rpm",
+			"name": "pacemaker-nagios-plugins-metadata",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3e94f36637c2c097c1fd14196ec43eacd734e6fb2dca5665c69f1a9a991bf0e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-remote-2.0.4-6.el8_3.1.x86_64.rpm",
+			"name": "pacemaker-remote",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5083abd69da87badb31ba60dec97b2d9d18c5b22591a58e3573c85b1670773a7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-2.0.4-6.el8_3.1.x86_64.rpm",
+			"name": "pacemaker",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "69c97ac385ff86cf18c1d5a38bbd7bef8dc3fb5b93b35500e82c8e48c05ae62e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-cts-2.0.4-6.el8_3.1.noarch.rpm",
+			"name": "pacemaker-cts",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "6b642aa7845fb8abe9c3705104c824e35ebdc072cb2775c208df8fc39953e3fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-libs-devel-2.0.4-6.el8_3.1.i686.rpm",
+			"name": "pacemaker-libs-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "703474fb81d4397c55bb9b88f83faad6aa56afc0a2ffbe09cad2f06c67266b47",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-cli-2.0.4-6.el8_3.1.x86_64.rpm",
+			"name": "pacemaker-cli",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b208aa7e25804decfb2d9ed1e2867ce14bea2020e8200ee287fc964ec58ebaa6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pacemaker-doc-2.0.4-6.el8_3.1.noarch.rpm",
+			"name": "pacemaker-doc",
+			"reboot_suggested": 0,
+			"release": "6.el8_3.1",
+			"src": "pacemaker-2.0.4-6.el8_3.1.src.rpm",
+			"version": "2.0.4"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-25654",
+			"id": "CVE-2020-25654",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: pacemaker security update",
+	"type": "security",
+	"updated_date": 1628680708
 }

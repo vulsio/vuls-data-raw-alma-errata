@@ -1,43 +1,43 @@
 {
-  "description": "The libpcap packages provide a portable framework for low-level network monitoring. The libpcap library provides network statistics collection, security monitoring, and network debugging.\n\nThe following packages have been upgraded to a later upstream version: libpcap (1.9.1). (BZ#1806422)\n\nSecurity Fix(es):\n\n* libpcap: Resource exhaustion during PHB header length validation (CVE-2019-15165)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2020:4547",
-  "issued_date": 1604405670,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "a753469e89d8c27cb411d6379dad4ea665c5218fff32c7464a1ebef7411ff26f",
-      "checksum_type": "sha256",
-      "epoch": "14",
-      "filename": "libpcap-devel-1.9.1-4.el8.i686.rpm",
-      "name": "libpcap-devel",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "libpcap-1.9.1-4.el8.src.rpm",
-      "version": "1.9.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c603370d236911aad713d23fde5261c4508fd0185be0efa92ae3b7801a360c06",
-      "checksum_type": "sha256",
-      "epoch": "14",
-      "filename": "libpcap-devel-1.9.1-4.el8.x86_64.rpm",
-      "name": "libpcap-devel",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "libpcap-1.9.1-4.el8.src.rpm",
-      "version": "1.9.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2019-15165",
-      "id": "CVE-2019-15165",
-      "type": "cve"
-    }
-  ],
-  "severity": "Low",
-  "title": "Low: libpcap security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "The libpcap packages provide a portable framework for low-level network monitoring. The libpcap library provides network statistics collection, security monitoring, and network debugging.\n\nThe following packages have been upgraded to a later upstream version: libpcap (1.9.1). (BZ#1806422)\n\nSecurity Fix(es):\n\n* libpcap: Resource exhaustion during PHB header length validation (CVE-2019-15165)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2020:4547",
+	"issued_date": 1604405670,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "a753469e89d8c27cb411d6379dad4ea665c5218fff32c7464a1ebef7411ff26f",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "libpcap-devel-1.9.1-4.el8.i686.rpm",
+			"name": "libpcap-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "libpcap-1.9.1-4.el8.src.rpm",
+			"version": "1.9.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c603370d236911aad713d23fde5261c4508fd0185be0efa92ae3b7801a360c06",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "libpcap-devel-1.9.1-4.el8.x86_64.rpm",
+			"name": "libpcap-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "libpcap-1.9.1-4.el8.src.rpm",
+			"version": "1.9.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2019-15165",
+			"id": "CVE-2019-15165",
+			"type": "cve"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: libpcap security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1628672040
 }

@@ -1,112 +1,112 @@
 {
-  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.4.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Same-origin policy violation could have leaked cross-origin URLs (CVE-2022-42927)\n* Mozilla: Memory Corruption in JS Engine (CVE-2022-42928)\n* Mozilla: Denial of Service via window.print (CVE-2022-42929)\n* Mozilla: Memory safety bugs fixed in Firefox 106 and Firefox ESR 102.4 (CVE-2022-42932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:7070",
-  "issued_date": 1666224000,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "3fcf43fb0382593824db5aed5f15ba6b5218c19e57bb770f3cf385d83af804c7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.4.0-1.el8_6.alma.x86_64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_6.alma",
-      "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-      "version": "102.4.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "793776de4f7d5cf5814cacad1e9354cb078eaac9d01fb832d5780f8bebd0ed07",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.4.0-1.el8_6.alma.aarch64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_6.alma",
-      "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-      "version": "102.4.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "935f188294a261ee2abda9a29e1a03224df34bbe2cabb64608fcad209ef5389a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.4.0-1.el8_6.alma.s390x.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_6.alma",
-      "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-      "version": "102.4.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "34330299b4dd6b1f3deffddb953a108c680e277940ff618d25c991da526ebc87",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.4.0-1.el8_6.alma.ppc64le.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_6.alma",
-      "src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
-      "version": "102.4.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:7070",
-      "id": "RHSA-2022:7070",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-42927",
-      "id": "CVE-2022-42927",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-42928",
-      "id": "CVE-2022-42928",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-42929",
-      "id": "CVE-2022-42929",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-42932",
-      "id": "CVE-2022-42932",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136156",
-      "id": "2136156",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136157",
-      "id": "2136157",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136158",
-      "id": "2136158",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136159",
-      "id": "2136159",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-7070.html",
-      "id": "ALSA-2022:7070",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: firefox security update",
-  "type": "security",
-  "updated_date": 1666351014
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.4.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Same-origin policy violation could have leaked cross-origin URLs (CVE-2022-42927)\n* Mozilla: Memory Corruption in JS Engine (CVE-2022-42928)\n* Mozilla: Denial of Service via window.print (CVE-2022-42929)\n* Mozilla: Memory safety bugs fixed in Firefox 106 and Firefox ESR 102.4 (CVE-2022-42932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:7070",
+	"issued_date": 1666224000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "3fcf43fb0382593824db5aed5f15ba6b5218c19e57bb770f3cf385d83af804c7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.4.0-1.el8_6.alma.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "793776de4f7d5cf5814cacad1e9354cb078eaac9d01fb832d5780f8bebd0ed07",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.4.0-1.el8_6.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "935f188294a261ee2abda9a29e1a03224df34bbe2cabb64608fcad209ef5389a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.4.0-1.el8_6.alma.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "34330299b4dd6b1f3deffddb953a108c680e277940ff618d25c991da526ebc87",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.4.0-1.el8_6.alma.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "firefox-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:7070",
+			"id": "RHSA-2022:7070",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42927",
+			"id": "CVE-2022-42927",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42928",
+			"id": "CVE-2022-42928",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42929",
+			"id": "CVE-2022-42929",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42932",
+			"id": "CVE-2022-42932",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136156",
+			"id": "2136156",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136157",
+			"id": "2136157",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136158",
+			"id": "2136158",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136159",
+			"id": "2136159",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-7070.html",
+			"id": "ALSA-2022:7070",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1666351014
 }

@@ -1,82 +1,82 @@
 {
-  "description": "The logrotate utility simplifies the administration of multiple log files by allowing their automatic rotation, compression, removal, and mailing.\n\nSecurity Fix(es):\n\n* logrotate: potential DoS from unprivileged users via the state file (CVE-2022-1348)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:8393",
-  "issued_date": 1668470400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "ppc64le",
-      "checksum": "d67efdb16dab8bf284cbd9d11d9bd846321b2a7c91df38747c4e7d094f4fbc41",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "logrotate-3.18.0-7.el9.ppc64le.rpm",
-      "name": "logrotate",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "logrotate-3.18.0-7.el9.src.rpm",
-      "version": "3.18.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "a0d3b13e0b632f732c5e941d16657599c0ed0145093a26ad3786d9204a9d3c3b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "logrotate-3.18.0-7.el9.aarch64.rpm",
-      "name": "logrotate",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "logrotate-3.18.0-7.el9.src.rpm",
-      "version": "3.18.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "8ebd6f5156388d02caa96e1a3b03136d41d047bcc159e3736e4e18edb4acdc18",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "logrotate-3.18.0-7.el9.x86_64.rpm",
-      "name": "logrotate",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "logrotate-3.18.0-7.el9.src.rpm",
-      "version": "3.18.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "dc010e389b03c2abe5a54c3b2ed65d8daa3fafe79a9470814a5027be92e2574d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "logrotate-3.18.0-7.el9.s390x.rpm",
-      "name": "logrotate",
-      "reboot_suggested": 0,
-      "release": "7.el9",
-      "src": "logrotate-3.18.0-7.el9.src.rpm",
-      "version": "3.18.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8393",
-      "id": "RHSA-2022:8393",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-1348",
-      "id": "CVE-2022-1348",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2075074",
-      "id": "2075074",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-8393.html",
-      "id": "ALSA-2022:8393",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: logrotate security update",
-  "type": "security",
-  "updated_date": 1668719947
+	"description": "The logrotate utility simplifies the administration of multiple log files by allowing their automatic rotation, compression, removal, and mailing.\n\nSecurity Fix(es):\n\n* logrotate: potential DoS from unprivileged users via the state file (CVE-2022-1348)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:8393",
+	"issued_date": 1668470400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "d67efdb16dab8bf284cbd9d11d9bd846321b2a7c91df38747c4e7d094f4fbc41",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "logrotate-3.18.0-7.el9.ppc64le.rpm",
+			"name": "logrotate",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "logrotate-3.18.0-7.el9.src.rpm",
+			"version": "3.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a0d3b13e0b632f732c5e941d16657599c0ed0145093a26ad3786d9204a9d3c3b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "logrotate-3.18.0-7.el9.aarch64.rpm",
+			"name": "logrotate",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "logrotate-3.18.0-7.el9.src.rpm",
+			"version": "3.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8ebd6f5156388d02caa96e1a3b03136d41d047bcc159e3736e4e18edb4acdc18",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "logrotate-3.18.0-7.el9.x86_64.rpm",
+			"name": "logrotate",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "logrotate-3.18.0-7.el9.src.rpm",
+			"version": "3.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "dc010e389b03c2abe5a54c3b2ed65d8daa3fafe79a9470814a5027be92e2574d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "logrotate-3.18.0-7.el9.s390x.rpm",
+			"name": "logrotate",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "logrotate-3.18.0-7.el9.src.rpm",
+			"version": "3.18.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:8393",
+			"id": "RHSA-2022:8393",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-1348",
+			"id": "CVE-2022-1348",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2075074",
+			"id": "2075074",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-8393.html",
+			"id": "ALSA-2022:8393",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: logrotate security update",
+	"type": "security",
+	"updated_date": 1668719947
 }

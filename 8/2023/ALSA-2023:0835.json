@@ -1,70 +1,70 @@
 {
-  "description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:0835",
-  "issued_date": 1676937600,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "789f0146b2dfb0a9608bbaa4cd3ee4d90e585afe2cec8baec4b45d98efc5f16d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-setuptools-39.2.0-6.el8_7.1.noarch.rpm",
-      "name": "python3-setuptools",
-      "reboot_suggested": 0,
-      "release": "6.el8_7.1",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "version": "39.2.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "c0d9b9b5ed4c72ea2d1a49859a50ba7952809469edc4cb6eaeaa1de528e43c5d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "platform-python-setuptools-39.2.0-6.el8_7.1.noarch.rpm",
-      "name": "platform-python-setuptools",
-      "reboot_suggested": 0,
-      "release": "6.el8_7.1",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "version": "39.2.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "dcfb7c6113269c148a4b1027ec5986bbfc29e74d49a70fd60749e45bd1009821",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-setuptools-wheel-39.2.0-6.el8_7.1.noarch.rpm",
-      "name": "python3-setuptools-wheel",
-      "reboot_suggested": 0,
-      "release": "6.el8_7.1",
-      "src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
-      "version": "39.2.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0835",
-      "id": "RHSA-2023:0835",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-40897",
-      "id": "CVE-2022-40897",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2158559",
-      "id": "2158559",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-0835.html",
-      "id": "ALSA-2023:0835",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: python-setuptools security update",
-  "type": "security",
-  "updated_date": 1677002930
+	"description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:0835",
+	"issued_date": 1676937600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "789f0146b2dfb0a9608bbaa4cd3ee4d90e585afe2cec8baec4b45d98efc5f16d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-39.2.0-6.el8_7.1.noarch.rpm",
+			"name": "python3-setuptools",
+			"reboot_suggested": 0,
+			"release": "6.el8_7.1",
+			"src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
+			"version": "39.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c0d9b9b5ed4c72ea2d1a49859a50ba7952809469edc4cb6eaeaa1de528e43c5d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-setuptools-39.2.0-6.el8_7.1.noarch.rpm",
+			"name": "platform-python-setuptools",
+			"reboot_suggested": 0,
+			"release": "6.el8_7.1",
+			"src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
+			"version": "39.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "dcfb7c6113269c148a4b1027ec5986bbfc29e74d49a70fd60749e45bd1009821",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-wheel-39.2.0-6.el8_7.1.noarch.rpm",
+			"name": "python3-setuptools-wheel",
+			"reboot_suggested": 0,
+			"release": "6.el8_7.1",
+			"src": "python-setuptools-39.2.0-6.el8_7.1.src.rpm",
+			"version": "39.2.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:0835",
+			"id": "RHSA-2023:0835",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40897",
+			"id": "CVE-2022-40897",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2158559",
+			"id": "2158559",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-0835.html",
+			"id": "ALSA-2023:0835",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-setuptools security update",
+	"type": "security",
+	"updated_date": 1677002930
 }

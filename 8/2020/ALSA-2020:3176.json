@@ -1,48 +1,48 @@
 {
-  "description": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* postgresql-jdbc: XML external entity (XXE) vulnerability in PgSQLXML (CVE-2020-13692)\n\nThis update introduces a backwards incompatible change required to resolve this issue. Refer to the AlmaLinux Knowledgebase article 5266441 linked to in the References section for information on how to re-enable the old insecure behavior.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2020:3176",
-  "issued_date": 1595938794,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "97a79db09495b644e54310081b5c39e99227954fe9257a09d2a62fa73eed0d11",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "postgresql-jdbc-42.2.3-3.el8_2.noarch.rpm",
-      "name": "postgresql-jdbc",
-      "reboot_suggested": 0,
-      "release": "3.el8_2",
-      "src": "postgresql-jdbc-42.2.3-3.el8_2.src.rpm",
-      "version": "42.2.3"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "a51d515c23ce42598eb0f91cf473542e405596a86109f90f5df329786adc572e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "postgresql-jdbc-javadoc-42.2.3-3.el8_2.noarch.rpm",
-      "name": "postgresql-jdbc-javadoc",
-      "reboot_suggested": 0,
-      "release": "3.el8_2",
-      "src": "postgresql-jdbc-42.2.3-3.el8_2.src.rpm",
-      "version": "42.2.3"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-13692",
-      "id": "CVE-2020-13692",
-      "type": "cve"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-3176.html",
-      "id": "ALSA-2020-3176",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: postgresql-jdbc security update",
-  "type": "security",
-  "updated_date": 1636712455
+	"description": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* postgresql-jdbc: XML external entity (XXE) vulnerability in PgSQLXML (CVE-2020-13692)\n\nThis update introduces a backwards incompatible change required to resolve this issue. Refer to the AlmaLinux Knowledgebase article 5266441 linked to in the References section for information on how to re-enable the old insecure behavior.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2020:3176",
+	"issued_date": 1595938794,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "97a79db09495b644e54310081b5c39e99227954fe9257a09d2a62fa73eed0d11",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-jdbc-42.2.3-3.el8_2.noarch.rpm",
+			"name": "postgresql-jdbc",
+			"reboot_suggested": 0,
+			"release": "3.el8_2",
+			"src": "postgresql-jdbc-42.2.3-3.el8_2.src.rpm",
+			"version": "42.2.3"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a51d515c23ce42598eb0f91cf473542e405596a86109f90f5df329786adc572e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-jdbc-javadoc-42.2.3-3.el8_2.noarch.rpm",
+			"name": "postgresql-jdbc-javadoc",
+			"reboot_suggested": 0,
+			"release": "3.el8_2",
+			"src": "postgresql-jdbc-42.2.3-3.el8_2.src.rpm",
+			"version": "42.2.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-13692",
+			"id": "CVE-2020-13692",
+			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-3176.html",
+			"id": "ALSA-2020-3176",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: postgresql-jdbc security update",
+	"type": "security",
+	"updated_date": 1636712455
 }

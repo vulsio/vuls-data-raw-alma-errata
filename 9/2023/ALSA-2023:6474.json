@@ -1,406 +1,406 @@
 {
-  "description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* golang: html/template: improper handling of JavaScript whitespace (CVE-2023-24540)\n* net/http, golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding (CVE-2022-41723)\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n* golang.org/x/net/html: Cross site scripting (CVE-2023-3978)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n* golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption (CVE-2023-24536)\n* golang: go/parser: Infinite loop in parsing (CVE-2023-24537)\n* golang: html/template: backticks not treated as string delimiters (CVE-2023-24538)\n* golang: html/template: improper sanitization of CSS values (CVE-2023-24539)\n* containerd: Supplementary groups are not set up properly (CVE-2023-25173)\n* golang: html/template: improper handling of empty HTML attributes (CVE-2023-29400)\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6474",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "04fc87e6275c29790c9d8e9c9a120dd0944c2b665cc3d0944b743168d09448ff",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-4.6.1-5.el9.x86_64.rpm",
-      "name": "podman",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "26f969f6a921d0cce1dc6f9a5627c4710c59afb8598dad1ecc10b200fd5ebf9c",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-docker-4.6.1-5.el9.noarch.rpm",
-      "name": "podman-docker",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "483b8086815ac3a3bed2579ef130eaa3e7e21330b19508122eb9850ab3e3612c",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-plugins-4.6.1-5.el9.x86_64.rpm",
-      "name": "podman-plugins",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "5435eb2819a3f244631963c9a3e10c50accdaf41fba512aed6b21c4a4d2318c0",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-gvproxy-4.6.1-5.el9.x86_64.rpm",
-      "name": "podman-gvproxy",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c5a32f7d1a5f6a124185a19519acf4e3d1b502d8dfe2e8afad0fe72bf4a40277",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-remote-4.6.1-5.el9.x86_64.rpm",
-      "name": "podman-remote",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c72edd12c9a6b75f0bc82fa64a4da2e28c4bb734e2d36441f684c6355927bacf",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-tests-4.6.1-5.el9.x86_64.rpm",
-      "name": "podman-tests",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "65fee6ad63833b8d8635ce02a7ba0819aa1cbdac020896b03624755ad6421212",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-remote-4.6.1-5.el9.ppc64le.rpm",
-      "name": "podman-remote",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "753fdca7059508ce4897309f72cb1a3399510f4c76136f7334acfb4efdc4a453",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-gvproxy-4.6.1-5.el9.ppc64le.rpm",
-      "name": "podman-gvproxy",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "b75e81ab0e1ae35bf2b0017f8dceff898cb979c53f35cd854c16e91bc63463fd",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-4.6.1-5.el9.ppc64le.rpm",
-      "name": "podman",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "e0b7c7bce8f1bdf7328014e93cd9d184955fd9175a2b4987120cc3366d4b0bb3",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-plugins-4.6.1-5.el9.ppc64le.rpm",
-      "name": "podman-plugins",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "ff9e6e1e141186d95e7c2ece81e7cb9906c63d3b8a056e63c10bc4c48ba6494b",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-tests-4.6.1-5.el9.ppc64le.rpm",
-      "name": "podman-tests",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "128193af1bfbb521a26c723bf36502c4c5fd42c023538cb0c716b59f1f4224b8",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-remote-4.6.1-5.el9.s390x.rpm",
-      "name": "podman-remote",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "1d890173bf8908df21913ac3997c644cfefca81044546187a0058544baa12421",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-tests-4.6.1-5.el9.s390x.rpm",
-      "name": "podman-tests",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "b51dff75c3a02c46dc3ba41deda364b7a2fc76912e2927a75e0cbb18e74f5549",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-gvproxy-4.6.1-5.el9.s390x.rpm",
-      "name": "podman-gvproxy",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "bc268eb1b926078b24832e271a5cd55a830e14ea6300e35ceaa3e73c5698d531",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-4.6.1-5.el9.s390x.rpm",
-      "name": "podman",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "f9a7ec6a193287326e5b7ad1ded73f97eaca35c21c5e587d3d87a81b2169d037",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-plugins-4.6.1-5.el9.s390x.rpm",
-      "name": "podman-plugins",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "3a8e0e11cb73909033cd09ba1e63e20905d92b3f11913eaf3940fb2bcb921f06",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-tests-4.6.1-5.el9.aarch64.rpm",
-      "name": "podman-tests",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "59325efe9ae548445ecd0a995ea9192e58fd76161623c18fee1a15780a49cfa6",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-plugins-4.6.1-5.el9.aarch64.rpm",
-      "name": "podman-plugins",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "871c8a54a37ca3a40966ef052b5a4da07dc6da4161468206e009d25a2ba9e4a3",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-4.6.1-5.el9.aarch64.rpm",
-      "name": "podman",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "9f8d49203d8c3f5b976624b6cb0961c22b95e4d7bde871fd69b98270fb950c37",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-gvproxy-4.6.1-5.el9.aarch64.rpm",
-      "name": "podman-gvproxy",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "fc2530123b02971fddbe56db155793f94af2e7a6b194eabe51a427cac07c0691",
-      "checksum_type": "sha256",
-      "epoch": "2",
-      "filename": "podman-remote-4.6.1-5.el9.aarch64.rpm",
-      "name": "podman-remote",
-      "reboot_suggested": 0,
-      "release": "5.el9",
-      "src": "podman-4.6.1-5.el9.src.rpm",
-      "version": "4.6.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6474",
-      "id": "RHSA-2023:6474",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-41723",
-      "id": "CVE-2022-41723",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-41724",
-      "id": "CVE-2022-41724",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-41725",
-      "id": "CVE-2022-41725",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24534",
-      "id": "CVE-2023-24534",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24536",
-      "id": "CVE-2023-24536",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24537",
-      "id": "CVE-2023-24537",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24538",
-      "id": "CVE-2023-24538",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24539",
-      "id": "CVE-2023-24539",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-24540",
-      "id": "CVE-2023-24540",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-25173",
-      "id": "CVE-2023-25173",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29400",
-      "id": "CVE-2023-29400",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29406",
-      "id": "CVE-2023-29406",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-3978",
-      "id": "CVE-2023-3978",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2174485",
-      "id": "2174485",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178358",
-      "id": "2178358",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178488",
-      "id": "2178488",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2178492",
-      "id": "2178492",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2184481",
-      "id": "2184481",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2184482",
-      "id": "2184482",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2184483",
-      "id": "2184483",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2184484",
-      "id": "2184484",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2196026",
-      "id": "2196026",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2196027",
-      "id": "2196027",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2196029",
-      "id": "2196029",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2222167",
-      "id": "2222167",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2228689",
-      "id": "2228689",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6474.html",
-      "id": "ALSA-2023:6474",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: podman security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1699963849
+	"description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* golang: html/template: improper handling of JavaScript whitespace (CVE-2023-24540)\n* net/http, golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding (CVE-2022-41723)\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n* golang.org/x/net/html: Cross site scripting (CVE-2023-3978)\n* golang: net/http, net/textproto: denial of service from excessive memory allocation (CVE-2023-24534)\n* golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption (CVE-2023-24536)\n* golang: go/parser: Infinite loop in parsing (CVE-2023-24537)\n* golang: html/template: backticks not treated as string delimiters (CVE-2023-24538)\n* golang: html/template: improper sanitization of CSS values (CVE-2023-24539)\n* containerd: Supplementary groups are not set up properly (CVE-2023-25173)\n* golang: html/template: improper handling of empty HTML attributes (CVE-2023-29400)\n* golang: net/http: insufficient sanitization of Host header (CVE-2023-29406)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6474",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "04fc87e6275c29790c9d8e9c9a120dd0944c2b665cc3d0944b743168d09448ff",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "26f969f6a921d0cce1dc6f9a5627c4710c59afb8598dad1ecc10b200fd5ebf9c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-docker-4.6.1-5.el9.noarch.rpm",
+			"name": "podman-docker",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "483b8086815ac3a3bed2579ef130eaa3e7e21330b19508122eb9850ab3e3612c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5435eb2819a3f244631963c9a3e10c50accdaf41fba512aed6b21c4a4d2318c0",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-gvproxy",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c5a32f7d1a5f6a124185a19519acf4e3d1b502d8dfe2e8afad0fe72bf4a40277",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-remote-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c72edd12c9a6b75f0bc82fa64a4da2e28c4bb734e2d36441f684c6355927bacf",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-tests-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "65fee6ad63833b8d8635ce02a7ba0819aa1cbdac020896b03624755ad6421212",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-remote-4.6.1-5.el9.ppc64le.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "753fdca7059508ce4897309f72cb1a3399510f4c76136f7334acfb4efdc4a453",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.ppc64le.rpm",
+			"name": "podman-gvproxy",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b75e81ab0e1ae35bf2b0017f8dceff898cb979c53f35cd854c16e91bc63463fd",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-4.6.1-5.el9.ppc64le.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e0b7c7bce8f1bdf7328014e93cd9d184955fd9175a2b4987120cc3366d4b0bb3",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.ppc64le.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ff9e6e1e141186d95e7c2ece81e7cb9906c63d3b8a056e63c10bc4c48ba6494b",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-tests-4.6.1-5.el9.ppc64le.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "128193af1bfbb521a26c723bf36502c4c5fd42c023538cb0c716b59f1f4224b8",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-remote-4.6.1-5.el9.s390x.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "1d890173bf8908df21913ac3997c644cfefca81044546187a0058544baa12421",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-tests-4.6.1-5.el9.s390x.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b51dff75c3a02c46dc3ba41deda364b7a2fc76912e2927a75e0cbb18e74f5549",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.s390x.rpm",
+			"name": "podman-gvproxy",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "bc268eb1b926078b24832e271a5cd55a830e14ea6300e35ceaa3e73c5698d531",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-4.6.1-5.el9.s390x.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f9a7ec6a193287326e5b7ad1ded73f97eaca35c21c5e587d3d87a81b2169d037",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.s390x.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3a8e0e11cb73909033cd09ba1e63e20905d92b3f11913eaf3940fb2bcb921f06",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-tests-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "59325efe9ae548445ecd0a995ea9192e58fd76161623c18fee1a15780a49cfa6",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "871c8a54a37ca3a40966ef052b5a4da07dc6da4161468206e009d25a2ba9e4a3",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9f8d49203d8c3f5b976624b6cb0961c22b95e4d7bde871fd69b98270fb950c37",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman-gvproxy",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fc2530123b02971fddbe56db155793f94af2e7a6b194eabe51a427cac07c0691",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-remote-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6474",
+			"id": "RHSA-2023:6474",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-41723",
+			"id": "CVE-2022-41723",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-41724",
+			"id": "CVE-2022-41724",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-41725",
+			"id": "CVE-2022-41725",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24534",
+			"id": "CVE-2023-24534",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24536",
+			"id": "CVE-2023-24536",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24537",
+			"id": "CVE-2023-24537",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24538",
+			"id": "CVE-2023-24538",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24539",
+			"id": "CVE-2023-24539",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-24540",
+			"id": "CVE-2023-24540",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25173",
+			"id": "CVE-2023-25173",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29400",
+			"id": "CVE-2023-29400",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29406",
+			"id": "CVE-2023-29406",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3978",
+			"id": "CVE-2023-3978",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2174485",
+			"id": "2174485",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2178358",
+			"id": "2178358",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2178488",
+			"id": "2178488",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2178492",
+			"id": "2178492",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2184481",
+			"id": "2184481",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2184482",
+			"id": "2184482",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2184483",
+			"id": "2184483",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2184484",
+			"id": "2184484",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2196026",
+			"id": "2196026",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2196027",
+			"id": "2196027",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2196029",
+			"id": "2196029",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2222167",
+			"id": "2222167",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2228689",
+			"id": "2228689",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6474.html",
+			"id": "ALSA-2023:6474",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: podman security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1699963849
 }

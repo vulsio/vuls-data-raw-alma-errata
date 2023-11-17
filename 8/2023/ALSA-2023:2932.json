@@ -1,88 +1,88 @@
 {
-  "description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: X.400 address type confusion in X.509 GeneralName (CVE-2023-0286)\n* openssl: timing attack in RSA Decryption implementation (CVE-2022-4304)\n* openssl: double free after calling PEM_read_bio_ex (CVE-2022-4450)\n* openssl: use-after-free following BIO_new_NDEF (CVE-2023-0215)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:2932",
-  "issued_date": 1684195200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "742ed9bc65003fe39e049d73c5712c71468e63fe0cfef03e431adb61c21c4c77",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-aarch64-20220126gitbb1bba3d77-4.el8.noarch.rpm",
-      "name": "edk2-aarch64",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "edk2-20220126gitbb1bba3d77-4.el8.src.rpm",
-      "version": "20220126gitbb1bba3d77"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "683b24853c8a0ce16403dbe844ee8c53651ad8ef3c57df9bd62c68f723da127c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-ovmf-20220126gitbb1bba3d77-4.el8.noarch.rpm",
-      "name": "edk2-ovmf",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "edk2-20220126gitbb1bba3d77-4.el8.src.rpm",
-      "version": "20220126gitbb1bba3d77"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2932",
-      "id": "RHSA-2023:2932",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-4304",
-      "id": "CVE-2022-4304",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-4450",
-      "id": "CVE-2022-4450",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-0215",
-      "id": "CVE-2023-0215",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-0286",
-      "id": "CVE-2023-0286",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2164440",
-      "id": "2164440",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2164487",
-      "id": "2164487",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2164492",
-      "id": "2164492",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2164494",
-      "id": "2164494",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-2932.html",
-      "id": "ALSA-2023:2932",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: edk2 security update",
-  "type": "security",
-  "updated_date": 1684533750
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: X.400 address type confusion in X.509 GeneralName (CVE-2023-0286)\n* openssl: timing attack in RSA Decryption implementation (CVE-2022-4304)\n* openssl: double free after calling PEM_read_bio_ex (CVE-2022-4450)\n* openssl: use-after-free following BIO_new_NDEF (CVE-2023-0215)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:2932",
+	"issued_date": 1684195200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "742ed9bc65003fe39e049d73c5712c71468e63fe0cfef03e431adb61c21c4c77",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20220126gitbb1bba3d77-4.el8.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "edk2-20220126gitbb1bba3d77-4.el8.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "683b24853c8a0ce16403dbe844ee8c53651ad8ef3c57df9bd62c68f723da127c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20220126gitbb1bba3d77-4.el8.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "edk2-20220126gitbb1bba3d77-4.el8.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:2932",
+			"id": "RHSA-2023:2932",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-4304",
+			"id": "CVE-2022-4304",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-4450",
+			"id": "CVE-2022-4450",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0215",
+			"id": "CVE-2023-0215",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0286",
+			"id": "CVE-2023-0286",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2164440",
+			"id": "2164440",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2164487",
+			"id": "2164487",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2164492",
+			"id": "2164492",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2164494",
+			"id": "2164494",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-2932.html",
+			"id": "ALSA-2023:2932",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: edk2 security update",
+	"type": "security",
+	"updated_date": 1684533750
 }

@@ -1,178 +1,178 @@
 {
-  "description": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* python-pillow: PIL.ImageMath.eval allows evaluation of arbitrary expressions (CVE-2022-22817)\n\n* python-pillow: buffer over-read during initialization of ImagePath.Path in path_getbbox() in path.c (CVE-2022-22816)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:0643",
-  "issued_date": 1645550731,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "233441ce841bb155e018796a576fcec001cc071aa3e071bceceae2d6f182c713",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-tk-5.1.1-18.el8_5.x86_64.rpm",
-      "name": "python3-pillow-tk",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "i686",
-      "checksum": "2adb3d2df8b01316fe2e238ee660ec21eeefe5f0f5367a29d5b07cdf58a84577",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-devel-5.1.1-18.el8_5.i686.rpm",
-      "name": "python3-pillow-devel",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "309aa9dd847a8b2692283aa8423f03e48f7f6ed129273b3bb96c70bbc589c951",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-5.1.1-18.el8_5.x86_64.rpm",
-      "name": "python3-pillow",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "5dc75f22099237bab4b886a214faaa312c599d5df035985244992fd3d5ac6a70",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-devel-5.1.1-18.el8_5.x86_64.rpm",
-      "name": "python3-pillow-devel",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
-      "name": "python3-pillow-doc",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "i686",
-      "checksum": "94c7028905416c8b496c79a3661ef6a5e2d34e0816f0d8dcd8c4ec1782afd4cf",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-5.1.1-18.el8_5.i686.rpm",
-      "name": "python3-pillow",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "1d6a2627dcccb3628b027f7b5abc0d7b8920f705d9fd5ae5f9fd1c000a3246b1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-tk-5.1.1-18.el8_5.aarch64.rpm",
-      "name": "python3-pillow-tk",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
-      "name": "python3-pillow",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
-      "name": "python3-pillow-devel",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "276f2bba933852a829a7e91f695748a45e2ad5bf96febc76f4b1e2a33b98aaa7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-5.1.1-18.el8_5.ppc64le.rpm",
-      "name": "python3-pillow",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "b40f3d3038d5aebb8d4ba9ce53cd50024a10d832d68ebc072ff07a7dd70e29db",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-devel-5.1.1-18.el8_5.ppc64le.rpm",
-      "name": "python3-pillow-devel",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "fd7dfa2911394c835cc3c01f5e516d59e4ffc8bf3a1416bb2b052079326a7657",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-pillow-tk-5.1.1-18.el8_5.ppc64le.rpm",
-      "name": "python3-pillow-tk",
-      "reboot_suggested": 0,
-      "release": "18.el8_5",
-      "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-      "version": "5.1.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2022-22816",
-      "id": "CVE-2022-22816",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-22817",
-      "id": "CVE-2022-22817",
-      "type": "cve"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-0643.html",
-      "id": "ALSA-2022-0643",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2022-22815",
-      "id": "CVE-2022-22815",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: python-pillow security update",
-  "type": "security",
-  "updated_date": 1645622689
+	"description": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* python-pillow: PIL.ImageMath.eval allows evaluation of arbitrary expressions (CVE-2022-22817)\n\n* python-pillow: buffer over-read during initialization of ImagePath.Path in path_getbbox() in path.c (CVE-2022-22816)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:0643",
+	"issued_date": 1645550731,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "233441ce841bb155e018796a576fcec001cc071aa3e071bceceae2d6f182c713",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-tk-5.1.1-18.el8_5.x86_64.rpm",
+			"name": "python3-pillow-tk",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "2adb3d2df8b01316fe2e238ee660ec21eeefe5f0f5367a29d5b07cdf58a84577",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-devel-5.1.1-18.el8_5.i686.rpm",
+			"name": "python3-pillow-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "309aa9dd847a8b2692283aa8423f03e48f7f6ed129273b3bb96c70bbc589c951",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-18.el8_5.x86_64.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5dc75f22099237bab4b886a214faaa312c599d5df035985244992fd3d5ac6a70",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-devel-5.1.1-18.el8_5.x86_64.rpm",
+			"name": "python3-pillow-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
+			"name": "python3-pillow-doc",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "94c7028905416c8b496c79a3661ef6a5e2d34e0816f0d8dcd8c4ec1782afd4cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-18.el8_5.i686.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1d6a2627dcccb3628b027f7b5abc0d7b8920f705d9fd5ae5f9fd1c000a3246b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-tk-5.1.1-18.el8_5.aarch64.rpm",
+			"name": "python3-pillow-tk",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
+			"name": "python3-pillow-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "276f2bba933852a829a7e91f695748a45e2ad5bf96febc76f4b1e2a33b98aaa7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-18.el8_5.ppc64le.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b40f3d3038d5aebb8d4ba9ce53cd50024a10d832d68ebc072ff07a7dd70e29db",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-devel-5.1.1-18.el8_5.ppc64le.rpm",
+			"name": "python3-pillow-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fd7dfa2911394c835cc3c01f5e516d59e4ffc8bf3a1416bb2b052079326a7657",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-tk-5.1.1-18.el8_5.ppc64le.rpm",
+			"name": "python3-pillow-tk",
+			"reboot_suggested": 0,
+			"release": "18.el8_5",
+			"src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+			"version": "5.1.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2022-22816",
+			"id": "CVE-2022-22816",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-22817",
+			"id": "CVE-2022-22817",
+			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-0643.html",
+			"id": "ALSA-2022-0643",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2022-22815",
+			"id": "CVE-2022-22815",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: python-pillow security update",
+	"type": "security",
+	"updated_date": 1645622689
 }

@@ -1,330 +1,330 @@
 {
-  "description": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Incorrect principal selection when using Kerberos Constrained Delegation (Libraries, 8266689) (CVE-2021-35567)\n\n* OpenJDK: Excessive memory allocation in RTFParser (Swing, 8265167) (CVE-2021-35556)\n\n* OpenJDK: Excessive memory allocation in RTFReader (Swing, 8265580) (CVE-2021-35559)\n\n* OpenJDK: Excessive memory allocation in HashMap and HashSet (Utility, 8266097) (CVE-2021-35561)\n\n* OpenJDK: Certificates with end dates too far in the future can corrupt keystore (Keytool, 8266137) (CVE-2021-35564)\n\n* OpenJDK: Unexpected exception raised during TLS handshake (JSSE, 8267729) (CVE-2021-35578)\n\n* OpenJDK: Excessive memory allocation in BMPImageReader (ImageIO, 8267735) (CVE-2021-35586)\n\n* OpenJDK: Non-constant comparison during TLS handshakes (JSSE, 8269618) (CVE-2021-35603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2021:4135",
-  "issued_date": 1636485997,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "0846f6a5d60c62bdcfb0bd7eb3c05edc4ebc65b44c4f2d8eddd8e6150dcb758d",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-jmods-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-jmods-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "0e7c6ad6427f286e8f6ce37a55381ed808aba13fdea97cf15d6a241ade27fa72",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-demo-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-demo-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "288b171b173dde0a9a85b85413b9b757a58cbd43b019433daf690f167df94441",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-static-libs-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-static-libs-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3aed74936a340fbce07da89667c407525bdc3668526099d4a280305765cd66d7",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-src-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-src-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "4799ef48dc51b40c4d2cce48ab2ed206928d1a31e522c052b5adf9fbcb65303f",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-headless-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-headless-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6f2da09fb2f9fd0d7f75c281d0c644a0df32b8877be4266836eb2050c0dd880f",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-jmods-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-jmods-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "703937e6d9d8c4a6f5a1274b0aba6837eb2aea71f40a729ebc17d359bcca804c",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-headless-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-headless-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "928324ecb5dacc8423d3bfdf9d57de7d99bc43b17d833ba1bf4c9b5c4daa1370",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-src-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-src-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "9be3b1088ce651e557757b85b08eeca521486d41f81007eb0927d456e512ccf5",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "b12e40f95bb0fc93c1eedaf2d712ba456b64c37b3c9fe6709ee6821bbe0b0083",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "b7c26009353d8c55cf0627c120d61b390a04f2a64f03080bf4275a53125ce1aa",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-devel-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-devel-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c78f7922bd48c72388ebae471bac8ce83dc44347406d5643835e77ceb26dd5c6",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-static-libs-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-static-libs-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "dd32be3bfcea989543d89da8e01daf59a10f2f9a87f57a3126d54a38ceaef24b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-demo-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-demo-fastdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fdd8beb1466eb7dd82ccaf1f49851cc599f2792f0a28446623a581d51e3edd66",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-devel-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-devel-slowdebug",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "26295c90566b00241e40373fd22e0750cb9e3955e87a460b74e74fd2f21cb805",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-javadoc-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-javadoc",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "40e9833656c340d9548d46084b1189054d1ab223b8d371b4bf11fac206c2559d",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-jmods-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-jmods",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "4bf883314014f62070f4fcde87a8fdd0354a1fb54a4a85117c0a2ee401348a46",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "5a1c935efce4b71db9610b0ee3d9f5237002fe06359d7f259ac2542a4d91239c",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-javadoc-zip-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-javadoc-zip",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "60a862ef828d56f43626a83226c4efb3e406b5d9e7466d3b24bd6cc51439fed6",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-headless-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-headless",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "b5b7cb700f7b1b5002d48a2b0e7a4411d327f8d34b1c5d16007f74ac03b2cc18",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-src-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-src",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "dcb7f0e9849dadbb7cd5851db557a53fd47f9a4a4d0db2d788647dba11280271",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-demo-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-demo",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fbdf9296a150d8dbe1985d3f146c91a476f5f1979c4ff6b4edceb33116f5016b",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-static-libs-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-static-libs",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ffc7cab209fb357392f93296881011bf9811309713274131e7be8cfd15884836",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "java-17-openjdk-devel-17.0.1.0.12-2.el8_5.x86_64.rpm",
-      "name": "java-17-openjdk-devel",
-      "reboot_suggested": 0,
-      "release": "2.el8_5",
-      "src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
-      "version": "17.0.1.0.12"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35556",
-      "id": "CVE-2021-35556",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35559",
-      "id": "CVE-2021-35559",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35561",
-      "id": "CVE-2021-35561",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35564",
-      "id": "CVE-2021-35564",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35567",
-      "id": "CVE-2021-35567",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35578",
-      "id": "CVE-2021-35578",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35586",
-      "id": "CVE-2021-35586",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-35603",
-      "id": "CVE-2021-35603",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: java-17-openjdk security update",
-  "type": "security",
-  "updated_date": 1636734812
+	"description": "The java-17-openjdk packages provide the OpenJDK 17 Java Runtime Environment and the OpenJDK 17 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Incorrect principal selection when using Kerberos Constrained Delegation (Libraries, 8266689) (CVE-2021-35567)\n\n* OpenJDK: Excessive memory allocation in RTFParser (Swing, 8265167) (CVE-2021-35556)\n\n* OpenJDK: Excessive memory allocation in RTFReader (Swing, 8265580) (CVE-2021-35559)\n\n* OpenJDK: Excessive memory allocation in HashMap and HashSet (Utility, 8266097) (CVE-2021-35561)\n\n* OpenJDK: Certificates with end dates too far in the future can corrupt keystore (Keytool, 8266137) (CVE-2021-35564)\n\n* OpenJDK: Unexpected exception raised during TLS handshake (JSSE, 8267729) (CVE-2021-35578)\n\n* OpenJDK: Excessive memory allocation in BMPImageReader (ImageIO, 8267735) (CVE-2021-35586)\n\n* OpenJDK: Non-constant comparison during TLS handshakes (JSSE, 8269618) (CVE-2021-35603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2021:4135",
+	"issued_date": 1636485997,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "0846f6a5d60c62bdcfb0bd7eb3c05edc4ebc65b44c4f2d8eddd8e6150dcb758d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-jmods-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-jmods-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0e7c6ad6427f286e8f6ce37a55381ed808aba13fdea97cf15d6a241ade27fa72",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-demo-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-demo-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "288b171b173dde0a9a85b85413b9b757a58cbd43b019433daf690f167df94441",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-static-libs-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-static-libs-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3aed74936a340fbce07da89667c407525bdc3668526099d4a280305765cd66d7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-src-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-src-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4799ef48dc51b40c4d2cce48ab2ed206928d1a31e522c052b5adf9fbcb65303f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-headless-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-headless-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6f2da09fb2f9fd0d7f75c281d0c644a0df32b8877be4266836eb2050c0dd880f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-jmods-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-jmods-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "703937e6d9d8c4a6f5a1274b0aba6837eb2aea71f40a729ebc17d359bcca804c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-headless-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-headless-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "928324ecb5dacc8423d3bfdf9d57de7d99bc43b17d833ba1bf4c9b5c4daa1370",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-src-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-src-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9be3b1088ce651e557757b85b08eeca521486d41f81007eb0927d456e512ccf5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b12e40f95bb0fc93c1eedaf2d712ba456b64c37b3c9fe6709ee6821bbe0b0083",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b7c26009353d8c55cf0627c120d61b390a04f2a64f03080bf4275a53125ce1aa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-devel-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-devel-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c78f7922bd48c72388ebae471bac8ce83dc44347406d5643835e77ceb26dd5c6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-static-libs-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-static-libs-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "dd32be3bfcea989543d89da8e01daf59a10f2f9a87f57a3126d54a38ceaef24b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-demo-fastdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-demo-fastdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fdd8beb1466eb7dd82ccaf1f49851cc599f2792f0a28446623a581d51e3edd66",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-devel-slowdebug-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-devel-slowdebug",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "26295c90566b00241e40373fd22e0750cb9e3955e87a460b74e74fd2f21cb805",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-javadoc-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-javadoc",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "40e9833656c340d9548d46084b1189054d1ab223b8d371b4bf11fac206c2559d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-jmods-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-jmods",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4bf883314014f62070f4fcde87a8fdd0354a1fb54a4a85117c0a2ee401348a46",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5a1c935efce4b71db9610b0ee3d9f5237002fe06359d7f259ac2542a4d91239c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-javadoc-zip-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-javadoc-zip",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "60a862ef828d56f43626a83226c4efb3e406b5d9e7466d3b24bd6cc51439fed6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-headless-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-headless",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b5b7cb700f7b1b5002d48a2b0e7a4411d327f8d34b1c5d16007f74ac03b2cc18",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-src-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-src",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "dcb7f0e9849dadbb7cd5851db557a53fd47f9a4a4d0db2d788647dba11280271",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-demo-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-demo",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fbdf9296a150d8dbe1985d3f146c91a476f5f1979c4ff6b4edceb33116f5016b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-static-libs-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-static-libs",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ffc7cab209fb357392f93296881011bf9811309713274131e7be8cfd15884836",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "java-17-openjdk-devel-17.0.1.0.12-2.el8_5.x86_64.rpm",
+			"name": "java-17-openjdk-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_5",
+			"src": "java-17-openjdk-17.0.1.0.12-2.el8_5.src.rpm",
+			"version": "17.0.1.0.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35556",
+			"id": "CVE-2021-35556",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35559",
+			"id": "CVE-2021-35559",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35561",
+			"id": "CVE-2021-35561",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35564",
+			"id": "CVE-2021-35564",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35567",
+			"id": "CVE-2021-35567",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35578",
+			"id": "CVE-2021-35578",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35586",
+			"id": "CVE-2021-35586",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-35603",
+			"id": "CVE-2021-35603",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: java-17-openjdk security update",
+	"type": "security",
+	"updated_date": 1636734812
 }

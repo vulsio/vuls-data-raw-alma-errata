@@ -1,212 +1,212 @@
 {
-  "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: integer overflows with XML_PARSE_HUGE (CVE-2022-40303)\n* libxml2: dict corruption caused by entity reference cycles (CVE-2022-40304)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:0173",
-  "issued_date": 1673827200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "f0d478a49d639f29ccebbfbf5c063cfdc7407c6ef8c806f78705178d88b016f8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-2.9.7-15.el8_7.1.i686.rpm",
-      "name": "libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "i686",
-      "checksum": "0c4e9bc66f6a0d7bd4a36bf18e0affd4a5ec242e470799fa250a810f720112cb",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-devel-2.9.7-15.el8_7.1.i686.rpm",
-      "name": "libxml2-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "69c90eaf4279d093dda3658ba025d2c8a93cd62c3c83a119f47e0cbd7fddbe56",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
-      "name": "libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ea95280b9f6ecfdf377dde822cdba053c4c184cfa61adc70ba1e9d0d6fe9b01d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
-      "name": "python3-libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "95647c253b5cc4b2737ab82a3057b1099317d849f9b58f8b5cf4816392d56f0d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
-      "name": "libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "f96b7ae91529771dedde539a269d2ea5d664860b6f19291fe5963a64b75ef37c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
-      "name": "python3-libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "04446ba5a4b8d39c6db106692987a1ed141cd14fdc3e70825f3d334ed6cbeb67",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
-      "name": "libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "cc3ef9ace8490ff979eb809d9464a1565e82c137ae41c39abc980de0c3b62e52",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
-      "name": "python3-libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fde09b25c0d2ea0941288617ec28633b91a16f88502443edd10c8c28891b4755",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-devel-2.9.7-15.el8_7.1.x86_64.rpm",
-      "name": "libxml2-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "3b554637be8c4d6168b914c272e65e2068010d9dff3dbaaba401f4aab9cc5a6f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-2.9.7-15.el8_7.1.s390x.rpm",
-      "name": "libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "cf14d1de7b54f2a0be219f7da8aefe05a2a4784cb70076b3b705e0175cab925d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-libxml2-2.9.7-15.el8_7.1.s390x.rpm",
-      "name": "python3-libxml2",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "15defb22325157b3926128551071185df6d118ab49a9b5378077740d9f3f3668",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-devel-2.9.7-15.el8_7.1.aarch64.rpm",
-      "name": "libxml2-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "aeeff1f757486864e8284b38cc700d3ad57d6a3277d5eff4241f842afbab9fab",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-devel-2.9.7-15.el8_7.1.s390x.rpm",
-      "name": "libxml2-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "4bef3549b4e5f7603dc79556a678f41faa211e254b5247e29380de2f02c4493d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libxml2-devel-2.9.7-15.el8_7.1.ppc64le.rpm",
-      "name": "libxml2-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_7.1",
-      "src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
-      "version": "2.9.7"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0173",
-      "id": "RHSA-2023:0173",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-40303",
-      "id": "CVE-2022-40303",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-40304",
-      "id": "CVE-2022-40304",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136266",
-      "id": "2136266",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2136288",
-      "id": "2136288",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-0173.html",
-      "id": "ALSA-2023:0173",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: libxml2 security update",
-  "type": "security",
-  "updated_date": 1673872394
+	"description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: integer overflows with XML_PARSE_HUGE (CVE-2022-40303)\n* libxml2: dict corruption caused by entity reference cycles (CVE-2022-40304)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:0173",
+	"issued_date": 1673827200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "f0d478a49d639f29ccebbfbf5c063cfdc7407c6ef8c806f78705178d88b016f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-15.el8_7.1.i686.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "0c4e9bc66f6a0d7bd4a36bf18e0affd4a5ec242e470799fa250a810f720112cb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-15.el8_7.1.i686.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "69c90eaf4279d093dda3658ba025d2c8a93cd62c3c83a119f47e0cbd7fddbe56",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ea95280b9f6ecfdf377dde822cdba053c4c184cfa61adc70ba1e9d0d6fe9b01d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libxml2-2.9.7-15.el8_7.1.x86_64.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "95647c253b5cc4b2737ab82a3057b1099317d849f9b58f8b5cf4816392d56f0d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f96b7ae91529771dedde539a269d2ea5d664860b6f19291fe5963a64b75ef37c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libxml2-2.9.7-15.el8_7.1.aarch64.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "04446ba5a4b8d39c6db106692987a1ed141cd14fdc3e70825f3d334ed6cbeb67",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cc3ef9ace8490ff979eb809d9464a1565e82c137ae41c39abc980de0c3b62e52",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libxml2-2.9.7-15.el8_7.1.ppc64le.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fde09b25c0d2ea0941288617ec28633b91a16f88502443edd10c8c28891b4755",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-15.el8_7.1.x86_64.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3b554637be8c4d6168b914c272e65e2068010d9dff3dbaaba401f4aab9cc5a6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-15.el8_7.1.s390x.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "cf14d1de7b54f2a0be219f7da8aefe05a2a4784cb70076b3b705e0175cab925d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libxml2-2.9.7-15.el8_7.1.s390x.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "15defb22325157b3926128551071185df6d118ab49a9b5378077740d9f3f3668",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-15.el8_7.1.aarch64.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "aeeff1f757486864e8284b38cc700d3ad57d6a3277d5eff4241f842afbab9fab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-15.el8_7.1.s390x.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4bef3549b4e5f7603dc79556a678f41faa211e254b5247e29380de2f02c4493d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-15.el8_7.1.ppc64le.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_7.1",
+			"src": "libxml2-2.9.7-15.el8_7.1.src.rpm",
+			"version": "2.9.7"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:0173",
+			"id": "RHSA-2023:0173",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40303",
+			"id": "CVE-2022-40303",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40304",
+			"id": "CVE-2022-40304",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136266",
+			"id": "2136266",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2136288",
+			"id": "2136288",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-0173.html",
+			"id": "ALSA-2023:0173",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libxml2 security update",
+	"type": "security",
+	"updated_date": 1673872394
 }

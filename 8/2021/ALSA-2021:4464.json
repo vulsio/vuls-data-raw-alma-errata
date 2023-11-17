@@ -1,43 +1,43 @@
 {
-  "description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups & environments.\n\nSecurity Fix(es):\n\n* libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4464",
-  "issued_date": 1636449937,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "0d5b60edb8dea5d27768d05c1c4aa72f9720f8689486e609b9089495f8e226f6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libdnf-devel-0.63.0-3.el8.x86_64.rpm",
-      "name": "libdnf-devel",
-      "reboot_suggested": 0,
-      "release": "3.el8",
-      "src": "libdnf-0.63.0-3.el8.src.rpm",
-      "version": "0.63.0"
-    },
-    {
-      "arch": "i686",
-      "checksum": "8df55edebb6a782d84d33c6da8285469fa1264882928357ed6b14b014d911cf4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libdnf-devel-0.63.0-3.el8.i686.rpm",
-      "name": "libdnf-devel",
-      "reboot_suggested": 0,
-      "release": "3.el8",
-      "src": "libdnf-0.63.0-3.el8.src.rpm",
-      "version": "0.63.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-3445",
-      "id": "CVE-2021-3445",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: dnf security and bug fix update",
-  "type": "security",
-  "updated_date": 1636712461
+	"description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups & environments.\n\nSecurity Fix(es):\n\n* libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4464",
+	"issued_date": 1636449937,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "0d5b60edb8dea5d27768d05c1c4aa72f9720f8689486e609b9089495f8e226f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libdnf-devel-0.63.0-3.el8.x86_64.rpm",
+			"name": "libdnf-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libdnf-0.63.0-3.el8.src.rpm",
+			"version": "0.63.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "8df55edebb6a782d84d33c6da8285469fa1264882928357ed6b14b014d911cf4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libdnf-devel-0.63.0-3.el8.i686.rpm",
+			"name": "libdnf-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libdnf-0.63.0-3.el8.src.rpm",
+			"version": "0.63.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-3445",
+			"id": "CVE-2021-3445",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: dnf security and bug fix update",
+	"type": "security",
+	"updated_date": 1636712461
 }

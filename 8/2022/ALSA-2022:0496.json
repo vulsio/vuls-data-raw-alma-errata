@@ -1,151 +1,151 @@
 {
-  "description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.102 and .NET Runtime 6.0.2.\n\nSecurity Fix(es):\n\n* dotnet: ASP.NET Core Krestel HTTP headers pooling denial of service (CVE-2022-219862)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:0496",
-  "issued_date": 1644395195,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "03515f8ef79b3bdff8f9c5593cc6476bfcfe51e022591ed558d2eb6b353d30e6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-runtime-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "dotnet-runtime-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "1e26666e3fa51ae893bac3c23faa930d7a21b70fb42e6947dc76cde68dd466e6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "aspnetcore-targeting-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "aspnetcore-targeting-pack-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "2d2064b02beacb4ed77ec7032fbbfb4fb316ead60f631e08c80f5efc84bd9109",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-sdk-6.0-6.0.102-1.el8_5.x86_64.rpm",
-      "name": "dotnet-sdk-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.102"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3a8cf4ee752762bc64249ac69f19f550002765376d555f120576893d8d3ee147",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-host-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "dotnet-host",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3d90768a213f243cf36398ac497f936b9c575cd5f3272f2e3b4b97148de32661",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-hostfxr-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "dotnet-hostfxr-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "68df6d98788d20e4f50e8b87cbf7833abca49dcaa111cec0727855ffb2f50642",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "aspnetcore-runtime-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "aspnetcore-runtime-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "adb8f431e28d834c6e464513a2dbfcf442c9fead01e7f0d1fa9010f0718ff1cf",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-templates-6.0-6.0.102-1.el8_5.x86_64.rpm",
-      "name": "dotnet-templates-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.102"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "b31b62bf0933286911e54db22389e57374360232f5605b477798a25eb643b2cd",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-targeting-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "dotnet-targeting-pack-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c02d8f843527ff016f5de37f5c92efb57310ddeb593ea1b4a0ea9ff06684f337",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-6.0.102-1.el8_5.x86_64.rpm",
-      "name": "dotnet",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.102"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "c88b7a1e84bf3f57fd9e0f394d22e1dfe0e0c5acf22d4cf4353ef171fbbdc382",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "netstandard-targeting-pack-2.1-6.0.102-1.el8_5.x86_64.rpm",
-      "name": "netstandard-targeting-pack-2.1",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.102"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e5e301b04420c1e5f063e8604352dd284756e58853ffd2e8e06a7beee0e75b7d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "dotnet-apphost-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
-      "name": "dotnet-apphost-pack-6.0",
-      "reboot_suggested": 0,
-      "release": "1.el8_5",
-      "src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
-      "version": "6.0.2"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2022-21986",
-      "id": "CVE-2022-21986",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: .NET 6.0 security and bugfix update",
-  "type": "security",
-  "updated_date": 1644660821
+	"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.102 and .NET Runtime 6.0.2.\n\nSecurity Fix(es):\n\n* dotnet: ASP.NET Core Krestel HTTP headers pooling denial of service (CVE-2022-219862)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:0496",
+	"issued_date": 1644395195,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "03515f8ef79b3bdff8f9c5593cc6476bfcfe51e022591ed558d2eb6b353d30e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-runtime-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "dotnet-runtime-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1e26666e3fa51ae893bac3c23faa930d7a21b70fb42e6947dc76cde68dd466e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "aspnetcore-targeting-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "aspnetcore-targeting-pack-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2d2064b02beacb4ed77ec7032fbbfb4fb316ead60f631e08c80f5efc84bd9109",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-6.0-6.0.102-1.el8_5.x86_64.rpm",
+			"name": "dotnet-sdk-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.102"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3a8cf4ee752762bc64249ac69f19f550002765376d555f120576893d8d3ee147",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-host-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "dotnet-host",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3d90768a213f243cf36398ac497f936b9c575cd5f3272f2e3b4b97148de32661",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-hostfxr-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "dotnet-hostfxr-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "68df6d98788d20e4f50e8b87cbf7833abca49dcaa111cec0727855ffb2f50642",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "aspnetcore-runtime-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "aspnetcore-runtime-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "adb8f431e28d834c6e464513a2dbfcf442c9fead01e7f0d1fa9010f0718ff1cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-templates-6.0-6.0.102-1.el8_5.x86_64.rpm",
+			"name": "dotnet-templates-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.102"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b31b62bf0933286911e54db22389e57374360232f5605b477798a25eb643b2cd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-targeting-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "dotnet-targeting-pack-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c02d8f843527ff016f5de37f5c92efb57310ddeb593ea1b4a0ea9ff06684f337",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-6.0.102-1.el8_5.x86_64.rpm",
+			"name": "dotnet",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.102"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c88b7a1e84bf3f57fd9e0f394d22e1dfe0e0c5acf22d4cf4353ef171fbbdc382",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "netstandard-targeting-pack-2.1-6.0.102-1.el8_5.x86_64.rpm",
+			"name": "netstandard-targeting-pack-2.1",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.102"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e5e301b04420c1e5f063e8604352dd284756e58853ffd2e8e06a7beee0e75b7d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-apphost-pack-6.0-6.0.2-1.el8_5.x86_64.rpm",
+			"name": "dotnet-apphost-pack-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_5",
+			"src": "dotnet6.0-6.0.102-1.el8_5.src.rpm",
+			"version": "6.0.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2022-21986",
+			"id": "CVE-2022-21986",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: .NET 6.0 security and bugfix update",
+	"type": "security",
+	"updated_date": 1644660821
 }

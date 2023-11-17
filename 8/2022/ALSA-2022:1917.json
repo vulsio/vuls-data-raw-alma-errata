@@ -1,413 +1,413 @@
 {
-  "description": "X.Org is an open-source implementation of the X Window System. It provides the basic low-level functionality that full-fledged graphical user interfaces are designed upon.\nXwayland is an X server for running X clients under Wayland.\nThe following packages have been upgraded to a later upstream version: xorg-x11-server-Xwayland (21.1.3). (BZ#2015842)\nSecurity Fix(es):\n* xorg-x11-server: SProcRenderCompositeGlyphs out-of-bounds access (CVE-2021-4008)\n* xorg-x11-server: SProcXFixesCreatePointerBarrier out-of-bounds access (CVE-2021-4009)\n* xorg-x11-server: SProcScreenSaverSuspend out-of-bounds access (CVE-2021-4010)\n* xorg-x11-server: SwapCreateRegister out-of-bounds access (CVE-2021-4011)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2022:1917",
-  "issued_date": 1652140800,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "8503f09c75b606e3deee03161a5982dda97107318af42b0706c61df27952889b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-devel-1.20.11-5.el8.i686.rpm",
-      "name": "xorg-x11-server-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "a7369303e1a4fe87a75df5cb0466f9d0260ab3b25a09702bd30f4df8d93955e4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-source-1.20.11-5.el8.noarch.rpm",
-      "name": "xorg-x11-server-source",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "0873075c9eed2c534997763f1ae758683ae313dd57b6ed5a6aa3ea0315fec077",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "2.el8",
-      "src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
-      "version": "21.1.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "1632cc5199fe87da5f45e222ec575c6941c56e57231e076698723af3009b96e7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xnest-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xnest",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6941ce15489edd83d77e1d33a58ae7fbac5a84e3e34ccbcb5ab29436d486910f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xdmx",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6d38fa38ca3cfa1037a440a2bdf89fc1848ff6ac71a2ab5c1ba25a9e8cbcc8e1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-common-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-common",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "77c1f344fbdc2b7df3eccda32cbdce0358e389ed4c5e194ff8a27e7a23d3a849",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xephyr",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e8f1ec53d2da2dd1f92744d8f37d52329c4c10e04edaf000e12a8346b8050c00",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xorg-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xorg",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "ef60452eacbc3938644db6c24859fdda7f328c6bd9d0ad08d60f28a141c447f1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-Xvfb",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "i686",
-      "checksum": "f3d9a53eba65bce389220b6753b1007208f68b9bfcc337f05fc8e31c85a3f07d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-devel-1.20.11-5.el8_6.2.i686.rpm",
-      "name": "xorg-x11-server-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_6.2",
-      "src": "xorg-x11-server-1.20.11-5.el8_6.2.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "f52e9bef3e706fbc3967aca98af32d77479a717e5ee6541a920680ffa7f5fec6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-devel-1.20.11-5.el8.x86_64.rpm",
-      "name": "xorg-x11-server-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "101a41a2fe8ef15aa92b46bd0ed8fb7824e13fc3e9b1e7889fa124ca57d953c1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xnest-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xnest",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "2b7bf08dbed6eface7aaf2bd8016e0942cf941370183b3f5c0758f74b2fc6309",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-common-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-common",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "2ba9058b46bd6dbc91948998cfd03c8978508260f174d80872575312c8ee7873",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-devel-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "2ebd8950553d0f98af6b80ecdec1e6117d48042b16205305ac4b499f2287c542",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xdmx",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "8953cb8a6de784ba7a870403fcd46fdb4acd5723a63036a2abb37a898ec54c49",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "2.el8",
-      "src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
-      "version": "21.1.3"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "a44002fbf419039b835040f20ce5d0c6253305270dbe6fde8d41021c56881978",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xorg-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xorg",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "bef2919bae719a2e7cc3fffbc63189b15b18c27931d0cd0ad9fcf42903e5653d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xephyr",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "ff0b92c0f8ebe4ee525f398d4dbdf88c88fc2a0b4ef313d14bfff88b208102b7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.aarch64.rpm",
-      "name": "xorg-x11-server-Xvfb",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "13e4c5430d9f842d93e5a078e33da00374637a91af69f12c3a269982fda48d30",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xorg-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xorg",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "24f56df501a51a508b754fc41cd2abb8fefda94fb7db3f701d0130fb7246ede8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xvfb",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "883f4a2ffd4cac5d05d897208cebff42435261a5cafb1475394b047731a45f8a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xnest-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xnest",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "a03fbb87c713a3206da747fbdf58ba6c60206073759266781e7b704f1bf4b99a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xephyr",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "ae5213ce4f6e2354c317e6872c0c4317a9929ae74fe91d28082fd1753d066954",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-common-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-common",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "bc24c49cec67a98b7e732639482808e5fec9b6e7c9812d43ea08048baa70d0b3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-devel-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "d31e2f64c9d5ea50785a18e75db43a51a5eef0bb832d898ca5c2fd14f79f4272",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xdmx",
-      "reboot_suggested": 0,
-      "release": "5.el8",
-      "src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
-      "version": "1.20.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "fc8a98c1e9fde5739a40240f99b8ae8affef759171e0da1f846906070fe5277d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.ppc64le.rpm",
-      "name": "xorg-x11-server-Xwayland",
-      "reboot_suggested": 0,
-      "release": "2.el8",
-      "src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
-      "version": "21.1.3"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:1917",
-      "id": "RHSA-2022:1917",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-4008",
-      "id": "CVE-2021-4008",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-4009",
-      "id": "CVE-2021-4009",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-4010",
-      "id": "CVE-2021-4010",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-4011",
-      "id": "CVE-2021-4011",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2026059",
-      "id": "2026059",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2026072",
-      "id": "2026072",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2026073",
-      "id": "2026073",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2026074",
-      "id": "2026074",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1917.html",
-      "id": "ALSA-2022:1917",
-      "type": "self"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-1917.html",
-      "id": "ALSA-2022-1917",
-      "type": "self"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-4008",
-      "id": "CVE-2021-4008",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-4009",
-      "id": "CVE-2021-4009",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-4010",
-      "id": "CVE-2021-4010",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-4011",
-      "id": "CVE-2021-4011",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: xorg-x11-server and xorg-x11-server-Xwayland security update",
-  "type": "security",
-  "updated_date": 1656594449
+	"description": "X.Org is an open-source implementation of the X Window System. It provides the basic low-level functionality that full-fledged graphical user interfaces are designed upon.\nXwayland is an X server for running X clients under Wayland.\nThe following packages have been upgraded to a later upstream version: xorg-x11-server-Xwayland (21.1.3). (BZ#2015842)\nSecurity Fix(es):\n* xorg-x11-server: SProcRenderCompositeGlyphs out-of-bounds access (CVE-2021-4008)\n* xorg-x11-server: SProcXFixesCreatePointerBarrier out-of-bounds access (CVE-2021-4009)\n* xorg-x11-server: SProcScreenSaverSuspend out-of-bounds access (CVE-2021-4010)\n* xorg-x11-server: SwapCreateRegister out-of-bounds access (CVE-2021-4011)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2022:1917",
+	"issued_date": 1652140800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "8503f09c75b606e3deee03161a5982dda97107318af42b0706c61df27952889b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-5.el8.i686.rpm",
+			"name": "xorg-x11-server-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a7369303e1a4fe87a75df5cb0466f9d0260ab3b25a09702bd30f4df8d93955e4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-source-1.20.11-5.el8.noarch.rpm",
+			"name": "xorg-x11-server-source",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0873075c9eed2c534997763f1ae758683ae313dd57b6ed5a6aa3ea0315fec077",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
+			"version": "21.1.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1632cc5199fe87da5f45e222ec575c6941c56e57231e076698723af3009b96e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xnest-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xnest",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6941ce15489edd83d77e1d33a58ae7fbac5a84e3e34ccbcb5ab29436d486910f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xdmx",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6d38fa38ca3cfa1037a440a2bdf89fc1848ff6ac71a2ab5c1ba25a9e8cbcc8e1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-common-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-common",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "77c1f344fbdc2b7df3eccda32cbdce0358e389ed4c5e194ff8a27e7a23d3a849",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xephyr",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e8f1ec53d2da2dd1f92744d8f37d52329c4c10e04edaf000e12a8346b8050c00",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xorg-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xorg",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ef60452eacbc3938644db6c24859fdda7f328c6bd9d0ad08d60f28a141c447f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-Xvfb",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f3d9a53eba65bce389220b6753b1007208f68b9bfcc337f05fc8e31c85a3f07d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-5.el8_6.2.i686.rpm",
+			"name": "xorg-x11-server-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_6.2",
+			"src": "xorg-x11-server-1.20.11-5.el8_6.2.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f52e9bef3e706fbc3967aca98af32d77479a717e5ee6541a920680ffa7f5fec6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-5.el8.x86_64.rpm",
+			"name": "xorg-x11-server-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "101a41a2fe8ef15aa92b46bd0ed8fb7824e13fc3e9b1e7889fa124ca57d953c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xnest-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xnest",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2b7bf08dbed6eface7aaf2bd8016e0942cf941370183b3f5c0758f74b2fc6309",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-common-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-common",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2ba9058b46bd6dbc91948998cfd03c8978508260f174d80872575312c8ee7873",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2ebd8950553d0f98af6b80ecdec1e6117d48042b16205305ac4b499f2287c542",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xdmx",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8953cb8a6de784ba7a870403fcd46fdb4acd5723a63036a2abb37a898ec54c49",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
+			"version": "21.1.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a44002fbf419039b835040f20ce5d0c6253305270dbe6fde8d41021c56881978",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xorg-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xorg",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "bef2919bae719a2e7cc3fffbc63189b15b18c27931d0cd0ad9fcf42903e5653d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xephyr",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ff0b92c0f8ebe4ee525f398d4dbdf88c88fc2a0b4ef313d14bfff88b208102b7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.aarch64.rpm",
+			"name": "xorg-x11-server-Xvfb",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "13e4c5430d9f842d93e5a078e33da00374637a91af69f12c3a269982fda48d30",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xorg-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xorg",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "24f56df501a51a508b754fc41cd2abb8fefda94fb7db3f701d0130fb7246ede8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xvfb-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xvfb",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "883f4a2ffd4cac5d05d897208cebff42435261a5cafb1475394b047731a45f8a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xnest-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xnest",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a03fbb87c713a3206da747fbdf58ba6c60206073759266781e7b704f1bf4b99a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xephyr-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xephyr",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ae5213ce4f6e2354c317e6872c0c4317a9929ae74fe91d28082fd1753d066954",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-common-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-common",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "bc24c49cec67a98b7e732639482808e5fec9b6e7c9812d43ea08048baa70d0b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d31e2f64c9d5ea50785a18e75db43a51a5eef0bb832d898ca5c2fd14f79f4272",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xdmx-1.20.11-5.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xdmx",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "xorg-x11-server-1.20.11-5.el8.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fc8a98c1e9fde5739a40240f99b8ae8affef759171e0da1f846906070fe5277d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-21.1.3-2.el8.ppc64le.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "xorg-x11-server-Xwayland-21.1.3-2.el8.src.rpm",
+			"version": "21.1.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:1917",
+			"id": "RHSA-2022:1917",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-4008",
+			"id": "CVE-2021-4008",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-4009",
+			"id": "CVE-2021-4009",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-4010",
+			"id": "CVE-2021-4010",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-4011",
+			"id": "CVE-2021-4011",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2026059",
+			"id": "2026059",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2026072",
+			"id": "2026072",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2026073",
+			"id": "2026073",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2026074",
+			"id": "2026074",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1917.html",
+			"id": "ALSA-2022:1917",
+			"type": "self"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1917.html",
+			"id": "ALSA-2022-1917",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-4008",
+			"id": "CVE-2021-4008",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-4009",
+			"id": "CVE-2021-4009",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-4010",
+			"id": "CVE-2021-4010",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-4011",
+			"id": "CVE-2021-4011",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: xorg-x11-server and xorg-x11-server-Xwayland security update",
+	"type": "security",
+	"updated_date": 1656594449
 }

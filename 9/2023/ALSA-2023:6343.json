@@ -1,130 +1,130 @@
 {
-  "description": "LibRaw is a library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others).\n\nSecurity Fix(es):\n\n* LibRaw: stack buffer overflow in LibRaw_buffer_datastream::gets() in src/libraw_datastream.cpp (CVE-2021-32142)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6343",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "626170b4cf00a2e7525d1b0cb0fcce4a4ad751ff22bd76471234cc28502fed6e",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-0.20.2-6.el9.x86_64.rpm",
-      "name": "LibRaw",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "i686",
-      "checksum": "66d6f19a1f3ec43e8f36553d6b3bdb2134b41207f4047b69e00a4427deb44168",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-0.20.2-6.el9.i686.rpm",
-      "name": "LibRaw",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "c41427f98caa2c924668c4a8c023f3ae5dab4791722d6828828f15ca0a47b2fa",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-0.20.2-6.el9.ppc64le.rpm",
-      "name": "LibRaw",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "2be1a2f3a95c92794a56ddfee37a32286a64dcebae83c83a6420d90565babe07",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-0.20.2-6.el9.s390x.rpm",
-      "name": "LibRaw",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "0eb7543dd3b7fbcc49aebd34472b962620cf5096527a2145ccc5684dc0c80af4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-0.20.2-6.el9.aarch64.rpm",
-      "name": "LibRaw",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "i686",
-      "checksum": "44f944a19b80f1aa4f822601cd6b29fb5f50f1b112808c9bae0039bdc69df544",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-devel-0.20.2-6.el9.i686.rpm",
-      "name": "LibRaw-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "5549e9096ec4954a40565c64f84dff3e389e8b16d007b02165d73ba41d15bfcc",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-devel-0.20.2-6.el9.ppc64le.rpm",
-      "name": "LibRaw-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "18d505d957997165a79bd24b39f8a783c67de0093521f026a0cdad46790e041b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "LibRaw-devel-0.20.2-6.el9.x86_64.rpm",
-      "name": "LibRaw-devel",
-      "reboot_suggested": 0,
-      "release": "6.el9",
-      "src": "LibRaw-0.20.2-6.el9.src.rpm",
-      "version": "0.20.2"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6343",
-      "id": "RHSA-2023:6343",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-32142",
-      "id": "CVE-2021-32142",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2172004",
-      "id": "2172004",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6343.html",
-      "id": "ALSA-2023:6343",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: LibRaw security update",
-  "type": "security",
-  "updated_date": 1699963531
+	"description": "LibRaw is a library for reading RAW files obtained from digital photo cameras (CRW/CR2, NEF, RAF, DNG, and others).\n\nSecurity Fix(es):\n\n* LibRaw: stack buffer overflow in LibRaw_buffer_datastream::gets() in src/libraw_datastream.cpp (CVE-2021-32142)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6343",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "626170b4cf00a2e7525d1b0cb0fcce4a4ad751ff22bd76471234cc28502fed6e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.x86_64.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "66d6f19a1f3ec43e8f36553d6b3bdb2134b41207f4047b69e00a4427deb44168",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.i686.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c41427f98caa2c924668c4a8c023f3ae5dab4791722d6828828f15ca0a47b2fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.ppc64le.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2be1a2f3a95c92794a56ddfee37a32286a64dcebae83c83a6420d90565babe07",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.s390x.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0eb7543dd3b7fbcc49aebd34472b962620cf5096527a2145ccc5684dc0c80af4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.aarch64.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "44f944a19b80f1aa4f822601cd6b29fb5f50f1b112808c9bae0039bdc69df544",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.20.2-6.el9.i686.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5549e9096ec4954a40565c64f84dff3e389e8b16d007b02165d73ba41d15bfcc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.20.2-6.el9.ppc64le.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "18d505d957997165a79bd24b39f8a783c67de0093521f026a0cdad46790e041b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.20.2-6.el9.x86_64.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6343",
+			"id": "RHSA-2023:6343",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-32142",
+			"id": "CVE-2021-32142",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2172004",
+			"id": "2172004",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6343.html",
+			"id": "ALSA-2023:6343",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: LibRaw security update",
+	"type": "security",
+	"updated_date": 1699963531
 }

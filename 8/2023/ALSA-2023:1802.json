@@ -1,182 +1,182 @@
 {
-  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.10.0.\n\nSecurity Fix(es):\n\n* Thunderbird: Revocation status of S/Mime recipient certificates was not checked (CVE-2023-0547)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to denial-of-service attack (CVE-2023-28427)\n* Mozilla: Fullscreen notification obscured (CVE-2023-29533)\n* Mozilla: Potential Memory Corruption following Garbage Collector compaction (CVE-2023-29535)\n* Mozilla: Invalid free from JavaScript code (CVE-2023-29536)\n* Mozilla: Memory safety bugs fixed in Firefox 112 and Firefox ESR 102.10 (CVE-2023-29550)\n* Mozilla: Memory Corruption in Safe Browsing Code (CVE-2023-1945)\n* Thunderbird: Hang when processing certain OpenPGP messages (CVE-2023-29479)\n* Mozilla: Content-Disposition filename truncation leads to Reflected File Download (CVE-2023-29539)\n* Mozilla: Files with malicious extensions could have been downloaded unsafely on Linux (CVE-2023-29541)\n* Mozilla: Incorrect optimization result on ARM64 (CVE-2023-29548)\n* MFSA-TMP-2023-0001 Mozilla: Double-free in libwebp (BZ#2186102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:1802",
-  "issued_date": 1681689600,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "42621c5908046b1486aeac0da5ba757fff7d3b01bdb0ecb0e6a9edb703d90113",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.10.0-2.el8_7.alma.x86_64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "2.el8_7.alma",
-      "src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
-      "version": "102.10.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "d491f51588b6090093ab026b6e5575eaaab8edbf313aecee7c6d323658b909a3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.10.0-2.el8_7.alma.aarch64.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "2.el8_7.alma",
-      "src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
-      "version": "102.10.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "35010ca2304b60cf4c3fdfcf32bf57cb42f702dc3032afcfd39f4ca8111c05b3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.10.0-2.el8_7.alma.s390x.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "2.el8_7.alma",
-      "src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
-      "version": "102.10.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "3cb972db83bdca995441ce8860cf6d1918021df96b116e9354cb0090d6321dd4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "thunderbird-102.10.0-2.el8_7.alma.ppc64le.rpm",
-      "name": "thunderbird",
-      "reboot_suggested": 0,
-      "release": "2.el8_7.alma",
-      "src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
-      "version": "102.10.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1802",
-      "id": "RHSA-2023:1802",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-0547",
-      "id": "CVE-2023-0547",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-1945",
-      "id": "CVE-2023-1945",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-28427",
-      "id": "CVE-2023-28427",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29479",
-      "id": "CVE-2023-29479",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29533",
-      "id": "CVE-2023-29533",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29535",
-      "id": "CVE-2023-29535",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29536",
-      "id": "CVE-2023-29536",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29539",
-      "id": "CVE-2023-29539",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29541",
-      "id": "CVE-2023-29541",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29548",
-      "id": "CVE-2023-29548",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-29550",
-      "id": "CVE-2023-29550",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2183278",
-      "id": "2183278",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186101",
-      "id": "2186101",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186103",
-      "id": "2186103",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186104",
-      "id": "2186104",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186105",
-      "id": "2186105",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186106",
-      "id": "2186106",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186109",
-      "id": "2186109",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186110",
-      "id": "2186110",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186111",
-      "id": "2186111",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186734",
-      "id": "2186734",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2186735",
-      "id": "2186735",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-1802.html",
-      "id": "ALSA-2023:1802",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: thunderbird security update",
-  "type": "security",
-  "updated_date": 1681997265
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.10.0.\n\nSecurity Fix(es):\n\n* Thunderbird: Revocation status of S/Mime recipient certificates was not checked (CVE-2023-0547)\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to denial-of-service attack (CVE-2023-28427)\n* Mozilla: Fullscreen notification obscured (CVE-2023-29533)\n* Mozilla: Potential Memory Corruption following Garbage Collector compaction (CVE-2023-29535)\n* Mozilla: Invalid free from JavaScript code (CVE-2023-29536)\n* Mozilla: Memory safety bugs fixed in Firefox 112 and Firefox ESR 102.10 (CVE-2023-29550)\n* Mozilla: Memory Corruption in Safe Browsing Code (CVE-2023-1945)\n* Thunderbird: Hang when processing certain OpenPGP messages (CVE-2023-29479)\n* Mozilla: Content-Disposition filename truncation leads to Reflected File Download (CVE-2023-29539)\n* Mozilla: Files with malicious extensions could have been downloaded unsafely on Linux (CVE-2023-29541)\n* Mozilla: Incorrect optimization result on ARM64 (CVE-2023-29548)\n* MFSA-TMP-2023-0001 Mozilla: Double-free in libwebp (BZ#2186102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:1802",
+	"issued_date": 1681689600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "42621c5908046b1486aeac0da5ba757fff7d3b01bdb0ecb0e6a9edb703d90113",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.10.0-2.el8_7.alma.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "2.el8_7.alma",
+			"src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d491f51588b6090093ab026b6e5575eaaab8edbf313aecee7c6d323658b909a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.10.0-2.el8_7.alma.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "2.el8_7.alma",
+			"src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "35010ca2304b60cf4c3fdfcf32bf57cb42f702dc3032afcfd39f4ca8111c05b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.10.0-2.el8_7.alma.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "2.el8_7.alma",
+			"src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3cb972db83bdca995441ce8860cf6d1918021df96b116e9354cb0090d6321dd4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.10.0-2.el8_7.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "2.el8_7.alma",
+			"src": "thunderbird-102.10.0-2.el8_7.alma.src.rpm",
+			"version": "102.10.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:1802",
+			"id": "RHSA-2023:1802",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0547",
+			"id": "CVE-2023-0547",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1945",
+			"id": "CVE-2023-1945",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28427",
+			"id": "CVE-2023-28427",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29479",
+			"id": "CVE-2023-29479",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29533",
+			"id": "CVE-2023-29533",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29535",
+			"id": "CVE-2023-29535",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29536",
+			"id": "CVE-2023-29536",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29539",
+			"id": "CVE-2023-29539",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29541",
+			"id": "CVE-2023-29541",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29548",
+			"id": "CVE-2023-29548",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29550",
+			"id": "CVE-2023-29550",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2183278",
+			"id": "2183278",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186101",
+			"id": "2186101",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186103",
+			"id": "2186103",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186104",
+			"id": "2186104",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186105",
+			"id": "2186105",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186106",
+			"id": "2186106",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186109",
+			"id": "2186109",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186110",
+			"id": "2186110",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186111",
+			"id": "2186111",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186734",
+			"id": "2186734",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2186735",
+			"id": "2186735",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-1802.html",
+			"id": "ALSA-2023:1802",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: thunderbird security update",
+	"type": "security",
+	"updated_date": 1681997265
 }

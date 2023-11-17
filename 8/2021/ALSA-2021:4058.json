@@ -1,91 +1,91 @@
 {
-  "description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nSecurity Fix(es):\n\n* samba: Negative idmap cache entries can cause incorrect group entries in the Samba file server process token (CVE-2021-20254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2021:4058",
-  "issued_date": 1635839339,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "4610b9180c755212ecbcd3c44c58e2370dddbf93bf7806419d3da8e1121056f8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "samba-devel-4.13.3-5.el8_4.i686.rpm",
-      "name": "samba-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "a69e6f14ef0762d8162816949ae6e425f03aec84cb9340ea3e4a2cb076d63242",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "samba-devel-4.13.3-5.el8_4.x86_64.rpm",
-      "name": "samba-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    },
-    {
-      "arch": "i686",
-      "checksum": "aa3455df4a2cfca5a32ae0b7446d676027d5a4be05e528c3a61edb3df7ecb843",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libwbclient-devel-4.13.3-5.el8_4.i686.rpm",
-      "name": "libwbclient-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    },
-    {
-      "arch": "i686",
-      "checksum": "eedbafa2b2ca075402656437dfe02aaf83c131032db16c358950f91701923e9b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libsmbclient-devel-4.13.3-5.el8_4.i686.rpm",
-      "name": "libsmbclient-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "f083a301eb47bc7200ef677822df9d0ed60a6f4e31530521e8d7022172c56526",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libsmbclient-devel-4.13.3-5.el8_4.x86_64.rpm",
-      "name": "libsmbclient-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fb5ab754b5892ca8d9d06b270d72c649f3569319e17348d50916ebe7358e0b2a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libwbclient-devel-4.13.3-5.el8_4.x86_64.rpm",
-      "name": "libwbclient-devel",
-      "reboot_suggested": 0,
-      "release": "5.el8_4",
-      "src": "samba-4.13.3-5.el8_4.src.rpm",
-      "version": "4.13.3"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2021-20254",
-      "id": "CVE-2021-20254",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: samba security update",
-  "type": "security",
-  "updated_date": 1635928517
+	"description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nSecurity Fix(es):\n\n* samba: Negative idmap cache entries can cause incorrect group entries in the Samba file server process token (CVE-2021-20254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2021:4058",
+	"issued_date": 1635839339,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "4610b9180c755212ecbcd3c44c58e2370dddbf93bf7806419d3da8e1121056f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-devel-4.13.3-5.el8_4.i686.rpm",
+			"name": "samba-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a69e6f14ef0762d8162816949ae6e425f03aec84cb9340ea3e4a2cb076d63242",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-devel-4.13.3-5.el8_4.x86_64.rpm",
+			"name": "samba-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "aa3455df4a2cfca5a32ae0b7446d676027d5a4be05e528c3a61edb3df7ecb843",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwbclient-devel-4.13.3-5.el8_4.i686.rpm",
+			"name": "libwbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "eedbafa2b2ca075402656437dfe02aaf83c131032db16c358950f91701923e9b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsmbclient-devel-4.13.3-5.el8_4.i686.rpm",
+			"name": "libsmbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f083a301eb47bc7200ef677822df9d0ed60a6f4e31530521e8d7022172c56526",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsmbclient-devel-4.13.3-5.el8_4.x86_64.rpm",
+			"name": "libsmbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fb5ab754b5892ca8d9d06b270d72c649f3569319e17348d50916ebe7358e0b2a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwbclient-devel-4.13.3-5.el8_4.x86_64.rpm",
+			"name": "libwbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_4",
+			"src": "samba-4.13.3-5.el8_4.src.rpm",
+			"version": "4.13.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2021-20254",
+			"id": "CVE-2021-20254",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: samba security update",
+	"type": "security",
+	"updated_date": 1635928517
 }

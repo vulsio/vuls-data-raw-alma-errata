@@ -1,43 +1,43 @@
 {
-  "description": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: heap-based buffer over-read via crafted 8-bit BMP in get_8bit_row in rdbmp.c leads to denial of service (CVE-2018-14498)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2019:3705",
-  "issued_date": 1572987192,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "0f22db58552b14a655a26d67b5677639f4d8e62196a7f23ff9c40c3b3fe944b1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "turbojpeg-devel-1.5.3-10.el8.i686.rpm",
-      "name": "turbojpeg-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8",
-      "src": "libjpeg-turbo-1.5.3-10.el8.src.rpm",
-      "version": "1.5.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "1c749c55916afe09e6d814e1e9684b6449e279277badc76d2297293c5c635117",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "turbojpeg-devel-1.5.3-10.el8.x86_64.rpm",
-      "name": "turbojpeg-devel",
-      "reboot_suggested": 0,
-      "release": "10.el8",
-      "src": "libjpeg-turbo-1.5.3-10.el8.src.rpm",
-      "version": "1.5.3"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2018-14498",
-      "id": "CVE-2018-14498",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: libjpeg-turbo security update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: heap-based buffer over-read via crafted 8-bit BMP in get_8bit_row in rdbmp.c leads to denial of service (CVE-2018-14498)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2019:3705",
+	"issued_date": 1572987192,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "0f22db58552b14a655a26d67b5677639f4d8e62196a7f23ff9c40c3b3fe944b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "turbojpeg-devel-1.5.3-10.el8.i686.rpm",
+			"name": "turbojpeg-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "libjpeg-turbo-1.5.3-10.el8.src.rpm",
+			"version": "1.5.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1c749c55916afe09e6d814e1e9684b6449e279277badc76d2297293c5c635117",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "turbojpeg-devel-1.5.3-10.el8.x86_64.rpm",
+			"name": "turbojpeg-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "libjpeg-turbo-1.5.3-10.el8.src.rpm",
+			"version": "1.5.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2018-14498",
+			"id": "CVE-2018-14498",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libjpeg-turbo security update",
+	"type": "security",
+	"updated_date": 1628672040
 }

@@ -1,55 +1,55 @@
 {
-  "description": "NetworkManager is a system network service that manages network devices and connections, attempting to keep active network connectivity when available. Its capabilities include managing Ethernet, wireless, mobile broadband (WWAN), and PPPoE devices, as well as providing VPN integration with a variety of different VPN services.\n\nThe following packages have been upgraded to a later upstream version: NetworkManager (1.32.10). (BZ#1934465)\n\nSecurity Fix(es):\n\n* systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured (CVE-2020-13529)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:4361",
-  "issued_date": 1636449074,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "3e561c7e966e521871ed3ce4c10b0eedde8a7c6f03da4ec6d53336fa7afff5f9",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "NetworkManager-libnm-devel-1.32.10-4.el8.i686.rpm",
-      "name": "NetworkManager-libnm-devel",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "NetworkManager-1.32.10-4.el8.src.rpm",
-      "version": "1.32.10"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "4b57765793fbe90373fd83398a653db4b7d20cd9d3cbe47ef4ea25dd6882a375",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "NetworkManager-libnm-devel-1.32.10-4.el8.x86_64.rpm",
-      "name": "NetworkManager-libnm-devel",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "NetworkManager-1.32.10-4.el8.src.rpm",
-      "version": "1.32.10"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
-      "name": "NetworkManager-cloud-setup",
-      "reboot_suggested": 0,
-      "release": "4.el8",
-      "src": "NetworkManager-1.32.10-4.el8.src.rpm",
-      "version": "1.32.10"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-13529",
-      "id": "CVE-2020-13529",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: NetworkManager security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1636712461
+	"description": "NetworkManager is a system network service that manages network devices and connections, attempting to keep active network connectivity when available. Its capabilities include managing Ethernet, wireless, mobile broadband (WWAN), and PPPoE devices, as well as providing VPN integration with a variety of different VPN services.\n\nThe following packages have been upgraded to a later upstream version: NetworkManager (1.32.10). (BZ#1934465)\n\nSecurity Fix(es):\n\n* systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured (CVE-2020-13529)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:4361",
+	"issued_date": 1636449074,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "3e561c7e966e521871ed3ce4c10b0eedde8a7c6f03da4ec6d53336fa7afff5f9",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-libnm-devel-1.32.10-4.el8.i686.rpm",
+			"name": "NetworkManager-libnm-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
+			"version": "1.32.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4b57765793fbe90373fd83398a653db4b7d20cd9d3cbe47ef4ea25dd6882a375",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-libnm-devel-1.32.10-4.el8.x86_64.rpm",
+			"name": "NetworkManager-libnm-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
+			"version": "1.32.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
+			"name": "NetworkManager-cloud-setup",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
+			"version": "1.32.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-13529",
+			"id": "CVE-2020-13529",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: NetworkManager security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1636712461
 }

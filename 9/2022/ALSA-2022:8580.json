@@ -1,202 +1,202 @@
 {
-  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.5.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Service Workers might have learned size of cross-origin media files (CVE-2022-45403)\n* Mozilla: Fullscreen notification bypass (CVE-2022-45404)\n* Mozilla: Use-after-free in InputStream implementation (CVE-2022-45405)\n* Mozilla: Use-after-free of a JavaScript Realm (CVE-2022-45406)\n* Mozilla: Fullscreen notification bypass via windowName (CVE-2022-45408)\n* Mozilla: Use-after-free in Garbage Collection (CVE-2022-45409)\n* Mozilla: Memory safety bugs fixed in Firefox 107 and Firefox ESR 102.5 (CVE-2022-45421)\n* Mozilla: ServiceWorker-intercepted requests bypassed SameSite cookie policy (CVE-2022-45410)\n* Mozilla: Cross-Site Tracing was possible via non-standard override headers (CVE-2022-45411)\n* Mozilla: Symlinks may resolve to partially uninitialized buffers (CVE-2022-45412)\n* Mozilla: Keystroke Side-Channel Leakage (CVE-2022-45416)\n* Mozilla: Custom mouse cursor could have been drawn over browser UI (CVE-2022-45418)\n* Mozilla: Iframe contents could be rendered outside the iframe (CVE-2022-45420)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:8580",
-  "issued_date": 1669075200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "51a804a36814dd68558d0eb6b20c87128cf747e6954928f4e41f2c82ee01ab2f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.5.0-1.el9_1.alma.x86_64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el9_1.alma",
-      "src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
-      "version": "102.5.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "a70d0c5bb62ed9a597d00a80b520563774f43259fc228249705a7b165b6d2606",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.5.0-1.el9_1.alma.ppc64le.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el9_1.alma",
-      "src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
-      "version": "102.5.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "8d4f855507485ea53f1d24d21c0a07c02a8a3021915801a1dcb4662711dfeef4",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.5.0-1.el9_1.alma.s390x.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el9_1.alma",
-      "src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
-      "version": "102.5.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "506a0ffe51f1e6d31a6a3aff06237aaa6f68d15c08c4f353cc18b611661d4bff",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.5.0-1.el9_1.alma.aarch64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el9_1.alma",
-      "src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
-      "version": "102.5.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:8580",
-      "id": "RHSA-2022:8580",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45403",
-      "id": "CVE-2022-45403",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45404",
-      "id": "CVE-2022-45404",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45405",
-      "id": "CVE-2022-45405",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45406",
-      "id": "CVE-2022-45406",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45408",
-      "id": "CVE-2022-45408",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45409",
-      "id": "CVE-2022-45409",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45410",
-      "id": "CVE-2022-45410",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45411",
-      "id": "CVE-2022-45411",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45412",
-      "id": "CVE-2022-45412",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45416",
-      "id": "CVE-2022-45416",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45418",
-      "id": "CVE-2022-45418",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45420",
-      "id": "CVE-2022-45420",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-45421",
-      "id": "CVE-2022-45421",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143197",
-      "id": "2143197",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143198",
-      "id": "2143198",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143199",
-      "id": "2143199",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143200",
-      "id": "2143200",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143201",
-      "id": "2143201",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143202",
-      "id": "2143202",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143203",
-      "id": "2143203",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143204",
-      "id": "2143204",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143205",
-      "id": "2143205",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143240",
-      "id": "2143240",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143241",
-      "id": "2143241",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143242",
-      "id": "2143242",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2143243",
-      "id": "2143243",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2022-8580.html",
-      "id": "ALSA-2022:8580",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: firefox security update",
-  "type": "security",
-  "updated_date": 1669158610
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.5.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Service Workers might have learned size of cross-origin media files (CVE-2022-45403)\n* Mozilla: Fullscreen notification bypass (CVE-2022-45404)\n* Mozilla: Use-after-free in InputStream implementation (CVE-2022-45405)\n* Mozilla: Use-after-free of a JavaScript Realm (CVE-2022-45406)\n* Mozilla: Fullscreen notification bypass via windowName (CVE-2022-45408)\n* Mozilla: Use-after-free in Garbage Collection (CVE-2022-45409)\n* Mozilla: Memory safety bugs fixed in Firefox 107 and Firefox ESR 102.5 (CVE-2022-45421)\n* Mozilla: ServiceWorker-intercepted requests bypassed SameSite cookie policy (CVE-2022-45410)\n* Mozilla: Cross-Site Tracing was possible via non-standard override headers (CVE-2022-45411)\n* Mozilla: Symlinks may resolve to partially uninitialized buffers (CVE-2022-45412)\n* Mozilla: Keystroke Side-Channel Leakage (CVE-2022-45416)\n* Mozilla: Custom mouse cursor could have been drawn over browser UI (CVE-2022-45418)\n* Mozilla: Iframe contents could be rendered outside the iframe (CVE-2022-45420)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:8580",
+	"issued_date": 1669075200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "51a804a36814dd68558d0eb6b20c87128cf747e6954928f4e41f2c82ee01ab2f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.5.0-1.el9_1.alma.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
+			"version": "102.5.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a70d0c5bb62ed9a597d00a80b520563774f43259fc228249705a7b165b6d2606",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.5.0-1.el9_1.alma.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
+			"version": "102.5.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8d4f855507485ea53f1d24d21c0a07c02a8a3021915801a1dcb4662711dfeef4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.5.0-1.el9_1.alma.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
+			"version": "102.5.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "506a0ffe51f1e6d31a6a3aff06237aaa6f68d15c08c4f353cc18b611661d4bff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.5.0-1.el9_1.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.5.0-1.el9_1.alma.src.rpm",
+			"version": "102.5.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:8580",
+			"id": "RHSA-2022:8580",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45403",
+			"id": "CVE-2022-45403",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45404",
+			"id": "CVE-2022-45404",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45405",
+			"id": "CVE-2022-45405",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45406",
+			"id": "CVE-2022-45406",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45408",
+			"id": "CVE-2022-45408",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45409",
+			"id": "CVE-2022-45409",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45410",
+			"id": "CVE-2022-45410",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45411",
+			"id": "CVE-2022-45411",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45412",
+			"id": "CVE-2022-45412",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45416",
+			"id": "CVE-2022-45416",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45418",
+			"id": "CVE-2022-45418",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45420",
+			"id": "CVE-2022-45420",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45421",
+			"id": "CVE-2022-45421",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143197",
+			"id": "2143197",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143198",
+			"id": "2143198",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143199",
+			"id": "2143199",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143200",
+			"id": "2143200",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143201",
+			"id": "2143201",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143202",
+			"id": "2143202",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143203",
+			"id": "2143203",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143204",
+			"id": "2143204",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143205",
+			"id": "2143205",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143240",
+			"id": "2143240",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143241",
+			"id": "2143241",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143242",
+			"id": "2143242",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2143243",
+			"id": "2143243",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2022-8580.html",
+			"id": "ALSA-2022:8580",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1669158610
 }

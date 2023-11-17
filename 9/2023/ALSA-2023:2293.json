@@ -1,178 +1,178 @@
 {
-  "description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: When using the caServerKeygen_DirUserCert profile, user can get certificates for other UIDs by entering name in Subject field (CVE-2022-2393)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:2293",
-  "issued_date": 1683590400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "1aa86b42762e59396be9dfd98f1573408a841a80efcbfaaba5bd29098f8d44ee",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-ca-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-ca",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3b6c0687528089adb063d7aaa9634e2427c8e37f8e5d72e71c95e32fd227c3f7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-tools-11.3.0-1.el9.x86_64.rpm",
-      "name": "idm-pki-tools",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "4335559cc9154417a4c913ea4408d4b9b20fd7fbb8b02d20261f445ce17ad820",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-base-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-base",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "699890ee224b32fee8cd5bd661087f0f81ada5e51ad88d5bfb4e22f07e334ad3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-server-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-server",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "7b3ffae57c4f39d6ac35c295ff763e0de9c2c9397cc172314341b4bf78b6604b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-kra-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-kra",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "91a057affd429536485172e1256b7e7eeb490d61a090fa840f356e5bba054fa6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "python3-idm-pki-11.3.0-1.el9.noarch.rpm",
-      "name": "python3-idm-pki",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "a6cd83adb3db223611ad1de515ece9ebb4ad9030520c3824a9af77f00c39d624",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-est-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-est",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "afb1c2e1f62ffc34c2afb30809ce9c0cb38245db47dd12fca4d4bff4a54bf1fe",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-java-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-java",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "b6962a25e271cd56c33a8ee8e7da33e01c55a2a41d0de1d2358be1fddc7a5dc6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-acme-11.3.0-1.el9.noarch.rpm",
-      "name": "idm-pki-acme",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "08d5f027ba24395cbea459913ffd318b944860aaf337255a7c1cccb8336493df",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-tools-11.3.0-1.el9.ppc64le.rpm",
-      "name": "idm-pki-tools",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "2eda3f2e8979a6b723d7664d784b696847775edbc46327848f80ebfc6244c982",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-tools-11.3.0-1.el9.s390x.rpm",
-      "name": "idm-pki-tools",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "bdd0f52517f52af5d89331a680d226b6ab6843794003529b47a89ef1ebd482a6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "idm-pki-tools-11.3.0-1.el9.aarch64.rpm",
-      "name": "idm-pki-tools",
-      "reboot_suggested": 0,
-      "release": "1.el9",
-      "src": "pki-core-11.3.0-1.el9.src.rpm",
-      "version": "11.3.0"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2293",
-      "id": "RHSA-2023:2293",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-2393",
-      "id": "CVE-2022-2393",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2101046",
-      "id": "2101046",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-2293.html",
-      "id": "ALSA-2023:2293",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: pki-core security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1683876394
+	"description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by AlmaLinux Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: When using the caServerKeygen_DirUserCert profile, user can get certificates for other UIDs by entering name in Subject field (CVE-2022-2393)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:2293",
+	"issued_date": 1683590400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "1aa86b42762e59396be9dfd98f1573408a841a80efcbfaaba5bd29098f8d44ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-ca-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-ca",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3b6c0687528089adb063d7aaa9634e2427c8e37f8e5d72e71c95e32fd227c3f7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-tools-11.3.0-1.el9.x86_64.rpm",
+			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "4335559cc9154417a4c913ea4408d4b9b20fd7fbb8b02d20261f445ce17ad820",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-base-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-base",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "699890ee224b32fee8cd5bd661087f0f81ada5e51ad88d5bfb4e22f07e334ad3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-server-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-server",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7b3ffae57c4f39d6ac35c295ff763e0de9c2c9397cc172314341b4bf78b6604b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-kra-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-kra",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "91a057affd429536485172e1256b7e7eeb490d61a090fa840f356e5bba054fa6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idm-pki-11.3.0-1.el9.noarch.rpm",
+			"name": "python3-idm-pki",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a6cd83adb3db223611ad1de515ece9ebb4ad9030520c3824a9af77f00c39d624",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-est-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-est",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "afb1c2e1f62ffc34c2afb30809ce9c0cb38245db47dd12fca4d4bff4a54bf1fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-java-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-java",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b6962a25e271cd56c33a8ee8e7da33e01c55a2a41d0de1d2358be1fddc7a5dc6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-acme-11.3.0-1.el9.noarch.rpm",
+			"name": "idm-pki-acme",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "08d5f027ba24395cbea459913ffd318b944860aaf337255a7c1cccb8336493df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-tools-11.3.0-1.el9.ppc64le.rpm",
+			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2eda3f2e8979a6b723d7664d784b696847775edbc46327848f80ebfc6244c982",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-tools-11.3.0-1.el9.s390x.rpm",
+			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "bdd0f52517f52af5d89331a680d226b6ab6843794003529b47a89ef1ebd482a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-tools-11.3.0-1.el9.aarch64.rpm",
+			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "pki-core-11.3.0-1.el9.src.rpm",
+			"version": "11.3.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:2293",
+			"id": "RHSA-2023:2293",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-2393",
+			"id": "CVE-2022-2393",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2101046",
+			"id": "2101046",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-2293.html",
+			"id": "ALSA-2023:2293",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: pki-core security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1683876394
 }

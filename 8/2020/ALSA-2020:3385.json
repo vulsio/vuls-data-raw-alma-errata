@@ -1,43 +1,43 @@
 {
-  "description": "LibVNCServer is a C library that enables you to implement VNC server functionality into own programs.\n\nSecurity Fix(es):\n\n* libvncserver: websocket decoding buffer overflow (CVE-2017-18922)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2020:3385",
-  "issued_date": 1597067494,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "09243ba908528f98ddbdb6466105688fabc9215bc2c07f0d21bbe43c31073bc3",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvncserver-devel-0.9.11-15.el8_2.1.x86_64.rpm",
-      "name": "libvncserver-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_2.1",
-      "src": "libvncserver-0.9.11-15.el8_2.1.src.rpm",
-      "version": "0.9.11"
-    },
-    {
-      "arch": "i686",
-      "checksum": "23ca90b2e5400eb009ee50b9853c0672e5c366c2fdaad6e9979c1b613518fd64",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libvncserver-devel-0.9.11-15.el8_2.1.i686.rpm",
-      "name": "libvncserver-devel",
-      "reboot_suggested": 0,
-      "release": "15.el8_2.1",
-      "src": "libvncserver-0.9.11-15.el8_2.1.src.rpm",
-      "version": "0.9.11"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2017-18922",
-      "id": "CVE-2017-18922",
-      "type": "cve"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: libvncserver security update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "LibVNCServer is a C library that enables you to implement VNC server functionality into own programs.\n\nSecurity Fix(es):\n\n* libvncserver: websocket decoding buffer overflow (CVE-2017-18922)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2020:3385",
+	"issued_date": 1597067494,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "09243ba908528f98ddbdb6466105688fabc9215bc2c07f0d21bbe43c31073bc3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvncserver-devel-0.9.11-15.el8_2.1.x86_64.rpm",
+			"name": "libvncserver-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_2.1",
+			"src": "libvncserver-0.9.11-15.el8_2.1.src.rpm",
+			"version": "0.9.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "23ca90b2e5400eb009ee50b9853c0672e5c366c2fdaad6e9979c1b613518fd64",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvncserver-devel-0.9.11-15.el8_2.1.i686.rpm",
+			"name": "libvncserver-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8_2.1",
+			"src": "libvncserver-0.9.11-15.el8_2.1.src.rpm",
+			"version": "0.9.11"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2017-18922",
+			"id": "CVE-2017-18922",
+			"type": "cve"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: libvncserver security update",
+	"type": "security",
+	"updated_date": 1628672040
 }

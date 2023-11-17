@@ -1,224 +1,224 @@
 {
-  "description": "The gdk-pixbuf2 packages provide an image loading library that can be extended by loadable modules for new image formats. It is used by toolkits such as GTK+ or clutter.\n\nSecurity Fix(es):\n\n* gdk-pixbuf: heap-buffer overflow when decoding the lzw compressed stream of image data (CVE-2021-44648)\n* gdk-pixbuf: heap-based buffer overflow when compositing or clearing frames in GIF files (CVE-2021-46829)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:2216",
-  "issued_date": 1683590400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "07ceed118a1562c071913ee1ae6fb9b30453f2187da63e4fb16c400d5583d697",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-modules-2.42.6-3.el9.x86_64.rpm",
-      "name": "gdk-pixbuf2-modules",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "132bcc6662f89f94e873b2fc624761fead6930dccf168ee63b80b838ae0317d6",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-2.42.6-3.el9.x86_64.rpm",
-      "name": "gdk-pixbuf2",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "i686",
-      "checksum": "24d3097da634853a811d0adbe0738a337fdb1b8c5714f77e61e350ec2d8aac12",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-2.42.6-3.el9.i686.rpm",
-      "name": "gdk-pixbuf2",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "6d1f86d1882b9925544a3db08dbb13ade75419fabf03c57a1d6647af5c1d9e37",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-devel-2.42.6-3.el9.x86_64.rpm",
-      "name": "gdk-pixbuf2-devel",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "i686",
-      "checksum": "7878cf620e3bd6884a7b50f039f1be69c5f973e2abf7a5a941ca49093234ff2c",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-modules-2.42.6-3.el9.i686.rpm",
-      "name": "gdk-pixbuf2-modules",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "i686",
-      "checksum": "99c72064179e8735b791412ea4d0c1c1a65eb4a467d8973bc55cda7af6d659af",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-devel-2.42.6-3.el9.i686.rpm",
-      "name": "gdk-pixbuf2-devel",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "0143cea7b1dbbf7f8052a5ba85195df5c9b671d4e4586ad44479e8b4a786499f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-devel-2.42.6-3.el9.ppc64le.rpm",
-      "name": "gdk-pixbuf2-devel",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "4ae12554274ee838946ccb273a21de23d359327fabfa23f3a3655a579998fd39",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-modules-2.42.6-3.el9.ppc64le.rpm",
-      "name": "gdk-pixbuf2-modules",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "7fdda8e3c03762e9815cf580b3956b08f0b0bef007ad17c06439c38eb8f35be9",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-2.42.6-3.el9.ppc64le.rpm",
-      "name": "gdk-pixbuf2",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "57ded8fdf0da2e42930df2eea2c6db621d846a8f1ad7cfd46222f05bd9d8cdf8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-devel-2.42.6-3.el9.s390x.rpm",
-      "name": "gdk-pixbuf2-devel",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "73e1d7519795df27edbfd200c8176dd9362808792d259c3590a645f2f7de783b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-2.42.6-3.el9.s390x.rpm",
-      "name": "gdk-pixbuf2",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "d6c933abf94176c6d8e26dfd45c16b318e244411de37c6b7e830f1550b678ec7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-modules-2.42.6-3.el9.s390x.rpm",
-      "name": "gdk-pixbuf2-modules",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "26cca741b4d8364a49845f20bbb7e88c4f2687fd5ff18a9c5fb6f281955490a2",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-devel-2.42.6-3.el9.aarch64.rpm",
-      "name": "gdk-pixbuf2-devel",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "4b27b3eaecfc9113b360374060e5146c9c650e286114023532ede0ce5007a5b8",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-2.42.6-3.el9.aarch64.rpm",
-      "name": "gdk-pixbuf2",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "7ef0f6ecb6beca58b3979a582c0e04397df8e84073836d93a51d1d11fcbd5106",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "gdk-pixbuf2-modules-2.42.6-3.el9.aarch64.rpm",
-      "name": "gdk-pixbuf2-modules",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
-      "version": "2.42.6"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:2216",
-      "id": "RHSA-2023:2216",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-44648",
-      "id": "CVE-2021-44648",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2021-46829",
-      "id": "CVE-2021-46829",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2043722",
-      "id": "2043722",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2114940",
-      "id": "2114940",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-2216.html",
-      "id": "ALSA-2023:2216",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: gdk-pixbuf2 security update",
-  "type": "security",
-  "updated_date": 1683893923
+	"description": "The gdk-pixbuf2 packages provide an image loading library that can be extended by loadable modules for new image formats. It is used by toolkits such as GTK+ or clutter.\n\nSecurity Fix(es):\n\n* gdk-pixbuf: heap-buffer overflow when decoding the lzw compressed stream of image data (CVE-2021-44648)\n* gdk-pixbuf: heap-based buffer overflow when compositing or clearing frames in GIF files (CVE-2021-46829)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:2216",
+	"issued_date": 1683590400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "07ceed118a1562c071913ee1ae6fb9b30453f2187da63e4fb16c400d5583d697",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.42.6-3.el9.x86_64.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "132bcc6662f89f94e873b2fc624761fead6930dccf168ee63b80b838ae0317d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-3.el9.x86_64.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "24d3097da634853a811d0adbe0738a337fdb1b8c5714f77e61e350ec2d8aac12",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-3.el9.i686.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6d1f86d1882b9925544a3db08dbb13ade75419fabf03c57a1d6647af5c1d9e37",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-3.el9.x86_64.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7878cf620e3bd6884a7b50f039f1be69c5f973e2abf7a5a941ca49093234ff2c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.42.6-3.el9.i686.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "99c72064179e8735b791412ea4d0c1c1a65eb4a467d8973bc55cda7af6d659af",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-3.el9.i686.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0143cea7b1dbbf7f8052a5ba85195df5c9b671d4e4586ad44479e8b4a786499f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-3.el9.ppc64le.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4ae12554274ee838946ccb273a21de23d359327fabfa23f3a3655a579998fd39",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.42.6-3.el9.ppc64le.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7fdda8e3c03762e9815cf580b3956b08f0b0bef007ad17c06439c38eb8f35be9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-3.el9.ppc64le.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "57ded8fdf0da2e42930df2eea2c6db621d846a8f1ad7cfd46222f05bd9d8cdf8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-3.el9.s390x.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "73e1d7519795df27edbfd200c8176dd9362808792d259c3590a645f2f7de783b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-3.el9.s390x.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d6c933abf94176c6d8e26dfd45c16b318e244411de37c6b7e830f1550b678ec7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.42.6-3.el9.s390x.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "26cca741b4d8364a49845f20bbb7e88c4f2687fd5ff18a9c5fb6f281955490a2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-3.el9.aarch64.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4b27b3eaecfc9113b360374060e5146c9c650e286114023532ede0ce5007a5b8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-3.el9.aarch64.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7ef0f6ecb6beca58b3979a582c0e04397df8e84073836d93a51d1d11fcbd5106",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.42.6-3.el9.aarch64.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gdk-pixbuf2-2.42.6-3.el9.src.rpm",
+			"version": "2.42.6"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:2216",
+			"id": "RHSA-2023:2216",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-44648",
+			"id": "CVE-2021-44648",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-46829",
+			"id": "CVE-2021-46829",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2043722",
+			"id": "2043722",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2114940",
+			"id": "2114940",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-2216.html",
+			"id": "ALSA-2023:2216",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: gdk-pixbuf2 security update",
+	"type": "security",
+	"updated_date": 1683893923
 }

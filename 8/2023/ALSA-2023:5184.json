@@ -1,82 +1,82 @@
 {
-  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.15.1 ESR.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:5184",
-  "issued_date": 1694995200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "1edf30ca4517bc235cca492db03f903517f606af2a996cdfba28a965b93d5ce2",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.15.1-1.el8_8.alma.x86_64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
-      "version": "102.15.1"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "590befa9d0e2eb4c1c81948d1536a89de7dde7e411ddfecf99d6f31b4bf26445",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.15.1-1.el8_8.alma.aarch64.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
-      "version": "102.15.1"
-    },
-    {
-      "arch": "s390x",
-      "checksum": "2dc227156724e7b46f61d3b63c54128e3dc8534f243786732ed5e26b91298e3a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.15.1-1.el8_8.alma.s390x.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
-      "version": "102.15.1"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "106859c701c5a8924c9556f5c3de4b603bb68586acce50ef9d7a0847d168a7c1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "firefox-102.15.1-1.el8_8.alma.ppc64le.rpm",
-      "name": "firefox",
-      "reboot_suggested": 0,
-      "release": "1.el8_8.alma",
-      "src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
-      "version": "102.15.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:5184",
-      "id": "RHSA-2023:5184",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-4863",
-      "id": "CVE-2023-4863",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2238431",
-      "id": "2238431",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2023-5184.html",
-      "id": "ALSA-2023:5184",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: firefox security update",
-  "type": "security",
-  "updated_date": 1695302769
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.15.1 ESR.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:5184",
+	"issued_date": 1694995200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "1edf30ca4517bc235cca492db03f903517f606af2a996cdfba28a965b93d5ce2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.15.1-1.el8_8.alma.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
+			"version": "102.15.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "590befa9d0e2eb4c1c81948d1536a89de7dde7e411ddfecf99d6f31b4bf26445",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.15.1-1.el8_8.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
+			"version": "102.15.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2dc227156724e7b46f61d3b63c54128e3dc8534f243786732ed5e26b91298e3a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.15.1-1.el8_8.alma.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
+			"version": "102.15.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "106859c701c5a8924c9556f5c3de4b603bb68586acce50ef9d7a0847d168a7c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.15.1-1.el8_8.alma.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "firefox-102.15.1-1.el8_8.alma.src.rpm",
+			"version": "102.15.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:5184",
+			"id": "RHSA-2023:5184",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4863",
+			"id": "CVE-2023-4863",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2238431",
+			"id": "2238431",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-5184.html",
+			"id": "ALSA-2023:5184",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1695302769
 }

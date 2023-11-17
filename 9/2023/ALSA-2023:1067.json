@@ -1,58 +1,58 @@
 {
-  "description": "The pesign packages provide the pesign utility for signing UEFI binaries as well as other associated tools.\n\nSecurity Fix(es):\n\n* pesign: Local privilege escalation on pesign systemd service (CVE-2022-3560)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:1067",
-  "issued_date": 1678060800,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "01e8243d8e85a1bbb5a9bb9e48694e4c42a552b660aba15fd3431064cd7b7438",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pesign-115-6.el9_1.x86_64.rpm",
-      "name": "pesign",
-      "reboot_suggested": 0,
-      "release": "6.el9_1",
-      "src": "pesign-115-6.el9_1.src.rpm",
-      "version": "115"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "255499f3e4e474b625594dfd1bdb8674f876841316f333250536c6ff031d5687",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "pesign-115-6.el9_1.aarch64.rpm",
-      "name": "pesign",
-      "reboot_suggested": 0,
-      "release": "6.el9_1",
-      "src": "pesign-115-6.el9_1.src.rpm",
-      "version": "115"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:1067",
-      "id": "RHSA-2023:1067",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-3560",
-      "id": "CVE-2022-3560",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2135420",
-      "id": "2135420",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-1067.html",
-      "id": "ALSA-2023:1067",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: pesign security update",
-  "type": "security",
-  "updated_date": 1678136540
+	"description": "The pesign packages provide the pesign utility for signing UEFI binaries as well as other associated tools.\n\nSecurity Fix(es):\n\n* pesign: Local privilege escalation on pesign systemd service (CVE-2022-3560)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:1067",
+	"issued_date": 1678060800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "01e8243d8e85a1bbb5a9bb9e48694e4c42a552b660aba15fd3431064cd7b7438",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pesign-115-6.el9_1.x86_64.rpm",
+			"name": "pesign",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "pesign-115-6.el9_1.src.rpm",
+			"version": "115"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "255499f3e4e474b625594dfd1bdb8674f876841316f333250536c6ff031d5687",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pesign-115-6.el9_1.aarch64.rpm",
+			"name": "pesign",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "pesign-115-6.el9_1.src.rpm",
+			"version": "115"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:1067",
+			"id": "RHSA-2023:1067",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-3560",
+			"id": "CVE-2022-3560",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2135420",
+			"id": "2135420",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-1067.html",
+			"id": "ALSA-2023:1067",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: pesign security update",
+	"type": "security",
+	"updated_date": 1678136540
 }

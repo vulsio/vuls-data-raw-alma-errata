@@ -1,108 +1,108 @@
 {
-  "description": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: IMAP hibernation function allows mail access (CVE-2020-24386)\n\n* dovecot: Denial of service via mail MIME parsing (CVE-2020-25275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2021:1887",
-  "issued_date": 1621318781,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "i686",
-      "checksum": "1adef135ba134e6c69617ae46d132245edbf72ec9fad7a0b95599ec91abb90eb",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-2.3.8-9.el8.i686.rpm",
-      "name": "dovecot",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "i686",
-      "checksum": "826807eaf189312f9934de88c82ce7ed571fcb3dc090a7ce8b93c23d9d5f9de6",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-devel-2.3.8-9.el8.i686.rpm",
-      "name": "dovecot-devel",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "a0af14e8fa58b9a79fc6b1a65b97c29f9e64fc950a99e59c85f5870d52ca54ab",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-devel-2.3.8-9.el8.x86_64.rpm",
-      "name": "dovecot-devel",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "0e032e7ddb44c0b22e410c634486dc260173f181ace37d8c3c0a1c29bfa7c4e0",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-mysql-2.3.8-9.el8.x86_64.rpm",
-      "name": "dovecot-mysql",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "4f1eef08933b4c8c3e26e9c41100de71d379d1e5c8e129499bf6909e89d758e1",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-pgsql-2.3.8-9.el8.x86_64.rpm",
-      "name": "dovecot-pgsql",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "63cd706f4f5eb196b17c18e5a649f613c8415dc4540f6105f2ac775cf9aef1d3",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-pigeonhole-2.3.8-9.el8.x86_64.rpm",
-      "name": "dovecot-pigeonhole",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "9d4c29092e252a10689b5c4bd10bcdd519b2583c805ef4cb25b178019ee4d4c5",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "dovecot-2.3.8-9.el8.x86_64.rpm",
-      "name": "dovecot",
-      "reboot_suggested": 0,
-      "release": "9.el8",
-      "src": "dovecot-2.3.8-9.el8.src.rpm",
-      "version": "2.3.8"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-24386",
-      "id": "CVE-2020-24386",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-25275",
-      "id": "CVE-2020-25275",
-      "type": "cve"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: dovecot security and bug fix update",
-  "type": "security",
-  "updated_date": 1628672040
+	"description": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: IMAP hibernation function allows mail access (CVE-2020-24386)\n\n* dovecot: Denial of service via mail MIME parsing (CVE-2020-25275)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2021:1887",
+	"issued_date": 1621318781,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "1adef135ba134e6c69617ae46d132245edbf72ec9fad7a0b95599ec91abb90eb",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-2.3.8-9.el8.i686.rpm",
+			"name": "dovecot",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "826807eaf189312f9934de88c82ce7ed571fcb3dc090a7ce8b93c23d9d5f9de6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-devel-2.3.8-9.el8.i686.rpm",
+			"name": "dovecot-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a0af14e8fa58b9a79fc6b1a65b97c29f9e64fc950a99e59c85f5870d52ca54ab",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-devel-2.3.8-9.el8.x86_64.rpm",
+			"name": "dovecot-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0e032e7ddb44c0b22e410c634486dc260173f181ace37d8c3c0a1c29bfa7c4e0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-mysql-2.3.8-9.el8.x86_64.rpm",
+			"name": "dovecot-mysql",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4f1eef08933b4c8c3e26e9c41100de71d379d1e5c8e129499bf6909e89d758e1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-pgsql-2.3.8-9.el8.x86_64.rpm",
+			"name": "dovecot-pgsql",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "63cd706f4f5eb196b17c18e5a649f613c8415dc4540f6105f2ac775cf9aef1d3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-pigeonhole-2.3.8-9.el8.x86_64.rpm",
+			"name": "dovecot-pigeonhole",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9d4c29092e252a10689b5c4bd10bcdd519b2583c805ef4cb25b178019ee4d4c5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-2.3.8-9.el8.x86_64.rpm",
+			"name": "dovecot",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "dovecot-2.3.8-9.el8.src.rpm",
+			"version": "2.3.8"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-24386",
+			"id": "CVE-2020-24386",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-25275",
+			"id": "CVE-2020-25275",
+			"type": "cve"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: dovecot security and bug fix update",
+	"type": "security",
+	"updated_date": 1628672040
 }

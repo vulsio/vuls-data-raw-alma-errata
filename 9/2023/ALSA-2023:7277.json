@@ -1,140 +1,140 @@
 {
-  "description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: SAML token signature bypass (CVE-2023-34058)\n* open-vm-tools: file descriptor hijack vulnerability in the vmware-user-suid-wrapper (CVE-2023-34059)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:7277",
-  "issued_date": 1700006400,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "00264659fc0e0cfeaea1232782e496ee96d571f66566cf9e8e27a4d19f9af93d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-desktop-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
-      "name": "open-vm-tools-desktop",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "22395d56c8e25947c4bb785b16c6e8d3586550f447eaa4d42ed666162425d694",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-test-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
-      "name": "open-vm-tools-test",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "2f03d0a85d434d52977a64432fd5cdbcceecdae659b86ad58270fa3eb11b3a15",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-salt-minion-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
-      "name": "open-vm-tools-salt-minion",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "88d91581166ba971cebd21c88128fc2ed2f7ecf0f06f945f0c351dd2d8f7f531",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
-      "name": "open-vm-tools",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "98d74f1e365c39b2a77b5ccd38d7617dfbc34f7b388f2f26895347fe9b0f92bc",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-sdmp-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
-      "name": "open-vm-tools-sdmp",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "8b1fc49623330decb8caaf97bbada6252a4e6a02afc31446b9bec4466dc4ec64",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-desktop-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
-      "name": "open-vm-tools-desktop",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "916f6eb36e4dbda2f52790a7f365d119538b9634b0f30c7128480600179f3916",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
-      "name": "open-vm-tools",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "cfe9053665bde957322935bf9d23e0fd5be2f9d41f52483530ec2ef30b1a461f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "open-vm-tools-test-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
-      "name": "open-vm-tools-test",
-      "reboot_suggested": 0,
-      "release": "3.el9_3.2.alma.1",
-      "src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
-      "version": "12.2.5"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:7277",
-      "id": "RHSA-2023:7277",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-34058",
-      "id": "CVE-2023-34058",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-34059",
-      "id": "CVE-2023-34059",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2246080",
-      "id": "2246080",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2246096",
-      "id": "2246096",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-7277.html",
-      "id": "ALSA-2023:7277",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: open-vm-tools security update",
-  "type": "security",
-  "updated_date": 1700142874
+	"description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: SAML token signature bypass (CVE-2023-34058)\n* open-vm-tools: file descriptor hijack vulnerability in the vmware-user-suid-wrapper (CVE-2023-34059)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:7277",
+	"issued_date": 1700006400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "00264659fc0e0cfeaea1232782e496ee96d571f66566cf9e8e27a4d19f9af93d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-desktop-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-desktop",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "22395d56c8e25947c4bb785b16c6e8d3586550f447eaa4d42ed666162425d694",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-test-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-test",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2f03d0a85d434d52977a64432fd5cdbcceecdae659b86ad58270fa3eb11b3a15",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-salt-minion-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-salt-minion",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "88d91581166ba971cebd21c88128fc2ed2f7ecf0f06f945f0c351dd2d8f7f531",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
+			"name": "open-vm-tools",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "98d74f1e365c39b2a77b5ccd38d7617dfbc34f7b388f2f26895347fe9b0f92bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-sdmp-12.2.5-3.el9_3.2.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-sdmp",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8b1fc49623330decb8caaf97bbada6252a4e6a02afc31446b9bec4466dc4ec64",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-desktop-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
+			"name": "open-vm-tools-desktop",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "916f6eb36e4dbda2f52790a7f365d119538b9634b0f30c7128480600179f3916",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
+			"name": "open-vm-tools",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "cfe9053665bde957322935bf9d23e0fd5be2f9d41f52483530ec2ef30b1a461f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-test-12.2.5-3.el9_3.2.alma.1.aarch64.rpm",
+			"name": "open-vm-tools-test",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.2.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el9_3.2.alma.1.src.rpm",
+			"version": "12.2.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:7277",
+			"id": "RHSA-2023:7277",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34058",
+			"id": "CVE-2023-34058",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34059",
+			"id": "CVE-2023-34059",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246080",
+			"id": "2246080",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246096",
+			"id": "2246096",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-7277.html",
+			"id": "ALSA-2023:7277",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: open-vm-tools security update",
+	"type": "security",
+	"updated_date": 1700142874
 }

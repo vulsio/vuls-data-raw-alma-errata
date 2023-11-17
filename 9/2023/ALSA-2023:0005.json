@@ -1,46 +1,46 @@
 {
-  "description": "The Byte Code Engineering Library (Apache Commons BCEL) is intended to give users a convenient way to analyze, create, and manipulate (binary) Java class files (those ending with .class).\n\nSecurity Fix(es):\n\n* Apache-Commons-BCEL: arbitrary bytecode produced via out-of-bounds writing (CVE-2022-42920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2023:0005",
-  "issued_date": 1672617600,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "a39a659c1e56d24d1b8070a45638ed96873ac5e2eae6c7652ba72237212611b9",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "bcel-6.4.1-9.el9_1.noarch.rpm",
-      "name": "bcel",
-      "reboot_suggested": 0,
-      "release": "9.el9_1",
-      "src": "bcel-6.4.1-9.el9_1.src.rpm",
-      "version": "6.4.1"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:0005",
-      "id": "RHSA-2023:0005",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-42920",
-      "id": "CVE-2022-42920",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2142707",
-      "id": "2142707",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-0005.html",
-      "id": "ALSA-2023:0005",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "Important: bcel security update",
-  "type": "security",
-  "updated_date": 1672818149
+	"description": "The Byte Code Engineering Library (Apache Commons BCEL) is intended to give users a convenient way to analyze, create, and manipulate (binary) Java class files (those ending with .class).\n\nSecurity Fix(es):\n\n* Apache-Commons-BCEL: arbitrary bytecode produced via out-of-bounds writing (CVE-2022-42920)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:0005",
+	"issued_date": 1672617600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "a39a659c1e56d24d1b8070a45638ed96873ac5e2eae6c7652ba72237212611b9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcel-6.4.1-9.el9_1.noarch.rpm",
+			"name": "bcel",
+			"reboot_suggested": 0,
+			"release": "9.el9_1",
+			"src": "bcel-6.4.1-9.el9_1.src.rpm",
+			"version": "6.4.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:0005",
+			"id": "RHSA-2023:0005",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42920",
+			"id": "CVE-2022-42920",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2142707",
+			"id": "2142707",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-0005.html",
+			"id": "ALSA-2023:0005",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: bcel security update",
+	"type": "security",
+	"updated_date": 1672818149
 }

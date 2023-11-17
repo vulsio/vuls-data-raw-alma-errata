@@ -1,46 +1,46 @@
 {
-  "description": "The CPAN module is a tool to query, download and build perl modules from CPAN sites.\n\nSecurity Fix(es):\n\n* perl: CPAN.pm does not verify TLS certificates when downloading distributions over HTTPS (CVE-2023-31484)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6539",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "74c55c9829b2161089335da08c942be8fa4c4b1d87fd84aa16e43dce8d99071d",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "perl-CPAN-2.29-3.el9.noarch.rpm",
-      "name": "perl-CPAN",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "perl-CPAN-2.29-3.el9.src.rpm",
-      "version": "2.29"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6539",
-      "id": "RHSA-2023:6539",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-31484",
-      "id": "CVE-2023-31484",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2218667",
-      "id": "2218667",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6539.html",
-      "id": "ALSA-2023:6539",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: perl-CPAN security update",
-  "type": "security",
-  "updated_date": 1699963841
+	"description": "The CPAN module is a tool to query, download and build perl modules from CPAN sites.\n\nSecurity Fix(es):\n\n* perl: CPAN.pm does not verify TLS certificates when downloading distributions over HTTPS (CVE-2023-31484)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6539",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "74c55c9829b2161089335da08c942be8fa4c4b1d87fd84aa16e43dce8d99071d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-CPAN-2.29-3.el9.noarch.rpm",
+			"name": "perl-CPAN",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "perl-CPAN-2.29-3.el9.src.rpm",
+			"version": "2.29"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6539",
+			"id": "RHSA-2023:6539",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-31484",
+			"id": "CVE-2023-31484",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2218667",
+			"id": "2218667",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6539.html",
+			"id": "ALSA-2023:6539",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: perl-CPAN security update",
+	"type": "security",
+	"updated_date": 1699963841
 }

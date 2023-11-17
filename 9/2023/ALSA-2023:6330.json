@@ -1,104 +1,104 @@
 {
-  "description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Function GetEfiGlobalVariable2() return value not checked in DxeImageVerificationHandler() (CVE-2019-14560)\n* openssl: Possible DoS translating ASN.1 object identifiers (CVE-2023-2650)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
-  "id": "ALSA-2023:6330",
-  "issued_date": 1699315200,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "7f420a2e6902aa83721973936da687385ce3f9a318f79cec650eaf58da03c9ed",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-aarch64-20230524-3.el9.noarch.rpm",
-      "name": "edk2-aarch64",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "edk2-20230524-3.el9.src.rpm",
-      "version": "20230524"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "cf00362ca3ecc9d6ce43ec1f21168c8524b96b2675854692c3afd7bf709e0918",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-ovmf-20230524-3.el9.noarch.rpm",
-      "name": "edk2-ovmf",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "edk2-20230524-3.el9.src.rpm",
-      "version": "20230524"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "bc4917712bdd37c686a2e9927839c2ca2f3285b9325d99e9fe4bb9eb8a68f06b",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-tools-doc-20230524-3.el9.noarch.rpm",
-      "name": "edk2-tools-doc",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "edk2-20230524-3.el9.src.rpm",
-      "version": "20230524"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "7a9748dcb86b262479b73eedb3d525353f454ccecfb636799c0e4474ea7330d7",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-tools-20230524-3.el9.aarch64.rpm",
-      "name": "edk2-tools",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "edk2-20230524-3.el9.src.rpm",
-      "version": "20230524"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "38e89f2d60bbf87a1c484630afcba547a9696ec989f65651e8350df3357168ab",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "edk2-tools-20230524-3.el9.x86_64.rpm",
-      "name": "edk2-tools",
-      "reboot_suggested": 0,
-      "release": "3.el9",
-      "src": "edk2-20230524-3.el9.src.rpm",
-      "version": "20230524"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2023:6330",
-      "id": "RHSA-2023:6330",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2019-14560",
-      "id": "CVE-2019-14560",
-      "type": "cve"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2023-2650",
-      "id": "CVE-2023-2650",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/1858038",
-      "id": "1858038",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2207947",
-      "id": "2207947",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/9/ALSA-2023-6330.html",
-      "id": "ALSA-2023:6330",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: edk2 security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1700051732
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Function GetEfiGlobalVariable2() return value not checked in DxeImageVerificationHandler() (CVE-2019-14560)\n* openssl: Possible DoS translating ASN.1 object identifiers (CVE-2023-2650)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6330",
+	"issued_date": 1699315200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "7f420a2e6902aa83721973936da687385ce3f9a318f79cec650eaf58da03c9ed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20230524-3.el9.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "edk2-20230524-3.el9.src.rpm",
+			"version": "20230524"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cf00362ca3ecc9d6ce43ec1f21168c8524b96b2675854692c3afd7bf709e0918",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20230524-3.el9.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "edk2-20230524-3.el9.src.rpm",
+			"version": "20230524"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "bc4917712bdd37c686a2e9927839c2ca2f3285b9325d99e9fe4bb9eb8a68f06b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-doc-20230524-3.el9.noarch.rpm",
+			"name": "edk2-tools-doc",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "edk2-20230524-3.el9.src.rpm",
+			"version": "20230524"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7a9748dcb86b262479b73eedb3d525353f454ccecfb636799c0e4474ea7330d7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20230524-3.el9.aarch64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "edk2-20230524-3.el9.src.rpm",
+			"version": "20230524"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "38e89f2d60bbf87a1c484630afcba547a9696ec989f65651e8350df3357168ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20230524-3.el9.x86_64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "edk2-20230524-3.el9.src.rpm",
+			"version": "20230524"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6330",
+			"id": "RHSA-2023:6330",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-14560",
+			"id": "CVE-2019-14560",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2650",
+			"id": "CVE-2023-2650",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1858038",
+			"id": "1858038",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2207947",
+			"id": "2207947",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-6330.html",
+			"id": "ALSA-2023:6330",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: edk2 security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1700051732
 }

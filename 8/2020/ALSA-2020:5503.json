@@ -1,152 +1,152 @@
 {
-  "description": "The MariaDB Native Client library (C driver) is used to connect applications developed in C/C++ to MariaDB and MySQL databases. \n\nThe following packages have been upgraded to a later upstream version: mariadb-connector-c (3.1.11). (BZ#1898993)\n\nSecurity Fix(es):\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2752)\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2922)\n\n* mariadb-connector-c: Improper validation of content in a OK packet received from server (CVE-2020-13249)\n\n* mysql: C API unspecified vulnerability (CPU Jan 2020) (CVE-2020-2574)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Code utilizing plugins can't be compiled properly (BZ#1899001)\n\n* Add \"zlib-devel\" requirement in \"-devel\" subpackage (BZ#1899005)\n\n* Replace hard-coded /usr with %{_prefix} (BZ#1899099)",
-  "id": "ALSA-2020:5503",
-  "issued_date": 1608048252,
-  "modules": [],
-  "packages": [
-    {
-      "arch": "x86_64",
-      "checksum": "85c37e356ca0e8114acfbe5fd5043ce1a95c35354851cc91b4066104e11dd658",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-3.1.11-2.el8_3.x86_64.rpm",
-      "name": "mariadb-connector-c",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "i686",
-      "checksum": "92a6c1fc3dc43e8ecb5aace69644777bd4970ceddf6e95ba27abecea88c1217f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.i686.rpm",
-      "name": "mariadb-connector-c-devel",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "i686",
-      "checksum": "991c3390fb1f0f1eb13fdff3c6c30faf987071b6a86828ae9e0bb301d94a1bec",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-3.1.11-2.el8_3.i686.rpm",
-      "name": "mariadb-connector-c",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e7f9b90bb970c95179842fce9edf84ec943bc19b4bdd7029645e05d1e6a2e295",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.x86_64.rpm",
-      "name": "mariadb-connector-c-devel",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "eca6eb7026bfbb5ff51825587af1376bd6bd957dea4ec89cc7e9971a32983b0f",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-config-3.1.11-2.el8_3.noarch.rpm",
-      "name": "mariadb-connector-c-config",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "569330e3f408084ae955197af6edb83d692602e643bc906839a4dcabdc4be850",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-3.1.11-2.el8_3.aarch64.rpm",
-      "name": "mariadb-connector-c",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "aarch64",
-      "checksum": "ee38d736af8f77eca1d323cc3fd165050d43089451c87b5501bec19ee60ddd00",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.aarch64.rpm",
-      "name": "mariadb-connector-c-devel",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "0292e313814382487db24ab1ef88bfdb22619aed0746d36f813bb4694fc74bc0",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.ppc64le.rpm",
-      "name": "mariadb-connector-c-devel",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    },
-    {
-      "arch": "ppc64le",
-      "checksum": "f90545c9c3957632edf6dba9674a0aeed4c3b9edfd2256532193533d0421db39",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "mariadb-connector-c-3.1.11-2.el8_3.ppc64le.rpm",
-      "name": "mariadb-connector-c",
-      "reboot_suggested": 0,
-      "release": "2.el8_3",
-      "src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
-      "version": "3.1.11"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://vulners.com/cve/CVE-2020-13249",
-      "id": "CVE-2020-13249",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-2574",
-      "id": "CVE-2020-2574",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-2752",
-      "id": "CVE-2020-2752",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2020-2922",
-      "id": "CVE-2020-2922",
-      "type": "cve"
-    },
-    {
-      "href": "https://vulners.com/cve/CVE-2021-2007",
-      "id": "CVE-2021-2007",
-      "type": "cve"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-5503.html",
-      "id": "ALSA-2020-5503",
-      "type": "self"
-    }
-  ],
-  "severity": "Moderate",
-  "title": "Moderate: mariadb-connector-c security, bug fix, and enhancement update",
-  "type": "security",
-  "updated_date": 1636712456
+	"description": "The MariaDB Native Client library (C driver) is used to connect applications developed in C/C++ to MariaDB and MySQL databases. \n\nThe following packages have been upgraded to a later upstream version: mariadb-connector-c (3.1.11). (BZ#1898993)\n\nSecurity Fix(es):\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2752)\n\n* mysql: C API unspecified vulnerability (CPU Apr 2020) (CVE-2020-2922)\n\n* mariadb-connector-c: Improper validation of content in a OK packet received from server (CVE-2020-13249)\n\n* mysql: C API unspecified vulnerability (CPU Jan 2020) (CVE-2020-2574)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Code utilizing plugins can't be compiled properly (BZ#1899001)\n\n* Add \"zlib-devel\" requirement in \"-devel\" subpackage (BZ#1899005)\n\n* Replace hard-coded /usr with %{_prefix} (BZ#1899099)",
+	"id": "ALSA-2020:5503",
+	"issued_date": 1608048252,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "85c37e356ca0e8114acfbe5fd5043ce1a95c35354851cc91b4066104e11dd658",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-3.1.11-2.el8_3.x86_64.rpm",
+			"name": "mariadb-connector-c",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "92a6c1fc3dc43e8ecb5aace69644777bd4970ceddf6e95ba27abecea88c1217f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.i686.rpm",
+			"name": "mariadb-connector-c-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "991c3390fb1f0f1eb13fdff3c6c30faf987071b6a86828ae9e0bb301d94a1bec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-3.1.11-2.el8_3.i686.rpm",
+			"name": "mariadb-connector-c",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e7f9b90bb970c95179842fce9edf84ec943bc19b4bdd7029645e05d1e6a2e295",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.x86_64.rpm",
+			"name": "mariadb-connector-c-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "eca6eb7026bfbb5ff51825587af1376bd6bd957dea4ec89cc7e9971a32983b0f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-config-3.1.11-2.el8_3.noarch.rpm",
+			"name": "mariadb-connector-c-config",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "569330e3f408084ae955197af6edb83d692602e643bc906839a4dcabdc4be850",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-3.1.11-2.el8_3.aarch64.rpm",
+			"name": "mariadb-connector-c",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ee38d736af8f77eca1d323cc3fd165050d43089451c87b5501bec19ee60ddd00",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.aarch64.rpm",
+			"name": "mariadb-connector-c-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0292e313814382487db24ab1ef88bfdb22619aed0746d36f813bb4694fc74bc0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-devel-3.1.11-2.el8_3.ppc64le.rpm",
+			"name": "mariadb-connector-c-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f90545c9c3957632edf6dba9674a0aeed4c3b9edfd2256532193533d0421db39",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mariadb-connector-c-3.1.11-2.el8_3.ppc64le.rpm",
+			"name": "mariadb-connector-c",
+			"reboot_suggested": 0,
+			"release": "2.el8_3",
+			"src": "mariadb-connector-c-3.1.11-2.el8_3.src.rpm",
+			"version": "3.1.11"
+		}
+	],
+	"references": [
+		{
+			"href": "https://vulners.com/cve/CVE-2020-13249",
+			"id": "CVE-2020-13249",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-2574",
+			"id": "CVE-2020-2574",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-2752",
+			"id": "CVE-2020-2752",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-2922",
+			"id": "CVE-2020-2922",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-2007",
+			"id": "CVE-2021-2007",
+			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-5503.html",
+			"id": "ALSA-2020-5503",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: mariadb-connector-c security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1636712456
 }

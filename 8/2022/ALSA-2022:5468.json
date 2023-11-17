@@ -1,200 +1,200 @@
 {
-  "description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\nSecurity Fix(es):\n* php: password of excessive length triggers buffer overflow leading to RCE (CVE-2022-31626)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "id": "ALSA-2022:5468",
-  "issued_date": 1656547200,
-  "modules": [
-    {
-      "arch": "i686",
-      "context": "a4870ff1",
-      "name": "php",
-      "stream": "7.4",
-      "version": "8060020220915081947"
-    },
-    {
-      "arch": "x86_64",
-      "context": "a4870ff1",
-      "name": "php",
-      "stream": "7.4",
-      "version": "8070020221010135733"
-    },
-    {
-      "arch": "aarch64",
-      "context": "a4870ff1",
-      "name": "php",
-      "stream": "7.4",
-      "version": "8070020221010135733"
-    },
-    {
-      "arch": "s390x",
-      "context": "a4870ff1",
-      "name": "php",
-      "stream": "7.4",
-      "version": "8070020221010135733"
-    },
-    {
-      "arch": "ppc64le",
-      "context": "a4870ff1",
-      "name": "php",
-      "stream": "7.4",
-      "version": "8070020221010135733"
-    }
-  ],
-  "packages": [
-    {
-      "arch": "noarch",
-      "checksum": "0cce4d216b43c4b38de6e0f49d7e0705d81c35d448903204b93b913865a2007c",
-      "checksum_type": "sha256",
-      "epoch": "1",
-      "filename": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.noarch.rpm",
-      "module": "php:7.4:8060020220915081947:a4870ff1:i686",
-      "name": "php-pear",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+3268+b150a051",
-      "src": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.src.rpm",
-      "version": "1.10.13"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "17854bfaccfa9a5dac2ebbee4ecbfed7162e36b265a23d65ca19c56e67c8d339",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "php-pecl-rrd-2.0.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "php-pecl-rrd",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-rrd-2.0.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "2.0.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "3a875aed6f027f47929142afa0af9aa7ac16e0d65a3dd6913ed408b6e08237be",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libzip-tools-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "libzip-tools",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "1.7.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "510ca816c904c997067280f1a8c44545212d9d21281831123c599aab29ea1325",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libzip-devel-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "libzip-devel",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "1.7.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "686c10d578ee64745364e6d127c86034519c9492ef08d946be8dd089d7fde8ae",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "php-pecl-xdebug3",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "3.1.2"
-    },
-    {
-      "arch": "noarch",
-      "checksum": "9d62eacacacb9526989ff157092bfe3f43de1faab5ec35b299d8c04eb847a216",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "apcu-panel-5.1.20-1.module_el8.6.0+2739+efabdb8f.noarch.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "apcu-panel",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "5.1.20"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "cf0f1163631368e3c11500cc5a9aef526abe256cf2357dbda4eb9e2c041c4dee",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "php-pecl-apcu-devel-5.1.20-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "php-pecl-apcu-devel",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "5.1.20"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "db2b2892daa3ec57184419a8d33ccc05828d55bcc1e88c5e81356a0882bc180a",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "php-pecl-apcu",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "5.1.20"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "e28e71e7935846d35ad3ae4b5a46e00d76b60be0453f3f30431ad4af7a429df1",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "libzip",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "1.7.3"
-    },
-    {
-      "arch": "x86_64",
-      "checksum": "fe1679b1f0e950ac5e52a203849eb0a715083b74888819deedeaeae67428d9bf",
-      "checksum_type": "sha256",
-      "epoch": "0",
-      "filename": "php-pecl-zip-1.19.2-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
-      "module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
-      "name": "php-pecl-zip",
-      "reboot_suggested": 0,
-      "release": "1.module_el8.6.0+2739+efabdb8f",
-      "src": "php-pecl-zip-1.19.2-1.module_el8.6.0+2739+efabdb8f.src.rpm",
-      "version": "1.19.2"
-    }
-  ],
-  "references": [
-    {
-      "href": "https://access.redhat.com/errata/RHSA-2022:5468",
-      "id": "RHSA-2022:5468",
-      "type": "rhsa"
-    },
-    {
-      "href": "https://access.redhat.com/security/cve/CVE-2022-31626",
-      "id": "CVE-2022-31626",
-      "type": "cve"
-    },
-    {
-      "href": "https://bugzilla.redhat.com/2098523",
-      "id": "2098523",
-      "type": "bugzilla"
-    },
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2022-5468.html",
-      "id": "ALSA-2022:5468",
-      "type": "self"
-    }
-  ],
-  "severity": "Important",
-  "title": "ALSA-2022:5468: php:8.0 security update (Important)",
-  "type": "security",
-  "updated_date": 1669241970
+	"description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\nSecurity Fix(es):\n* php: password of excessive length triggers buffer overflow leading to RCE (CVE-2022-31626)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2022:5468",
+	"issued_date": 1656547200,
+	"modules": [
+		{
+			"arch": "i686",
+			"context": "a4870ff1",
+			"name": "php",
+			"stream": "7.4",
+			"version": "8060020220915081947"
+		},
+		{
+			"arch": "x86_64",
+			"context": "a4870ff1",
+			"name": "php",
+			"stream": "7.4",
+			"version": "8070020221010135733"
+		},
+		{
+			"arch": "aarch64",
+			"context": "a4870ff1",
+			"name": "php",
+			"stream": "7.4",
+			"version": "8070020221010135733"
+		},
+		{
+			"arch": "s390x",
+			"context": "a4870ff1",
+			"name": "php",
+			"stream": "7.4",
+			"version": "8070020221010135733"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "a4870ff1",
+			"name": "php",
+			"stream": "7.4",
+			"version": "8070020221010135733"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "0cce4d216b43c4b38de6e0f49d7e0705d81c35d448903204b93b913865a2007c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.noarch.rpm",
+			"module": "php:7.4:8060020220915081947:a4870ff1:i686",
+			"name": "php-pear",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3268+b150a051",
+			"src": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.src.rpm",
+			"version": "1.10.13"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "17854bfaccfa9a5dac2ebbee4ecbfed7162e36b265a23d65ca19c56e67c8d339",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "php-pecl-rrd-2.0.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "php-pecl-rrd",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-rrd-2.0.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "2.0.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3a875aed6f027f47929142afa0af9aa7ac16e0d65a3dd6913ed408b6e08237be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libzip-tools-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "libzip-tools",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "1.7.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "510ca816c904c997067280f1a8c44545212d9d21281831123c599aab29ea1325",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libzip-devel-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "libzip-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "1.7.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "686c10d578ee64745364e6d127c86034519c9492ef08d946be8dd089d7fde8ae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "php-pecl-xdebug3",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-xdebug3-3.1.2-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "3.1.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9d62eacacacb9526989ff157092bfe3f43de1faab5ec35b299d8c04eb847a216",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "apcu-panel-5.1.20-1.module_el8.6.0+2739+efabdb8f.noarch.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "apcu-panel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "5.1.20"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cf0f1163631368e3c11500cc5a9aef526abe256cf2357dbda4eb9e2c041c4dee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "php-pecl-apcu-devel-5.1.20-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "php-pecl-apcu-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "5.1.20"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "db2b2892daa3ec57184419a8d33ccc05828d55bcc1e88c5e81356a0882bc180a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "php-pecl-apcu",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-apcu-5.1.20-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "5.1.20"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e28e71e7935846d35ad3ae4b5a46e00d76b60be0453f3f30431ad4af7a429df1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "libzip",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "libzip-1.7.3-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "1.7.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fe1679b1f0e950ac5e52a203849eb0a715083b74888819deedeaeae67428d9bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "php-pecl-zip-1.19.2-1.module_el8.6.0+2739+efabdb8f.x86_64.rpm",
+			"module": "php:7.4:8070020221010135733:a4870ff1:x86_64",
+			"name": "php-pecl-zip",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2739+efabdb8f",
+			"src": "php-pecl-zip-1.19.2-1.module_el8.6.0+2739+efabdb8f.src.rpm",
+			"version": "1.19.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2022:5468",
+			"id": "RHSA-2022:5468",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-31626",
+			"id": "CVE-2022-31626",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2098523",
+			"id": "2098523",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-5468.html",
+			"id": "ALSA-2022:5468",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "ALSA-2022:5468: php:8.0 security update (Important)",
+	"type": "security",
+	"updated_date": 1669241970
 }
