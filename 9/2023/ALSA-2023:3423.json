@@ -17,6 +17,30 @@
 			"version": "1.28.7"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "1f294ef52cc7667d5feb11b2663c07fb7a152347c30d6d558834634bb2227d97",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cups-filters-1.28.7-11.el9_2.1.ppc64le.rpm",
+			"name": "cups-filters",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.1",
+			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+			"version": "1.28.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "225aaadf9b6cf51e795b0a0fd61e3269d204f21ab130766cf9b91f04a221da6c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cups-filters-libs-1.28.7-11.el9_2.1.ppc64le.rpm",
+			"name": "cups-filters-libs",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.1",
+			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+			"version": "1.28.7"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "a0f3a711a755e7dae73be98f914ae6dfdd9db3c9a9f205ea39fecc8978beb6ed",
 			"checksum_type": "sha256",
@@ -41,11 +65,11 @@
 			"version": "1.28.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "1f294ef52cc7667d5feb11b2663c07fb7a152347c30d6d558834634bb2227d97",
+			"arch": "aarch64",
+			"checksum": "c9e97c5778a26b555baf3b0b62160578c682ba3c403dc0e33ea6496afdc67360",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cups-filters-1.28.7-11.el9_2.1.ppc64le.rpm",
+			"filename": "cups-filters-1.28.7-11.el9_2.1.aarch64.rpm",
 			"name": "cups-filters",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.1",
@@ -53,11 +77,11 @@
 			"version": "1.28.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "225aaadf9b6cf51e795b0a0fd61e3269d204f21ab130766cf9b91f04a221da6c",
+			"arch": "aarch64",
+			"checksum": "e66bf9684d65564e10958e0692aacfbfd14cc9fa2b1438bb0a852bac1d2506a8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cups-filters-libs-1.28.7-11.el9_2.1.ppc64le.rpm",
+			"filename": "cups-filters-libs-1.28.7-11.el9_2.1.aarch64.rpm",
 			"name": "cups-filters-libs",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.1",
@@ -89,30 +113,6 @@
 			"version": "1.28.7"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c9e97c5778a26b555baf3b0b62160578c682ba3c403dc0e33ea6496afdc67360",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cups-filters-1.28.7-11.el9_2.1.aarch64.rpm",
-			"name": "cups-filters",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.1",
-			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-			"version": "1.28.7"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e66bf9684d65564e10958e0692aacfbfd14cc9fa2b1438bb0a852bac1d2506a8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cups-filters-libs-1.28.7-11.el9_2.1.aarch64.rpm",
-			"name": "cups-filters-libs",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.1",
-			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-			"version": "1.28.7"
-		},
-		{
 			"arch": "i686",
 			"checksum": "4be1669ce9df9b878caa5f58ec501f7d9c4730d8fdab7ab5796d72072462f921",
 			"checksum_type": "sha256",
@@ -137,6 +137,18 @@
 			"version": "1.28.7"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "8a8e2472845a9ef7cbcdde4f19d6e60592e5effb97d7e6ce72f5773676635811",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cups-filters-devel-1.28.7-11.el9_2.1.x86_64.rpm",
+			"name": "cups-filters-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.1",
+			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
+			"version": "1.28.7"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "5c3b5df66ebe548568be972c712e9d5b01b5d62ec57bc7df3f39f78c247e2bf4",
 			"checksum_type": "sha256",
@@ -154,18 +166,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "cups-filters-devel-1.28.7-11.el9_2.1.s390x.rpm",
-			"name": "cups-filters-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.1",
-			"src": "cups-filters-1.28.7-11.el9_2.1.src.rpm",
-			"version": "1.28.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8a8e2472845a9ef7cbcdde4f19d6e60592e5effb97d7e6ce72f5773676635811",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cups-filters-devel-1.28.7-11.el9_2.1.x86_64.rpm",
 			"name": "cups-filters-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.1",
@@ -198,5 +198,5 @@
 	"severity": "Important",
 	"title": "Important: cups-filters security update",
 	"type": "security",
-	"updated_date": 1686030751
+	"updated_date": 1686030750
 }

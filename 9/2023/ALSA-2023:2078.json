@@ -5,35 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "1ee01df7a0917cf82d83d7a4776a66335eef88d924221a002def737e4996b64e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-devel-1.2.0-6.el9_1.x86_64.rpm",
-			"name": "libwebp-devel",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
-			"version": "1.2.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "4192cb88df348f6963e7becc6b897e80c548fd7ed55a970ccfe0dfe0e07aeb95",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libwebp-1.2.0-6.el9_1.i686.rpm",
-			"name": "libwebp",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
-			"version": "1.2.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
 			"name": "libwebp",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -77,24 +53,24 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "bbd3325877c0b1aa5eeb874644cd460a33aed09c5532b656c37ff5d23540f384",
+			"arch": "x86_64",
+			"checksum": "1ee01df7a0917cf82d83d7a4776a66335eef88d924221a002def737e4996b64e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-1.2.0-6.el9_1.s390x.rpm",
-			"name": "libwebp",
+			"filename": "libwebp-devel-1.2.0-6.el9_1.x86_64.rpm",
+			"name": "libwebp-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
 			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
 			"version": "1.2.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "d1b813e0ed40aa7b7c705ca5663129290a91f56350664645e5b238eba4682725",
+			"arch": "x86_64",
+			"checksum": "f44edbd1c7777252b7ac7840f606759b23016107a4c22a8a3bf63f66cfe18d39",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-devel-1.2.0-6.el9_1.s390x.rpm",
-			"name": "libwebp-devel",
+			"filename": "libwebp-1.2.0-6.el9_1.x86_64.rpm",
+			"name": "libwebp",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
 			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
@@ -118,6 +94,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libwebp-devel-1.2.0-6.el9_1.aarch64.rpm",
+			"name": "libwebp-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "bbd3325877c0b1aa5eeb874644cd460a33aed09c5532b656c37ff5d23540f384",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-1.2.0-6.el9_1.s390x.rpm",
+			"name": "libwebp",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libwebp-1.2.0-6.el9_1.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d1b813e0ed40aa7b7c705ca5663129290a91f56350664645e5b238eba4682725",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-devel-1.2.0-6.el9_1.s390x.rpm",
 			"name": "libwebp-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -150,5 +150,5 @@
 	"severity": "Important",
 	"title": "Important: libwebp security update",
 	"type": "security",
-	"updated_date": 1683100886
+	"updated_date": 1683100885
 }
