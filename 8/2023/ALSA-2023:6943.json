@@ -1,0 +1,46 @@
+{
+	"description": "The cloud-init packages provide a set of init scripts for cloud instances. Cloud instances need special scripts to run during initialization to retrieve and install SSH keys, and to let the user run various scripts.\n\nSecurity Fix(es):\n\n* cloud-init: sensitive data could be exposed in logs (CVE-2023-1786)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6943",
+	"issued_date": 1699920000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "a68318ff8dbd9c5982a6478530e0a1b570b70fcbe1df5c0a4a8cae107125752c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cloud-init-23.1.1-10.el8.alma.1.noarch.rpm",
+			"name": "cloud-init",
+			"reboot_suggested": 0,
+			"release": "10.el8.alma.1",
+			"src": "cloud-init-23.1.1-10.el8.alma.1.src.rpm",
+			"version": "23.1.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6943",
+			"id": "RHSA-2023:6943",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1786",
+			"id": "CVE-2023-1786",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2190079",
+			"id": "2190079",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-6943.html",
+			"id": "ALSA-2023:6943",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: cloud-init security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1700734940
+}

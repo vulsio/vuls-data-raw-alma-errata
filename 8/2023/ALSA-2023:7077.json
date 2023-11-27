@@ -1,0 +1,1463 @@
+{
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: tun: avoid double free in tun_free_netdev (CVE-2022-4744)\n* kernel: net/sched: multiple vulnerabilities (CVE-2023-3609, CVE-2023-3611, CVE-2023-4128, CVE-2023-4206, CVE-2023-4207, CVE-2023-4208)\n* kernel: out-of-bounds write in qfq_change_class function (CVE-2023-31436)\n* kernel: out-of-bounds write in hw_atl_utils_fw_rpc_wait (CVE-2021-43975)\n* kernel: Rate limit overflow messages in r8152 in intr_callback (CVE-2022-3594)\n* kernel: use after free flaw in l2cap_conn_del (CVE-2022-3640)\n* kernel: double free in usb_8dev_start_xmit (CVE-2022-28388)\n* kernel: vmwgfx: multiple vulnerabilities (CVE-2022-38457, CVE-2022-40133, CVE-2023-33951, CVE-2023-33952)\n* hw: Intel: Gather Data Sampling (GDS) side channel vulnerability (CVE-2022-40982)\n* kernel: Information leak in l2cap_parse_conf_req (CVE-2022-42895)\n* kernel: KVM: multiple vulnerabilities (CVE-2022-45869, CVE-2023-4155, CVE-2023-30456)\n* kernel: memory leak in ttusb_dec_exit_dvb (CVE-2022-45887)\n* kernel: speculative pointer dereference in do_prlimit (CVE-2023-0458)\n* kernel: use-after-free due to race condition in qdisc_graft (CVE-2023-0590)\n* kernel: x86/mm: Randomize per-cpu entry area (CVE-2023-0597)\n* kernel: HID: check empty report_list in hid_validate_values (CVE-2023-1073)\n* kernel: sctp: fail if no bound addresses can be used for a given scope (CVE-2023-1074)\n* kernel: hid: Use After Free in asus_remove (CVE-2023-1079)\n* kernel: use-after-free in drivers/media/rc/ene_ir.c (CVE-2023-1118)\n* kernel: hash collisions in the IPv6 connection lookup table (CVE-2023-1206)\n* kernel: ovl: fix use after free in struct ovl_aio_req (CVE-2023-1252)\n* kernel: denial of service in tipc_conn_close (CVE-2023-1382)\n* kernel: Use after free bug in btsdio_remove due to race condition (CVE-2023-1989)\n* kernel: Spectre v2 SMT mitigations problem (CVE-2023-1998)\n* kernel: ext4: use-after-free in ext4_xattr_set_entry (CVE-2023-2513)\n* kernel: fbcon: shift-out-of-bounds in fbcon_set_font (CVE-2023-3161)\n* kernel: out-of-bounds access in relay_file_read (CVE-2023-3268)\n* kernel: xfrm: NULL pointer dereference in xfrm_update_ae_params (CVE-2023-3772)\n* kernel: smsusb: use-after-free caused by do_submit_urb (CVE-2023-4132)\n* kernel: Race between task migrating pages and another task calling exit_mmap (CVE-2023-4732)\n* Kernel: denial of service in atm_tc_enqueue due to type confusion (CVE-2023-23455)\n* kernel: mpls: double free on sysctl allocation failure (CVE-2023-26545)\n* kernel: Denial of service issue in az6027 driver (CVE-2023-28328)\n* kernel: lib/seq_buf.c has a seq_buf_putmem_hex buffer overflow (CVE-2023-28772)\n* kernel: blocking operation in dvb_frontend_get_event and wait_event_interruptible (CVE-2023-31084)\n* kernel: net: qcom/emac: race condition leading to use-after-free in emac_remove (CVE-2023-33203)\n* kernel: saa7134: race condition leading to use-after-free in saa7134_finidev (CVE-2023-35823)\n* kernel: dm1105: race condition leading to use-after-free in dm1105_remove.c (CVE-2023-35824)\n* kernel: r592: race condition leading to use-after-free in r592_remove (CVE-2023-35825)\n* kernel: net/tls: tls_is_tx_ready() checked list_entry (CVE-2023-1075)\n* kernel: use-after-free bug in remove function xgene_hwmon_remove (CVE-2023-1855)\n* kernel: Use after free bug in r592_remove (CVE-2023-3141)\n* kernel: gfs2: NULL pointer dereference in gfs2_evict_inode (CVE-2023-3212)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:7077",
+	"issued_date": 1699920000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "33484f33e94934bfa6c97608b05f1755fc8740241b9dee5a048ce2e85ba7a880",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-4.18.0-513.5.1.el8_9.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "56be773e3c99e5f501b4552723ff8169a49f644af7b43ca5c6cabf497414dedb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-4.18.0-513.5.1.el8_9.noarch.rpm",
+			"name": "kernel-abi-stablelists",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0129eae3b87c73ad97651bb36c7b660fe48ff62949398e15bfa056b65a33a6da",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-debug",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "02d27c25f2935819376ba6938880613638ec1f2f7856895abe589924fc84bbd9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftool-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "bpftool",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "20bfbf875a93859b986690f39a9e68f0fad754bb6bc1f233a1cb12d311c1be96",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3b12c6e2d9086b320204b4ddfed4b508df45fd0163743b2c3ed275f8a7de4790",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-devel-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3ce148264780dc2ca1efb202f9a93ea6fe17ac9f2ce69d1a7c5947db130f70d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-tools-libs",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "540f466d6f7943803b1483bfc65629f890be9ca68eead305a6189e7b91a0cdaa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-tools",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5640159ba7ad92e884d5486d86d5dd1fc75a7e926674ae394dfd4a4df8e710df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-devel-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7625cd4471a08046427be70616ab3bb0a0c8db74b6307d7ce44ffc21e3a31747",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-extra-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "76581ff9e7b408275a94be41835c6b56ee16a1cc278d28c31290d445bf010144",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perf-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "931ced0c140a1708d975057a6bdd6b0add8e797629ccdb9e21e128611c986009",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-debug-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "96020f3e64574119c112ef95d023a55c221c549ae2402d67822616c4a9bd47ff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-core-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-debug-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a7b3a044d3b361dc84603c6d871369986d40311e73b1c865cd17b512a76293a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b64af8a2db502d51c074e19c39559547b77aaa30a5084065f86218c00777d154",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-perf-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "python3-perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c43b52fda6f27db3b3ae04e297a454cbc28c68be7ffe4567b013c15058400341",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d3859ff824931e69163594e56729b35d5366e9d9ab305350532df5fd1e011c3c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-headers-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "de60f6c8e1080d83eec9d734242a0cba8576eb0ca06a6fbf94517c562bfc49e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-extra-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "df311aeae886c095af6a16e2baa56a4cb2c88a231a4ee448b22df422c1a5e8e4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-core-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a6c7ec6d11835a3b8731a201a5a870cc8c795459bab6ad8227e0569a989cbec1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-513.5.1.el8_9.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "00364afd5f899c59675440cabad9893c147622596312a98192db5950e1340e71",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-perf-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "python3-perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2320bc038ffb8f14c2cd249e524a84ea293f489e78fc018089f8dd5d21ba69af",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-core-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-debug-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2bb77f8989aff2d612f51b5955c2632efff4a37eead3e5c71375271472e3d801",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-debug",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "35431e1fe7c2f7436df3a37713cde0c37c28d74bc54ff0f0b7e62c8770bd1054",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-debug-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3b7e87b55c6ae03959f12445dd802f032a52a70683857583317ae03e825840c9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftool-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "bpftool",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "40aeda01498a2aac7f0a6aa56ae0a720761d41241dbb2ad3038c74a6eb2298f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-tools-libs",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "48599ae218ea3e6fc0350d60d3965bca4ade26ea9660182b42b1081290779991",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-devel-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4ab2a267abf88d9bfa4e8ec6d3c228cf81a5e34931a86df95f4d152ff7648fe9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-extra-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4ca081d6bb51331019262f3adbb275a0742501fd52d7e2a11218ea296fb49c3e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6904280d8d3bfc897d00d560dc99059c42c786c15069f84b6070b4dd1814ed7b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-tools",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6e50778585ef17133e32cedd64c9fc612d760b414b97e7f8f6022db1ca302b18",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perf-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "82c32a7f9edda48faccdd160ae7bacbc415281de3ab865667af6d6f86438a1b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-headers-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "986de2e5b04ed39134674e843ab5caa638bd36ac6a29dc36519ef944e00a1fd4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-extra-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "dcea94e99782665cf517cdf994f90b8bd5e8143a4110ea44c53fdf078bee9edf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-devel-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "dd6d7a83262b6ce2c37e542f18b52402482d4cea2b744c0a006e6b5055206aff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-core-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "de039dc30edae360e280c98921f83fbea5c6390d42d8dc3036618606319fcda3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f4f51abbaf26d0dd80807c22325cf0afcbddab0761c26817995435a98a064537",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "07140c5f33cf4dc19622ffa7f51fbfcf87e33e364c7f6b89a09f1af249fd583d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0d7efab1794798a36e9f230a57d455ba5e984fec5a45646963c4dda812bf8fa6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-extra-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0e292e9c82188051413ca8839b30cfc15dee162e486b49983b5f8434f7572c39",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-tools-libs",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "125ef03286c04e518903463f6ef39f55b2c6dff20342f48d081a09fc2076e17b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-tools",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "186c345a3b470a3bbd21cf7a9b4e75b7c6b083a6a867aaefe421995f90a7a686",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftool-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "bpftool",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3aab4500a7b02f8dfafbdcfc98f4b2321d31ffe53534ec8a533444060275b5c7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perf-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "543605d5fbc44963e7a0fbfc9391ad9c0e4e12a541e1ca6608e99bae0ebac537",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-headers-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "648c853cab96337b351ba20c228e94e5fcbc36818c6b3847e8a156c472c61018",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6f50a0f82a1eb35d61fdfd252b2a99d7f07cc029ec4e75d7dc6008a601df4255",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-perf-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "python3-perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7655b64325c35cc4d5590b14e1863ef7c8702f8b688d9cfabfb554b8998449e2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-debug-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "77b5e5df1c9493d5b28e4d28e87ca7c44f6e0bfe32ebc8d25718c0bca17ac36b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-devel-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9ef01c3f1a7a487f2e4fbd659e8bb696e9c21716de18d29e1c6d377c42b1dc54",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-debug",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a073c42ac13d219cb967cdb969f748f331915df4f3112d77c2e669c11657c18c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-core-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-debug-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c2d3e9874e2f88a8ccbd83cde151b8baaa9e73c8428a95e6f87ab999968c6bfa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-extra-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ddd95080b59814bc7dcfa5d823a5c8e75797849323a19b3064bfecb26462e574",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-devel-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e15c1d99f50f955df2a10779b44ebc92c35edaaee1427ffca51c68bc6ed032bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e7a69e0beddcf980081a853af006629988b7214211a753aa4ddb03f980b22f3b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-core-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ae9340c04a962faa3381c199ce8902b0557c0e0fc8d24a422d0552d6807f9e68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-513.5.1.el8_9.aarch64.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a5c69106ae493f64144bfb5706ca412a96bfb3e59320149d7d64f375a0f7c773",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-513.5.1.el8_9.ppc64le.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "10bac84ae70323252f6d533ebd5a82908da928d16daa3eae14983ea871170b32",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "16d823a5290a05551c8e5c3590a3656c97183998fe13373777682dc4d65b8174",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-zfcpdump-modules-extra-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-zfcpdump-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "18627cf437e54362313d7e47c8aa3602b7a2168a49c0c17bbeacf44d0420ad76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-extra-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "1ea4c91455a61d92f317fc0748e81e76989a0776b3d411e2405134d2a8538c7a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-extra-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-modules-extra",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "23347ad9251f432f18a15556a05edda8c27cf6292e119e32d0b447c1cc688372",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-modules-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-debug-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "258564418ba808e96ab6cc3c43b7438cb0da5e072db17e82518495961b73e22e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-devel-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "35d010b94c7e33b452862949212b57f6d7c984abe7d8bc0ee1ba1541fc9cc3be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftool-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "bpftool",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3d37c3437f4efca135b3570b0d184327f1fcf7487c1a916bdc89fab2d9191d65",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perf-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "48f2f9f3ff27769d2dd8b0fbb62bcdbf6532fc63439bba7a2e1dfc7a482cdb10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-zfcpdump-devel-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-zfcpdump-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4d37ed467396413b6c19c3b1f41c92534c7e804fd49649aaac739e4b7151ae58",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-debug",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "51425ca714892fe11aa71e4200aca345f0d533827c8b5a5f7fcca2a4d9cee946",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-debug-core-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-debug-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "69c927d89d7786002ff29fafda88792c0aaad5052f0b6e4daed7221d308189ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-core-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6e4e500d295256a028602c4f2fec8f019eae25db551ebc4e2a4e33ac6eaed4ba",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-zfcpdump-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-zfcpdump",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b3c32d68efb5373608528dd67362bfd5bda9cad800cf2aa8c5f03d1eb112e2db",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-devel-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-devel",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b553319b56c254634f0fb7bb148f8866dbaf49e99d324100bfd2681336d8abad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ba89ea6778e390839e6cb665890fe264c698b7657ba0fc2c2e84455e36b75f65",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-perf-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "python3-perf",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e02fbe62d8a3093e66ab04aedd19c896fa101e20cee75a03a11244be461cf19e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-headers-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-headers",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f5d529df5d83f90dd8b79b480f126d66c5f2db53a97c42190e4bea759e662666",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-zfcpdump-core-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-zfcpdump-core",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "fc60ea62e157df44831b31fb6b982d9d9eae98f017bce7fb4ee82ef0d4c58bf8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-tools",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "fd42cd8767545d75473492518f856f5d24554fbfa2739f6a55963d06389498a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-zfcpdump-modules-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-zfcpdump-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "feac9a46bb229cd1a76c6dc41556cece45bdf81558d7b64661d453a97c872e63",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-modules-4.18.0-513.5.1.el8_9.s390x.rpm",
+			"name": "kernel-modules",
+			"reboot_suggested": 0,
+			"release": "513.5.1.el8_9",
+			"src": "kernel-4.18.0-513.5.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:7077",
+			"id": "RHSA-2023:7077",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-43975",
+			"id": "CVE-2021-43975",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-28388",
+			"id": "CVE-2022-28388",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-3594",
+			"id": "CVE-2022-3594",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-3640",
+			"id": "CVE-2022-3640",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-38457",
+			"id": "CVE-2022-38457",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40133",
+			"id": "CVE-2022-40133",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-40982",
+			"id": "CVE-2022-40982",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-42895",
+			"id": "CVE-2022-42895",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45869",
+			"id": "CVE-2022-45869",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-45887",
+			"id": "CVE-2022-45887",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-4744",
+			"id": "CVE-2022-4744",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0458",
+			"id": "CVE-2023-0458",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0590",
+			"id": "CVE-2023-0590",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-0597",
+			"id": "CVE-2023-0597",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1073",
+			"id": "CVE-2023-1073",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1074",
+			"id": "CVE-2023-1074",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1075",
+			"id": "CVE-2023-1075",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1079",
+			"id": "CVE-2023-1079",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1118",
+			"id": "CVE-2023-1118",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1206",
+			"id": "CVE-2023-1206",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1252",
+			"id": "CVE-2023-1252",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1382",
+			"id": "CVE-2023-1382",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1855",
+			"id": "CVE-2023-1855",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1989",
+			"id": "CVE-2023-1989",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-1998",
+			"id": "CVE-2023-1998",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-23455",
+			"id": "CVE-2023-23455",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2513",
+			"id": "CVE-2023-2513",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-26545",
+			"id": "CVE-2023-26545",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28328",
+			"id": "CVE-2023-28328",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28772",
+			"id": "CVE-2023-28772",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-30456",
+			"id": "CVE-2023-30456",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-31084",
+			"id": "CVE-2023-31084",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3141",
+			"id": "CVE-2023-3141",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-31436",
+			"id": "CVE-2023-31436",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3161",
+			"id": "CVE-2023-3161",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3212",
+			"id": "CVE-2023-3212",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3268",
+			"id": "CVE-2023-3268",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-33203",
+			"id": "CVE-2023-33203",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-33951",
+			"id": "CVE-2023-33951",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-33952",
+			"id": "CVE-2023-33952",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-35823",
+			"id": "CVE-2023-35823",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-35824",
+			"id": "CVE-2023-35824",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-35825",
+			"id": "CVE-2023-35825",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3609",
+			"id": "CVE-2023-3609",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3611",
+			"id": "CVE-2023-3611",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3772",
+			"id": "CVE-2023-3772",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4128",
+			"id": "CVE-2023-4128",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4132",
+			"id": "CVE-2023-4132",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4155",
+			"id": "CVE-2023-4155",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4206",
+			"id": "CVE-2023-4206",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4207",
+			"id": "CVE-2023-4207",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4208",
+			"id": "CVE-2023-4208",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4732",
+			"id": "CVE-2023-4732",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2024989",
+			"id": "2024989",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2073091",
+			"id": "2073091",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2133453",
+			"id": "2133453",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2133455",
+			"id": "2133455",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2139610",
+			"id": "2139610",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2147356",
+			"id": "2147356",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2148520",
+			"id": "2148520",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2149024",
+			"id": "2149024",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2151317",
+			"id": "2151317",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2156322",
+			"id": "2156322",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2165741",
+			"id": "2165741",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2165926",
+			"id": "2165926",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2168332",
+			"id": "2168332",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2173403",
+			"id": "2173403",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2173430",
+			"id": "2173430",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2173434",
+			"id": "2173434",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2173444",
+			"id": "2173444",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2174400",
+			"id": "2174400",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2175903",
+			"id": "2175903",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2176140",
+			"id": "2176140",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2177371",
+			"id": "2177371",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2177389",
+			"id": "2177389",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2181330",
+			"id": "2181330",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2182443",
+			"id": "2182443",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2184578",
+			"id": "2184578",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2185945",
+			"id": "2185945",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2187257",
+			"id": "2187257",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2188468",
+			"id": "2188468",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2192667",
+			"id": "2192667",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2192671",
+			"id": "2192671",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2193097",
+			"id": "2193097",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2193219",
+			"id": "2193219",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2213139",
+			"id": "2213139",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2213199",
+			"id": "2213199",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2213485",
+			"id": "2213485",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2213802",
+			"id": "2213802",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2214348",
+			"id": "2214348",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2215502",
+			"id": "2215502",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2215835",
+			"id": "2215835",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2215836",
+			"id": "2215836",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2215837",
+			"id": "2215837",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2218195",
+			"id": "2218195",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2218212",
+			"id": "2218212",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2218943",
+			"id": "2218943",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2221707",
+			"id": "2221707",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2223949",
+			"id": "2223949",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2225191",
+			"id": "2225191",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2225201",
+			"id": "2225201",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2225511",
+			"id": "2225511",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2236982",
+			"id": "2236982",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-7077.html",
+			"id": "ALSA-2023:7077",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: kernel security, bug fix, and enhancement update",
+	"type": "security",
+	"updated_date": 1700734852
+}

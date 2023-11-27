@@ -1,0 +1,94 @@
+{
+	"description": "The libfastjson library provides essential JavaScript Object Notation (JSON) handling functions. The library enables users to construct JSON objects in C, output them as JSON-formatted strings, and convert JSON-formatted strings back to the C representation of JSON objects.\n\nSecurity Fix(es):\n\n* json-c, libfastjson: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6976",
+	"issued_date": 1699920000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "9d7c22964292b66dce5b5239fcd2fc77c3222f569b9c57604b7a6ea848d7f2d3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-2.el8.i686.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libfastjson-0.99.9-2.el8.src.rpm",
+			"version": "0.99.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cc173927572da67f863093d7456d2b8460ab8ec906a30e89d4bd648fe85f5c9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-2.el8.x86_64.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libfastjson-0.99.9-2.el8.src.rpm",
+			"version": "0.99.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8a60ae1ae5871078dcc361809fc3e01e0878c0fd069cc8b3dc3078216471b299",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-2.el8.aarch64.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libfastjson-0.99.9-2.el8.src.rpm",
+			"version": "0.99.9"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "1610718c934c95065160501e16229cbe7a648e36b5f66265ceb16edd2eb3d683",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-2.el8.s390x.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libfastjson-0.99.9-2.el8.src.rpm",
+			"version": "0.99.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5edfe14af66b2402af0457d4af1c68a10408d6284569165e3002f3402b99b06a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-2.el8.ppc64le.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libfastjson-0.99.9-2.el8.src.rpm",
+			"version": "0.99.9"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6976",
+			"id": "RHSA-2023:6976",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2020-12762",
+			"id": "CVE-2020-12762",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1835253",
+			"id": "1835253",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-6976.html",
+			"id": "ALSA-2023:6976",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libfastjson security update",
+	"type": "security",
+	"updated_date": 1700734738
+}

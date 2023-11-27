@@ -1,0 +1,92 @@
+{
+	"description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: SAML token signature bypass (CVE-2023-34058)\n* open-vm-tools: file descriptor hijack vulnerability in the vmware-user-suid-wrapper (CVE-2023-34059)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:7265",
+	"issued_date": 1700006400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "a42757a66489e02ed9e3d5c980da89a638ab83afd22c885d27b0c7d514d05a92",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-desktop-12.2.5-3.el8_9.1.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-desktop",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el8_9.1.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b576e3e2c97ebafe1eccb688771b6ad28244bc84a6cd9902451e1feffd7d18f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-salt-minion-12.2.5-3.el8_9.1.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-salt-minion",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el8_9.1.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c441fe607d644b6816642442a6a6e2a369d80133a2c8bd24592bad4b69bd6ac9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-12.2.5-3.el8_9.1.alma.1.x86_64.rpm",
+			"name": "open-vm-tools",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el8_9.1.alma.1.src.rpm",
+			"version": "12.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ea32b0405549bf0ee8bacffdca26e39833077d63005ec7724b29d179716317a2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-sdmp-12.2.5-3.el8_9.1.alma.1.x86_64.rpm",
+			"name": "open-vm-tools-sdmp",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "open-vm-tools-12.2.5-3.el8_9.1.alma.1.src.rpm",
+			"version": "12.2.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:7265",
+			"id": "RHSA-2023:7265",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34058",
+			"id": "CVE-2023-34058",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-34059",
+			"id": "CVE-2023-34059",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246080",
+			"id": "2246080",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246096",
+			"id": "2246096",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-7265.html",
+			"id": "ALSA-2023:7265",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: open-vm-tools security update",
+	"type": "security",
+	"updated_date": 1700734806
+}

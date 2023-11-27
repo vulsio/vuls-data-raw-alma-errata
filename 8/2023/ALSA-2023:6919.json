@@ -1,0 +1,58 @@
+{
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Function GetEfiGlobalVariable2() return value not checked in DxeImageVerificationHandler() (CVE-2019-14560)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2023:6919",
+	"issued_date": 1699920000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "457fcd3b159b7bb590ec97142837da0e00a2a11523f34473c697980dc604d096",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20220126gitbb1bba3d77-6.el8.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "edk2-20220126gitbb1bba3d77-6.el8.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b7dc2f0f16182514fc961ea133795beb1c8fbe4c772d1954368594003a32ea9c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20220126gitbb1bba3d77-6.el8.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "edk2-20220126gitbb1bba3d77-6.el8.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:6919",
+			"id": "RHSA-2023:6919",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-14560",
+			"id": "CVE-2019-14560",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1858038",
+			"id": "1858038",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-6919.html",
+			"id": "ALSA-2023:6919",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: edk2 security and bug fix update",
+	"type": "security",
+	"updated_date": 1700734848
+}
