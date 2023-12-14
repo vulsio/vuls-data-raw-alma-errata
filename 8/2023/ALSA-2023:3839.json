@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "6599017c21e59c7d7c026dcad4bd7a9c6e9c025c046dd1cc8708d27c59c86a19",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libssh-devel-0.9.6-10.el8_8.i686.rpm",
+			"name": "libssh-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8",
+			"src": "libssh-0.9.6-10.el8_8.src.rpm",
+			"version": "0.9.6"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "1646c6cf3518562e70f6c444ede3f0c91627fc42ccaea206c5cd63d890daf693",
 			"checksum_type": "sha256",
@@ -29,18 +41,6 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "6599017c21e59c7d7c026dcad4bd7a9c6e9c025c046dd1cc8708d27c59c86a19",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-10.el8_8.i686.rpm",
-			"name": "libssh-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8_8",
-			"src": "libssh-0.9.6-10.el8_8.src.rpm",
-			"version": "0.9.6"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "eb930fd007f78f0fed5552c0b0b0c2f53bb9bbb6af3960736ac57caa5de954fd",
 			"checksum_type": "sha256",
@@ -58,6 +58,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libssh-0.9.6-10.el8_8.aarch64.rpm",
+			"name": "libssh",
+			"reboot_suggested": 0,
+			"release": "10.el8_8",
+			"src": "libssh-0.9.6-10.el8_8.src.rpm",
+			"version": "0.9.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "584bccc8e41815323f9df9a9816b0adf94d3a4afd69711ef784cf6b839824029",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libssh-0.9.6-10.el8_8.ppc64le.rpm",
 			"name": "libssh",
 			"reboot_suggested": 0,
 			"release": "10.el8_8",
@@ -89,18 +101,6 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "584bccc8e41815323f9df9a9816b0adf94d3a4afd69711ef784cf6b839824029",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libssh-0.9.6-10.el8_8.ppc64le.rpm",
-			"name": "libssh",
-			"reboot_suggested": 0,
-			"release": "10.el8_8",
-			"src": "libssh-0.9.6-10.el8_8.src.rpm",
-			"version": "0.9.6"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "e3c3728ccb174f562fcf41de9ba7a9c8bdd6ca96b30713a569cddba21b5a797c",
 			"checksum_type": "sha256",
@@ -113,11 +113,11 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "0a4e091bb35fb79cb1359b1bfe17a40a555f8f1d5a1e486c51db936cebaa3a60",
+			"arch": "ppc64le",
+			"checksum": "c391fbe6809920afd98c434ee17a5c47cb28be1300838b3604f644fd77889e97",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-10.el8_8.s390x.rpm",
+			"filename": "libssh-devel-0.9.6-10.el8_8.ppc64le.rpm",
 			"name": "libssh-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8_8",
@@ -125,11 +125,11 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c391fbe6809920afd98c434ee17a5c47cb28be1300838b3604f644fd77889e97",
+			"arch": "s390x",
+			"checksum": "0a4e091bb35fb79cb1359b1bfe17a40a555f8f1d5a1e486c51db936cebaa3a60",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-10.el8_8.ppc64le.rpm",
+			"filename": "libssh-devel-0.9.6-10.el8_8.s390x.rpm",
 			"name": "libssh-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8_8",
@@ -172,5 +172,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libssh security update",
 	"type": "security",
-	"updated_date": 1688123576
+	"updated_date": 1688123570
 }
