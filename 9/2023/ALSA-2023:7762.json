@@ -1,0 +1,170 @@
+{
+	"description": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files. \n\nSecurity Fix(es):\n\n* golang: crypto/tls: slow verification of certificate chains containing large RSA keys (CVE-2023-29409)\n* golang: html/template: improper handling of HTML-like comments within script contexts (CVE-2023-39318)\n* golang: html/template: improper handling of special tags within script contexts (CVE-2023-39319)\n* golang: crypto/tls: panic when processing post-handshake message on QUIC connections (CVE-2023-39321)\n* golang: crypto/tls: lack of a limit on buffered post-handshake (CVE-2023-39322)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:7762",
+	"issued_date": 1702339200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "08e9b10967f7f505b9e15541bff9b17aa64a314b452f860e95d9451d94706449",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.13.3-3.el9_3.x86_64.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "65172c7d0d2747143e1128e8a5098f451a6d0c2292532e64ebed66a315b9ff6e",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.13.3-3.el9_3.x86_64.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "40f439741f357957f1fde35deaf4914fbb87ea994963b978177ead40be4e797d",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.13.3-3.el9_3.s390x.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a8d4d1b803e3d37b3194585ec118385721f25e500adda6b088e4312abd5ba172",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.13.3-3.el9_3.s390x.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "091689f31da62dfe858a9aa4458b52f91b5faffe8e9ac44b6ddf37dfcb6b3d10",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.13.3-3.el9_3.aarch64.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7d912a59c8513d73d36bbe08a565c455cc9eedd9c36774bdbd0f6b7098fc1bae",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.13.3-3.el9_3.aarch64.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3df002a518773cf6dbf28d5b5d7186ef7d7795f59bd03e27021165472319b74b",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.13.3-3.el9_3.ppc64le.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e2374129c431acd88005714e96d97df85cf009eb9401d7a5deae9d5239c412fe",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.13.3-3.el9_3.ppc64le.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "3.el9_3",
+			"src": "skopeo-1.13.3-3.el9_3.src.rpm",
+			"version": "1.13.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:7762",
+			"id": "RHSA-2023:7762",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29409",
+			"id": "CVE-2023-29409",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-39318",
+			"id": "CVE-2023-39318",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-39319",
+			"id": "CVE-2023-39319",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-39321",
+			"id": "CVE-2023-39321",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-39322",
+			"id": "CVE-2023-39322",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2228743",
+			"id": "2228743",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2237773",
+			"id": "2237773",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2237776",
+			"id": "2237776",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2237777",
+			"id": "2237777",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2237778",
+			"id": "2237778",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2023-7762.html",
+			"id": "ALSA-2023:7762",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: skopeo security update",
+	"type": "security",
+	"updated_date": 1702546763
+}
