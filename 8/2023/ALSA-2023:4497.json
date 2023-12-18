@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "aarch64",
-			"checksum": "5f41c1d867aafaa69328381ba74a91c29e44a5d9281f38d9a66a6f1b923e77c0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.14.0-1.el8_8.alma.aarch64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_8.alma",
-			"src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
-			"version": "102.14.0"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "8fa4dd1172113069ea259fcf332a229b5f63d288a4e9e35527fd9b7c7c76d715",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -53,15 +41,15 @@
 			"version": "102.14.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "65365a9169de4e8a1f0e7510655f1a7e73d77dbe1a4e740523cb1a10225c45f2",
+			"arch": "aarch64",
+			"checksum": "5f41c1d867aafaa69328381ba74a91c29e44a5d9281f38d9a66a6f1b923e77c0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.14.0-1.el8_8.alma.plus.s390x.rpm",
+			"filename": "thunderbird-102.14.0-1.el8_8.alma.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
-			"release": "1.el8_8.alma.plus",
-			"src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
+			"release": "1.el8_8.alma",
+			"src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
 			"version": "102.14.0"
 		},
 		{
@@ -74,6 +62,18 @@
 			"reboot_suggested": 0,
 			"release": "1.el8_8.alma",
 			"src": "thunderbird-102.14.0-1.el8_8.alma.src.rpm",
+			"version": "102.14.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "65365a9169de4e8a1f0e7510655f1a7e73d77dbe1a4e740523cb1a10225c45f2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.14.0-1.el8_8.alma.plus.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma.plus",
+			"src": "thunderbird-102.14.0-1.el8_8.alma.plus.src.rpm",
 			"version": "102.14.0"
 		},
 		{
@@ -216,5 +216,5 @@
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1691489971
+	"updated_date": 1691489968
 }
