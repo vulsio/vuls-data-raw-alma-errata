@@ -4,13 +4,6 @@
 	"issued_date": 1634649251,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "522a0ee4",
-			"name": "redis",
-			"stream": "5",
-			"version": "8040020211021114221"
-		},
-		{
 			"arch": "aarch64",
 			"context": "522a0ee4",
 			"name": "redis",
@@ -23,48 +16,16 @@
 			"name": "redis",
 			"stream": "5",
 			"version": "8050020211210114756"
+		},
+		{
+			"arch": "x86_64",
+			"context": "522a0ee4",
+			"name": "redis",
+			"stream": "5",
+			"version": "8040020211021114221"
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "0c9cdd8f1f2f3eb3d4173c5eddf51663706b346ab7b37cc9c59073b467030eda",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-5.0.3-5.module_el8.4.0+2583+b9845322.x86_64.rpm",
-			"module": "redis:5:8040020211021114221:522a0ee4:x86_64",
-			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2583+b9845322",
-			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
-			"version": "5.0.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "34ddb0964ac9be4bb40026656e6d0bc7ada7ac6bf9efebd79f91c3796581e224",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.x86_64.rpm",
-			"module": "redis:5:8040020211021114221:522a0ee4:x86_64",
-			"name": "redis",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2583+b9845322",
-			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
-			"version": "5.0.3"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "78b68b3410bb89a004d1dde64b9718f51cdd7c23248ada00b031f987bfc08ced",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-doc-5.0.3-5.module_el8.4.0+2583+b9845322.noarch.rpm",
-			"module": "redis:5:8040020211021114221:522a0ee4:x86_64",
-			"name": "redis-doc",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2583+b9845322",
-			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
-			"version": "5.0.3"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "0f9c5167ed15733f7df4e7cabf6846b2abe8b332dec572a6ab67a38c5fbd4aa6",
@@ -86,6 +47,19 @@
 			"filename": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.aarch64.rpm",
 			"module": "redis:5:8040020211021114221:522a0ee4:aarch64",
 			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2583+b9845322",
+			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
+			"version": "5.0.3"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "78b68b3410bb89a004d1dde64b9718f51cdd7c23248ada00b031f987bfc08ced",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-doc-5.0.3-5.module_el8.4.0+2583+b9845322.noarch.rpm",
+			"module": "redis:5:8040020211021114221:522a0ee4:aarch64",
+			"name": "redis-doc",
 			"reboot_suggested": 0,
 			"release": "5.module_el8.4.0+2583+b9845322",
 			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
@@ -115,6 +89,32 @@
 			"reboot_suggested": 0,
 			"release": "5.module_el8.5.0+66+fc19ec12",
 			"src": "redis-5.0.3-5.module_el8.5.0+66+fc19ec12.src.rpm",
+			"version": "5.0.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0c9cdd8f1f2f3eb3d4173c5eddf51663706b346ab7b37cc9c59073b467030eda",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-5.0.3-5.module_el8.4.0+2583+b9845322.x86_64.rpm",
+			"module": "redis:5:8040020211021114221:522a0ee4:x86_64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2583+b9845322",
+			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
+			"version": "5.0.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "34ddb0964ac9be4bb40026656e6d0bc7ada7ac6bf9efebd79f91c3796581e224",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.x86_64.rpm",
+			"module": "redis:5:8040020211021114221:522a0ee4:x86_64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2583+b9845322",
+			"src": "redis-5.0.3-5.module_el8.4.0+2583+b9845322.src.rpm",
 			"version": "5.0.3"
 		}
 	],

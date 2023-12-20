@@ -1,0 +1,104 @@
+{
+	"description": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* OpenSC: Potential PIN bypass when card tracks its own login state (CVE-2023-40660)\n* OpenSC: multiple memory issues with pkcs15-init (enrollment tool) (CVE-2023-40661)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2023:7876",
+	"issued_date": 1702944000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "8a30002915a7089552f8d65f3af19fbfb84896532452293c74a396ee8d23e92d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-7.el8_9.i686.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "7.el8_9",
+			"src": "opensc-0.20.0-7.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e73e215cb893bcc747a51f68ae3ce5b1b87bd4e1b590f7c662429312dc32d468",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-7.el8_9.x86_64.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "7.el8_9",
+			"src": "opensc-0.20.0-7.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "aefc14a7dfa169ad78c4927ef6a9ade58485a64188e7b1dbc8647ebc345f1767",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-7.el8_9.aarch64.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "7.el8_9",
+			"src": "opensc-0.20.0-7.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "bbf381e130679474815808f68ac043cd5b281776ea361a6626dfb86cd8c656c2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-7.el8_9.ppc64le.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "7.el8_9",
+			"src": "opensc-0.20.0-7.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d8673d96c9d737a5e36785db8b9e9bc23d4f398149c58d28f3c728c2a36d393e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-7.el8_9.s390x.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "7.el8_9",
+			"src": "opensc-0.20.0-7.el8_9.src.rpm",
+			"version": "0.20.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2023:7876",
+			"id": "RHSA-2023:7876",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40660",
+			"id": "CVE-2023-40660",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40661",
+			"id": "CVE-2023-40661",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2240912",
+			"id": "2240912",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2240913",
+			"id": "2240913",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2023-7876.html",
+			"id": "ALSA-2023:7876",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: opensc security update",
+	"type": "security",
+	"updated_date": 1703076627
+}

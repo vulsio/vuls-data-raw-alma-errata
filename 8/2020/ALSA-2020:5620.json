@@ -4,13 +4,6 @@
 	"issued_date": 1608219010,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "9edba152",
-			"name": "postgresql",
-			"stream": "12",
-			"version": "8060020220531080156"
-		},
-		{
 			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "postgresql",
@@ -23,22 +16,16 @@
 			"name": "postgresql",
 			"stream": "12",
 			"version": "8060020220531080156"
+		},
+		{
+			"arch": "x86_64",
+			"context": "9edba152",
+			"name": "postgresql",
+			"stream": "12",
+			"version": "8060020220531080156"
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "b7099985335638e75d956dbda5dd4d74e89f0c8878675d9b2bad276428897041",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.x86_64.rpm",
-			"module": "postgresql:12:8060020220531080156:9edba152:x86_64",
-			"name": "postgres-decoderbufs",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2758+4f4474df",
-			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
-			"version": "0.10.0"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
@@ -63,6 +50,19 @@
 			"reboot_suggested": 0,
 			"release": "2.module_el8.6.0+2760+1746ec94",
 			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
+			"version": "0.10.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b7099985335638e75d956dbda5dd4d74e89f0c8878675d9b2bad276428897041",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.x86_64.rpm",
+			"module": "postgresql:12:8060020220531080156:9edba152:x86_64",
+			"name": "postgres-decoderbufs",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2758+4f4474df",
+			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
 			"version": "0.10.0"
 		}
 	],

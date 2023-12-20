@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "4e96e2c0d6bf29f3827d310ce92618e7b13d9f6a95c5ddeec15d859e1731ece6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dnsmasq-2.79-24.el8.x86_64.rpm",
-			"name": "dnsmasq",
-			"reboot_suggested": 0,
-			"release": "24.el8",
-			"src": "dnsmasq-2.79-24.el8.src.rpm",
-			"version": "2.79"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6384ed12c6879918a92bb14b6d13fd86ec9348d0810f05660cea3568fdd25c10",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dnsmasq-utils-2.79-24.el8.x86_64.rpm",
-			"name": "dnsmasq-utils",
-			"reboot_suggested": 0,
-			"release": "24.el8",
-			"src": "dnsmasq-2.79-24.el8.src.rpm",
-			"version": "2.79"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "4cfa81ce15f31fdde618c59d8ccf314b6a4503c4c8d9687f2b9cb4b8b9e1dc45",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "dnsmasq-2.79-24.el8.aarch64.rpm",
 			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "24.el8",
+			"src": "dnsmasq-2.79-24.el8.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "29ceb4628d3919c6c17e8110557bb6a809cb1aabf890fb3451da2138267b907f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.79-24.el8.ppc64le.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "24.el8",
+			"src": "dnsmasq-2.79-24.el8.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7fd77afa059978aeb0d634407e4c17c147b8f57fdbfaa8130fd4340ce29514ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.79-24.el8.ppc64le.rpm",
+			"name": "dnsmasq-utils",
 			"reboot_suggested": 0,
 			"release": "24.el8",
 			"src": "dnsmasq-2.79-24.el8.src.rpm",
@@ -77,11 +77,11 @@
 			"version": "2.79"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "29ceb4628d3919c6c17e8110557bb6a809cb1aabf890fb3451da2138267b907f",
+			"arch": "x86_64",
+			"checksum": "4e96e2c0d6bf29f3827d310ce92618e7b13d9f6a95c5ddeec15d859e1731ece6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dnsmasq-2.79-24.el8.ppc64le.rpm",
+			"filename": "dnsmasq-2.79-24.el8.x86_64.rpm",
 			"name": "dnsmasq",
 			"reboot_suggested": 0,
 			"release": "24.el8",
@@ -89,11 +89,11 @@
 			"version": "2.79"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7fd77afa059978aeb0d634407e4c17c147b8f57fdbfaa8130fd4340ce29514ca",
+			"arch": "x86_64",
+			"checksum": "6384ed12c6879918a92bb14b6d13fd86ec9348d0810f05660cea3568fdd25c10",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dnsmasq-utils-2.79-24.el8.ppc64le.rpm",
+			"filename": "dnsmasq-utils-2.79-24.el8.x86_64.rpm",
 			"name": "dnsmasq-utils",
 			"reboot_suggested": 0,
 			"release": "24.el8",

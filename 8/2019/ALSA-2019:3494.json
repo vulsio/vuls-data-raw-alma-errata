@@ -4,13 +4,6 @@
 	"issued_date": 1572976333,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "830d479e",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8040020210609195049"
-		},
-		{
 			"arch": "aarch64",
 			"context": "830d479e",
 			"name": "container-tools",
@@ -23,48 +16,16 @@
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8050020211216102332"
+		},
+		{
+			"arch": "x86_64",
+			"context": "830d479e",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8040020210609195049"
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "813eb4acbccfc1f231c6b9b02b01c70196d7b88c309598a270c55383de41bf36",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.x86_64.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "fuse-overlayfs",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.3.0+2044+12421f43",
-			"src": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.src.rpm",
-			"version": "0.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "82477f79b1e2569d7909cf5e334b443d2c90c7e7ae710bb25826a793f46c0e6e",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.x86_64.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "oci-umount",
-			"reboot_suggested": 0,
-			"release": "2.git87f9237.module_el8.3.0+2044+12421f43",
-			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.src.rpm",
-			"version": "2.3.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "oci-systemd-hook",
-			"reboot_suggested": 0,
-			"release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
-			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
-			"version": "0.1.15"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "770d344d61dc1877c84a45a546afae1a8f23794049e5a2ec2a2da48f0ebf626b",
@@ -142,6 +103,45 @@
 			"release": "5.module_el8.5.0+119+9a9ec082",
 			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
 			"version": "0.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "813eb4acbccfc1f231c6b9b02b01c70196d7b88c309598a270c55383de41bf36",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.x86_64.rpm",
+			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
+			"name": "fuse-overlayfs",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.3.0+2044+12421f43",
+			"src": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.src.rpm",
+			"version": "0.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "82477f79b1e2569d7909cf5e334b443d2c90c7e7ae710bb25826a793f46c0e6e",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.x86_64.rpm",
+			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
+			"name": "oci-umount",
+			"reboot_suggested": 0,
+			"release": "2.git87f9237.module_el8.3.0+2044+12421f43",
+			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.src.rpm",
+			"version": "2.3.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
+			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
+			"name": "oci-systemd-hook",
+			"reboot_suggested": 0,
+			"release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
+			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
+			"version": "0.1.15"
 		}
 	],
 	"references": [

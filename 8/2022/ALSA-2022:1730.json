@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "e237ec03335f626f6a8c5e88b1131b9747fe9944b62ed2daa2b1be622bb1aee9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-91.9.0-3.el8_5.alma.x86_64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "3.el8_5.alma",
-			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
-			"version": "91.9.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0beb99a9ecb26da80986c4d102311d2266f7624a5013311ca3ee754d90225d53",
 			"checksum_type": "sha256",
@@ -39,9 +27,26 @@
 			"release": "3.el8_5.alma",
 			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
 			"version": "91.9.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e237ec03335f626f6a8c5e88b1131b9747fe9944b62ed2daa2b1be622bb1aee9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-91.9.0-3.el8_5.alma.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "3.el8_5.alma",
+			"src": "thunderbird-91.9.0-3.el8_5.alma.src.rpm",
+			"version": "91.9.0"
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-1730.html",
+			"id": "ALSA-2022-1730",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2022-1520",
 			"id": "CVE-2022-1520",
@@ -81,15 +86,10 @@
 			"href": "https://vulners.com/cve/CVE-2022-29917",
 			"id": "CVE-2022-29917",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2022-1730.html",
-			"id": "ALSA-2022-1730",
-			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1651934501
+	"updated_date": 1651757528
 }

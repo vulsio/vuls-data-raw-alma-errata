@@ -4,13 +4,6 @@
 	"issued_date": 1623311139,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "3.0",
-			"version": "8060020220516071551"
-		},
-		{
 			"arch": "aarch64",
 			"context": "20125149",
 			"name": "container-tools",
@@ -23,139 +16,16 @@
 			"name": "container-tools",
 			"stream": "3.0",
 			"version": "8060020220516071551"
+		},
+		{
+			"arch": "x86_64",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "3.0",
+			"version": "8060020220516071551"
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "1ec8368433e7d6bbd4ec3ed6caa3182fd0ee197898f10436b5b47838bbbba77c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "criu",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "27c0497463caea3a884f35c234bebfa9913644f0836bdebdb5ddf36a8c8705d8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-devel-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "libslirp-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "4.3.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "27d5db39b7c8fd45330ee33d345f875c1f3fecdbcf0007d403aa6a6cbec13d49",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "containernetworking-plugins-0.9.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "containernetworking-plugins",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "containernetworking-plugins-0.9.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "0.9.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3aaf5f27dcda843a3ec58617a3dae9c84280708e037614ac1c944f68b73a29fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "crit-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "crit",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "5127ec25a6d4632da80e860fe822430306d9edd11da0e2720e8993208343d5b0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "udica-0.2.4-1.module_el8.6.0+2876+9ed4eae2.noarch.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "udica",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "udica-0.2.4-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "0.2.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8d73f6e4d23b62c73efa11f8e61b1e5e9d99518aff894c426d644b2e0ffdee18",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-criu-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "python3-criu",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9e1495b5d6fb661fcea9e2d6b6a0e2098aa2341924c6d0f0790a7dd9ffded4f0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "libslirp",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "4.3.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ae330e32cefa5765da6bb66e2805eb85c5042ea98056d9222309322d5f336160",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "slirp4netns",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "1.1.8"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ca63901ffa3247a330ba3fdd859e8ce0a9963d6f27c13d2480ec70ad444226c3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-podman-29-2.module_el8.6.0+2876+9ed4eae2.noarch.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "cockpit-podman",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2876+9ed4eae2",
-			"src": "cockpit-podman-29-2.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "29"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "efcb025846275c9427d64224c1e1fec15106eb8172f7977c6d7466f7e7f56af1",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "conmon-2.0.26-3.module_el8.7.0+3406+a17c4180.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "conmon",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.7.0+3406+a17c4180",
-			"src": "conmon-2.0.26-3.module_el8.7.0+3406+a17c4180.src.rpm",
-			"version": "2.0.26"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "183bda468943a18b6ad10f132ac7b8ad92c5ba67382f18c333c8c9aa867498a4",
@@ -196,6 +66,19 @@
 			"version": "0.9.1"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "5127ec25a6d4632da80e860fe822430306d9edd11da0e2720e8993208343d5b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "udica-0.2.4-1.module_el8.6.0+2876+9ed4eae2.noarch.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:aarch64",
+			"name": "udica",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "udica-0.2.4-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "0.2.4"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "9736844ada2bb607243e5c208ad7849c2a30f63c7a355b98d3ec2b58fd0553a7",
 			"checksum_type": "sha256",
@@ -220,6 +103,19 @@
 			"release": "1.module_el8.6.0+2876+9ed4eae2",
 			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
 			"version": "4.3.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ca63901ffa3247a330ba3fdd859e8ce0a9963d6f27c13d2480ec70ad444226c3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-podman-29-2.module_el8.6.0+2876+9ed4eae2.noarch.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:aarch64",
+			"name": "cockpit-podman",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2876+9ed4eae2",
+			"src": "cockpit-podman-29-2.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "29"
 		},
 		{
 			"arch": "aarch64",
@@ -337,6 +233,110 @@
 			"release": "1.module_el8.6.0+2876+9ed4eae2",
 			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
 			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1ec8368433e7d6bbd4ec3ed6caa3182fd0ee197898f10436b5b47838bbbba77c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "criu",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "27c0497463caea3a884f35c234bebfa9913644f0836bdebdb5ddf36a8c8705d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-devel-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "libslirp-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "4.3.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "27d5db39b7c8fd45330ee33d345f875c1f3fecdbcf0007d403aa6a6cbec13d49",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "containernetworking-plugins-0.9.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "containernetworking-plugins-0.9.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "0.9.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3aaf5f27dcda843a3ec58617a3dae9c84280708e037614ac1c944f68b73a29fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "crit-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "crit",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8d73f6e4d23b62c73efa11f8e61b1e5e9d99518aff894c426d644b2e0ffdee18",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-criu-3.15-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "python3-criu",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "criu-3.15-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9e1495b5d6fb661fcea9e2d6b6a0e2098aa2341924c6d0f0790a7dd9ffded4f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "libslirp",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "4.3.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ae330e32cefa5765da6bb66e2805eb85c5042ea98056d9222309322d5f336160",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "slirp4netns",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "1.1.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "efcb025846275c9427d64224c1e1fec15106eb8172f7977c6d7466f7e7f56af1",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "conmon-2.0.26-3.module_el8.7.0+3406+a17c4180.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "conmon",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.7.0+3406+a17c4180",
+			"src": "conmon-2.0.26-3.module_el8.7.0+3406+a17c4180.src.rpm",
+			"version": "2.0.26"
 		}
 	],
 	"references": [
@@ -354,5 +354,5 @@
 	"severity": "Important",
 	"title": "Important: container-tools:rhel8 security update",
 	"type": "security",
-	"updated_date": 1678725246
+	"updated_date": 1623311139
 }

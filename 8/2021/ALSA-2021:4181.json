@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "4a2ced56374de975ae85d0dd6fafd4bde82318d242cae572f0ad00c6742eec30",
-			"checksum_type": "sha256",
-			"epoch": "5",
-			"filename": "mutt-2.0.7-1.el8.x86_64.rpm",
-			"name": "mutt",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "mutt-2.0.7-1.el8.src.rpm",
-			"version": "2.0.7"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "d70dfcb430cf21d2f8873bf333f140051518a625f15ae32a2b9b61527cdfa5c2",
 			"checksum_type": "sha256",
@@ -39,9 +27,26 @@
 			"release": "1.el8",
 			"src": "mutt-2.0.7-1.el8.src.rpm",
 			"version": "2.0.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4a2ced56374de975ae85d0dd6fafd4bde82318d242cae572f0ad00c6742eec30",
+			"checksum_type": "sha256",
+			"epoch": "5",
+			"filename": "mutt-2.0.7-1.el8.x86_64.rpm",
+			"name": "mutt",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "mutt-2.0.7-1.el8.src.rpm",
+			"version": "2.0.7"
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4181.html",
+			"id": "ALSA-2021-4181",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-28896",
 			"id": "CVE-2020-28896",
@@ -51,15 +56,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-3181",
 			"id": "CVE-2021-3181",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4181.html",
-			"id": "ALSA-2021-4181",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: mutt security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636462183
 }

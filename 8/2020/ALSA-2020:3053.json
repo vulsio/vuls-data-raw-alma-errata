@@ -4,13 +4,6 @@
 	"issued_date": 1595343700,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "e34216c9",
-			"name": "container-tools",
-			"stream": "2.0",
-			"version": "8050020220427075245"
-		},
-		{
 			"arch": "aarch64",
 			"context": "e34216c9",
 			"name": "container-tools",
@@ -23,6 +16,13 @@
 			"name": "container-tools",
 			"stream": "2.0",
 			"version": "8050020220427075907"
+		},
+		{
+			"arch": "x86_64",
+			"context": "e34216c9",
+			"name": "container-tools",
+			"stream": "2.0",
+			"version": "8050020220427075245"
 		}
 	],
 	"packages": [
@@ -32,7 +32,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:aarch64",
 			"name": "toolbox",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.5.0+2635+e4386a39",
@@ -40,25 +40,12 @@
 			"version": "0.0.7"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "66.rc10.module_el8.5.0+2635+e4386a39",
-			"src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "1.0.0"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "6014c5c3fb0e8b251cf8fe13d9dc538fe94d16ae2bfbf82206773d07378a433e",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:aarch64",
 			"name": "python-podman-api",
 			"reboot_suggested": 0,
 			"release": "0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39",
@@ -71,7 +58,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "udica-0.2.1-2.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:aarch64",
 			"name": "udica",
 			"reboot_suggested": 0,
 			"release": "2.module_el8.5.0+2635+e4386a39",
@@ -142,6 +129,19 @@
 			"release": "0.2.gitd0a45fe.module_el8.5.0+108+00865455",
 			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+108+00865455.src.rpm",
 			"version": "1.2.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "66.rc10.module_el8.5.0+2635+e4386a39",
+			"src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "1.0.0"
 		}
 	],
 	"references": [
