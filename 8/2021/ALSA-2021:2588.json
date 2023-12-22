@@ -11,18 +11,18 @@
 			"version": "8060020220629053007"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "ruby",
-			"stream": "2.6",
-			"version": "8060020220629053007"
-		},
-		{
 			"arch": "x86_64",
 			"context": "c5368500",
 			"name": "ruby",
 			"stream": "2.6",
 			"version": "8050020220216210810"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "9edba152",
+			"name": "ruby",
+			"stream": "2.6",
+			"version": "8060020220629053007"
 		}
 	],
 	"packages": [
@@ -157,6 +157,45 @@
 			"version": "2.8.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "03d843fb30170ab3dd177f6cbe3f53db3fd30c50b0db7cb69a5696727c509543",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rubygem-bson-4.5.0-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
+			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
+			"name": "rubygem-bson",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2623+08a8ba32",
+			"src": "rubygem-bson-4.5.0-1.module_el8.5.0+2623+08a8ba32.src.rpm",
+			"version": "4.5.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6dc2da0917275a91c99240b6ffb7fbfa93071e4a68e9ded476ed4a3ae4ca1274",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rubygem-pg-1.1.4-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
+			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
+			"name": "rubygem-pg",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2623+08a8ba32",
+			"src": "rubygem-pg-1.1.4-1.module_el8.5.0+2623+08a8ba32.src.rpm",
+			"version": "1.1.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "706abca8ccfb91d12ed7b8cb17e86f66ca5a0f8ac0e06c28ea8448ad80c8f442",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rubygem-mysql2-0.5.2-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
+			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
+			"name": "rubygem-mysql2",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2623+08a8ba32",
+			"src": "rubygem-mysql2-0.5.2-1.module_el8.5.0+2623+08a8ba32.src.rpm",
+			"version": "0.5.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "085e4c052f70e2dd1f91aa3776bdd0e33ded15a62b2a29308b537683a52e1d4e",
 			"checksum_type": "sha256",
@@ -285,45 +324,6 @@
 			"release": "1.module_el8.5.0+250+ba22dbf7",
 			"src": "rubygem-pg-1.1.4-1.module_el8.5.0+250+ba22dbf7.src.rpm",
 			"version": "1.1.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "03d843fb30170ab3dd177f6cbe3f53db3fd30c50b0db7cb69a5696727c509543",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "rubygem-bson-4.5.0-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
-			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
-			"name": "rubygem-bson",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2623+08a8ba32",
-			"src": "rubygem-bson-4.5.0-1.module_el8.5.0+2623+08a8ba32.src.rpm",
-			"version": "4.5.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6dc2da0917275a91c99240b6ffb7fbfa93071e4a68e9ded476ed4a3ae4ca1274",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "rubygem-pg-1.1.4-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
-			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
-			"name": "rubygem-pg",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2623+08a8ba32",
-			"src": "rubygem-pg-1.1.4-1.module_el8.5.0+2623+08a8ba32.src.rpm",
-			"version": "1.1.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "706abca8ccfb91d12ed7b8cb17e86f66ca5a0f8ac0e06c28ea8448ad80c8f442",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "rubygem-mysql2-0.5.2-1.module_el8.5.0+2623+08a8ba32.x86_64.rpm",
-			"module": "ruby:2.6:8050020220216210810:c5368500:x86_64",
-			"name": "rubygem-mysql2",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2623+08a8ba32",
-			"src": "rubygem-mysql2-0.5.2-1.module_el8.5.0+2623+08a8ba32.src.rpm",
-			"version": "0.5.2"
 		}
 	],
 	"references": [

@@ -11,14 +11,14 @@
 			"version": "8060020220530101136"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "x86_64",
 			"context": "dca7b4a4",
 			"name": "maven",
 			"stream": "3.5",
 			"version": "8060020220530101136"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "ppc64le",
 			"context": "dca7b4a4",
 			"name": "maven",
 			"stream": "3.5",
@@ -574,6 +574,32 @@
 		},
 		{
 			"arch": "noarch",
+			"checksum": "589967abf16ecdd12217640a0895038befaab43f0fab27c05984e46e231e425c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jansi-1.17.1-1.module_el8.0.0+6044+f3cbc35d.noarch.rpm",
+			"module": "maven:3.5:8060020220530101136:dca7b4a4:x86_64",
+			"name": "jansi",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.0.0+6044+f3cbc35d",
+			"src": "jansi-1.17.1-1.module_el8.0.0+6044+f3cbc35d.src.rpm",
+			"version": "1.17.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e3ca966451b6ee4b1b7abe4ed2aa54fbcb94267d5680952b35a6ba20dd69bf76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.x86_64.rpm",
+			"module": "maven:3.5:8060020220530101136:dca7b4a4:x86_64",
+			"name": "jansi-native",
+			"reboot_suggested": 0,
+			"release": "7.module_el8.6.0+2752+f1f3449e",
+			"src": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.src.rpm",
+			"version": "1.7"
+		},
+		{
+			"arch": "noarch",
 			"checksum": "292e8ea233b72dd09de80498503fb693f33e3c296ba8a00d7b43a587e6561dbd",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -605,32 +631,6 @@
 			"epoch": "0",
 			"filename": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.ppc64le.rpm",
 			"module": "maven:3.5:8060020220530101136:dca7b4a4:ppc64le",
-			"name": "jansi-native",
-			"reboot_suggested": 0,
-			"release": "7.module_el8.6.0+2752+f1f3449e",
-			"src": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.src.rpm",
-			"version": "1.7"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "589967abf16ecdd12217640a0895038befaab43f0fab27c05984e46e231e425c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jansi-1.17.1-1.module_el8.0.0+6044+f3cbc35d.noarch.rpm",
-			"module": "maven:3.5:8060020220530101136:dca7b4a4:x86_64",
-			"name": "jansi",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.0.0+6044+f3cbc35d",
-			"src": "jansi-1.17.1-1.module_el8.0.0+6044+f3cbc35d.src.rpm",
-			"version": "1.17.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e3ca966451b6ee4b1b7abe4ed2aa54fbcb94267d5680952b35a6ba20dd69bf76",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jansi-native-1.7-7.module_el8.6.0+2752+f1f3449e.x86_64.rpm",
-			"module": "maven:3.5:8060020220530101136:dca7b4a4:x86_64",
 			"name": "jansi-native",
 			"reboot_suggested": 0,
 			"release": "7.module_el8.6.0+2752+f1f3449e",

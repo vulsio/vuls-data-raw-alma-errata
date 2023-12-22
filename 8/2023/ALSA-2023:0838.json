@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "2c41068e879d404aa037e52e46e1a926240b935783665a7c3ad0068f6bd18092",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsmbclient-devel-4.16.4-4.el8_7.i686.rpm",
-			"name": "libsmbclient-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "samba-4.16.4-4.el8_7.src.rpm",
-			"version": "4.16.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "eb731dda1a9b8637c3da7a0536963b3b8b58c6f96aa4ba0d6b67eec5f7843f8a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-devel-4.16.4-4.el8_7.i686.rpm",
-			"name": "samba-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "samba-4.16.4-4.el8_7.src.rpm",
-			"version": "4.16.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "fada5a0bcaa835713841f21cbd7f4761c95b9f043faf1fdcd8cb87525a6f3b98",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwbclient-devel-4.16.4-4.el8_7.i686.rpm",
-			"name": "libwbclient-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "samba-4.16.4-4.el8_7.src.rpm",
-			"version": "4.16.4"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "1ec3db2f9e83db5e1e6620ec5b5a292909f48c65ff268a6669460f6964e08490",
 			"checksum_type": "sha256",
@@ -143,6 +107,42 @@
 			"epoch": "0",
 			"filename": "libsmbclient-4.16.4-4.el8_7.i686.rpm",
 			"name": "libsmbclient",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "samba-4.16.4-4.el8_7.src.rpm",
+			"version": "4.16.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "2c41068e879d404aa037e52e46e1a926240b935783665a7c3ad0068f6bd18092",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsmbclient-devel-4.16.4-4.el8_7.i686.rpm",
+			"name": "libsmbclient-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "samba-4.16.4-4.el8_7.src.rpm",
+			"version": "4.16.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "eb731dda1a9b8637c3da7a0536963b3b8b58c6f96aa4ba0d6b67eec5f7843f8a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-devel-4.16.4-4.el8_7.i686.rpm",
+			"name": "samba-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "samba-4.16.4-4.el8_7.src.rpm",
+			"version": "4.16.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "fada5a0bcaa835713841f21cbd7f4761c95b9f043faf1fdcd8cb87525a6f3b98",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwbclient-devel-4.16.4-4.el8_7.i686.rpm",
+			"name": "libwbclient-devel",
 			"reboot_suggested": 0,
 			"release": "4.el8_7",
 			"src": "samba-4.16.4-4.el8_7.src.rpm",
@@ -665,6 +665,18 @@
 			"version": "4.16.4"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "1202dea491468fe407e00669f4428c5d52f0e3428b3ad728187648d608e534bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-vfs-iouring-4.16.4-4.el8_7.aarch64.rpm",
+			"name": "samba-vfs-iouring",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "samba-4.16.4-4.el8_7.src.rpm",
+			"version": "4.16.4"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "05072b93a51cc2b7a39fb86d0c8758a5e0913ec5f48e50e9b3ea29d5ce73e495",
 			"checksum_type": "sha256",
@@ -911,30 +923,6 @@
 			"epoch": "0",
 			"filename": "samba-devel-4.16.4-4.el8_7.ppc64le.rpm",
 			"name": "samba-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "samba-4.16.4-4.el8_7.src.rpm",
-			"version": "4.16.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "1202dea491468fe407e00669f4428c5d52f0e3428b3ad728187648d608e534bd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-vfs-iouring-4.16.4-4.el8_7.aarch64.rpm",
-			"name": "samba-vfs-iouring",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "samba-4.16.4-4.el8_7.src.rpm",
-			"version": "4.16.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3c0f74e1189d979ee280f15173c7140def795a37a3d6e041aba0869b9560fc97",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-vfs-iouring-4.16.4-4.el8_7.ppc64le.rpm",
-			"name": "samba-vfs-iouring",
 			"reboot_suggested": 0,
 			"release": "4.el8_7",
 			"src": "samba-4.16.4-4.el8_7.src.rpm",
@@ -1215,6 +1203,18 @@
 			"release": "4.el8_7",
 			"src": "samba-4.16.4-4.el8_7.src.rpm",
 			"version": "4.16.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3c0f74e1189d979ee280f15173c7140def795a37a3d6e041aba0869b9560fc97",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-vfs-iouring-4.16.4-4.el8_7.ppc64le.rpm",
+			"name": "samba-vfs-iouring",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "samba-4.16.4-4.el8_7.src.rpm",
+			"version": "4.16.4"
 		}
 	],
 	"references": [
@@ -1242,5 +1242,5 @@
 	"severity": "Important",
 	"title": "Important: samba security update",
 	"type": "security",
-	"updated_date": 1677003782
+	"updated_date": 1677003787
 }

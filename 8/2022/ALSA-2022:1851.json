@@ -11,18 +11,18 @@
 			"version": "8060020220420152312"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "338751f5",
-			"name": "pki-core",
-			"stream": "10.6",
-			"version": "8060020220420152318"
-		},
-		{
 			"arch": "x86_64",
 			"context": "338751f5",
 			"name": "pki-core",
 			"stream": "10.6",
 			"version": "8060020220420152306"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "338751f5",
+			"name": "pki-core",
+			"stream": "10.6",
+			"version": "8060020220420152318"
 		}
 	],
 	"packages": [
@@ -209,58 +209,6 @@
 			"version": "10.12.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3c6dc8dae71842d52287180de11cd70ce5ba2300f08a37e8d4591ae129e9a7be",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pki-tools-10.12.0-2.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
-			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
-			"name": "pki-tools",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2764+9fc58d50",
-			"src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-			"version": "10.12.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "bdd6c9a52e63cf57ed861a1e5fa447e4437b6d6975a05620ff5ad987525724a3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
-			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
-			"name": "pki-symkey",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2764+9fc58d50",
-			"src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-			"version": "10.12.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e96343f5a9e36bf1c99a24f21f43cbe80ddcc78aaf17942427dd1847d8423210",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
-			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
-			"name": "jss",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2764+9fc58d50",
-			"src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
-			"version": "4.9.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f739d07fb9bb97d18a18d1b819f723ad7bb97349fb6f8a57fe041911cb60a1fb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jss-javadoc-4.9.3-1.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
-			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
-			"name": "jss-javadoc",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2764+9fc58d50",
-			"src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
-			"version": "4.9.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3489de999415095da23d87155d8381c3db7ba199f636a24f738f80900762621a",
 			"checksum_type": "sha256",
@@ -307,6 +255,58 @@
 			"filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
 			"module": "pki-core:10.6:8060020220420152306:338751f5:x86_64",
 			"name": "jss",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2764+9fc58d50",
+			"src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
+			"version": "4.9.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3c6dc8dae71842d52287180de11cd70ce5ba2300f08a37e8d4591ae129e9a7be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pki-tools-10.12.0-2.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
+			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
+			"name": "pki-tools",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2764+9fc58d50",
+			"src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+			"version": "10.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "bdd6c9a52e63cf57ed861a1e5fa447e4437b6d6975a05620ff5ad987525724a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
+			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
+			"name": "pki-symkey",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2764+9fc58d50",
+			"src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+			"version": "10.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e96343f5a9e36bf1c99a24f21f43cbe80ddcc78aaf17942427dd1847d8423210",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
+			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
+			"name": "jss",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2764+9fc58d50",
+			"src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
+			"version": "4.9.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f739d07fb9bb97d18a18d1b819f723ad7bb97349fb6f8a57fe041911cb60a1fb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jss-javadoc-4.9.3-1.module_el8.6.0+2764+9fc58d50.ppc64le.rpm",
+			"module": "pki-core:10.6:8060020220420152318:338751f5:ppc64le",
+			"name": "jss-javadoc",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.6.0+2764+9fc58d50",
 			"src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",

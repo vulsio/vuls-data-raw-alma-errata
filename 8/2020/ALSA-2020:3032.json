@@ -11,14 +11,14 @@
 			"version": "8060020220503131215"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
 			"version": "8060020220503131215"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
@@ -53,32 +53,6 @@
 			"version": "0.6.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "50f9f0edf053f773e0afd8aaa44a95335d0b46cd887cfaba84036c926a7f9e6f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.ppc64le.rpm",
-			"module": "mod_auth_openidc:2.3:8060020220503131215:9edba152:ppc64le",
-			"name": "cjose",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2868+44838709",
-			"src": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "83b16fcde70e30fb06e00e472b418dbc8d18ffbb2d31e590d1193adf7e18ff23",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-devel-0.6.1-2.module_el8.6.0+2868+44838709.ppc64le.rpm",
-			"module": "mod_auth_openidc:2.3:8060020220503131215:9edba152:ppc64le",
-			"name": "cjose-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2868+44838709",
-			"src": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.src.rpm",
-			"version": "0.6.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "455d8b76e53798d4f7bffc9a2ac9b1431087d6e9e45c11bcabdca784053809c9",
 			"checksum_type": "sha256",
@@ -98,6 +72,32 @@
 			"epoch": "0",
 			"filename": "cjose-devel-0.6.1-2.module_el8.6.0+2868+44838709.x86_64.rpm",
 			"module": "mod_auth_openidc:2.3:8060020220503131215:9edba152:x86_64",
+			"name": "cjose-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2868+44838709",
+			"src": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "50f9f0edf053f773e0afd8aaa44a95335d0b46cd887cfaba84036c926a7f9e6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.ppc64le.rpm",
+			"module": "mod_auth_openidc:2.3:8060020220503131215:9edba152:ppc64le",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2868+44838709",
+			"src": "cjose-0.6.1-2.module_el8.6.0+2868+44838709.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "83b16fcde70e30fb06e00e472b418dbc8d18ffbb2d31e590d1193adf7e18ff23",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-devel-0.6.1-2.module_el8.6.0+2868+44838709.ppc64le.rpm",
+			"module": "mod_auth_openidc:2.3:8060020220503131215:9edba152:ppc64le",
 			"name": "cjose-devel",
 			"reboot_suggested": 0,
 			"release": "2.module_el8.6.0+2868+44838709",

@@ -11,18 +11,18 @@
 			"version": "8040020210617090548"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8050020211216102332"
-		},
-		{
 			"arch": "x86_64",
 			"context": "830d479e",
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8040020210609195049"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8050020211216102332"
 		}
 	],
 	"packages": [
@@ -144,110 +144,6 @@
 			"version": "0.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-systemd-hook",
-			"reboot_suggested": 0,
-			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
-			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1.15"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-umount",
-			"reboot_suggested": 0,
-			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
-			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "2.3.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b33a8341fd5f7df77af76411d868e11d68ca34fe23a292bbf7e9a0e8393dbe17",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082",
-			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "fuse-overlayfs",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.5.0+119+9a9ec082",
-			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b8dbaf91a2da4141f9fdcf2c921381f730daa7eac1571c129942866c33c5e327",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "crit-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "crit",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.5.0+119+9a9ec082",
-			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "3.12"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "bcea4da7655728ba18650cd0bd81a4d010af90b71006167821aee191b021d442",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "criu",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.5.0+119+9a9ec082",
-			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "3.12"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e2d67490beed1afa1197760c87e71f659df9ba950a9fc4e7c4c0884c249de2c3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "slirp4netns-0.1-5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "slirp4netns",
-			"reboot_suggested": 0,
-			"release": "5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082",
-			"src": "slirp4netns-0.1-5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ef0097fef0bd6b1b1c65098059f5e5627c67535f0213dd41ddd25a10dae2d4cf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-criu-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "python3-criu",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.5.0+119+9a9ec082",
-			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "3.12"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "16c4565749c2a57835be9f8828b93fa8473bcdeb89754224acfe6e2be2dcd8b5",
 			"checksum_type": "sha256",
@@ -350,6 +246,110 @@
 			"release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
 			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
 			"version": "0.1.15"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-systemd-hook",
+			"reboot_suggested": 0,
+			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
+			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1.15"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-umount",
+			"reboot_suggested": 0,
+			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
+			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "2.3.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b33a8341fd5f7df77af76411d868e11d68ca34fe23a292bbf7e9a0e8393dbe17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082",
+			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "fuse-overlayfs",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.5.0+119+9a9ec082",
+			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b8dbaf91a2da4141f9fdcf2c921381f730daa7eac1571c129942866c33c5e327",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "crit-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "crit",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.5.0+119+9a9ec082",
+			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "3.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "bcea4da7655728ba18650cd0bd81a4d010af90b71006167821aee191b021d442",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "criu",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.5.0+119+9a9ec082",
+			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "3.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e2d67490beed1afa1197760c87e71f659df9ba950a9fc4e7c4c0884c249de2c3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "slirp4netns-0.1-5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "slirp4netns",
+			"reboot_suggested": 0,
+			"release": "5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082",
+			"src": "slirp4netns-0.1-5.dev.gitc4e1bc5.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ef0097fef0bd6b1b1c65098059f5e5627c67535f0213dd41ddd25a10dae2d4cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-criu-3.12-9.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "python3-criu",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.5.0+119+9a9ec082",
+			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "3.12"
 		}
 	],
 	"references": [

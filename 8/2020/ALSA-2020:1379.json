@@ -11,18 +11,18 @@
 			"version": "8050020220427075245"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "2.0",
-			"version": "8050020220427075907"
-		},
-		{
 			"arch": "x86_64",
 			"context": "e34216c9",
 			"name": "container-tools",
 			"stream": "2.0",
 			"version": "8050020220427075245"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "2.0",
+			"version": "8050020220427075907"
 		}
 	],
 	"packages": [
@@ -92,6 +92,32 @@
 			"version": "0.2.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "1fe0f63af6df749a7c1a66a5706677b9d98308002b72f928c89bc8835a22a6a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "containernetworking-plugins-0.8.3-4.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.5.0+2635+e4386a39",
+			"src": "containernetworking-plugins-0.8.3-4.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "0.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "872ed560d33d70e3e657deeedd8b39852165aed41071d03fdfc22107a83e0b37",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
+			"name": "slirp4netns",
+			"reboot_suggested": 0,
+			"release": "3.git21fdece.module_el8.5.0+2635+e4386a39",
+			"src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "0.4.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "3525134cda7e981fe2ded68c4813ce09c7efece2c6d8c3f8f4b4da268c647f86",
 			"checksum_type": "sha256",
@@ -155,32 +181,6 @@
 			"release": "0.2.gitd0a45fe.module_el8.5.0+108+00865455",
 			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+108+00865455.src.rpm",
 			"version": "1.2.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1fe0f63af6df749a7c1a66a5706677b9d98308002b72f928c89bc8835a22a6a3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "containernetworking-plugins-0.8.3-4.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
-			"name": "containernetworking-plugins",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.5.0+2635+e4386a39",
-			"src": "containernetworking-plugins-0.8.3-4.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "0.8.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "872ed560d33d70e3e657deeedd8b39852165aed41071d03fdfc22107a83e0b37",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
-			"name": "slirp4netns",
-			"reboot_suggested": 0,
-			"release": "3.git21fdece.module_el8.5.0+2635+e4386a39",
-			"src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "0.4.2"
 		}
 	],
 	"references": [

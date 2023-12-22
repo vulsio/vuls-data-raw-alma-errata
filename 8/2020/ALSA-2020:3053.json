@@ -11,18 +11,18 @@
 			"version": "8050020220427075245"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "2.0",
-			"version": "8050020220427075907"
-		},
-		{
 			"arch": "x86_64",
 			"context": "e34216c9",
 			"name": "container-tools",
 			"stream": "2.0",
 			"version": "8050020220427075245"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "2.0",
+			"version": "8050020220427075907"
 		}
 	],
 	"packages": [
@@ -72,6 +72,19 @@
 			"epoch": "0",
 			"filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.aarch64.rpm",
 			"module": "container-tools:2.0:8050020220427075245:e34216c9:aarch64",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "66.rc10.module_el8.5.0+2635+e4386a39",
+			"src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
 			"name": "runc",
 			"reboot_suggested": 0,
 			"release": "66.rc10.module_el8.5.0+2635+e4386a39",
@@ -129,19 +142,6 @@
 			"release": "0.2.gitd0a45fe.module_el8.5.0+108+00865455",
 			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+108+00865455.src.rpm",
 			"version": "1.2.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-			"module": "container-tools:2.0:8050020220427075245:e34216c9:x86_64",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "66.rc10.module_el8.5.0+2635+e4386a39",
-			"src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "1.0.0"
 		}
 	],
 	"references": [

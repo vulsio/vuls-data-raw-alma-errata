@@ -11,18 +11,18 @@
 			"version": "8050020211203030332"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "77fc8825",
-			"name": "mailman",
-			"stream": "2.1",
-			"version": "8050020211210103436"
-		},
-		{
 			"arch": "x86_64",
 			"context": "aa3ced04",
 			"name": "mailman",
 			"stream": "2.1",
 			"version": "8050020211124141021"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "77fc8825",
+			"name": "mailman",
+			"stream": "2.1",
+			"version": "8050020211210103436"
 		}
 	],
 	"packages": [
@@ -40,19 +40,6 @@
 			"version": "2.1.29"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "26e9ad80a43ff4469d61c290d9f634fb8998d2c8856372c1a40f8690084fdb31",
-			"checksum_type": "sha256",
-			"epoch": "3",
-			"filename": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.ppc64le.rpm",
-			"module": "mailman:2.1:8050020211210103436:77fc8825:ppc64le",
-			"name": "mailman",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.5.0+26+48d4c9ee.2",
-			"src": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.src.rpm",
-			"version": "2.1.29"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "365b7f111fcd8680044caadf67c14f988d4719e48e9a61245b6d433e43edf955",
 			"checksum_type": "sha256",
@@ -63,6 +50,19 @@
 			"reboot_suggested": 0,
 			"release": "12.module_el8.5.0+2601+e8845b76.1",
 			"src": "mailman-2.1.29-12.module_el8.5.0+2601+e8845b76.1.src.rpm",
+			"version": "2.1.29"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "26e9ad80a43ff4469d61c290d9f634fb8998d2c8856372c1a40f8690084fdb31",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.ppc64le.rpm",
+			"module": "mailman:2.1:8050020211210103436:77fc8825:ppc64le",
+			"name": "mailman",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.5.0+26+48d4c9ee.2",
+			"src": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.src.rpm",
 			"version": "2.1.29"
 		}
 	],

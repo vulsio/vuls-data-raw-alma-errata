@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "079a530d20dd141cdeccd9e63d27e425876673f6ca1cd6e37d64a49378e1c189",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.5.0-1.el9_3.alma.1.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_3.alma.1",
+			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
+			"version": "115.5.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6c63cd3ed3668149d84ab407906b785326b0e5ebeae64475a4b41483f6fe46e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.x86_64.rpm",
+			"name": "firefox-x11",
+			"reboot_suggested": 0,
+			"release": "1.el9_3.alma.1",
+			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
+			"version": "115.5.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "d7d423741e62aaa0b6ecbb5024eaafbdbb4ae37c2e9920b4d4dba1972701fb61",
 			"checksum_type": "sha256",
@@ -46,30 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.s390x.rpm",
-			"name": "firefox-x11",
-			"reboot_suggested": 0,
-			"release": "1.el9_3.alma.1",
-			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
-			"version": "115.5.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "079a530d20dd141cdeccd9e63d27e425876673f6ca1cd6e37d64a49378e1c189",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-115.5.0-1.el9_3.alma.1.x86_64.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "1.el9_3.alma.1",
-			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
-			"version": "115.5.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6c63cd3ed3668149d84ab407906b785326b0e5ebeae64475a4b41483f6fe46e9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.x86_64.rpm",
 			"name": "firefox-x11",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.alma.1",
@@ -186,5 +186,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1701279012
+	"updated_date": 1701279013
 }

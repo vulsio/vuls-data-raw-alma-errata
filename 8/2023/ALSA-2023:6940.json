@@ -11,13 +11,6 @@
 			"version": "8090020231017130740"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "mod_auth_openidc",
-			"stream": "2.3",
-			"version": "8090020231017130740"
-		},
-		{
 			"arch": "s390x",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
@@ -26,6 +19,13 @@
 		},
 		{
 			"arch": "x86_64",
+			"context": "9edba152",
+			"name": "mod_auth_openidc",
+			"stream": "2.3",
+			"version": "8090020231017130740"
+		},
+		{
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
@@ -66,45 +66,6 @@
 			"epoch": "0",
 			"filename": "cjose-devel-0.6.1-4.module_el8.9.0+3631+0ced13d7.aarch64.rpm",
 			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:aarch64",
-			"name": "cjose-devel",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.9.0+3631+0ced13d7",
-			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0cae562bbeffb8bf07343199ec513f500b1aee51822c537b22e1d1dc6dea1da2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
-			"name": "mod_auth_openidc",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.9.0+3631+0ced13d7",
-			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "2.4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "1cb3ed212afaa8c3b2911e2d61f86ab843e0ce44174b2cb5587cfac9d278b917",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
-			"name": "cjose",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.9.0+3631+0ced13d7",
-			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "994c5edf4ec7f52af34c866284a4745d6fb36daae3dccf30debaf61555329384",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-devel-0.6.1-4.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
 			"name": "cjose-devel",
 			"reboot_suggested": 0,
 			"release": "4.module_el8.9.0+3631+0ced13d7",
@@ -188,6 +149,45 @@
 			"release": "5.module_el8.9.0+3631+0ced13d7",
 			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
 			"version": "2.4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0cae562bbeffb8bf07343199ec513f500b1aee51822c537b22e1d1dc6dea1da2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
+			"name": "mod_auth_openidc",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.9.0+3631+0ced13d7",
+			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "2.4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1cb3ed212afaa8c3b2911e2d61f86ab843e0ce44174b2cb5587cfac9d278b917",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.9.0+3631+0ced13d7",
+			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "994c5edf4ec7f52af34c866284a4745d6fb36daae3dccf30debaf61555329384",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-devel-0.6.1-4.module_el8.9.0+3631+0ced13d7.ppc64le.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:ppc64le",
+			"name": "cjose-devel",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.9.0+3631+0ced13d7",
+			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "0.6.1"
 		}
 	],
 	"references": [
