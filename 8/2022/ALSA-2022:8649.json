@@ -11,14 +11,14 @@
 			"version": "8070020221128103530"
 		},
 		{
-			"arch": "s390x",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "varnish",
 			"stream": "6",
 			"version": "8070020221128103530"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "s390x",
 			"context": "9edba152",
 			"name": "varnish",
 			"stream": "6",
@@ -86,58 +86,6 @@
 			"version": "6.0.8"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "3f165f99045ff6ef8653bcc0afcb81190339434ca3b2e4e30b8314c69fac330c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
-			"module": "varnish:6:8070020221128103530:9edba152:s390x",
-			"name": "varnish-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
-			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-			"version": "6.0.8"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "8bf085823a92b5a7a70eab504c463489a45e6fceceb73e22d4d9abf623d4536f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
-			"module": "varnish:6:8070020221128103530:9edba152:s390x",
-			"name": "varnish",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
-			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-			"version": "6.0.8"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a4e2f3c95cdd686216493894be2d07eb528fa9d824d2b8477b73529445457d81",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
-			"module": "varnish:6:8070020221128103530:9edba152:s390x",
-			"name": "varnish-docs",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
-			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-			"version": "6.0.8"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f87b7bda5607c3d394f1298c744e857d5fa547aa968815ad8846b1da44910b24",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-modules-0.15.0-6.module_el8.6.0+3089+dac88e97.s390x.rpm",
-			"module": "varnish:6:8070020221128103530:9edba152:s390x",
-			"name": "varnish-modules",
-			"reboot_suggested": 0,
-			"release": "6.module_el8.6.0+3089+dac88e97",
-			"src": "varnish-modules-0.15.0-6.module_el8.6.0+3089+dac88e97.src.rpm",
-			"version": "0.15.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0980977288ae31920afc52b79edf8ffc2ae38363d0ed089e9abf118471e886e0",
 			"checksum_type": "sha256",
@@ -187,6 +135,58 @@
 			"reboot_suggested": 0,
 			"release": "6.module_el8.5.0+2620+03a0c2cc",
 			"src": "varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.src.rpm",
+			"version": "0.15.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3f165f99045ff6ef8653bcc0afcb81190339434ca3b2e4e30b8314c69fac330c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
+			"module": "varnish:6:8070020221128103530:9edba152:s390x",
+			"name": "varnish-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
+			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+			"version": "6.0.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8bf085823a92b5a7a70eab504c463489a45e6fceceb73e22d4d9abf623d4536f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
+			"module": "varnish:6:8070020221128103530:9edba152:s390x",
+			"name": "varnish",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
+			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+			"version": "6.0.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a4e2f3c95cdd686216493894be2d07eb528fa9d824d2b8477b73529445457d81",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.s390x.rpm",
+			"module": "varnish:6:8070020221128103530:9edba152:s390x",
+			"name": "varnish-docs",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.7.0+3353+b11d8f2f.1",
+			"src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+			"version": "6.0.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f87b7bda5607c3d394f1298c744e857d5fa547aa968815ad8846b1da44910b24",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-modules-0.15.0-6.module_el8.6.0+3089+dac88e97.s390x.rpm",
+			"module": "varnish:6:8070020221128103530:9edba152:s390x",
+			"name": "varnish-modules",
+			"reboot_suggested": 0,
+			"release": "6.module_el8.6.0+3089+dac88e97",
+			"src": "varnish-modules-0.15.0-6.module_el8.6.0+3089+dac88e97.src.rpm",
 			"version": "0.15.0"
 		},
 		{

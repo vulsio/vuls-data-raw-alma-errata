@@ -18,14 +18,14 @@
 			"version": "8070020221012183101"
 		},
 		{
-			"arch": "s390x",
+			"arch": "x86_64",
 			"context": "338751f5",
 			"name": "pki-core",
 			"stream": "10.6",
 			"version": "8070020221012183101"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "s390x",
 			"context": "338751f5",
 			"name": "pki-core",
 			"stream": "10.6",
@@ -171,32 +171,6 @@
 			"version": "10.12.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "473b80ea988a01032df59130848f8c20574988beb2b52504b2b904cc7cee0764",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
-			"module": "pki-core:10.6:8070020221012183101:338751f5:s390x",
-			"name": "idm-pki-tools",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.7.0+3316+50b99934",
-			"src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-			"version": "10.12.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e57761bca39e33164771515b2c142918907d6f291ac9fb6e9dae88968a7a6159",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
-			"module": "pki-core:10.6:8070020221012183101:338751f5:s390x",
-			"name": "idm-pki-symkey",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.7.0+3316+50b99934",
-			"src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-			"version": "10.12.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "09a12d5a37384e0ebba4881369ee8d79e0f1c0a1e6bb33518aa2723b1408676f",
 			"checksum_type": "sha256",
@@ -217,6 +191,32 @@
 			"filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.x86_64.rpm",
 			"module": "pki-core:10.6:8070020221012183101:338751f5:x86_64",
 			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.7.0+3316+50b99934",
+			"src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+			"version": "10.12.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "473b80ea988a01032df59130848f8c20574988beb2b52504b2b904cc7cee0764",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
+			"module": "pki-core:10.6:8070020221012183101:338751f5:s390x",
+			"name": "idm-pki-tools",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.7.0+3316+50b99934",
+			"src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+			"version": "10.12.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e57761bca39e33164771515b2c142918907d6f291ac9fb6e9dae88968a7a6159",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
+			"module": "pki-core:10.6:8070020221012183101:338751f5:s390x",
+			"name": "idm-pki-symkey",
 			"reboot_suggested": 0,
 			"release": "4.module_el8.7.0+3316+50b99934",
 			"src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",

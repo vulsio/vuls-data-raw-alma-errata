@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+			"name": "gnome-autoar",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+			"version": "0.2.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
+			"name": "gsettings-desktop-schemas",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+			"version": "3.32.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "033e3547382db2c7217fca36241b1f9a528ead4fd3d28216429468ed9882621e",
 			"checksum_type": "sha256",
@@ -821,30 +845,6 @@
 			"version": "40.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
-			"name": "gnome-autoar",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-			"version": "0.2.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
-			"name": "gsettings-desktop-schemas",
-			"reboot_suggested": 0,
-			"release": "6.el8",
-			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-			"version": "3.32.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "1f0f3065ca8b922c183ef6c1401b479591779b632899da3e3e522d4e3431844d",
 			"checksum_type": "sha256",
@@ -953,6 +953,54 @@
 			"version": "3.36.1"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "06b8fc157449559ce726ba73f0c743399fb79fe61e5f118a94a231188d911768",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-autoar-0.2.3-2.el8.ppc64le.rpm",
+			"name": "gnome-autoar",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+			"version": "0.2.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "87550b11b219ffdfd14634f753552acd5c62d5c50540056c4e73885aa99ca149",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.19.5-3.el8.ppc64le.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "LibRaw-0.19.5-3.el8.src.rpm",
+			"version": "0.19.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e868c2599c92f3c66839bf72edd27a5af97457db7fc95cbeed377b15ecf36af7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.ppc64le.rpm",
+			"name": "gsettings-desktop-schemas",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+			"version": "3.32.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "eb69d47bd4c1f2cd2e5cf3e5ccd107f4f4fb6357b610af7c2819ff408b19dfb2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.19.5-3.el8.ppc64le.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "LibRaw-0.19.5-3.el8.src.rpm",
+			"version": "0.19.5"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "73524636193acf005f34fd9279eb9567a2a99d564c9f714705b31e7e6405eadb",
 			"checksum_type": "sha256",
@@ -1035,54 +1083,6 @@
 			"release": "11.el8",
 			"src": "vino-3.22.0-11.el8.src.rpm",
 			"version": "3.22.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "06b8fc157449559ce726ba73f0c743399fb79fe61e5f118a94a231188d911768",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-autoar-0.2.3-2.el8.ppc64le.rpm",
-			"name": "gnome-autoar",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-			"version": "0.2.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "87550b11b219ffdfd14634f753552acd5c62d5c50540056c4e73885aa99ca149",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-devel-0.19.5-3.el8.ppc64le.rpm",
-			"name": "LibRaw-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "LibRaw-0.19.5-3.el8.src.rpm",
-			"version": "0.19.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e868c2599c92f3c66839bf72edd27a5af97457db7fc95cbeed377b15ecf36af7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.ppc64le.rpm",
-			"name": "gsettings-desktop-schemas",
-			"reboot_suggested": 0,
-			"release": "6.el8",
-			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-			"version": "3.32.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "eb69d47bd4c1f2cd2e5cf3e5ccd107f4f4fb6357b610af7c2819ff408b19dfb2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-0.19.5-3.el8.ppc64le.rpm",
-			"name": "LibRaw",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "LibRaw-0.19.5-3.el8.src.rpm",
-			"version": "0.19.5"
 		},
 		{
 			"arch": "ppc64le",
@@ -1182,6 +1182,11 @@
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
+			"id": "ALSA-2021-4381",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-13558",
 			"id": "CVE-2020-13558",
@@ -1326,15 +1331,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-30799",
 			"id": "CVE-2021-30799",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
-			"id": "ALSA-2021-4381",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636463406
 }

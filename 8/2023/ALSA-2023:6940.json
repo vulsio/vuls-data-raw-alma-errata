@@ -11,14 +11,14 @@
 			"version": "8090020231017130740"
 		},
 		{
-			"arch": "s390x",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
 			"version": "8090020231017130740"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "s390x",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
@@ -73,45 +73,6 @@
 			"version": "0.6.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "2bca885eb9d8ad3ecbf09a882e8fed825e72d86af7923638316534ea4bc575b0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.s390x.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
-			"name": "mod_auth_openidc",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.9.0+3631+0ced13d7",
-			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "2.4.9.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "4d081700a8fb0babd3d14773b9d53b33ddd02d52eebae59fc99f7cd9b0d93b9f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.s390x.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
-			"name": "cjose",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.9.0+3631+0ced13d7",
-			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "ce03707da865baaa5be9a51305a4a868164b517be94280cd83e11e625f788c40",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-devel-0.6.1-4.module_el8.9.0+3631+0ced13d7.s390x.rpm",
-			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
-			"name": "cjose-devel",
-			"reboot_suggested": 0,
-			"release": "4.module_el8.9.0+3631+0ced13d7",
-			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
-			"version": "0.6.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "738eb3d6de925553d28836363754aaaa1866bc3ae8d2651d2c5865d239e7beb1",
 			"checksum_type": "sha256",
@@ -149,6 +110,45 @@
 			"release": "5.module_el8.9.0+3631+0ced13d7",
 			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
 			"version": "2.4.9.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2bca885eb9d8ad3ecbf09a882e8fed825e72d86af7923638316534ea4bc575b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.s390x.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
+			"name": "mod_auth_openidc",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.9.0+3631+0ced13d7",
+			"src": "mod_auth_openidc-2.4.9.4-5.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "2.4.9.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4d081700a8fb0babd3d14773b9d53b33ddd02d52eebae59fc99f7cd9b0d93b9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.s390x.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.9.0+3631+0ced13d7",
+			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ce03707da865baaa5be9a51305a4a868164b517be94280cd83e11e625f788c40",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-devel-0.6.1-4.module_el8.9.0+3631+0ced13d7.s390x.rpm",
+			"module": "mod_auth_openidc:2.3:8090020231017130740:9edba152:s390x",
+			"name": "cjose-devel",
+			"reboot_suggested": 0,
+			"release": "4.module_el8.9.0+3631+0ced13d7",
+			"src": "cjose-0.6.1-4.module_el8.9.0+3631+0ced13d7.src.rpm",
+			"version": "0.6.1"
 		},
 		{
 			"arch": "ppc64le",

@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "2daac54838e69fa9bc26e03ebbd756a5eade0a9c5e66e126cbdf3839ab8a87fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wavpack-5.4.0-5.el9.ppc64le.rpm",
+			"name": "wavpack",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "wavpack-5.4.0-5.el9.src.rpm",
+			"version": "5.4.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "858d8163497a415f7d9d7404dbbd0a5d014267c8c5198a2f18bf4fc03069e38a",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "wavpack-5.4.0-5.el9.x86_64.rpm",
-			"name": "wavpack",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "wavpack-5.4.0-5.el9.src.rpm",
-			"version": "5.4.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2daac54838e69fa9bc26e03ebbd756a5eade0a9c5e66e126cbdf3839ab8a87fe",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "wavpack-5.4.0-5.el9.ppc64le.rpm",
 			"name": "wavpack",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -101,11 +101,11 @@
 			"version": "5.4.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "7703f0abbcf207d2efb0beeb4498aac10a5bcdcb41df70903f139e6eb513603f",
+			"arch": "s390x",
+			"checksum": "b6e70fb97afa6c00006053707a8c2039baa1c09796be68821ef02567e7e14b28",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "wavpack-devel-5.4.0-5.el9.aarch64.rpm",
+			"filename": "wavpack-devel-5.4.0-5.el9.s390x.rpm",
 			"name": "wavpack-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -113,11 +113,11 @@
 			"version": "5.4.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "b6e70fb97afa6c00006053707a8c2039baa1c09796be68821ef02567e7e14b28",
+			"arch": "aarch64",
+			"checksum": "7703f0abbcf207d2efb0beeb4498aac10a5bcdcb41df70903f139e6eb513603f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "wavpack-devel-5.4.0-5.el9.s390x.rpm",
+			"filename": "wavpack-devel-5.4.0-5.el9.aarch64.rpm",
 			"name": "wavpack-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
