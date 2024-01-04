@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "2ad4b6a6488ca31b057eb3cb4f6d73353faac50f363cae37fafc4d736c87114c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-icons-1.12.0-5.el9_1.2.noarch.rpm",
+			"name": "tigervnc-icons",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "75e3b6a43db5608e112099a7647d48eefe274349a7446b3a6af3bc47f50af9fc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-license-1.12.0-5.el9_1.2.noarch.rpm",
+			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c564a1884269c72b7ce100d33882bce39543628cc033e33f5983d64258cdc14b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-selinux-1.12.0-5.el9_1.2.noarch.rpm",
+			"name": "tigervnc-selinux",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "06d56e6ebfb8be154bd41efd78c2f97c77cb2e0d437cf7b00be0fde18db26a1f",
 			"checksum_type": "sha256",
@@ -29,36 +65,12 @@
 			"version": "1.12.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "2ad4b6a6488ca31b057eb3cb4f6d73353faac50f363cae37fafc4d736c87114c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-icons-1.12.0-5.el9_1.2.noarch.rpm",
-			"name": "tigervnc-icons",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "3b39992d7143d1b73b1cc1d43c84e0c30319dbfdb0cf82d02946880b36278636",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "tigervnc-server-1.12.0-5.el9_1.2.ppc64le.rpm",
 			"name": "tigervnc-server",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "75e3b6a43db5608e112099a7647d48eefe274349a7446b3a6af3bc47f50af9fc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-license-1.12.0-5.el9_1.2.noarch.rpm",
-			"name": "tigervnc-license",
 			"reboot_suggested": 0,
 			"release": "5.el9_1.2",
 			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
@@ -77,12 +89,48 @@
 			"version": "1.12.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "c564a1884269c72b7ce100d33882bce39543628cc033e33f5983d64258cdc14b",
+			"arch": "aarch64",
+			"checksum": "3f3d4185a19f1ae28cabdf0a743b5ff5abb6ab1adb335ebb4904497499d516e7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tigervnc-selinux-1.12.0-5.el9_1.2.noarch.rpm",
-			"name": "tigervnc-selinux",
+			"filename": "tigervnc-1.12.0-5.el9_1.2.aarch64.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5dc7d11aa9dfc5947db650a3cdb9bec12e05c4660e1e39fc0586bdb0a64130f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.12.0-5.el9_1.2.aarch64.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7097761d63be78cf75b858b2e0c76ba335b68d38ab88b7d6a3a9c7ef342fc55a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.12.0-5.el9_1.2.aarch64.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "90be87790cef422f0d5321dc41e6757493479d98228a8d7257012e46241b788f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.12.0-5.el9_1.2.aarch64.rpm",
+			"name": "tigervnc-server-module",
 			"reboot_suggested": 0,
 			"release": "5.el9_1.2",
 			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
@@ -183,54 +231,6 @@
 			"release": "5.el9_1.2",
 			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
 			"version": "1.12.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3f3d4185a19f1ae28cabdf0a743b5ff5abb6ab1adb335ebb4904497499d516e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-1.12.0-5.el9_1.2.aarch64.rpm",
-			"name": "tigervnc",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "5dc7d11aa9dfc5947db650a3cdb9bec12e05c4660e1e39fc0586bdb0a64130f8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-minimal-1.12.0-5.el9_1.2.aarch64.rpm",
-			"name": "tigervnc-server-minimal",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7097761d63be78cf75b858b2e0c76ba335b68d38ab88b7d6a3a9c7ef342fc55a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-1.12.0-5.el9_1.2.aarch64.rpm",
-			"name": "tigervnc-server",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "90be87790cef422f0d5321dc41e6757493479d98228a8d7257012e46241b788f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-module-1.12.0-5.el9_1.2.aarch64.rpm",
-			"name": "tigervnc-server-module",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
 		}
 	],
 	"references": [
@@ -258,5 +258,5 @@
 	"severity": "Important",
 	"title": "Important: tigervnc security update",
 	"type": "security",
-	"updated_date": 1680694702
+	"updated_date": 1680694700
 }
