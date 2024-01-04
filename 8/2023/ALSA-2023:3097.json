@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "9f2b080b2c099f7beb8fe2544a74c2529b517d889cbd887653ecad6c43f6bd84",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gssntlmssp-1.2.0-1.el8_8.aarch64.rpm",
-			"name": "gssntlmssp",
-			"reboot_suggested": 0,
-			"release": "1.el8_8",
-			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
-			"version": "1.2.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "7123785ba560c693bb9bb73e2d458cc030e076d6c9bf442836782175386865fe",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
+			"arch": "aarch64",
+			"checksum": "9f2b080b2c099f7beb8fe2544a74c2529b517d889cbd887653ecad6c43f6bd84",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.aarch64.rpm",
 			"name": "gssntlmssp",
 			"reboot_suggested": 0,
 			"release": "1.el8_8",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gssntlmssp-1.2.0-1.el8_8.ppc64le.rpm",
+			"name": "gssntlmssp",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "gssntlmssp-1.2.0-1.el8_8.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "0ca5301d372ec234886f955dea22eeda07f34be9ede4e3cf9f5a48449b682025",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssntlmssp-1.2.0-1.el8_8.s390x.rpm",
 			"name": "gssntlmssp",
 			"reboot_suggested": 0,
 			"release": "1.el8_8",
@@ -118,5 +118,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gssntlmssp security update",
 	"type": "security",
-	"updated_date": 1684533610
+	"updated_date": 1684533611
 }
