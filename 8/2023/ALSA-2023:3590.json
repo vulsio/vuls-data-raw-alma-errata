@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "0ef3e51c4d73a69ea10ac2a7822cb015e0703b82d3f0d92d2b1d049f052cc22f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.12.0-1.el8_8.alma.aarch64.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "1.el8_8.alma",
-			"src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
-			"version": "102.12.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3b7ad61c981f83a358e033c12f295dfde704b2a21963d007a7dd5f2d1b2322a4",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "102.12.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "fabf2920b2e32b216935ccac33e7f4bb60f18c85cdad1c4d75b3ae4901c3e4ee",
+			"arch": "aarch64",
+			"checksum": "0ef3e51c4d73a69ea10ac2a7822cb015e0703b82d3f0d92d2b1d049f052cc22f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-102.12.0-1.el8_8.alma.ppc64le.rpm",
+			"filename": "firefox-102.12.0-1.el8_8.alma.aarch64.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el8_8.alma",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "firefox-102.12.0-1.el8_8.alma.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_8.alma",
+			"src": "firefox-102.12.0-1.el8_8.alma.src.rpm",
+			"version": "102.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fabf2920b2e32b216935ccac33e7f4bb60f18c85cdad1c4d75b3ae4901c3e4ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.12.0-1.el8_8.alma.ppc64le.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el8_8.alma",

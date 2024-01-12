@@ -6,6 +6,30 @@
 	"packages": [
 		{
 			"arch": "noarch",
+			"checksum": "14d82c760a71afc2e9fe5ca729700d723347f568aea57ee0c60d1604d236f903",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-license-9.16.23-0.9.el8.1.noarch.rpm",
+			"name": "bind9.16-license",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "i686",
+			"checksum": "3fb9bc693a1be446d113afe6ac5c86dda8714082768d04f2f1ae3abd02e097c3",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.i686.rpm",
+			"name": "bind9.16-libs",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
 			"checksum": "043237613c36891d481d246202c360a7b5340af3d29246b2fd86f3999c6fc9f9",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -35,30 +59,6 @@
 			"epoch": "32",
 			"filename": "bind9.16-doc-9.16.23-0.9.el8.1.noarch.rpm",
 			"name": "bind9.16-doc",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "14d82c760a71afc2e9fe5ca729700d723347f568aea57ee0c60d1604d236f903",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-license-9.16.23-0.9.el8.1.noarch.rpm",
-			"name": "bind9.16-license",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "3fb9bc693a1be446d113afe6ac5c86dda8714082768d04f2f1ae3abd02e097c3",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.i686.rpm",
-			"name": "bind9.16-libs",
 			"reboot_suggested": 0,
 			"release": "0.9.el8.1",
 			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
@@ -107,6 +107,54 @@
 			"epoch": "32",
 			"filename": "bind9.16-devel-9.16.23-0.9.el8.1.aarch64.rpm",
 			"name": "bind9.16-devel",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0ba4cecccaa5e2afb3e7ad8556ac4ff126b54e06c85a0ec78ccee490cb27019c",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-utils-9.16.23-0.9.el8.1.x86_64.rpm",
+			"name": "bind9.16-utils",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "197b80ca70042e9a040d12de3cbdb9012692aab563be73c038e4ffb8fca0ce65",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-chroot-9.16.23-0.9.el8.1.x86_64.rpm",
+			"name": "bind9.16-chroot",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fb4b4459b9c968616119993b2452ce34b8f5f085415210df20e82b3db7dd737b",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-9.16.23-0.9.el8.1.x86_64.rpm",
+			"name": "bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fe0a34377a1301e5a5f6e9d76ba56457d0b9df6b8b1c9a6ae2cd05049a1227ce",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.x86_64.rpm",
+			"name": "bind9.16-libs",
 			"reboot_suggested": 0,
 			"release": "0.9.el8.1",
 			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
@@ -185,54 +233,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "0ba4cecccaa5e2afb3e7ad8556ac4ff126b54e06c85a0ec78ccee490cb27019c",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-utils-9.16.23-0.9.el8.1.x86_64.rpm",
-			"name": "bind9.16-utils",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "197b80ca70042e9a040d12de3cbdb9012692aab563be73c038e4ffb8fca0ce65",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-chroot-9.16.23-0.9.el8.1.x86_64.rpm",
-			"name": "bind9.16-chroot",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "fb4b4459b9c968616119993b2452ce34b8f5f085415210df20e82b3db7dd737b",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-9.16.23-0.9.el8.1.x86_64.rpm",
-			"name": "bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "fe0a34377a1301e5a5f6e9d76ba56457d0b9df6b8b1c9a6ae2cd05049a1227ce",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.x86_64.rpm",
-			"name": "bind9.16-libs",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "290deae3edc7dc34412a3ec8677a0333aca55cab1fbe3fbc9a7f002a4ef28ee1",
 			"checksum_type": "sha256",
@@ -251,54 +251,6 @@
 			"epoch": "32",
 			"filename": "bind9.16-dnssec-utils-9.16.23-0.9.el8.1.s390x.rpm",
 			"name": "bind9.16-dnssec-utils",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "1a5934c9ec1fba4152b35fce65f276309c60ec3180e021f33791b301f8613344",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.ppc64le.rpm",
-			"name": "bind9.16-libs",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6caa03d8e5ebc8478578a42e6bc0d0fd2b3864a04435e0cc39676981c0c6689f",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-9.16.23-0.9.el8.1.ppc64le.rpm",
-			"name": "bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "711eee3a0bf0bcd1dbb3887df013c360b840870b20a177d394ce13a2601b03df",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-chroot-9.16.23-0.9.el8.1.ppc64le.rpm",
-			"name": "bind9.16-chroot",
-			"reboot_suggested": 0,
-			"release": "0.9.el8.1",
-			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "fddfaabe14e47ffe931111e13f34f9233fbbeaf8a732d9bd156966e71a09ebfd",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-utils-9.16.23-0.9.el8.1.ppc64le.rpm",
-			"name": "bind9.16-utils",
 			"reboot_suggested": 0,
 			"release": "0.9.el8.1",
 			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
@@ -351,6 +303,54 @@
 			"release": "0.9.el8.1",
 			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
 			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1a5934c9ec1fba4152b35fce65f276309c60ec3180e021f33791b301f8613344",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-libs-9.16.23-0.9.el8.1.ppc64le.rpm",
+			"name": "bind9.16-libs",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6caa03d8e5ebc8478578a42e6bc0d0fd2b3864a04435e0cc39676981c0c6689f",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-9.16.23-0.9.el8.1.ppc64le.rpm",
+			"name": "bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "711eee3a0bf0bcd1dbb3887df013c360b840870b20a177d394ce13a2601b03df",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-chroot-9.16.23-0.9.el8.1.ppc64le.rpm",
+			"name": "bind9.16-chroot",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fddfaabe14e47ffe931111e13f34f9233fbbeaf8a732d9bd156966e71a09ebfd",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-utils-9.16.23-0.9.el8.1.ppc64le.rpm",
+			"name": "bind9.16-utils",
+			"reboot_suggested": 0,
+			"release": "0.9.el8.1",
+			"src": "bind9.16-9.16.23-0.9.el8.1.src.rpm",
+			"version": "9.16.23"
 		}
 	],
 	"references": [
@@ -388,5 +388,5 @@
 	"severity": "Important",
 	"title": "Important: bind9.16 security update",
 	"type": "security",
-	"updated_date": 1668204052
+	"updated_date": 1668204047
 }
