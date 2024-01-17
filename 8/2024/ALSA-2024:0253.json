@@ -1,0 +1,274 @@
+{
+	"description": "SQLite is a C library that implements an SQL database engine. A large subset of SQL92 is supported. A complete database is stored in a single disk file. The API is designed for convenience and ease of use. Applications that link against SQLite can enjoy the power and flexibility of an SQL database without the administrative hassles of supporting a separate database server.\n\nSecurity Fix(es):\n\n* sqlite: heap-buffer-overflow at sessionfuzz (CVE-2023-7104)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0253",
+	"issued_date": 1705276800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "4d1df9398b0941d5b799727c93d3cfb0b9f31b01147b81c1056146e303ac1a91",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-doc-3.26.0-19.el8_9.noarch.rpm",
+			"name": "sqlite-doc",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "617204da01e6cbdfe5607704d2f718266205c8d62541748c4289a4a8260b836c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.i686.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7a82612fa8be191c59aa2233b3f768ea98a024d21b643cce939edb235c37ebe1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-19.el8_9.i686.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "bbf8843b3c344277ae61586c4c12e831ba108936c5d0e709422b049c0548e379",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.i686.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "274d5ee283d36b55bde2fb37dd7092dada43ee01cabe557bee438120e1483169",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-19.el8_9.aarch64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4f27e5982bfcac0df4c4b41b7a2f5a36cfb88b5b1c94f174e6b07802696caa5e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.aarch64.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a8939cf3ac365384ae73f62a98d43d37688766966ae1aa7cb1bc7c398011d318",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.aarch64.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "31f5b87a0a60c5052d3a6b71ccd9a96a83b816e13b94e657c4cbde4948b69995",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "64ff127c208ab8f9fcdbd68dd814f33475e46c7c4de0eaba8f8452b15aced3cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e74f18f8c0b337a901988df0e8bfd005bcf374f42faa5870c1960d84e2aeae7d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "11a083793351e70743e72b2878c9b562f01bb46e49057a40126e40525aa207c6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.ppc64le.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7deab41d21a4e50b99444ff16d0535402d70d6f29860e5aa956ba87d3c7af7e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.ppc64le.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b0ffc6822ff76a2b3a47fd78b59f9a96408e254d10db3f6ea992c97e73eebb85",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-19.el8_9.ppc64le.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a9b832fd652050d64d220cb7a03279974d9fb09b6dfd7d069c37b63c3cd9e62f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-19.el8_9.aarch64.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3baa0d62128feadd2e0c7bc397c31f389e9d8861025105c00aefcabcc4e32a8c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.s390x.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f42443cee5a13840b6f9e4b9d9dc8e28c2b74e14a507a7f28871170949be79a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-19.el8_9.s390x.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "fed580fcb175ef8c9e002b517f648e79d004c09c994dcec30db9c68fec612372",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.s390x.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "826f6a8e5b78e151bb4f26931eb3dbb4328718e9fb6e3f8dfe654b1bba6d5617",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "eddbbe55523c2ed0508aa977044449c990519faaa6517243784667586b68ea99",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-19.el8_9.s390x.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3b813f2ea172b4f094cd8665709f08391d093681dbcdf88fbfc46c1bfc1fda5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-19.el8_9.ppc64le.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0253",
+			"id": "RHSA-2024:0253",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-7104",
+			"id": "CVE-2023-7104",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2256194",
+			"id": "2256194",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0253.html",
+			"id": "ALSA-2024:0253",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: sqlite security update",
+	"type": "security",
+	"updated_date": 1705432648
+}

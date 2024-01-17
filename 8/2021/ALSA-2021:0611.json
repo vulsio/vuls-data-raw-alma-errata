@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "6bee4654246250faec39eb3df9b9ed097aa2bfc4d73aab31f013b600c0897bb3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xterm-resize-331-1.el8_3.2.x86_64.rpm",
-			"name": "xterm-resize",
-			"reboot_suggested": 0,
-			"release": "1.el8_3.2",
-			"src": "xterm-331-1.el8_3.2.src.rpm",
-			"version": "331"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "857d6a2f974f68f3e3e30dca64d9a342b6013ee0571417c15656f64c10a4bee9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xterm-331-1.el8_3.2.x86_64.rpm",
-			"name": "xterm",
-			"reboot_suggested": 0,
-			"release": "1.el8_3.2",
-			"src": "xterm-331-1.el8_3.2.src.rpm",
-			"version": "331"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "a2632d901587c941fd260be4f181b407b66b9ccda26469d61e6189791a78065f",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm",
 			"name": "xterm-resize",
+			"reboot_suggested": 0,
+			"release": "1.el8_3.2",
+			"src": "xterm-331-1.el8_3.2.src.rpm",
+			"version": "331"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6bee4654246250faec39eb3df9b9ed097aa2bfc4d73aab31f013b600c0897bb3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xterm-resize-331-1.el8_3.2.x86_64.rpm",
+			"name": "xterm-resize",
+			"reboot_suggested": 0,
+			"release": "1.el8_3.2",
+			"src": "xterm-331-1.el8_3.2.src.rpm",
+			"version": "331"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "857d6a2f974f68f3e3e30dca64d9a342b6013ee0571417c15656f64c10a4bee9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xterm-331-1.el8_3.2.x86_64.rpm",
+			"name": "xterm",
 			"reboot_suggested": 0,
 			"release": "1.el8_3.2",
 			"src": "xterm-331-1.el8_3.2.src.rpm",
@@ -79,18 +79,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2021-27135",
-			"id": "CVE-2021-27135",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-0611.html",
 			"id": "ALSA-2021-0611",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-27135",
+			"id": "CVE-2021-27135",
+			"type": "cve"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: xterm security update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1613658735
 }
