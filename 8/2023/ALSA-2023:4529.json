@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "d86d1266da0b99d5b01d8bd2d9d8fdedaf5b23b5f89440a504b844b410873eaa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-16.el8_8.1.i686.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "16.el8_8.1",
+			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "i686",
 			"checksum": "cb1c8ba1048f1689c7ef2e3be26f8a8eec3c91c3b525f9d03a24a79801b4c04a",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -17,11 +29,23 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "i686",
-			"checksum": "d86d1266da0b99d5b01d8bd2d9d8fdedaf5b23b5f89440a504b844b410873eaa",
+			"arch": "x86_64",
+			"checksum": "3e6d84b8822bc45955d71054d3746d80f766212b9fd0e4e1afb02f6720e47ea8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-2.9.7-16.el8_8.1.i686.rpm",
+			"filename": "python3-libxml2-2.9.7-16.el8_8.1.x86_64.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "16.el8_8.1",
+			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
+			"version": "2.9.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f922aff782e22920f48aa6942d6bafc986ca8a0e9bf83acec68c740cc12b5011",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.7-16.el8_8.1.x86_64.rpm",
 			"name": "libxml2",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
@@ -54,23 +78,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "3e6d84b8822bc45955d71054d3746d80f766212b9fd0e4e1afb02f6720e47ea8",
+			"checksum": "72a39cf6060a7023d41470db9ee3a812e81f10b42631bfdde227782f16e2e27c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-libxml2-2.9.7-16.el8_8.1.x86_64.rpm",
-			"name": "python3-libxml2",
-			"reboot_suggested": 0,
-			"release": "16.el8_8.1",
-			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
-			"version": "2.9.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f922aff782e22920f48aa6942d6bafc986ca8a0e9bf83acec68c740cc12b5011",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libxml2-2.9.7-16.el8_8.1.x86_64.rpm",
-			"name": "libxml2",
+			"filename": "libxml2-devel-2.9.7-16.el8_8.1.x86_64.rpm",
+			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
 			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
@@ -137,18 +149,6 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "72a39cf6060a7023d41470db9ee3a812e81f10b42631bfdde227782f16e2e27c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-16.el8_8.1.x86_64.rpm",
-			"name": "libxml2-devel",
-			"reboot_suggested": 0,
-			"release": "16.el8_8.1",
-			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
-			"version": "2.9.7"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "a2a0e1d807cb733222716431ebd279ad891d233892f9c8c6cd9b221ff01779d6",
 			"checksum_type": "sha256",
@@ -208,5 +208,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libxml2 security update",
 	"type": "security",
-	"updated_date": 1691574788
+	"updated_date": 1691574787
 }

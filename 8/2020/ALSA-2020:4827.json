@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "4c698aa447aa904a2a9b88077ddacc421087ce655183021bc025a96e08e6c84f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "oniguruma-6.8.2-2.el8.aarch64.rpm",
-			"name": "oniguruma",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "oniguruma-6.8.2-2.el8.src.rpm",
-			"version": "6.8.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "4c8611499bcdcf4dcc947bb22f05b811024a987e696215149daaf8011ef27eb5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "oniguruma-devel-6.8.2-2.el8.aarch64.rpm",
-			"name": "oniguruma-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "oniguruma-6.8.2-2.el8.src.rpm",
-			"version": "6.8.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "341d680c7a4a55c0171fd8f5ea8dfae52e0f2bbde1dfe6886b68624b1ea1a8cc",
 			"checksum_type": "sha256",
@@ -65,6 +41,42 @@
 			"version": "6.8.2"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "4c698aa447aa904a2a9b88077ddacc421087ce655183021bc025a96e08e6c84f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.el8.aarch64.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "oniguruma-6.8.2-2.el8.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4c8611499bcdcf4dcc947bb22f05b811024a987e696215149daaf8011ef27eb5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.el8.aarch64.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "oniguruma-6.8.2-2.el8.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e36259807e0c28b1ec118e3e3f0ac3792b01da27bbd745a576e3c23a8d6d0d32",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.el8.i686.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "oniguruma-6.8.2-2.el8.src.rpm",
+			"version": "6.8.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "40340f644e43c707dbc5e050d9c8492fac9b872d757aa749f7a64fbac623ce29",
 			"checksum_type": "sha256",
@@ -87,34 +99,22 @@
 			"release": "2.el8",
 			"src": "oniguruma-6.8.2-2.el8.src.rpm",
 			"version": "6.8.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "e36259807e0c28b1ec118e3e3f0ac3792b01da27bbd745a576e3c23a8d6d0d32",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "oniguruma-6.8.2-2.el8.i686.rpm",
-			"name": "oniguruma",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "oniguruma-6.8.2-2.el8.src.rpm",
-			"version": "6.8.2"
 		}
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4827.html",
-			"id": "ALSA-2020-4827",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2019-13225",
 			"id": "CVE-2019-13225",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4827.html",
+			"id": "ALSA-2020-4827",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: oniguruma security update",
 	"type": "security",
-	"updated_date": 1604433678
+	"updated_date": 1628672040
 }

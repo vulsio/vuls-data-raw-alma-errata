@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "8b335342f6b8f6a02db14d075ed54275f547eb0ebcc4185a24158df5da790955",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gupnp-1.0.6-2.el8_4.aarch64.rpm",
-			"name": "gupnp",
-			"reboot_suggested": 0,
-			"release": "2.el8_4",
-			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
-			"version": "1.0.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a42a41ca123c0e1ec9d22d2fbe4b9e9301e59c2aa67c740c9473cbbb6aebc3d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gupnp-devel-1.0.6-2.el8_4.aarch64.rpm",
-			"name": "gupnp-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8_4",
-			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
-			"version": "1.0.6"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "20e240ba616a4d793867fae4653b8223fc4bf05335cff5c60433fe9113f256e3",
 			"checksum_type": "sha256",
@@ -65,6 +41,42 @@
 			"version": "1.0.6"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "8b335342f6b8f6a02db14d075ed54275f547eb0ebcc4185a24158df5da790955",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gupnp-1.0.6-2.el8_4.aarch64.rpm",
+			"name": "gupnp",
+			"reboot_suggested": 0,
+			"release": "2.el8_4",
+			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
+			"version": "1.0.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a42a41ca123c0e1ec9d22d2fbe4b9e9301e59c2aa67c740c9473cbbb6aebc3d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gupnp-devel-1.0.6-2.el8_4.aarch64.rpm",
+			"name": "gupnp-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_4",
+			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
+			"version": "1.0.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "4f1929410c8643b85a2c7844000d11f55d6e9511d1f2099336c40708cd469d80",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gupnp-1.0.6-2.el8_4.i686.rpm",
+			"name": "gupnp",
+			"reboot_suggested": 0,
+			"release": "2.el8_4",
+			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
+			"version": "1.0.6"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0dc1986e95e0558dd0b9cda3c16bff9c28a09323e9ef7574d7df200635eebec9",
 			"checksum_type": "sha256",
@@ -87,34 +99,22 @@
 			"release": "2.el8_4",
 			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
 			"version": "1.0.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "4f1929410c8643b85a2c7844000d11f55d6e9511d1f2099336c40708cd469d80",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gupnp-1.0.6-2.el8_4.i686.rpm",
-			"name": "gupnp",
-			"reboot_suggested": 0,
-			"release": "2.el8_4",
-			"src": "gupnp-1.0.6-2.el8_4.src.rpm",
-			"version": "1.0.6"
 		}
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-2363.html",
-			"id": "ALSA-2021-2363",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-33516",
 			"id": "CVE-2021-33516",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-2363.html",
+			"id": "ALSA-2021-2363",
+			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: gupnp security update",
 	"type": "security",
-	"updated_date": 1623243248
+	"updated_date": 1628672040
 }
