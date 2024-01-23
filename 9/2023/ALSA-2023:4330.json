@@ -18,6 +18,13 @@
 			"version": "9020020230802112332"
 		},
 		{
+			"arch": "s390x",
+			"context": "8cf767d6",
+			"name": "nodejs",
+			"stream": "18",
+			"version": "9020020230802112332"
+		},
+		{
 			"arch": "x86_64",
 			"context": "8cf767d6",
 			"name": "nodejs",
@@ -26,13 +33,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"context": "8cf767d6",
-			"name": "nodejs",
-			"stream": "18",
-			"version": "9020020230802112332"
-		},
-		{
-			"arch": "s390x",
 			"context": "8cf767d6",
 			"name": "nodejs",
 			"stream": "18",
@@ -145,6 +145,58 @@
 			"version": "18.16.1"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "4a01168d419ea9a4e591d6edc6ae056aa40e63eb2e5d6c2b433bc275547ec322",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
+			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.2.0+31+cbae0c8e",
+			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
+			"version": "18.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a4c535a4c3185c88b10322976802ce7e612822365c5c3a5b58fdea8722167541",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-9.5.1-1.18.16.1.1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
+			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.18.16.1.1.module_el9.2.0+31+cbae0c8e",
+			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
+			"version": "9.5.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a874b6031ba6c67adb0ef0c2d8f6d2d1910b26ef507493bb57b1a44225886cdd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
+			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.2.0+31+cbae0c8e",
+			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
+			"version": "18.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f16e2d023963348428566819d3d1b451c1a97f64a046bf36378f82e16631f031",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-devel-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
+			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
+			"name": "nodejs-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.2.0+31+cbae0c8e",
+			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
+			"version": "18.16.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1ef77589fea74091db051fa06c949e74e8a4782474ee07b4e8c00b4ab3b3dfb7",
 			"checksum_type": "sha256",
@@ -243,58 +295,6 @@
 			"filename": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.aarch64.rpm",
 			"module": "nodejs:18:9020020230802112332:8cf767d6:aarch64",
 			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.2.0+31+cbae0c8e",
-			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
-			"version": "18.16.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "4a01168d419ea9a4e591d6edc6ae056aa40e63eb2e5d6c2b433bc275547ec322",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-full-i18n-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
-			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.2.0+31+cbae0c8e",
-			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
-			"version": "18.16.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a4c535a4c3185c88b10322976802ce7e612822365c5c3a5b58fdea8722167541",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "npm-9.5.1-1.18.16.1.1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
-			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
-			"name": "npm",
-			"reboot_suggested": 0,
-			"release": "1.18.16.1.1.module_el9.2.0+31+cbae0c8e",
-			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
-			"version": "9.5.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a874b6031ba6c67adb0ef0c2d8f6d2d1910b26ef507493bb57b1a44225886cdd",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
-			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
-			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.2.0+31+cbae0c8e",
-			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
-			"version": "18.16.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f16e2d023963348428566819d3d1b451c1a97f64a046bf36378f82e16631f031",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-devel-18.16.1-1.module_el9.2.0+31+cbae0c8e.s390x.rpm",
-			"module": "nodejs:18:9020020230802112332:8cf767d6:s390x",
-			"name": "nodejs-devel",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.2.0+31+cbae0c8e",
 			"src": "nodejs-18.16.1-1.module_el9.2.0+31+cbae0c8e.src.rpm",
