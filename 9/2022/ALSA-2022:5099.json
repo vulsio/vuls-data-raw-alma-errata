@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "1821297d36711ad3d642b8b5d59b0217444ca947e3d4c9bfa1a79b40a4c49014",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-tools-minimal-2.06-27.el9_0.7.alma.ppc64le.rpm",
-			"name": "grub2-tools-minimal",
-			"reboot_suggested": 0,
-			"release": "27.el9_0.7.alma",
-			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "1f82dfeb45eb35354dc4a2a3498769cd0d7f902a7c6543bac0785ec3f579c43e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-ppc64le-2.06-27.el9_0.7.alma.ppc64le.rpm",
-			"name": "grub2-ppc64le",
-			"reboot_suggested": 0,
-			"release": "27.el9_0.7.alma",
-			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
-			"version": "2.06"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "7c1a39435cb145b6331f3d84a54a2b8bb29606f0240fcdd51c7ef7e400db63d5",
 			"checksum_type": "sha256",
@@ -47,18 +23,6 @@
 			"epoch": "1",
 			"filename": "grub2-efi-aa64-modules-2.06-27.el9_0.7.alma.noarch.rpm",
 			"name": "grub2-efi-aa64-modules",
-			"reboot_suggested": 0,
-			"release": "27.el9_0.7.alma",
-			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9fc2f2542e96485dff906b00135854d7adc0d336be096c5ec5c1e0d5d9d8010b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-tools-extra-2.06-27.el9_0.7.alma.ppc64le.rpm",
-			"name": "grub2-tools-extra",
 			"reboot_suggested": 0,
 			"release": "27.el9_0.7.alma",
 			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
@@ -95,18 +59,6 @@
 			"epoch": "1",
 			"filename": "grub2-common-2.06-27.el9_0.7.alma.noarch.rpm",
 			"name": "grub2-common",
-			"reboot_suggested": 0,
-			"release": "27.el9_0.7.alma",
-			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f236b13ed64457125a96fac02b01904de487f6acf38ab7c5ce61c0b6e747d68b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-tools-2.06-27.el9_0.7.alma.ppc64le.rpm",
-			"name": "grub2-tools",
 			"reboot_suggested": 0,
 			"release": "27.el9_0.7.alma",
 			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
@@ -179,6 +131,54 @@
 			"epoch": "1",
 			"filename": "grub2-efi-aa64-2.06-27.el9_0.7.alma.aarch64.rpm",
 			"name": "grub2-efi-aa64",
+			"reboot_suggested": 0,
+			"release": "27.el9_0.7.alma",
+			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1821297d36711ad3d642b8b5d59b0217444ca947e3d4c9bfa1a79b40a4c49014",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-tools-minimal-2.06-27.el9_0.7.alma.ppc64le.rpm",
+			"name": "grub2-tools-minimal",
+			"reboot_suggested": 0,
+			"release": "27.el9_0.7.alma",
+			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1f82dfeb45eb35354dc4a2a3498769cd0d7f902a7c6543bac0785ec3f579c43e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-ppc64le-2.06-27.el9_0.7.alma.ppc64le.rpm",
+			"name": "grub2-ppc64le",
+			"reboot_suggested": 0,
+			"release": "27.el9_0.7.alma",
+			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9fc2f2542e96485dff906b00135854d7adc0d336be096c5ec5c1e0d5d9d8010b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-tools-extra-2.06-27.el9_0.7.alma.ppc64le.rpm",
+			"name": "grub2-tools-extra",
+			"reboot_suggested": 0,
+			"release": "27.el9_0.7.alma",
+			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f236b13ed64457125a96fac02b01904de487f6acf38ab7c5ce61c0b6e747d68b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-tools-2.06-27.el9_0.7.alma.ppc64le.rpm",
+			"name": "grub2-tools",
 			"reboot_suggested": 0,
 			"release": "27.el9_0.7.alma",
 			"src": "grub2-2.06-27.el9_0.7.alma.src.rpm",
@@ -388,5 +388,5 @@
 	"severity": "Important",
 	"title": "Important: grub2, mokutil, shim, and shim-unsigned-x64 security update",
 	"type": "security",
-	"updated_date": 1661279083
+	"updated_date": 1661279082
 }
