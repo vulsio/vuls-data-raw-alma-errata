@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "8ca9564b4e8a2c1563d40288973e9b05f0dbd87972f05d3bab1d55c7bc3a9531",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-51.el8_8.2.alma.1.i686.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.2.alma.1",
-			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "i686",
 			"checksum": "11d5aae70af27354b246569bc79abc3cc9ffcdf0df64baf00b6bc2f7ec095882",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -83,6 +71,18 @@
 			"epoch": "0",
 			"filename": "python3-tkinter-3.6.8-51.el8_8.2.alma.1.i686.rpm",
 			"name": "python3-tkinter",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.2.alma.1",
+			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "8ca9564b4e8a2c1563d40288973e9b05f0dbd87972f05d3bab1d55c7bc3a9531",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.6.8-51.el8_8.2.alma.1.i686.rpm",
+			"name": "python3-libs",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.2.alma.1",
 			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
@@ -161,6 +161,42 @@
 			"version": "3.6.8"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "4b210e12c23a40232f068a8b070ef751c24d582a49e9c98ef04f44fbd21d1605",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.2.alma.1",
+			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "620845ed16199be631e78d6902093b3212bfcd4c88bd89cfbacd57c45403cab9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
+			"name": "platform-python",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.2.alma.1",
+			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7511c5cccfc64df617cc865e711fcf0d853c87ab09672c4db3a8e0dcb50e7d46",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.2.alma.1",
+			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3322ec4e3550198fe401389f27c7459f3608d41e2d4ec9a2766a6e1d32fd512b",
 			"checksum_type": "sha256",
@@ -203,42 +239,6 @@
 			"epoch": "0",
 			"filename": "python3-tkinter-3.6.8-51.el8_8.2.alma.1.x86_64.rpm",
 			"name": "python3-tkinter",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.2.alma.1",
-			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "4b210e12c23a40232f068a8b070ef751c24d582a49e9c98ef04f44fbd21d1605",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.2.alma.1",
-			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "620845ed16199be631e78d6902093b3212bfcd4c88bd89cfbacd57c45403cab9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "platform-python-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
-			"name": "platform-python",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.2.alma.1",
-			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7511c5cccfc64df617cc865e711fcf0d853c87ab09672c4db3a8e0dcb50e7d46",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.6.8-51.el8_8.2.alma.1.ppc64le.rpm",
-			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.2.alma.1",
 			"src": "python3-3.6.8-51.el8_8.2.alma.1.src.rpm",
@@ -450,5 +450,5 @@
 	"severity": "Important",
 	"title": "Important: python3 security update",
 	"type": "security",
-	"updated_date": 1698225195
+	"updated_date": 1698225198
 }
