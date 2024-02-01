@@ -1,0 +1,162 @@
+{
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.7.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Out of bounds write in ANGLE (CVE-2024-0741)\n* Mozilla: Failure to update user input timestamp (CVE-2024-0742)\n* Mozilla: Crash when listing printers on Linux (CVE-2024-0746)\n* Mozilla: Bypass of Content Security Policy when directive unsafe-inline was set (CVE-2024-0747)\n* Mozilla: Phishing site popup could show local origin in address bar (CVE-2024-0749)\n* Mozilla: Potential permissions request bypass via clickjacking (CVE-2024-0750)\n* Mozilla: Privilege escalation through devtools (CVE-2024-0751)\n* Mozilla: HSTS policy on subdomain could bypass policy of upper domain (CVE-2024-0753)\n* Mozilla: Memory safety bugs fixed in Firefox 122, Firefox ESR 115.7, and Thunderbird 115.7 (CVE-2024-0755)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0608",
+	"issued_date": 1706572800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "f5b663346e03b479dc533825b5b8f8a7959191f2245ed1c2bcf230a18d2c90ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.7.0-1.el8_9.alma.1.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_9.alma.1",
+			"src": "firefox-115.7.0-1.el8_9.alma.1.src.rpm",
+			"version": "115.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fe8e8d2259cf7c9fe43ae0e1d2eb5fce7fcd4bd6fb67715a90c5c47088a0b954",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.7.0-1.el8_9.alma.1.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_9.alma.1",
+			"src": "firefox-115.7.0-1.el8_9.alma.1.src.rpm",
+			"version": "115.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f51b02c24751bd59440172a619b08210f5431eb58336a2f96dcb1724d061e9e4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.7.0-1.el8_9.alma.1.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_9.alma.1",
+			"src": "firefox-115.7.0-1.el8_9.alma.1.src.rpm",
+			"version": "115.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a3438086ed03b305db937a89ecad4ad400e44279a579661c3807e2fb1e93dc73",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.7.0-1.el8_9.alma.1.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_9.alma.1",
+			"src": "firefox-115.7.0-1.el8_9.alma.1.src.rpm",
+			"version": "115.7.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0608",
+			"id": "RHSA-2024:0608",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0741",
+			"id": "CVE-2024-0741",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0742",
+			"id": "CVE-2024-0742",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0746",
+			"id": "CVE-2024-0746",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0747",
+			"id": "CVE-2024-0747",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0749",
+			"id": "CVE-2024-0749",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0750",
+			"id": "CVE-2024-0750",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0751",
+			"id": "CVE-2024-0751",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0753",
+			"id": "CVE-2024-0753",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0755",
+			"id": "CVE-2024-0755",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259926",
+			"id": "2259926",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259927",
+			"id": "2259927",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259928",
+			"id": "2259928",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259929",
+			"id": "2259929",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259930",
+			"id": "2259930",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259931",
+			"id": "2259931",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259932",
+			"id": "2259932",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259933",
+			"id": "2259933",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259934",
+			"id": "2259934",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0608.html",
+			"id": "ALSA-2024:0608",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1706781533
+}
