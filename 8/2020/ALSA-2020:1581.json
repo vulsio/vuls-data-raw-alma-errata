@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "443e33b00511a651e84d567bb5bc012980a457c94c5d8daea67e70921aff439d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "wavpack-devel-5.1.0-15.el8.aarch64.rpm",
-			"name": "wavpack-devel",
-			"reboot_suggested": 0,
-			"release": "15.el8",
-			"src": "wavpack-5.1.0-15.el8.src.rpm",
-			"version": "5.1.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d2e6d2c7f2ec0e0c73cc646d5ef9d458c3640f39cb5b956878cfd290d40b382b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "wavpack-5.1.0-15.el8.aarch64.rpm",
-			"name": "wavpack",
-			"reboot_suggested": 0,
-			"release": "15.el8",
-			"src": "wavpack-5.1.0-15.el8.src.rpm",
-			"version": "5.1.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3a4a4200fbaaeaad7d4ba82a657d9e44dbe56b59c613ba16a9598870ca78faad",
 			"checksum_type": "sha256",
@@ -65,11 +41,23 @@
 			"version": "5.1.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "5c34b65c60ce590bb8b4d56e810aa992423e92c9713c106933a06e9f6c45abd6",
+			"arch": "aarch64",
+			"checksum": "443e33b00511a651e84d567bb5bc012980a457c94c5d8daea67e70921aff439d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "wavpack-5.1.0-15.el8.i686.rpm",
+			"filename": "wavpack-devel-5.1.0-15.el8.aarch64.rpm",
+			"name": "wavpack-devel",
+			"reboot_suggested": 0,
+			"release": "15.el8",
+			"src": "wavpack-5.1.0-15.el8.src.rpm",
+			"version": "5.1.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d2e6d2c7f2ec0e0c73cc646d5ef9d458c3640f39cb5b956878cfd290d40b382b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wavpack-5.1.0-15.el8.aarch64.rpm",
 			"name": "wavpack",
 			"reboot_suggested": 0,
 			"release": "15.el8",
@@ -99,14 +87,21 @@
 			"release": "15.el8",
 			"src": "wavpack-5.1.0-15.el8.src.rpm",
 			"version": "5.1.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "5c34b65c60ce590bb8b4d56e810aa992423e92c9713c106933a06e9f6c45abd6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wavpack-5.1.0-15.el8.i686.rpm",
+			"name": "wavpack",
+			"reboot_suggested": 0,
+			"release": "15.el8",
+			"src": "wavpack-5.1.0-15.el8.src.rpm",
+			"version": "5.1.0"
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-1581.html",
-			"id": "ALSA-2020-1581",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2018-19840",
 			"id": "CVE-2018-19840",
@@ -136,10 +131,15 @@
 			"href": "https://vulners.com/cve/CVE-2019-11498",
 			"id": "CVE-2019-11498",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-1581.html",
+			"id": "ALSA-2020-1581",
+			"type": "self"
 		}
 	],
 	"severity": "Low",
 	"title": "Low: wavpack security update",
 	"type": "security",
-	"updated_date": 1588063972
+	"updated_date": 1628672040
 }

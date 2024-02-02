@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "0e4835b0e72754669825c84cfd2ec9267eba458270597079a7da855be3d88836",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libxmlb-0.1.15-1.el8.x86_64.rpm",
-			"name": "libxmlb",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "libxmlb-0.1.15-1.el8.src.rpm",
-			"version": "0.1.15"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "1accbb7e4a762fb991df3a47f204bb0c4c77f40e23edca1d4bfa17448c3659f4",
 			"checksum_type": "sha256",
@@ -41,6 +29,18 @@
 			"version": "0.1.15"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "0e4835b0e72754669825c84cfd2ec9267eba458270597079a7da855be3d88836",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxmlb-0.1.15-1.el8.x86_64.rpm",
+			"name": "libxmlb",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libxmlb-0.1.15-1.el8.src.rpm",
+			"version": "0.1.15"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "4ecb5204e65e24fea5a76a851a6fc9ccf124713e2d8fbe8df2390357f1e01806",
 			"checksum_type": "sha256",
@@ -55,14 +55,14 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2020-10759",
-			"id": "CVE-2020-10759",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2020-4436.html",
 			"id": "ALSA-2020-4436",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-10759",
+			"id": "CVE-2020-10759",
+			"type": "cve"
 		},
 		{
 			"href": "https://access.redhat.com/errata/RHSA-2020:4436",
@@ -88,5 +88,5 @@
 	"severity": "Low",
 	"title": "Low: gnome-software and fwupd security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1604431824
 }

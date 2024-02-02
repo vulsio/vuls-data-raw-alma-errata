@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "5d84c7719bb5ddba51d00175b26bff26333f6904f08bf6408084927fb24c80c6",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind9.16-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
+			"name": "python3-bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b4b5bbfa4be8453ed0a34c8637e440adb001438fc59c65af8ab5c007a9d5bd96",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-license-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
+			"name": "bind9.16-license",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "i686",
 			"checksum": "103e12eadafd1c6450724daeb32794c33685b35f2b6726d488489cd40f2ae857",
 			"checksum_type": "sha256",
@@ -30,18 +54,6 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "5d84c7719bb5ddba51d00175b26bff26333f6904f08bf6408084927fb24c80c6",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind9.16-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
-			"name": "python3-bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
 			"checksum": "8e544110bed059bf34466eff737b3a9b9ccada47075189a9d8580dcb84244ce4",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -53,12 +65,24 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "b4b5bbfa4be8453ed0a34c8637e440adb001438fc59c65af8ab5c007a9d5bd96",
+			"arch": "x86_64",
+			"checksum": "0e9f3acf6b84679be63f459c4426dcda73084f3de7708f13d12638c6204f2cdd",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-license-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
-			"name": "bind9.16-license",
+			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.x86_64.rpm",
+			"name": "bind9.16-dnssec-utils",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a8f30bc8e457cf698c68f4687b5fb81a40dd420b2528222fd16246932125eb3e",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.x86_64.rpm",
+			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
 			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
@@ -89,11 +113,23 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "0e9f3acf6b84679be63f459c4426dcda73084f3de7708f13d12638c6204f2cdd",
+			"arch": "ppc64le",
+			"checksum": "423bf662c790c61912c74f85b3714489e261c3f11c83586a088e90350c17b58b",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.x86_64.rpm",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.ppc64le.rpm",
+			"name": "bind9.16-devel",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f65f346350a8c47a5894573e4f700eefacd054f38ebb30914679582e9423d2d6",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.ppc64le.rpm",
 			"name": "bind9.16-dnssec-utils",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -101,11 +137,71 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a8f30bc8e457cf698c68f4687b5fb81a40dd420b2528222fd16246932125eb3e",
+			"arch": "aarch64",
+			"checksum": "3627cac27cae3d3808ed0ed139b38e25cf048b9d0d18d8ef68c3e042fb25a8dd",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.x86_64.rpm",
+			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4fc7a4d6479a5606ba31f0766292d45bbf0bfecec6c193d1a480eaab9eab8548",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-libs",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8d00a1f4ef51a0d110e6627ab85e61d3f830fa6e990774798620219715ea89d4",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-chroot",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9c0b0378bb420952249169358172a756e068011f6be29aa0eb87c24f940dded3",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-utils",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "005476981a7851a4fdb83eced9d3e3dce81548a8326dcfd2d6be1201dcf99bf9",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
+			"name": "bind9.16-dnssec-utils",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9bac311e67d6143fe172cdb57f79b71f971ca89ce688c627236f41fc97e60042",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
 			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -161,23 +257,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3627cac27cae3d3808ed0ed139b38e25cf048b9d0d18d8ef68c3e042fb25a8dd",
+			"arch": "s390x",
+			"checksum": "b414606596478fed9dc18524f01fdbe9de583b3956e6da1fe83ecea2d3fa5c20",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
-			"name": "bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "4fc7a4d6479a5606ba31f0766292d45bbf0bfecec6c193d1a480eaab9eab8548",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
 			"name": "bind9.16-libs",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -185,11 +269,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "8d00a1f4ef51a0d110e6627ab85e61d3f830fa6e990774798620219715ea89d4",
+			"arch": "s390x",
+			"checksum": "b68e45c53108287079ea9c962012e17b0c9d4e75a4b62c6efe2849d27d5e0793",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
 			"name": "bind9.16-chroot",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -197,11 +281,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9c0b0378bb420952249169358172a756e068011f6be29aa0eb87c24f940dded3",
+			"arch": "s390x",
+			"checksum": "ddf6080959436182d5f77e6439c6d6cd1aef56fc7bc14620382ad78ff89940da",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
 			"name": "bind9.16-utils",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -209,48 +293,12 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "423bf662c790c61912c74f85b3714489e261c3f11c83586a088e90350c17b58b",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.ppc64le.rpm",
-			"name": "bind9.16-devel",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f65f346350a8c47a5894573e4f700eefacd054f38ebb30914679582e9423d2d6",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.ppc64le.rpm",
-			"name": "bind9.16-dnssec-utils",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "s390x",
-			"checksum": "005476981a7851a4fdb83eced9d3e3dce81548a8326dcfd2d6be1201dcf99bf9",
+			"checksum": "f055f0e852f597e9d9bfcd778986183f73f53fa22600fcaf1262bf1672d8b4f2",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-dnssec-utils-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16-dnssec-utils",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "9bac311e67d6143fe172cdb57f79b71f971ca89ce688c627236f41fc97e60042",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16-devel",
+			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
+			"name": "bind9.16",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
 			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
@@ -303,54 +351,6 @@
 			"release": "0.14.el8_8.2.alma.1",
 			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
 			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "b414606596478fed9dc18524f01fdbe9de583b3956e6da1fe83ecea2d3fa5c20",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16-libs",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "b68e45c53108287079ea9c962012e17b0c9d4e75a4b62c6efe2849d27d5e0793",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16-chroot",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "ddf6080959436182d5f77e6439c6d6cd1aef56fc7bc14620382ad78ff89940da",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16-utils",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f055f0e852f597e9d9bfcd778986183f73f53fa22600fcaf1262bf1672d8b4f2",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.s390x.rpm",
-			"name": "bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
 		}
 	],
 	"references": [
@@ -378,5 +378,5 @@
 	"severity": "Important",
 	"title": "Important: bind9.16 security update",
 	"type": "security",
-	"updated_date": 1696586533
+	"updated_date": 1696586531
 }

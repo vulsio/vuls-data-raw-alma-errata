@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "64a26dece1402e423977b408b0ac3c0bcbc3eb20ef7ac0ba6547824461eced7d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvncserver-0.9.11-17.el8.aarch64.rpm",
-			"name": "libvncserver",
-			"reboot_suggested": 0,
-			"release": "17.el8",
-			"src": "libvncserver-0.9.11-17.el8.src.rpm",
-			"version": "0.9.11"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d493b52633e6d63611bbe9f9920783589d4e88f22a8c8b0cc864ee715dcfa2bf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvncserver-devel-0.9.11-17.el8.aarch64.rpm",
-			"name": "libvncserver-devel",
-			"reboot_suggested": 0,
-			"release": "17.el8",
-			"src": "libvncserver-0.9.11-17.el8.src.rpm",
-			"version": "0.9.11"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3208117cf82714bfcb05156e8f1cf08fb9c299884dd49b60144800b3f21432b2",
 			"checksum_type": "sha256",
@@ -65,12 +41,24 @@
 			"version": "0.9.11"
 		},
 		{
-			"arch": "i686",
-			"checksum": "66a0b92a14b69f733340ebe8efa4d49a2fa2a57e0156a4b44e0c1ba1cc19f1c2",
+			"arch": "aarch64",
+			"checksum": "64a26dece1402e423977b408b0ac3c0bcbc3eb20ef7ac0ba6547824461eced7d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvncserver-0.9.11-17.el8.i686.rpm",
+			"filename": "libvncserver-0.9.11-17.el8.aarch64.rpm",
 			"name": "libvncserver",
+			"reboot_suggested": 0,
+			"release": "17.el8",
+			"src": "libvncserver-0.9.11-17.el8.src.rpm",
+			"version": "0.9.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d493b52633e6d63611bbe9f9920783589d4e88f22a8c8b0cc864ee715dcfa2bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvncserver-devel-0.9.11-17.el8.aarch64.rpm",
+			"name": "libvncserver-devel",
 			"reboot_suggested": 0,
 			"release": "17.el8",
 			"src": "libvncserver-0.9.11-17.el8.src.rpm",
@@ -99,14 +87,21 @@
 			"release": "17.el8",
 			"src": "libvncserver-0.9.11-17.el8.src.rpm",
 			"version": "0.9.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "66a0b92a14b69f733340ebe8efa4d49a2fa2a57e0156a4b44e0c1ba1cc19f1c2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvncserver-0.9.11-17.el8.i686.rpm",
+			"name": "libvncserver",
+			"reboot_suggested": 0,
+			"release": "17.el8",
+			"src": "libvncserver-0.9.11-17.el8.src.rpm",
+			"version": "0.9.11"
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1811.html",
-			"id": "ALSA-2021-1811",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2018-21247",
 			"id": "CVE-2018-21247",
@@ -131,10 +126,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-25708",
 			"id": "CVE-2020-25708",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1811.html",
+			"id": "ALSA-2021-1811",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libvncserver security update",
 	"type": "security",
-	"updated_date": 1621318124
+	"updated_date": 1628672040
 }

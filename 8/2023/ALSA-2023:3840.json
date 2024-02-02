@@ -53,42 +53,6 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "817936248e7f3fea72ebbfa9eaa6ec0fa00584ba40a3bb3259b699f51cee82c0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-3.26.0-18.el8_8.x86_64.rpm",
-			"name": "sqlite",
-			"reboot_suggested": 0,
-			"release": "18.el8_8",
-			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8e33e167c9bbc7b947b60a0fc05b61d3cf98ada1ef4f36ece9269a85f93f7071",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-devel-3.26.0-18.el8_8.x86_64.rpm",
-			"name": "sqlite-devel",
-			"reboot_suggested": 0,
-			"release": "18.el8_8",
-			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "bc4f595738a2add86daef680d27ffafcf68d178f6540195a230b487e0d22c9db",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-libs-3.26.0-18.el8_8.x86_64.rpm",
-			"name": "sqlite-libs",
-			"reboot_suggested": 0,
-			"release": "18.el8_8",
-			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
-			"version": "3.26.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "26ecccd6cae5bd118224ce5047d299b40c5b8230a6db0f532f6dc8c2b0e11a60",
 			"checksum_type": "sha256",
@@ -125,6 +89,42 @@
 			"version": "3.26.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "817936248e7f3fea72ebbfa9eaa6ec0fa00584ba40a3bb3259b699f51cee82c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-18.el8_8.x86_64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "18.el8_8",
+			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8e33e167c9bbc7b947b60a0fc05b61d3cf98ada1ef4f36ece9269a85f93f7071",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-18.el8_8.x86_64.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_8",
+			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "bc4f595738a2add86daef680d27ffafcf68d178f6540195a230b487e0d22c9db",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-18.el8_8.x86_64.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "18.el8_8",
+			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
+			"version": "3.26.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "1f8d3b6a6a2822e45fba8349ee5730a299259e0b70ac7f6f956574d3d0222ca0",
 			"checksum_type": "sha256",
@@ -155,18 +155,6 @@
 			"epoch": "0",
 			"filename": "sqlite-3.26.0-18.el8_8.ppc64le.rpm",
 			"name": "sqlite",
-			"reboot_suggested": 0,
-			"release": "18.el8_8",
-			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "948f9956ef0c824c0616e2dd40de10aad4a208933a646cd08246b205e073910d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lemon-3.26.0-18.el8_8.x86_64.rpm",
-			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "18.el8_8",
 			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
@@ -221,11 +209,11 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0ce19ac143fee43612346cdec860b1c2c7b27167464046a9871faed8fe410a13",
+			"arch": "x86_64",
+			"checksum": "948f9956ef0c824c0616e2dd40de10aad4a208933a646cd08246b205e073910d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lemon-3.26.0-18.el8_8.ppc64le.rpm",
+			"filename": "lemon-3.26.0-18.el8_8.x86_64.rpm",
 			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "18.el8_8",
@@ -238,6 +226,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lemon-3.26.0-18.el8_8.s390x.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "18.el8_8",
+			"src": "sqlite-3.26.0-18.el8_8.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0ce19ac143fee43612346cdec860b1c2c7b27167464046a9871faed8fe410a13",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-18.el8_8.ppc64le.rpm",
 			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "18.el8_8",
