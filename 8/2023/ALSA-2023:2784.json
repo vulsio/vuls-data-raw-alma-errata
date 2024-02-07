@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "a8081caaeeeee25ec2a06e6117dd57f803b1592c0086ffc9658a2b57959e5fa7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-7.5.15-4.el8.aarch64.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "4.el8",
-			"src": "grafana-7.5.15-4.el8.src.rpm",
-			"version": "7.5.15"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "1a3651fd3a7bdb252af218a34bd7906e3aa1c886c692433071b585131a89e8cf",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "7.5.15"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "e8151cd3199d241ef2f1d4be520baa86cbc6edd9d778f6ec810ccbf3277c19ed",
+			"arch": "ppc64le",
+			"checksum": "5665f081014768b95f5ae923607a4ae4544e87bdc1289c91e1a2fed40c669cf2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "grafana-7.5.15-4.el8.s390x.rpm",
+			"filename": "grafana-7.5.15-4.el8.ppc64le.rpm",
 			"name": "grafana",
 			"reboot_suggested": 0,
 			"release": "4.el8",
@@ -41,11 +29,23 @@
 			"version": "7.5.15"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "5665f081014768b95f5ae923607a4ae4544e87bdc1289c91e1a2fed40c669cf2",
+			"arch": "aarch64",
+			"checksum": "a8081caaeeeee25ec2a06e6117dd57f803b1592c0086ffc9658a2b57959e5fa7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "grafana-7.5.15-4.el8.ppc64le.rpm",
+			"filename": "grafana-7.5.15-4.el8.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "grafana-7.5.15-4.el8.src.rpm",
+			"version": "7.5.15"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e8151cd3199d241ef2f1d4be520baa86cbc6edd9d778f6ec810ccbf3277c19ed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.15-4.el8.s390x.rpm",
 			"name": "grafana",
 			"reboot_suggested": 0,
 			"release": "4.el8",
@@ -108,5 +108,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: grafana security update",
 	"type": "security",
-	"updated_date": 1684533598
+	"updated_date": 1684533599
 }

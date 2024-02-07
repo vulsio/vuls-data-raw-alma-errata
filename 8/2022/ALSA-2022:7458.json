@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "bbbbce4b25082427fac6e444b3589cd7fb8cd082a9787ac87f951345fc91ef18",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-builder-1.0.14-2.el8.aarch64.rpm",
-			"name": "flatpak-builder",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "flatpak-builder-1.0.14-2.el8.src.rpm",
-			"version": "1.0.14"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "eb575d54c906cf0ed0dd529728efb0cff7ce68b356affbb92fce546aa50dffb0",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "1.0.14"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "7dee126155fb08f818eff0e261755b27aa5eb60ed57ecb7fc86f85d7d07872d2",
+			"arch": "ppc64le",
+			"checksum": "b96b412e29ae4c2a34b43349cadd673fb989dd86bd2251df3732fa0003dcf30b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-builder-1.0.14-2.el8.s390x.rpm",
+			"filename": "flatpak-builder-1.0.14-2.el8.ppc64le.rpm",
 			"name": "flatpak-builder",
 			"reboot_suggested": 0,
 			"release": "2.el8",
@@ -41,11 +29,23 @@
 			"version": "1.0.14"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b96b412e29ae4c2a34b43349cadd673fb989dd86bd2251df3732fa0003dcf30b",
+			"arch": "aarch64",
+			"checksum": "bbbbce4b25082427fac6e444b3589cd7fb8cd082a9787ac87f951345fc91ef18",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-builder-1.0.14-2.el8.ppc64le.rpm",
+			"filename": "flatpak-builder-1.0.14-2.el8.aarch64.rpm",
+			"name": "flatpak-builder",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "flatpak-builder-1.0.14-2.el8.src.rpm",
+			"version": "1.0.14"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7dee126155fb08f818eff0e261755b27aa5eb60ed57ecb7fc86f85d7d07872d2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-builder-1.0.14-2.el8.s390x.rpm",
 			"name": "flatpak-builder",
 			"reboot_suggested": 0,
 			"release": "2.el8",

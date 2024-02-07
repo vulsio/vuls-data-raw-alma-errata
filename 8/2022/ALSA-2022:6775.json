@@ -4,13 +4,6 @@
 	"issued_date": 1664841600,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "9edba152",
-			"name": "squid",
-			"stream": "4",
-			"version": "8060020220408134403"
-		},
-		{
 			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "squid",
@@ -18,60 +11,28 @@
 			"version": "8060020220408134354"
 		},
 		{
-			"arch": "s390x",
-			"context": "9edba152",
-			"name": "squid",
-			"stream": "4",
-			"version": "8060020220707110313"
-		},
-		{
 			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "squid",
 			"stream": "4",
 			"version": "8060020220408134421"
+		},
+		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "squid",
+			"stream": "4",
+			"version": "8060020220408134403"
+		},
+		{
+			"arch": "s390x",
+			"context": "9edba152",
+			"name": "squid",
+			"stream": "4",
+			"version": "8060020220707110313"
 		}
 	],
 	"packages": [
-		{
-			"arch": "aarch64",
-			"checksum": "55e3f425f9b79d25a1b7886223c57dc2ec531e67854501992274d404e0f1a950",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.aarch64.rpm",
-			"module": "squid:4:8060020220408134403:9edba152:aarch64",
-			"name": "libecap-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2741+01592ae8",
-			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-			"version": "1.0.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b90e530da238c7439bb3a2997df1a2d79bff5b09133864615f0c3cf50a056366",
-			"checksum_type": "sha256",
-			"epoch": "7",
-			"filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.aarch64.rpm",
-			"module": "squid:4:8060020220408134403:9edba152:aarch64",
-			"name": "squid",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.6.0+3275+7a670b72.2",
-			"src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
-			"version": "4.15"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c6410e4bb614a814925e18f8c72f24ebafaf58481f30e6c70024919f51b4739b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.aarch64.rpm",
-			"module": "squid:4:8060020220408134403:9edba152:aarch64",
-			"name": "libecap",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2741+01592ae8",
-			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-			"version": "1.0.1"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "1cbc8a0c82dbc6330bd8880c0db4cdc3ef8d59ecafa7ded1aa5431d18933a432",
@@ -112,45 +73,6 @@
 			"version": "4.15"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "49338e3523775807cd97187db4ee65a89142c3f6db759c2d544c09e5f39e26cb",
-			"checksum_type": "sha256",
-			"epoch": "7",
-			"filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.s390x.rpm",
-			"module": "squid:4:8060020220707110313:9edba152:s390x",
-			"name": "squid",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.6.0+3275+7a670b72.2",
-			"src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
-			"version": "4.15"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "6f8eb1f500a9dca1949f5f05aedf6b97764817d9f17284be3612eec04618f4e1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.s390x.rpm",
-			"module": "squid:4:8060020220707110313:9edba152:s390x",
-			"name": "libecap",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+3048+383bc947",
-			"src": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.src.rpm",
-			"version": "1.0.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "96f15e87a90682f6ec87bc4ed7c8edae439f414cd0382f1865dcf76ac3a7807d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+3048+383bc947.s390x.rpm",
-			"module": "squid:4:8060020220707110313:9edba152:s390x",
-			"name": "libecap-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+3048+383bc947",
-			"src": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.src.rpm",
-			"version": "1.0.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "2eb313f9bcbafdd07094dcfcd01e98dafe8f20002c0a42b6c34207524bf418bc",
 			"checksum_type": "sha256",
@@ -187,6 +109,84 @@
 			"reboot_suggested": 0,
 			"release": "2.module_el8.6.0+2741+01592ae8",
 			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+			"version": "1.0.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "55e3f425f9b79d25a1b7886223c57dc2ec531e67854501992274d404e0f1a950",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.aarch64.rpm",
+			"module": "squid:4:8060020220408134403:9edba152:aarch64",
+			"name": "libecap-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2741+01592ae8",
+			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+			"version": "1.0.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b90e530da238c7439bb3a2997df1a2d79bff5b09133864615f0c3cf50a056366",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.aarch64.rpm",
+			"module": "squid:4:8060020220408134403:9edba152:aarch64",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.6.0+3275+7a670b72.2",
+			"src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
+			"version": "4.15"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c6410e4bb614a814925e18f8c72f24ebafaf58481f30e6c70024919f51b4739b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.aarch64.rpm",
+			"module": "squid:4:8060020220408134403:9edba152:aarch64",
+			"name": "libecap",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2741+01592ae8",
+			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+			"version": "1.0.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "49338e3523775807cd97187db4ee65a89142c3f6db759c2d544c09e5f39e26cb",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.s390x.rpm",
+			"module": "squid:4:8060020220707110313:9edba152:s390x",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.6.0+3275+7a670b72.2",
+			"src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
+			"version": "4.15"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f8eb1f500a9dca1949f5f05aedf6b97764817d9f17284be3612eec04618f4e1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.s390x.rpm",
+			"module": "squid:4:8060020220707110313:9edba152:s390x",
+			"name": "libecap",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+3048+383bc947",
+			"src": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.src.rpm",
+			"version": "1.0.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "96f15e87a90682f6ec87bc4ed7c8edae439f414cd0382f1865dcf76ac3a7807d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+3048+383bc947.s390x.rpm",
+			"module": "squid:4:8060020220707110313:9edba152:s390x",
+			"name": "libecap-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+3048+383bc947",
+			"src": "libecap-1.0.1-2.module_el8.6.0+3048+383bc947.src.rpm",
 			"version": "1.0.1"
 		}
 	],

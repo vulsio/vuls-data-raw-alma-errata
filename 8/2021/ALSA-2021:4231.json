@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "6320e41b478dc2d4cdd71858effff89684de12b719b55e57e9ecae75643dd367",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-devel-1.0.0-5.el8.aarch64.rpm",
-			"name": "libwebp-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libwebp-1.0.0-5.el8.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b506724c2f3c67c3b020458c2a44ffe5559087ea74fc1eaf5ce0d04ab5e4c8e3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-1.0.0-5.el8.aarch64.rpm",
-			"name": "libwebp",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libwebp-1.0.0-5.el8.src.rpm",
-			"version": "1.0.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "631f10cd203b26d64ee56f7e85ef5acd73f2ef3b0e043b5c0f007e7823f75e4e",
 			"checksum_type": "sha256",
@@ -99,14 +75,33 @@
 			"release": "5.el8",
 			"src": "libwebp-1.0.0-5.el8.src.rpm",
 			"version": "1.0.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6320e41b478dc2d4cdd71858effff89684de12b719b55e57e9ecae75643dd367",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-devel-1.0.0-5.el8.aarch64.rpm",
+			"name": "libwebp-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libwebp-1.0.0-5.el8.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b506724c2f3c67c3b020458c2a44ffe5559087ea74fc1eaf5ce0d04ab5e4c8e3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-1.0.0-5.el8.aarch64.rpm",
+			"name": "libwebp",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libwebp-1.0.0-5.el8.src.rpm",
+			"version": "1.0.0"
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4231.html",
-			"id": "ALSA-2021-4231",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2018-25009",
 			"id": "CVE-2018-25009",
@@ -146,10 +141,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-36332",
 			"id": "CVE-2020-36332",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4231.html",
+			"id": "ALSA-2021-4231",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libwebp security update",
 	"type": "security",
-	"updated_date": 1636462533
+	"updated_date": 1636712456
 }

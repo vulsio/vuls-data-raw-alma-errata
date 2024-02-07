@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "46e2d605266a930a88775aefdb1b13c49fc319caa901a2ee370998cef8598702",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "liblouis-2.6.2-21.el8.aarch64.rpm",
-			"name": "liblouis",
-			"reboot_suggested": 0,
-			"release": "21.el8",
-			"src": "liblouis-2.6.2-21.el8.src.rpm",
-			"version": "2.6.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "c4e903f72e4f8063babcb656b929ceea92795de1cc3c5b1e8efcff9f60ae00a7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-louis-2.6.2-21.el8.noarch.rpm",
-			"name": "python3-louis",
-			"reboot_suggested": 0,
-			"release": "21.el8",
-			"src": "liblouis-2.6.2-21.el8.src.rpm",
-			"version": "2.6.2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "8e292c98085d077df54d283de4b6072f42a5d5cb3768c9e2f9f2e6447996a251",
 			"checksum_type": "sha256",
@@ -53,6 +29,18 @@
 			"version": "2.6.2"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "c4e903f72e4f8063babcb656b929ceea92795de1cc3c5b1e8efcff9f60ae00a7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-louis-2.6.2-21.el8.noarch.rpm",
+			"name": "python3-louis",
+			"reboot_suggested": 0,
+			"release": "21.el8",
+			"src": "liblouis-2.6.2-21.el8.src.rpm",
+			"version": "2.6.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "710b13d03f8091b8adf8543624ab17e7cc9ad764e0b5a695cf0a6ae02e3f907d",
 			"checksum_type": "sha256",
@@ -63,14 +51,21 @@
 			"release": "21.el8",
 			"src": "liblouis-2.6.2-21.el8.src.rpm",
 			"version": "2.6.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "46e2d605266a930a88775aefdb1b13c49fc319caa901a2ee370998cef8598702",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "liblouis-2.6.2-21.el8.aarch64.rpm",
+			"name": "liblouis",
+			"reboot_suggested": 0,
+			"release": "21.el8",
+			"src": "liblouis-2.6.2-21.el8.src.rpm",
+			"version": "2.6.2"
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-1708.html",
-			"id": "ALSA-2020-1708",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2018-11577",
 			"id": "CVE-2018-11577",
@@ -90,10 +85,15 @@
 			"href": "https://vulners.com/cve/CVE-2018-12085",
 			"id": "CVE-2018-12085",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-1708.html",
+			"id": "ALSA-2020-1708",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: liblouis security and bug fix update",
 	"type": "security",
-	"updated_date": 1588064827
+	"updated_date": 1636712455
 }

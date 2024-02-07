@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
-			"name": "file-roller",
-			"reboot_suggested": 0,
-			"release": "4.el8",
-			"src": "file-roller-3.28.1-4.el8.src.rpm",
-			"version": "3.28.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0fe5ddebcb6dc571a91448460f4317ad2d69b51f3ce04e810b2f54edf43f61f9",
 			"checksum_type": "sha256",
@@ -39,22 +27,34 @@
 			"release": "4.el8",
 			"src": "file-roller-3.28.1-4.el8.src.rpm",
 			"version": "3.28.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
+			"name": "file-roller",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "file-roller-3.28.1-4.el8.src.rpm",
+			"version": "3.28.1"
 		}
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4179.html",
-			"id": "ALSA-2021-4179",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-36314",
 			"id": "CVE-2020-36314",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4179.html",
+			"id": "ALSA-2021-4179",
+			"type": "self"
 		}
 	],
 	"severity": "Low",
 	"title": "Low: file-roller security update",
 	"type": "security",
-	"updated_date": 1636462181
+	"updated_date": 1636712456
 }
