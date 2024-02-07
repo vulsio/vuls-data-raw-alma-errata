@@ -5,54 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "2842483c72ada955b37d3d7008765d169683c6c6602a31cad4a7dabfe0d6e4d5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm",
-			"name": "trousers-lib",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "trousers-0.3.15-1.el8.src.rpm",
-			"version": "0.3.15"
-		},
-		{
-			"arch": "i686",
-			"checksum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
-			"name": "trousers-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "trousers-0.3.15-1.el8.src.rpm",
-			"version": "0.3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8e3dac15189762e5ca0f8984d315b78a3d471849af52ee8168d1c7e45a9c0b4c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "trousers-0.3.15-1.el8.x86_64.rpm",
-			"name": "trousers",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "trousers-0.3.15-1.el8.src.rpm",
-			"version": "0.3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "da3bfc3f80060dc54f67c3b0e558267a7bc2f1587c99a5ae71a97d7ba5758f91",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "trousers-devel-0.3.15-1.el8.x86_64.rpm",
-			"name": "trousers-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "trousers-0.3.15-1.el8.src.rpm",
-			"version": "0.3.15"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "126400510c072ab32fcb9eaf86a7e47a8b1b6e2aa6b1788e7addb2bc5900faf0",
 			"checksum_type": "sha256",
@@ -101,6 +53,54 @@
 			"version": "0.3.15"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "2842483c72ada955b37d3d7008765d169683c6c6602a31cad4a7dabfe0d6e4d5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm",
+			"name": "trousers-lib",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "trousers-0.3.15-1.el8.src.rpm",
+			"version": "0.3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8e3dac15189762e5ca0f8984d315b78a3d471849af52ee8168d1c7e45a9c0b4c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "trousers-0.3.15-1.el8.x86_64.rpm",
+			"name": "trousers",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "trousers-0.3.15-1.el8.src.rpm",
+			"version": "0.3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "da3bfc3f80060dc54f67c3b0e558267a7bc2f1587c99a5ae71a97d7ba5758f91",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "trousers-devel-0.3.15-1.el8.x86_64.rpm",
+			"name": "trousers-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "trousers-0.3.15-1.el8.src.rpm",
+			"version": "0.3.15"
+		},
+		{
+			"arch": "i686",
+			"checksum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
+			"name": "trousers-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "trousers-0.3.15-1.el8.src.rpm",
+			"version": "0.3.15"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "af480481181857612c5646b7e8f3fe944331f64e1e3ee2b50acd2e1e2575631f",
 			"checksum_type": "sha256",
@@ -139,6 +139,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
+			"id": "ALSA-2021-1627",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2020-24330",
 			"id": "CVE-2020-24330",
 			"type": "cve"
@@ -152,15 +157,10 @@
 			"href": "https://vulners.com/cve/CVE-2020-24332",
 			"id": "CVE-2020-24332",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
-			"id": "ALSA-2021-1627",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: trousers security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1621316500
 }

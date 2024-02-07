@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "8b57d63b431f889fb63c8f5d3503b632dff50fefd20aff4e2f38c0161128344d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.i686.rpm",
+			"name": "qt5-qtbase-static",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "i686",
 			"checksum": "1ba89c06bab499cf05d3188c149a98cde2f2f5f5ad549eea77811949dd89b3c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -113,18 +125,6 @@
 			"version": "5.15.3"
 		},
 		{
-			"arch": "i686",
-			"checksum": "8b57d63b431f889fb63c8f5d3503b632dff50fefd20aff4e2f38c0161128344d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.i686.rpm",
-			"name": "qt5-qtbase-static",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "b7873b7b89a7efa6a798187e9a63760cc04d7a7fa3e0f9a70233fe496b1d60a0",
 			"checksum_type": "sha256",
@@ -142,18 +142,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "qt5-qtbase-static-5.15.3-5.el8.aarch64.rpm",
-			"name": "qt5-qtbase-static",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ab17fb2ac8249a07093334115365e964628cb7681df22c79bcf08f3054640eba",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.ppc64le.rpm",
 			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -257,11 +245,11 @@
 			"version": "5.15.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "52cf8660e7622cac37f6d7fc86d0ecc14cef1108ce6b82748fccbc250d1aeda9",
+			"arch": "ppc64le",
+			"checksum": "ab17fb2ac8249a07093334115365e964628cb7681df22c79bcf08f3054640eba",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.s390x.rpm",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.ppc64le.rpm",
 			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -359,6 +347,18 @@
 			"epoch": "0",
 			"filename": "qt5-qtbase-mysql-5.15.3-5.el8.x86_64.rpm",
 			"name": "qt5-qtbase-mysql",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "52cf8660e7622cac37f6d7fc86d0ecc14cef1108ce6b82748fccbc250d1aeda9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.s390x.rpm",
+			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
@@ -612,5 +612,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qt5-qtbase security update",
 	"type": "security",
-	"updated_date": 1700728663
+	"updated_date": 1700734738
 }
