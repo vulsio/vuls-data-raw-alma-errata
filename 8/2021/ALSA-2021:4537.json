@@ -4,6 +4,13 @@
 	"issued_date": 1636485944,
 	"modules": [
 		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "httpd",
+			"stream": "2.4",
+			"version": "8060020220622110449"
+		},
+		{
 			"arch": "x86_64",
 			"context": "c5368500",
 			"name": "httpd",
@@ -16,16 +23,22 @@
 			"name": "httpd",
 			"stream": "2.4",
 			"version": "8060020220622110449"
-		},
-		{
-			"arch": "aarch64",
-			"context": "9edba152",
-			"name": "httpd",
-			"stream": "2.4",
-			"version": "8060020220622110449"
 		}
 	],
 	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
+			"module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
+			"name": "mod_md",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2872+fe0ff7aa",
+			"src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+			"version": "2.0.8"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "05f42e595c2af18521fbcfc606db1f68d55049aa868c7ed44603629d4f6ae261",
@@ -181,35 +194,22 @@
 			"release": "8.module_el8.6.0+2872+fe0ff7aa",
 			"src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
 			"version": "2.0.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
-			"module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
-			"name": "mod_md",
-			"reboot_suggested": 0,
-			"release": "8.module_el8.6.0+2872+fe0ff7aa",
-			"src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-			"version": "2.0.8"
 		}
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2021-20325",
-			"id": "CVE-2021-20325",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-4537.html",
 			"id": "ALSA-2021-4537",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-20325",
+			"id": "CVE-2021-20325",
+			"type": "cve"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: httpd:2.4 security update",
 	"type": "security",
-	"updated_date": 1643182044
+	"updated_date": 1636485931
 }

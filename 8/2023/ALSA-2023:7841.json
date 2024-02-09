@@ -29,18 +29,6 @@
 			"version": "1.16.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "4fff8b7c1b023eb7fc368939826b93b6d67c3c1d79c4d65c684cf3a55d2c45ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gstreamer1-plugins-bad-free-devel-1.16.1-2.el8_9.alma.1.aarch64.rpm",
-			"name": "gstreamer1-plugins-bad-free-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8_9.alma.1",
-			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
-			"version": "1.16.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "266ee30fb646a6ea2037cab1507ea020872bd8915032074daed58410629c219c",
 			"checksum_type": "sha256",
@@ -53,11 +41,23 @@
 			"version": "1.16.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9f0fd33e836e443055af0aeda8bc0e2e91c15418525d2b455a6677fef5647e19",
+			"arch": "aarch64",
+			"checksum": "4fff8b7c1b023eb7fc368939826b93b6d67c3c1d79c4d65c684cf3a55d2c45ea",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.x86_64.rpm",
+			"filename": "gstreamer1-plugins-bad-free-devel-1.16.1-2.el8_9.alma.1.aarch64.rpm",
+			"name": "gstreamer1-plugins-bad-free-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.alma.1",
+			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "41fc933a0f3bf8c7059f55ddde0609657d59e2142ce5e0eac471661f21fde6bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.aarch64.rpm",
 			"name": "gstreamer1-plugins-bad-free",
 			"reboot_suggested": 0,
 			"release": "2.el8_9.alma.1",
@@ -78,6 +78,18 @@
 		},
 		{
 			"arch": "s390x",
+			"checksum": "9edf7a8a4871c96225e64cd6adc731e58637ac6914f22ca87d2a8a0ad3ee1626",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.s390x.rpm",
+			"name": "gstreamer1-plugins-bad-free",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.alma.1",
+			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
 			"checksum": "c646c890fa6c81f12730e818e92028c1e73fb39e45b07ab4c1a35ddc802bf41d",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -89,35 +101,23 @@
 			"version": "1.16.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "9f0fd33e836e443055af0aeda8bc0e2e91c15418525d2b455a6677fef5647e19",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.x86_64.rpm",
+			"name": "gstreamer1-plugins-bad-free",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.alma.1",
+			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
+			"version": "1.16.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "7669fee0d4895c9f6dcc5b1693a442e2fa1ff895002314d9a17db593fc1e675e",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.ppc64le.rpm",
-			"name": "gstreamer1-plugins-bad-free",
-			"reboot_suggested": 0,
-			"release": "2.el8_9.alma.1",
-			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
-			"version": "1.16.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "41fc933a0f3bf8c7059f55ddde0609657d59e2142ce5e0eac471661f21fde6bf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.aarch64.rpm",
-			"name": "gstreamer1-plugins-bad-free",
-			"reboot_suggested": 0,
-			"release": "2.el8_9.alma.1",
-			"src": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.src.rpm",
-			"version": "1.16.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "9edf7a8a4871c96225e64cd6adc731e58637ac6914f22ca87d2a8a0ad3ee1626",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gstreamer1-plugins-bad-free-1.16.1-2.el8_9.alma.1.s390x.rpm",
 			"name": "gstreamer1-plugins-bad-free",
 			"reboot_suggested": 0,
 			"release": "2.el8_9.alma.1",

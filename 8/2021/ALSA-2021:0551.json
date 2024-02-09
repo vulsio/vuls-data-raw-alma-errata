@@ -4,6 +4,13 @@
 	"issued_date": 1613460882,
 	"modules": [
 		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "nodejs",
+			"stream": "12",
+			"version": "8060020220621120033"
+		},
+		{
 			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "nodejs",
@@ -12,13 +19,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "nodejs",
-			"stream": "12",
-			"version": "8060020220621120033"
-		},
-		{
-			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "nodejs",
 			"stream": "12",
@@ -32,7 +32,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-packaging-23-3.module_el8.4.0+2522+3bd42762.noarch.rpm",
-			"module": "nodejs:12:8060020220621120033:9edba152:x86_64",
+			"module": "nodejs:12:8060020220621120033:9edba152:aarch64",
 			"name": "nodejs-packaging",
 			"reboot_suggested": 0,
 			"release": "3.module_el8.4.0+2522+3bd42762",
@@ -45,7 +45,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
-			"module": "nodejs:12:8060020220621120033:9edba152:x86_64",
+			"module": "nodejs:12:8060020220621120033:9edba152:aarch64",
 			"name": "nodejs-nodemon",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.4.0+2521+c668cc9f",

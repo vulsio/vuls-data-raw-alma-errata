@@ -4,6 +4,13 @@
 	"issued_date": 1588064460,
 	"modules": [
 		{
+			"arch": "aarch64",
+			"context": "830d479e",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8040020210617090548"
+		},
+		{
 			"arch": "x86_64",
 			"context": "830d479e",
 			"name": "container-tools",
@@ -16,16 +23,100 @@
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8050020211216102332"
-		},
-		{
-			"arch": "aarch64",
-			"context": "830d479e",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8040020210617090548"
 		}
 	],
 	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "2786570cbf046a16552fe8233eee3a7d5ab9166149e4f93c34d0866eac85f4b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "slirp4netns",
+			"reboot_suggested": 0,
+			"release": "3.git21fdece.module_el8.5.0+2635+e4386a39",
+			"src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "0.4.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "2a26195b240f74ef12f6e381516294c3983a2873382d2940167dcff48cdf6e2c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.noarch.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "toolbox",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2635+e4386a39",
+			"src": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "0.0.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "374a246998b4b262308633d7e90f023f83fee938bc4e2ecaf58b602e38a98add",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "crit-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "crit",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.4.0+2496+12421f43",
+			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "3.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5e7dc0cc2c02e609705b15993b9bce828f64048241164018a52e4031851b8101",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "criu",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.4.0+2496+12421f43",
+			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "3.12"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6014c5c3fb0e8b251cf8fe13d9dc538fe94d16ae2bfbf82206773d07378a433e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.noarch.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "python-podman-api",
+			"reboot_suggested": 0,
+			"release": "0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39",
+			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9b886f6e05c447d885e09a28818a3bd3b96d150c5b5498cf2e71df0a54c891a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "udica-0.2.1-2.module_el8.5.0+2635+e4386a39.noarch.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "udica",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.5.0+2635+e4386a39",
+			"src": "udica-0.2.1-2.module_el8.5.0+2635+e4386a39.src.rpm",
+			"version": "0.2.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9d828e00185af8431441a1fcb18cf256576f1e02aa9861e324a61837ad139359",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-criu-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "python3-criu",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.4.0+2496+12421f43",
+			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "3.12"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "16c4565749c2a57835be9f8828b93fa8473bcdeb89754224acfe6e2be2dcd8b5",
@@ -38,19 +129,6 @@
 			"release": "9.module_el8.3.0+2044+12421f43",
 			"src": "criu-3.12-9.module_el8.3.0+2044+12421f43.src.rpm",
 			"version": "3.12"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "2a26195b240f74ef12f6e381516294c3983a2873382d2940167dcff48cdf6e2c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "toolbox",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2635+e4386a39",
-			"src": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "0.0.7"
 		},
 		{
 			"arch": "x86_64",
@@ -66,19 +144,6 @@
 			"version": "3.12"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "6014c5c3fb0e8b251cf8fe13d9dc538fe94d16ae2bfbf82206773d07378a433e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "python-podman-api",
-			"reboot_suggested": 0,
-			"release": "0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39",
-			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "1.2.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "872ed560d33d70e3e657deeedd8b39852165aed41071d03fdfc22107a83e0b37",
 			"checksum_type": "sha256",
@@ -90,19 +155,6 @@
 			"release": "3.git21fdece.module_el8.5.0+2635+e4386a39",
 			"src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
 			"version": "0.4.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9b886f6e05c447d885e09a28818a3bd3b96d150c5b5498cf2e71df0a54c891a0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "udica-0.2.1-2.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:1.0:8040020210609195049:830d479e:x86_64",
-			"name": "udica",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.5.0+2635+e4386a39",
-			"src": "udica-0.2.1-2.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "0.2.1"
 		},
 		{
 			"arch": "x86_64",
@@ -206,58 +258,6 @@
 			"reboot_suggested": 0,
 			"release": "9.module_el8.5.0+119+9a9ec082",
 			"src": "criu-3.12-9.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "3.12"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "2786570cbf046a16552fe8233eee3a7d5ab9166149e4f93c34d0866eac85f4b0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "slirp4netns",
-			"reboot_suggested": 0,
-			"release": "3.git21fdece.module_el8.5.0+2635+e4386a39",
-			"src": "slirp4netns-0.4.2-3.git21fdece.module_el8.5.0+2635+e4386a39.src.rpm",
-			"version": "0.4.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "374a246998b4b262308633d7e90f023f83fee938bc4e2ecaf58b602e38a98add",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "crit-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "crit",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.4.0+2496+12421f43",
-			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "3.12"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "5e7dc0cc2c02e609705b15993b9bce828f64048241164018a52e4031851b8101",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "criu",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.4.0+2496+12421f43",
-			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "3.12"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9d828e00185af8431441a1fcb18cf256576f1e02aa9861e324a61837ad139359",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-criu-3.12-9.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "python3-criu",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.4.0+2496+12421f43",
-			"src": "criu-3.12-9.module_el8.4.0+2496+12421f43.src.rpm",
 			"version": "3.12"
 		}
 	],

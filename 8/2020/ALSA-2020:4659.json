@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "6fd636508eee6b5a3ca9a9793c662242c7c952a5ef0b06204dc07972abfbec79",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gd-2.2.5-7.el8.aarch64.rpm",
+			"name": "gd",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "gd-2.2.5-7.el8.src.rpm",
+			"version": "2.2.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7951fffa5bf341bea7cd44637a5c1154ca89c5f67693587da53e85798217182a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gd-devel-2.2.5-7.el8.aarch64.rpm",
+			"name": "gd-devel",
+			"reboot_suggested": 0,
+			"release": "7.el8",
+			"src": "gd-2.2.5-7.el8.src.rpm",
+			"version": "2.2.5"
+		},
+		{
 			"arch": "i686",
 			"checksum": "04229bdf149d2467ec8e2cf2032f5120957b7f805aca4c99788cd0cf8fc7a019",
 			"checksum_type": "sha256",
@@ -75,33 +99,14 @@
 			"release": "7.el8",
 			"src": "gd-2.2.5-7.el8.src.rpm",
 			"version": "2.2.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6fd636508eee6b5a3ca9a9793c662242c7c952a5ef0b06204dc07972abfbec79",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gd-2.2.5-7.el8.aarch64.rpm",
-			"name": "gd",
-			"reboot_suggested": 0,
-			"release": "7.el8",
-			"src": "gd-2.2.5-7.el8.src.rpm",
-			"version": "2.2.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7951fffa5bf341bea7cd44637a5c1154ca89c5f67693587da53e85798217182a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gd-devel-2.2.5-7.el8.aarch64.rpm",
-			"name": "gd-devel",
-			"reboot_suggested": 0,
-			"release": "7.el8",
-			"src": "gd-2.2.5-7.el8.src.rpm",
-			"version": "2.2.5"
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4659.html",
+			"id": "ALSA-2020-4659",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2018-14553",
 			"id": "CVE-2018-14553",
@@ -116,15 +121,10 @@
 			"href": "https://vulners.com/cve/CVE-2019-6978",
 			"id": "CVE-2019-6978",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4659.html",
-			"id": "ALSA-2020-4659",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: gd security update",
 	"type": "security",
-	"updated_date": 1636712455
+	"updated_date": 1604432868
 }

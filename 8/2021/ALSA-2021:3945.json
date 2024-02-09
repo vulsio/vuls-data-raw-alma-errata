@@ -4,6 +4,13 @@
 	"issued_date": 1634734000,
 	"modules": [
 		{
+			"arch": "aarch64",
+			"context": "522a0ee4",
+			"name": "redis",
+			"stream": "6",
+			"version": "8040020211021114238"
+		},
+		{
 			"arch": "x86_64",
 			"context": "522a0ee4",
 			"name": "redis",
@@ -16,16 +23,48 @@
 			"name": "redis",
 			"stream": "6",
 			"version": "8050020211210114846"
-		},
-		{
-			"arch": "aarch64",
-			"context": "522a0ee4",
-			"name": "redis",
-			"stream": "6",
-			"version": "8040020211021114238"
 		}
 	],
 	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "7516d84d36f4b8760216b01a8971ca88512fe7c897c45061665fa197f7982a6a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d84c4a1b53a46f135ae5a5d9a3f08cb0475c3cf9833cefbd08c3d0126a29c34f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f441db69f61afb941d9500c5d3e3dd3168e996d454c653c11038fcf92e04333d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-doc-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.noarch.rpm",
+			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
+			"name": "redis-doc",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2584+1bb0d2aa",
+			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
+			"version": "6.0.9"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "6ddb14ed99da80933665008be57b151ed938c78a5abba7d757aefff923d27226",
@@ -47,19 +86,6 @@
 			"filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.x86_64.rpm",
 			"module": "redis:6:8040020211021114238:522a0ee4:x86_64",
 			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2584+1bb0d2aa",
-			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-			"version": "6.0.9"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "f441db69f61afb941d9500c5d3e3dd3168e996d454c653c11038fcf92e04333d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-doc-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.noarch.rpm",
-			"module": "redis:6:8040020211021114238:522a0ee4:x86_64",
-			"name": "redis-doc",
 			"reboot_suggested": 0,
 			"release": "5.module_el8.4.0+2584+1bb0d2aa",
 			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
@@ -89,32 +115,6 @@
 			"reboot_suggested": 0,
 			"release": "5.module_el8.5.0+67+a3c431d9",
 			"src": "redis-6.0.9-5.module_el8.5.0+67+a3c431d9.src.rpm",
-			"version": "6.0.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7516d84d36f4b8760216b01a8971ca88512fe7c897c45061665fa197f7982a6a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
-			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
-			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2584+1bb0d2aa",
-			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
-			"version": "6.0.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d84c4a1b53a46f135ae5a5d9a3f08cb0475c3cf9833cefbd08c3d0126a29c34f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.aarch64.rpm",
-			"module": "redis:6:8040020211021114238:522a0ee4:aarch64",
-			"name": "redis",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2584+1bb0d2aa",
-			"src": "redis-6.0.9-5.module_el8.4.0+2584+1bb0d2aa.src.rpm",
 			"version": "6.0.9"
 		}
 	],
