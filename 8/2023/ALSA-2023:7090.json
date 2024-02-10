@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "f964bfb4b0e3828cf521905c1ee2b4a2049922de9145ab0a04c92a5c0a22f8f1",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.59-3.el8.i686.rpm",
-			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
-			"version": "0.9.59"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "33a49b2fe35591ea8d5cfec95e00b4fdfc48122102bf7f4094151c694fc3e613",
 			"checksum_type": "sha256",
@@ -35,6 +23,18 @@
 			"epoch": "1",
 			"filename": "libmicrohttpd-devel-0.9.59-3.el8.i686.rpm",
 			"name": "libmicrohttpd-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
+			"version": "0.9.59"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f964bfb4b0e3828cf521905c1ee2b4a2049922de9145ab0a04c92a5c0a22f8f1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-0.9.59-3.el8.i686.rpm",
+			"name": "libmicrohttpd",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
@@ -101,18 +101,6 @@
 			"version": "0.9.59"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8ab9bf6454f6b47077f9d4c97771413f8a0fdf5502a4a5af278888e43274970f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.59-3.el8.s390x.rpm",
-			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
-			"version": "0.9.59"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "8830a13049b6e2d2bf088893b10fb1eb46f04738738409fb30ba5297ba4ece75",
 			"checksum_type": "sha256",
@@ -131,6 +119,18 @@
 			"epoch": "1",
 			"filename": "libmicrohttpd-devel-0.9.59-3.el8.s390x.rpm",
 			"name": "libmicrohttpd-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
+			"version": "0.9.59"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8ab9bf6454f6b47077f9d4c97771413f8a0fdf5502a4a5af278888e43274970f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-0.9.59-3.el8.s390x.rpm",
+			"name": "libmicrohttpd",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
@@ -162,5 +162,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libmicrohttpd security update",
 	"type": "security",
-	"updated_date": 1700734745
+	"updated_date": 1700734956
 }

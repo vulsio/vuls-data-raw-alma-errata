@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "a2632d901587c941fd260be4f181b407b66b9ccda26469d61e6189791a78065f",
+			"arch": "ppc64le",
+			"checksum": "bc1c2e60d8532a1931806b26b19d39251596622b29010f1bfe2537a5f5645ab2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xterm-331-1.el8_3.2.aarch64.rpm",
-			"name": "xterm",
+			"filename": "xterm-resize-331-1.el8_3.2.ppc64le.rpm",
+			"name": "xterm-resize",
 			"reboot_suggested": 0,
 			"release": "1.el8_3.2",
 			"src": "xterm-331-1.el8_3.2.src.rpm",
 			"version": "331"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "cd8384946acd91f6eceaeffdcc5aa808f74a6fae6837ec78589559708ec3109e",
+			"arch": "ppc64le",
+			"checksum": "bcf40a3bbd44793432c5260a61e86d1f7c1ac1a646ec8576fc47893a93755d6c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm",
-			"name": "xterm-resize",
+			"filename": "xterm-331-1.el8_3.2.ppc64le.rpm",
+			"name": "xterm",
 			"reboot_suggested": 0,
 			"release": "1.el8_3.2",
 			"src": "xterm-331-1.el8_3.2.src.rpm",
@@ -53,24 +53,24 @@
 			"version": "331"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "bc1c2e60d8532a1931806b26b19d39251596622b29010f1bfe2537a5f5645ab2",
+			"arch": "aarch64",
+			"checksum": "a2632d901587c941fd260be4f181b407b66b9ccda26469d61e6189791a78065f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xterm-resize-331-1.el8_3.2.ppc64le.rpm",
-			"name": "xterm-resize",
+			"filename": "xterm-331-1.el8_3.2.aarch64.rpm",
+			"name": "xterm",
 			"reboot_suggested": 0,
 			"release": "1.el8_3.2",
 			"src": "xterm-331-1.el8_3.2.src.rpm",
 			"version": "331"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "bcf40a3bbd44793432c5260a61e86d1f7c1ac1a646ec8576fc47893a93755d6c",
+			"arch": "aarch64",
+			"checksum": "cd8384946acd91f6eceaeffdcc5aa808f74a6fae6837ec78589559708ec3109e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xterm-331-1.el8_3.2.ppc64le.rpm",
-			"name": "xterm",
+			"filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm",
+			"name": "xterm-resize",
 			"reboot_suggested": 0,
 			"release": "1.el8_3.2",
 			"src": "xterm-331-1.el8_3.2.src.rpm",
@@ -79,18 +79,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-0611.html",
-			"id": "ALSA-2021-0611",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-27135",
 			"id": "CVE-2021-27135",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-0611.html",
+			"id": "ALSA-2021-0611",
+			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: xterm security update",
 	"type": "security",
-	"updated_date": 1613658735
+	"updated_date": 1636712456
 }

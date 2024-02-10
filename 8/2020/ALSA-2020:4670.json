@@ -4,11 +4,11 @@
 	"issued_date": 1604406336,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "93c20af6",
+			"arch": "ppc64le",
+			"context": "94f01c65",
 			"name": "idm",
-			"stream": "DL1",
-			"version": "8060020220510123024"
+			"stream": "client",
+			"version": "8060020220406184854"
 		},
 		{
 			"arch": "x86_64",
@@ -18,34 +18,21 @@
 			"version": "8050020220428155758"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "94f01c65",
+			"arch": "aarch64",
+			"context": "93c20af6",
 			"name": "idm",
-			"stream": "client",
-			"version": "8060020220406184854"
+			"stream": "DL1",
+			"version": "8060020220510123024"
 		}
 	],
 	"packages": [
-		{
-			"arch": "noarch",
-			"checksum": "35578ad4d8e9a458ca2ef605c6c077adc070a1d606ac1aef6f6755e1ae3b42fe",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-qrcode-core-5.1-12.module_el8.6.0+2737+7e73ea90.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
-			"name": "python3-qrcode-core",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2737+7e73ea90",
-			"src": "python-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.src.rpm",
-			"version": "5.1"
-		},
 		{
 			"arch": "noarch",
 			"checksum": "416415f024d2f5fd5573a04b9b3d4c4717e07b8f72999773e10bf94d076a7296",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-custodia-0.6.0-3.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
 			"name": "python3-custodia",
 			"reboot_suggested": 0,
 			"release": "3.module_el8.6.0+2881+2f24dc92",
@@ -54,16 +41,16 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "6614796eede644eb18cd760f015e82f42c5528713e48418f8ab00e23db77dfe7",
+			"checksum": "91f9d74f4e9bf74b56f39b55425730114fcf13c58cd5a6f171fcbcbfd81663ac",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-yubico-1.3.2-9.module_el8.6.0+2737+7e73ea90.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
-			"name": "python3-yubico",
+			"filename": "python3-pyusb-1.0.0-9.module_el8.6.0+2881+2f24dc92.noarch.rpm",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
+			"name": "python3-pyusb",
 			"reboot_suggested": 0,
-			"release": "9.module_el8.6.0+2737+7e73ea90",
-			"src": "python-yubico-1.3.2-9.module_el8.6.0+2737+7e73ea90.src.rpm",
-			"version": "1.3.2"
+			"release": "9.module_el8.6.0+2881+2f24dc92",
+			"src": "pyusb-1.0.0-9.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"version": "1.0.0"
 		},
 		{
 			"arch": "noarch",
@@ -71,7 +58,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-kdcproxy-0.4-5.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
 			"name": "python3-kdcproxy",
 			"reboot_suggested": 0,
 			"release": "5.module_el8.6.0+2881+2f24dc92",
@@ -84,7 +71,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "custodia-0.6.0-3.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
 			"name": "custodia",
 			"reboot_suggested": 0,
 			"release": "3.module_el8.6.0+2881+2f24dc92",
@@ -93,42 +80,55 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "ce501350a8cfb378bf3554b396191727a02a32afea640930f05155a7463d066a",
+			"checksum": "c73d28b859eb0eb19bfe92368a92f021e46eaf2efbbeb59f41847fba52d0fc1a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-pyusb-1.0.0-9.module_el8.6.0+2737+7e73ea90.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
-			"name": "python3-pyusb",
-			"reboot_suggested": 0,
-			"release": "9.module_el8.6.0+2737+7e73ea90",
-			"src": "pyusb-1.0.0-9.module_el8.6.0+2737+7e73ea90.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e57fed8f11bcb11aa9223888ba486c23bb889553c56a2b08c2549fb7198f9698",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"filename": "python3-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.noarch.rpm",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
 			"name": "python3-qrcode",
 			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2737+7e73ea90",
-			"src": "python-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.src.rpm",
+			"release": "12.module_el8.6.0+2881+2f24dc92",
+			"src": "python-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.src.rpm",
 			"version": "5.1"
 		},
 		{
 			"arch": "noarch",
-			"checksum": "e7181e32732011f2fbe1f8711ac9564db09bafd81b7729a9f619c89bdabab375",
+			"checksum": "ca523f9f01b596a05df5b18f906a5d72e682a583b6863a36b96236708a62795c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.noarch.rpm",
-			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"filename": "python3-jwcrypto-0.5.0-1.module_el8.6.0+2881+2f24dc92.noarch.rpm",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
 			"name": "python3-jwcrypto",
 			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2737+7e73ea90",
-			"src": "python-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.src.rpm",
+			"release": "1.module_el8.6.0+2881+2f24dc92",
+			"src": "python-jwcrypto-0.5.0-1.module_el8.6.0+2881+2f24dc92.src.rpm",
 			"version": "0.5.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d6f0fd709956e67451adbfc2ec5e9c2d608232b6d90554bef9dbbd62139c2b42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-yubico-1.3.2-9.module_el8.6.0+2881+2f24dc92.noarch.rpm",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
+			"name": "python3-yubico",
+			"reboot_suggested": 0,
+			"release": "9.module_el8.6.0+2881+2f24dc92",
+			"src": "python-yubico-1.3.2-9.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"version": "1.3.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f187b512f74a200ad6942314e30026325627c5f704061034f121ccaf817522b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-qrcode-core-5.1-12.module_el8.6.0+2881+2f24dc92.noarch.rpm",
+			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
+			"name": "python3-qrcode-core",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.6.0+2881+2f24dc92",
+			"src": "python-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"version": "5.1"
 		},
 		{
 			"arch": "noarch",
@@ -197,76 +197,71 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "91f9d74f4e9bf74b56f39b55425730114fcf13c58cd5a6f171fcbcbfd81663ac",
+			"checksum": "35578ad4d8e9a458ca2ef605c6c077adc070a1d606ac1aef6f6755e1ae3b42fe",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-pyusb-1.0.0-9.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
-			"name": "python3-pyusb",
+			"filename": "python3-qrcode-core-5.1-12.module_el8.6.0+2737+7e73ea90.noarch.rpm",
+			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"name": "python3-qrcode-core",
 			"reboot_suggested": 0,
-			"release": "9.module_el8.6.0+2881+2f24dc92",
-			"src": "pyusb-1.0.0-9.module_el8.6.0+2881+2f24dc92.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "c73d28b859eb0eb19bfe92368a92f021e46eaf2efbbeb59f41847fba52d0fc1a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
-			"name": "python3-qrcode",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2881+2f24dc92",
-			"src": "python-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"release": "12.module_el8.6.0+2737+7e73ea90",
+			"src": "python-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.src.rpm",
 			"version": "5.1"
 		},
 		{
 			"arch": "noarch",
-			"checksum": "ca523f9f01b596a05df5b18f906a5d72e682a583b6863a36b96236708a62795c",
+			"checksum": "6614796eede644eb18cd760f015e82f42c5528713e48418f8ab00e23db77dfe7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-jwcrypto-0.5.0-1.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
-			"name": "python3-jwcrypto",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2881+2f24dc92",
-			"src": "python-jwcrypto-0.5.0-1.module_el8.6.0+2881+2f24dc92.src.rpm",
-			"version": "0.5.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "d6f0fd709956e67451adbfc2ec5e9c2d608232b6d90554bef9dbbd62139c2b42",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-yubico-1.3.2-9.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
+			"filename": "python3-yubico-1.3.2-9.module_el8.6.0+2737+7e73ea90.noarch.rpm",
+			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
 			"name": "python3-yubico",
 			"reboot_suggested": 0,
-			"release": "9.module_el8.6.0+2881+2f24dc92",
-			"src": "python-yubico-1.3.2-9.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"release": "9.module_el8.6.0+2737+7e73ea90",
+			"src": "python-yubico-1.3.2-9.module_el8.6.0+2737+7e73ea90.src.rpm",
 			"version": "1.3.2"
 		},
 		{
 			"arch": "noarch",
-			"checksum": "f187b512f74a200ad6942314e30026325627c5f704061034f121ccaf817522b3",
+			"checksum": "ce501350a8cfb378bf3554b396191727a02a32afea640930f05155a7463d066a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-qrcode-core-5.1-12.module_el8.6.0+2881+2f24dc92.noarch.rpm",
-			"module": "idm:client:8060020220406184854:94f01c65:ppc64le",
-			"name": "python3-qrcode-core",
+			"filename": "python3-pyusb-1.0.0-9.module_el8.6.0+2737+7e73ea90.noarch.rpm",
+			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"name": "python3-pyusb",
 			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2881+2f24dc92",
-			"src": "python-qrcode-5.1-12.module_el8.6.0+2881+2f24dc92.src.rpm",
+			"release": "9.module_el8.6.0+2737+7e73ea90",
+			"src": "pyusb-1.0.0-9.module_el8.6.0+2737+7e73ea90.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e57fed8f11bcb11aa9223888ba486c23bb889553c56a2b08c2549fb7198f9698",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.noarch.rpm",
+			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"name": "python3-qrcode",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.6.0+2737+7e73ea90",
+			"src": "python-qrcode-5.1-12.module_el8.6.0+2737+7e73ea90.src.rpm",
 			"version": "5.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e7181e32732011f2fbe1f8711ac9564db09bafd81b7729a9f619c89bdabab375",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.noarch.rpm",
+			"module": "idm:DL1:8060020220510123024:93c20af6:aarch64",
+			"name": "python3-jwcrypto",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2737+7e73ea90",
+			"src": "python-jwcrypto-0.5.0-1.module_el8.6.0+2737+7e73ea90.src.rpm",
+			"version": "0.5.0"
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4670.html",
-			"id": "ALSA-2020-4670",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2015-9251",
 			"id": "CVE-2015-9251",
@@ -316,10 +311,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-1722",
 			"id": "CVE-2020-1722",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4670.html",
+			"id": "ALSA-2020-4670",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: idm:DL1 and idm:client security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1604432909
+	"updated_date": 1651245947
 }

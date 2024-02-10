@@ -4,11 +4,11 @@
 	"issued_date": 1638460621,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "aa3ced04",
+			"arch": "ppc64le",
+			"context": "77fc8825",
 			"name": "mailman",
 			"stream": "2.1",
-			"version": "8050020211203030332"
+			"version": "8050020211210103436"
 		},
 		{
 			"arch": "x86_64",
@@ -18,25 +18,25 @@
 			"version": "8050020211203030332"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "77fc8825",
+			"arch": "aarch64",
+			"context": "aa3ced04",
 			"name": "mailman",
 			"stream": "2.1",
-			"version": "8050020211210103436"
+			"version": "8050020211203030332"
 		}
 	],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "efe69d400b2d20c0d8051d2e3e87f550b6deb07fbae9d6e0fabb5350b8283a7a",
+			"arch": "ppc64le",
+			"checksum": "26e9ad80a43ff4469d61c290d9f634fb8998d2c8856372c1a40f8690084fdb31",
 			"checksum_type": "sha256",
 			"epoch": "3",
-			"filename": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.aarch64.rpm",
-			"module": "mailman:2.1:8050020211203030332:aa3ced04:aarch64",
+			"filename": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.ppc64le.rpm",
+			"module": "mailman:2.1:8050020211210103436:77fc8825:ppc64le",
 			"name": "mailman",
 			"reboot_suggested": 0,
-			"release": "12.module_el8.5.0+2602+327eb9f3.2",
-			"src": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.src.rpm",
+			"release": "12.module_el8.5.0+26+48d4c9ee.2",
+			"src": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.src.rpm",
 			"version": "2.1.29"
 		},
 		{
@@ -53,33 +53,33 @@
 			"version": "2.1.29"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "26e9ad80a43ff4469d61c290d9f634fb8998d2c8856372c1a40f8690084fdb31",
+			"arch": "aarch64",
+			"checksum": "efe69d400b2d20c0d8051d2e3e87f550b6deb07fbae9d6e0fabb5350b8283a7a",
 			"checksum_type": "sha256",
 			"epoch": "3",
-			"filename": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.ppc64le.rpm",
-			"module": "mailman:2.1:8050020211210103436:77fc8825:ppc64le",
+			"filename": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.aarch64.rpm",
+			"module": "mailman:2.1:8050020211203030332:aa3ced04:aarch64",
 			"name": "mailman",
 			"reboot_suggested": 0,
-			"release": "12.module_el8.5.0+26+48d4c9ee.2",
-			"src": "mailman-2.1.29-12.module_el8.5.0+26+48d4c9ee.2.src.rpm",
+			"release": "12.module_el8.5.0+2602+327eb9f3.2",
+			"src": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.src.rpm",
 			"version": "2.1.29"
 		}
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4916.html",
-			"id": "ALSA-2021-4916",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-44227",
 			"id": "CVE-2021-44227",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4916.html",
+			"id": "ALSA-2021-4916",
+			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: mailman:2.1 security update",
 	"type": "security",
-	"updated_date": 1638460621
+	"updated_date": 1638529609
 }

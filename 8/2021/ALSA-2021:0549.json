@@ -4,11 +4,11 @@
 	"issued_date": 1613460869,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "229f0a1c",
+			"arch": "ppc64le",
+			"context": "9edba152",
 			"name": "nodejs",
-			"stream": "10",
-			"version": "8040020210504103258"
+			"stream": "12",
+			"version": "8060020220621120033"
 		},
 		{
 			"arch": "x86_64",
@@ -18,25 +18,25 @@
 			"version": "8060020220621120033"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
+			"arch": "aarch64",
+			"context": "229f0a1c",
 			"name": "nodejs",
-			"stream": "12",
-			"version": "8060020220621120033"
+			"stream": "10",
+			"version": "8040020210504103258"
 		}
 	],
 	"packages": [
 		{
 			"arch": "noarch",
-			"checksum": "34d06c7655fa3e83fb4c8cd1af3eeee4471f30a9231142e5561fa34eac5e1cb5",
+			"checksum": "48a2bb3aaf5af5eb9eff27d730f873dfcb942c9bc4ff765f9fbcaddd031cd78f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.noarch.rpm",
-			"module": "nodejs:10:8040020210504103258:229f0a1c:aarch64",
+			"filename": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
 			"name": "nodejs-packaging",
 			"reboot_suggested": 0,
-			"release": "3.module_el8.4.0+2224+b07ac28e",
-			"src": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.src.rpm",
+			"release": "3.module_el8.4.0+2521+c668cc9f",
+			"src": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.src.rpm",
 			"version": "17"
 		},
 		{
@@ -45,7 +45,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
-			"module": "nodejs:10:8040020210504103258:229f0a1c:aarch64",
+			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
 			"name": "nodejs-nodemon",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.4.0+2521+c668cc9f",
@@ -67,15 +67,15 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "48a2bb3aaf5af5eb9eff27d730f873dfcb942c9bc4ff765f9fbcaddd031cd78f",
+			"checksum": "34d06c7655fa3e83fb4c8cd1af3eeee4471f30a9231142e5561fa34eac5e1cb5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.noarch.rpm",
-			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
+			"filename": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.noarch.rpm",
+			"module": "nodejs:10:8040020210504103258:229f0a1c:aarch64",
 			"name": "nodejs-packaging",
 			"reboot_suggested": 0,
-			"release": "3.module_el8.4.0+2521+c668cc9f",
-			"src": "nodejs-packaging-17-3.module_el8.4.0+2521+c668cc9f.src.rpm",
+			"release": "3.module_el8.4.0+2224+b07ac28e",
+			"src": "nodejs-packaging-17-3.module_el8.4.0+2224+b07ac28e.src.rpm",
 			"version": "17"
 		}
 	],

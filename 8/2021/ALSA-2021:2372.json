@@ -4,7 +4,7 @@
 	"issued_date": 1623314714,
 	"modules": [
 		{
-			"arch": "aarch64",
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "postgresql",
 			"stream": "12",
@@ -18,7 +18,7 @@
 			"version": "8060020220531080156"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "postgresql",
 			"stream": "12",
@@ -27,16 +27,16 @@
 	],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
+			"arch": "ppc64le",
+			"checksum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
-			"module": "postgresql:12:8060020220531080156:9edba152:aarch64",
+			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
+			"module": "postgresql:12:8060020220531080156:9edba152:ppc64le",
 			"name": "postgres-decoderbufs",
 			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2758+4f4474df",
-			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
+			"release": "2.module_el8.6.0+2760+1746ec94",
+			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
 			"version": "0.10.0"
 		},
 		{
@@ -53,16 +53,16 @@
 			"version": "0.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
+			"arch": "aarch64",
+			"checksum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.ppc64le.rpm",
-			"module": "postgresql:12:8060020220531080156:9edba152:ppc64le",
+			"filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
+			"module": "postgresql:12:8060020220531080156:9edba152:aarch64",
 			"name": "postgres-decoderbufs",
 			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2760+1746ec94",
-			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
+			"release": "2.module_el8.6.0+2758+4f4474df",
+			"src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
 			"version": "0.10.0"
 		}
 	],

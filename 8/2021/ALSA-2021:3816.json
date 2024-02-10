@@ -4,7 +4,7 @@
 	"issued_date": 1634053983,
 	"modules": [
 		{
-			"arch": "aarch64",
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "httpd",
 			"stream": "2.4",
@@ -18,7 +18,7 @@
 			"version": "8050020220125203920"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "httpd",
 			"stream": "2.4",
@@ -27,12 +27,12 @@
 	],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
+			"arch": "ppc64le",
+			"checksum": "1a26f7d2af339e6769c26359dbdc9aa33083ab2b7d43c69c006dfafb57b05ac6",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
-			"module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
+			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.ppc64le.rpm",
+			"module": "httpd:2.4:8060020220622110449:9edba152:ppc64le",
 			"name": "mod_md",
 			"reboot_suggested": 0,
 			"release": "8.module_el8.6.0+2872+fe0ff7aa",
@@ -66,12 +66,12 @@
 			"version": "1.15.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "1a26f7d2af339e6769c26359dbdc9aa33083ab2b7d43c69c006dfafb57b05ac6",
+			"arch": "aarch64",
+			"checksum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.ppc64le.rpm",
-			"module": "httpd:2.4:8060020220622110449:9edba152:ppc64le",
+			"filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
+			"module": "httpd:2.4:8060020220622110449:9edba152:aarch64",
 			"name": "mod_md",
 			"reboot_suggested": 0,
 			"release": "8.module_el8.6.0+2872+fe0ff7aa",
@@ -81,11 +81,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-3816.html",
-			"id": "ALSA-2021-3816",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-26691",
 			"id": "CVE-2021-26691",
 			"type": "cve"
@@ -94,10 +89,15 @@
 			"href": "https://vulners.com/cve/CVE-2021-40438",
 			"id": "CVE-2021-40438",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-3816.html",
+			"id": "ALSA-2021-3816",
+			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: httpd:2.4 security update",
 	"type": "security",
-	"updated_date": 1634053983
+	"updated_date": 1643182044
 }
