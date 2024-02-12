@@ -4,13 +4,6 @@
 	"issued_date": 1572976333,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8050020211216102332"
-		},
-		{
 			"arch": "x86_64",
 			"context": "830d479e",
 			"name": "container-tools",
@@ -23,48 +16,16 @@
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8040020210617090548"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8050020211216102332"
 		}
 	],
 	"packages": [
-		{
-			"arch": "ppc64le",
-			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-systemd-hook",
-			"reboot_suggested": 0,
-			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
-			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1.15"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-umount",
-			"reboot_suggested": 0,
-			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
-			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "2.3.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "fuse-overlayfs",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.5.0+119+9a9ec082",
-			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.3"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "813eb4acbccfc1f231c6b9b02b01c70196d7b88c309598a270c55383de41bf36",
@@ -141,6 +102,45 @@
 			"reboot_suggested": 0,
 			"release": "5.module_el8.4.0+2496+12421f43",
 			"src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "0.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-systemd-hook",
+			"reboot_suggested": 0,
+			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
+			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1.15"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-umount",
+			"reboot_suggested": 0,
+			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
+			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "2.3.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "fuse-overlayfs",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.5.0+119+9a9ec082",
+			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
 			"version": "0.3"
 		}
 	],

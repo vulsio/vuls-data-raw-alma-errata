@@ -4,13 +4,6 @@
 	"issued_date": 1557200433,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "17efdbc7",
-			"name": "python36",
-			"stream": "3.6",
-			"version": "8050020211216165637"
-		},
-		{
 			"arch": "x86_64",
 			"context": "982725ab",
 			"name": "python36",
@@ -23,35 +16,16 @@
 			"name": "python36",
 			"stream": "3.6",
 			"version": "8050020211009220235"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "17efdbc7",
+			"name": "python36",
+			"stream": "3.6",
+			"version": "8050020211216165637"
 		}
 	],
 	"packages": [
-		{
-			"arch": "noarch",
-			"checksum": "a0b49c40df8ed24c7559d6a75bac328c7e6d6f6709c88b4f983837303ac807e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-docs-3.6.7-2.module_el8.5.0+135+5ce32bc4.noarch.rpm",
-			"module": "python36:3.6:8050020211216165637:17efdbc7:ppc64le",
-			"name": "python3-docs",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.5.0+135+5ce32bc4",
-			"src": "python-docs-3.6.7-2.module_el8.5.0+135+5ce32bc4.src.rpm",
-			"version": "3.6.7"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "cf17ace7f7baa68bfc8b4ade60b729054ebc4dc785f87bbf5e0be36e9236a00b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-docutils-0.14-12.module_el8.5.0+135+5ce32bc4.noarch.rpm",
-			"module": "python36:3.6:8050020211216165637:17efdbc7:ppc64le",
-			"name": "python3-docutils",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.5.0+135+5ce32bc4",
-			"src": "python-docutils-0.14-12.module_el8.5.0+135+5ce32bc4.src.rpm",
-			"version": "0.14"
-		},
 		{
 			"arch": "noarch",
 			"checksum": "5482a562a679368b14cff62291a084baa1d9db9351f406e0bb7247b7aceb9d9c",
@@ -76,6 +50,32 @@
 			"reboot_suggested": 0,
 			"release": "12.module_el8.5.0+2569+5c5719bc",
 			"src": "python-docutils-0.14-12.module_el8.5.0+2569+5c5719bc.src.rpm",
+			"version": "0.14"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a0b49c40df8ed24c7559d6a75bac328c7e6d6f6709c88b4f983837303ac807e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-docs-3.6.7-2.module_el8.5.0+135+5ce32bc4.noarch.rpm",
+			"module": "python36:3.6:8050020211216165637:17efdbc7:ppc64le",
+			"name": "python3-docs",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.5.0+135+5ce32bc4",
+			"src": "python-docs-3.6.7-2.module_el8.5.0+135+5ce32bc4.src.rpm",
+			"version": "3.6.7"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cf17ace7f7baa68bfc8b4ade60b729054ebc4dc785f87bbf5e0be36e9236a00b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-docutils-0.14-12.module_el8.5.0+135+5ce32bc4.noarch.rpm",
+			"module": "python36:3.6:8050020211216165637:17efdbc7:ppc64le",
+			"name": "python3-docutils",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.5.0+135+5ce32bc4",
+			"src": "python-docutils-0.14-12.module_el8.5.0+135+5ce32bc4.src.rpm",
 			"version": "0.14"
 		}
 	],

@@ -5,48 +5,12 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "67af19e1e9a131508fd9369938b576e601662d52bf4de05b92ab0008f7d7a631",
+			"arch": "x86_64",
+			"checksum": "1038ad74de5c7e63c2dcf72615943abe8882a4d5677dc51402d8cf9b81cc1e21",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libpq-13.5-1.el8.ppc64le.rpm",
+			"filename": "libpq-13.5-1.el8.x86_64.rpm",
 			"name": "libpq",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "libpq-13.5-1.el8.src.rpm",
-			"version": "13.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "67af19e1e9a131508fd9369938b576e601662d52bf4de05b92ab0008f7d7a631",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libpq-13.5-1.el8.ppc64le.rpm",
-			"name": "libpq",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "libpq-13.5-1.el8.src.rpm",
-			"version": "13.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6e67c5c27ff5d4dfb465a70700395a3828443a64380520379adb3685e4f15a3c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libpq-devel-13.5-1.el8.ppc64le.rpm",
-			"name": "libpq-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "libpq-13.5-1.el8.src.rpm",
-			"version": "13.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6e67c5c27ff5d4dfb465a70700395a3828443a64380520379adb3685e4f15a3c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libpq-devel-13.5-1.el8.ppc64le.rpm",
-			"name": "libpq-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "libpq-13.5-1.el8.src.rpm",
@@ -77,12 +41,48 @@
 			"version": "13.5"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "18f7f91abc2ad9777496dda5643cb31bfa174111b42f67c1e7c571b98efd46e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libpq-devel-13.5-1.el8.x86_64.rpm",
+			"name": "libpq-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libpq-13.5-1.el8.src.rpm",
+			"version": "13.5"
+		},
+		{
 			"arch": "i686",
 			"checksum": "722fc763887bcb02a98d0af2f27f2d0f816b16a6707c38ffafb542e9702820da",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libpq-devel-13.5-1.el8.i686.rpm",
 			"name": "libpq-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libpq-13.5-1.el8.src.rpm",
+			"version": "13.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "722fc763887bcb02a98d0af2f27f2d0f816b16a6707c38ffafb542e9702820da",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libpq-devel-13.5-1.el8.i686.rpm",
+			"name": "libpq-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libpq-13.5-1.el8.src.rpm",
+			"version": "13.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "bd90b227342a78ac02a7faf5a0c510d5da467309552384a9f2bcba37d26281c9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libpq-13.5-1.el8.i686.rpm",
+			"name": "libpq",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "libpq-13.5-1.el8.src.rpm",
@@ -123,6 +123,30 @@
 			"release": "1.el8",
 			"src": "libpq-13.5-1.el8.src.rpm",
 			"version": "13.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "67af19e1e9a131508fd9369938b576e601662d52bf4de05b92ab0008f7d7a631",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libpq-13.5-1.el8.ppc64le.rpm",
+			"name": "libpq",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libpq-13.5-1.el8.src.rpm",
+			"version": "13.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6e67c5c27ff5d4dfb465a70700395a3828443a64380520379adb3685e4f15a3c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libpq-devel-13.5-1.el8.ppc64le.rpm",
+			"name": "libpq-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "libpq-13.5-1.el8.src.rpm",
+			"version": "13.5"
 		}
 	],
 	"references": [
@@ -140,5 +164,5 @@
 	"severity": "Low",
 	"title": "Low: libpq security update",
 	"type": "security",
-	"updated_date": 1652169998
+	"updated_date": 1678725159
 }

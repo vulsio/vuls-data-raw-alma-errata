@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "1f88acaa244d363a1b55df1e4749312db4e98b42311eed72cfe57d06db6caffb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.10.0-1.el8_7.alma.ppc64le.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "1.el8_7.alma",
-			"src": "firefox-102.10.0-1.el8_7.alma.src.rpm",
-			"version": "102.10.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "dffe57dce948a9886666d2387633865dd52f229956c0ad5c975e0622585fd6d1",
 			"checksum_type": "sha256",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "firefox-102.10.0-1.el8_7.alma.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.alma",
+			"src": "firefox-102.10.0-1.el8_7.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1f88acaa244d363a1b55df1e4749312db4e98b42311eed72cfe57d06db6caffb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.10.0-1.el8_7.alma.ppc64le.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
@@ -148,5 +148,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1681996313
+	"updated_date": 1681996314
 }

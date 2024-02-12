@@ -1,0 +1,82 @@
+{
+	"description": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpslice: use-after-free in extract_slice() (CVE-2021-41043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0769",
+	"issued_date": 1707696000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "12a0bafe2a3262db8a54d2031c9882119beec38d3dbc5695dd532c9b46d5e6d6",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "tcpdump-4.9.3-3.el8_9.1.alma.1.x86_64.rpm",
+			"name": "tcpdump",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "tcpdump-4.9.3-3.el8_9.1.alma.1.src.rpm",
+			"version": "4.9.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "bc7e91e9e749905ed26c3a1ebf2aa7bff4b7474b7556d8c7e2d274defb548252",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "tcpdump-4.9.3-3.el8_9.1.alma.1.aarch64.rpm",
+			"name": "tcpdump",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "tcpdump-4.9.3-3.el8_9.1.alma.1.src.rpm",
+			"version": "4.9.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "082bd763bfe48770e1481ab36ab85febf6e02b44f05c10883beac3a977aa5a9b",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "tcpdump-4.9.3-3.el8_9.1.alma.1.s390x.rpm",
+			"name": "tcpdump",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "tcpdump-4.9.3-3.el8_9.1.alma.1.src.rpm",
+			"version": "4.9.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e426519b7dae1719d0e6dffb3d9ad9e95f2747f94b0f9d711babbe3ff8eaeb59",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "tcpdump-4.9.3-3.el8_9.1.alma.1.ppc64le.rpm",
+			"name": "tcpdump",
+			"reboot_suggested": 0,
+			"release": "3.el8_9.1.alma.1",
+			"src": "tcpdump-4.9.3-3.el8_9.1.alma.1.src.rpm",
+			"version": "4.9.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0769",
+			"id": "RHSA-2024:0769",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2021-41043",
+			"id": "CVE-2021-41043",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2040392",
+			"id": "2040392",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0769.html",
+			"id": "ALSA-2024:0769",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: tcpdump security update",
+	"type": "security",
+	"updated_date": 1707741342
+}

@@ -11,13 +11,6 @@
 			"version": "8070020230125092346"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "b754926a",
-			"name": "go-toolset",
-			"stream": "rhel8",
-			"version": "8070020230125092346"
-		},
-		{
 			"arch": "x86_64",
 			"context": "b754926a",
 			"name": "go-toolset",
@@ -33,6 +26,13 @@
 		},
 		{
 			"arch": "s390x",
+			"context": "b754926a",
+			"name": "go-toolset",
+			"stream": "rhel8",
+			"version": "8070020230125092346"
+		},
+		{
+			"arch": "ppc64le",
 			"context": "b754926a",
 			"name": "go-toolset",
 			"stream": "rhel8",
@@ -90,45 +90,6 @@
 			"reboot_suggested": 0,
 			"release": "1.module_el8.7.0+3397+4350156d",
 			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "31c945ff0b09d96fb5907d58d4201c308c6a8b18b52f71ea2475314a9c23c8f4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
-			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
-			"name": "golang",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e1af56f83761381a6926bc7f32384ddbf67a1b73b8daa9f9666502b9743b0673",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-bin-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
-			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
-			"name": "golang-bin",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f635e03d4684707ed9b17e44f15e8673b9ae8fa90a29e1c28cd1d927d6e4a164",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
-			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
-			"name": "go-toolset",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
 			"version": "1.18.9"
 		},
 		{
@@ -268,6 +229,45 @@
 			"epoch": "0",
 			"filename": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.s390x.rpm",
 			"module": "go-toolset:rhel8:8070020230125092346:b754926a:s390x",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "31c945ff0b09d96fb5907d58d4201c308c6a8b18b52f71ea2475314a9c23c8f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e1af56f83761381a6926bc7f32384ddbf67a1b73b8daa9f9666502b9743b0673",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f635e03d4684707ed9b17e44f15e8673b9ae8fa90a29e1c28cd1d927d6e4a164",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.ppc64le.rpm",
+			"module": "go-toolset:rhel8:8070020230125092346:b754926a:ppc64le",
 			"name": "go-toolset",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.7.0+3397+4350156d",

@@ -4,13 +4,6 @@
 	"issued_date": 1628596851,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "nodejs",
-			"stream": "12",
-			"version": "8060020220621120033"
-		},
-		{
 			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "nodejs",
@@ -23,35 +16,16 @@
 			"name": "nodejs",
 			"stream": "12",
 			"version": "8060020220621120033"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "9edba152",
+			"name": "nodejs",
+			"stream": "12",
+			"version": "8060020220621120033"
 		}
 	],
 	"packages": [
-		{
-			"arch": "noarch",
-			"checksum": "46efea0b245114ef59fb19785c77620fd338becc1d36c6c3ecf7e67d916cd8ed",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.noarch.rpm",
-			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
-			"name": "nodejs-packaging",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+254+b4526b16",
-			"src": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.src.rpm",
-			"version": "23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
-			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
-			"name": "nodejs-nodemon",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.4.0+2521+c668cc9f",
-			"src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
-			"version": "2.0.3"
-		},
 		{
 			"arch": "noarch",
 			"checksum": "5ec709f70c833b784601552cba74067eb2a98aecaf8403431e26580abb8601b5",
@@ -63,6 +37,32 @@
 			"reboot_suggested": 0,
 			"release": "3.module_el8.4.0+2522+3bd42762",
 			"src": "nodejs-packaging-23-3.module_el8.4.0+2522+3bd42762.src.rpm",
+			"version": "23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9d421316512b1ef3258536e633a07d90a8fe282153109d04cd255c96e923915e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.noarch.rpm",
+			"module": "nodejs:12:8060020220621120033:9edba152:x86_64",
+			"name": "nodejs-nodemon",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.4.0+2521+c668cc9f",
+			"src": "nodejs-nodemon-2.0.3-1.module_el8.4.0+2521+c668cc9f.src.rpm",
+			"version": "2.0.3"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "46efea0b245114ef59fb19785c77620fd338becc1d36c6c3ecf7e67d916cd8ed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.noarch.rpm",
+			"module": "nodejs:12:8060020220621120033:9edba152:ppc64le",
+			"name": "nodejs-packaging",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+254+b4526b16",
+			"src": "nodejs-packaging-23-3.module_el8.5.0+254+b4526b16.src.rpm",
 			"version": "23"
 		}
 	],

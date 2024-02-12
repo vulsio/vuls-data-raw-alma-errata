@@ -11,13 +11,6 @@
 			"version": "8090020231115121850"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "nodejs",
-			"stream": "20",
-			"version": "8090020231115121850"
-		},
-		{
 			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "nodejs",
@@ -33,6 +26,13 @@
 		},
 		{
 			"arch": "s390x",
+			"context": "9edba152",
+			"name": "nodejs",
+			"stream": "20",
+			"version": "8090020231115121850"
+		},
+		{
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "nodejs",
 			"stream": "20",
@@ -91,58 +91,6 @@
 			"release": "4.module_el8.9.0+3684+11b9e959",
 			"src": "nodejs-packaging-2021.06-4.module_el8.9.0+3684+11b9e959.src.rpm",
 			"version": "2021.06"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3b876f1ec9b238543cdc7e2d71669bd10abecfeae42aa1e35a95c9c415fa632c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
-			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
-			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3675+0258a6d9",
-			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
-			"version": "20.8.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "559c0e2ee25c797a743b7de55b9c92007e056f152d970aac01b1c2b63cee20a2",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "npm-10.1.0-1.20.8.1.1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
-			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
-			"name": "npm",
-			"reboot_suggested": 0,
-			"release": "1.20.8.1.1.module_el8.9.0+3675+0258a6d9",
-			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
-			"version": "10.1.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "797f551eda6396b214b7286b69914ac46c3c1a2a63f8cb1adeec1766f30fd44e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-full-i18n-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
-			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3675+0258a6d9",
-			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
-			"version": "20.8.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c0130cb81bd4a72cbd4d01bf9127cb5fb2f1c63ed7fdd5eddacca8ad06b4edca",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-devel-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
-			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
-			"name": "nodejs-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3675+0258a6d9",
-			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
-			"version": "20.8.1"
 		},
 		{
 			"arch": "x86_64",
@@ -295,6 +243,58 @@
 			"filename": "nodejs-full-i18n-20.8.1-1.module_el8.9.0+3675+0258a6d9.s390x.rpm",
 			"module": "nodejs:20:8090020231115121850:9edba152:s390x",
 			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3675+0258a6d9",
+			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
+			"version": "20.8.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3b876f1ec9b238543cdc7e2d71669bd10abecfeae42aa1e35a95c9c415fa632c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
+			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3675+0258a6d9",
+			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
+			"version": "20.8.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "559c0e2ee25c797a743b7de55b9c92007e056f152d970aac01b1c2b63cee20a2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-10.1.0-1.20.8.1.1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
+			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.20.8.1.1.module_el8.9.0+3675+0258a6d9",
+			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
+			"version": "10.1.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "797f551eda6396b214b7286b69914ac46c3c1a2a63f8cb1adeec1766f30fd44e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
+			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3675+0258a6d9",
+			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",
+			"version": "20.8.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c0130cb81bd4a72cbd4d01bf9127cb5fb2f1c63ed7fdd5eddacca8ad06b4edca",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-devel-20.8.1-1.module_el8.9.0+3675+0258a6d9.ppc64le.rpm",
+			"module": "nodejs:20:8090020231115121850:9edba152:ppc64le",
+			"name": "nodejs-devel",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.9.0+3675+0258a6d9",
 			"src": "nodejs-20.8.1-1.module_el8.9.0+3675+0258a6d9.src.rpm",

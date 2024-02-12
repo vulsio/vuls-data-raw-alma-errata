@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "9a237c4cd786a7e2cb6d6e593a40448e5c535ba9376975044b6089a13971486b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-7.5.11-3.el8_6.ppc64le.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "3.el8_6",
-			"src": "grafana-7.5.11-3.el8_6.src.rpm",
-			"version": "7.5.11"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "fea82bbfd29af7f539c017fde4a9e0e9324ff638bfce0638d828fd60a529a4b5",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "grafana-7.5.11-3.el8_6.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "3.el8_6",
+			"src": "grafana-7.5.11-3.el8_6.src.rpm",
+			"version": "7.5.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9a237c4cd786a7e2cb6d6e593a40448e5c535ba9376975044b6089a13971486b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.11-3.el8_6.ppc64le.rpm",
 			"name": "grafana",
 			"reboot_suggested": 0,
 			"release": "3.el8_6",
@@ -66,5 +66,5 @@
 	"severity": "Important",
 	"title": "Important: grafana security update",
 	"type": "security",
-	"updated_date": 1659000751
+	"updated_date": 1659000812
 }

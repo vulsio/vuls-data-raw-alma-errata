@@ -4,13 +4,6 @@
 	"issued_date": 1586264289,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "20125149",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8050020211216102332"
-		},
-		{
 			"arch": "x86_64",
 			"context": "830d479e",
 			"name": "container-tools",
@@ -23,100 +16,16 @@
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8040020210617090548"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "20125149",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8050020211216102332"
 		}
 	],
 	"packages": [
-		{
-			"arch": "ppc64le",
-			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-systemd-hook",
-			"reboot_suggested": 0,
-			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
-			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1.15"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "oci-umount",
-			"reboot_suggested": 0,
-			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
-			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "2.3.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a19e7264fd87fd26ec220f206df02adb6e3139c0c9c0bdb0b2e27487eb3b81f0",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "containers-common-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "containers-common",
-			"reboot_suggested": 0,
-			"release": "6.git1715c90.module_el8.5.0+119+9a9ec082",
-			"src": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1.32"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b33a8341fd5f7df77af76411d868e11d68ca34fe23a292bbf7e9a0e8393dbe17",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082",
-			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "fuse-overlayfs",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.5.0+119+9a9ec082",
-			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c21f52f226ed49e01b5986162562e8677f81a1d6ab354a53ddf53d3b0571d958",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "skopeo",
-			"reboot_suggested": 0,
-			"release": "6.git1715c90.module_el8.5.0+119+9a9ec082",
-			"src": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.1.32"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d55383961c04e85cb5d2af05100b80fcc6a80e969af224403cc557610464625a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
-			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
-			"name": "containernetworking-plugins",
-			"reboot_suggested": 0,
-			"release": "4.git9ebe139.module_el8.5.0+119+9a9ec082",
-			"src": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.5.0+119+9a9ec082.src.rpm",
-			"version": "0.7.4"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "136c94b21fac16481272af5b5a2062818d62813e6349b88fb0ca4cb7ba6d839e",
@@ -298,6 +207,97 @@
 			"release": "6.git1715c90.module_el8.4.0+2496+12421f43",
 			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.src.rpm",
 			"version": "0.1.32"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3f0297ea60af68d82bac1e3ff0466762adac366c8888335e60681908c5146ba7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-systemd-hook",
+			"reboot_suggested": 0,
+			"release": "2.git2d0b8a3.module_el8.5.0+119+9a9ec082",
+			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1.15"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6a69d33989417b5db165ed7f7d5c377e2da96c932944e9aeb391bb252300e3c1",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "oci-umount",
+			"reboot_suggested": 0,
+			"release": "2.git87f9237.module_el8.5.0+119+9a9ec082",
+			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "2.3.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a19e7264fd87fd26ec220f206df02adb6e3139c0c9c0bdb0b2e27487eb3b81f0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containers-common-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "containers-common",
+			"reboot_suggested": 0,
+			"release": "6.git1715c90.module_el8.5.0+119+9a9ec082",
+			"src": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1.32"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b33a8341fd5f7df77af76411d868e11d68ca34fe23a292bbf7e9a0e8393dbe17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082",
+			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b38d3c79f63adfad5e2edafe7104366884d814422b01727e13afcacf34d1e1ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "fuse-overlayfs",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.5.0+119+9a9ec082",
+			"src": "fuse-overlayfs-0.3-5.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c21f52f226ed49e01b5986162562e8677f81a1d6ab354a53ddf53d3b0571d958",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "6.git1715c90.module_el8.5.0+119+9a9ec082",
+			"src": "skopeo-0.1.32-6.git1715c90.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.1.32"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d55383961c04e85cb5d2af05100b80fcc6a80e969af224403cc557610464625a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.5.0+119+9a9ec082.ppc64le.rpm",
+			"module": "container-tools:1.0:8050020211216102332:20125149:ppc64le",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.git9ebe139.module_el8.5.0+119+9a9ec082",
+			"src": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.5.0+119+9a9ec082.src.rpm",
+			"version": "0.7.4"
 		}
 	],
 	"references": [

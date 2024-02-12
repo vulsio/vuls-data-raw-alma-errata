@@ -4,13 +4,6 @@
 	"issued_date": 1565890265,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "9edba152",
-			"name": "mysql",
-			"stream": "8.0",
-			"version": "8050020211210104307"
-		},
-		{
 			"arch": "x86_64",
 			"context": "522a0ee4",
 			"name": "mysql",
@@ -23,48 +16,16 @@
 			"name": "mysql",
 			"stream": "8.0",
 			"version": "8040020210924073447"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "9edba152",
+			"name": "mysql",
+			"stream": "8.0",
+			"version": "8050020211210104307"
 		}
 	],
 	"packages": [
-		{
-			"arch": "ppc64le",
-			"checksum": "6923be24f74a5820b9260de6627b5241ebdb00dd574c8954eda21942b67ff892",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.ppc64le.rpm",
-			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
-			"name": "mecab-ipadic-EUCJP",
-			"reboot_suggested": 0,
-			"release": "16.module_el8.5.0+33+8bc5f36a",
-			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.src.rpm",
-			"version": "2.7.0.20070801"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7417c193400b5064079abd43d904f503942d4b83d2bc554be31a74edef94b331",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mecab-0.996-1.module_el8.5.0+33+8bc5f36a.9.ppc64le.rpm",
-			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
-			"name": "mecab",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+33+8bc5f36a.9",
-			"src": "mecab-0.996-1.module_el8.5.0+33+8bc5f36a.9.src.rpm",
-			"version": "0.996"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c365289b4d85bab76447396b8b136ad3723ff929117815c16b98c65715319d79",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.ppc64le.rpm",
-			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
-			"name": "mecab-ipadic",
-			"reboot_suggested": 0,
-			"release": "16.module_el8.5.0+33+8bc5f36a",
-			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.src.rpm",
-			"version": "2.7.0.20070801"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "70ddb89b5dab7580422739226a6c2a9cfd9ea37d86e658a560bd579d93e7a2f8",
@@ -141,6 +102,45 @@
 			"reboot_suggested": 0,
 			"release": "16.module_el8.4.0+2532+b8928c02",
 			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
+			"version": "2.7.0.20070801"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6923be24f74a5820b9260de6627b5241ebdb00dd574c8954eda21942b67ff892",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.ppc64le.rpm",
+			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
+			"name": "mecab-ipadic-EUCJP",
+			"reboot_suggested": 0,
+			"release": "16.module_el8.5.0+33+8bc5f36a",
+			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.src.rpm",
+			"version": "2.7.0.20070801"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7417c193400b5064079abd43d904f503942d4b83d2bc554be31a74edef94b331",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mecab-0.996-1.module_el8.5.0+33+8bc5f36a.9.ppc64le.rpm",
+			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
+			"name": "mecab",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+33+8bc5f36a.9",
+			"src": "mecab-0.996-1.module_el8.5.0+33+8bc5f36a.9.src.rpm",
+			"version": "0.996"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c365289b4d85bab76447396b8b136ad3723ff929117815c16b98c65715319d79",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.ppc64le.rpm",
+			"module": "mysql:8.0:8050020211210104307:9edba152:ppc64le",
+			"name": "mecab-ipadic",
+			"reboot_suggested": 0,
+			"release": "16.module_el8.5.0+33+8bc5f36a",
+			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.5.0+33+8bc5f36a.src.rpm",
 			"version": "2.7.0.20070801"
 		}
 	],
