@@ -5,11 +5,95 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+			"arch": "i686",
+			"checksum": "1f0f3065ca8b922c183ef6c1401b479591779b632899da3e3e522d4e3431844d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+			"filename": "gnome-software-3.36.1-10.el8.i686.rpm",
+			"name": "gnome-software",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "53512b765de8ea98b40c4a95ce98af3ab00a88169bbad21737b12a9e99d54d76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.19.5-3.el8.i686.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "LibRaw-0.19.5-3.el8.src.rpm",
+			"version": "0.19.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6a34fb199dc3628ad8908c0195022c2f4b643799970a12740ca8cf9dda636811",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.19.5-3.el8.x86_64.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "LibRaw-0.19.5-3.el8.src.rpm",
+			"version": "0.19.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71888c60ede07da8cb4f1a9d98edb577f19e70e1da816677baf7d5372ba8b2b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "accountsservice-devel-0.6.55-2.el8.x86_64.rpm",
+			"name": "accountsservice-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "accountsservice-0.6.55-2.el8.src.rpm",
+			"version": "0.6.55"
+		},
+		{
+			"arch": "i686",
+			"checksum": "73eb23af302cea1491754668cc5d9181e5318aa4967692357b43d752e4186ecf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mutter-devel-3.32.2-60.el8.i686.rpm",
+			"name": "mutter-devel",
+			"reboot_suggested": 0,
+			"release": "60.el8",
+			"src": "mutter-3.32.2-60.el8.src.rpm",
+			"version": "3.32.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "78b00af7239c06283617894892d4b7ef28c385ae0314cbb530d2167569f1207b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-devel-0.19.5-3.el8.x86_64.rpm",
+			"name": "LibRaw-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "LibRaw-0.19.5-3.el8.src.rpm",
+			"version": "0.19.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "791a6b3ac180e6199498b3ae4309e17224513f86ad2eb74f0f486b10ee57feeb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-software-devel-3.36.1-10.el8.i686.rpm",
+			"name": "gnome-software-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8cac3ea2b063ad06f1f14bbe5dda801ffc8eaa3a25041b0478f9ff68a567e3c6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-autoar-0.2.3-2.el8.x86_64.rpm",
 			"name": "gnome-autoar",
 			"reboot_suggested": 0,
 			"release": "2.el8",
@@ -17,16 +101,40 @@
 			"version": "0.2.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+			"arch": "x86_64",
+			"checksum": "9b68b6a5c14f40d904a23f228a3902685bf8a72bd77ce6e8f09e54a17a94b72f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
-			"name": "gsettings-desktop-schemas",
+			"filename": "gnome-software-devel-3.36.1-10.el8.x86_64.rpm",
+			"name": "gnome-software-devel",
 			"reboot_suggested": 0,
-			"release": "6.el8",
-			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-			"version": "3.32.0"
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b4e2561f9f8d1bb050c051911869d377f2303df742bfe045fa3c169b25224391",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mutter-devel-3.32.2-60.el8.x86_64.rpm",
+			"name": "mutter-devel",
+			"reboot_suggested": 0,
+			"release": "60.el8",
+			"src": "mutter-3.32.2-60.el8.src.rpm",
+			"version": "3.32.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ec06bb263abcfff3781cb1da669f17ebb19c8f35278a36c09d28b822cef5f163",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "accountsservice-devel-0.6.55-2.el8.i686.rpm",
+			"name": "accountsservice-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "accountsservice-0.6.55-2.el8.src.rpm",
+			"version": "0.6.55"
 		},
 		{
 			"arch": "x86_64",
@@ -461,18 +569,6 @@
 			"version": "3.32.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "6a34fb199dc3628ad8908c0195022c2f4b643799970a12740ca8cf9dda636811",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-0.19.5-3.el8.x86_64.rpm",
-			"name": "LibRaw",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "LibRaw-0.19.5-3.el8.src.rpm",
-			"version": "0.19.5"
-		},
-		{
 			"arch": "i686",
 			"checksum": "6a6e53e86751c11026c8db1d9c11d06197d63050dc34483780b4a42b04c44ea0",
 			"checksum_type": "sha256",
@@ -510,18 +606,6 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "78b00af7239c06283617894892d4b7ef28c385ae0314cbb530d2167569f1207b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-devel-0.19.5-3.el8.x86_64.rpm",
-			"name": "LibRaw-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "LibRaw-0.19.5-3.el8.src.rpm",
-			"version": "0.19.5"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "86b9d8c478c5e99904666f790646692fe7421288795971a90e894cb1cfc4b849",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -531,18 +615,6 @@
 			"release": "15.el8",
 			"src": "gdm-40.0-15.el8.src.rpm",
 			"version": "40.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8cac3ea2b063ad06f1f14bbe5dda801ffc8eaa3a25041b0478f9ff68a567e3c6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-autoar-0.2.3-2.el8.x86_64.rpm",
-			"name": "gnome-autoar",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-			"version": "0.2.3"
 		},
 		{
 			"arch": "i686",
@@ -845,100 +917,28 @@
 			"version": "40.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "1f0f3065ca8b922c183ef6c1401b479591779b632899da3e3e522d4e3431844d",
+			"arch": "aarch64",
+			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnome-software-3.36.1-10.el8.i686.rpm",
-			"name": "gnome-software",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "53512b765de8ea98b40c4a95ce98af3ab00a88169bbad21737b12a9e99d54d76",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-devel-0.19.5-3.el8.i686.rpm",
-			"name": "LibRaw-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "LibRaw-0.19.5-3.el8.src.rpm",
-			"version": "0.19.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "71888c60ede07da8cb4f1a9d98edb577f19e70e1da816677baf7d5372ba8b2b5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "accountsservice-devel-0.6.55-2.el8.x86_64.rpm",
-			"name": "accountsservice-devel",
+			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+			"name": "gnome-autoar",
 			"reboot_suggested": 0,
 			"release": "2.el8",
-			"src": "accountsservice-0.6.55-2.el8.src.rpm",
-			"version": "0.6.55"
+			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+			"version": "0.2.3"
 		},
 		{
-			"arch": "i686",
-			"checksum": "73eb23af302cea1491754668cc5d9181e5318aa4967692357b43d752e4186ecf",
+			"arch": "aarch64",
+			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mutter-devel-3.32.2-60.el8.i686.rpm",
-			"name": "mutter-devel",
+			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
+			"name": "gsettings-desktop-schemas",
 			"reboot_suggested": 0,
-			"release": "60.el8",
-			"src": "mutter-3.32.2-60.el8.src.rpm",
-			"version": "3.32.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "791a6b3ac180e6199498b3ae4309e17224513f86ad2eb74f0f486b10ee57feeb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-software-devel-3.36.1-10.el8.i686.rpm",
-			"name": "gnome-software-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9b68b6a5c14f40d904a23f228a3902685bf8a72bd77ce6e8f09e54a17a94b72f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-software-devel-3.36.1-10.el8.x86_64.rpm",
-			"name": "gnome-software-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b4e2561f9f8d1bb050c051911869d377f2303df742bfe045fa3c169b25224391",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mutter-devel-3.32.2-60.el8.x86_64.rpm",
-			"name": "mutter-devel",
-			"reboot_suggested": 0,
-			"release": "60.el8",
-			"src": "mutter-3.32.2-60.el8.src.rpm",
-			"version": "3.32.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "ec06bb263abcfff3781cb1da669f17ebb19c8f35278a36c09d28b822cef5f163",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "accountsservice-devel-0.6.55-2.el8.i686.rpm",
-			"name": "accountsservice-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "accountsservice-0.6.55-2.el8.src.rpm",
-			"version": "0.6.55"
+			"release": "6.el8",
+			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+			"version": "3.32.0"
 		},
 		{
 			"arch": "aarch64",
@@ -999,18 +999,6 @@
 			"release": "3.el8",
 			"src": "LibRaw-0.19.5-3.el8.src.rpm",
 			"version": "0.19.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
-			"name": "gnome-software-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
 		},
 		{
 			"arch": "aarch64",
@@ -1098,6 +1086,18 @@
 		},
 		{
 			"arch": "ppc64le",
+			"checksum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
+			"name": "gnome-software-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
+		},
+		{
+			"arch": "ppc64le",
 			"checksum": "2dde1774f3edcbff13f1eda38a59266b386061a6b5f2049540c9b1a7be577c53",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -1182,11 +1182,6 @@
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
-			"id": "ALSA-2021-4381",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-13558",
 			"id": "CVE-2020-13558",
@@ -1331,10 +1326,15 @@
 			"href": "https://vulners.com/cve/CVE-2021-30799",
 			"id": "CVE-2021-30799",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
+			"id": "ALSA-2021-4381",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636463406
+	"updated_date": 1636712461
 }

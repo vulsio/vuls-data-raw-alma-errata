@@ -4,14 +4,14 @@
 	"issued_date": 1684195200,
 	"modules": [
 		{
-			"arch": "x86_64",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "mysql",
 			"stream": "8.0",
 			"version": "8060020221025181128"
 		},
 		{
-			"arch": "aarch64",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "mysql",
 			"stream": "8.0",
@@ -34,19 +34,6 @@
 	],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "e621458cd621eb4c60bf22745f688aa1016072241506d301ed4fc5dba4dfd764",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
-			"module": "mysql:8.0:8060020221025181128:9edba152:x86_64",
-			"name": "mecab-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+3340+d764b636",
-			"src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
-			"version": "0.996"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "c0b14c42d4982d3da9aee02be557152498892b0b4e4a2434a6881bb17e53eba3",
 			"checksum_type": "sha256",
@@ -60,12 +47,12 @@
 			"version": "0.996"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "5f0fdccc4a6fb2dc81e10b56b0030ad609bb2a3967e798db8fd5bb8543b91cce",
+			"arch": "x86_64",
+			"checksum": "e621458cd621eb4c60bf22745f688aa1016072241506d301ed4fc5dba4dfd764",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.ppc64le.rpm",
-			"module": "mysql:8.0:8060020221025181128:9edba152:ppc64le",
+			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
+			"module": "mysql:8.0:8060020221025181128:9edba152:x86_64",
 			"name": "mecab-devel",
 			"reboot_suggested": 0,
 			"release": "2.module_el8.6.0+3340+d764b636",
@@ -201,6 +188,19 @@
 			"release": "16.module_el8.6.0+3340+d764b636",
 			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
 			"version": "2.7.0.20070801"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5f0fdccc4a6fb2dc81e10b56b0030ad609bb2a3967e798db8fd5bb8543b91cce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.ppc64le.rpm",
+			"module": "mysql:8.0:8060020221025181128:9edba152:ppc64le",
+			"name": "mecab-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+3340+d764b636",
+			"src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
+			"version": "0.996"
 		},
 		{
 			"arch": "aarch64",

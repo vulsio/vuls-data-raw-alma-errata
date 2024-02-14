@@ -53,11 +53,11 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a69d514061f8620850d6239e6512b6fb306bdd9578ca6e87a5ee9d037127df39",
+			"arch": "x86_64",
+			"checksum": "30c97b710672bf50b971a60be5f0d779c2401f299d4b50d07132872e0c15f02d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.aarch64.rpm",
+			"filename": "gnutls-3.6.16-8.el8_9.x86_64.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
@@ -65,11 +65,11 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "30c97b710672bf50b971a60be5f0d779c2401f299d4b50d07132872e0c15f02d",
+			"arch": "aarch64",
+			"checksum": "a69d514061f8620850d6239e6512b6fb306bdd9578ca6e87a5ee9d037127df39",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.x86_64.rpm",
+			"filename": "gnutls-3.6.16-8.el8_9.aarch64.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
@@ -137,18 +137,6 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "98f4ed22d37ec5031664aeb596ce6a46b6b351dee61ce7f5e578689bb5d20c57",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.s390x.rpm",
-			"name": "gnutls",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "780b5f8a1b958afa0c38289befe8a0f1c3684ae50a6e1266416a7888c60ebc9a",
 			"checksum_type": "sha256",
@@ -191,6 +179,18 @@
 			"epoch": "0",
 			"filename": "gnutls-devel-3.6.16-8.el8_9.aarch64.rpm",
 			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "98f4ed22d37ec5031664aeb596ce6a46b6b351dee61ce7f5e578689bb5d20c57",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-3.6.16-8.el8_9.s390x.rpm",
+			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
 			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
