@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "73edb77eac7e0cd7b17ef7391d71830f3626fe46b45d6e80dd523bac0d5c1214",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-4.4.0-2.el9.i686.rpm",
-			"name": "libtiff",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "libtiff-4.4.0-2.el9.src.rpm",
-			"version": "4.4.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "cd4bc038da6d3d148844eb2d3f7eb43eb11a82fb77a310281660c5817311a502",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-devel-4.4.0-2.el9.i686.rpm",
-			"name": "libtiff-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "libtiff-4.4.0-2.el9.src.rpm",
-			"version": "4.4.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "778935ce20a110a5edf14c4baa66edb31c63cb02f33c1590e9a18b69839e5f2f",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "libtiff-4.4.0-2.el9.ppc64le.rpm",
 			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "libtiff-4.4.0-2.el9.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "73edb77eac7e0cd7b17ef7391d71830f3626fe46b45d6e80dd523bac0d5c1214",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.4.0-2.el9.i686.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "libtiff-4.4.0-2.el9.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "cd4bc038da6d3d148844eb2d3f7eb43eb11a82fb77a310281660c5817311a502",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.4.0-2.el9.i686.rpm",
+			"name": "libtiff-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",
 			"src": "libtiff-4.4.0-2.el9.src.rpm",
@@ -149,11 +149,11 @@
 			"version": "4.4.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "0da0c47e9c61c8184b2b50d30593441ed8f22e6b5b1aea7a3a18a0aca46a7e2c",
+			"arch": "x86_64",
+			"checksum": "27dd7628ffa2b60d97f526b0c16027e2f2b76b638c8cad04fd53e59580b49066",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libtiff-tools-4.4.0-2.el9.s390x.rpm",
+			"filename": "libtiff-tools-4.4.0-2.el9.x86_64.rpm",
 			"name": "libtiff-tools",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -161,11 +161,11 @@
 			"version": "4.4.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "27dd7628ffa2b60d97f526b0c16027e2f2b76b638c8cad04fd53e59580b49066",
+			"arch": "s390x",
+			"checksum": "0da0c47e9c61c8184b2b50d30593441ed8f22e6b5b1aea7a3a18a0aca46a7e2c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libtiff-tools-4.4.0-2.el9.x86_64.rpm",
+			"filename": "libtiff-tools-4.4.0-2.el9.s390x.rpm",
 			"name": "libtiff-tools",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -288,5 +288,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libtiff security update",
 	"type": "security",
-	"updated_date": 1668743259
+	"updated_date": 1668743258
 }

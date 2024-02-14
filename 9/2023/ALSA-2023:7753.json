@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "2980f237fe224da97f8ff790864302c52810d4d727da45eeb24f7d45fb4151f7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-compute-4.10.0-55.el9_3.2.alma.1.ppc64le.rpm",
+			"name": "fence-agents-compute",
+			"reboot_suggested": 0,
+			"release": "55.el9_3.2.alma.1",
+			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2fedd551d66d70f0797bcba466f1c391f8fe107db427f8154a97d3468b176a50",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kubevirt-4.10.0-55.el9_3.2.alma.1.ppc64le.rpm",
+			"name": "fence-agents-kubevirt",
+			"reboot_suggested": 0,
+			"release": "55.el9_3.2.alma.1",
+			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "7945b340fe328494dd4f3e89fb3ceb0c36fb0a70648bc9bbbf1a938ff741b364",
 			"checksum_type": "sha256",
@@ -47,30 +71,6 @@
 			"epoch": "0",
 			"filename": "fence-agents-virsh-4.10.0-55.el9_3.2.alma.1.noarch.rpm",
 			"name": "fence-agents-virsh",
-			"reboot_suggested": 0,
-			"release": "55.el9_3.2.alma.1",
-			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2980f237fe224da97f8ff790864302c52810d4d727da45eeb24f7d45fb4151f7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-compute-4.10.0-55.el9_3.2.alma.1.ppc64le.rpm",
-			"name": "fence-agents-compute",
-			"reboot_suggested": 0,
-			"release": "55.el9_3.2.alma.1",
-			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2fedd551d66d70f0797bcba466f1c391f8fe107db427f8154a97d3468b176a50",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kubevirt-4.10.0-55.el9_3.2.alma.1.ppc64le.rpm",
-			"name": "fence-agents-kubevirt",
 			"reboot_suggested": 0,
 			"release": "55.el9_3.2.alma.1",
 			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
@@ -774,11 +774,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "6cc68ada904b108a60abded722d6a0a5f61378daa0cfc5902095d5761928bad7",
+			"checksum": "4b157164165689132c2f89605400e2d221194088f46c3209a7360ef8c8a34824",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-zvm-4.10.0-55.el9_3.2.alma.1.s390x.rpm",
-			"name": "fence-agents-zvm",
+			"filename": "fence-agents-all-4.10.0-55.el9_3.2.alma.1.s390x.rpm",
+			"name": "fence-agents-all",
 			"reboot_suggested": 0,
 			"release": "55.el9_3.2.alma.1",
 			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
@@ -786,11 +786,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "4b157164165689132c2f89605400e2d221194088f46c3209a7360ef8c8a34824",
+			"checksum": "6cc68ada904b108a60abded722d6a0a5f61378daa0cfc5902095d5761928bad7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-55.el9_3.2.alma.1.s390x.rpm",
-			"name": "fence-agents-all",
+			"filename": "fence-agents-zvm-4.10.0-55.el9_3.2.alma.1.s390x.rpm",
+			"name": "fence-agents-zvm",
 			"reboot_suggested": 0,
 			"release": "55.el9_3.2.alma.1",
 			"src": "fence-agents-4.10.0-55.el9_3.2.alma.1.src.rpm",
@@ -868,5 +868,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: fence-agents security update",
 	"type": "security",
-	"updated_date": 1702633617
+	"updated_date": 1702633618
 }
