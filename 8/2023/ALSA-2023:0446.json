@@ -11,13 +11,6 @@
 			"version": "8070020230125092346"
 		},
 		{
-			"arch": "x86_64",
-			"context": "b754926a",
-			"name": "go-toolset",
-			"stream": "rhel8",
-			"version": "8070020221010122826"
-		},
-		{
 			"arch": "aarch64",
 			"context": "b754926a",
 			"name": "go-toolset",
@@ -30,6 +23,13 @@
 			"name": "go-toolset",
 			"stream": "rhel8",
 			"version": "8070020230125092346"
+		},
+		{
+			"arch": "x86_64",
+			"context": "b754926a",
+			"name": "go-toolset",
+			"stream": "rhel8",
+			"version": "8070020221010122826"
 		},
 		{
 			"arch": "ppc64le",
@@ -87,71 +87,6 @@
 			"filename": "golang-misc-1.18.9-1.module_el8.7.0+3397+4350156d.noarch.rpm",
 			"module": "go-toolset:rhel8:8070020230125092346:b754926a:i686",
 			"name": "golang-misc",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "15843f185b07eb9d1e2c60dbed92df86d6882147bb3259547d2e90de034a8d1a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-race-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
-			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
-			"name": "golang-race",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3e5fd90b816038bc6fb7ae9c887ea4037378a7dff4504d36f59516cf96e3eb8c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
-			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
-			"name": "go-toolset",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "47defdabe9abbbccd9e0109283235d18be98f7c9f84476663251f2a1d2957bcd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "delve-1.8.3-1.module_el8.7.0+3280+24dc9c5d.x86_64.rpm",
-			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
-			"name": "delve",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3280+24dc9c5d",
-			"src": "delve-1.8.3-1.module_el8.7.0+3280+24dc9c5d.src.rpm",
-			"version": "1.8.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "924938f0b158c35a789b03979d4290af3db1d351be951f7362719364251347ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
-			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
-			"name": "golang",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3397+4350156d",
-			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
-			"version": "1.18.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a4849ded870a118d22b990aea89d2b10da38f93923bab98a4b6bc1b663a9df11",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-bin-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
-			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
-			"name": "golang-bin",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.7.0+3397+4350156d",
 			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
@@ -233,6 +168,71 @@
 			"reboot_suggested": 0,
 			"release": "1.module_el8.7.0+3397+4350156d",
 			"src": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "15843f185b07eb9d1e2c60dbed92df86d6882147bb3259547d2e90de034a8d1a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-race-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
+			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
+			"name": "golang-race",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3e5fd90b816038bc6fb7ae9c887ea4037378a7dff4504d36f59516cf96e3eb8c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
+			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "go-toolset-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "47defdabe9abbbccd9e0109283235d18be98f7c9f84476663251f2a1d2957bcd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "delve-1.8.3-1.module_el8.7.0+3280+24dc9c5d.x86_64.rpm",
+			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
+			"name": "delve",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3280+24dc9c5d",
+			"src": "delve-1.8.3-1.module_el8.7.0+3280+24dc9c5d.src.rpm",
+			"version": "1.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "924938f0b158c35a789b03979d4290af3db1d351be951f7362719364251347ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
+			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
+			"version": "1.18.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a4849ded870a118d22b990aea89d2b10da38f93923bab98a4b6bc1b663a9df11",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.18.9-1.module_el8.7.0+3397+4350156d.x86_64.rpm",
+			"module": "go-toolset:rhel8:8070020221010122826:b754926a:x86_64",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3397+4350156d",
+			"src": "golang-1.18.9-1.module_el8.7.0+3397+4350156d.src.rpm",
 			"version": "1.18.9"
 		},
 		{

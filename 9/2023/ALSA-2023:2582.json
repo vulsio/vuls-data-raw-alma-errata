@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "5eb341aa6ce09165c57e8fe66e5b909a4a87e3d8648ce026d092aecf56e32f56",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-5.4.4-3.el9.ppc64le.rpm",
-			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "lua-5.4.4-3.el9.src.rpm",
-			"version": "5.4.4"
-		},
-		{
 			"arch": "i686",
 			"checksum": "7663106b5c2c824ad1fd4915d4857541a0b630cf6998e325a2b9a515c63c3590",
 			"checksum_type": "sha256",
@@ -41,24 +29,24 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1bc8c0d13664caaf66c6fdf26579f89796b874797ba0b859eddcb3cbe27971bc",
+			"arch": "ppc64le",
+			"checksum": "5eb341aa6ce09165c57e8fe66e5b909a4a87e3d8648ce026d092aecf56e32f56",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-libs-5.4.4-3.el9.x86_64.rpm",
-			"name": "lua-libs",
+			"filename": "lua-5.4.4-3.el9.ppc64le.rpm",
+			"name": "lua",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "lua-5.4.4-3.el9.src.rpm",
 			"version": "5.4.4"
 		},
 		{
-			"arch": "i686",
-			"checksum": "e6d1cbb5f862fd2fe497dd28a3e6f409967ed33f90c7ca6d5f776519e292c2fd",
+			"arch": "s390x",
+			"checksum": "4386e203b3d90489d5f41278a3176494d5d2a8bc3fea80373d9b153e2de8c4e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-libs-5.4.4-3.el9.i686.rpm",
-			"name": "lua-libs",
+			"filename": "lua-5.4.4-3.el9.s390x.rpm",
+			"name": "lua",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "lua-5.4.4-3.el9.src.rpm",
@@ -71,6 +59,18 @@
 			"epoch": "0",
 			"filename": "lua-5.4.4-3.el9.aarch64.rpm",
 			"name": "lua",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "lua-5.4.4-3.el9.src.rpm",
+			"version": "5.4.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e6d1cbb5f862fd2fe497dd28a3e6f409967ed33f90c7ca6d5f776519e292c2fd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-libs-5.4.4-3.el9.i686.rpm",
+			"name": "lua-libs",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "lua-5.4.4-3.el9.src.rpm",
@@ -101,24 +101,12 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "4386e203b3d90489d5f41278a3176494d5d2a8bc3fea80373d9b153e2de8c4e5",
+			"arch": "x86_64",
+			"checksum": "1bc8c0d13664caaf66c6fdf26579f89796b874797ba0b859eddcb3cbe27971bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-5.4.4-3.el9.s390x.rpm",
-			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "lua-5.4.4-3.el9.src.rpm",
-			"version": "5.4.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d5667c8c99b29f4196516fb3e1a5fc06a4de1927e397ea64024461ba6b84b170",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.i686.rpm",
-			"name": "lua-devel",
+			"filename": "lua-libs-5.4.4-3.el9.x86_64.rpm",
+			"name": "lua-libs",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "lua-5.4.4-3.el9.src.rpm",
@@ -137,11 +125,35 @@
 			"version": "5.4.4"
 		},
 		{
+			"arch": "i686",
+			"checksum": "d5667c8c99b29f4196516fb3e1a5fc06a4de1927e397ea64024461ba6b84b170",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-devel-5.4.4-3.el9.i686.rpm",
+			"name": "lua-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "lua-5.4.4-3.el9.src.rpm",
+			"version": "5.4.4"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "f2d7ab675516c5dee02f6063118da0e1b57b5f3e2306a0cabbee9d24f65f410b",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lua-devel-5.4.4-3.el9.aarch64.rpm",
+			"name": "lua-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "lua-5.4.4-3.el9.src.rpm",
+			"version": "5.4.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b13f7a016cd877354520ff10fab7be44c8d29788c922e0681f7a71528d0f3f60",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-devel-5.4.4-3.el9.s390x.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -166,18 +178,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lua-devel-5.4.4-3.el9.x86_64.rpm",
-			"name": "lua-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "lua-5.4.4-3.el9.src.rpm",
-			"version": "5.4.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "b13f7a016cd877354520ff10fab7be44c8d29788c922e0681f7a71528d0f3f60",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.s390x.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -210,5 +210,5 @@
 	"severity": "Low",
 	"title": "Low: lua security update",
 	"type": "security",
-	"updated_date": 1683849066
+	"updated_date": 1683849067
 }

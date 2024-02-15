@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "36aae7fc5f984c844d01a641ed7dde1524480cf317c8ced7504ad5fde1e5010a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libreswan-4.9-3.el8_8.x86_64.rpm",
-			"name": "libreswan",
-			"reboot_suggested": 0,
-			"release": "3.el8_8",
-			"src": "libreswan-4.9-3.el8_8.src.rpm",
-			"version": "4.9"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "adfdbc5587d0aed50b2e9711f56a8827c1cebd60773de8b1e60a30fa7781a489",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libreswan-4.9-3.el8_8.s390x.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "3.el8_8",
+			"src": "libreswan-4.9-3.el8_8.src.rpm",
+			"version": "4.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "36aae7fc5f984c844d01a641ed7dde1524480cf317c8ced7504ad5fde1e5010a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.9-3.el8_8.x86_64.rpm",
 			"name": "libreswan",
 			"reboot_suggested": 0,
 			"release": "3.el8_8",
@@ -78,5 +78,5 @@
 	"severity": "Important",
 	"title": "Important: libreswan security update",
 	"type": "security",
-	"updated_date": 1684533612
+	"updated_date": 1684533611
 }
