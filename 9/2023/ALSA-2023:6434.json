@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "1212ef154fe8c35d0c0006bce95b2a2e832e99286e48bb935f17e658a3359c6c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-8.3.1-11.el9_3.alma.1.ppc64le.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "11.el9_3.alma.1",
+			"src": "frr-8.3.1-11.el9_3.alma.1.src.rpm",
+			"version": "8.3.1"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "870b0f8fe1790980445cc04b697f5bc1d76221d1f374500912df87374d47bb49",
 			"checksum_type": "sha256",
@@ -29,11 +41,11 @@
 			"version": "8.3.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "1212ef154fe8c35d0c0006bce95b2a2e832e99286e48bb935f17e658a3359c6c",
+			"arch": "aarch64",
+			"checksum": "ad7aead43db8fb35b4276d2fb70e5abc8af707874a63da2d26c6386f1f209976",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "frr-8.3.1-11.el9_3.alma.1.ppc64le.rpm",
+			"filename": "frr-8.3.1-11.el9_3.alma.1.aarch64.rpm",
 			"name": "frr",
 			"reboot_suggested": 0,
 			"release": "11.el9_3.alma.1",
@@ -46,18 +58,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "frr-8.3.1-11.el9_3.alma.1.s390x.rpm",
-			"name": "frr",
-			"reboot_suggested": 0,
-			"release": "11.el9_3.alma.1",
-			"src": "frr-8.3.1-11.el9_3.alma.1.src.rpm",
-			"version": "8.3.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ad7aead43db8fb35b4276d2fb70e5abc8af707874a63da2d26c6386f1f209976",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "frr-8.3.1-11.el9_3.alma.1.aarch64.rpm",
 			"name": "frr",
 			"reboot_suggested": 0,
 			"release": "11.el9_3.alma.1",
@@ -120,5 +120,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: frr security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963840
+	"updated_date": 1699963849
 }
