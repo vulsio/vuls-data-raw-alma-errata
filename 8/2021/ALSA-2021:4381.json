@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+			"name": "gnome-autoar",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+			"version": "0.2.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
+			"name": "gsettings-desktop-schemas",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+			"version": "3.32.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "033e3547382db2c7217fca36241b1f9a528ead4fd3d28216429468ed9882621e",
 			"checksum_type": "sha256",
@@ -822,27 +846,15 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+			"checksum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
-			"name": "gnome-autoar",
+			"filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
+			"name": "gnome-software-devel",
 			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-			"version": "0.2.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
-			"name": "gsettings-desktop-schemas",
-			"reboot_suggested": 0,
-			"release": "6.el8",
-			"src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-			"version": "3.32.0"
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
 		},
 		{
 			"arch": "i686",
@@ -941,18 +953,6 @@
 			"version": "0.6.55"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
-			"name": "gnome-software-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "06b8fc157449559ce726ba73f0c743399fb79fe61e5f118a94a231188d911768",
 			"checksum_type": "sha256",
@@ -999,6 +999,18 @@
 			"release": "3.el8",
 			"src": "LibRaw-0.19.5-3.el8.src.rpm",
 			"version": "0.19.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
+			"name": "gnome-software-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "gnome-software-3.36.1-10.el8.src.rpm",
+			"version": "3.36.1"
 		},
 		{
 			"arch": "aarch64",
@@ -1086,18 +1098,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
-			"name": "gnome-software-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "gnome-software-3.36.1-10.el8.src.rpm",
-			"version": "3.36.1"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "2dde1774f3edcbff13f1eda38a59266b386061a6b5f2049540c9b1a7be577c53",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -1182,6 +1182,11 @@
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
+			"id": "ALSA-2021-4381",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-13558",
 			"id": "CVE-2020-13558",
@@ -1326,15 +1331,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-30799",
 			"id": "CVE-2021-30799",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
-			"id": "ALSA-2021-4381",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636463406
 }

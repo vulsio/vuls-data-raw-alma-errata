@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
+			"name": "libgexiv2-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
+			"version": "0.10.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gegl-0.2.0-39.el8.aarch64.rpm",
+			"name": "gegl",
+			"reboot_suggested": 0,
+			"release": "39.el8",
+			"src": "gegl-0.2.0-39.el8.src.rpm",
+			"version": "0.2.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
+			"name": "libgexiv2",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
+			"version": "0.10.8"
+		},
+		{
 			"arch": "i686",
 			"checksum": "450ba7824d0b59f31b6fc8901448ff6e57fd7e19434397c146504871462a72b0",
 			"checksum_type": "sha256",
@@ -101,40 +137,28 @@
 			"version": "0.2.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
+			"arch": "i686",
+			"checksum": "992c667dc85d603d3fd2bbc5ee6925c6b49ac6ce469a016885dd513185166ce9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
-			"name": "libgexiv2-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8",
-			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
-			"version": "0.10.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gegl-0.2.0-39.el8.aarch64.rpm",
-			"name": "gegl",
-			"reboot_suggested": 0,
-			"release": "39.el8",
-			"src": "gegl-0.2.0-39.el8.src.rpm",
-			"version": "0.2.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
+			"filename": "libgexiv2-0.10.8-4.el8.i686.rpm",
 			"name": "libgexiv2",
 			"reboot_suggested": 0,
 			"release": "4.el8",
 			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
 			"version": "0.10.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c665f490cfd8f8fde7b5dc3091ba7c792191e5bc45b579f6f449203184847e28",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gegl-0.2.0-39.el8.i686.rpm",
+			"name": "gegl",
+			"reboot_suggested": 0,
+			"release": "39.el8",
+			"src": "gegl-0.2.0-39.el8.src.rpm",
+			"version": "0.2.0"
 		},
 		{
 			"arch": "ppc64le",
@@ -183,33 +207,14 @@
 			"release": "4.el8",
 			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
 			"version": "0.10.8"
-		},
-		{
-			"arch": "i686",
-			"checksum": "992c667dc85d603d3fd2bbc5ee6925c6b49ac6ce469a016885dd513185166ce9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgexiv2-0.10.8-4.el8.i686.rpm",
-			"name": "libgexiv2",
-			"reboot_suggested": 0,
-			"release": "4.el8",
-			"src": "libgexiv2-0.10.8-4.el8.src.rpm",
-			"version": "0.10.8"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c665f490cfd8f8fde7b5dc3091ba7c792191e5bc45b579f6f449203184847e28",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gegl-0.2.0-39.el8.i686.rpm",
-			"name": "gegl",
-			"reboot_suggested": 0,
-			"release": "39.el8",
-			"src": "gegl-0.2.0-39.el8.src.rpm",
-			"version": "0.2.0"
 		}
 	],
 	"references": [
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-1577.html",
+			"id": "ALSA-2020-1577",
+			"type": "self"
+		},
 		{
 			"href": "https://vulners.com/cve/CVE-2017-18005",
 			"id": "CVE-2017-18005",
@@ -354,15 +359,10 @@
 			"href": "https://vulners.com/cve/CVE-2019-9143",
 			"id": "CVE-2019-9143",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-1577.html",
-			"id": "ALSA-2020-1577",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: exiv2 security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1588063939
 }

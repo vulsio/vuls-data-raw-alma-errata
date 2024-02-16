@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
+			"name": "libgcrypt-devel",
+			"reboot_suggested": 0,
+			"release": "7.el8_6",
+			"src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+			"version": "1.8.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
+			"name": "libgcrypt",
+			"reboot_suggested": 0,
+			"release": "7.el8_6",
+			"src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+			"version": "1.8.5"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0c97528fd9c9085861b7b6d9d76bbfc223d6d6aad8fcaeaf2b3dd53964635173",
 			"checksum_type": "sha256",
@@ -46,30 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libgcrypt-1.8.5-7.el8_6.i686.rpm",
-			"name": "libgcrypt",
-			"reboot_suggested": 0,
-			"release": "7.el8_6",
-			"src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-			"version": "1.8.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
-			"name": "libgcrypt-devel",
-			"reboot_suggested": 0,
-			"release": "7.el8_6",
-			"src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-			"version": "1.8.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
 			"name": "libgcrypt",
 			"reboot_suggested": 0,
 			"release": "7.el8_6",
@@ -126,5 +126,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libgcrypt security update",
 	"type": "security",
-	"updated_date": 1658425354
+	"updated_date": 1658425346
 }

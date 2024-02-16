@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "6802b8ffb8d994c40ed5cc1718d3ba123457d23dcdb256d92a1554c6dbbcaa23",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libmspack-devel-0.7-0.3.alpha.el8.4.aarch64.rpm",
+			"name": "libmspack-devel",
+			"reboot_suggested": 0,
+			"release": "0.3.alpha.el8.4",
+			"src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+			"version": "0.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8f56372f7d3345cda6bf45a394446a14abc685f74d4e4cc5b8e0dfbfb746daa0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libmspack-0.7-0.3.alpha.el8.4.aarch64.rpm",
+			"name": "libmspack",
+			"reboot_suggested": 0,
+			"release": "0.3.alpha.el8.4",
+			"src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+			"version": "0.7"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0b4af4cd843761ee776be0a08b8716e60e3636541554facacb8cb838ece133c4",
 			"checksum_type": "sha256",
@@ -41,23 +65,11 @@
 			"version": "0.7"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6802b8ffb8d994c40ed5cc1718d3ba123457d23dcdb256d92a1554c6dbbcaa23",
+			"arch": "i686",
+			"checksum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libmspack-devel-0.7-0.3.alpha.el8.4.aarch64.rpm",
-			"name": "libmspack-devel",
-			"reboot_suggested": 0,
-			"release": "0.3.alpha.el8.4",
-			"src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-			"version": "0.7"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "8f56372f7d3345cda6bf45a394446a14abc685f74d4e4cc5b8e0dfbfb746daa0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libmspack-0.7-0.3.alpha.el8.4.aarch64.rpm",
+			"filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
 			"name": "libmspack",
 			"reboot_suggested": 0,
 			"release": "0.3.alpha.el8.4",
@@ -87,34 +99,22 @@
 			"release": "0.3.alpha.el8.4",
 			"src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
 			"version": "0.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
-			"name": "libmspack",
-			"reboot_suggested": 0,
-			"release": "0.3.alpha.el8.4",
-			"src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-			"version": "0.7"
 		}
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2019-1010305",
-			"id": "CVE-2019-1010305",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2020-1686.html",
 			"id": "ALSA-2020-1686",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2019-1010305",
+			"id": "CVE-2019-1010305",
+			"type": "cve"
 		}
 	],
 	"severity": "Low",
 	"title": "Low: libmspack security and bug fix update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1588064701
 }

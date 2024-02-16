@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "c1b926b4daf32c0638107fcd7d9c950b76d36f934d6575577e6bc3067e1b544e",
+			"arch": "x86_64",
+			"checksum": "a256d7af03e85c51c2d2ba69f30828e97bb278abee70a3a3a50d07c75f7293e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.aarch64.rpm",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.x86_64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
@@ -65,23 +65,11 @@
 			"version": "102.11.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8900a2690f764274bed2b44b82c146a04a9ba5e2cb9bd85d5936b2bff4094055",
+			"arch": "aarch64",
+			"checksum": "c1b926b4daf32c0638107fcd7d9c950b76d36f934d6575577e6bc3067e1b544e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.s390x.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_7.alma",
-			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
-			"version": "102.11.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a256d7af03e85c51c2d2ba69f30828e97bb278abee70a3a3a50d07c75f7293e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.x86_64.rpm",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
@@ -94,6 +82,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "thunderbird-102.11.0-1.el8_7.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.alma",
+			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
+			"version": "102.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8900a2690f764274bed2b44b82c146a04a9ba5e2cb9bd85d5936b2bff4094055",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.s390x.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
@@ -186,5 +186,5 @@
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1684533613
+	"updated_date": 1684533614
 }
