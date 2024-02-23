@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "6eb8db2b5e082806cdfe14d705978b748f66fb4a26066e12947035e97a40b833",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-11.el8_9.i686.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f93076e4d43ee51730ab2fa26f0bd38f80bd1829520e1f3c993bb666332da4ba",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-11.el8_9.i686.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "4eb4d07e03d5d044ca3b471e6076a18b272214a4130c1976074d03aa1f5ef47e",
 			"checksum_type": "sha256",
@@ -125,6 +101,30 @@
 			"version": "9.11.36"
 		},
 		{
+			"arch": "i686",
+			"checksum": "6eb8db2b5e082806cdfe14d705978b748f66fb4a26066e12947035e97a40b833",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-11.el8_9.i686.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f93076e4d43ee51730ab2fa26f0bd38f80bd1829520e1f3c993bb666332da4ba",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-11.el8_9.i686.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "108f58be2acdbe6beeabb27c828a2f24069640e52df0e1c04e877fb70c8399a4",
 			"checksum_type": "sha256",
@@ -166,6 +166,30 @@
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-export-devel-9.11.36-11.el8_9.aarch64.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "34f9b7dfb9763baaf1aa782b7fbf3226c4bbf6815a6bc063dbcf9de36d4f4b57",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-11.el8_9.ppc64le.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e24f7fc8170fb43cc91bd35f657fc1896527dd2ffd69f860f4b6eded4c4109f0",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-11.el8_9.ppc64le.rpm",
 			"name": "bind-export-devel",
 			"reboot_suggested": 0,
 			"release": "11.el8_9",
@@ -329,6 +353,30 @@
 			"version": "9.11.36"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "006b267b3242f551f2870a2dbc2dacbf0037ac3544bfdcbc500b10533142d51e",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-11.el8_9.s390x.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "98d2840a52f1ab2b9b3d21d1ada7d5053db1843fc059fd69d8ed69c36d1525e0",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-11.el8_9.s390x.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "16e7c19fc429cd5092ba9d993659b5d2d5d65a1926bf40bbf8348788b8e9df48",
 			"checksum_type": "sha256",
@@ -479,54 +527,6 @@
 			"epoch": "32",
 			"filename": "bind-9.11.36-11.el8_9.aarch64.rpm",
 			"name": "bind",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "006b267b3242f551f2870a2dbc2dacbf0037ac3544bfdcbc500b10533142d51e",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-11.el8_9.s390x.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "98d2840a52f1ab2b9b3d21d1ada7d5053db1843fc059fd69d8ed69c36d1525e0",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-11.el8_9.s390x.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "34f9b7dfb9763baaf1aa782b7fbf3226c4bbf6815a6bc063dbcf9de36d4f4b57",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-11.el8_9.ppc64le.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e24f7fc8170fb43cc91bd35f657fc1896527dd2ffd69f860f4b6eded4c4109f0",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-11.el8_9.ppc64le.rpm",
-			"name": "bind-export-devel",
 			"reboot_suggested": 0,
 			"release": "11.el8_9",
 			"src": "bind-9.11.36-11.el8_9.src.rpm",
@@ -870,5 +870,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: bind security update",
 	"type": "security",
-	"updated_date": 1700734751
+	"updated_date": 1700728769
 }
