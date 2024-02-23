@@ -1,0 +1,58 @@
+{
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: Excessive time spent checking DH keys and parameters (CVE-2023-3446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0888",
+	"issued_date": 1708387200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "252350e47c9a33e7c02c73e31f667935061a09496b7add2200546999c028ed10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20220126gitbb1bba3d77-6.el8_9.3.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "6.el8_9.3",
+			"src": "edk2-20220126gitbb1bba3d77-6.el8_9.3.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "614a1f9dd86cba18d98d43351c80471118ca5b54d7345cd888f64f328573926b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20220126gitbb1bba3d77-6.el8_9.3.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "6.el8_9.3",
+			"src": "edk2-20220126gitbb1bba3d77-6.el8_9.3.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0888",
+			"id": "RHSA-2024:0888",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3446",
+			"id": "CVE-2023-3446",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2224962",
+			"id": "2224962",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0888.html",
+			"id": "ALSA-2024:0888",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: edk2 security update",
+	"type": "security",
+	"updated_date": 1708631557
+}

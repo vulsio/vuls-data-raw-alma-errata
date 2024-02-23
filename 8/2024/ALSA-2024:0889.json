@@ -1,0 +1,194 @@
+{
+	"description": "Oniguruma is a regular expressions library that supports a variety of character encodings. \n\nSecurity Fix(es):\n\n* oniguruma: Use-after-free in onig_new_deluxe() in regext.c (CVE-2019-13224)\n* oniguruma: Stack exhaustion in regcomp.c because of recursion in regparse.c (CVE-2019-16163)\n* oniguruma: integer overflow in search_in_range function in regexec.c leads to out-of-bounds read (CVE-2019-19012)\n* oniguruma: Heap-based buffer over-read in function gb18030_mbc_enc_len in file gb18030.c (CVE-2019-19203)\n* oniguruma: Heap-based buffer over-read in function fetch_interval_quantifier in regparse.c (CVE-2019-19204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0889",
+	"issued_date": 1708387200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "af8644714e1ad957ee17e5938a4972d07c4586ede2bcddfbad9f443750c60040",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.1.el8_9.i686.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e2ea0dd38130c3f2e43808c2cb7ce299142917f07bdae1fbf2290589baa68935",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.1.el8_9.i686.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cf6fadc7271e5e2937820d81de94b0e4214b4e624cf53bab2d45653b4f1301e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.1.el8_9.x86_64.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c40f03ec7113611ad9919034c5fdfb4eeebb1a60def800a7206f9c5b2e5ead1d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.1.el8_9.aarch64.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d110a8fe14e5a0aacdaa8ebf8e61b49448e4725ee1eecd4b1cba04c05b928f3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.1.el8_9.x86_64.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f8782ebe080cc899bca4d9128f84a26488a3a933a7176a17b09152c63bf0f8ec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.1.el8_9.aarch64.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a0fa563ce68e683efa45ac61bda23af4fa5d8e9f3ff435eb9a5f981eadd0f4a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.1.el8_9.ppc64le.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8778661eb34018d0632063a91da81c6d50aa7fd526604f247e0d994bd3c29e69",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-devel-6.8.2-2.1.el8_9.s390x.rpm",
+			"name": "oniguruma-devel",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "767741fec9d655be5714e68e8a8fdf766d570cb71beadb91d8db0af00290e7b8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.1.el8_9.s390x.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b85571c65d4cc472cb84e858c90e85aab6989e09ab34430c8a9218eb03d8a591",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oniguruma-6.8.2-2.1.el8_9.ppc64le.rpm",
+			"name": "oniguruma",
+			"reboot_suggested": 0,
+			"release": "2.1.el8_9",
+			"src": "oniguruma-6.8.2-2.1.el8_9.src.rpm",
+			"version": "6.8.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0889",
+			"id": "RHSA-2024:0889",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-13224",
+			"id": "CVE-2019-13224",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-16163",
+			"id": "CVE-2019-16163",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-19012",
+			"id": "CVE-2019-19012",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-19203",
+			"id": "CVE-2019-19203",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2019-19204",
+			"id": "CVE-2019-19204",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1728970",
+			"id": "1728970",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1768997",
+			"id": "1768997",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1802051",
+			"id": "1802051",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1802061",
+			"id": "1802061",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1802068",
+			"id": "1802068",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0889.html",
+			"id": "ALSA-2024:0889",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: oniguruma security update",
+	"type": "security",
+	"updated_date": 1708630296
+}

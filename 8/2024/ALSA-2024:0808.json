@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "c21f29da3bb6f7bc357272d70365b9e34bc76fd1bc2e4b1df9a4891acba9cdc0",
+			"arch": "x86_64",
+			"checksum": "7a59d195ac68a90c4d6515a550fb754c3326d1a9fc1a446ff0c72e94e472feff",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.aarch64.rpm",
+			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.x86_64.rpm",
 			"name": "dotnet-sdk-6.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_9",
@@ -17,11 +17,11 @@
 			"version": "6.0.127"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "7a59d195ac68a90c4d6515a550fb754c3326d1a9fc1a446ff0c72e94e472feff",
+			"arch": "aarch64",
+			"checksum": "c21f29da3bb6f7bc357272d70365b9e34bc76fd1bc2e4b1df9a4891acba9cdc0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.x86_64.rpm",
+			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.aarch64.rpm",
 			"name": "dotnet-sdk-6.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_9",
@@ -125,18 +125,6 @@
 			"version": "6.0.27"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "a49433b5f079b86ebfd651460868514ede8fe796ecf72bb2e8acb98c842c4c09",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.s390x.rpm",
-			"name": "dotnet-sdk-6.0-source-built-artifacts",
-			"reboot_suggested": 0,
-			"release": "1.el8_9",
-			"src": "dotnet6.0-6.0.127-1.el8_9.src.rpm",
-			"version": "6.0.127"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "235043356f20aa4509d2220696395300df7d503a794c23933c3199e097562a4e",
 			"checksum_type": "sha256",
@@ -227,6 +215,18 @@
 			"epoch": "0",
 			"filename": "dotnet-templates-6.0-6.0.127-1.el8_9.aarch64.rpm",
 			"name": "dotnet-templates-6.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_9",
+			"src": "dotnet6.0-6.0.127-1.el8_9.src.rpm",
+			"version": "6.0.127"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a49433b5f079b86ebfd651460868514ede8fe796ecf72bb2e8acb98c842c4c09",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-6.0-source-built-artifacts-6.0.127-1.el8_9.s390x.rpm",
+			"name": "dotnet-sdk-6.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_9",
 			"src": "dotnet6.0-6.0.127-1.el8_9.src.rpm",

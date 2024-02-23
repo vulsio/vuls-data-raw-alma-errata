@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "a3d4494c08fbf340b5792e0e0a6e5604c8a9ad9cc1dea9585af6030c08b368ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-3.6.16-8.el8_9.i686.rpm",
+			"name": "gnutls",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
+		},
+		{
+			"arch": "i686",
 			"checksum": "c2cb46e291b57cf3c5a31478f0b501b5535a844c7d2376b9d90914a6277f471f",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -41,30 +53,6 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "i686",
-			"checksum": "a3d4494c08fbf340b5792e0e0a6e5604c8a9ad9cc1dea9585af6030c08b368ee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.i686.rpm",
-			"name": "gnutls",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a69d514061f8620850d6239e6512b6fb306bdd9578ca6e87a5ee9d037127df39",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.aarch64.rpm",
-			"name": "gnutls",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "30c97b710672bf50b971a60be5f0d779c2401f299d4b50d07132872e0c15f02d",
 			"checksum_type": "sha256",
@@ -77,11 +65,11 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "57f700d95781b9a93e2fd0c83b9e79a281641c61643e0e08de73f0f0ccad3c8f",
+			"arch": "aarch64",
+			"checksum": "a69d514061f8620850d6239e6512b6fb306bdd9578ca6e87a5ee9d037127df39",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.ppc64le.rpm",
+			"filename": "gnutls-3.6.16-8.el8_9.aarch64.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
@@ -137,18 +125,6 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "98f4ed22d37ec5031664aeb596ce6a46b6b351dee61ce7f5e578689bb5d20c57",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-3.6.16-8.el8_9.s390x.rpm",
-			"name": "gnutls",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "780b5f8a1b958afa0c38289befe8a0f1c3684ae50a6e1266416a7888c60ebc9a",
 			"checksum_type": "sha256",
@@ -197,12 +173,12 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "52853208bf0fa6a0565dc6d8d3be36a691bb57cc74fb2acc9243d02d3101c2bd",
+			"arch": "s390x",
+			"checksum": "98f4ed22d37ec5031664aeb596ce6a46b6b351dee61ce7f5e578689bb5d20c57",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-c++-3.6.16-8.el8_9.ppc64le.rpm",
-			"name": "gnutls-c++",
+			"filename": "gnutls-3.6.16-8.el8_9.s390x.rpm",
+			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
 			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
@@ -210,35 +186,11 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "7731fa080d71db77bdf7a875292ab0b8441f94eef8b30ff0ed4d6843c71dead8",
+			"checksum": "57f700d95781b9a93e2fd0c83b9e79a281641c61643e0e08de73f0f0ccad3c8f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-devel-3.6.16-8.el8_9.ppc64le.rpm",
-			"name": "gnutls-devel",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "cbc79f177275d83ed2ed02b28ddfcd7bed4dc85de7de225bf74bc547f3bc0077",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-dane-3.6.16-8.el8_9.ppc64le.rpm",
-			"name": "gnutls-dane",
-			"reboot_suggested": 0,
-			"release": "8.el8_9",
-			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
-			"version": "3.6.16"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e6f8e54ac6c075a1d95ec9b11e5f83f072e4ed68854decc52a48d79c7bcc21c0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-utils-3.6.16-8.el8_9.ppc64le.rpm",
-			"name": "gnutls-utils",
+			"filename": "gnutls-3.6.16-8.el8_9.ppc64le.rpm",
+			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "8.el8_9",
 			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
@@ -291,6 +243,54 @@
 			"release": "8.el8_9",
 			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
 			"version": "3.6.16"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "52853208bf0fa6a0565dc6d8d3be36a691bb57cc74fb2acc9243d02d3101c2bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.6.16-8.el8_9.ppc64le.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7731fa080d71db77bdf7a875292ab0b8441f94eef8b30ff0ed4d6843c71dead8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.6.16-8.el8_9.ppc64le.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cbc79f177275d83ed2ed02b28ddfcd7bed4dc85de7de225bf74bc547f3bc0077",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.6.16-8.el8_9.ppc64le.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e6f8e54ac6c075a1d95ec9b11e5f83f072e4ed68854decc52a48d79c7bcc21c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-utils-3.6.16-8.el8_9.ppc64le.rpm",
+			"name": "gnutls-utils",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "gnutls-3.6.16-8.el8_9.src.rpm",
+			"version": "3.6.16"
 		}
 	],
 	"references": [
@@ -318,5 +318,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gnutls security update",
 	"type": "security",
-	"updated_date": 1705002140
+	"updated_date": 1705002139
 }
