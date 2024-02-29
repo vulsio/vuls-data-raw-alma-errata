@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "485aebe3eaa16baedb99314bd65171d6cb3204ff4c3ae5c402707361b9d1ac9e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-devel-1.12.8-24.el8_8.1.i686.rpm",
-			"name": "dbus-devel",
-			"reboot_suggested": 0,
-			"release": "24.el8_8.1",
-			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "i686",
 			"checksum": "55b7f9cfb19538ce919b50fc8541dcd6c7bb4f765c7b65135f5e89c2dbf9b729",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -35,6 +23,18 @@
 			"epoch": "1",
 			"filename": "dbus-common-1.12.8-24.el8_8.1.noarch.rpm",
 			"name": "dbus-common",
+			"reboot_suggested": 0,
+			"release": "24.el8_8.1",
+			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "485aebe3eaa16baedb99314bd65171d6cb3204ff4c3ae5c402707361b9d1ac9e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-devel-1.12.8-24.el8_8.1.i686.rpm",
+			"name": "dbus-devel",
 			"reboot_suggested": 0,
 			"release": "24.el8_8.1",
 			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
@@ -137,6 +137,54 @@
 			"version": "1.12.8"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "4045d4f0bda1890788727607bd1311f5030c17e7346f17aabf561553185fad0b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-x11-1.12.8-24.el8_8.1.x86_64.rpm",
+			"name": "dbus-x11",
+			"reboot_suggested": 0,
+			"release": "24.el8_8.1",
+			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ad58437e2d4b436fb4fd929b53205951bda29e609d62690b02d5f93e769d7884",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-devel-1.12.8-24.el8_8.1.x86_64.rpm",
+			"name": "dbus-devel",
+			"reboot_suggested": 0,
+			"release": "24.el8_8.1",
+			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "18c16ba3723478dc28cc275e59462aa3ae1a24b91564edd392355e3f19ac4651",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-devel-1.12.8-24.el8_8.1.aarch64.rpm",
+			"name": "dbus-devel",
+			"reboot_suggested": 0,
+			"release": "24.el8_8.1",
+			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "259ebdf061ec552ffcb4bc682a3ee83f3f022a862e90a53dadfe3f3a056724d6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-x11-1.12.8-24.el8_8.1.aarch64.rpm",
+			"name": "dbus-x11",
+			"reboot_suggested": 0,
+			"release": "24.el8_8.1",
+			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
+			"version": "1.12.8"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "2ccc7330cb92719ca78f869bdf54429593b0b2c19ee6ad7cd63cf6cc0e8db373",
 			"checksum_type": "sha256",
@@ -185,30 +233,6 @@
 			"version": "1.12.8"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "4045d4f0bda1890788727607bd1311f5030c17e7346f17aabf561553185fad0b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-x11-1.12.8-24.el8_8.1.x86_64.rpm",
-			"name": "dbus-x11",
-			"reboot_suggested": 0,
-			"release": "24.el8_8.1",
-			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ad58437e2d4b436fb4fd929b53205951bda29e609d62690b02d5f93e769d7884",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-devel-1.12.8-24.el8_8.1.x86_64.rpm",
-			"name": "dbus-devel",
-			"reboot_suggested": 0,
-			"release": "24.el8_8.1",
-			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-			"version": "1.12.8"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "712f7bb0ef8ef35f54983b3bf8873f2291b8fa7ea1b58aa119b3e9d0a5459910",
 			"checksum_type": "sha256",
@@ -251,30 +275,6 @@
 			"epoch": "1",
 			"filename": "dbus-1.12.8-24.el8_8.1.s390x.rpm",
 			"name": "dbus",
-			"reboot_suggested": 0,
-			"release": "24.el8_8.1",
-			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "18c16ba3723478dc28cc275e59462aa3ae1a24b91564edd392355e3f19ac4651",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-devel-1.12.8-24.el8_8.1.aarch64.rpm",
-			"name": "dbus-devel",
-			"reboot_suggested": 0,
-			"release": "24.el8_8.1",
-			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "259ebdf061ec552ffcb4bc682a3ee83f3f022a862e90a53dadfe3f3a056724d6",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-x11-1.12.8-24.el8_8.1.aarch64.rpm",
-			"name": "dbus-x11",
 			"reboot_suggested": 0,
 			"release": "24.el8_8.1",
 			"src": "dbus-1.12.8-24.el8_8.1.src.rpm",
@@ -354,5 +354,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dbus security update",
 	"type": "security",
-	"updated_date": 1691478273
+	"updated_date": 1691478275
 }

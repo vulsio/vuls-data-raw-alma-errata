@@ -1,0 +1,94 @@
+{
+	"description": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* OpenSC: Side-channel leaks while stripping encryption PKCS#1 padding (CVE-2023-5992)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:0967",
+	"issued_date": 1708905600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "8bf3028e21e17555720f7bf8013e2bf42882e27c69d8b6b72583ae2130b6761a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-8.el8_9.i686.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "opensc-0.20.0-8.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fd552847be8b327ad1aa9e7968c8f9c1f08bb8ee969173b5ae9f9081ee92535c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-8.el8_9.x86_64.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "opensc-0.20.0-8.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4675e3963e60c3c5aa7708a2b2f45af1f4bf3b5676f35cca08e86c4a6b92e32c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-8.el8_9.aarch64.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "opensc-0.20.0-8.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ffb161bfa33af9dae981ede36ece40da25753f092edf22587ab1332ad23bea31",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-8.el8_9.ppc64le.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "opensc-0.20.0-8.el8_9.src.rpm",
+			"version": "0.20.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8d5a46503c46fffbd98a22e7e391b0daffbfac0beea4adc281cc5c8ddd23deae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "opensc-0.20.0-8.el8_9.s390x.rpm",
+			"name": "opensc",
+			"reboot_suggested": 0,
+			"release": "8.el8_9",
+			"src": "opensc-0.20.0-8.el8_9.src.rpm",
+			"version": "0.20.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:0967",
+			"id": "RHSA-2024:0967",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-5992",
+			"id": "CVE-2023-5992",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2248685",
+			"id": "2248685",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-0967.html",
+			"id": "ALSA-2024:0967",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: opensc security update",
+	"type": "security",
+	"updated_date": 1709132966
+}

@@ -41,18 +41,6 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "cbfaac50a3b63a3818ce6edf74c453506c90ae6af2c7794e09bd32d8fcf0b08a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.30-119.el8_8.2.ppc64le.rpm",
-			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "119.el8_8.2",
-			"src": "binutils-2.30-119.el8_8.2.src.rpm",
-			"version": "2.30"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "5cbf3891c7511ca1d9cc7c2c6405eca7b7fb6a4b11d6467bdd27109149654739",
 			"checksum_type": "sha256",
@@ -65,11 +53,23 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "cc020c914cec25ceb36495a213ae626ffe6349fbefb7025e48353f8f9a0fa00c",
+			"arch": "aarch64",
+			"checksum": "77969ee58f730d8e36c3927bcb43a9382e8a7e9a5f4e3b6e5c42b9716edb2cb3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-2.30-119.el8_8.2.s390x.rpm",
+			"filename": "binutils-devel-2.30-119.el8_8.2.aarch64.rpm",
+			"name": "binutils-devel",
+			"reboot_suggested": 0,
+			"release": "119.el8_8.2",
+			"src": "binutils-2.30-119.el8_8.2.src.rpm",
+			"version": "2.30"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cbfaac50a3b63a3818ce6edf74c453506c90ae6af2c7794e09bd32d8fcf0b08a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-2.30-119.el8_8.2.ppc64le.rpm",
 			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
@@ -77,12 +77,12 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "77969ee58f730d8e36c3927bcb43a9382e8a7e9a5f4e3b6e5c42b9716edb2cb3",
+			"arch": "s390x",
+			"checksum": "cc020c914cec25ceb36495a213ae626ffe6349fbefb7025e48353f8f9a0fa00c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.30-119.el8_8.2.aarch64.rpm",
-			"name": "binutils-devel",
+			"filename": "binutils-2.30-119.el8_8.2.s390x.rpm",
+			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
 			"src": "binutils-2.30-119.el8_8.2.src.rpm",
