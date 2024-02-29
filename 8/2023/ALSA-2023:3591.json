@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "787a07f978c21588985179495b6e8043033441600bb630760de33ac02c027916",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-3.6.8-51.el8_8.1.alma.x86_64.rpm",
+			"name": "platform-python",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a3f9e64ebfd1d2d468b5e0b015bdfa3ad5f2b546ec696aa940a7c08df9c32b08",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.6.8-51.el8_8.1.alma.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d08ed56536ce197bb6e0211fb8a82a918c833796cbd47af31cf1d0f99812ea76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.6.8-51.el8_8.1.alma.x86_64.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
 			"arch": "i686",
 			"checksum": "df6e98943131a80dd1b56aabdd8c585fe9428ed06a3d873633029d77ca057610",
 			"checksum_type": "sha256",
@@ -89,42 +125,6 @@
 			"version": "3.6.8"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "787a07f978c21588985179495b6e8043033441600bb630760de33ac02c027916",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "platform-python-3.6.8-51.el8_8.1.alma.x86_64.rpm",
-			"name": "platform-python",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a3f9e64ebfd1d2d468b5e0b015bdfa3ad5f2b546ec696aa940a7c08df9c32b08",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.6.8-51.el8_8.1.alma.x86_64.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d08ed56536ce197bb6e0211fb8a82a918c833796cbd47af31cf1d0f99812ea76",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-51.el8_8.1.alma.x86_64.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "06d79e01349d9240bf0c9c48513543d10afcf37d5787b2b5fcc9e13079c58d40",
 			"checksum_type": "sha256",
@@ -155,6 +155,42 @@
 			"epoch": "0",
 			"filename": "python3-libs-3.6.8-51.el8_8.1.alma.aarch64.rpm",
 			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4247a10e2e7f143529bd109c0191853089406062c603bb397c51c732f6a9a435",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6a7acd7e1970eb29b1abd06ac4fa2efa5f28b1b2b5cf6ced114085d20c4b4e9d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1.alma",
+			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ef87674720807853f48233c3a3322458ddd4651a41958c530d3eda2a4afb03b8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
+			"name": "platform-python",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.1.alma",
 			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
@@ -251,42 +287,6 @@
 			"epoch": "0",
 			"filename": "platform-python-debug-3.6.8-51.el8_8.1.alma.aarch64.rpm",
 			"name": "platform-python-debug",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "4247a10e2e7f143529bd109c0191853089406062c603bb397c51c732f6a9a435",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6a7acd7e1970eb29b1abd06ac4fa2efa5f28b1b2b5cf6ced114085d20c4b4e9d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1.alma",
-			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ef87674720807853f48233c3a3322458ddd4651a41958c530d3eda2a4afb03b8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "platform-python-3.6.8-51.el8_8.1.alma.ppc64le.rpm",
-			"name": "platform-python",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.1.alma",
 			"src": "python3-3.6.8-51.el8_8.1.alma.src.rpm",
@@ -450,5 +450,5 @@
 	"severity": "Important",
 	"title": "Important: python3 security update",
 	"type": "security",
-	"updated_date": 1687450645
+	"updated_date": 1687450661
 }

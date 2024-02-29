@@ -17,12 +17,36 @@
 			"version": "9.11.36"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "80722729a9311e59cae4ad264d38a6d2b79a0321708df797c31bcd7017bac12d",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-8.el8_8.1.x86_64.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "8.el8_8.1",
+			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
 			"arch": "i686",
 			"checksum": "8caa68ac44d85d44a6b2fd48f85e9ca11e60c0ab61e12383b9146b1009ee7110",
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-export-libs-9.11.36-8.el8_8.1.i686.rpm",
 			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "8.el8_8.1",
+			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a34308bd171fdba71a116bf8cd9abd9dd62bb9bcdc82e2aab78607e83da83ffa",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-8.el8_8.1.x86_64.rpm",
+			"name": "bind-export-devel",
 			"reboot_suggested": 0,
 			"release": "8.el8_8.1",
 			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
@@ -125,30 +149,6 @@
 			"version": "9.11.36"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "80722729a9311e59cae4ad264d38a6d2b79a0321708df797c31bcd7017bac12d",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-8.el8_8.1.x86_64.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "8.el8_8.1",
-			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a34308bd171fdba71a116bf8cd9abd9dd62bb9bcdc82e2aab78607e83da83ffa",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-8.el8_8.1.x86_64.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "8.el8_8.1",
-			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "4615bf4b7d60ec321f1d7987366b8946eae8b823acd8729a59661155f6cced3c",
 			"checksum_type": "sha256",
@@ -166,6 +166,30 @@
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-export-libs-9.11.36-8.el8_8.1.aarch64.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "8.el8_8.1",
+			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3b6e4db94766ecd0a04a6df9d3c1e381bad7deb7d1600b8e42280c65de6c33ac",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-8.el8_8.1.ppc64le.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8_8.1",
+			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "57be5cb88f1d33c2c1fcb5a76463d07b67e77746af104afae62992ec06055787",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-8.el8_8.1.ppc64le.rpm",
 			"name": "bind-export-libs",
 			"reboot_suggested": 0,
 			"release": "8.el8_8.1",
@@ -479,30 +503,6 @@
 			"epoch": "32",
 			"filename": "bind-sdb-chroot-9.11.36-8.el8_8.1.aarch64.rpm",
 			"name": "bind-sdb-chroot",
-			"reboot_suggested": 0,
-			"release": "8.el8_8.1",
-			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3b6e4db94766ecd0a04a6df9d3c1e381bad7deb7d1600b8e42280c65de6c33ac",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-8.el8_8.1.ppc64le.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "8.el8_8.1",
-			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "57be5cb88f1d33c2c1fcb5a76463d07b67e77746af104afae62992ec06055787",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-8.el8_8.1.ppc64le.rpm",
-			"name": "bind-export-libs",
 			"reboot_suggested": 0,
 			"release": "8.el8_8.1",
 			"src": "bind-9.11.36-8.el8_8.1.src.rpm",
@@ -870,5 +870,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1689673595
+	"updated_date": 1689673596
 }

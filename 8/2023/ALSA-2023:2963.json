@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "51c1917948eba156680df38cac2ba4451e530a9b36bb7ef881da845cc894335d",
+			"arch": "x86_64",
+			"checksum": "0ca66af2e77a7dae7f3886f025c496f610401d2e9e2c0a432b71e24230fe7f67",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-7.61.1-30.el8.i686.rpm",
+			"filename": "libcurl-7.61.1-30.el8.x86_64.rpm",
 			"name": "libcurl",
 			"reboot_suggested": 0,
 			"release": "30.el8",
@@ -18,34 +18,10 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "807ca176defe2641257623d799c5de6a06e7160583bc716d09a1f82cc35e708b",
+			"checksum": "51c1917948eba156680df38cac2ba4451e530a9b36bb7ef881da845cc894335d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-devel-7.61.1-30.el8.i686.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "30.el8",
-			"src": "curl-7.61.1-30.el8.src.rpm",
-			"version": "7.61.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9769cfaea17c653f41326e51fc77a58313fc619cb457fe86032fdfbe27d6ab01",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-minimal-7.61.1-30.el8.i686.rpm",
-			"name": "libcurl-minimal",
-			"reboot_suggested": 0,
-			"release": "30.el8",
-			"src": "curl-7.61.1-30.el8.src.rpm",
-			"version": "7.61.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0ca66af2e77a7dae7f3886f025c496f610401d2e9e2c0a432b71e24230fe7f67",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-7.61.1-30.el8.x86_64.rpm",
+			"filename": "libcurl-7.61.1-30.el8.i686.rpm",
 			"name": "libcurl",
 			"reboot_suggested": 0,
 			"release": "30.el8",
@@ -71,6 +47,30 @@
 			"epoch": "0",
 			"filename": "libcurl-devel-7.61.1-30.el8.x86_64.rpm",
 			"name": "libcurl-devel",
+			"reboot_suggested": 0,
+			"release": "30.el8",
+			"src": "curl-7.61.1-30.el8.src.rpm",
+			"version": "7.61.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "807ca176defe2641257623d799c5de6a06e7160583bc716d09a1f82cc35e708b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.61.1-30.el8.i686.rpm",
+			"name": "libcurl-devel",
+			"reboot_suggested": 0,
+			"release": "30.el8",
+			"src": "curl-7.61.1-30.el8.src.rpm",
+			"version": "7.61.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9769cfaea17c653f41326e51fc77a58313fc619cb457fe86032fdfbe27d6ab01",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-minimal-7.61.1-30.el8.i686.rpm",
+			"name": "libcurl-minimal",
 			"reboot_suggested": 0,
 			"release": "30.el8",
 			"src": "curl-7.61.1-30.el8.src.rpm",
@@ -268,5 +268,5 @@
 	"severity": "Low",
 	"title": "Low: curl security and bug fix update",
 	"type": "security",
-	"updated_date": 1684533719
+	"updated_date": 1684533782
 }

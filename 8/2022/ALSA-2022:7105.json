@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "48a0d992d9cc44939ba8b932933f613ed7d0fba3909d7892f5971f090b8f0a36",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-3.6.16-5.el8_6.x86_64.rpm",
+			"name": "gnutls",
+			"reboot_suggested": 0,
+			"release": "5.el8_6",
+			"src": "gnutls-3.6.16-5.el8_6.src.rpm",
+			"version": "3.6.16"
+		},
+		{
 			"arch": "i686",
 			"checksum": "5c928999c36f8386e36655919d51fae6c7ce8549944a811e6a397fae396237ab",
 			"checksum_type": "sha256",
@@ -53,11 +65,11 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "48a0d992d9cc44939ba8b932933f613ed7d0fba3909d7892f5971f090b8f0a36",
+			"arch": "aarch64",
+			"checksum": "d899cc15bcc47c2a82a66f4e440aee3c59f49f58b3426b3bc877eee809e74698",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.6.16-5.el8_6.x86_64.rpm",
+			"filename": "gnutls-3.6.16-5.el8_6.aarch64.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "5.el8_6",
@@ -65,11 +77,11 @@
 			"version": "3.6.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "d899cc15bcc47c2a82a66f4e440aee3c59f49f58b3426b3bc877eee809e74698",
+			"arch": "ppc64le",
+			"checksum": "2683e681679d1ea7292dff1bf3c3f882470ca14d10fb6287e648559b705747e8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.6.16-5.el8_6.aarch64.rpm",
+			"filename": "gnutls-3.6.16-5.el8_6.ppc64le.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "5.el8_6",
@@ -167,18 +179,6 @@
 			"epoch": "0",
 			"filename": "gnutls-c++-3.6.16-5.el8_6.aarch64.rpm",
 			"name": "gnutls-c++",
-			"reboot_suggested": 0,
-			"release": "5.el8_6",
-			"src": "gnutls-3.6.16-5.el8_6.src.rpm",
-			"version": "3.6.16"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2683e681679d1ea7292dff1bf3c3f882470ca14d10fb6287e648559b705747e8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-3.6.16-5.el8_6.ppc64le.rpm",
-			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "5.el8_6",
 			"src": "gnutls-3.6.16-5.el8_6.src.rpm",
@@ -318,5 +318,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gnutls security update",
 	"type": "security",
-	"updated_date": 1668447732
+	"updated_date": 1668447727
 }

@@ -17,18 +17,6 @@
 			"version": "4.13"
 		},
 		{
-			"arch": "i686",
-			"checksum": "83a2986d30b7af2d414332114b23bc18d2152595f889882243b9936635655a3d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-devel-4.13-4.el8_7.i686.rpm",
-			"name": "libtasn1-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "libtasn1-4.13-4.el8_7.src.rpm",
-			"version": "4.13"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "fa7eb0b4e9546444b2b679ff31c3254158a24923acfd1d49d1f19814e2c95e6d",
 			"checksum_type": "sha256",
@@ -41,11 +29,35 @@
 			"version": "4.13"
 		},
 		{
+			"arch": "i686",
+			"checksum": "83a2986d30b7af2d414332114b23bc18d2152595f889882243b9936635655a3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-devel-4.13-4.el8_7.i686.rpm",
+			"name": "libtasn1-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "libtasn1-4.13-4.el8_7.src.rpm",
+			"version": "4.13"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "c29e8a2b9fa5ddc938c53d988aa85247a93200c6fa85b8169b4fd45189346bcc",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libtasn1-4.13-4.el8_7.aarch64.rpm",
+			"name": "libtasn1",
+			"reboot_suggested": 0,
+			"release": "4.el8_7",
+			"src": "libtasn1-4.13-4.el8_7.src.rpm",
+			"version": "4.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e0a1136f3622707f413dc1bca591d8a87622d9d3cd560bdcf65107af62d48c68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-4.13-4.el8_7.ppc64le.rpm",
 			"name": "libtasn1",
 			"reboot_suggested": 0,
 			"release": "4.el8_7",
@@ -95,18 +107,6 @@
 			"epoch": "0",
 			"filename": "libtasn1-tools-4.13-4.el8_7.aarch64.rpm",
 			"name": "libtasn1-tools",
-			"reboot_suggested": 0,
-			"release": "4.el8_7",
-			"src": "libtasn1-4.13-4.el8_7.src.rpm",
-			"version": "4.13"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e0a1136f3622707f413dc1bca591d8a87622d9d3cd560bdcf65107af62d48c68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-4.13-4.el8_7.ppc64le.rpm",
-			"name": "libtasn1",
 			"reboot_suggested": 0,
 			"release": "4.el8_7",
 			"src": "libtasn1-4.13-4.el8_7.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libtasn1 security update",
 	"type": "security",
-	"updated_date": 1673869600
+	"updated_date": 1678274498
 }

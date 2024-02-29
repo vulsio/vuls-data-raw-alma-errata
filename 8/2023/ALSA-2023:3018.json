@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "ddc4ce62076803bb76feada1b92e33871bccc307677a7adb9350d7e83ca591ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libarchive-3.3.3-5.el8.i686.rpm",
-			"name": "libarchive",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libarchive-3.3.3-5.el8.src.rpm",
-			"version": "3.3.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "205c8883ff430988400473c2d98d3358ff949e5c99f97c7be5fde5c81ce496ad",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libarchive-devel-3.3.3-5.el8.i686.rpm",
-			"name": "libarchive-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libarchive-3.3.3-5.el8.src.rpm",
-			"version": "3.3.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "478e10db7f61b0c429b4202dab78978995cc3ba27689bf89317327b75a9c6881",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "libarchive-3.3.3-5.el8.x86_64.rpm",
 			"name": "libarchive",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libarchive-3.3.3-5.el8.src.rpm",
+			"version": "3.3.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ddc4ce62076803bb76feada1b92e33871bccc307677a7adb9350d7e83ca591ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libarchive-3.3.3-5.el8.i686.rpm",
+			"name": "libarchive",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libarchive-3.3.3-5.el8.src.rpm",
+			"version": "3.3.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "205c8883ff430988400473c2d98d3358ff949e5c99f97c7be5fde5c81ce496ad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libarchive-devel-3.3.3-5.el8.i686.rpm",
+			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "libarchive-3.3.3-5.el8.src.rpm",
@@ -77,11 +77,11 @@
 			"version": "3.3.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5567dff7c3a589cfc381faed4ac0a1e2b63eb5ea88688bcb606408e5bbfc5190",
+			"arch": "aarch64",
+			"checksum": "f6f2134bf137df6550e76d88c93f739c29a6396d56a7a2af9887ac5c1f5fbb3d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libarchive-devel-3.3.3-5.el8.x86_64.rpm",
+			"filename": "libarchive-devel-3.3.3-5.el8.aarch64.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -89,11 +89,11 @@
 			"version": "3.3.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f6f2134bf137df6550e76d88c93f739c29a6396d56a7a2af9887ac5c1f5fbb3d",
+			"arch": "x86_64",
+			"checksum": "5567dff7c3a589cfc381faed4ac0a1e2b63eb5ea88688bcb606408e5bbfc5190",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libarchive-devel-3.3.3-5.el8.aarch64.rpm",
+			"filename": "libarchive-devel-3.3.3-5.el8.x86_64.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -125,30 +125,6 @@
 			"version": "3.3.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "5c14ce547894fbe1c6a9e4214b5f7f2e25088a267dd08c7bb88348e0dfee822b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bsdtar-3.3.3-5.el8.s390x.rpm",
-			"name": "bsdtar",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libarchive-3.3.3-5.el8.src.rpm",
-			"version": "3.3.3"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "d564c9029b6f5a21194d8956ae7d12785fd3b2aa5c9ba687517209e3bb43fc70",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libarchive-3.3.3-5.el8.s390x.rpm",
-			"name": "libarchive",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libarchive-3.3.3-5.el8.src.rpm",
-			"version": "3.3.3"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "cfa98f79f47c6a31bf52f0b22f8537f9645cb3f4d4b0eee485001dd59626018c",
 			"checksum_type": "sha256",
@@ -167,6 +143,30 @@
 			"epoch": "0",
 			"filename": "libarchive-devel-3.3.3-5.el8.s390x.rpm",
 			"name": "libarchive-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libarchive-3.3.3-5.el8.src.rpm",
+			"version": "3.3.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5c14ce547894fbe1c6a9e4214b5f7f2e25088a267dd08c7bb88348e0dfee822b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bsdtar-3.3.3-5.el8.s390x.rpm",
+			"name": "bsdtar",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libarchive-3.3.3-5.el8.src.rpm",
+			"version": "3.3.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d564c9029b6f5a21194d8956ae7d12785fd3b2aa5c9ba687517209e3bb43fc70",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libarchive-3.3.3-5.el8.s390x.rpm",
+			"name": "libarchive",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "libarchive-3.3.3-5.el8.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Low",
 	"title": "Low: libarchive security update",
 	"type": "security",
-	"updated_date": 1684533627
+	"updated_date": 1684533683
 }

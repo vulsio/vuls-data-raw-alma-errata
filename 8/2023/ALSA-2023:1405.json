@@ -17,18 +17,6 @@
 			"version": "1.1.1k"
 		},
 		{
-			"arch": "i686",
-			"checksum": "7cd666dea79c93990374dd2c3024226f4370dca78b22f151d6b14a3103a93576",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-libs-1.1.1k-9.el8_7.i686.rpm",
-			"name": "openssl-libs",
-			"reboot_suggested": 0,
-			"release": "9.el8_7",
-			"src": "openssl-1.1.1k-9.el8_7.src.rpm",
-			"version": "1.1.1k"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "1bb5ece62a74e5d0def17cbec88acf57b24b25ffe5bf34bb9f8a2f5501b50ae7",
 			"checksum_type": "sha256",
@@ -47,6 +35,18 @@
 			"epoch": "1",
 			"filename": "openssl-devel-1.1.1k-9.el8_7.x86_64.rpm",
 			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8_7",
+			"src": "openssl-1.1.1k-9.el8_7.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7cd666dea79c93990374dd2c3024226f4370dca78b22f151d6b14a3103a93576",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-9.el8_7.i686.rpm",
+			"name": "openssl-libs",
 			"reboot_suggested": 0,
 			"release": "9.el8_7",
 			"src": "openssl-1.1.1k-9.el8_7.src.rpm",
@@ -276,5 +276,5 @@
 	"severity": "Important",
 	"title": "Important: openssl security update",
 	"type": "security",
-	"updated_date": 1679592618
+	"updated_date": 1679592620
 }
