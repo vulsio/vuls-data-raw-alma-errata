@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "19282ed593b2949226e0954b24fd49875c5a7676b5d77d6234b9dcfaa793f1f2",
+			"arch": "i686",
+			"checksum": "4e5ec3e789b7158dda5e734d36093061ad76e76b18214652d8f2a9724db6229f",
 			"checksum_type": "sha256",
 			"epoch": "12",
-			"filename": "dhcp-libs-4.3.6-49.el8.x86_64.rpm",
+			"filename": "dhcp-libs-4.3.6-49.el8.i686.rpm",
 			"name": "dhcp-libs",
 			"reboot_suggested": 0,
 			"release": "49.el8",
@@ -17,11 +17,23 @@
 			"version": "4.3.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "4e5ec3e789b7158dda5e734d36093061ad76e76b18214652d8f2a9724db6229f",
+			"arch": "noarch",
+			"checksum": "a5b8d64c51b42c2fa1e2477919375e007a8e468de7950281e2336c0bcd324d39",
 			"checksum_type": "sha256",
 			"epoch": "12",
-			"filename": "dhcp-libs-4.3.6-49.el8.i686.rpm",
+			"filename": "dhcp-common-4.3.6-49.el8.noarch.rpm",
+			"name": "dhcp-common",
+			"reboot_suggested": 0,
+			"release": "49.el8",
+			"src": "dhcp-4.3.6-49.el8.src.rpm",
+			"version": "4.3.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "19282ed593b2949226e0954b24fd49875c5a7676b5d77d6234b9dcfaa793f1f2",
+			"checksum_type": "sha256",
+			"epoch": "12",
+			"filename": "dhcp-libs-4.3.6-49.el8.x86_64.rpm",
 			"name": "dhcp-libs",
 			"reboot_suggested": 0,
 			"release": "49.el8",
@@ -35,18 +47,6 @@
 			"epoch": "12",
 			"filename": "dhcp-relay-4.3.6-49.el8.x86_64.rpm",
 			"name": "dhcp-relay",
-			"reboot_suggested": 0,
-			"release": "49.el8",
-			"src": "dhcp-4.3.6-49.el8.src.rpm",
-			"version": "4.3.6"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a5b8d64c51b42c2fa1e2477919375e007a8e468de7950281e2336c0bcd324d39",
-			"checksum_type": "sha256",
-			"epoch": "12",
-			"filename": "dhcp-common-4.3.6-49.el8.noarch.rpm",
-			"name": "dhcp-common",
 			"reboot_suggested": 0,
 			"release": "49.el8",
 			"src": "dhcp-4.3.6-49.el8.src.rpm",
@@ -256,5 +256,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dhcp security and bug fix update",
 	"type": "security",
-	"updated_date": 1684534019
+	"updated_date": 1684533972
 }

@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "b3f8240f16f33419863e6333b47b1ddba7b86e0e26f11a68fd473edcc17003f6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "autotrace-0.31.1-53.el8.aarch64.rpm",
-			"name": "autotrace",
-			"reboot_suggested": 0,
-			"release": "53.el8",
-			"src": "autotrace-0.31.1-53.el8.src.rpm",
-			"version": "0.31.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "894be813c851c1f1344ac2d11f5b54b5e5267bb77737e9458ecf66fbb2570afc",
 			"checksum_type": "sha256",
@@ -41,6 +29,18 @@
 			"version": "0.31.1"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "b3f8240f16f33419863e6333b47b1ddba7b86e0e26f11a68fd473edcc17003f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "autotrace-0.31.1-53.el8.aarch64.rpm",
+			"name": "autotrace",
+			"reboot_suggested": 0,
+			"release": "53.el8",
+			"src": "autotrace-0.31.1-53.el8.src.rpm",
+			"version": "0.31.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "bb65e3fa39f6682df5f7e1742585e842be8b35c3589cb48a39513b3e8e999c28",
 			"checksum_type": "sha256",
@@ -55,11 +55,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4519.html",
-			"id": "ALSA-2021-4519",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2019-19004",
 			"id": "CVE-2019-19004",
 			"type": "cve"
@@ -68,10 +63,15 @@
 			"href": "https://vulners.com/cve/CVE-2019-19005",
 			"id": "CVE-2019-19005",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4519.html",
+			"id": "ALSA-2021-4519",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: autotrace security update",
 	"type": "security",
-	"updated_date": 1636464171
+	"updated_date": 1636712461
 }

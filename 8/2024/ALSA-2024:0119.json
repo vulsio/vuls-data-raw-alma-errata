@@ -17,6 +17,18 @@
 			"version": "2.9.7"
 		},
 		{
+			"arch": "i686",
+			"checksum": "a12475f262578769c9d4f4d34e57820378b9fcff7256caf16e0292c2c0b9a201",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-devel-2.9.7-18.el8_9.i686.rpm",
+			"name": "libxml2-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_9",
+			"src": "libxml2-2.9.7-18.el8_9.src.rpm",
+			"version": "2.9.7"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "904f92bec0a54e993ed666838b7c007c5ef8472dcc6de679c2363f4d167b7b20",
 			"checksum_type": "sha256",
@@ -35,18 +47,6 @@
 			"epoch": "0",
 			"filename": "python3-libxml2-2.9.7-18.el8_9.x86_64.rpm",
 			"name": "python3-libxml2",
-			"reboot_suggested": 0,
-			"release": "18.el8_9",
-			"src": "libxml2-2.9.7-18.el8_9.src.rpm",
-			"version": "2.9.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "a12475f262578769c9d4f4d34e57820378b9fcff7256caf16e0292c2c0b9a201",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-18.el8_9.i686.rpm",
-			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "18.el8_9",
 			"src": "libxml2-2.9.7-18.el8_9.src.rpm",
@@ -149,11 +149,11 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "fb50a38703388c6d10d547d17b6796365d8ae3a0c4cb24bbc9bf1231003bf5e5",
+			"arch": "ppc64le",
+			"checksum": "7bf6a826642d9f9b486bb45f08e2443621ee69553f32eaab1f647135d5f2c971",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-18.el8_9.s390x.rpm",
+			"filename": "libxml2-devel-2.9.7-18.el8_9.ppc64le.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "18.el8_9",
@@ -161,11 +161,11 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7bf6a826642d9f9b486bb45f08e2443621ee69553f32eaab1f647135d5f2c971",
+			"arch": "s390x",
+			"checksum": "fb50a38703388c6d10d547d17b6796365d8ae3a0c4cb24bbc9bf1231003bf5e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-18.el8_9.ppc64le.rpm",
+			"filename": "libxml2-devel-2.9.7-18.el8_9.s390x.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "18.el8_9",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libxml2 security update",
 	"type": "security",
-	"updated_date": 1705060727
+	"updated_date": 1705060726
 }

@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "d27b50db74f0264fcd0b584b810a757402bbf56fcec3aec88e8fb16aae14a0a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.i686.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "i686",
 			"checksum": "2f053ddefad49e7625095f7b0be2239f0f60914566eeca42007d3338ff6d6042",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -17,11 +29,11 @@
 			"version": "1.7.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "d27b50db74f0264fcd0b584b810a757402bbf56fcec3aec88e8fb16aae14a0a6",
+			"arch": "x86_64",
+			"checksum": "e0de12c448cc711c1ccb10ec4dd9119f4e8baa08ba5c257c4b315da56814976f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.i686.rpm",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.x86_64.rpm",
 			"name": "libvpx-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8_8.alma.1",
@@ -42,35 +54,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "e0de12c448cc711c1ccb10ec4dd9119f4e8baa08ba5c257c4b315da56814976f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.x86_64.rpm",
-			"name": "libvpx-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8_8.alma.1",
-			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "895a48b844d6d5cfd97d3fc1894bdc411f31c6001523b123c55b99f58e4a20ce",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libvpx-1.7.0-10.el8_8.alma.1.x86_64.rpm",
 			"name": "libvpx",
-			"reboot_suggested": 0,
-			"release": "10.el8_8.alma.1",
-			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "8488ea28f20442c81b05e6679c958dd4cf25d80721e10e916884a23dd0d82f65",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
-			"name": "libvpx-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8_8.alma.1",
 			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
@@ -101,12 +89,12 @@
 			"version": "1.7.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "09ecc1b7a6e9a79272b6a712956b0201dd9c3fc98eb03240144bf97b20207393",
+			"arch": "ppc64le",
+			"checksum": "8488ea28f20442c81b05e6679c958dd4cf25d80721e10e916884a23dd0d82f65",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-1.7.0-10.el8_8.alma.1.s390x.rpm",
-			"name": "libvpx",
+			"filename": "libvpx-devel-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
+			"name": "libvpx-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8_8.alma.1",
 			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
@@ -118,6 +106,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libvpx-1.7.0-10.el8_8.alma.1.ppc64le.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "10.el8_8.alma.1",
+			"src": "libvpx-1.7.0-10.el8_8.alma.1.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "09ecc1b7a6e9a79272b6a712956b0201dd9c3fc98eb03240144bf97b20207393",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-10.el8_8.alma.1.s390x.rpm",
 			"name": "libvpx",
 			"reboot_suggested": 0,
 			"release": "10.el8_8.alma.1",
@@ -160,5 +160,5 @@
 	"severity": "Important",
 	"title": "Important: libvpx security update",
 	"type": "security",
-	"updated_date": 1696925564
+	"updated_date": 1696925563
 }

@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "f4bfe81326c777e4929f68ffc896b5d33256e5aece10dc44863ffb6c8402b5bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.16-1.el9_2.2.i686.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "005b770b08188fbf2ab1fe356f947cca65f6aa836ecc6ec48769203034898af9",
 			"checksum_type": "sha256",
@@ -77,18 +89,6 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "i686",
-			"checksum": "f4bfe81326c777e4929f68ffc896b5d33256e5aece10dc44863ffb6c8402b5bd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.16-1.el9_2.2.i686.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "d3415af7335aa22f7466203467ede4079ad4a8fba8183cdf25a47b343faee3cf",
 			"checksum_type": "sha256",
@@ -107,6 +107,30 @@
 			"epoch": "0",
 			"filename": "python3-tkinter-3.9.16-1.el9_2.2.x86_64.rpm",
 			"name": "python3-tkinter",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "db05bc5fb53765192e7710ca81b01420c6e822a6c1de88217f9c6fc9c86ca519",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.16-1.el9_2.2.x86_64.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fa99d893a272624d87fda4479397abb7c8380fcdb8dd389a9f77408b1ba70140",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-3.9.16-1.el9_2.2.x86_64.rpm",
+			"name": "python3",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
 			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
@@ -161,30 +185,6 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "db05bc5fb53765192e7710ca81b01420c6e822a6c1de88217f9c6fc9c86ca519",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.16-1.el9_2.2.x86_64.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "fa99d893a272624d87fda4479397abb7c8380fcdb8dd389a9f77408b1ba70140",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-3.9.16-1.el9_2.2.x86_64.rpm",
-			"name": "python3",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "6ccf410eb79ab9dff76f8159ff300bd29b69adfb5d3a277a1444d72f3efa81ac",
 			"checksum_type": "sha256",
@@ -203,30 +203,6 @@
 			"epoch": "0",
 			"filename": "python3-libs-3.9.16-1.el9_2.2.aarch64.rpm",
 			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "259893ab0be34d065cfddaf8609f289b74c97a1b5b7908d575550577fa11ed7e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.16-1.el9_2.2.s390x.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f5e3c4910c905f434c8fb56ea2068f92c02edda25739eefd92dde7501d7939a0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-3.9.16-1.el9_2.2.s390x.rpm",
-			"name": "python3",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
 			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
@@ -402,6 +378,30 @@
 		},
 		{
 			"arch": "s390x",
+			"checksum": "259893ab0be34d065cfddaf8609f289b74c97a1b5b7908d575550577fa11ed7e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.16-1.el9_2.2.s390x.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f5e3c4910c905f434c8fb56ea2068f92c02edda25739eefd92dde7501d7939a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-3.9.16-1.el9_2.2.s390x.rpm",
+			"name": "python3",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "s390x",
 			"checksum": "45df3cc7460c315693faf6318c6ae6033344c6e7c61ec6df575d65d936f20c39",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -462,5 +462,5 @@
 	"severity": "Important",
 	"title": "Important: python3.9 security update",
 	"type": "security",
-	"updated_date": 1696592078
+	"updated_date": 1696592067
 }

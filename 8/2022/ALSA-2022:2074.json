@@ -1,9 +1,141 @@
 {
-	"description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nThe following packages have been upgraded to a later upstream version: samba (4.15.5). (BZ#2013596)\n\nSecurity Fix(es):\n\n* samba: Symlink race error can allow metadata read and modify outside of the exported share (CVE-2021-20316)\n\n* samba: Information leak via symlinks of existance of files or directories outside of the exported share (CVE-2021-44141)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\nThe following packages have been upgraded to a later upstream version: samba (4.15.5). (BZ#2013596)\nSecurity Fix(es):\n* samba: Symlink race error can allow metadata read and modify outside of the exported share (CVE-2021-20316)\n* samba: Information leak via symlinks of existance of files or directories outside of the exported share (CVE-2021-44141)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
 	"id": "ALSA-2022:2074",
-	"issued_date": 1652170539,
+	"issued_date": 1652140800,
 	"modules": [],
 	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "0dbe8e698cb4a99d2831d61f14765eaf97222c5687dc3b8006af0afe58812f70",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsmbclient-devel-4.15.5-5.el8.i686.rpm",
+			"name": "libsmbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "11ccc8b39577775a8ee3e251e3a7ce4c158eb7a58166e50fb865950cc91dbd1f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsmbclient-4.15.5-5.el8.i686.rpm",
+			"name": "libsmbclient",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "2ae8d2e09ffb0da18af773e024b2df343292914c253be89c8f56130ed287f40f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-client-libs-4.15.5-5.el8.i686.rpm",
+			"name": "samba-client-libs",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "31caebd304c74bbefebaa24bc826e04bb351ef227bbcdcdd2ac88e1a81afb5ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-samba-4.15.5-5.el8.i686.rpm",
+			"name": "python3-samba",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "5a04594cc01e6b9802fa6fc78c895e0a07994b9932a60c8d5a2d97d7f6da0b31",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-libs-4.15.5-5.el8.i686.rpm",
+			"name": "samba-libs",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7254a711df7fecb90847e7dd97dca2f09f672824c74b37bd9062133c5c4bb79e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwbclient-4.15.5-5.el8.i686.rpm",
+			"name": "libwbclient",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "87b30faf4e0b6592a4d4c999cd3ba5a4e379e9198e207f883c4b944f92a3a907",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-devel-4.15.5-5.el8.i686.rpm",
+			"name": "samba-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "94d930ffd51b5f64a5d960aec323746b401702f75d968f52b35558e6619b4994",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-common-4.15.5-5.el8.noarch.rpm",
+			"name": "samba-common",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "a33a8ed50382f4cc304262d295932990b76501bf856cc641dbcca3dcfb946fa2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-winbind-modules-4.15.5-5.el8.i686.rpm",
+			"name": "samba-winbind-modules",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "a93257e393cb8fb8dcfa5097b3d9595bfe7203a61d4898cb1c4564c9cdc2f036",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwbclient-devel-4.15.5-5.el8.i686.rpm",
+			"name": "libwbclient-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b7feac085f3c0e0dd800ca003e9d49ac4209e09dde014586a2345ada517b27f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-pidl-4.15.5-5.el8.noarch.rpm",
+			"name": "samba-pidl",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "samba-4.15.5-5.el8.src.rpm",
+			"version": "4.15.5"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "02dbad3283b4685b0fa7b7614aad825a986be26b5d8a10fe462ba8a6fc98a78a",
@@ -23,18 +155,6 @@
 			"epoch": "0",
 			"filename": "samba-winbind-4.15.5-5.el8.x86_64.rpm",
 			"name": "samba-winbind",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "16b3d67db2472d6024797f93d22bea3951d2b0c78673b438dd178e08ec600c93",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsmbclient-4.15.5-5.el8.x86_64.rpm",
-			"name": "libsmbclient",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "samba-4.15.5-5.el8.src.rpm",
@@ -83,18 +203,6 @@
 			"epoch": "0",
 			"filename": "ctdb-4.15.5-5.el8.x86_64.rpm",
 			"name": "ctdb",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "49d2f7b2004d6eaa9eb31be29452f3a507001a117f85a0aab4b505bb85ae5b9c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-winbind-modules-4.15.5-5.el8.x86_64.rpm",
-			"name": "samba-winbind-modules",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "samba-4.15.5-5.el8.src.rpm",
@@ -197,30 +305,6 @@
 			"version": "4.15.5"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "94d930ffd51b5f64a5d960aec323746b401702f75d968f52b35558e6619b4994",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-common-4.15.5-5.el8.noarch.rpm",
-			"name": "samba-common",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a65ac686cff09fae8932c0e9a43512b89208d4ec54c575b8a2f61981acde5977",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwbclient-4.15.5-5.el8.x86_64.rpm",
-			"name": "libwbclient",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "a65ac686cff09fae8932c0e9a43512b89208d4ec54c575b8a2f61981acde5977",
 			"checksum_type": "sha256",
@@ -239,18 +323,6 @@
 			"epoch": "0",
 			"filename": "samba-devel-4.15.5-5.el8.x86_64.rpm",
 			"name": "samba-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "b7feac085f3c0e0dd800ca003e9d49ac4209e09dde014586a2345ada517b27f9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-pidl-4.15.5-5.el8.noarch.rpm",
-			"name": "samba-pidl",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "samba-4.15.5-5.el8.src.rpm",
@@ -318,30 +390,6 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "da84d2329722a537cb79630b118d72da73d795d9d028d512b79629bd32b0fbaf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-libs-4.15.5-5.el8.x86_64.rpm",
-			"name": "samba-libs",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f692d88363e824e6ebea6dc22b499185e70b366a3df9c4c97697ef82ff932261",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-client-libs-4.15.5-5.el8.x86_64.rpm",
-			"name": "samba-client-libs",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "f692d88363e824e6ebea6dc22b499185e70b366a3df9c4c97697ef82ff932261",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -359,126 +407,6 @@
 			"epoch": "0",
 			"filename": "python3-samba-4.15.5-5.el8.x86_64.rpm",
 			"name": "python3-samba",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f7750963bd9eb9d614f57246664f745c466ce505c899ddb5b75f375403411c25",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-samba-4.15.5-5.el8.x86_64.rpm",
-			"name": "python3-samba",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "0dbe8e698cb4a99d2831d61f14765eaf97222c5687dc3b8006af0afe58812f70",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsmbclient-devel-4.15.5-5.el8.i686.rpm",
-			"name": "libsmbclient-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "11ccc8b39577775a8ee3e251e3a7ce4c158eb7a58166e50fb865950cc91dbd1f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsmbclient-4.15.5-5.el8.i686.rpm",
-			"name": "libsmbclient",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "2ae8d2e09ffb0da18af773e024b2df343292914c253be89c8f56130ed287f40f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-client-libs-4.15.5-5.el8.i686.rpm",
-			"name": "samba-client-libs",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "31caebd304c74bbefebaa24bc826e04bb351ef227bbcdcdd2ac88e1a81afb5ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-samba-4.15.5-5.el8.i686.rpm",
-			"name": "python3-samba",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "5a04594cc01e6b9802fa6fc78c895e0a07994b9932a60c8d5a2d97d7f6da0b31",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-libs-4.15.5-5.el8.i686.rpm",
-			"name": "samba-libs",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7254a711df7fecb90847e7dd97dca2f09f672824c74b37bd9062133c5c4bb79e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwbclient-4.15.5-5.el8.i686.rpm",
-			"name": "libwbclient",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "87b30faf4e0b6592a4d4c999cd3ba5a4e379e9198e207f883c4b944f92a3a907",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-devel-4.15.5-5.el8.i686.rpm",
-			"name": "samba-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "a33a8ed50382f4cc304262d295932990b76501bf856cc641dbcca3dcfb946fa2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-winbind-modules-4.15.5-5.el8.i686.rpm",
-			"name": "samba-winbind-modules",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "samba-4.15.5-5.el8.src.rpm",
-			"version": "4.15.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "a93257e393cb8fb8dcfa5097b3d9595bfe7203a61d4898cb1c4564c9cdc2f036",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwbclient-devel-4.15.5-5.el8.i686.rpm",
-			"name": "libwbclient-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "samba-4.15.5-5.el8.src.rpm",
@@ -1027,21 +955,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2022-2074.html",
-			"id": "ALSA-2022-2074",
-			"type": "self"
-		},
-		{
-			"href": "https://vulners.com/cve/CVE-2021-20316",
-			"id": "CVE-2021-20316",
-			"type": "cve"
-		},
-		{
-			"href": "https://vulners.com/cve/CVE-2021-44141",
-			"id": "CVE-2021-44141",
-			"type": "cve"
-		},
-		{
 			"href": "https://access.redhat.com/errata/RHSA-2022:2074",
 			"id": "RHSA-2022:2074",
 			"type": "rhsa"
@@ -1070,10 +983,25 @@
 			"href": "https://errata.almalinux.org/8/ALSA-2022-2074.html",
 			"id": "ALSA-2022:2074",
 			"type": "self"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2022-2074.html",
+			"id": "ALSA-2022-2074",
+			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-20316",
+			"id": "CVE-2021-20316",
+			"type": "cve"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-44141",
+			"id": "CVE-2021-44141",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: samba security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1652170523
+	"updated_date": 1656501535
 }

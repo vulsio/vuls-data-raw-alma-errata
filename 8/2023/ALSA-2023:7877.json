@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "9d81254e5e3b13f4b97d567711723f99cd320e2f48a55e2b4417d9895d16d4e5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-12.el8_9.i686.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "12.el8_9",
+			"src": "openssl-1.1.1k-12.el8_9.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "i686",
+			"checksum": "dc1db1d29fad3009895a7b9b2e2b8516627c8b0bd1580589cd70cd7ab5d0c98b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-12.el8_9.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "12.el8_9",
+			"src": "openssl-1.1.1k-12.el8_9.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "200fb9a58e99c9b959018c440e65fc40b49c6d06cab99a40c8a349e38bb330b6",
 			"checksum_type": "sha256",
@@ -46,30 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-devel-1.1.1k-12.el8_9.x86_64.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "12.el8_9",
-			"src": "openssl-1.1.1k-12.el8_9.src.rpm",
-			"version": "1.1.1k"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9d81254e5e3b13f4b97d567711723f99cd320e2f48a55e2b4417d9895d16d4e5",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-libs-1.1.1k-12.el8_9.i686.rpm",
-			"name": "openssl-libs",
-			"reboot_suggested": 0,
-			"release": "12.el8_9",
-			"src": "openssl-1.1.1k-12.el8_9.src.rpm",
-			"version": "1.1.1k"
-		},
-		{
-			"arch": "i686",
-			"checksum": "dc1db1d29fad3009895a7b9b2e2b8516627c8b0bd1580589cd70cd7ab5d0c98b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-1.1.1k-12.el8_9.i686.rpm",
 			"name": "openssl-devel",
 			"reboot_suggested": 0,
 			"release": "12.el8_9",
@@ -266,5 +266,5 @@
 	"severity": "Low",
 	"title": "Low: openssl security update",
 	"type": "security",
-	"updated_date": 1703076141
+	"updated_date": 1703076140
 }

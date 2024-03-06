@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "dc6946a8344b8f4f476fef9479d1786c86fdcd045e988ab5d85fef7780e1fae4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.34.1-7.el9_3.i686.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "7.el9_3",
+			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "i686",
 			"checksum": "caa0f1675f5b77d17edfa67559890f44cac20ba5d8a0e1980b887afdfa3f9f05",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -77,18 +89,6 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "i686",
-			"checksum": "dc6946a8344b8f4f476fef9479d1786c86fdcd045e988ab5d85fef7780e1fae4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-7.el9_3.i686.rpm",
-			"name": "sqlite-libs",
-			"reboot_suggested": 0,
-			"release": "7.el9_3",
-			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
-			"version": "3.34.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "4e9a03d34e207f6c63ad933c32a6d5aef2e71ca0e6c5a44cbac4d1199c8ba1d1",
 			"checksum_type": "sha256",
@@ -107,6 +107,18 @@
 			"epoch": "0",
 			"filename": "sqlite-3.34.1-7.el9_3.x86_64.rpm",
 			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "7.el9_3",
+			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e7f87444f24a03b37caa02942082b6d4283067ecbbd3f7798f882d22b55713cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.34.1-7.el9_3.x86_64.rpm",
+			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",
 			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
@@ -142,18 +154,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "sqlite-libs-3.34.1-7.el9_3.ppc64le.rpm",
-			"name": "sqlite-libs",
-			"reboot_suggested": 0,
-			"release": "7.el9_3",
-			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
-			"version": "3.34.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e7f87444f24a03b37caa02942082b6d4283067ecbbd3f7798f882d22b55713cf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-7.el9_3.x86_64.rpm",
 			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",
@@ -210,5 +210,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: sqlite security update",
 	"type": "security",
-	"updated_date": 1706218678
+	"updated_date": 1706218677
 }

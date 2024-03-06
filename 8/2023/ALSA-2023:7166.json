@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "2cda151eea647af2b9a6018ce87f751f2d244bca52381b526153377ce3c89ecf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tpm2-tss-2.3.2-5.el8.x86_64.rpm",
-			"name": "tpm2-tss",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "tpm2-tss-2.3.2-5.el8.src.rpm",
-			"version": "2.3.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4e6c52a2552312015e0881976105eb53cd0620535c92d69decec296a3f9d0f85",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tpm2-tss-devel-2.3.2-5.el8.x86_64.rpm",
-			"name": "tpm2-tss-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "tpm2-tss-2.3.2-5.el8.src.rpm",
-			"version": "2.3.2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "d2636f5158dc2b7d047488c6bb3709cf3c40258d963e2a9fd0b57e1a755e1103",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "tpm2-tss-2.3.2-5.el8.i686.rpm",
 			"name": "tpm2-tss",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "tpm2-tss-2.3.2-5.el8.src.rpm",
+			"version": "2.3.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2cda151eea647af2b9a6018ce87f751f2d244bca52381b526153377ce3c89ecf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tpm2-tss-2.3.2-5.el8.x86_64.rpm",
+			"name": "tpm2-tss",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "tpm2-tss-2.3.2-5.el8.src.rpm",
+			"version": "2.3.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4e6c52a2552312015e0881976105eb53cd0620535c92d69decec296a3f9d0f85",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tpm2-tss-devel-2.3.2-5.el8.x86_64.rpm",
+			"name": "tpm2-tss-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "tpm2-tss-2.3.2-5.el8.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Low",
 	"title": "Low: tpm2-tss security and enhancement update",
 	"type": "security",
-	"updated_date": 1700734832
+	"updated_date": 1700734800
 }

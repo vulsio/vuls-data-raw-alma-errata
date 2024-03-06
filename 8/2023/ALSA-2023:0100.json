@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "990aa96537d938db1027386532d5d1915807d5d1fb263020d7af882fc2b7ebcb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-libs-239-68.el8_7.1.i686.rpm",
+			"name": "systemd-libs",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.1",
+			"src": "systemd-239-68.el8_7.1.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c5bf59d5a2c44b2390cfcff0da6db02f22a4eefb1d63b57b116e8b7fec63f0f5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-239-68.el8_7.1.i686.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.1",
+			"src": "systemd-239-68.el8_7.1.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "cd9449f05c4b224a05a4ee95dfdcb6de708f8868ebea9dd5f8c4197fa28e39ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-container-239-68.el8_7.1.i686.rpm",
+			"name": "systemd-container",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.1",
+			"src": "systemd-239-68.el8_7.1.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d718f876443d1cf97ec76dcd605961add702fbd4bafb43f3f9f320d240493bda",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-239-68.el8_7.1.i686.rpm",
+			"name": "systemd",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.1",
+			"src": "systemd-239-68.el8_7.1.src.rpm",
+			"version": "239"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "143aa08d76d6a6a34b09f9659ce390ed3b777e3d7fb58ec69da48bca0f3adf83",
 			"checksum_type": "sha256",
@@ -77,18 +125,6 @@
 			"version": "239"
 		},
 		{
-			"arch": "i686",
-			"checksum": "990aa96537d938db1027386532d5d1915807d5d1fb263020d7af882fc2b7ebcb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-libs-239-68.el8_7.1.i686.rpm",
-			"name": "systemd-libs",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.1",
-			"src": "systemd-239-68.el8_7.1.src.rpm",
-			"version": "239"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "abd7add99ebf4b4e1a8dafcbfa4944eab711c68bb441d3bc3f7f83fa565df517",
 			"checksum_type": "sha256",
@@ -101,47 +137,11 @@
 			"version": "239"
 		},
 		{
-			"arch": "i686",
-			"checksum": "c5bf59d5a2c44b2390cfcff0da6db02f22a4eefb1d63b57b116e8b7fec63f0f5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-devel-239-68.el8_7.1.i686.rpm",
-			"name": "systemd-devel",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.1",
-			"src": "systemd-239-68.el8_7.1.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "cd9449f05c4b224a05a4ee95dfdcb6de708f8868ebea9dd5f8c4197fa28e39ef",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-container-239-68.el8_7.1.i686.rpm",
-			"name": "systemd-container",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.1",
-			"src": "systemd-239-68.el8_7.1.src.rpm",
-			"version": "239"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "d19eb9df043b96f8257b6fd7a5c1f715ef22e59c8ed5519f26f1f05efbb94033",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-239-68.el8_7.1.x86_64.rpm",
-			"name": "systemd",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.1",
-			"src": "systemd-239-68.el8_7.1.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d718f876443d1cf97ec76dcd605961add702fbd4bafb43f3f9f320d240493bda",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-239-68.el8_7.1.i686.rpm",
 			"name": "systemd",
 			"reboot_suggested": 0,
 			"release": "68.el8_7.1",
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: systemd security and bug fix update",
 	"type": "security",
-	"updated_date": 1678725398
+	"updated_date": 1673866331
 }

@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "da9da56803b5350afbd911e7f6664c73ebecb3a84753904b2158c0a7d42b8aad",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-libs-2.3.3op2-21.el9.i686.rpm",
+			"name": "cups-libs",
+			"reboot_suggested": 0,
+			"release": "21.el9",
+			"src": "cups-2.3.3op2-21.el9.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "i686",
 			"checksum": "51bc3958df76f2b519295992ed77dfbd7c1d2bea323443b0331e041443dfed44",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -173,18 +185,6 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "i686",
-			"checksum": "da9da56803b5350afbd911e7f6664c73ebecb3a84753904b2158c0a7d42b8aad",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-libs-2.3.3op2-21.el9.i686.rpm",
-			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "21.el9",
-			"src": "cups-2.3.3op2-21.el9.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0afc726838dffa6fbd3d57b23e483f3ff4e6beff2dad7794ce7515825cd1ebd7",
 			"checksum_type": "sha256",
@@ -251,6 +251,18 @@
 			"epoch": "1",
 			"filename": "cups-devel-2.3.3op2-21.el9.x86_64.rpm",
 			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "21.el9",
+			"src": "cups-2.3.3op2-21.el9.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5efa331bb085c559ce656ded751160f70224eac965f1f124f97a23b1b375977b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-libs-2.3.3op2-21.el9.x86_64.rpm",
+			"name": "cups-libs",
 			"reboot_suggested": 0,
 			"release": "21.el9",
 			"src": "cups-2.3.3op2-21.el9.src.rpm",
@@ -341,18 +353,6 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5efa331bb085c559ce656ded751160f70224eac965f1f124f97a23b1b375977b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-libs-2.3.3op2-21.el9.x86_64.rpm",
-			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "21.el9",
-			"src": "cups-2.3.3op2-21.el9.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "7a6af1cfc70a6c0aaee9566c113cdb072ab76ebc2fb7c134755a3d66243a59b0",
 			"checksum_type": "sha256",
@@ -412,5 +412,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: cups security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963852
+	"updated_date": 1699963519
 }
