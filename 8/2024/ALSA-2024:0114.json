@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "d1620aa78f30c35ca57eeb3e0174b8916376c959205814abea95d24e7b7b82b7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-56.el8_9.2.alma.1.i686.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "56.el8_9.2.alma.1",
-			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "i686",
 			"checksum": "22db3031e4eee0aceeafdb83f926c923537b0950162b44dbc586366d695b476e",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -83,6 +71,18 @@
 			"epoch": "0",
 			"filename": "python3-idle-3.6.8-56.el8_9.2.alma.1.i686.rpm",
 			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "56.el8_9.2.alma.1",
+			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d1620aa78f30c35ca57eeb3e0174b8916376c959205814abea95d24e7b7b82b7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.6.8-56.el8_9.2.alma.1.i686.rpm",
+			"name": "python3-libs",
 			"reboot_suggested": 0,
 			"release": "56.el8_9.2.alma.1",
 			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
@@ -329,54 +329,6 @@
 			"version": "3.6.8"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "018c7f4b88f29257c7d0e28711de5882efa5690340653580fe8093f575fb9815",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-idle-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
-			"name": "python3-idle",
-			"reboot_suggested": 0,
-			"release": "56.el8_9.2.alma.1",
-			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "275c67887985045cabacff290d07592c4331481acc8654f2b24326fb4d1ffa0c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "platform-python-devel-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
-			"name": "platform-python-devel",
-			"reboot_suggested": 0,
-			"release": "56.el8_9.2.alma.1",
-			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "dd5f9574b1cd27577c8d0b8afb60f2833721ffd60a168a929eba71fefe680a8c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-tkinter-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
-			"name": "python3-tkinter",
-			"reboot_suggested": 0,
-			"release": "56.el8_9.2.alma.1",
-			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f17dea0511fa8ff415856cd37dd48292a294feb12652994a9326c655b4d1a4c1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "platform-python-debug-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
-			"name": "platform-python-debug",
-			"reboot_suggested": 0,
-			"release": "56.el8_9.2.alma.1",
-			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "120e53532e20fe019fede9a1d282e78f7573026559ed4e157fbcb14c5b8a111d",
 			"checksum_type": "sha256",
@@ -423,6 +375,54 @@
 			"release": "56.el8_9.2.alma.1",
 			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
 			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "018c7f4b88f29257c7d0e28711de5882efa5690340653580fe8093f575fb9815",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idle-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "56.el8_9.2.alma.1",
+			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "275c67887985045cabacff290d07592c4331481acc8654f2b24326fb4d1ffa0c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-devel-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
+			"name": "platform-python-devel",
+			"reboot_suggested": 0,
+			"release": "56.el8_9.2.alma.1",
+			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dd5f9574b1cd27577c8d0b8afb60f2833721ffd60a168a929eba71fefe680a8c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tkinter-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
+			"name": "python3-tkinter",
+			"reboot_suggested": 0,
+			"release": "56.el8_9.2.alma.1",
+			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f17dea0511fa8ff415856cd37dd48292a294feb12652994a9326c655b4d1a4c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-debug-3.6.8-56.el8_9.2.alma.1.ppc64le.rpm",
+			"name": "platform-python-debug",
+			"reboot_suggested": 0,
+			"release": "56.el8_9.2.alma.1",
+			"src": "python3-3.6.8-56.el8_9.2.alma.1.src.rpm",
+			"version": "3.6.8"
 		}
 	],
 	"references": [
@@ -460,5 +460,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python3 security update",
 	"type": "security",
-	"updated_date": 1705435216
+	"updated_date": 1705435219
 }

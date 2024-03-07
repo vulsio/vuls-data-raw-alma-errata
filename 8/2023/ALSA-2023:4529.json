@@ -6,11 +6,11 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "d86d1266da0b99d5b01d8bd2d9d8fdedaf5b23b5f89440a504b844b410873eaa",
+			"checksum": "cb1c8ba1048f1689c7ef2e3be26f8a8eec3c91c3b525f9d03a24a79801b4c04a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-2.9.7-16.el8_8.1.i686.rpm",
-			"name": "libxml2",
+			"filename": "libxml2-devel-2.9.7-16.el8_8.1.i686.rpm",
+			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
 			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
@@ -18,11 +18,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "cb1c8ba1048f1689c7ef2e3be26f8a8eec3c91c3b525f9d03a24a79801b4c04a",
+			"checksum": "d86d1266da0b99d5b01d8bd2d9d8fdedaf5b23b5f89440a504b844b410873eaa",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-16.el8_8.1.i686.rpm",
-			"name": "libxml2-devel",
+			"filename": "libxml2-2.9.7-16.el8_8.1.i686.rpm",
+			"name": "libxml2",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
 			"src": "libxml2-2.9.7-16.el8_8.1.src.rpm",
@@ -149,11 +149,11 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0a6bbb01a1614adbd96cfef0ebf7970e39bfdad55652aaab8498e067998c12b9",
+			"arch": "s390x",
+			"checksum": "a2a0e1d807cb733222716431ebd279ad891d233892f9c8c6cd9b221ff01779d6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-16.el8_8.1.ppc64le.rpm",
+			"filename": "libxml2-devel-2.9.7-16.el8_8.1.s390x.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
@@ -161,11 +161,11 @@
 			"version": "2.9.7"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "a2a0e1d807cb733222716431ebd279ad891d233892f9c8c6cd9b221ff01779d6",
+			"arch": "ppc64le",
+			"checksum": "0a6bbb01a1614adbd96cfef0ebf7970e39bfdad55652aaab8498e067998c12b9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.7-16.el8_8.1.s390x.rpm",
+			"filename": "libxml2-devel-2.9.7-16.el8_8.1.ppc64le.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8_8.1",
@@ -208,5 +208,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libxml2 security update",
 	"type": "security",
-	"updated_date": 1691574787
+	"updated_date": 1691574788
 }
