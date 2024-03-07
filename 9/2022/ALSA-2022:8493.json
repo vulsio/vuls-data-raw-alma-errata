@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "131d866baff2fbcac297d73133147cfd3d369df9a9f61a0706c22db47143f35f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.14-1.el9_1.1.i686.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "3d2670507359984b3c6478d157fb65c2564225e0ffc774f3681647addfdf5e60",
 			"checksum_type": "sha256",
@@ -41,11 +29,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7c22c27b88b3e0105b480a2c9f926aca331ed9d3b9ad0854c64dc780caf7d99f",
+			"arch": "x86_64",
+			"checksum": "50dcc74fe6ee60310798f764789bc4173b6cb2657cab347d7fe050a508f460ce",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-devel-3.9.14-1.el9_1.1.ppc64le.rpm",
+			"filename": "python3-devel-3.9.14-1.el9_1.1.x86_64.rpm",
 			"name": "python3-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -53,11 +41,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b9cc9d7c7a05ddf039e44a47c96fd8a01fac50ebebd2ee66b0419305a861fef7",
+			"arch": "x86_64",
+			"checksum": "5e0401543ef7adf368d7f2e68f5fe73f20992327bde3329806747dc12a60fd51",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-tkinter-3.9.14-1.el9_1.1.ppc64le.rpm",
+			"filename": "python3-tkinter-3.9.14-1.el9_1.1.x86_64.rpm",
 			"name": "python3-tkinter",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -89,47 +77,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "50dcc74fe6ee60310798f764789bc4173b6cb2657cab347d7fe050a508f460ce",
+			"arch": "i686",
+			"checksum": "131d866baff2fbcac297d73133147cfd3d369df9a9f61a0706c22db47143f35f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-devel-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "5e0401543ef7adf368d7f2e68f5fe73f20992327bde3329806747dc12a60fd51",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-tkinter-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3-tkinter",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "439fe4fe66cc27aa6a0fd7a985f5d14cd9fbdedd151b2fff38eafa147ff8754b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b2bb62a37f5426839d698d035c305679eddf852224482299e9dacde7b264ace3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.14-1.el9_1.1.x86_64.rpm",
+			"filename": "python3-libs-3.9.14-1.el9_1.1.i686.rpm",
 			"name": "python3-libs",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -185,6 +137,30 @@
 			"version": "3.9.14"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "439fe4fe66cc27aa6a0fd7a985f5d14cd9fbdedd151b2fff38eafa147ff8754b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-3.9.14-1.el9_1.1.x86_64.rpm",
+			"name": "python3",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b2bb62a37f5426839d698d035c305679eddf852224482299e9dacde7b264ace3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.14-1.el9_1.1.x86_64.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "e1a77e2711f1d034e04e0757bf8658ca8a060241f4eeec9c63272fe4ad7ecc3c",
 			"checksum_type": "sha256",
@@ -203,6 +179,30 @@
 			"epoch": "0",
 			"filename": "python3-3.9.14-1.el9_1.1.aarch64.rpm",
 			"name": "python3",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7c22c27b88b3e0105b480a2c9f926aca331ed9d3b9ad0854c64dc780caf7d99f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-devel-3.9.14-1.el9_1.1.ppc64le.rpm",
+			"name": "python3-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b9cc9d7c7a05ddf039e44a47c96fd8a01fac50ebebd2ee66b0419305a861fef7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tkinter-3.9.14-1.el9_1.1.ppc64le.rpm",
+			"name": "python3-tkinter",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
 			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
@@ -269,6 +269,30 @@
 			"version": "3.9.14"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "00a452834a3600400259482eeac986850e80fe97ea3a12e05e494a930c4bb816",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.14-1.el9_1.1.s390x.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b2a6cd781e5c93ac94fd9daba257602fa83294c175f4b80800192e6a41cb3560",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-3.9.14-1.el9_1.1.s390x.rpm",
+			"name": "python3",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0bcbd1c3d7d5b968a6ae41ed808aae22831bd6e0df3927929da810aaadbe5365",
 			"checksum_type": "sha256",
@@ -305,23 +329,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "63629e5eea53b2d7e4516740e1f76779740f52535dacf6b812c7930a4040bb63",
+			"arch": "s390x",
+			"checksum": "64dbafaf8f128eee5cb62bee05ed2bfbd662baff703ff0cc0276a90973289b82",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-idle-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3-idle",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "7a6d311a9c50566e6c3e07b6329a8305e2f3da765545e5143fe0a2e1fe687c6f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.14-1.el9_1.1.x86_64.rpm",
+			"filename": "python3-test-3.9.14-1.el9_1.1.s390x.rpm",
 			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -329,11 +341,23 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fe9f9466c30dba97410c81d0d42d2474a08e3112afe49a215dea152b7e1092c3",
+			"arch": "s390x",
+			"checksum": "be09101675aea97c77076380ecfaee93f8424b9d63c157ab18b9150cb024e63d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.14-1.el9_1.1.x86_64.rpm",
+			"filename": "python3-idle-3.9.14-1.el9_1.1.s390x.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d4841607a75bdb97f15ff9d9e7603aa8e1fd6896c6bdec6474fd95aa6213dbcc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-debug-3.9.14-1.el9_1.1.s390x.rpm",
 			"name": "python3-debug",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -377,47 +401,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "00a452834a3600400259482eeac986850e80fe97ea3a12e05e494a930c4bb816",
+			"arch": "x86_64",
+			"checksum": "63629e5eea53b2d7e4516740e1f76779740f52535dacf6b812c7930a4040bb63",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-libs-3.9.14-1.el9_1.1.s390x.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "b2a6cd781e5c93ac94fd9daba257602fa83294c175f4b80800192e6a41cb3560",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-3.9.14-1.el9_1.1.s390x.rpm",
-			"name": "python3",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "64dbafaf8f128eee5cb62bee05ed2bfbd662baff703ff0cc0276a90973289b82",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.14-1.el9_1.1.s390x.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "be09101675aea97c77076380ecfaee93f8424b9d63c157ab18b9150cb024e63d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-idle-3.9.14-1.el9_1.1.s390x.rpm",
+			"filename": "python3-idle-3.9.14-1.el9_1.1.x86_64.rpm",
 			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -425,11 +413,23 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "d4841607a75bdb97f15ff9d9e7603aa8e1fd6896c6bdec6474fd95aa6213dbcc",
+			"arch": "x86_64",
+			"checksum": "7a6d311a9c50566e6c3e07b6329a8305e2f3da765545e5143fe0a2e1fe687c6f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.14-1.el9_1.1.s390x.rpm",
+			"filename": "python3-test-3.9.14-1.el9_1.1.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fe9f9466c30dba97410c81d0d42d2474a08e3112afe49a215dea152b7e1092c3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-debug-3.9.14-1.el9_1.1.x86_64.rpm",
 			"name": "python3-debug",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -462,5 +462,5 @@
 	"severity": "Important",
 	"title": "Important: python3.9 security update",
 	"type": "security",
-	"updated_date": 1668684476
+	"updated_date": 1668684484
 }

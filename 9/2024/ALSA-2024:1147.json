@@ -1,0 +1,70 @@
+{
+	"description": "Relax-and-Recover is a recovery and system migration utility. The utility produces a bootable image and restores from backup using this image. It allows to restore to different hardware and can therefore be also used as a migration utility.\n\nSecurity Fix(es):\n\n* rear: creates a world-readable initrd (CVE-2024-23301)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1147",
+	"issued_date": 1709596800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "f47e4cf047aa546afddf48cdca2bac52a18c841e406ac4e61297e6ee2ba02d74",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-21.el9_3.alma.x86_64.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "21.el9_3.alma",
+			"src": "rear-2.6-21.el9_3.alma.src.rpm",
+			"version": "2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "acd907876565bb2bfbc3d6c5b80ba5b3adad6caf7440f5986c2c17c77b3e97ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-21.el9_3.alma.s390x.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "21.el9_3.alma",
+			"src": "rear-2.6-21.el9_3.alma.src.rpm",
+			"version": "2.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e0223a62b7a3d3225b2bb7af1f03988ff522ffd1ba17dae1f307e4fe25b096ed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-21.el9_3.alma.ppc64le.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "21.el9_3.alma",
+			"src": "rear-2.6-21.el9_3.alma.src.rpm",
+			"version": "2.6"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1147",
+			"id": "RHSA-2024:1147",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-23301",
+			"id": "CVE-2024-23301",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258396",
+			"id": "2258396",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-1147.html",
+			"id": "ALSA-2024:1147",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: rear security update",
+	"type": "security",
+	"updated_date": 1709734281
+}

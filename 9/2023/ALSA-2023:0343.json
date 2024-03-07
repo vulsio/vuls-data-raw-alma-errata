@@ -6,70 +6,10 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "9cbd11277e89bd0d4a80900bee01ca71b0c582c9cb5744f5035135b2ed907c85",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-4.16.0-8.el9_1.i686.rpm",
-			"name": "libtasn1",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
-			"version": "4.16.0"
-		},
-		{
-			"arch": "i686",
 			"checksum": "12bc8e2273e2d368727a7c240b57228ff600f6637adb48b991b78f51c1da8e07",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libtasn1-devel-4.16.0-8.el9_1.i686.rpm",
-			"name": "libtasn1-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
-			"version": "4.16.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "90d7e840825c3e9c45ecd99f82ae3ce2521e038d84f138ad67ff21bb7d76cb5b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-devel-4.16.0-8.el9_1.ppc64le.rpm",
-			"name": "libtasn1-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
-			"version": "4.16.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "cc18e286f3563323443057716aedfbd1c059dd5bf185bd8ceba577e38ef66b98",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-tools-4.16.0-8.el9_1.ppc64le.rpm",
-			"name": "libtasn1-tools",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
-			"version": "4.16.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "1f3f52af10aa7a3532a687b0228a79f60c2e2c0ff11160f62454ac02861bbecc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-tools-4.16.0-8.el9_1.aarch64.rpm",
-			"name": "libtasn1-tools",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
-			"version": "4.16.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "97ee5bc6decf787044d1d6b4295e10dea82d3d73be5a3c779871341cf707361e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtasn1-devel-4.16.0-8.el9_1.aarch64.rpm",
 			"name": "libtasn1-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9_1",
@@ -101,11 +41,35 @@
 			"version": "4.16.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "2dd3a1ad2785df642cb03dfed6dfbeec929ff8b14e52e61272ca7e89f86ba3cd",
+			"arch": "aarch64",
+			"checksum": "1f3f52af10aa7a3532a687b0228a79f60c2e2c0ff11160f62454ac02861bbecc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libtasn1-4.16.0-8.el9_1.x86_64.rpm",
+			"filename": "libtasn1-tools-4.16.0-8.el9_1.aarch64.rpm",
+			"name": "libtasn1-tools",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
+			"version": "4.16.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "97ee5bc6decf787044d1d6b4295e10dea82d3d73be5a3c779871341cf707361e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-devel-4.16.0-8.el9_1.aarch64.rpm",
+			"name": "libtasn1-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
+			"version": "4.16.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9cbd11277e89bd0d4a80900bee01ca71b0c582c9cb5744f5035135b2ed907c85",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-4.16.0-8.el9_1.i686.rpm",
 			"name": "libtasn1",
 			"reboot_suggested": 0,
 			"release": "8.el9_1",
@@ -149,12 +113,48 @@
 			"version": "4.16.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "2dd3a1ad2785df642cb03dfed6dfbeec929ff8b14e52e61272ca7e89f86ba3cd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-4.16.0-8.el9_1.x86_64.rpm",
+			"name": "libtasn1",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
+			"version": "4.16.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "26fc406c58504515fb6071578225e598895bcaedfd5f28a0c95164a902dea2d5",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libtasn1-4.16.0-8.el9_1.aarch64.rpm",
 			"name": "libtasn1",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
+			"version": "4.16.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "90d7e840825c3e9c45ecd99f82ae3ce2521e038d84f138ad67ff21bb7d76cb5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-devel-4.16.0-8.el9_1.ppc64le.rpm",
+			"name": "libtasn1-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
+			"version": "4.16.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cc18e286f3563323443057716aedfbd1c059dd5bf185bd8ceba577e38ef66b98",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtasn1-tools-4.16.0-8.el9_1.ppc64le.rpm",
+			"name": "libtasn1-tools",
 			"reboot_suggested": 0,
 			"release": "8.el9_1",
 			"src": "libtasn1-4.16.0-8.el9_1.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libtasn1 security update",
 	"type": "security",
-	"updated_date": 1674556856
+	"updated_date": 1674556855
 }

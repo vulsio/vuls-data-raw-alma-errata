@@ -6,58 +6,10 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "13ae11f2747287adf73507995209c6d5cc013f05211af88c97f3a4917bbde881",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-7.76.1-23.el9.i686.rpm",
-			"name": "libcurl",
-			"reboot_suggested": 0,
-			"release": "23.el9",
-			"src": "curl-7.76.1-23.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "855fbf53ccab397188f46a904e4886801b81f8a0788c9e3dbb4f0cdceca5da4e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-minimal-7.76.1-23.el9.i686.rpm",
-			"name": "libcurl-minimal",
-			"reboot_suggested": 0,
-			"release": "23.el9",
-			"src": "curl-7.76.1-23.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "i686",
 			"checksum": "660818f2e31e18baa7b267885e21d2823242f516cc34c9cc6a5d163e22b4d11c",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libcurl-devel-7.76.1-23.el9.i686.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "23.el9",
-			"src": "curl-7.76.1-23.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d7faa2875f9a8f13a00a162bfe0b064e336291cb0acf1b692a8916478d0ca2df",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-23.el9.ppc64le.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "23.el9",
-			"src": "curl-7.76.1-23.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3416cf64b885765ddb9ffa828979a5d2e6941c96f21f59d7eec9705f47a482c3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-23.el9.aarch64.rpm",
 			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "23.el9",
@@ -77,23 +29,23 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "795967b90ad96ac170f6da99bd586e09dffa035020cb6119a5844064ca39eea0",
+			"arch": "aarch64",
+			"checksum": "3416cf64b885765ddb9ffa828979a5d2e6941c96f21f59d7eec9705f47a482c3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "curl-7.76.1-23.el9.x86_64.rpm",
-			"name": "curl",
+			"filename": "libcurl-devel-7.76.1-23.el9.aarch64.rpm",
+			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "23.el9",
 			"src": "curl-7.76.1-23.el9.src.rpm",
 			"version": "7.76.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "af34ea6b05cd4f03a4c912c70a7ae071e9a895164fdd193e92b4f4e20eec4cb3",
+			"arch": "i686",
+			"checksum": "13ae11f2747287adf73507995209c6d5cc013f05211af88c97f3a4917bbde881",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-7.76.1-23.el9.x86_64.rpm",
+			"filename": "libcurl-7.76.1-23.el9.i686.rpm",
 			"name": "libcurl",
 			"reboot_suggested": 0,
 			"release": "23.el9",
@@ -101,24 +53,12 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "b0613c91baf2244aa4ea55a7be11807f437b7da176d4285d030f6232e9a2358a",
+			"arch": "i686",
+			"checksum": "855fbf53ccab397188f46a904e4886801b81f8a0788c9e3dbb4f0cdceca5da4e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-minimal-7.76.1-23.el9.x86_64.rpm",
+			"filename": "libcurl-minimal-7.76.1-23.el9.i686.rpm",
 			"name": "libcurl-minimal",
-			"reboot_suggested": 0,
-			"release": "23.el9",
-			"src": "curl-7.76.1-23.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "da891e4118edfdcc3a2a927003d6b55698654cc24bb12ea82488f4f6f759e5f5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "curl-minimal-7.76.1-23.el9.x86_64.rpm",
-			"name": "curl-minimal",
 			"reboot_suggested": 0,
 			"release": "23.el9",
 			"src": "curl-7.76.1-23.el9.src.rpm",
@@ -185,6 +125,54 @@
 			"version": "7.76.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "795967b90ad96ac170f6da99bd586e09dffa035020cb6119a5844064ca39eea0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "curl-7.76.1-23.el9.x86_64.rpm",
+			"name": "curl",
+			"reboot_suggested": 0,
+			"release": "23.el9",
+			"src": "curl-7.76.1-23.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "af34ea6b05cd4f03a4c912c70a7ae071e9a895164fdd193e92b4f4e20eec4cb3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-7.76.1-23.el9.x86_64.rpm",
+			"name": "libcurl",
+			"reboot_suggested": 0,
+			"release": "23.el9",
+			"src": "curl-7.76.1-23.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b0613c91baf2244aa4ea55a7be11807f437b7da176d4285d030f6232e9a2358a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-minimal-7.76.1-23.el9.x86_64.rpm",
+			"name": "libcurl-minimal",
+			"reboot_suggested": 0,
+			"release": "23.el9",
+			"src": "curl-7.76.1-23.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "da891e4118edfdcc3a2a927003d6b55698654cc24bb12ea82488f4f6f759e5f5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "curl-minimal-7.76.1-23.el9.x86_64.rpm",
+			"name": "curl-minimal",
+			"reboot_suggested": 0,
+			"release": "23.el9",
+			"src": "curl-7.76.1-23.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "64b1530492d7eb509bf4dfa8ce908b344ac55cf8a5078aec1545f9bb76403d4c",
 			"checksum_type": "sha256",
@@ -227,6 +215,18 @@
 			"epoch": "0",
 			"filename": "curl-minimal-7.76.1-23.el9.aarch64.rpm",
 			"name": "curl-minimal",
+			"reboot_suggested": 0,
+			"release": "23.el9",
+			"src": "curl-7.76.1-23.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d7faa2875f9a8f13a00a162bfe0b064e336291cb0acf1b692a8916478d0ca2df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.76.1-23.el9.ppc64le.rpm",
+			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "23.el9",
 			"src": "curl-7.76.1-23.el9.src.rpm",
@@ -316,5 +316,5 @@
 	"severity": "Low",
 	"title": "Low: curl security update",
 	"type": "security",
-	"updated_date": 1683860322
+	"updated_date": 1683860321
 }
