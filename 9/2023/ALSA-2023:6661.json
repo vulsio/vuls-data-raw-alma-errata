@@ -29,11 +29,11 @@
 			"version": "6.2.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5a1f855738c39815466a1c4d6c2d0545a04d28c3db449425fe93f50c10905fe6",
+			"arch": "ppc64le",
+			"checksum": "48d2db4c450278ef62aadb850fcb1a002646d55a2748b795382ca5f3a16c0ddc",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "gmp-c++-6.2.0-13.el9.x86_64.rpm",
+			"filename": "gmp-c++-6.2.0-13.el9.ppc64le.rpm",
 			"name": "gmp-c++",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -41,11 +41,11 @@
 			"version": "6.2.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "86253d0384c3a009cf19369a584dd18487bec2b4f384d4c3a8815ebea6b81bf8",
+			"arch": "ppc64le",
+			"checksum": "57d0f180a5117bb86d28072a02ce868bc7584b485d4a5d6cf237345fe493c09a",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "gmp-devel-6.2.0-13.el9.x86_64.rpm",
+			"filename": "gmp-devel-6.2.0-13.el9.ppc64le.rpm",
 			"name": "gmp-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -71,6 +71,30 @@
 			"epoch": "1",
 			"filename": "gmp-c++-6.2.0-13.el9.aarch64.rpm",
 			"name": "gmp-c++",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "gmp-6.2.0-13.el9.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5a1f855738c39815466a1c4d6c2d0545a04d28c3db449425fe93f50c10905fe6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "gmp-c++-6.2.0-13.el9.x86_64.rpm",
+			"name": "gmp-c++",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "gmp-6.2.0-13.el9.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "86253d0384c3a009cf19369a584dd18487bec2b4f384d4c3a8815ebea6b81bf8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "gmp-devel-6.2.0-13.el9.x86_64.rpm",
+			"name": "gmp-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "gmp-6.2.0-13.el9.src.rpm",
@@ -125,18 +149,6 @@
 			"version": "6.2.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "babe0b1385e723476a216d5f4b72453e031c3d683b19344786c2bddf7203cb04",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "gmp-6.2.0-13.el9.x86_64.rpm",
-			"name": "gmp",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "gmp-6.2.0-13.el9.src.rpm",
-			"version": "6.2.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "14953ab902c19b813af9a12242ed0f02bdc21ce6c87f1eca926cde1743dc1c3a",
 			"checksum_type": "sha256",
@@ -149,24 +161,12 @@
 			"version": "6.2.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "48d2db4c450278ef62aadb850fcb1a002646d55a2748b795382ca5f3a16c0ddc",
+			"arch": "x86_64",
+			"checksum": "babe0b1385e723476a216d5f4b72453e031c3d683b19344786c2bddf7203cb04",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "gmp-c++-6.2.0-13.el9.ppc64le.rpm",
-			"name": "gmp-c++",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "gmp-6.2.0-13.el9.src.rpm",
-			"version": "6.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "57d0f180a5117bb86d28072a02ce868bc7584b485d4a5d6cf237345fe493c09a",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "gmp-devel-6.2.0-13.el9.ppc64le.rpm",
-			"name": "gmp-devel",
+			"filename": "gmp-6.2.0-13.el9.x86_64.rpm",
+			"name": "gmp",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "gmp-6.2.0-13.el9.src.rpm",
