@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "30b4c77de55f0362a65b80cdecefe1e3a441c40b70339280893bf6816e399e47",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libXpm-devel-3.5.13-8.el9_1.aarch64.rpm",
+			"name": "libXpm-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
+			"version": "3.5.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b61a699c5c664d0262b279e12a2c32690fdc8428856480b18b91611bb6611c55",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libXpm-3.5.13-8.el9_1.aarch64.rpm",
+			"name": "libXpm",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
+			"version": "3.5.13"
+		},
+		{
 			"arch": "i686",
 			"checksum": "a480fde4a4e7588afd28669f37c5d99d6fce30ca4b2242339d9f3291e10b2007",
 			"checksum_type": "sha256",
@@ -23,6 +47,30 @@
 			"epoch": "0",
 			"filename": "libXpm-devel-3.5.13-8.el9_1.i686.rpm",
 			"name": "libXpm-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
+			"version": "3.5.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "0cca6f2f73e7ec44b03f451dd95fab137fad7a494aaecb57b19a423fcb28f797",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libXpm-devel-3.5.13-8.el9_1.s390x.rpm",
+			"name": "libXpm-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_1",
+			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
+			"version": "3.5.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "16796c5d0b7d3e6586db4730349bd9c3f34ba872cfeebe0450628a1f08517a51",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libXpm-3.5.13-8.el9_1.s390x.rpm",
+			"name": "libXpm",
 			"reboot_suggested": 0,
 			"release": "8.el9_1",
 			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
@@ -75,54 +123,6 @@
 			"release": "8.el9_1",
 			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
 			"version": "3.5.13"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "0cca6f2f73e7ec44b03f451dd95fab137fad7a494aaecb57b19a423fcb28f797",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libXpm-devel-3.5.13-8.el9_1.s390x.rpm",
-			"name": "libXpm-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
-			"version": "3.5.13"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "16796c5d0b7d3e6586db4730349bd9c3f34ba872cfeebe0450628a1f08517a51",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libXpm-3.5.13-8.el9_1.s390x.rpm",
-			"name": "libXpm",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
-			"version": "3.5.13"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "30b4c77de55f0362a65b80cdecefe1e3a441c40b70339280893bf6816e399e47",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libXpm-devel-3.5.13-8.el9_1.aarch64.rpm",
-			"name": "libXpm-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
-			"version": "3.5.13"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b61a699c5c664d0262b279e12a2c32690fdc8428856480b18b91611bb6611c55",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libXpm-3.5.13-8.el9_1.aarch64.rpm",
-			"name": "libXpm",
-			"reboot_suggested": 0,
-			"release": "8.el9_1",
-			"src": "libXpm-3.5.13-8.el9_1.src.rpm",
-			"version": "3.5.13"
 		}
 	],
 	"references": [
@@ -170,5 +170,5 @@
 	"severity": "Important",
 	"title": "Important: libXpm security update",
 	"type": "security",
-	"updated_date": 1674572085
+	"updated_date": 1674572086
 }

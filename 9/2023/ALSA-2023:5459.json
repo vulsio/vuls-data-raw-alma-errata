@@ -5,6 +5,66 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "0e290324a665ea488350171cf64c8a6f291e2ea16fb8656f3f49b729a37c3993",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-printing-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "ghostscript-tools-printing",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "362f2b818be7f5207f211c8dc8db90f53baa8781a1a4a6a631b55757fd421bad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-x11-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "ghostscript-x11",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "64334c4d2d959f2c24d369be8d044c76c4f5d34f9c1a2fd78716b782827a623d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "ghostscript",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "70572b27262bdd770d27b53ca76137cb24043f0e4ea4f2ea134eb9f8bc4dcc85",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-fonts-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "ghostscript-tools-fonts",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7d1b9ae9937b86f5a0f9966779e7e2156a35f9dc62ece019fb4748d7fc31d84b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-dvipdf-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "ghostscript-tools-dvipdf",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "a9fbde0874ce6eceb343bd037c297ee445d98fc1185fedda26a3cc72fe9f2450",
 			"checksum_type": "sha256",
@@ -17,12 +77,96 @@
 			"version": "9.54.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "dc76f95eba4c426066776df8008e0c5d6bb20ce1d53ac0ada7f2c93df704e704",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.54.0-10.el9_2.aarch64.rpm",
+			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "f9bcbd613a1c8755c73d62bc7ac37c984aa5a927f2183bff2022cf87a9e55773",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libgs-9.54.0-10.el9_2.i686.rpm",
 			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "242005aed4b8cd721526c3f87787a8bbea852211acc1d50d4e1e340ddf8ed8a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-fonts-9.54.0-10.el9_2.s390x.rpm",
+			"name": "ghostscript-tools-fonts",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2ec4d0e13fce79d1a7ff1d276a04f042c33db107275bd515251d74059d7d4544",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.54.0-10.el9_2.s390x.rpm",
+			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "35b045bf3b2790016ef0cee02d12faa7b068948df1c50a31ffa23dd373b124d3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-dvipdf-9.54.0-10.el9_2.s390x.rpm",
+			"name": "ghostscript-tools-dvipdf",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a7013045be057bcaeb6784e1661312173fd1b5de1a5a6f284bdb551224f3a1cb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-x11-9.54.0-10.el9_2.s390x.rpm",
+			"name": "ghostscript-x11",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a8eba8426f4feff3777e152906fa218f902750423489c75e2672cc5467514110",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-9.54.0-10.el9_2.s390x.rpm",
+			"name": "ghostscript",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c31cedb7e5d4035e0330726124df7de5d8fa33ce3e7747f23bbc8a405138358c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-printing-9.54.0-10.el9_2.s390x.rpm",
+			"name": "ghostscript-tools-printing",
 			"reboot_suggested": 0,
 			"release": "10.el9_2",
 			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
@@ -173,150 +317,6 @@
 			"version": "9.54.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "242005aed4b8cd721526c3f87787a8bbea852211acc1d50d4e1e340ddf8ed8a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-fonts-9.54.0-10.el9_2.s390x.rpm",
-			"name": "ghostscript-tools-fonts",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "2ec4d0e13fce79d1a7ff1d276a04f042c33db107275bd515251d74059d7d4544",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.54.0-10.el9_2.s390x.rpm",
-			"name": "libgs",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "35b045bf3b2790016ef0cee02d12faa7b068948df1c50a31ffa23dd373b124d3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-dvipdf-9.54.0-10.el9_2.s390x.rpm",
-			"name": "ghostscript-tools-dvipdf",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a7013045be057bcaeb6784e1661312173fd1b5de1a5a6f284bdb551224f3a1cb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-x11-9.54.0-10.el9_2.s390x.rpm",
-			"name": "ghostscript-x11",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a8eba8426f4feff3777e152906fa218f902750423489c75e2672cc5467514110",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-9.54.0-10.el9_2.s390x.rpm",
-			"name": "ghostscript",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "c31cedb7e5d4035e0330726124df7de5d8fa33ce3e7747f23bbc8a405138358c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-printing-9.54.0-10.el9_2.s390x.rpm",
-			"name": "ghostscript-tools-printing",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "0e290324a665ea488350171cf64c8a6f291e2ea16fb8656f3f49b729a37c3993",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-printing-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "ghostscript-tools-printing",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "362f2b818be7f5207f211c8dc8db90f53baa8781a1a4a6a631b55757fd421bad",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-x11-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "ghostscript-x11",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "64334c4d2d959f2c24d369be8d044c76c4f5d34f9c1a2fd78716b782827a623d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "ghostscript",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "70572b27262bdd770d27b53ca76137cb24043f0e4ea4f2ea134eb9f8bc4dcc85",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-fonts-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "ghostscript-tools-fonts",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7d1b9ae9937b86f5a0f9966779e7e2156a35f9dc62ece019fb4748d7fc31d84b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-dvipdf-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "ghostscript-tools-dvipdf",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "dc76f95eba4c426066776df8008e0c5d6bb20ce1d53ac0ada7f2c93df704e704",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.54.0-10.el9_2.aarch64.rpm",
-			"name": "libgs",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "1b39770e4a87267b203010a71d2ec54e8070157102ff4b380879f341472fc39b",
 			"checksum_type": "sha256",
@@ -365,18 +365,6 @@
 			"version": "9.54.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "5cb2d3c8fd4a32483e9505d471108090f38f6fe1f0a90410b18ea3a39c3f2077",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-devel-9.54.0-10.el9_2.ppc64le.rpm",
-			"name": "libgs-devel",
-			"reboot_suggested": 0,
-			"release": "10.el9_2",
-			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
-			"version": "9.54.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "dbe51b018516c4bdcf9be6e887111f4a9ef263276e48140f412afcb01af796a6",
 			"checksum_type": "sha256",
@@ -411,6 +399,18 @@
 			"release": "10.el9_2",
 			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
 			"version": "9.54.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5cb2d3c8fd4a32483e9505d471108090f38f6fe1f0a90410b18ea3a39c3f2077",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-devel-9.54.0-10.el9_2.ppc64le.rpm",
+			"name": "libgs-devel",
+			"reboot_suggested": 0,
+			"release": "10.el9_2",
+			"src": "ghostscript-9.54.0-10.el9_2.src.rpm",
+			"version": "9.54.0"
 		}
 	],
 	"references": [
@@ -438,5 +438,5 @@
 	"severity": "Important",
 	"title": "Important: ghostscript security update",
 	"type": "security",
-	"updated_date": 1696590817
+	"updated_date": 1696590819
 }

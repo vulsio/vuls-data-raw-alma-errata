@@ -39,6 +39,13 @@
 			"version": "8060020220803092659"
 		},
 		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "mariadb",
+			"stream": "10.5",
+			"version": "8060020220420124706"
+		},
+		{
 			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "mariadb",
@@ -51,13 +58,6 @@
 			"name": "mariadb",
 			"stream": "10.3",
 			"version": "8050020220427075058"
-		},
-		{
-			"arch": "aarch64",
-			"context": "9edba152",
-			"name": "mariadb",
-			"stream": "10.5",
-			"version": "8060020220420124706"
 		},
 		{
 			"arch": "ppc64le",
@@ -206,6 +206,19 @@
 			"version": "1.10.8"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+			"module": "mariadb:10.5:8060020220420124706:9edba152:aarch64",
+			"name": "Judy",
+			"reboot_suggested": 0,
+			"release": "18.module_el8.6.0+2761+593e5e59",
+			"src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
+			"version": "1.0.5"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "42f8c8f57ae6c40142f826e44310a4fe8b0a5e996c2251190b01c9ea7112babe",
 			"checksum_type": "sha256",
@@ -255,19 +268,6 @@
 			"reboot_suggested": 0,
 			"release": "18.module_el8.5.0+2632+14ced695",
 			"src": "Judy-1.0.5-18.module_el8.5.0+2632+14ced695.src.rpm",
-			"version": "1.0.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-			"module": "mariadb:10.5:8060020220420124706:9edba152:aarch64",
-			"name": "Judy",
-			"reboot_suggested": 0,
-			"release": "18.module_el8.6.0+2761+593e5e59",
-			"src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
 			"version": "1.0.5"
 		}
 	],

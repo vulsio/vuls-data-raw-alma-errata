@@ -5,12 +5,60 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "95b43131939da62abd2206d2b1062824943d951eb72898859ec046dc83eeaf17",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-4.el9.aarch64.rpm",
+			"name": "wireshark",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "wireshark-3.4.10-4.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b58272c12dd54cd85a25b1c1d083967d87200be791ce93ca9434923834812489",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-4.el9.aarch64.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "wireshark-3.4.10-4.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
 			"arch": "i686",
 			"checksum": "95097b03c142f8878f94d623b58e77e493b2260f37e935612137675bc9d8b8ea",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "wireshark-cli-3.4.10-4.el9.i686.rpm",
 			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "wireshark-3.4.10-4.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f3b9c440a9b824ac8711db58cf0a555023aa1735f6e73f98075355b8140b32e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-3.4.10-4.el9.s390x.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "wireshark-3.4.10-4.el9.src.rpm",
+			"version": "3.4.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "982519e9147624c34790f4a9e3fdd5392382b535ace2ea8cf3056ae9a46fa16a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-3.4.10-4.el9.s390x.rpm",
+			"name": "wireshark",
 			"reboot_suggested": 0,
 			"release": "4.el9",
 			"src": "wireshark-3.4.10-4.el9.src.rpm",
@@ -65,71 +113,11 @@
 			"version": "3.4.10"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "6f3b9c440a9b824ac8711db58cf0a555023aa1735f6e73f98075355b8140b32e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-cli-3.4.10-4.el9.s390x.rpm",
-			"name": "wireshark-cli",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "wireshark-3.4.10-4.el9.src.rpm",
-			"version": "3.4.10"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "982519e9147624c34790f4a9e3fdd5392382b535ace2ea8cf3056ae9a46fa16a",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-3.4.10-4.el9.s390x.rpm",
-			"name": "wireshark",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "wireshark-3.4.10-4.el9.src.rpm",
-			"version": "3.4.10"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "95b43131939da62abd2206d2b1062824943d951eb72898859ec046dc83eeaf17",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-3.4.10-4.el9.aarch64.rpm",
-			"name": "wireshark",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "wireshark-3.4.10-4.el9.src.rpm",
-			"version": "3.4.10"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b58272c12dd54cd85a25b1c1d083967d87200be791ce93ca9434923834812489",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-cli-3.4.10-4.el9.aarch64.rpm",
-			"name": "wireshark-cli",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "wireshark-3.4.10-4.el9.src.rpm",
-			"version": "3.4.10"
-		},
-		{
 			"arch": "i686",
 			"checksum": "24fe51c718a14b22807a84270f373f18288d3fff5009b754c06d89e08a7eec6e",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "wireshark-devel-3.4.10-4.el9.i686.rpm",
-			"name": "wireshark-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "wireshark-3.4.10-4.el9.src.rpm",
-			"version": "3.4.10"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "16770214dc484ff9449c9a4f4bc00e8cd68d497801f70319eafb6c548b2d58f8",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-devel-3.4.10-4.el9.ppc64le.rpm",
 			"name": "wireshark-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -171,6 +159,18 @@
 			"release": "4.el9",
 			"src": "wireshark-3.4.10-4.el9.src.rpm",
 			"version": "3.4.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "16770214dc484ff9449c9a4f4bc00e8cd68d497801f70319eafb6c548b2d58f8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-3.4.10-4.el9.ppc64le.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "wireshark-3.4.10-4.el9.src.rpm",
+			"version": "3.4.10"
 		}
 	],
 	"references": [
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: wireshark security and bug fix update",
 	"type": "security",
-	"updated_date": 1683866763
+	"updated_date": 1683866764
 }
