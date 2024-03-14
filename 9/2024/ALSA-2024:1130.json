@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "55a1376202baa545e842723996debfcd5b7018a9e393b2ff554eedcaaefe91dd",
+			"arch": "ppc64le",
+			"checksum": "67f5600059d6fddeb731fb3b319b8775385cbd69b01a13d25e0537ef86b685b3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.aarch64.rpm",
+			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.ppc64le.rpm",
 			"name": "pam_ssh_agent_auth",
 			"reboot_suggested": 0,
 			"release": "5.34.el9_3.3",
@@ -17,40 +17,16 @@
 			"version": "0.10.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "d2653072fc31045a264361365bd16c14f1783b79148cc43d914dac92cfafcb9d",
+			"arch": "ppc64le",
+			"checksum": "acc55442e91c9c33ad7cccb42adbccbc7e25e68ca3079e036da01efdb23fe8c3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.7p1-34.el9_3.3.aarch64.rpm",
+			"filename": "openssh-askpass-8.7p1-34.el9_3.3.ppc64le.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "34.el9_3.3",
 			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
 			"version": "8.7p1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "165f7b5fa61b942d2f8978dd713262c9610e630b5d020d68ad447edda35c483a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-askpass-8.7p1-34.el9_3.3.s390x.rpm",
-			"name": "openssh-askpass",
-			"reboot_suggested": 0,
-			"release": "34.el9_3.3",
-			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "2e4b1441df878acba9ab856c0e6c9191c196d88a149bcac7a3156b7fa1fc5d7f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.s390x.rpm",
-			"name": "pam_ssh_agent_auth",
-			"reboot_suggested": 0,
-			"release": "5.34.el9_3.3",
-			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
-			"version": "0.10.4"
 		},
 		{
 			"arch": "x86_64",
@@ -77,11 +53,11 @@
 			"version": "0.10.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "67f5600059d6fddeb731fb3b319b8775385cbd69b01a13d25e0537ef86b685b3",
+			"arch": "aarch64",
+			"checksum": "55a1376202baa545e842723996debfcd5b7018a9e393b2ff554eedcaaefe91dd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.ppc64le.rpm",
+			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.aarch64.rpm",
 			"name": "pam_ssh_agent_auth",
 			"reboot_suggested": 0,
 			"release": "5.34.el9_3.3",
@@ -89,11 +65,11 @@
 			"version": "0.10.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "acc55442e91c9c33ad7cccb42adbccbc7e25e68ca3079e036da01efdb23fe8c3",
+			"arch": "aarch64",
+			"checksum": "d2653072fc31045a264361365bd16c14f1783b79148cc43d914dac92cfafcb9d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.7p1-34.el9_3.3.ppc64le.rpm",
+			"filename": "openssh-askpass-8.7p1-34.el9_3.3.aarch64.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "34.el9_3.3",
@@ -195,6 +171,30 @@
 			"release": "34.el9_3.3",
 			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
 			"version": "8.7p1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "165f7b5fa61b942d2f8978dd713262c9610e630b5d020d68ad447edda35c483a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-askpass-8.7p1-34.el9_3.3.s390x.rpm",
+			"name": "openssh-askpass",
+			"reboot_suggested": 0,
+			"release": "34.el9_3.3",
+			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2e4b1441df878acba9ab856c0e6c9191c196d88a149bcac7a3156b7fa1fc5d7f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam_ssh_agent_auth-0.10.4-5.34.el9_3.3.s390x.rpm",
+			"name": "pam_ssh_agent_auth",
+			"reboot_suggested": 0,
+			"release": "5.34.el9_3.3",
+			"src": "openssh-8.7p1-34.el9_3.3.src.rpm",
+			"version": "0.10.4"
 		},
 		{
 			"arch": "s390x",
