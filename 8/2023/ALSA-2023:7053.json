@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "b99d696a1b28275294a4f1c8bfb87763889fbab5b1ab8ab608a30d5a172eedca",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.27-11.el8.i686.rpm",
-			"name": "libgs",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "ghostscript-9.27-11.el8.src.rpm",
-			"version": "9.27"
-		},
-		{
-			"arch": "i686",
 			"checksum": "f18cbb5fd9ee09677461dcfe74e6a96b1761050503b01302b019bae955dccdc2",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "ghostscript-doc-9.27-11.el8.noarch.rpm",
 			"name": "ghostscript-doc",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "ghostscript-9.27-11.el8.src.rpm",
+			"version": "9.27"
+		},
+		{
+			"arch": "i686",
+			"checksum": "b99d696a1b28275294a4f1c8bfb87763889fbab5b1ab8ab608a30d5a172eedca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.27-11.el8.i686.rpm",
+			"name": "libgs",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "ghostscript-9.27-11.el8.src.rpm",
@@ -422,5 +422,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: ghostscript security and bug fix update",
 	"type": "security",
-	"updated_date": 1700734743
+	"updated_date": 1700734955
 }

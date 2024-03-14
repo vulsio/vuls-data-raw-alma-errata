@@ -41,32 +41,6 @@
 	],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "04261c29bb296eb9a75529ccf38f2cf0059e4537d8911980c2993cd607ac46fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnbd-bash-completion-1.6.0-5.module_el8.6.0+2880+7d9e3703.noarch.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:i686",
-			"name": "libnbd-bash-completion",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.6.0+2880+7d9e3703",
-			"src": "libnbd-1.6.0-5.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "1.6.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:i686",
-			"name": "sgabios-bin",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.6.0+2880+7d9e3703",
-			"src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "0.20170427git"
-		},
-		{
 			"arch": "i686",
 			"checksum": "28ead8b877053586efdfe2d3e8ef361b789f6d8877d9ec5cdd3aa31510967459",
 			"checksum_type": "sha256",
@@ -117,6 +91,32 @@
 			"release": "5.module_el8.6.0+2880+7d9e3703",
 			"src": "libnbd-1.6.0-5.module_el8.6.0+2880+7d9e3703.src.rpm",
 			"version": "1.6.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "04261c29bb296eb9a75529ccf38f2cf0059e4537d8911980c2993cd607ac46fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnbd-bash-completion-1.6.0-5.module_el8.6.0+2880+7d9e3703.noarch.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:i686",
+			"name": "libnbd-bash-completion",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.6.0+2880+7d9e3703",
+			"src": "libnbd-1.6.0-5.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "1.6.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:i686",
+			"name": "sgabios-bin",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.6.0+2880+7d9e3703",
+			"src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "0.20170427git"
 		},
 		{
 			"arch": "x86_64",
@@ -5991,5 +5991,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: virt:rhel and virt-devel:rhel security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1700836433
+	"updated_date": 1700836431
 }
