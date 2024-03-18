@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "e630af3e2dc664700d9ad2e5adf4ea64bc277a72026bcdfe4a5f4dc8a9d7a275",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.3.0-7.el8_6.alma.aarch64.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "7.el8_6.alma",
-			"src": "firefox-102.3.0-7.el8_6.alma.src.rpm",
-			"version": "102.3.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "2b688845be28619cdad06a4ac8f3e13c7355d761064f42f7df4b958c08fcf786",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "102.3.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "2ca4021736ae8d437b5e2053827eb2958ccc2e8e91c010d316cfe33010d2d658",
+			"arch": "aarch64",
+			"checksum": "e630af3e2dc664700d9ad2e5adf4ea64bc277a72026bcdfe4a5f4dc8a9d7a275",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-102.3.0-7.el8_6.alma.s390x.rpm",
+			"filename": "firefox-102.3.0-7.el8_6.alma.aarch64.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "7.el8_6.alma",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "firefox-102.3.0-7.el8_6.alma.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "7.el8_6.alma",
+			"src": "firefox-102.3.0-7.el8_6.alma.src.rpm",
+			"version": "102.3.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2ca4021736ae8d437b5e2053827eb2958ccc2e8e91c010d316cfe33010d2d658",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.3.0-7.el8_6.alma.s390x.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "7.el8_6.alma",
@@ -78,5 +78,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1666180903
+	"updated_date": 1666180904
 }

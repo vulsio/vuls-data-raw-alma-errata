@@ -1,0 +1,140 @@
+{
+	"description": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator (CVE-2023-50387)\n* dnsmasq: bind9: Preparing an NSEC3 closest encloser proof can exhaust CPU resources (CVE-2023-50868)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1335",
+	"issued_date": 1710374400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "5b88d8e2f8a91d685640329557dadbfdd38be5d311181e2e39c8a5c3f6440891",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.79-31.el8_9.2.x86_64.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9f5d10e888ae3e13468f343b1ab917250cc4dcc5243e0c50d3489307ccf0b60c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.79-31.el8_9.2.x86_64.rpm",
+			"name": "dnsmasq-utils",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "661ea7781e7a69c222f8ab61882ab9fcec29c45b58f9eb1bb7f17a2b5bab03bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.79-31.el8_9.2.aarch64.rpm",
+			"name": "dnsmasq-utils",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c8d073ef61c3aa182fa0bc62c12465255a708bfc91288ff277d0f0468d73a935",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.79-31.el8_9.2.aarch64.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "52a94a55b7de20848ff4d91b3576cfabc4ba3109eb24609db3c98c03c01eda90",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.79-31.el8_9.2.ppc64le.rpm",
+			"name": "dnsmasq-utils",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9b34bfc7fa8fe2d8a6c63b3bb6093603666674db115e559a96a6ebcba2d91a16",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.79-31.el8_9.2.ppc64le.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7698d8d8a961b8443224afa62865a72c8948d6b8445d81654a17e1daa65c2ca0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.79-31.el8_9.2.s390x.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f853b7a1a7f82f46c0848f7385bdba0bbba77327a5d948e4e86155b8e6adf4e3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.79-31.el8_9.2.s390x.rpm",
+			"name": "dnsmasq-utils",
+			"reboot_suggested": 0,
+			"release": "31.el8_9.2",
+			"src": "dnsmasq-2.79-31.el8_9.2.src.rpm",
+			"version": "2.79"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1335",
+			"id": "RHSA-2024:1335",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-50387",
+			"id": "CVE-2023-50387",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-50868",
+			"id": "CVE-2023-50868",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2263914",
+			"id": "2263914",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2263917",
+			"id": "2263917",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-1335.html",
+			"id": "ALSA-2024:1335",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: dnsmasq security update",
+	"type": "security",
+	"updated_date": 1710750240
+}

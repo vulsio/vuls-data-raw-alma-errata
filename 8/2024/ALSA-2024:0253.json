@@ -53,42 +53,6 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "31f5b87a0a60c5052d3a6b71ccd9a96a83b816e13b94e657c4cbde4948b69995",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-3.26.0-19.el8_9.x86_64.rpm",
-			"name": "sqlite",
-			"reboot_suggested": 0,
-			"release": "19.el8_9",
-			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "64ff127c208ab8f9fcdbd68dd814f33475e46c7c4de0eaba8f8452b15aced3cf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-libs-3.26.0-19.el8_9.x86_64.rpm",
-			"name": "sqlite-libs",
-			"reboot_suggested": 0,
-			"release": "19.el8_9",
-			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e74f18f8c0b337a901988df0e8bfd005bcf374f42faa5870c1960d84e2aeae7d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-devel-3.26.0-19.el8_9.x86_64.rpm",
-			"name": "sqlite-devel",
-			"reboot_suggested": 0,
-			"release": "19.el8_9",
-			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
-			"version": "3.26.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "274d5ee283d36b55bde2fb37dd7092dada43ee01cabe557bee438120e1483169",
 			"checksum_type": "sha256",
@@ -125,12 +89,36 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a9b832fd652050d64d220cb7a03279974d9fb09b6dfd7d069c37b63c3cd9e62f",
+			"arch": "x86_64",
+			"checksum": "31f5b87a0a60c5052d3a6b71ccd9a96a83b816e13b94e657c4cbde4948b69995",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lemon-3.26.0-19.el8_9.aarch64.rpm",
-			"name": "lemon",
+			"filename": "sqlite-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "64ff127c208ab8f9fcdbd68dd814f33475e46c7c4de0eaba8f8452b15aced3cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e74f18f8c0b337a901988df0e8bfd005bcf374f42faa5870c1960d84e2aeae7d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-19.el8_9.x86_64.rpm",
+			"name": "sqlite-devel",
 			"reboot_suggested": 0,
 			"release": "19.el8_9",
 			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
@@ -185,6 +173,18 @@
 			"version": "3.26.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "a9b832fd652050d64d220cb7a03279974d9fb09b6dfd7d069c37b63c3cd9e62f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lemon-3.26.0-19.el8_9.aarch64.rpm",
+			"name": "lemon",
+			"reboot_suggested": 0,
+			"release": "19.el8_9",
+			"src": "sqlite-3.26.0-19.el8_9.src.rpm",
+			"version": "3.26.0"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "3baa0d62128feadd2e0c7bc397c31f389e9d8861025105c00aefcabcc4e32a8c",
 			"checksum_type": "sha256",
@@ -221,11 +221,11 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "eddbbe55523c2ed0508aa977044449c990519faaa6517243784667586b68ea99",
+			"arch": "ppc64le",
+			"checksum": "3b813f2ea172b4f094cd8665709f08391d093681dbcdf88fbfc46c1bfc1fda5b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lemon-3.26.0-19.el8_9.s390x.rpm",
+			"filename": "lemon-3.26.0-19.el8_9.ppc64le.rpm",
 			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "19.el8_9",
@@ -233,11 +233,11 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3b813f2ea172b4f094cd8665709f08391d093681dbcdf88fbfc46c1bfc1fda5b",
+			"arch": "s390x",
+			"checksum": "eddbbe55523c2ed0508aa977044449c990519faaa6517243784667586b68ea99",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lemon-3.26.0-19.el8_9.ppc64le.rpm",
+			"filename": "lemon-3.26.0-19.el8_9.s390x.rpm",
 			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "19.el8_9",
