@@ -17,18 +17,6 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b20cb8dbbb8d4c1d8df55eebabb4efe580f331234b2e08ed52d1ed4e8433c946",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-1.43.0-5.el9_3.1.ppc64le.rpm",
-			"name": "libnghttp2",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.1",
-			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "a203db9a111bf805f65760f32cd24c346783e74fbbfc52ad484b3c208f2f2595",
 			"checksum_type": "sha256",
@@ -41,11 +29,11 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "64d957eebaa60cfa635c34eddf22ceec916422e718e14a0cb0e281d4799981ab",
+			"arch": "ppc64le",
+			"checksum": "b20cb8dbbb8d4c1d8df55eebabb4efe580f331234b2e08ed52d1ed4e8433c946",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-1.43.0-5.el9_3.1.s390x.rpm",
+			"filename": "libnghttp2-1.43.0-5.el9_3.1.ppc64le.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.1",
@@ -65,35 +53,23 @@
 			"version": "1.43.0"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "64d957eebaa60cfa635c34eddf22ceec916422e718e14a0cb0e281d4799981ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-1.43.0-5.el9_3.1.s390x.rpm",
+			"name": "libnghttp2",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.1",
+			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "7641771f23ec85bbc35220eb12d11fb59ce3eaad791a53aff950dcb2240b0d44",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libnghttp2-devel-1.43.0-5.el9_3.1.i686.rpm",
-			"name": "libnghttp2-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.1",
-			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "3a7bdbddeb6ce6adf9e3447266cd55eee62606a8d5597b40acb22fc9d84c391c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nghttp2-1.43.0-5.el9_3.1.s390x.rpm",
-			"name": "nghttp2",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.1",
-			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "96e5384458b3113d7cc72816d7754f86f4adf0580eec7fdae3fa6480981b5e49",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-devel-1.43.0-5.el9_3.1.s390x.rpm",
 			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.1",
@@ -166,6 +142,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libnghttp2-devel-1.43.0-5.el9_3.1.x86_64.rpm",
+			"name": "libnghttp2-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.1",
+			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3a7bdbddeb6ce6adf9e3447266cd55eee62606a8d5597b40acb22fc9d84c391c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nghttp2-1.43.0-5.el9_3.1.s390x.rpm",
+			"name": "nghttp2",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.1",
+			"src": "nghttp2-1.43.0-5.el9_3.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "96e5384458b3113d7cc72816d7754f86f4adf0580eec7fdae3fa6480981b5e49",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-devel-1.43.0-5.el9_3.1.s390x.rpm",
 			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.1",

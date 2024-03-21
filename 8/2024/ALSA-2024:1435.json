@@ -1,0 +1,58 @@
+{
+	"description": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* PostgreSQL JDBC Driver allows attacker to inject SQL if using PreferQueryMode=SIMPLE (CVE-2024-1597)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1435",
+	"issued_date": 1710892800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "26c64d5f2ca9d17567e12eaf7ed747502c4b4e413bce2edbc37f18e064d41fa3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-jdbc-42.2.14-3.el8_9.noarch.rpm",
+			"name": "postgresql-jdbc",
+			"reboot_suggested": 0,
+			"release": "3.el8_9",
+			"src": "postgresql-jdbc-42.2.14-3.el8_9.src.rpm",
+			"version": "42.2.14"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c46815c60729af5b20b1333f170a7b69e01c7facfaa6d4019c6dbe629676c879",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-jdbc-javadoc-42.2.14-3.el8_9.noarch.rpm",
+			"name": "postgresql-jdbc-javadoc",
+			"reboot_suggested": 0,
+			"release": "3.el8_9",
+			"src": "postgresql-jdbc-42.2.14-3.el8_9.src.rpm",
+			"version": "42.2.14"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1435",
+			"id": "RHSA-2024:1435",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-1597",
+			"id": "CVE-2024-1597",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2266523",
+			"id": "2266523",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-1435.html",
+			"id": "ALSA-2024:1435",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: postgresql-jdbc security update",
+	"type": "security",
+	"updated_date": 1711011112
+}

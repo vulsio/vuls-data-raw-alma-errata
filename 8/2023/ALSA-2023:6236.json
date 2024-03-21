@@ -17,11 +17,11 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "213529a75f7157cf5a18fc401a754ac9b8b0e25b91d31384dc7ff389eabe277e",
+			"arch": "x86_64",
+			"checksum": "5faa29deecce202dd2e0a78dfad208360540f353193c7d144451330fc12cf0d3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-2.30-119.el8_8.2.aarch64.rpm",
+			"filename": "binutils-2.30-119.el8_8.2.x86_64.rpm",
 			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
@@ -29,11 +29,11 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5faa29deecce202dd2e0a78dfad208360540f353193c7d144451330fc12cf0d3",
+			"arch": "aarch64",
+			"checksum": "213529a75f7157cf5a18fc401a754ac9b8b0e25b91d31384dc7ff389eabe277e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-2.30-119.el8_8.2.x86_64.rpm",
+			"filename": "binutils-2.30-119.el8_8.2.aarch64.rpm",
 			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
@@ -65,6 +65,18 @@
 			"version": "2.30"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "cc020c914cec25ceb36495a213ae626ffe6349fbefb7025e48353f8f9a0fa00c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-2.30-119.el8_8.2.s390x.rpm",
+			"name": "binutils",
+			"reboot_suggested": 0,
+			"release": "119.el8_8.2",
+			"src": "binutils-2.30-119.el8_8.2.src.rpm",
+			"version": "2.30"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "77969ee58f730d8e36c3927bcb43a9382e8a7e9a5f4e3b6e5c42b9716edb2cb3",
 			"checksum_type": "sha256",
@@ -78,11 +90,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "cc020c914cec25ceb36495a213ae626ffe6349fbefb7025e48353f8f9a0fa00c",
+			"checksum": "c4d78bac931150e226eccfca6226513b422942e22397866466c2820224aa5703",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-2.30-119.el8_8.2.s390x.rpm",
-			"name": "binutils",
+			"filename": "binutils-devel-2.30-119.el8_8.2.s390x.rpm",
+			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
 			"src": "binutils-2.30-119.el8_8.2.src.rpm",
@@ -94,18 +106,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "binutils-devel-2.30-119.el8_8.2.ppc64le.rpm",
-			"name": "binutils-devel",
-			"reboot_suggested": 0,
-			"release": "119.el8_8.2",
-			"src": "binutils-2.30-119.el8_8.2.src.rpm",
-			"version": "2.30"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "c4d78bac931150e226eccfca6226513b422942e22397866466c2820224aa5703",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-devel-2.30-119.el8_8.2.s390x.rpm",
 			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "119.el8_8.2",
