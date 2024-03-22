@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "1fa07c228606395b6843c9c79df21d880d0abc3ad71c221fcabe921daf974ca8",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-libs-2.2.6-51.el8_8.1.i686.rpm",
-			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "6420ad0d8972461044b633cec5cfc604e2c31c47d0e43dd4428dac90da37aa44",
 			"checksum_type": "sha256",
@@ -35,6 +23,18 @@
 			"epoch": "1",
 			"filename": "cups-devel-2.2.6-51.el8_8.1.i686.rpm",
 			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "1fa07c228606395b6843c9c79df21d880d0abc3ad71c221fcabe921daf974ca8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-libs-2.2.6-51.el8_8.1.i686.rpm",
+			"name": "cups-libs",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.1",
 			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
@@ -209,66 +209,6 @@
 			"version": "2.2.6"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "21cf4e534defe9c2d67d8aac3d844bf3ffe333dd98c9ef7e77da576cd538947f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-client-2.2.6-51.el8_8.1.s390x.rpm",
-			"name": "cups-client",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "27478952e7a0d357fed50fcefb83f60918e444bf4c5f14efc616ffc28839f9c6",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-devel-2.2.6-51.el8_8.1.s390x.rpm",
-			"name": "cups-devel",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "888eae1f3b564605e6392858f1e5dbe1437ab8f7954aaae4c0c8618825f42d38",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-ipptool-2.2.6-51.el8_8.1.s390x.rpm",
-			"name": "cups-ipptool",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "b1f6ec9ff610aff0ffc4f24086ed66ac222ee73b202a64b029514d8f60853587",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-lpd-2.2.6-51.el8_8.1.s390x.rpm",
-			"name": "cups-lpd",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "d0ce776b09d3d71611cb920ed54072d5bbaa45bc46f996ed221a0c7847317010",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-2.2.6-51.el8_8.1.s390x.rpm",
-			"name": "cups",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "05ab8e2bfe67d23a12636eb5a36ef287242cecdc621170a90d19605055f87331",
 			"checksum_type": "sha256",
@@ -327,6 +267,66 @@
 			"release": "51.el8_8.1",
 			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
 			"version": "2.2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "21cf4e534defe9c2d67d8aac3d844bf3ffe333dd98c9ef7e77da576cd538947f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-client-2.2.6-51.el8_8.1.s390x.rpm",
+			"name": "cups-client",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "27478952e7a0d357fed50fcefb83f60918e444bf4c5f14efc616ffc28839f9c6",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-devel-2.2.6-51.el8_8.1.s390x.rpm",
+			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "888eae1f3b564605e6392858f1e5dbe1437ab8f7954aaae4c0c8618825f42d38",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-ipptool-2.2.6-51.el8_8.1.s390x.rpm",
+			"name": "cups-ipptool",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b1f6ec9ff610aff0ffc4f24086ed66ac222ee73b202a64b029514d8f60853587",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-lpd-2.2.6-51.el8_8.1.s390x.rpm",
+			"name": "cups-lpd",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d0ce776b09d3d71611cb920ed54072d5bbaa45bc46f996ed221a0c7847317010",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-2.2.6-51.el8_8.1.s390x.rpm",
+			"name": "cups",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
 		}
 	],
 	"references": [
@@ -354,5 +354,5 @@
 	"severity": "Important",
 	"title": "Important: cups security update",
 	"type": "security",
-	"updated_date": 1693389496
+	"updated_date": 1693389502
 }

@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "6b4a02b13b897ed713daed95518d15844a7a33e5434cbe7c8101ef10aac8d596",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libssh-devel-0.9.6-13.el8_9.i686.rpm",
+			"name": "libssh-devel",
+			"reboot_suggested": 0,
+			"release": "13.el8_9",
+			"src": "libssh-0.9.6-13.el8_9.src.rpm",
+			"version": "0.9.6"
+		},
+		{
+			"arch": "i686",
 			"checksum": "bef5f96cecf7a2838b9b119247e1efd945ad3a45964bee22adf018d715541974",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "libssh-config-0.9.6-13.el8_9.noarch.rpm",
 			"name": "libssh-config",
-			"reboot_suggested": 0,
-			"release": "13.el8_9",
-			"src": "libssh-0.9.6-13.el8_9.src.rpm",
-			"version": "0.9.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "6b4a02b13b897ed713daed95518d15844a7a33e5434cbe7c8101ef10aac8d596",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-13.el8_9.i686.rpm",
-			"name": "libssh-devel",
 			"reboot_suggested": 0,
 			"release": "13.el8_9",
 			"src": "libssh-0.9.6-13.el8_9.src.rpm",
@@ -113,11 +113,11 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "ba1ac8ba670ba30bd7ce03ae53bf17c8c0f06d6eb7bc3bad9dc8fde2a849c828",
+			"arch": "ppc64le",
+			"checksum": "90fb9ce81f99e82227ddbdfe8cda2ab8c933d64a1faedf4a76daccde1f06c131",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-13.el8_9.s390x.rpm",
+			"filename": "libssh-devel-0.9.6-13.el8_9.ppc64le.rpm",
 			"name": "libssh-devel",
 			"reboot_suggested": 0,
 			"release": "13.el8_9",
@@ -125,11 +125,11 @@
 			"version": "0.9.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "90fb9ce81f99e82227ddbdfe8cda2ab8c933d64a1faedf4a76daccde1f06c131",
+			"arch": "s390x",
+			"checksum": "ba1ac8ba670ba30bd7ce03ae53bf17c8c0f06d6eb7bc3bad9dc8fde2a849c828",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libssh-devel-0.9.6-13.el8_9.ppc64le.rpm",
+			"filename": "libssh-devel-0.9.6-13.el8_9.s390x.rpm",
 			"name": "libssh-devel",
 			"reboot_suggested": 0,
 			"release": "13.el8_9",
@@ -162,5 +162,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libssh security update",
 	"type": "security",
-	"updated_date": 1706778163
+	"updated_date": 1706778155
 }

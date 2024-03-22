@@ -18,6 +18,30 @@
 		},
 		{
 			"arch": "x86_64",
+			"checksum": "3a98aa1426210c8286682313a842459777c6e9a37a086cc90fc658c9cb787d86",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcre2-utf16-10.32-2.el8.x86_64.rpm",
+			"name": "pcre2-utf16",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "pcre2-10.32-2.el8.src.rpm",
+			"version": "10.32"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "597fffd0047e916fd238026305627cbe43098c0724a340e19ae2e7e8887af6f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcre2-utf32-10.32-2.el8.x86_64.rpm",
+			"name": "pcre2-utf32",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "pcre2-10.32-2.el8.src.rpm",
+			"version": "10.32"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "597fffd0047e916fd238026305627cbe43098c0724a340e19ae2e7e8887af6f8",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -35,6 +59,30 @@
 			"epoch": "0",
 			"filename": "pcre2-10.32-2.el8.x86_64.rpm",
 			"name": "pcre2",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "pcre2-10.32-2.el8.src.rpm",
+			"version": "10.32"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "60849450a5ca2ea463ba7412de9a7010eef4f96c9d5a80127920f14e026fd255",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcre2-10.32-2.el8.x86_64.rpm",
+			"name": "pcre2",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "pcre2-10.32-2.el8.src.rpm",
+			"version": "10.32"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7a2a60a3247cbe8739d1a2c38f31bcb1d67c4e2c539f8ea3ba9f22c284139594",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcre2-devel-10.32-2.el8.x86_64.rpm",
+			"name": "pcre2-devel",
 			"reboot_suggested": 0,
 			"release": "2.el8",
 			"src": "pcre2-10.32-2.el8.src.rpm",
@@ -187,18 +235,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2019-20454",
-			"id": "CVE-2019-20454",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2020-4539.html",
 			"id": "ALSA-2020-4539",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2019-20454",
+			"id": "CVE-2019-20454",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: pcre2 security and enhancement update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1604432311
 }
