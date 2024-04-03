@@ -6,14 +6,38 @@
 	"packages": [
 		{
 			"arch": "aarch64",
-			"checksum": "e31522cde1328a9813ce01b257c6a4f9192c71f2eed63d6ecc76319e80165454",
+			"checksum": "dd569ea72fd25857ea9c65878f3990e3922a2b14445ae5ee678b7c236ff02ab2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.4.0-1.el8_6.alma.plus.1.aarch64.rpm",
+			"filename": "thunderbird-102.4.0-1.el8_6.alma.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
-			"release": "1.el8_6.alma.plus.1",
-			"src": "thunderbird-102.4.0-1.el8_6.alma.plus.1.src.rpm",
+			"release": "1.el8_6.alma",
+			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ad461584747a38030ace18dcdf9a4c218e08471d94c4128583f652b4a25b2e7b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.4.0-1.el8_6.alma.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ae32f9a76dfc14532e5d289c2db17dcd9780fd7176f75e49951124ae692fe8ac",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.4.0-1.el8_6.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma",
+			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
 			"version": "102.4.0"
 		},
 		{
@@ -22,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "thunderbird-102.4.0-1.el8_6.alma.plus.1.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_6.alma.plus.1",
+			"src": "thunderbird-102.4.0-1.el8_6.alma.plus.1.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e31522cde1328a9813ce01b257c6a4f9192c71f2eed63d6ecc76319e80165454",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.4.0-1.el8_6.alma.plus.1.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_6.alma.plus.1",
@@ -41,18 +77,6 @@
 			"version": "102.4.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "ad461584747a38030ace18dcdf9a4c218e08471d94c4128583f652b4a25b2e7b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.4.0-1.el8_6.alma.x86_64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_6.alma",
-			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
-			"version": "102.4.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "dafe9a0c06c3ad353b6349f3ae7dacf603007382f8ef014d35ccf50c78c8e5f2",
 			"checksum_type": "sha256",
@@ -62,30 +86,6 @@
 			"reboot_suggested": 0,
 			"release": "1.el8_6.alma.plus.1",
 			"src": "thunderbird-102.4.0-1.el8_6.alma.plus.1.src.rpm",
-			"version": "102.4.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "dd569ea72fd25857ea9c65878f3990e3922a2b14445ae5ee678b7c236ff02ab2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.4.0-1.el8_6.alma.aarch64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_6.alma",
-			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
-			"version": "102.4.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ae32f9a76dfc14532e5d289c2db17dcd9780fd7176f75e49951124ae692fe8ac",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.4.0-1.el8_6.alma.ppc64le.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_6.alma",
-			"src": "thunderbird-102.4.0-1.el8_6.alma.src.rpm",
 			"version": "102.4.0"
 		},
 		{
@@ -196,5 +196,5 @@
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1668956413
+	"updated_date": 1666768692
 }

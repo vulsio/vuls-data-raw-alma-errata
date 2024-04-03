@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "bdf00125168872500d054767c500a237e4d306b50164518f663db75045b6f2ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-0.0.99.4-6.el9_3.ppc64le.rpm",
-			"name": "toolbox",
-			"reboot_suggested": 0,
-			"release": "6.el9_3",
-			"src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
-			"version": "0.0.99.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "dd8a3b93e08123028384be4833e1777deec61b0b78448b0c52fb3d1a05dd6591",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-tests-0.0.99.4-6.el9_3.ppc64le.rpm",
-			"name": "toolbox-tests",
-			"reboot_suggested": 0,
-			"release": "6.el9_3",
-			"src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
-			"version": "0.0.99.4"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "c47ffb47a8211c3af430dbe75e2e995f8add0eded894003c061f30c07a1747e1",
 			"checksum_type": "sha256",
@@ -53,11 +29,11 @@
 			"version": "0.0.99.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "461edd29647551d997fe4732bf4ee565b6a1fb4310f63db7c087a01ab8233ad7",
+			"arch": "ppc64le",
+			"checksum": "bdf00125168872500d054767c500a237e4d306b50164518f663db75045b6f2ab",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "toolbox-0.0.99.4-6.el9_3.x86_64.rpm",
+			"filename": "toolbox-0.0.99.4-6.el9_3.ppc64le.rpm",
 			"name": "toolbox",
 			"reboot_suggested": 0,
 			"release": "6.el9_3",
@@ -65,11 +41,11 @@
 			"version": "0.0.99.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "4d56dcbf34f20e64089677511ef37220cd382c284a4aefd86b1d66f79756d648",
+			"arch": "ppc64le",
+			"checksum": "dd8a3b93e08123028384be4833e1777deec61b0b78448b0c52fb3d1a05dd6591",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "toolbox-tests-0.0.99.4-6.el9_3.x86_64.rpm",
+			"filename": "toolbox-tests-0.0.99.4-6.el9_3.ppc64le.rpm",
 			"name": "toolbox-tests",
 			"reboot_suggested": 0,
 			"release": "6.el9_3",
@@ -95,6 +71,30 @@
 			"epoch": "0",
 			"filename": "toolbox-0.0.99.4-6.el9_3.s390x.rpm",
 			"name": "toolbox",
+			"reboot_suggested": 0,
+			"release": "6.el9_3",
+			"src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+			"version": "0.0.99.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "461edd29647551d997fe4732bf4ee565b6a1fb4310f63db7c087a01ab8233ad7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-0.0.99.4-6.el9_3.x86_64.rpm",
+			"name": "toolbox",
+			"reboot_suggested": 0,
+			"release": "6.el9_3",
+			"src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
+			"version": "0.0.99.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4d56dcbf34f20e64089677511ef37220cd382c284a4aefd86b1d66f79756d648",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-tests-0.0.99.4-6.el9_3.x86_64.rpm",
+			"name": "toolbox-tests",
 			"reboot_suggested": 0,
 			"release": "6.el9_3",
 			"src": "toolbox-0.0.99.4-6.el9_3.src.rpm",
@@ -216,5 +216,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: toolbox security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963531
+	"updated_date": 1699963532
 }
