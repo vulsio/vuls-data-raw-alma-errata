@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "c1b926b4daf32c0638107fcd7d9c950b76d36f934d6575577e6bc3067e1b544e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.aarch64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_7.alma",
-			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
-			"version": "102.11.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "a256d7af03e85c51c2d2ba69f30828e97bb278abee70a3a3a50d07c75f7293e5",
 			"checksum_type": "sha256",
@@ -29,27 +17,15 @@
 			"version": "102.11.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "93191066519fff9ce432777f90b7fc53625c2cf2df9fcf9bcd48d38c50d2ab47",
+			"arch": "aarch64",
+			"checksum": "c1b926b4daf32c0638107fcd7d9c950b76d36f934d6575577e6bc3067e1b544e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.ppc64le.rpm",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
 			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
-			"version": "102.11.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f4757253b1603c35cbe74f73f0802a1628f5a42fb31f17bc81ad7f53deed0f9e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.plus.ppc64le.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "1.el8_7.alma.plus",
-			"src": "thunderbird-102.11.0-1.el8_7.alma.plus.src.rpm",
 			"version": "102.11.0"
 		},
 		{
@@ -77,15 +53,27 @@
 			"version": "102.11.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "9759e9cc1b839d93b87aba8b56df080be16baea98ea05d4bdd79c2c360fa7782",
+			"arch": "ppc64le",
+			"checksum": "f4757253b1603c35cbe74f73f0802a1628f5a42fb31f17bc81ad7f53deed0f9e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.11.0-1.el8_7.alma.plus.s390x.rpm",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.plus.ppc64le.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma.plus",
 			"src": "thunderbird-102.11.0-1.el8_7.alma.plus.src.rpm",
+			"version": "102.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "93191066519fff9ce432777f90b7fc53625c2cf2df9fcf9bcd48d38c50d2ab47",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.alma",
+			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
 			"version": "102.11.0"
 		},
 		{
@@ -98,6 +86,18 @@
 			"reboot_suggested": 0,
 			"release": "1.el8_7.alma",
 			"src": "thunderbird-102.11.0-1.el8_7.alma.src.rpm",
+			"version": "102.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9759e9cc1b839d93b87aba8b56df080be16baea98ea05d4bdd79c2c360fa7782",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.11.0-1.el8_7.alma.plus.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_7.alma.plus",
+			"src": "thunderbird-102.11.0-1.el8_7.alma.plus.src.rpm",
 			"version": "102.11.0"
 		}
 	],
@@ -186,5 +186,5 @@
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1684533613
+	"updated_date": 1684533614
 }
