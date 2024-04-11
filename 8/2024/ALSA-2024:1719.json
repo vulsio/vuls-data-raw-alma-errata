@@ -1,0 +1,82 @@
+{
+	"description": "Relax-and-Recover is a recovery and system migration utility. The utility produces a bootable image and restores from backup using this image. It allows to restore to different hardware and can therefore be also used as a migration utility.\n\nSecurity Fix(es):\n\n* rear: creates a world-readable initrd (CVE-2024-23301)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1719",
+	"issued_date": 1712620800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "2a0355311cb17dfcc92717f3ef3b41c6e8be672dd1e0b5febba3e9df6b3443a9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-11.el8_9.alma.1.x86_64.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.alma.1",
+			"src": "rear-2.6-11.el8_9.alma.1.src.rpm",
+			"version": "2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "92e191f376ef76873afd3d657c5f17d12cc54d7c6b8facb4a60676ea543e2cd3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-11.el8_9.alma.1.aarch64.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.alma.1",
+			"src": "rear-2.6-11.el8_9.alma.1.src.rpm",
+			"version": "2.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6ac95b9136c0d41a636f7484734585a5492315e8686624670692a567f18d320e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-11.el8_9.alma.1.ppc64le.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.alma.1",
+			"src": "rear-2.6-11.el8_9.alma.1.src.rpm",
+			"version": "2.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2e3ccc373f8be8ec8f112964e3e018e047e71e867549390389d2fc8cdca8142c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rear-2.6-11.el8_9.alma.1.s390x.rpm",
+			"name": "rear",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.alma.1",
+			"src": "rear-2.6-11.el8_9.alma.1.src.rpm",
+			"version": "2.6"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1719",
+			"id": "RHSA-2024:1719",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-23301",
+			"id": "CVE-2024-23301",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258396",
+			"id": "2258396",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-1719.html",
+			"id": "ALSA-2024:1719",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: rear security update",
+	"type": "security",
+	"updated_date": 1712739264
+}
