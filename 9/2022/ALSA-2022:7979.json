@@ -17,18 +17,6 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ab7bf9a44764182812c9fe19bf19613aa7b36ed43d77875c28d1daa2f2030063",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "speex-1.2.0-11.el9.aarch64.rpm",
-			"name": "speex",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "speex-1.2.0-11.el9.src.rpm",
-			"version": "1.2.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "227f139537ed1d773c5b0c3719b7ec50414d00d95ce6569e51abec2499ad708c",
 			"checksum_type": "sha256",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "speex-1.2.0-11.el9.ppc64le.rpm",
+			"name": "speex",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "speex-1.2.0-11.el9.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ab7bf9a44764182812c9fe19bf19613aa7b36ed43d77875c28d1daa2f2030063",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "speex-1.2.0-11.el9.aarch64.rpm",
 			"name": "speex",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -77,11 +77,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "0b96eafa14f58bd71cf5621ade749c865b1a1c648459e6f71100e10016ebea2b",
+			"arch": "ppc64le",
+			"checksum": "7d62f430eb9bc51ac51d8be04ac10ed759c18b31e38a2a378f4fc52138f5b2b4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "speex-devel-1.2.0-11.el9.x86_64.rpm",
+			"filename": "speex-devel-1.2.0-11.el9.ppc64le.rpm",
 			"name": "speex-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -89,11 +89,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7d62f430eb9bc51ac51d8be04ac10ed759c18b31e38a2a378f4fc52138f5b2b4",
+			"arch": "x86_64",
+			"checksum": "0b96eafa14f58bd71cf5621ade749c865b1a1c648459e6f71100e10016ebea2b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "speex-devel-1.2.0-11.el9.ppc64le.rpm",
+			"filename": "speex-devel-1.2.0-11.el9.x86_64.rpm",
 			"name": "speex-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",
