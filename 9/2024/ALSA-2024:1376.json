@@ -1,0 +1,102 @@
+{
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: denial of service in HTTP header parser (CVE-2024-25617)\n* squid: Denial of Service in HTTP Chunked Decoding (CVE-2024-25111)\n* squid: denial of service in HTTP request parsing (CVE-2023-50269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1376",
+	"issued_date": 1710806400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "693af38967c53811e274214192b3a8373fb7d07cea09295f0942ed7aaee9de4f",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.5-6.el9_3.8.ppc64le.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "6.el9_3.8",
+			"src": "squid-5.5-6.el9_3.8.src.rpm",
+			"version": "5.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6bbb0e902df814ad7ecfbb04198cc3d0536864cc023dcf56a6f736cd8aab842f",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.5-6.el9_3.8.aarch64.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "6.el9_3.8",
+			"src": "squid-5.5-6.el9_3.8.src.rpm",
+			"version": "5.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "55e510981a7a706152a6bf349da44df30d0ca6c92835021675e7e83886b2d23d",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.5-6.el9_3.8.x86_64.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "6.el9_3.8",
+			"src": "squid-5.5-6.el9_3.8.src.rpm",
+			"version": "5.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "153af32642245b125b74985f10dbc4db291e856777fc3414e1f5f25a9e8cbf62",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.5-6.el9_3.8.s390x.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "6.el9_3.8",
+			"src": "squid-5.5-6.el9_3.8.src.rpm",
+			"version": "5.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1376",
+			"id": "RHSA-2024:1376",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-50269",
+			"id": "CVE-2023-50269",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-25111",
+			"id": "CVE-2024-25111",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-25617",
+			"id": "CVE-2024-25617",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2254663",
+			"id": "2254663",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2264309",
+			"id": "2264309",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2268366",
+			"id": "2268366",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-1376.html",
+			"id": "ALSA-2024:1376",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: squid security update",
+	"type": "security",
+	"updated_date": 1712948246
+}

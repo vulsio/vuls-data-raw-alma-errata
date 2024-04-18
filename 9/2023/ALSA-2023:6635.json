@@ -17,18 +17,6 @@
 			"version": "1.19.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "50e32614632b5106d8e4b5e3876f172ab1b00db5583c37967121c7457fb078a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-devel-1.19.1-1.el9.x86_64.rpm",
-			"name": "c-ares-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "c-ares-1.19.1-1.el9.src.rpm",
-			"version": "1.19.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "d30a8b4f0b092dc3c1bdb7056f805db7099c72a023f10652b38003f9cc9896ac",
 			"checksum_type": "sha256",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "c-ares-devel-1.19.1-1.el9.aarch64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "c-ares-1.19.1-1.el9.src.rpm",
+			"version": "1.19.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "50e32614632b5106d8e4b5e3876f172ab1b00db5583c37967121c7457fb078a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.19.1-1.el9.x86_64.rpm",
 			"name": "c-ares-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -101,11 +101,11 @@
 			"version": "1.19.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "e52a1ea35bcdc99f41f6e51562cc674dd1fa4808c5c64f917b3ee14530e51dde",
+			"arch": "aarch64",
+			"checksum": "85483e8dda5854a65fde3a0106b47ff6c39ebe88ee004a25a485e44dee7200bb",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-1.19.1-1.el9.s390x.rpm",
+			"filename": "c-ares-1.19.1-1.el9.aarch64.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -113,11 +113,11 @@
 			"version": "1.19.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "85483e8dda5854a65fde3a0106b47ff6c39ebe88ee004a25a485e44dee7200bb",
+			"arch": "s390x",
+			"checksum": "e52a1ea35bcdc99f41f6e51562cc674dd1fa4808c5c64f917b3ee14530e51dde",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-1.19.1-1.el9.aarch64.rpm",
+			"filename": "c-ares-1.19.1-1.el9.s390x.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "1.el9",
