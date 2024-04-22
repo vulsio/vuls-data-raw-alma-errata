@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "61debed15088bbd352f8fea33ceb0ac11ce4f7374c1c0d924a08e6648da2368e",
-			"checksum_type": "sha256",
-			"epoch": "7",
-			"filename": "squid-5.2-1.el9_0.1.aarch64.rpm",
-			"name": "squid",
-			"reboot_suggested": 0,
-			"release": "1.el9_0.1",
-			"src": "squid-5.2-1.el9_0.1.src.rpm",
-			"version": "5.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "4e3d724ca6edd8a7ee2d98db54677747b7215095c39581d1d08516bb0be06a11",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "7",
 			"filename": "squid-5.2-1.el9_0.1.x86_64.rpm",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.1",
+			"src": "squid-5.2-1.el9_0.1.src.rpm",
+			"version": "5.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "61debed15088bbd352f8fea33ceb0ac11ce4f7374c1c0d924a08e6648da2368e",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-5.2-1.el9_0.1.aarch64.rpm",
 			"name": "squid",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.1",
@@ -78,5 +78,5 @@
 	"severity": "Important",
 	"title": "Important: squid security update",
 	"type": "security",
-	"updated_date": 1658423047
+	"updated_date": 1658423052
 }
