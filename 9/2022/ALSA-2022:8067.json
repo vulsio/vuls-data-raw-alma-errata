@@ -5,12 +5,12 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "0b459ea3ba74bf73d0acee6236d2f7ac395ca6ee46c0f47ab4926f609d29aa90",
+			"arch": "noarch",
+			"checksum": "16046de23e78b6ad29d370f55f942cde4a132a036d4ddf55c0e9f1c975292dab",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mod_ldap-2.4.53-7.el9.ppc64le.rpm",
-			"name": "mod_ldap",
+			"filename": "httpd-manual-2.4.53-7.el9.noarch.rpm",
+			"name": "httpd-manual",
 			"reboot_suggested": 0,
 			"release": "7.el9",
 			"src": "httpd-2.4.53-7.el9.src.rpm",
@@ -18,11 +18,23 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "16046de23e78b6ad29d370f55f942cde4a132a036d4ddf55c0e9f1c975292dab",
+			"checksum": "61226547b629d1bfe902193c7322ef89e09039ac4017036efa0b678183f622e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "httpd-manual-2.4.53-7.el9.noarch.rpm",
-			"name": "httpd-manual",
+			"filename": "httpd-filesystem-2.4.53-7.el9.noarch.rpm",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "httpd-2.4.53-7.el9.src.rpm",
+			"version": "2.4.53"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0b459ea3ba74bf73d0acee6236d2f7ac395ca6ee46c0f47ab4926f609d29aa90",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_ldap-2.4.53-7.el9.ppc64le.rpm",
+			"name": "mod_ldap",
 			"reboot_suggested": 0,
 			"release": "7.el9",
 			"src": "httpd-2.4.53-7.el9.src.rpm",
@@ -71,18 +83,6 @@
 			"epoch": "0",
 			"filename": "httpd-core-2.4.53-7.el9.ppc64le.rpm",
 			"name": "httpd-core",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "httpd-2.4.53-7.el9.src.rpm",
-			"version": "2.4.53"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "61226547b629d1bfe902193c7322ef89e09039ac4017036efa0b678183f622e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-filesystem-2.4.53-7.el9.noarch.rpm",
-			"name": "httpd-filesystem",
 			"reboot_suggested": 0,
 			"release": "7.el9",
 			"src": "httpd-2.4.53-7.el9.src.rpm",
@@ -576,5 +576,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: httpd security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1668746441
+	"updated_date": 1668746438
 }

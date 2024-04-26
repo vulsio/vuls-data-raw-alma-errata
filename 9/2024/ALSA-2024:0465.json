@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "167d03d8abfcbd158b8ef6547db40a3ae568d8c34205e753a76c0d1014e16908",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-3.34.1-7.el9_3.ppc64le.rpm",
-			"name": "sqlite",
-			"reboot_suggested": 0,
-			"release": "7.el9_3",
-			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
-			"version": "3.34.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "efe5d1d4436e71a5c80d3ab2a9e814265ac7963b544e5a2ce5d32523d8e17c42",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-devel-3.34.1-7.el9_3.ppc64le.rpm",
-			"name": "sqlite-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9_3",
-			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
-			"version": "3.34.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "caa0f1675f5b77d17edfa67559890f44cac20ba5d8a0e1980b887afdfa3f9f05",
 			"checksum_type": "sha256",
@@ -46,6 +22,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "sqlite-devel-3.34.1-7.el9_3.i686.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9_3",
+			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "167d03d8abfcbd158b8ef6547db40a3ae568d8c34205e753a76c0d1014e16908",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.34.1-7.el9_3.ppc64le.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "7.el9_3",
+			"src": "sqlite-3.34.1-7.el9_3.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "efe5d1d4436e71a5c80d3ab2a9e814265ac7963b544e5a2ce5d32523d8e17c42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.34.1-7.el9_3.ppc64le.rpm",
 			"name": "sqlite-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",
@@ -149,11 +149,11 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ae069c5247ccb5ff1ac67da445e9c3e2bbdcec85f11b64f81f188e3b915b17ee",
+			"arch": "s390x",
+			"checksum": "f41218c3d8ace6b8afc466424b804648415a345d547428612918249d2565047b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-7.el9_3.ppc64le.rpm",
+			"filename": "sqlite-libs-3.34.1-7.el9_3.s390x.rpm",
 			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",
@@ -173,11 +173,11 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "f41218c3d8ace6b8afc466424b804648415a345d547428612918249d2565047b",
+			"arch": "ppc64le",
+			"checksum": "ae069c5247ccb5ff1ac67da445e9c3e2bbdcec85f11b64f81f188e3b915b17ee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-7.el9_3.s390x.rpm",
+			"filename": "sqlite-libs-3.34.1-7.el9_3.ppc64le.rpm",
 			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",

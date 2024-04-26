@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "4f6c9558da020f1782da99eb1fe4d70f42e6ead39fc571361ebeb2ac99cbf611",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.19.1-2.el9_2.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_2",
+			"src": "nodejs-16.19.1-2.el9_2.src.rpm",
+			"version": "16.19.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d1f77d444195b730f9ffb538a9426aba8ee41a9d5fb373cc4db872046e2cf19b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.19.1-2.el9_2.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "2.el9_2",
+			"src": "nodejs-16.19.1-2.el9_2.src.rpm",
+			"version": "16.19.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "1709346cd1aa4d5f7a6c3e7a2b4a55c4cfd37bb0c0ecb0c581df9182da9315e9",
 			"checksum_type": "sha256",
@@ -51,30 +75,6 @@
 			"release": "1.16.19.1.2.el9_2",
 			"src": "nodejs-16.19.1-2.el9_2.src.rpm",
 			"version": "8.19.3"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "d1f77d444195b730f9ffb538a9426aba8ee41a9d5fb373cc4db872046e2cf19b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-docs-16.19.1-2.el9_2.noarch.rpm",
-			"name": "nodejs-docs",
-			"reboot_suggested": 0,
-			"release": "2.el9_2",
-			"src": "nodejs-16.19.1-2.el9_2.src.rpm",
-			"version": "16.19.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "4f6c9558da020f1782da99eb1fe4d70f42e6ead39fc571361ebeb2ac99cbf611",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.19.1-2.el9_2.i686.rpm",
-			"name": "nodejs-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_2",
-			"src": "nodejs-16.19.1-2.el9_2.src.rpm",
-			"version": "16.19.1"
 		},
 		{
 			"arch": "x86_64",
@@ -276,5 +276,5 @@
 	"severity": "Important",
 	"title": "Important: nodejs security update",
 	"type": "security",
-	"updated_date": 1687546625
+	"updated_date": 1687546624
 }

@@ -29,6 +29,18 @@
 			"version": "9.16.23"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "8d0966d77d817acd3ef8ba3560ebc38f42057b8f42362fbf4c75953e90c7e7cf",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-dnssec-doc-9.16.23-14.el9_3.4.noarch.rpm",
+			"name": "bind-dnssec-doc",
+			"reboot_suggested": 0,
+			"release": "14.el9_3.4",
+			"src": "bind-9.16.23-14.el9_3.4.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "550d0306adeea586f14b1e7b7b641bcbd423be843046ec68c96e37005f801b04",
 			"checksum_type": "sha256",
@@ -59,18 +71,6 @@
 			"epoch": "32",
 			"filename": "bind-libs-9.16.23-14.el9_3.4.ppc64le.rpm",
 			"name": "bind-libs",
-			"reboot_suggested": 0,
-			"release": "14.el9_3.4",
-			"src": "bind-9.16.23-14.el9_3.4.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "8d0966d77d817acd3ef8ba3560ebc38f42057b8f42362fbf4c75953e90c7e7cf",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-dnssec-doc-9.16.23-14.el9_3.4.noarch.rpm",
-			"name": "bind-dnssec-doc",
 			"reboot_suggested": 0,
 			"release": "14.el9_3.4",
 			"src": "bind-9.16.23-14.el9_3.4.src.rpm",
@@ -377,6 +377,18 @@
 			"version": "9.16.23"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "1f3ab94be6710564bb101a0a53e3deb4d922032dc693d6930362555784a5606d",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-devel-9.16.23-14.el9_3.4.x86_64.rpm",
+			"name": "bind-devel",
+			"reboot_suggested": 0,
+			"release": "14.el9_3.4",
+			"src": "bind-9.16.23-14.el9_3.4.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "197ea72a2bc7d2805b56066752b8e3ee257003de1b11b03471cffc70a1141eb3",
 			"checksum_type": "sha256",
@@ -394,18 +406,6 @@
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-devel-9.16.23-14.el9_3.4.s390x.rpm",
-			"name": "bind-devel",
-			"reboot_suggested": 0,
-			"release": "14.el9_3.4",
-			"src": "bind-9.16.23-14.el9_3.4.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1f3ab94be6710564bb101a0a53e3deb4d922032dc693d6930362555784a5606d",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-devel-9.16.23-14.el9_3.4.x86_64.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "14.el9_3.4",
@@ -488,5 +488,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1712926736
+	"updated_date": 1712926735
 }

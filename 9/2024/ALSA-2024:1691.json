@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "01b11485fec56ef4420134702a5101b78a32c86fe6ccd51d5b7aaac1e4d80c26",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-6.6.2-4.el9_3.1.i686.rpm",
+			"name": "varnish",
+			"reboot_suggested": 0,
+			"release": "4.el9_3.1",
+			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
+			"version": "6.6.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "96c655560051e4aa90092346f7c5030f8c4fe123b26aa5a387bbc2c9aef5c74d",
 			"checksum_type": "sha256",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "varnish-docs-6.6.2-4.el9_3.1.ppc64le.rpm",
 			"name": "varnish-docs",
-			"reboot_suggested": 0,
-			"release": "4.el9_3.1",
-			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
-			"version": "6.6.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "01b11485fec56ef4420134702a5101b78a32c86fe6ccd51d5b7aaac1e4d80c26",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-6.6.2-4.el9_3.1.i686.rpm",
-			"name": "varnish",
 			"reboot_suggested": 0,
 			"release": "4.el9_3.1",
 			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
@@ -137,6 +137,18 @@
 			"version": "6.6.2"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "0a3060f3236f591951b393125d87eb8abc27439a58b735be2dd0aabf45875b6e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-devel-6.6.2-4.el9_3.1.x86_64.rpm",
+			"name": "varnish-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_3.1",
+			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
+			"version": "6.6.2"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "f79763be630d36dd3608ff6c6bf78a73594757de44df12a47bfec16aa7b3a9f4",
 			"checksum_type": "sha256",
@@ -154,18 +166,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "varnish-devel-6.6.2-4.el9_3.1.s390x.rpm",
-			"name": "varnish-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9_3.1",
-			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
-			"version": "6.6.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0a3060f3236f591951b393125d87eb8abc27439a58b735be2dd0aabf45875b6e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-devel-6.6.2-4.el9_3.1.x86_64.rpm",
 			"name": "varnish-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3.1",
@@ -198,5 +198,5 @@
 	"severity": "Important",
 	"title": "Important: varnish security update",
 	"type": "security",
-	"updated_date": 1712645308
+	"updated_date": 1712645306
 }

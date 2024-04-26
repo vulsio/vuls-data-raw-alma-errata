@@ -4,14 +4,14 @@
 	"issued_date": 1702425600,
 	"modules": [
 		{
-			"arch": "ppc64le",
+			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "15",
 			"version": "9030020231221121048"
 		},
 		{
-			"arch": "i686",
+			"arch": "ppc64le",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "15",
@@ -40,6 +40,19 @@
 		}
 	],
 	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "af65d718e2abe6c7280c9eabb0ca53120f62f0c2941b6d1c76bc6dd9aef13a19",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-test-rpm-macros-15.5-1.module_el9.3.0+52+21733919.noarch.rpm",
+			"module": "postgresql:15:9030020231221121048:8cf767d6:i686",
+			"name": "postgresql-test-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.3.0+52+21733919",
+			"src": "postgresql-15.5-1.module_el9.3.0+52+21733919.src.rpm",
+			"version": "15.5"
+		},
 		{
 			"arch": "ppc64le",
 			"checksum": "0f90587bb1ddab45ac465186758d7b80614ac285fac27cb9674d984c3a30017a",
@@ -182,19 +195,6 @@
 			"release": "1.module_el9.2.0+22+09653793",
 			"src": "pgaudit-1.7.0-1.module_el9.2.0+22+09653793.src.rpm",
 			"version": "1.7.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "af65d718e2abe6c7280c9eabb0ca53120f62f0c2941b6d1c76bc6dd9aef13a19",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "postgresql-test-rpm-macros-15.5-1.module_el9.3.0+52+21733919.noarch.rpm",
-			"module": "postgresql:15:9030020231221121048:8cf767d6:ppc64le",
-			"name": "postgresql-test-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.3.0+52+21733919",
-			"src": "postgresql-15.5-1.module_el9.3.0+52+21733919.src.rpm",
-			"version": "15.5"
 		},
 		{
 			"arch": "ppc64le",
@@ -1003,5 +1003,5 @@
 	"severity": "Important",
 	"title": "Important: postgresql:15 security update",
 	"type": "security",
-	"updated_date": 1703239079
+	"updated_date": 1703239074
 }

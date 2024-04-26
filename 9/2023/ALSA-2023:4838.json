@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "90f97d00c92fe8b67824effb9b32aa1edc63cc314315c0c24b43695926634479",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-devel-2.3.3op2-16.el9_2.1.i686.rpm",
+			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9_2.1",
+			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "aa04bc93b6930f3be08d7fcef1b901e910e5638414afe1eeed997ed3360b6477",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-filesystem-2.3.3op2-16.el9_2.1.noarch.rpm",
+			"name": "cups-filesystem",
+			"reboot_suggested": 0,
+			"release": "16.el9_2.1",
+			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "11015e79726e17de480bfe4153791cc8e780341a2c7aed5248865d21ec26dcd4",
 			"checksum_type": "sha256",
@@ -53,18 +77,6 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "aa04bc93b6930f3be08d7fcef1b901e910e5638414afe1eeed997ed3360b6477",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-filesystem-2.3.3op2-16.el9_2.1.noarch.rpm",
-			"name": "cups-filesystem",
-			"reboot_suggested": 0,
-			"release": "16.el9_2.1",
-			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "b68e7584d79f59960aa7abba732271f8d6df4ef1c042acc5bc6504122db64bf0",
 			"checksum_type": "sha256",
@@ -83,18 +95,6 @@
 			"epoch": "1",
 			"filename": "cups-lpd-2.3.3op2-16.el9_2.1.ppc64le.rpm",
 			"name": "cups-lpd",
-			"reboot_suggested": 0,
-			"release": "16.el9_2.1",
-			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "90f97d00c92fe8b67824effb9b32aa1edc63cc314315c0c24b43695926634479",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-devel-2.3.3op2-16.el9_2.1.i686.rpm",
-			"name": "cups-devel",
 			"reboot_suggested": 0,
 			"release": "16.el9_2.1",
 			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
@@ -341,11 +341,11 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7cc7c04c136681c32246ed2e90cc32636752aaa9b9dd0be0b15b86b17506da43",
+			"arch": "s390x",
+			"checksum": "6fb3614544decafa403ae3a7deb059bf522ae5465ecfbdb2caafee0d29abfd9f",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "cups-libs-2.3.3op2-16.el9_2.1.ppc64le.rpm",
+			"filename": "cups-libs-2.3.3op2-16.el9_2.1.s390x.rpm",
 			"name": "cups-libs",
 			"reboot_suggested": 0,
 			"release": "16.el9_2.1",
@@ -365,11 +365,11 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "6fb3614544decafa403ae3a7deb059bf522ae5465ecfbdb2caafee0d29abfd9f",
+			"arch": "ppc64le",
+			"checksum": "7cc7c04c136681c32246ed2e90cc32636752aaa9b9dd0be0b15b86b17506da43",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "cups-libs-2.3.3op2-16.el9_2.1.s390x.rpm",
+			"filename": "cups-libs-2.3.3op2-16.el9_2.1.ppc64le.rpm",
 			"name": "cups-libs",
 			"reboot_suggested": 0,
 			"release": "16.el9_2.1",
@@ -402,5 +402,5 @@
 	"severity": "Important",
 	"title": "Important: cups security update",
 	"type": "security",
-	"updated_date": 1693388365
+	"updated_date": 1693388363
 }

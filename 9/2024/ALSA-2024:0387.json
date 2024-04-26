@@ -4,18 +4,18 @@
 	"issued_date": 1706054400,
 	"modules": [
 		{
-			"arch": "ppc64le",
-			"context": "8cf767d6",
-			"name": "php",
-			"stream": "8.1",
-			"version": "9030020240124164610"
-		},
-		{
 			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "php",
 			"stream": "8.1",
 			"version": "9010020221116022647"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "8cf767d6",
+			"name": "php",
+			"stream": "8.1",
+			"version": "9030020240124164610"
 		},
 		{
 			"arch": "x86_64",
@@ -40,6 +40,19 @@
 		}
 	],
 	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "e27a86b0afd898fe4401096cadb01c89fd2b39150e0cbfb4ebd82bc9822a3cbf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "apcu-panel-5.1.21-1.module_el9.1.0+15+94ba28e4.noarch.rpm",
+			"module": "php:8.1:9010020221116022647:8cf767d6:i686",
+			"name": "apcu-panel",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.1.0+15+94ba28e4",
+			"src": "php-pecl-apcu-5.1.21-1.module_el9.1.0+15+94ba28e4.src.rpm",
+			"version": "5.1.21"
+		},
 		{
 			"arch": "ppc64le",
 			"checksum": "072e428b8b7bc089f802279c18bfee555928e01d625358e3f01b5733381d5b19",
@@ -377,19 +390,6 @@
 			"release": "1.module_el9.3.0+53+44872dd1",
 			"src": "php-8.1.27-1.module_el9.3.0+53+44872dd1.src.rpm",
 			"version": "8.1.27"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e27a86b0afd898fe4401096cadb01c89fd2b39150e0cbfb4ebd82bc9822a3cbf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "apcu-panel-5.1.21-1.module_el9.1.0+15+94ba28e4.noarch.rpm",
-			"module": "php:8.1:9030020240124164610:8cf767d6:ppc64le",
-			"name": "apcu-panel",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.1.0+15+94ba28e4",
-			"src": "php-pecl-apcu-5.1.21-1.module_el9.1.0+15+94ba28e4.src.rpm",
-			"version": "5.1.21"
 		},
 		{
 			"arch": "ppc64le",
@@ -1689,5 +1689,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: php:8.1 security update",
 	"type": "security",
-	"updated_date": 1706220123
+	"updated_date": 1706220116
 }
