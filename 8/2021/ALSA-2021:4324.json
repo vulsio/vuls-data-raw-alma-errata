@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "4e993304e6ce8fed5aebedb5ae4c0227601bf2069d9c5f5f14321630876ab848",
+			"arch": "aarch64",
+			"checksum": "eb1b1ee8db4253133d88262471786684d3a9dcab34321851f92f21e04aba4506",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-psutil-5.4.3-11.el8.x86_64.rpm",
+			"filename": "python3-psutil-5.4.3-11.el8.aarch64.rpm",
 			"name": "python3-psutil",
 			"reboot_suggested": 0,
 			"release": "11.el8",
@@ -17,11 +17,11 @@
 			"version": "5.4.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "eb1b1ee8db4253133d88262471786684d3a9dcab34321851f92f21e04aba4506",
+			"arch": "x86_64",
+			"checksum": "4e993304e6ce8fed5aebedb5ae4c0227601bf2069d9c5f5f14321630876ab848",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-psutil-5.4.3-11.el8.aarch64.rpm",
+			"filename": "python3-psutil-5.4.3-11.el8.x86_64.rpm",
 			"name": "python3-psutil",
 			"reboot_suggested": 0,
 			"release": "11.el8",
@@ -43,18 +43,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2019-18874",
-			"id": "CVE-2019-18874",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-4324.html",
 			"id": "ALSA-2021-4324",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2019-18874",
+			"id": "CVE-2019-18874",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: python-psutil security update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636462972
 }

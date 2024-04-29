@@ -5,35 +5,23 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "17ecffc9bcea8cc602025acbb4a4f278e0c61ba1e81bf73f2223154190658a5c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-devel-1.17.1-5.el9_2.1.i686.rpm",
-			"name": "c-ares-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
-			"version": "1.17.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "85ed19ca9a52616e14d7bdd47a79ec8ad5f153c3be91413da2a20efd63cc9382",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-devel-1.17.1-5.el9_2.1.x86_64.rpm",
-			"name": "c-ares-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
-			"version": "1.17.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "fab6c37c4cf6debbb3c0f65e6ccd6a7398d7e7ab06215e57cc9b6a26e789127e",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "c-ares-devel-1.17.1-5.el9_2.1.ppc64le.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
+			"version": "1.17.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "17ecffc9bcea8cc602025acbb4a4f278e0c61ba1e81bf73f2223154190658a5c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.17.1-5.el9_2.1.i686.rpm",
 			"name": "c-ares-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -53,6 +41,18 @@
 			"version": "1.17.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "85ed19ca9a52616e14d7bdd47a79ec8ad5f153c3be91413da2a20efd63cc9382",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.17.1-5.el9_2.1.x86_64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
+			"version": "1.17.1"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "db6b83824bfdab391ce7b7a790a6e9451bc19c5c7ddd83d1fc74d1d4cfedb28d",
 			"checksum_type": "sha256",
@@ -65,11 +65,11 @@
 			"version": "1.17.1"
 		},
 		{
-			"arch": "i686",
-			"checksum": "dd2a5ed88241107de98a15831193ee5aeb4a5ccaf7238898dc1b1bba9de88a30",
+			"arch": "aarch64",
+			"checksum": "239a3ff10c3569b75ea6d611c47ef733fcbfaa3abfb2f21cb4e9078495abb0a8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-1.17.1-5.el9_2.1.i686.rpm",
+			"filename": "c-ares-1.17.1-5.el9_2.1.aarch64.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -89,23 +89,11 @@
 			"version": "1.17.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b9048cf916916892ef36af2078dd77171bd4de5c9f605f596a6d1e3558bba504",
+			"arch": "i686",
+			"checksum": "dd2a5ed88241107de98a15831193ee5aeb4a5ccaf7238898dc1b1bba9de88a30",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-1.17.1-5.el9_2.1.ppc64le.rpm",
-			"name": "c-ares",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
-			"version": "1.17.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "239a3ff10c3569b75ea6d611c47ef733fcbfaa3abfb2f21cb4e9078495abb0a8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-1.17.1-5.el9_2.1.aarch64.rpm",
+			"filename": "c-ares-1.17.1-5.el9_2.1.i686.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -118,6 +106,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "c-ares-1.17.1-5.el9_2.1.s390x.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "c-ares-1.17.1-5.el9_2.1.src.rpm",
+			"version": "1.17.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b9048cf916916892ef36af2078dd77171bd4de5c9f605f596a6d1e3558bba504",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.17.1-5.el9_2.1.ppc64le.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",

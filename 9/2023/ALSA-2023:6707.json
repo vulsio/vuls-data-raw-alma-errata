@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "d6f9fb7ed65aed5fd7cafc3ea9371030c72fccc78342c92f4e1e736b72178e10",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-glib-0.8-15.el9.i686.rpm",
-			"name": "avahi-glib",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1674d7de8dd390dcd5aacad62a7bb1423c5f10544f7c00856f363f255753762c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-tools-0.8-15.el9.x86_64.rpm",
-			"name": "avahi-tools",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "395463e89096e2190d8d0ad6d82d593ee2a3266a9d1fd470ff2ca210a7b2899d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-glib-0.8-15.el9.x86_64.rpm",
-			"name": "avahi-glib",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "0ba506dd57aa84ad5660ddf17357d860ea1c774c094d12bf66ed1dbe15207bf1",
 			"checksum_type": "sha256",
@@ -58,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "avahi-glib-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-glib",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d6f9fb7ed65aed5fd7cafc3ea9371030c72fccc78342c92f4e1e736b72178e10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-glib-0.8-15.el9.i686.rpm",
 			"name": "avahi-glib",
 			"reboot_suggested": 0,
 			"release": "15.el9",
@@ -89,6 +65,30 @@
 			"version": "0.8"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "1674d7de8dd390dcd5aacad62a7bb1423c5f10544f7c00856f363f255753762c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-tools-0.8-15.el9.x86_64.rpm",
+			"name": "avahi-tools",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "395463e89096e2190d8d0ad6d82d593ee2a3266a9d1fd470ff2ca210a7b2899d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-glib-0.8-15.el9.x86_64.rpm",
+			"name": "avahi-glib",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "0cfa50a8b45376affbfe699b2f2b412e61efc2c686302b0981cffe0c7de0c950",
 			"checksum_type": "sha256",
@@ -107,6 +107,30 @@
 			"epoch": "0",
 			"filename": "avahi-glib-0.8-15.el9.s390x.rpm",
 			"name": "avahi-glib",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "052995d4f3024fa56b9639bb8dd37019a3c838e0d3100ec505fd7c8254ebc23f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-libs-0.8-15.el9.aarch64.rpm",
+			"name": "avahi-libs",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7f67f2238b4df5ef008cdbf08636437e4a802a694209dd9ade75eceb06b8a68b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-0.8-15.el9.aarch64.rpm",
+			"name": "avahi",
 			"reboot_suggested": 0,
 			"release": "15.el9",
 			"src": "avahi-0.8-15.el9.src.rpm",
@@ -161,54 +185,6 @@
 			"version": "0.8"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "17dfe7c571d4c1800b8fde7339105cdbf55765cbefc237cf6202b5f54363d6f2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-libs-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-libs",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c324b8fbcedd2e2f6e543a3cb9382c2bab4bab748fa678bc9140355db08ee30d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "052995d4f3024fa56b9639bb8dd37019a3c838e0d3100ec505fd7c8254ebc23f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-libs-0.8-15.el9.aarch64.rpm",
-			"name": "avahi-libs",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7f67f2238b4df5ef008cdbf08636437e4a802a694209dd9ade75eceb06b8a68b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-0.8-15.el9.aarch64.rpm",
-			"name": "avahi",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "2e971886e9cb9427c97e1e6845e1e229c41a33ecbff981490fdfb9260cbaf912",
 			"checksum_type": "sha256",
@@ -226,6 +202,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "avahi-0.8-15.el9.s390x.rpm",
+			"name": "avahi",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "17dfe7c571d4c1800b8fde7339105cdbf55765cbefc237cf6202b5f54363d6f2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-libs-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-libs",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c324b8fbcedd2e2f6e543a3cb9382c2bab4bab748fa678bc9140355db08ee30d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-0.8-15.el9.ppc64le.rpm",
 			"name": "avahi",
 			"reboot_suggested": 0,
 			"release": "15.el9",
@@ -377,6 +377,78 @@
 			"version": "0.8"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "0baf4385aa6bbf0c5c2a832020123088e7fe0dacd4752f69806a09c421d3ffbb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-glib-devel-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-glib-devel",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0c3510cae12d779a0b889bbe93e54572000f3a584faf58344d8ff89a595ac7a1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-devel-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-devel",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b4c6c903a704464be60b32a712fcd7529f35bf7df0a1d9cbd2333272b8f37295",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-compat-libdns_sd-devel-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-compat-libdns_sd-devel",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cb60a7886ff45b8ed9eea047e53d9b6ebfc813d6c6b0c9b1f99dc67423232ab5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-compat-libdns_sd-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-compat-libdns_sd",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "eb7c39af0190abdd968a55dc89024ad31722afaf2ad3499f3adedda99660a436",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-compat-howl-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-compat-howl",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "eba24676a01a28d4b8538ec26cd74ecbbc7b422fed3d5a208a71ca3f5653206c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-compat-howl-devel-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-compat-howl-devel",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "5010794acfa2f5e4608c8a122ec05b798b8321686437dc57c9e1c4c62d89844f",
 			"checksum_type": "sha256",
@@ -519,78 +591,6 @@
 			"release": "15.el9",
 			"src": "avahi-0.8-15.el9.src.rpm",
 			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0baf4385aa6bbf0c5c2a832020123088e7fe0dacd4752f69806a09c421d3ffbb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-glib-devel-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-glib-devel",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0c3510cae12d779a0b889bbe93e54572000f3a584faf58344d8ff89a595ac7a1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-devel-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-devel",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b4c6c903a704464be60b32a712fcd7529f35bf7df0a1d9cbd2333272b8f37295",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-compat-libdns_sd-devel-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-compat-libdns_sd-devel",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "cb60a7886ff45b8ed9eea047e53d9b6ebfc813d6c6b0c9b1f99dc67423232ab5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-compat-libdns_sd-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-compat-libdns_sd",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "eb7c39af0190abdd968a55dc89024ad31722afaf2ad3499f3adedda99660a436",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-compat-howl-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-compat-howl",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "eba24676a01a28d4b8538ec26cd74ecbbc7b422fed3d5a208a71ca3f5653206c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-compat-howl-devel-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-compat-howl-devel",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
 		}
 	],
 	"references": [
@@ -638,5 +638,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: avahi security update",
 	"type": "security",
-	"updated_date": 1699963526
+	"updated_date": 1699963556
 }

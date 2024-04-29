@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "1d1f44317b15ba707feb8d4d360966ef13f0e09be4f03899d5479e6a75376480",
+			"arch": "aarch64",
+			"checksum": "bdfc75a7f4ce989f0a43b6ca15de59ef6963eff353de9f5f24561a18d8ee7ca4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "aide-0.16-14.el8_5.1.x86_64.rpm",
+			"filename": "aide-0.16-14.el8_5.1.aarch64.rpm",
 			"name": "aide",
 			"reboot_suggested": 0,
 			"release": "14.el8_5.1",
@@ -17,11 +17,11 @@
 			"version": "0.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "bdfc75a7f4ce989f0a43b6ca15de59ef6963eff353de9f5f24561a18d8ee7ca4",
+			"arch": "x86_64",
+			"checksum": "1d1f44317b15ba707feb8d4d360966ef13f0e09be4f03899d5479e6a75376480",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "aide-0.16-14.el8_5.1.aarch64.rpm",
+			"filename": "aide-0.16-14.el8_5.1.x86_64.rpm",
 			"name": "aide",
 			"reboot_suggested": 0,
 			"release": "14.el8_5.1",
@@ -43,18 +43,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2021-45417",
-			"id": "CVE-2021-45417",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2022-0441.html",
 			"id": "ALSA-2022-0441",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-45417",
+			"id": "CVE-2021-45417",
+			"type": "cve"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: aide security update",
 	"type": "security",
-	"updated_date": 1644258004
+	"updated_date": 1644221530
 }

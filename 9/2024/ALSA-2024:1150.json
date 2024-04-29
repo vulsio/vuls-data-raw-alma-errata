@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "8138e37ba2df0ddd806fe258d88f21e64430c45ef95ba28032c6a5f46cc79802",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "buildah-1.31.4-1.el9_3.x86_64.rpm",
-			"name": "buildah",
-			"reboot_suggested": 0,
-			"release": "1.el9_3",
-			"src": "buildah-1.31.4-1.el9_3.src.rpm",
-			"version": "1.31.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e8ee9e8adb796098a356d4399ec21f6d4fb80de552b3012aefcad06ff973912c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "buildah-tests-1.31.4-1.el9_3.x86_64.rpm",
-			"name": "buildah-tests",
-			"reboot_suggested": 0,
-			"release": "1.el9_3",
-			"src": "buildah-1.31.4-1.el9_3.src.rpm",
-			"version": "1.31.4"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "709976884489a1af6fee96fa00e87cf3a1be2a830878cf22b8a63b08fd1f90e4",
 			"checksum_type": "sha256",
@@ -70,6 +46,30 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "buildah-tests-1.31.4-1.el9_3.aarch64.rpm",
+			"name": "buildah-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9_3",
+			"src": "buildah-1.31.4-1.el9_3.src.rpm",
+			"version": "1.31.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8138e37ba2df0ddd806fe258d88f21e64430c45ef95ba28032c6a5f46cc79802",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "buildah-1.31.4-1.el9_3.x86_64.rpm",
+			"name": "buildah",
+			"reboot_suggested": 0,
+			"release": "1.el9_3",
+			"src": "buildah-1.31.4-1.el9_3.src.rpm",
+			"version": "1.31.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e8ee9e8adb796098a356d4399ec21f6d4fb80de552b3012aefcad06ff973912c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "buildah-tests-1.31.4-1.el9_3.x86_64.rpm",
 			"name": "buildah-tests",
 			"reboot_suggested": 0,
 			"release": "1.el9_3",
@@ -126,5 +126,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: buildah security update",
 	"type": "security",
-	"updated_date": 1709733296
+	"updated_date": 1709733297
 }

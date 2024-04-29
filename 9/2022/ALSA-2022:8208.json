@@ -5,66 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "dc844cf27548a01b45e3baacab6be0578a79e98ec2a03d9599317b982f1b2b02",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-2.3.16-7.el9.i686.rpm",
-			"name": "dovecot",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0f7fb793883ac6c0be2309155ad4db4f5b13d7dd5ac44e9e952152019d243473",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-pgsql-2.3.16-7.el9.x86_64.rpm",
-			"name": "dovecot-pgsql",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2dbcf2225d36573530af08aa17482c4916f581bf4f32dca4f486aeb122ae3369",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-mysql-2.3.16-7.el9.x86_64.rpm",
-			"name": "dovecot-mysql",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "afb1aeacf2683043a5ed95773d4544ceedc9b93e46d1f37ccee5bbcc44be282c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-pigeonhole-2.3.16-7.el9.x86_64.rpm",
-			"name": "dovecot-pigeonhole",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b2b161d01c853284dc9b4ca1cac329938ac8e8d09a1a3b11e7dfd3f1ba4d1c50",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-2.3.16-7.el9.x86_64.rpm",
-			"name": "dovecot",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "26e94034386676a2cdcd6d2021d401e8c9ba29ab5c29f8cd11d2775c51b21c33",
 			"checksum_type": "sha256",
@@ -113,6 +53,18 @@
 			"version": "2.3.16"
 		},
 		{
+			"arch": "i686",
+			"checksum": "dc844cf27548a01b45e3baacab6be0578a79e98ec2a03d9599317b982f1b2b02",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-2.3.16-7.el9.i686.rpm",
+			"name": "dovecot",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "2113e39d957bf8ccfd9568773c1c47a026cbd70d02b2a4929cf75247067caf23",
 			"checksum_type": "sha256",
@@ -155,6 +107,54 @@
 			"epoch": "1",
 			"filename": "dovecot-mysql-2.3.16-7.el9.aarch64.rpm",
 			"name": "dovecot-mysql",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0f7fb793883ac6c0be2309155ad4db4f5b13d7dd5ac44e9e952152019d243473",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-pgsql-2.3.16-7.el9.x86_64.rpm",
+			"name": "dovecot-pgsql",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2dbcf2225d36573530af08aa17482c4916f581bf4f32dca4f486aeb122ae3369",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-mysql-2.3.16-7.el9.x86_64.rpm",
+			"name": "dovecot-mysql",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "afb1aeacf2683043a5ed95773d4544ceedc9b93e46d1f37ccee5bbcc44be282c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-pigeonhole-2.3.16-7.el9.x86_64.rpm",
+			"name": "dovecot-pigeonhole",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b2b161d01c853284dc9b4ca1cac329938ac8e8d09a1a3b11e7dfd3f1ba4d1c50",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-2.3.16-7.el9.x86_64.rpm",
+			"name": "dovecot",
 			"reboot_suggested": 0,
 			"release": "7.el9",
 			"src": "dovecot-2.3.16-7.el9.src.rpm",
@@ -233,6 +233,18 @@
 			"version": "2.3.16"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "11e9ed74f74c050576569dd0c1cffdcf47f0aff3b7adb2a283d28d9beb6e8ff0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-devel-2.3.16-7.el9.ppc64le.rpm",
+			"name": "dovecot-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "dovecot-2.3.16-7.el9.src.rpm",
+			"version": "2.3.16"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "6c187e3b25d29372f86753803435b984763febbbe022b0840ba5e5c5e11b3c15",
 			"checksum_type": "sha256",
@@ -250,18 +262,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "dovecot-devel-2.3.16-7.el9.s390x.rpm",
-			"name": "dovecot-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "dovecot-2.3.16-7.el9.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "11e9ed74f74c050576569dd0c1cffdcf47f0aff3b7adb2a283d28d9beb6e8ff0",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-devel-2.3.16-7.el9.ppc64le.rpm",
 			"name": "dovecot-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9",
@@ -294,5 +294,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dovecot security and enhancement update",
 	"type": "security",
-	"updated_date": 1668742376
+	"updated_date": 1668742377
 }

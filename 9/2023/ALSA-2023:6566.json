@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "ad3725cb8498ef79218f6cba51744c4af78f1a84282d2eb227b820aab797a839",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.72-5.el9.i686.rpm",
-			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
-			"version": "0.9.72"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "730607fa8fb6cbb8c95726b766a2542ba860ca640cfc1e3ed93c57d235ff54e3",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.72-5.el9.x86_64.rpm",
-			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
-			"version": "0.9.72"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "dac4d888af0411fb652c3da56469d294b491dee21d873608045ccde802777a54",
 			"checksum_type": "sha256",
@@ -41,11 +17,35 @@
 			"version": "0.9.72"
 		},
 		{
+			"arch": "i686",
+			"checksum": "ad3725cb8498ef79218f6cba51744c4af78f1a84282d2eb227b820aab797a839",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-0.9.72-5.el9.i686.rpm",
+			"name": "libmicrohttpd",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
+			"version": "0.9.72"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "b1d3a0b222eef5523e33d8286b82ec4df3b1d5cc3465d8e0c14cb2b5d234106e",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libmicrohttpd-0.9.72-5.el9.aarch64.rpm",
+			"name": "libmicrohttpd",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
+			"version": "0.9.72"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "730607fa8fb6cbb8c95726b766a2542ba860ca640cfc1e3ed93c57d235ff54e3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-0.9.72-5.el9.x86_64.rpm",
 			"name": "libmicrohttpd",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -101,6 +101,18 @@
 			"version": "0.9.72"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "7cdac97c789b0733e1474411d0e379afc61cece0dc89b82ba6a3b863b96d6f23",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-devel-0.9.72-5.el9.ppc64le.rpm",
+			"name": "libmicrohttpd-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
+			"version": "0.9.72"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "fdcefa5dc92899e9687d949d79c5e4c2795a8a7798ff2c3f6b79df3d213ff141",
 			"checksum_type": "sha256",
@@ -118,18 +130,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libmicrohttpd-devel-0.9.72-5.el9.s390x.rpm",
-			"name": "libmicrohttpd-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
-			"version": "0.9.72"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7cdac97c789b0733e1474411d0e379afc61cece0dc89b82ba6a3b863b96d6f23",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-devel-0.9.72-5.el9.ppc64le.rpm",
 			"name": "libmicrohttpd-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
