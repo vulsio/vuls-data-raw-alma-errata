@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "3873876d5efbca83bba2cdbf37f7575beca9fbc0908f0dc4544564e1a58b1fdf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm",
-			"name": "jasper-libs",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "jasper-2.0.14-5.el8.src.rpm",
-			"version": "2.0.14"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "96266e370437661ff5881fffdeb92f42908226f8ba622b792601e1a73fa76e96",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jasper-devel-2.0.14-5.el8.aarch64.rpm",
-			"name": "jasper-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "jasper-2.0.14-5.el8.src.rpm",
-			"version": "2.0.14"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0a3847e660dbcc8cff51db91ecbbd14a1c1bdc415cfd1ca7714c582d7448853f",
 			"checksum_type": "sha256",
@@ -77,6 +53,30 @@
 			"version": "2.0.14"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "3873876d5efbca83bba2cdbf37f7575beca9fbc0908f0dc4544564e1a58b1fdf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm",
+			"name": "jasper-libs",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "jasper-2.0.14-5.el8.src.rpm",
+			"version": "2.0.14"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "96266e370437661ff5881fffdeb92f42908226f8ba622b792601e1a73fa76e96",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jasper-devel-2.0.14-5.el8.aarch64.rpm",
+			"name": "jasper-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "jasper-2.0.14-5.el8.src.rpm",
+			"version": "2.0.14"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0f6cf72c0fefbd2fd4089f7a5f8f62edf691df5d8da92351c8fb4755be567fa2",
 			"checksum_type": "sha256",
@@ -103,11 +103,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4235.html",
-			"id": "ALSA-2021-4235",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-27828",
 			"id": "CVE-2020-27828",
 			"type": "cve"
@@ -126,10 +121,15 @@
 			"href": "https://vulners.com/cve/CVE-2021-3272",
 			"id": "CVE-2021-3272",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4235.html",
+			"id": "ALSA-2021-4235",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: jasper security update",
 	"type": "security",
-	"updated_date": 1636462589
+	"updated_date": 1636712461
 }

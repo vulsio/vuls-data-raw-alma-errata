@@ -1,0 +1,82 @@
+{
+	"description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Missing PreSharedKey for connection can cause crash (CVE-2024-2357)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1998",
+	"issued_date": 1713830400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "0c54e827c6221b57c1c48a59917693e6e03d83a2d414d3ba330c5918bb0cebb3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_9.2.alma.1.x86_64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.2.alma.1",
+			"src": "libreswan-4.12-2.el8_9.2.alma.1.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1352dfd6484f69a9c984276aba3d3199ae950219fc7e4fd82e448fd8fcddfb6c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_9.2.alma.1.aarch64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.2.alma.1",
+			"src": "libreswan-4.12-2.el8_9.2.alma.1.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "aa80bd987c087525240781d0188602f3be7c4e495f8bace1c71731e9dffcedd9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_9.2.alma.1.ppc64le.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.2.alma.1",
+			"src": "libreswan-4.12-2.el8_9.2.alma.1.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "30d54cca43d4d52e68d85864f23c84eed25e4ff96cd170801bb7fc495b3b86ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_9.2.alma.1.s390x.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.2.alma.1",
+			"src": "libreswan-4.12-2.el8_9.2.alma.1.src.rpm",
+			"version": "4.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1998",
+			"id": "RHSA-2024:1998",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2357",
+			"id": "CVE-2024-2357",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2268952",
+			"id": "2268952",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-1998.html",
+			"id": "ALSA-2024:1998",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libreswan security update",
+	"type": "security",
+	"updated_date": 1714377255
+}

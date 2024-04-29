@@ -1,0 +1,282 @@
+{
+	"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIGetSelectedEvents (CVE-2024-31080)\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIPassiveGrabDevice (CVE-2024-31081)\n* xorg-x11-server: User-after-free in ProcRenderAddGlyphs (CVE-2024-31083)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:2037",
+	"issued_date": 1713916800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "9cf25d5c5f0da947736b27d04b2dcfae5a5a4428aaee91dc8e2edf7cc89c0b48",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-selinux-1.13.1-2.el8_9.10.alma.1.noarch.rpm",
+			"name": "tigervnc-selinux",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b1c7e094ca741d1c8bb9ae99d575d4f7c53789a7fc57b8103b4c82b0f21046e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-license-1.13.1-2.el8_9.10.alma.1.noarch.rpm",
+			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b33666864b293f35db2b9980fb783cb4cfdfd28685c545a127b82448f86601a2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-icons-1.13.1-2.el8_9.10.alma.1.noarch.rpm",
+			"name": "tigervnc-icons",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "70cd719296544a3772bf4a21065fda3a99010168376737c9217e8c27a12b2500",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.13.1-2.el8_9.10.alma.1.x86_64.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71e8e32c02453bf710db3b7103a8ca42e55d7ed4946d1571c991fbc2de8468f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.13.1-2.el8_9.10.alma.1.x86_64.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e90c763510e81c8d4e5ab584a821e41c9a8105f00596efd2874f0136f30c5d41",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.13.1-2.el8_9.10.alma.1.x86_64.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ec95b4880db659fd13d9baf061198370ac5e6a1eff1e553f6b5f00fdf919918d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.13.1-2.el8_9.10.alma.1.x86_64.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2a8eb9dc6d208bbddec2f9a1b4915c2d6f6acd4874dc113ae25baf5a433aeb4d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.13.1-2.el8_9.10.alma.1.aarch64.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2e40415019957c5742625e5fb71ba699866e19c1e35a1a12c812fc7361ccfda0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.13.1-2.el8_9.10.alma.1.aarch64.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "aa1795755281e368e67f16d34a3fc06866a4601e2aa98bd9a36ac21d04e8e53c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.13.1-2.el8_9.10.alma.1.aarch64.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "db26520057ea22455fbc2c0af90af925e29e956e8d872a6f729aac450c8a2775",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.13.1-2.el8_9.10.alma.1.aarch64.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "38dbdfbc85d16e01492a55b1ad64b960397fba12c957712663a6f4e2b84e387c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.13.1-2.el8_9.10.alma.1.ppc64le.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "38feb9e3f437415a1533fc5aa54a982805798ca2eaeb35918cd2e9c2340aa8ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.13.1-2.el8_9.10.alma.1.ppc64le.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "93902f41fa9eec40102ce9a0ef1d4dbf6dc1742e09e81d78bd80439061a466ad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.13.1-2.el8_9.10.alma.1.ppc64le.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "af2f96698cdab49fc3196e59bfa6d07b32ce5caeb50414f1d8ae2f68e165efd3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.13.1-2.el8_9.10.alma.1.ppc64le.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "063b4d82444c319d1ad1d4f99668dc1d79bc24f282a1b19e4f509ee7094365c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.13.1-2.el8_9.10.alma.1.s390x.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8577e289179f647554135452db05ddacce9773b17926ae12c1675309edea1e26",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.13.1-2.el8_9.10.alma.1.s390x.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b4bbcdf39d391504091cf27ee991419f752a3cc59cfa1baae392c8243810461e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.13.1-2.el8_9.10.alma.1.s390x.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "fd9888892d524697871c0ff28bc8da050448d2e58305ef8538874bdd70c26e0a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.13.1-2.el8_9.10.alma.1.s390x.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "2.el8_9.10.alma.1",
+			"src": "tigervnc-1.13.1-2.el8_9.10.alma.1.src.rpm",
+			"version": "1.13.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2037",
+			"id": "RHSA-2024:2037",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31080",
+			"id": "CVE-2024-31080",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31081",
+			"id": "CVE-2024-31081",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31083",
+			"id": "CVE-2024-31083",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271997",
+			"id": "2271997",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271998",
+			"id": "2271998",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2272000",
+			"id": "2272000",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-2037.html",
+			"id": "ALSA-2024:2037",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: tigervnc security update",
+	"type": "security",
+	"updated_date": 1714380459
+}

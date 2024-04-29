@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "4fcef6fcb78e5f69f3bb2676523bb641c75cbc5e2943d4e39b05ab9f40095cc7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libuv-1.41.1-1.el8_4.aarch64.rpm",
-			"name": "libuv",
-			"reboot_suggested": 0,
-			"release": "1.el8_4",
-			"src": "libuv-1.41.1-1.el8_4.src.rpm",
-			"version": "1.41.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e2d11e21fede27ebfa1ba3b2b4fbc6fb9f7b0d293b0388e5777eca33a57f0ca4",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libuv-devel-1.41.1-1.el8_4.aarch64.rpm",
-			"name": "libuv-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8_4",
-			"src": "libuv-1.41.1-1.el8_4.src.rpm",
-			"version": "1.41.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "90330ae02721447f6d5c41d343d0891c1b6ae602d0660a25eb91d51d01016fca",
 			"checksum_type": "sha256",
@@ -77,6 +53,30 @@
 			"version": "1.41.1"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "4fcef6fcb78e5f69f3bb2676523bb641c75cbc5e2943d4e39b05ab9f40095cc7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libuv-1.41.1-1.el8_4.aarch64.rpm",
+			"name": "libuv",
+			"reboot_suggested": 0,
+			"release": "1.el8_4",
+			"src": "libuv-1.41.1-1.el8_4.src.rpm",
+			"version": "1.41.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e2d11e21fede27ebfa1ba3b2b4fbc6fb9f7b0d293b0388e5777eca33a57f0ca4",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libuv-devel-1.41.1-1.el8_4.aarch64.rpm",
+			"name": "libuv-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8_4",
+			"src": "libuv-1.41.1-1.el8_4.src.rpm",
+			"version": "1.41.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "6fe54fafe84cb40cb62b0f19ad146119c5bdece6495eabe08678caf90108930e",
 			"checksum_type": "sha256",
@@ -103,18 +103,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-3075.html",
-			"id": "ALSA-2021-3075",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-22918",
 			"id": "CVE-2021-22918",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-3075.html",
+			"id": "ALSA-2021-3075",
+			"type": "self"
 		}
 	],
 	"severity": "Low",
 	"title": "Low: libuv security update",
 	"type": "security",
-	"updated_date": 1628596851
+	"updated_date": 1628672040
 }

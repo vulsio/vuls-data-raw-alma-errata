@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "598091c58f10f45c446625448266f36287723834c0f55d46599f02d3c4111aea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvpx-1.7.0-8.el8.aarch64.rpm",
-			"name": "libvpx",
-			"reboot_suggested": 0,
-			"release": "8.el8",
-			"src": "libvpx-1.7.0-8.el8.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "898547a9d592ca2d8ebf25a724bce6af341889efc16d0bc09fe8cdcb81290917",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvpx-devel-1.7.0-8.el8.aarch64.rpm",
-			"name": "libvpx-devel",
-			"reboot_suggested": 0,
-			"release": "8.el8",
-			"src": "libvpx-1.7.0-8.el8.src.rpm",
-			"version": "1.7.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "7ff3c2e21763535f4e3a5d0a1fdeb7ada2b37d40af87dd54232691cfe995aad0",
 			"checksum_type": "sha256",
@@ -77,6 +53,30 @@
 			"version": "1.7.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "598091c58f10f45c446625448266f36287723834c0f55d46599f02d3c4111aea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-1.7.0-8.el8.aarch64.rpm",
+			"name": "libvpx",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libvpx-1.7.0-8.el8.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "898547a9d592ca2d8ebf25a724bce6af341889efc16d0bc09fe8cdcb81290917",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.7.0-8.el8.aarch64.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libvpx-1.7.0-8.el8.src.rpm",
+			"version": "1.7.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "90447043e0266420622b4cf680d63cc5f1dd4bd171ccc546e7ab0bd1c5afe000",
 			"checksum_type": "sha256",
@@ -103,11 +103,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4629.html",
-			"id": "ALSA-2020-4629",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2019-2126",
 			"id": "CVE-2019-2126",
 			"type": "cve"
@@ -126,10 +121,15 @@
 			"href": "https://vulners.com/cve/CVE-2019-9433",
 			"id": "CVE-2019-9433",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4629.html",
+			"id": "ALSA-2020-4629",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libvpx security update",
 	"type": "security",
-	"updated_date": 1604432704
+	"updated_date": 1628672040
 }
