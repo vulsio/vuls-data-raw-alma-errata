@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "ab3fc64d841d18c3889299e4e607440c2b53f06b1399365ee178ac08a1b80953",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "wavpack-devel-5.1.0-16.el8.i686.rpm",
-			"name": "wavpack-devel",
-			"reboot_suggested": 0,
-			"release": "16.el8",
-			"src": "wavpack-5.1.0-16.el8.src.rpm",
-			"version": "5.1.0"
-		},
-		{
-			"arch": "i686",
 			"checksum": "15944a0ea3dde2a3ee28535bb432aad15c66dba046a783dc322d473a4ce01593",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -29,11 +17,35 @@
 			"version": "5.1.0"
 		},
 		{
+			"arch": "i686",
+			"checksum": "ab3fc64d841d18c3889299e4e607440c2b53f06b1399365ee178ac08a1b80953",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wavpack-devel-5.1.0-16.el8.i686.rpm",
+			"name": "wavpack-devel",
+			"reboot_suggested": 0,
+			"release": "16.el8",
+			"src": "wavpack-5.1.0-16.el8.src.rpm",
+			"version": "5.1.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "8732c87cfc809c196d440471c770ba7b3c7e652bfe453425c23b4ad64fcb774c",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "wavpack-devel-5.1.0-16.el8.x86_64.rpm",
+			"name": "wavpack-devel",
+			"reboot_suggested": 0,
+			"release": "16.el8",
+			"src": "wavpack-5.1.0-16.el8.src.rpm",
+			"version": "5.1.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a90e3943f7b2b1057986246e1cc2f33d95f4584bd725eb2c860f71b7082be10a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wavpack-devel-5.1.0-16.el8.aarch64.rpm",
 			"name": "wavpack-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "wavpack-5.1.0-16.el8.x86_64.rpm",
 			"name": "wavpack",
-			"reboot_suggested": 0,
-			"release": "16.el8",
-			"src": "wavpack-5.1.0-16.el8.src.rpm",
-			"version": "5.1.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a90e3943f7b2b1057986246e1cc2f33d95f4584bd725eb2c860f71b7082be10a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "wavpack-devel-5.1.0-16.el8.aarch64.rpm",
-			"name": "wavpack-devel",
 			"reboot_suggested": 0,
 			"release": "16.el8",
 			"src": "wavpack-5.1.0-16.el8.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Low",
 	"title": "Low: wavpack security update",
 	"type": "security",
-	"updated_date": 1668216567
+	"updated_date": 1668216568
 }

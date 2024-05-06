@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "9aa0b5ce2ad36cee36344a56133c6e27f97c17ea6a46cd6cfeac1bc0c87e24e4",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind9.16-9.16.23-0.16.el8_9.2.alma.1.noarch.rpm",
+			"name": "python3-bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.16.el8_9.2.alma.1",
+			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a34d59c58904efcbf354db2e2ce517002b59ef992ba4c3342aeba2b511ab3367",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-license-9.16.23-0.16.el8_9.2.alma.1.noarch.rpm",
+			"name": "bind9.16-license",
+			"reboot_suggested": 0,
+			"release": "0.16.el8_9.2.alma.1",
+			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "i686",
 			"checksum": "16c05c4597d31b1caaaf4943ed3bf78e257873bb8ea70c26e4d4bcbea7a3f384",
 			"checksum_type": "sha256",
@@ -41,30 +65,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "9aa0b5ce2ad36cee36344a56133c6e27f97c17ea6a46cd6cfeac1bc0c87e24e4",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind9.16-9.16.23-0.16.el8_9.2.alma.1.noarch.rpm",
-			"name": "python3-bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.16.el8_9.2.alma.1",
-			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a34d59c58904efcbf354db2e2ce517002b59ef992ba4c3342aeba2b511ab3367",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-license-9.16.23-0.16.el8_9.2.alma.1.noarch.rpm",
-			"name": "bind9.16-license",
-			"reboot_suggested": 0,
-			"release": "0.16.el8_9.2.alma.1",
-			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "534f1a70ba7a6af7ac631ec63a434af2a8d07b8dc2d3f78c62c96278480d17de",
 			"checksum_type": "sha256",
@@ -83,6 +83,30 @@
 			"epoch": "32",
 			"filename": "bind9.16-devel-9.16.23-0.16.el8_9.2.alma.1.x86_64.rpm",
 			"name": "bind9.16-devel",
+			"reboot_suggested": 0,
+			"release": "0.16.el8_9.2.alma.1",
+			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "201414030854ad82a3b65eb89dcf7499dc6b50d6f59cd3c15bd2ed97aeab9ec8",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.16.el8_9.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-devel",
+			"reboot_suggested": 0,
+			"release": "0.16.el8_9.2.alma.1",
+			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ec7187a5c6c01e9422d3d8593d226cbc2e873c0863e37e201bda488b6a04f9ec",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-dnssec-utils-9.16.23-0.16.el8_9.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-dnssec-utils",
 			"reboot_suggested": 0,
 			"release": "0.16.el8_9.2.alma.1",
 			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
@@ -137,18 +161,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ec7187a5c6c01e9422d3d8593d226cbc2e873c0863e37e201bda488b6a04f9ec",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-dnssec-utils-9.16.23-0.16.el8_9.2.alma.1.aarch64.rpm",
-			"name": "bind9.16-dnssec-utils",
-			"reboot_suggested": 0,
-			"release": "0.16.el8_9.2.alma.1",
-			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "2487312fcd73ca2100d56a032dd5eb86f9e32f25e920251cdf158275c08cffc0",
 			"checksum_type": "sha256",
@@ -191,18 +203,6 @@
 			"epoch": "32",
 			"filename": "bind9.16-chroot-9.16.23-0.16.el8_9.2.alma.1.x86_64.rpm",
 			"name": "bind9.16-chroot",
-			"reboot_suggested": 0,
-			"release": "0.16.el8_9.2.alma.1",
-			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "201414030854ad82a3b65eb89dcf7499dc6b50d6f59cd3c15bd2ed97aeab9ec8",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.16.el8_9.2.alma.1.aarch64.rpm",
-			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.16.el8_9.2.alma.1",
 			"src": "bind9.16-9.16.23-0.16.el8_9.2.alma.1.src.rpm",
@@ -428,5 +428,5 @@
 	"severity": "Important",
 	"title": "Important: bind9.16 security update",
 	"type": "security",
-	"updated_date": 1712947462
+	"updated_date": 1712947461
 }

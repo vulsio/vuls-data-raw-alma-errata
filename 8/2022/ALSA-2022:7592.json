@@ -12,6 +12,13 @@
 		},
 		{
 			"arch": "aarch64",
+			"context": "b9465af8",
+			"name": "python39",
+			"stream": "3.9",
+			"version": "8060020220421104158"
+		},
+		{
+			"arch": "aarch64",
 			"context": "0a5380d9",
 			"name": "python39",
 			"stream": "3.9",
@@ -23,13 +30,6 @@
 			"name": "python39",
 			"stream": "3.9",
 			"version": "8070020221108190631"
-		},
-		{
-			"arch": "aarch64",
-			"context": "b9465af8",
-			"name": "python39",
-			"stream": "3.9",
-			"version": "8060020220421104158"
 		},
 		{
 			"arch": "ppc64le",
@@ -229,6 +229,58 @@
 			"release": "5.module_el8.6.0+2780+a40f65e1",
 			"src": "python3x-pyparsing-2.4.7-5.module_el8.6.0+2780+a40f65e1.src.rpm",
 			"version": "2.4.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "014e8db8373ac83ca9532f27cecf6d072beb416ec57bf976c609f620108458e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-debug-3.9.13-1.module_el8.7.0+3344+df07b58a.aarch64.rpm",
+			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
+			"name": "python39-debug",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3344+df07b58a",
+			"src": "python39-3.9.13-1.module_el8.7.0+3344+df07b58a.src.rpm",
+			"version": "3.9.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "42761a0cfb0be0a90deddd9eca2fb7ec4e25647582a1ef145388f3b445212f68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-pybind11-devel-2.7.1-1.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
+			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
+			"name": "python39-pybind11-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2780+a40f65e1",
+			"src": "pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.src.rpm",
+			"version": "2.7.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7cf9365f247ba4b04d753924adb0b0ff680fb2db4fbcb16d8a28078b3433fec8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-Cython-0.29.21-5.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
+			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
+			"name": "python39-Cython",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.6.0+2780+a40f65e1",
+			"src": "Cython-0.29.21-5.module_el8.6.0+2780+a40f65e1.src.rpm",
+			"version": "0.29.21"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f7e22c1631d14b4d73fd7b2735e76f2c571a083d33667ea9c1087370aa455773",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
+			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
+			"name": "python39-pybind11",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2780+a40f65e1",
+			"src": "pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.src.rpm",
+			"version": "2.7.1"
 		},
 		{
 			"arch": "aarch64",
@@ -931,58 +983,6 @@
 			"release": "1.module_el8.7.0+3344+df07b58a",
 			"src": "python39-3.9.13-1.module_el8.7.0+3344+df07b58a.src.rpm",
 			"version": "3.9.13"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "014e8db8373ac83ca9532f27cecf6d072beb416ec57bf976c609f620108458e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-debug-3.9.13-1.module_el8.7.0+3344+df07b58a.aarch64.rpm",
-			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
-			"name": "python39-debug",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3344+df07b58a",
-			"src": "python39-3.9.13-1.module_el8.7.0+3344+df07b58a.src.rpm",
-			"version": "3.9.13"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "42761a0cfb0be0a90deddd9eca2fb7ec4e25647582a1ef145388f3b445212f68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-pybind11-devel-2.7.1-1.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
-			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
-			"name": "python39-pybind11-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2780+a40f65e1",
-			"src": "pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.src.rpm",
-			"version": "2.7.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7cf9365f247ba4b04d753924adb0b0ff680fb2db4fbcb16d8a28078b3433fec8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-Cython-0.29.21-5.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
-			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
-			"name": "python39-Cython",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.6.0+2780+a40f65e1",
-			"src": "Cython-0.29.21-5.module_el8.6.0+2780+a40f65e1.src.rpm",
-			"version": "0.29.21"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f7e22c1631d14b4d73fd7b2735e76f2c571a083d33667ea9c1087370aa455773",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.aarch64.rpm",
-			"module": "python39:3.9:8060020220421104158:b9465af8:aarch64",
-			"name": "python39-pybind11",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2780+a40f65e1",
-			"src": "pybind11-2.7.1-1.module_el8.6.0+2780+a40f65e1.src.rpm",
-			"version": "2.7.1"
 		},
 		{
 			"arch": "ppc64le",
