@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "3352de6afe7653c880424816ba8d8d8cf5ec226f325f6f2548eb0a54e55eaf6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-filesystem-2.4.53-7.el9_1.1.noarch.rpm",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "7.el9_1.1",
+			"src": "httpd-2.4.53-7.el9_1.1.src.rpm",
+			"version": "2.4.53"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a7a5ffeedf4e3b3a6908d659b4d9982d805f81d111ed27cef9f254c7f6896830",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.53-7.el9_1.1.noarch.rpm",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "7.el9_1.1",
+			"src": "httpd-2.4.53-7.el9_1.1.src.rpm",
+			"version": "2.4.53"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0df9a43251efe4e43631e42cb7be827e037f042ca1b24a878944c441a258cbec",
 			"checksum_type": "sha256",
@@ -53,18 +77,6 @@
 			"version": "2.4.53"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "3352de6afe7653c880424816ba8d8d8cf5ec226f325f6f2548eb0a54e55eaf6f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-filesystem-2.4.53-7.el9_1.1.noarch.rpm",
-			"name": "httpd-filesystem",
-			"reboot_suggested": 0,
-			"release": "7.el9_1.1",
-			"src": "httpd-2.4.53-7.el9_1.1.src.rpm",
-			"version": "2.4.53"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "41839082c2ccb2cebb5697389d7d56dd8279e84619c330cbf409e9052d716851",
 			"checksum_type": "sha256",
@@ -83,18 +95,6 @@
 			"epoch": "0",
 			"filename": "mod_session-2.4.53-7.el9_1.1.ppc64le.rpm",
 			"name": "mod_session",
-			"reboot_suggested": 0,
-			"release": "7.el9_1.1",
-			"src": "httpd-2.4.53-7.el9_1.1.src.rpm",
-			"version": "2.4.53"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a7a5ffeedf4e3b3a6908d659b4d9982d805f81d111ed27cef9f254c7f6896830",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.53-7.el9_1.1.noarch.rpm",
-			"name": "httpd-manual",
 			"reboot_suggested": 0,
 			"release": "7.el9_1.1",
 			"src": "httpd-2.4.53-7.el9_1.1.src.rpm",
@@ -506,5 +506,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: httpd security and bug fix update",
 	"type": "security",
-	"updated_date": 1677609076
+	"updated_date": 1677609074
 }

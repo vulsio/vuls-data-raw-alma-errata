@@ -1,0 +1,166 @@
+{
+	"description": "The systemd packages contain systemd, a system and service manager for Linux, compatible with the SysV and LSB init scripts. It provides aggressive parallelism capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, and keeps track of processes using Linux cgroups. In addition, it supports snapshotting and restoring of the system state, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. It can also work as a drop-in replacement for sysvinit.\n\nSecurity Fix(es):\n\n* systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes (CVE-2023-7008)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2463",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "a011201128f048ec29befe20ad095f777e93831bf3849b776def53baae6f34f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.i686.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7941a20af1a208208de17e5dc15e2d008aac84ea58a4931c9ba87ed218fb08f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.ppc64le.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9a5d600db1ae6d4b9255492b3d258e4c4806396d143895f8a8b2be3aff085599",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.ppc64le.rpm",
+			"name": "systemd-journal-remote",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "51694e44a6d28edb3b3e8dda6d67f9a86630c6c4beab9e3eba0fa0987ee142ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.aarch64.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "bbec59dd1af0141fcce0c004d2295ee489780369b6d264a1f276af44f86c75db",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.aarch64.rpm",
+			"name": "systemd-journal-remote",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6d54474b17c24c61330776bb7a07cde833dc8e89fa48d5bb7a2252e145e9e3fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.x86_64.rpm",
+			"name": "systemd-journal-remote",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ecc72b5b43e10212bbe07996abf4268af6a6fa9b557a03d55b0950b82f3c434c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.x86_64.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5ce8db9b3a059576ee280b4743c46304d515513e06c0380e2bf63b4022d5cd03",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.s390x.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b6b7f173e281d758600545c0b978cb5197946bdbd553a8c9655199950ac9dbba",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.s390x.rpm",
+			"name": "systemd-journal-remote",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e897938f17643025bcdcf602d4a8e012be61e5f6c2b5a217c5a1d1a52a6e43ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.x86_64.rpm",
+			"name": "systemd-boot-unsigned",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a87d3265835259e61c323584a4d3a6844dafa759477db8603a47825e976f791b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.aarch64.rpm",
+			"name": "systemd-boot-unsigned",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2463",
+			"id": "RHSA-2024:2463",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-7008",
+			"id": "CVE-2023-7008",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2222672",
+			"id": "2222672",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2463.html",
+			"id": "ALSA-2024:2463",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: systemd security update",
+	"type": "security",
+	"updated_date": 1715093655
+}

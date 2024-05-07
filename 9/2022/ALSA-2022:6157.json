@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "09b13614d1581e90fdd443a1a9015c34131b57d870ede16ec7bb82e94d92be79",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-minimal-7.76.1-14.el9_0.5.i686.rpm",
+			"name": "libcurl-minimal",
+			"reboot_suggested": 0,
+			"release": "14.el9_0.5",
+			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "1aa1835ebebba0e81d55ccc34cdb2e59e415487bf64f4657a4341cd3a6633de0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-7.76.1-14.el9_0.5.i686.rpm",
+			"name": "libcurl",
+			"reboot_suggested": 0,
+			"release": "14.el9_0.5",
+			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "23f2c28f2dc6f874159fd622ea094b4df7383185f8440a874fec217c411c08d7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.76.1-14.el9_0.5.i686.rpm",
+			"name": "libcurl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el9_0.5",
+			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
+			"version": "7.76.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "12c668f08f5390a8558a25fbc9c3fd48f2c517be6ff2c696a44fa3d88f9fb038",
 			"checksum_type": "sha256",
@@ -59,42 +95,6 @@
 			"epoch": "0",
 			"filename": "curl-minimal-7.76.1-14.el9_0.5.ppc64le.rpm",
 			"name": "curl-minimal",
-			"reboot_suggested": 0,
-			"release": "14.el9_0.5",
-			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "09b13614d1581e90fdd443a1a9015c34131b57d870ede16ec7bb82e94d92be79",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-minimal-7.76.1-14.el9_0.5.i686.rpm",
-			"name": "libcurl-minimal",
-			"reboot_suggested": 0,
-			"release": "14.el9_0.5",
-			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "1aa1835ebebba0e81d55ccc34cdb2e59e415487bf64f4657a4341cd3a6633de0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-7.76.1-14.el9_0.5.i686.rpm",
-			"name": "libcurl",
-			"reboot_suggested": 0,
-			"release": "14.el9_0.5",
-			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "23f2c28f2dc6f874159fd622ea094b4df7383185f8440a874fec217c411c08d7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-14.el9_0.5.i686.rpm",
-			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "14.el9_0.5",
 			"src": "curl-7.76.1-14.el9_0.5.src.rpm",
@@ -326,5 +326,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: curl security update",
 	"type": "security",
-	"updated_date": 1661883418
+	"updated_date": 1661883415
 }

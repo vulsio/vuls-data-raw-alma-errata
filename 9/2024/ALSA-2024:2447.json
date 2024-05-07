@@ -1,0 +1,202 @@
+{
+	"description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.\n\nSecurity Fix(es):\n\n* openssl: AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries (CVE-2023-2975)\n* openssl: Excessive time spent checking DH keys and parameters (CVE-2023-3446)\n* OpenSSL: Excessive time spent checking DH q parameter value (CVE-2023-3817)\n* openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow (CVE-2023-5678)\n* openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC (CVE-2023-6129)\n* openssl: Excessive time spent checking invalid RSA public keys (CVE-2023-6237)\n* openssl: denial of service via null dereference (CVE-2024-0727)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2447",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "ee2d4c73a82a1983a36dab63037fdc6e6c7eb831bdd0f87736299427f99afc5b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b910cb9112fba73da1a6d959b7e1874ce8b883581d4aef64588afc1e0497f630",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.ppc64le.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dd46715dbb14fc0074be7278bec324399431d63f80e54b607615348382b6f4f2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.7-27.el9.ppc64le.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "07393c120722cbcb88f731263acc09eea08ef9ed76a5adbcc09d9691697aa7ee",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.7-27.el9.aarch64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "25c61f5163b7780645ed4bd6b200fb6c73ddab0c17178d7c9e45ffcf9d18af77",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.aarch64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0b536c723bcdc5e2d7d6d45a73f00910a0c3f1ce8c9cd163ed0206574dcaee9f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.7-27.el9.x86_64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "127b2c05695e907f11be419da27960af6d61b1b3630107e8c4fe769a5eaa9c77",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.x86_64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a9b6f2800503a2d199717f9c57b36f5a8aa8da761961a8e043d3ef2a3aa9dc8b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.s390x.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d3ee05bd35fa9648b874d7dfc82867205412da2d8defd39619666e32094099da",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.7-27.el9.s390x.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2447",
+			"id": "RHSA-2024:2447",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2975",
+			"id": "CVE-2023-2975",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3446",
+			"id": "CVE-2023-3446",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3817",
+			"id": "CVE-2023-3817",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-5678",
+			"id": "CVE-2023-5678",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-6129",
+			"id": "CVE-2023-6129",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-6237",
+			"id": "CVE-2023-6237",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0727",
+			"id": "CVE-2024-0727",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2223016",
+			"id": "2223016",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2224962",
+			"id": "2224962",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2227852",
+			"id": "2227852",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2248616",
+			"id": "2248616",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257571",
+			"id": "2257571",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258502",
+			"id": "2258502",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259944",
+			"id": "2259944",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2447.html",
+			"id": "ALSA-2024:2447",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: openssl and openssl-fips-provider security update",
+	"type": "security",
+	"updated_date": 1715093686
+}

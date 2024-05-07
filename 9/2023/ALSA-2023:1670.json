@@ -17,6 +17,18 @@
 			"version": "2.4.53"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "2f9fcaf5d345420c53a8c3125d3f20a94e594d2c4fc208c8f71a194624f859bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.53-7.el9_1.5.noarch.rpm",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "7.el9_1.5",
+			"src": "httpd-2.4.53-7.el9_1.5.src.rpm",
+			"version": "2.4.53"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "1ae75d1d0e89aea2792912ea6bb33998061bd2b537764bf580d39a696430c435",
 			"checksum_type": "sha256",
@@ -39,18 +51,6 @@
 			"release": "3.el9_1.5",
 			"src": "mod_http2-1.15.19-3.el9_1.5.src.rpm",
 			"version": "1.15.19"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "2f9fcaf5d345420c53a8c3125d3f20a94e594d2c4fc208c8f71a194624f859bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.53-7.el9_1.5.noarch.rpm",
-			"name": "httpd-manual",
-			"reboot_suggested": 0,
-			"release": "7.el9_1.5",
-			"src": "httpd-2.4.53-7.el9_1.5.src.rpm",
-			"version": "2.4.53"
 		},
 		{
 			"arch": "ppc64le",
@@ -534,5 +534,5 @@
 	"severity": "Important",
 	"title": "Important: httpd and mod_http2 security update",
 	"type": "security",
-	"updated_date": 1681997977
+	"updated_date": 1681997974
 }

@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "04420f038f63b2b7e9c710721264eb479ec1e34349da3df3149c92a825df053f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.7.6-23.el9_3.4.i686.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "23.el9_3.4",
+			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
+			"version": "3.7.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "59226069f284b5ed749cce7e267301e6729df83fce59b03e666f4cc6685b06d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.7.6-23.el9_3.4.i686.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "23.el9_3.4",
+			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
+			"version": "3.7.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7aee58510b8e52c0fdbe78c8bdb820ef0754fdb8455dc2ded605539dbd964257",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.7.6-23.el9_3.4.i686.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "23.el9_3.4",
+			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
+			"version": "3.7.6"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "3ce7a99bbfd4513ec90469896f557234414a83780b0c637b38aaa7127aed00b5",
 			"checksum_type": "sha256",
@@ -47,42 +83,6 @@
 			"epoch": "0",
 			"filename": "gnutls-dane-3.7.6-23.el9_3.4.ppc64le.rpm",
 			"name": "gnutls-dane",
-			"reboot_suggested": 0,
-			"release": "23.el9_3.4",
-			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
-			"version": "3.7.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "04420f038f63b2b7e9c710721264eb479ec1e34349da3df3149c92a825df053f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-dane-3.7.6-23.el9_3.4.i686.rpm",
-			"name": "gnutls-dane",
-			"reboot_suggested": 0,
-			"release": "23.el9_3.4",
-			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
-			"version": "3.7.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "59226069f284b5ed749cce7e267301e6729df83fce59b03e666f4cc6685b06d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-devel-3.7.6-23.el9_3.4.i686.rpm",
-			"name": "gnutls-devel",
-			"reboot_suggested": 0,
-			"release": "23.el9_3.4",
-			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
-			"version": "3.7.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7aee58510b8e52c0fdbe78c8bdb820ef0754fdb8455dc2ded605539dbd964257",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-c++-3.7.6-23.el9_3.4.i686.rpm",
-			"name": "gnutls-c++",
 			"reboot_suggested": 0,
 			"release": "23.el9_3.4",
 			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
@@ -233,11 +233,11 @@
 			"version": "3.7.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "8c5eaceedbe6f4ca09de97c1ae91dad75bc3f1bf678524f3b0a263a119541272",
+			"arch": "i686",
+			"checksum": "7473d486f7aa8811b485487653a81a19365d30d288336045f01f6a7f785768e4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.7.6-23.el9_3.4.aarch64.rpm",
+			"filename": "gnutls-3.7.6-23.el9_3.4.i686.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "23.el9_3.4",
@@ -245,11 +245,11 @@
 			"version": "3.7.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "7473d486f7aa8811b485487653a81a19365d30d288336045f01f6a7f785768e4",
+			"arch": "s390x",
+			"checksum": "d0aef3bb5af6214e4f42df3f306a15d00603bb708e3fdd373abbf6ae746336b5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.7.6-23.el9_3.4.i686.rpm",
+			"filename": "gnutls-3.7.6-23.el9_3.4.s390x.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "23.el9_3.4",
@@ -269,11 +269,11 @@
 			"version": "3.7.6"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "d0aef3bb5af6214e4f42df3f306a15d00603bb708e3fdd373abbf6ae746336b5",
+			"arch": "aarch64",
+			"checksum": "8c5eaceedbe6f4ca09de97c1ae91dad75bc3f1bf678524f3b0a263a119541272",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-3.7.6-23.el9_3.4.s390x.rpm",
+			"filename": "gnutls-3.7.6-23.el9_3.4.aarch64.rpm",
 			"name": "gnutls",
 			"reboot_suggested": 0,
 			"release": "23.el9_3.4",
@@ -328,5 +328,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gnutls security update",
 	"type": "security",
-	"updated_date": 1713436035
+	"updated_date": 1713436034
 }

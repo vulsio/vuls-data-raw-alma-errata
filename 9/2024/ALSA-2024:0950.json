@@ -4,14 +4,14 @@
 	"issued_date": 1708560000,
 	"modules": [
 		{
-			"arch": "ppc64le",
+			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "15",
 			"version": "9030020240227081546"
 		},
 		{
-			"arch": "i686",
+			"arch": "ppc64le",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "15",
@@ -40,6 +40,19 @@
 		}
 	],
 	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "a99959d67d3f83cfd6d4631d8925639ef28bee0a0709e6101740776712f3e5bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-test-rpm-macros-15.6-1.module_el9.3.0+55+d62f4779.noarch.rpm",
+			"module": "postgresql:15:9030020240227081546:8cf767d6:i686",
+			"name": "postgresql-test-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.3.0+55+d62f4779",
+			"src": "postgresql-15.6-1.module_el9.3.0+55+d62f4779.src.rpm",
+			"version": "15.6"
+		},
 		{
 			"arch": "ppc64le",
 			"checksum": "0f90587bb1ddab45ac465186758d7b80614ac285fac27cb9674d984c3a30017a",
@@ -178,19 +191,6 @@
 			"filename": "postgresql-upgrade-15.6-1.module_el9.3.0+55+d62f4779.ppc64le.rpm",
 			"module": "postgresql:15:9030020240227081546:8cf767d6:ppc64le",
 			"name": "postgresql-upgrade",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.3.0+55+d62f4779",
-			"src": "postgresql-15.6-1.module_el9.3.0+55+d62f4779.src.rpm",
-			"version": "15.6"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a99959d67d3f83cfd6d4631d8925639ef28bee0a0709e6101740776712f3e5bf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "postgresql-test-rpm-macros-15.6-1.module_el9.3.0+55+d62f4779.noarch.rpm",
-			"module": "postgresql:15:9030020240227081546:8cf767d6:ppc64le",
-			"name": "postgresql-test-rpm-macros",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.3.0+55+d62f4779",
 			"src": "postgresql-15.6-1.module_el9.3.0+55+d62f4779.src.rpm",
@@ -963,5 +963,5 @@
 	"severity": "Important",
 	"title": "Important: postgresql:15 security update",
 	"type": "security",
-	"updated_date": 1709137137
+	"updated_date": 1709137132
 }

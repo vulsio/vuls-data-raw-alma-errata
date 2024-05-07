@@ -1,0 +1,46 @@
+{
+	"description": "The python-jwcrypto package provides Python implementations of the JSON Web Key (JWK), JSON Web Signature (JWS), JSON Web Encryption (JWE), and JSON Web Token (JWT) JOSE (JSON Object Signing and Encryption) standards.\n\nSecurity Fix(es):\n\n* python-jwcrypto: malicious JWE token can cause denial of service (CVE-2024-28102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:2559",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "93ea7fb7badf93b8413264ae4031101bd9e3faedcad0899428155e0068cf5575",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-jwcrypto-0.8-5.el9_4.noarch.rpm",
+			"name": "python3-jwcrypto",
+			"reboot_suggested": 0,
+			"release": "5.el9_4",
+			"src": "python-jwcrypto-0.8-5.el9_4.src.rpm",
+			"version": "0.8"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2559",
+			"id": "RHSA-2024:2559",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-28102",
+			"id": "CVE-2024-28102",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2268758",
+			"id": "2268758",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2559.html",
+			"id": "ALSA-2024:2559",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-jwcrypto security update",
+	"type": "security",
+	"updated_date": 1715094281
+}

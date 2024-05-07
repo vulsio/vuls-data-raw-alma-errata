@@ -1,0 +1,164 @@
+{
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Buffer overflow when handling Server ID option from a DHCPv6 proxy Advertise message (CVE-2023-45235)\n* EDK2: heap buffer overflow in Tcg2MeasureGptTable() (CVE-2022-36763)\n* EDK2: heap buffer overflow in Tcg2MeasurePeImage() (CVE-2022-36764)\n* edk2: Integer underflow when processing IA_NA/IA_TA options in a DHCPv6 Advertise message (CVE-2023-45229)\n* edk2: Out of Bounds read when handling a ND Redirect message with truncated options (CVE-2023-45231)\n* edk2: Infinite loop when parsing unknown options in the Destination Options header (CVE-2023-45232)\n* edk2: Infinite loop when parsing a PadN option in the Destination Options header (CVE-2023-45233)\n* openssl: Excessive time spent checking DH keys and parameters (CVE-2023-3446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2264",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "11c7381fdcf07651682bd9e85df65511cb7101453de8db5b48967987e5e6c6a9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20231122-6.el9.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "edk2-20231122-6.el9.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c344271226d0016eca110ad5673ec0a7851704d8b9007a02e5cef91ddccbea0d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20231122-6.el9.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "edk2-20231122-6.el9.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ebca6f52208aee541c0db0f441df6f5372935278cade1c4b8c772acfa7b716cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20231122-6.el9.x86_64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "edk2-20231122-6.el9.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "fea2aecfc1c20965950c39c0c2bf9fc32aecfd41f5c952d8f00fa41a0fe43687",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-doc-20231122-6.el9.noarch.rpm",
+			"name": "edk2-tools-doc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "edk2-20231122-6.el9.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f96de4de9f85a61df9a83dbf5500becf6c11057d56ef4459baa709c7d42871f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20231122-6.el9.aarch64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "edk2-20231122-6.el9.src.rpm",
+			"version": "20231122"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2264",
+			"id": "RHSA-2024:2264",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-36763",
+			"id": "CVE-2022-36763",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-36764",
+			"id": "CVE-2022-36764",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-3446",
+			"id": "CVE-2023-3446",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45229",
+			"id": "CVE-2023-45229",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45231",
+			"id": "CVE-2023-45231",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45232",
+			"id": "CVE-2023-45232",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45233",
+			"id": "CVE-2023-45233",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45235",
+			"id": "CVE-2023-45235",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2224962",
+			"id": "2224962",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257582",
+			"id": "2257582",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257583",
+			"id": "2257583",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258677",
+			"id": "2258677",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258688",
+			"id": "2258688",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258691",
+			"id": "2258691",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258694",
+			"id": "2258694",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2258700",
+			"id": "2258700",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2264.html",
+			"id": "ALSA-2024:2264",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: edk2 security update",
+	"type": "security",
+	"updated_date": 1715094101
+}

@@ -17,6 +17,42 @@
 			"version": "9.16.23"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "b4ab83c8dc85311851f565c3d71ab2af15778c57f1b1216c43ca4c896fcf2d0a",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind-9.16.23-1.el9_0.1.noarch.rpm",
+			"name": "python3-bind",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.1",
+			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e745141e636123b205e4d059aa3b57e080a29f58d014d6f6e5ca704d05093e33",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-license-9.16.23-1.el9_0.1.noarch.rpm",
+			"name": "bind-license",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.1",
+			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "i686",
+			"checksum": "fd311081e08d5d37bc66f868ac9b2e3971ad1eeffe619dc67c2c73f00d6799e7",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-libs-9.16.23-1.el9_0.1.i686.rpm",
+			"name": "bind-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.1",
+			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "5e7727cc63a6205754bc7133e55fbe7488d58f48446fb7d7676ef94bdd10818e",
 			"checksum_type": "sha256",
@@ -65,48 +101,12 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "b4ab83c8dc85311851f565c3d71ab2af15778c57f1b1216c43ca4c896fcf2d0a",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind-9.16.23-1.el9_0.1.noarch.rpm",
-			"name": "python3-bind",
-			"reboot_suggested": 0,
-			"release": "1.el9_0.1",
-			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "cb504a7cadcc528781bb90bf0538be53c771be14098f56567d2969b3c395932f",
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-chroot-9.16.23-1.el9_0.1.ppc64le.rpm",
 			"name": "bind-chroot",
-			"reboot_suggested": 0,
-			"release": "1.el9_0.1",
-			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e745141e636123b205e4d059aa3b57e080a29f58d014d6f6e5ca704d05093e33",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-license-9.16.23-1.el9_0.1.noarch.rpm",
-			"name": "bind-license",
-			"reboot_suggested": 0,
-			"release": "1.el9_0.1",
-			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "fd311081e08d5d37bc66f868ac9b2e3971ad1eeffe619dc67c2c73f00d6799e7",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-libs-9.16.23-1.el9_0.1.i686.rpm",
-			"name": "bind-libs",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.1",
 			"src": "bind-9.16.23-1.el9_0.1.src.rpm",
@@ -305,11 +305,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "86a3a1d351735b85d409e8b79eb90355c8a0a89a60d7306158d1015e6ec449ec",
+			"arch": "s390x",
+			"checksum": "0f855846bdcc1b144a2d5ad60b1ca4f8c6c90212992f7db93bd7df2af72dae7c",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-1.el9_0.1.ppc64le.rpm",
+			"filename": "bind-devel-9.16.23-1.el9_0.1.s390x.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.1",
@@ -329,11 +329,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "0f855846bdcc1b144a2d5ad60b1ca4f8c6c90212992f7db93bd7df2af72dae7c",
+			"arch": "ppc64le",
+			"checksum": "86a3a1d351735b85d409e8b79eb90355c8a0a89a60d7306158d1015e6ec449ec",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-1.el9_0.1.s390x.rpm",
+			"filename": "bind-devel-9.16.23-1.el9_0.1.ppc64le.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.1",
@@ -386,5 +386,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1665763467
+	"updated_date": 1665763459
 }

@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "ecec382c085a8b0de4fb52bed6f17bf48ed9732bf5f7ad21f8cd2b74c4ded321",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-3.el9_3.5.i686.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.5",
+			"src": "unbound-1.16.2-3.el9_3.5.src.rpm",
+			"version": "1.16.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "4d6b6a801c7a72115d95c0a624626ae7a2a2a291528ac469135117f680518774",
 			"checksum_type": "sha256",
@@ -34,18 +46,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "unbound-libs-1.16.2-3.el9_3.5.ppc64le.rpm",
-			"name": "unbound-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.5",
-			"src": "unbound-1.16.2-3.el9_3.5.src.rpm",
-			"version": "1.16.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "ecec382c085a8b0de4fb52bed6f17bf48ed9732bf5f7ad21f8cd2b74c4ded321",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-libs-1.16.2-3.el9_3.5.i686.rpm",
 			"name": "unbound-libs",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
@@ -185,11 +185,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "2f4685ca145dd4b78fbc4e5bea45ab874911805be0f1f7dedd525d26b4bbc109",
+			"arch": "s390x",
+			"checksum": "ed68fd1fb61a83c616ab1f6f0cbe87f94e3c12ee5d391c6a98df6cc3089c2db1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.5.ppc64le.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.5.s390x.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
@@ -209,11 +209,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "ed68fd1fb61a83c616ab1f6f0cbe87f94e3c12ee5d391c6a98df6cc3089c2db1",
+			"arch": "ppc64le",
+			"checksum": "2f4685ca145dd4b78fbc4e5bea45ab874911805be0f1f7dedd525d26b4bbc109",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.5.s390x.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.5.ppc64le.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",

@@ -1,0 +1,272 @@
+{
+	"description": "The gnutls package provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: vulnerable to Minerva side-channel information leak (CVE-2024-28834)\n* gnutls: potential crash during chain building/verification (CVE-2024-28835)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:2570",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "7d544c1f1263d94a4d9fc650f0584f4d906e825227c79b1bf860e5179c8026a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.8.3-4.el9_4.i686.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "847ec0f737e412e1771c5b953372c4e3e946e3d32185bbd11c2c6eb457a7ab69",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.8.3-4.el9_4.i686.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ca4fb9334e85de803bd5210a8bf04bfbe94e8c779eca65609672d21d4a415bee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.8.3-4.el9_4.i686.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b9c77d86bfe57622499bb88eb2086ecf8b66bda786ee1730bf502295160f9625",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-utils-3.8.3-4.el9_4.ppc64le.rpm",
+			"name": "gnutls-utils",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c3bfbebc512ef56c09d0de990d7d2e1f9deb0b61e2657a0d800cd6aa4164b276",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.8.3-4.el9_4.ppc64le.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ca06a15b5104588b9f8191ee42df583b819c9218a2eda7238e9b5f2b0cc48fd3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.8.3-4.el9_4.ppc64le.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e4e46d7bedbf5145a9a0ab2daf720edfa7a0cb5bf691b516c8594afcdd438815",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.8.3-4.el9_4.ppc64le.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5925736c86c1dde5b865d19d6df258d7778b5323b380e4a463824ec0e09902cb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-utils-3.8.3-4.el9_4.aarch64.rpm",
+			"name": "gnutls-utils",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "77cff1f0c5227470010c8acf6900f087571203fb9363dd742660cc0a8afddb20",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.8.3-4.el9_4.aarch64.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "935e17aec712bc1e9ca2ae37ce99d1751f70558ea58660ce9ed4c61b2ceb6b91",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.8.3-4.el9_4.aarch64.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9de26802e01f638d49c68e659bc0de70b26cebc62f93feb31934dab65361004c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.8.3-4.el9_4.aarch64.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0e27d8f4ecbe708064779b252cd4f8afede90c9b70c92a1844815601c6baa3be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-utils-3.8.3-4.el9_4.x86_64.rpm",
+			"name": "gnutls-utils",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5262d26693f13eccd5888a0abf5ca02b1c514656496cf8bb0cd169be172a66bb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.8.3-4.el9_4.x86_64.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "90ce2c078a724affc5c8eddf286ed0fb064b372ebea51b1e181e7780ab320d8e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.8.3-4.el9_4.x86_64.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9ff258bd830af4f2712b17bea40299573fa2d8fe24ec01bd89d19081e7b422c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.8.3-4.el9_4.x86_64.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "366c5713c169f96c0c074124b7aebff39d4dbfcd356c3f7114c6d56baddf33ba",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.8.3-4.el9_4.s390x.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4e908018cef8a8452120963ad86ac91cba0d86b67ef14aed6a924e38d9a1f193",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.8.3-4.el9_4.s390x.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7656fa22b659a9b422a0a5e947510ee4a6b49bd6f5781db3ae6f80ace70c2103",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.8.3-4.el9_4.s390x.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ba3a3e6387654ff3316b404d9369e20f61f63f4fc0b86587b617d45706a1e3b2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-utils-3.8.3-4.el9_4.s390x.rpm",
+			"name": "gnutls-utils",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gnutls-3.8.3-4.el9_4.src.rpm",
+			"version": "3.8.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2570",
+			"id": "RHSA-2024:2570",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-28834",
+			"id": "CVE-2024-28834",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-28835",
+			"id": "CVE-2024-28835",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2269084",
+			"id": "2269084",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2269228",
+			"id": "2269228",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2570.html",
+			"id": "ALSA-2024:2570",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: gnutls security update",
+	"type": "security",
+	"updated_date": 1715093804
+}

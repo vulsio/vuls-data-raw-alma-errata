@@ -1,0 +1,58 @@
+{
+	"description": "Pixman is a pixel manipulation library for the X Window System and Cairo.\n\nSecurity Fix(es):\n\n* pixman: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write (CVE-2022-44638)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2525",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "07603021a28859b36aeb48c4aa15c5b96743dca186a9a556f8c044dac95fcd40",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw32-pixman-0.42.2-3.el9.noarch.rpm",
+			"name": "mingw32-pixman",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "mingw-pixman-0.42.2-3.el9.src.rpm",
+			"version": "0.42.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c2fbf33dbc77425cba74765e158b8483b31db258b2cb1a90921a590dcad78825",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw64-pixman-0.42.2-3.el9.noarch.rpm",
+			"name": "mingw64-pixman",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "mingw-pixman-0.42.2-3.el9.src.rpm",
+			"version": "0.42.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2525",
+			"id": "RHSA-2024:2525",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-44638",
+			"id": "CVE-2022-44638",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2139988",
+			"id": "2139988",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2525.html",
+			"id": "ALSA-2024:2525",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: mingw-pixman security update",
+	"type": "security",
+	"updated_date": 1715094389
+}

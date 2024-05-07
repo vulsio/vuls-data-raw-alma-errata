@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "55a191676cbfd9de6e51001bdeae3e85ce9464a8afdfb34d42b2c6260d33b914",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjpeg-turbo-2.0.90-6.el9_1.i686.rpm",
+			"name": "libjpeg-turbo",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libjpeg-turbo-2.0.90-6.el9_1.src.rpm",
+			"version": "2.0.90"
+		},
+		{
+			"arch": "i686",
+			"checksum": "eb51bd5413810786b86cae2db75865c181b37ce53e5675fa72c2d4050fa7fa7a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjpeg-turbo-devel-2.0.90-6.el9_1.i686.rpm",
+			"name": "libjpeg-turbo-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libjpeg-turbo-2.0.90-6.el9_1.src.rpm",
+			"version": "2.0.90"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "46747d734afae4585661b05be583db36be05daedf451fa81333f058c43523207",
 			"checksum_type": "sha256",
@@ -35,30 +59,6 @@
 			"epoch": "0",
 			"filename": "libjpeg-turbo-utils-2.0.90-6.el9_1.ppc64le.rpm",
 			"name": "libjpeg-turbo-utils",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libjpeg-turbo-2.0.90-6.el9_1.src.rpm",
-			"version": "2.0.90"
-		},
-		{
-			"arch": "i686",
-			"checksum": "55a191676cbfd9de6e51001bdeae3e85ce9464a8afdfb34d42b2c6260d33b914",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjpeg-turbo-2.0.90-6.el9_1.i686.rpm",
-			"name": "libjpeg-turbo",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libjpeg-turbo-2.0.90-6.el9_1.src.rpm",
-			"version": "2.0.90"
-		},
-		{
-			"arch": "i686",
-			"checksum": "eb51bd5413810786b86cae2db75865c181b37ce53e5675fa72c2d4050fa7fa7a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjpeg-turbo-devel-2.0.90-6.el9_1.i686.rpm",
-			"name": "libjpeg-turbo-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
 			"src": "libjpeg-turbo-2.0.90-6.el9_1.src.rpm",
@@ -221,11 +221,11 @@
 			"version": "2.0.90"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "4f070fbb7e364f82534035ab5eaedb430d7a5dae5543684e4d0bbea2c075c867",
+			"arch": "s390x",
+			"checksum": "21c9c3f85b81aac2c211f45cd9ca2817778e686b5338e470a5a5c6eb559c3619",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "turbojpeg-devel-2.0.90-6.el9_1.ppc64le.rpm",
+			"filename": "turbojpeg-devel-2.0.90-6.el9_1.s390x.rpm",
 			"name": "turbojpeg-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -233,11 +233,11 @@
 			"version": "2.0.90"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c58ad5aba9bfdbd5a2c33bf037f9993943f375af0669b73357640b46ad92397f",
+			"arch": "s390x",
+			"checksum": "a86ac5f48d3db0b8b6b0dc16b75535577c44dcda706e515d720df6eb13dc2ed3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "turbojpeg-2.0.90-6.el9_1.ppc64le.rpm",
+			"filename": "turbojpeg-2.0.90-6.el9_1.s390x.rpm",
 			"name": "turbojpeg",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -269,11 +269,11 @@
 			"version": "2.0.90"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "21c9c3f85b81aac2c211f45cd9ca2817778e686b5338e470a5a5c6eb559c3619",
+			"arch": "ppc64le",
+			"checksum": "4f070fbb7e364f82534035ab5eaedb430d7a5dae5543684e4d0bbea2c075c867",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "turbojpeg-devel-2.0.90-6.el9_1.s390x.rpm",
+			"filename": "turbojpeg-devel-2.0.90-6.el9_1.ppc64le.rpm",
 			"name": "turbojpeg-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -281,11 +281,11 @@
 			"version": "2.0.90"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "a86ac5f48d3db0b8b6b0dc16b75535577c44dcda706e515d720df6eb13dc2ed3",
+			"arch": "ppc64le",
+			"checksum": "c58ad5aba9bfdbd5a2c33bf037f9993943f375af0669b73357640b46ad92397f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "turbojpeg-2.0.90-6.el9_1.s390x.rpm",
+			"filename": "turbojpeg-2.0.90-6.el9_1.ppc64le.rpm",
 			"name": "turbojpeg",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",

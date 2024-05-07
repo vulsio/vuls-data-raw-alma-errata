@@ -1,0 +1,112 @@
+{
+	"description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib: GVariant offset table entry size is not checked in is_normal() (CVE-2023-29499)\n* glib: g_variant_byteswap() can take a long time with some non-normal inputs (CVE-2023-32611)\n* glib: Timeout in fuzz_variant_text (CVE-2023-32636)\n* glib: GVariant deserialisation does not match spec for non-normal data (CVE-2023-32665)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2528",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "206020896cc3cf20421ed70865dbd9343ffff98194f87c6476e42df03c6eee2d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw64-glib2-static-2.78.0-1.el9.noarch.rpm",
+			"name": "mingw64-glib2-static",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "mingw-glib2-2.78.0-1.el9.src.rpm",
+			"version": "2.78.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "839339f8fd55dc4c85f77df9117e90bd5bd6fbff613ab09d91ce207d269b3d10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw64-glib2-2.78.0-1.el9.noarch.rpm",
+			"name": "mingw64-glib2",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "mingw-glib2-2.78.0-1.el9.src.rpm",
+			"version": "2.78.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cff64d89762143bbf988c66a8e8ac3d7ed2220331371a1261ea6f7fd78d3aa8f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw32-glib2-2.78.0-1.el9.noarch.rpm",
+			"name": "mingw32-glib2",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "mingw-glib2-2.78.0-1.el9.src.rpm",
+			"version": "2.78.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e2fd3c66e44f228a14f348af913e612cef7c65e18358d7dcc0e1f4f74eef3e4c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw32-glib2-static-2.78.0-1.el9.noarch.rpm",
+			"name": "mingw32-glib2-static",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "mingw-glib2-2.78.0-1.el9.src.rpm",
+			"version": "2.78.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2528",
+			"id": "RHSA-2024:2528",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-29499",
+			"id": "CVE-2023-29499",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-32611",
+			"id": "CVE-2023-32611",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-32636",
+			"id": "CVE-2023-32636",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-32665",
+			"id": "CVE-2023-32665",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2211827",
+			"id": "2211827",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2211828",
+			"id": "2211828",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2211829",
+			"id": "2211829",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2211833",
+			"id": "2211833",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2528.html",
+			"id": "ALSA-2024:2528",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: mingw-glib2 security update",
+	"type": "security",
+	"updated_date": 1715094484
+}

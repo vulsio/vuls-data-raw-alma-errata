@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "1fa07c228606395b6843c9c79df21d880d0abc3ad71c221fcabe921daf974ca8",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-libs-2.2.6-51.el8_8.1.i686.rpm",
-			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "6420ad0d8972461044b633cec5cfc604e2c31c47d0e43dd4428dac90da37aa44",
 			"checksum_type": "sha256",
@@ -41,6 +29,18 @@
 			"version": "2.2.6"
 		},
 		{
+			"arch": "i686",
+			"checksum": "1fa07c228606395b6843c9c79df21d880d0abc3ad71c221fcabe921daf974ca8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-libs-2.2.6-51.el8_8.1.i686.rpm",
+			"name": "cups-libs",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "6d602f7aa32bb96918d4230d5dafb5e66b86d47c84ebac381688f05df982b0dc",
 			"checksum_type": "sha256",
@@ -59,66 +59,6 @@
 			"epoch": "1",
 			"filename": "cups-libs-2.2.6-51.el8_8.1.aarch64.rpm",
 			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "2e0255a69469114b3ad8951a544bbe00d3fa0ec0894c8f17d18195c5307429c5",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-lpd-2.2.6-51.el8_8.1.aarch64.rpm",
-			"name": "cups-lpd",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3618f3fa8aed3d4e5c8febcec0ef3f22d15611cc9f696ba6d104d1618f2c438e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-devel-2.2.6-51.el8_8.1.aarch64.rpm",
-			"name": "cups-devel",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "764a93d61116dd31d73a81c423c63820e0cd2abf97e8d7834ba2d8bb50d57e56",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-2.2.6-51.el8_8.1.aarch64.rpm",
-			"name": "cups",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b1e6324174f29406e2fdb663e2ef915ebb70abfa3c4c9bb0dcdb69fe07d6db8e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-ipptool-2.2.6-51.el8_8.1.aarch64.rpm",
-			"name": "cups-ipptool",
-			"reboot_suggested": 0,
-			"release": "51.el8_8.1",
-			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
-			"version": "2.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ee4a8f9d617caf03e7eb983a8872d1e08ce2544f126d1b80f94da9db885ce212",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-client-2.2.6-51.el8_8.1.aarch64.rpm",
-			"name": "cups-client",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.1",
 			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
@@ -179,6 +119,66 @@
 			"epoch": "1",
 			"filename": "cups-lpd-2.2.6-51.el8_8.1.x86_64.rpm",
 			"name": "cups-lpd",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2e0255a69469114b3ad8951a544bbe00d3fa0ec0894c8f17d18195c5307429c5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-lpd-2.2.6-51.el8_8.1.aarch64.rpm",
+			"name": "cups-lpd",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3618f3fa8aed3d4e5c8febcec0ef3f22d15611cc9f696ba6d104d1618f2c438e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-devel-2.2.6-51.el8_8.1.aarch64.rpm",
+			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "764a93d61116dd31d73a81c423c63820e0cd2abf97e8d7834ba2d8bb50d57e56",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-2.2.6-51.el8_8.1.aarch64.rpm",
+			"name": "cups",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b1e6324174f29406e2fdb663e2ef915ebb70abfa3c4c9bb0dcdb69fe07d6db8e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-ipptool-2.2.6-51.el8_8.1.aarch64.rpm",
+			"name": "cups-ipptool",
+			"reboot_suggested": 0,
+			"release": "51.el8_8.1",
+			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
+			"version": "2.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ee4a8f9d617caf03e7eb983a8872d1e08ce2544f126d1b80f94da9db885ce212",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-client-2.2.6-51.el8_8.1.aarch64.rpm",
+			"name": "cups-client",
 			"reboot_suggested": 0,
 			"release": "51.el8_8.1",
 			"src": "cups-2.2.6-51.el8_8.1.src.rpm",
@@ -354,5 +354,5 @@
 	"severity": "Important",
 	"title": "Important: cups security update",
 	"type": "security",
-	"updated_date": 1693389496
+	"updated_date": 1693389502
 }

@@ -1,0 +1,106 @@
+{
+	"description": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats.\n\nSecurity Fix(es):\n\n* file: stack-based buffer over-read in file_copystr in funcs.c (CVE-2022-48554)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2512",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "62fb8e14b9695ce3cc2bd865118725b0051215cac1cc03649dc2308fb701bcae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-file-magic-5.39-16.el9.noarch.rpm",
+			"name": "python3-file-magic",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "i686",
+			"checksum": "53aacf5210e6bd5511f9f5da75cfe08d1e7240921a3616fa4315706fa6203627",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.i686.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c2edb53441ae3e4121b4976ec6c1e3324bb8a31de083a266cb80bdfd2a90a4f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.x86_64.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8946435b2395b86393c330d3c109d164a14579cae8e0bb95b7cbfecf47cd015b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.s390x.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ef9c0c614a61d4e0016afbb9a4710854b2ac555f3cfdf03bd13b2506e21bbfe2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.aarch64.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "440b2f467c3beb0f10cad7e9618bcc2315133e14ae10a790dd52c51e8941488b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.ppc64le.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2512",
+			"id": "RHSA-2024:2512",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-48554",
+			"id": "CVE-2022-48554",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2235714",
+			"id": "2235714",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2512.html",
+			"id": "ALSA-2024:2512",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: file security update",
+	"type": "security",
+	"updated_date": 1715094279
+}

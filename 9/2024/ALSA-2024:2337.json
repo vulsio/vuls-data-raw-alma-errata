@@ -1,0 +1,82 @@
+{
+	"description": "The python-cryptography packages contain a Python Cryptographic Authority's (PyCA's) cryptography library, which provides cryptographic primitives and recipes to Python developers.\n\nSecurity Fix(es):\n\n* python-cryptography: NULL-dereference when loading PKCS7 certificates (CVE-2023-49083)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2337",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "8b594c235c42de0f3802e7eafb066f2c2d15518231918aff83c57313ed8ed7cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-cryptography-37.0.2-6.el9.ppc64le.rpm",
+			"name": "python3.11-cryptography",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "python3.11-cryptography-37.0.2-6.el9.src.rpm",
+			"version": "37.0.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8917c2f1c92edec9324cf9eaa21d27d3952149d3dc9a9ef84bc6365474dfd95f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-cryptography-37.0.2-6.el9.aarch64.rpm",
+			"name": "python3.11-cryptography",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "python3.11-cryptography-37.0.2-6.el9.src.rpm",
+			"version": "37.0.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "28441b7657c273be111e65f02ac3a9248d9f5c81f6f989ce433efa99c77454d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-cryptography-37.0.2-6.el9.x86_64.rpm",
+			"name": "python3.11-cryptography",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "python3.11-cryptography-37.0.2-6.el9.src.rpm",
+			"version": "37.0.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b5f777b80c421bb63778a2b538c8a98f59c4e31459505e0768f89a84bbea36b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-cryptography-37.0.2-6.el9.s390x.rpm",
+			"name": "python3.11-cryptography",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "python3.11-cryptography-37.0.2-6.el9.src.rpm",
+			"version": "37.0.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2337",
+			"id": "RHSA-2024:2337",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-49083",
+			"id": "CVE-2023-49083",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2255331",
+			"id": "2255331",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2337.html",
+			"id": "ALSA-2024:2337",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python3.11-cryptography security update",
+	"type": "security",
+	"updated_date": 1715093650
+}

@@ -17,30 +17,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "29496c53c514488c80ef76e8a1da2d86af1e03035145f4d56a46aafc21ccc0ad",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-libs-9.16.23-11.el9_2.2.ppc64le.rpm",
-			"name": "bind-libs",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.2",
-			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "38ccff8f606b440f984a07806f33257b4ec61a45d00c9886426b0f5a7bdf99b4",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-chroot-9.16.23-11.el9_2.2.ppc64le.rpm",
-			"name": "bind-chroot",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.2",
-			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "68add8db9f08d920be81a334a49c98a4ad4475725c0cbed03414757ca6c70198",
 			"checksum_type": "sha256",
@@ -59,6 +35,30 @@
 			"epoch": "32",
 			"filename": "bind-dnssec-doc-9.16.23-11.el9_2.2.noarch.rpm",
 			"name": "bind-dnssec-doc",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.2",
+			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "29496c53c514488c80ef76e8a1da2d86af1e03035145f4d56a46aafc21ccc0ad",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-libs-9.16.23-11.el9_2.2.ppc64le.rpm",
+			"name": "bind-libs",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.2",
+			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "38ccff8f606b440f984a07806f33257b4ec61a45d00c9886426b0f5a7bdf99b4",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-chroot-9.16.23-11.el9_2.2.ppc64le.rpm",
+			"name": "bind-chroot",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
 			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
@@ -329,11 +329,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "351d63d55969a2afc41b46505928c5db446aed4e5f6ae6e675a61f60a9b76ad1",
+			"arch": "s390x",
+			"checksum": "cba32d5f0d4abbd9d6d6a36ef2d2c071f61ed159e0126563b87e24aa08a9f424",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9_2.2.ppc64le.rpm",
+			"filename": "bind-devel-9.16.23-11.el9_2.2.s390x.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
@@ -353,11 +353,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "cba32d5f0d4abbd9d6d6a36ef2d2c071f61ed159e0126563b87e24aa08a9f424",
+			"arch": "ppc64le",
+			"checksum": "351d63d55969a2afc41b46505928c5db446aed4e5f6ae6e675a61f60a9b76ad1",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9_2.2.s390x.rpm",
+			"filename": "bind-devel-9.16.23-11.el9_2.2.ppc64le.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
@@ -390,5 +390,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1697209100
+	"updated_date": 1697209099
 }

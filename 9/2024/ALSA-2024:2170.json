@@ -1,0 +1,162 @@
+{
+	"description": "Xwayland is an X server for running X clients under Wayland.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Out-of-bounds write in XIChangeDeviceProperty/RRChangeOutputProperty (CVE-2023-5367)\n* xorg-x11-server: out-of-bounds memory reads/writes in XKB button actions (CVE-2023-6377)\n* xorg-x11-server: out-of-bounds memory read in RRChangeOutputProperty and RRChangeProviderProperty (CVE-2023-6478)\n* xorg-x11-server: Heap buffer overflow in DeviceFocusEvent and ProcXIQueryPointer (CVE-2023-6816)\n* xorg-x11-server: reattaching to different master device may lead to out-of-bounds memory access (CVE-2024-0229)\n* xorg-x11-server: SELinux unlabeled GLX PBuffer (CVE-2024-0408)\n* xorg-x11-server: SELinux context corruption (CVE-2024-0409)\n* xorg-x11-server: heap buffer overflow in XISendDeviceHierarchyEvent (CVE-2024-21885)\n* xorg-x11-server: heap buffer overflow in DisableDevice (CVE-2024-21886)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2170",
+	"issued_date": 1714435200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "bdd461475029c61b08e5cbee8a2724c8c8ad2c42fdff39d3f7e5ad1e8c2415b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-22.1.9-5.el9.ppc64le.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "xorg-x11-server-Xwayland-22.1.9-5.el9.src.rpm",
+			"version": "22.1.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fe115eb9cdb5d8b04fe1117ca7e4aab1dabf86055a5474d1073da816b038eda0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-22.1.9-5.el9.aarch64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "xorg-x11-server-Xwayland-22.1.9-5.el9.src.rpm",
+			"version": "22.1.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "59d6fc3c05b4ce227c70e4bbc5bd172b8203042adeaa3e537a2c5450bd226605",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-22.1.9-5.el9.x86_64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "xorg-x11-server-Xwayland-22.1.9-5.el9.src.rpm",
+			"version": "22.1.9"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "878b2ae2c9bf8877511b8dc4afc3d985c8b708d23649ffaca0065a6e1e49ee49",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-22.1.9-5.el9.s390x.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "xorg-x11-server-Xwayland-22.1.9-5.el9.src.rpm",
+			"version": "22.1.9"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2170",
+			"id": "RHSA-2024:2170",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-5367",
+			"id": "CVE-2023-5367",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-6377",
+			"id": "CVE-2023-6377",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-6478",
+			"id": "CVE-2023-6478",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-6816",
+			"id": "CVE-2023-6816",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0229",
+			"id": "CVE-2024-0229",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0408",
+			"id": "CVE-2024-0408",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-0409",
+			"id": "CVE-2024-0409",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-21885",
+			"id": "CVE-2024-21885",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-21886",
+			"id": "CVE-2024-21886",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2243091",
+			"id": "2243091",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2253291",
+			"id": "2253291",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2253298",
+			"id": "2253298",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2256540",
+			"id": "2256540",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2256542",
+			"id": "2256542",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2256690",
+			"id": "2256690",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257689",
+			"id": "2257689",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257690",
+			"id": "2257690",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2257691",
+			"id": "2257691",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2170.html",
+			"id": "ALSA-2024:2170",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: xorg-x11-server-Xwayland security update",
+	"type": "security",
+	"updated_date": 1715093644
+}

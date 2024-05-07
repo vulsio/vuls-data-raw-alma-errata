@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "c91622d89944363984464fc628f8a6d93f746ce07964884c5028dd6baea632de",
+			"arch": "i686",
+			"checksum": "27553505fdf62c76e02655fbd684f0f7d9b190f3931caf2a29f548c4d91eb885",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-1.el9_3.1.ppc64le.rpm",
+			"filename": "expat-devel-2.5.0-1.el9_3.1.i686.rpm",
 			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.1",
@@ -17,11 +17,11 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "27553505fdf62c76e02655fbd684f0f7d9b190f3931caf2a29f548c4d91eb885",
+			"arch": "ppc64le",
+			"checksum": "c91622d89944363984464fc628f8a6d93f746ce07964884c5028dd6baea632de",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-1.el9_3.1.i686.rpm",
+			"filename": "expat-devel-2.5.0-1.el9_3.1.ppc64le.rpm",
 			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.1",
@@ -65,11 +65,23 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "061c8859cd622cb064632d888b4890724ba9d0654228f5181616ce92a2bb4f0e",
+			"arch": "i686",
+			"checksum": "8d5d37a481367f45543af1bb5d3f1f8cd4af65373ecc2faa7d9b3f98c2bf4e3d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-2.5.0-1.el9_3.1.aarch64.rpm",
+			"filename": "expat-2.5.0-1.el9_3.1.i686.rpm",
+			"name": "expat",
+			"reboot_suggested": 0,
+			"release": "1.el9_3.1",
+			"src": "expat-2.5.0-1.el9_3.1.src.rpm",
+			"version": "2.5.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f57cba468d718f4c654dfebf6bef0b393624564a9c75d258aeefcbba7b7795f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-2.5.0-1.el9_3.1.s390x.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.1",
@@ -89,23 +101,11 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "8d5d37a481367f45543af1bb5d3f1f8cd4af65373ecc2faa7d9b3f98c2bf4e3d",
+			"arch": "aarch64",
+			"checksum": "061c8859cd622cb064632d888b4890724ba9d0654228f5181616ce92a2bb4f0e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-2.5.0-1.el9_3.1.i686.rpm",
-			"name": "expat",
-			"reboot_suggested": 0,
-			"release": "1.el9_3.1",
-			"src": "expat-2.5.0-1.el9_3.1.src.rpm",
-			"version": "2.5.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "6f57cba468d718f4c654dfebf6bef0b393624564a9c75d258aeefcbba7b7795f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-2.5.0-1.el9_3.1.s390x.rpm",
+			"filename": "expat-2.5.0-1.el9_3.1.aarch64.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.1",
