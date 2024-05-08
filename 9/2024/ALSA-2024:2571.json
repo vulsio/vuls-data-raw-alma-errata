@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "e46d5911379f2abece48c632029b42b4b7593e2e619ef8c2407c7f3524b86251",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sssd-idp-2.9.4-6.el9_4.ppc64le.rpm",
-			"name": "sssd-idp",
-			"reboot_suggested": 0,
-			"release": "6.el9_4",
-			"src": "sssd-2.9.4-6.el9_4.src.rpm",
-			"version": "2.9.4"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "8ebd1cad5ce0b825c0e318d04dbd027916af68155c9f6cfc76931cc2cde673a0",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "sssd-idp-2.9.4-6.el9_4.x86_64.rpm",
+			"name": "sssd-idp",
+			"reboot_suggested": 0,
+			"release": "6.el9_4",
+			"src": "sssd-2.9.4-6.el9_4.src.rpm",
+			"version": "2.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e46d5911379f2abece48c632029b42b4b7593e2e619ef8c2407c7f3524b86251",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sssd-idp-2.9.4-6.el9_4.ppc64le.rpm",
 			"name": "sssd-idp",
 			"reboot_suggested": 0,
 			"release": "6.el9_4",
@@ -65,11 +65,11 @@
 			"version": "2.9.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d4a47fa1b0cbde1792ea2086a44c9e2890dea809af79173f319434a63a030861",
+			"arch": "ppc64le",
+			"checksum": "22d0e49c581b7389986d57c0db177e7815c81f5d350b5fecd3aeb9314de14c7f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.x86_64.rpm",
+			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.ppc64le.rpm",
 			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_4",
@@ -77,11 +77,11 @@
 			"version": "2.9.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "ce832588925084f7b2d342ff8893ce6138c921170fda0d1114bda83c0c133a25",
+			"arch": "x86_64",
+			"checksum": "d4a47fa1b0cbde1792ea2086a44c9e2890dea809af79173f319434a63a030861",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.s390x.rpm",
+			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.x86_64.rpm",
 			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_4",
@@ -101,11 +101,11 @@
 			"version": "2.9.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "22d0e49c581b7389986d57c0db177e7815c81f5d350b5fecd3aeb9314de14c7f",
+			"arch": "s390x",
+			"checksum": "ce832588925084f7b2d342ff8893ce6138c921170fda0d1114bda83c0c133a25",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.ppc64le.rpm",
+			"filename": "libsss_nss_idmap-devel-2.9.4-6.el9_4.s390x.rpm",
 			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_4",
