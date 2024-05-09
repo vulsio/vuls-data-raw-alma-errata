@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "f964bfb4b0e3828cf521905c1ee2b4a2049922de9145ab0a04c92a5c0a22f8f1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-0.9.59-3.el8.i686.rpm",
+			"name": "libmicrohttpd",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
+			"version": "0.9.59"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "33a49b2fe35591ea8d5cfec95e00b4fdfc48122102bf7f4094151c694fc3e613",
 			"checksum_type": "sha256",
@@ -29,36 +41,12 @@
 			"version": "0.9.59"
 		},
 		{
-			"arch": "i686",
-			"checksum": "f964bfb4b0e3828cf521905c1ee2b4a2049922de9145ab0a04c92a5c0a22f8f1",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.59-3.el8.i686.rpm",
-			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
-			"version": "0.9.59"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3e8ac7c6dd1e055d6f913849e258732f223407cbc801b5f282cf87889e585495",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libmicrohttpd-0.9.59-3.el8.x86_64.rpm",
 			"name": "libmicrohttpd",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
-			"version": "0.9.59"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "16a06978d6c737aa9d36408458fac1860447f0a57fb9ccdcf340142c68b42550",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libmicrohttpd-devel-0.9.59-3.el8.x86_64.rpm",
-			"name": "libmicrohttpd-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
@@ -82,6 +70,18 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libmicrohttpd-devel-0.9.59-3.el8.aarch64.rpm",
+			"name": "libmicrohttpd-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libmicrohttpd-0.9.59-3.el8.src.rpm",
+			"version": "0.9.59"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "16a06978d6c737aa9d36408458fac1860447f0a57fb9ccdcf340142c68b42550",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libmicrohttpd-devel-0.9.59-3.el8.x86_64.rpm",
 			"name": "libmicrohttpd-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8",
@@ -162,5 +162,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libmicrohttpd security update",
 	"type": "security",
-	"updated_date": 1700734956
+	"updated_date": 1700734745
 }
