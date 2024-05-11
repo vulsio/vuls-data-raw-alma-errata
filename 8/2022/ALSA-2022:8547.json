@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "958871be5f7d502984f3be1f821f0726128d69bbc78942a913b5e26ae983c3d7",
+			"arch": "x86_64",
+			"checksum": "3b93096f16614f9b8b78e352207bd24a25e9b47a7c78f84cea9392adc135c2f4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.5.0-2.el8_7.alma.aarch64.rpm",
+			"filename": "thunderbird-102.5.0-2.el8_7.alma.x86_64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "2.el8_7.alma",
@@ -17,11 +17,11 @@
 			"version": "102.5.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "3b93096f16614f9b8b78e352207bd24a25e9b47a7c78f84cea9392adc135c2f4",
+			"arch": "aarch64",
+			"checksum": "958871be5f7d502984f3be1f821f0726128d69bbc78942a913b5e26ae983c3d7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-102.5.0-2.el8_7.alma.x86_64.rpm",
+			"filename": "thunderbird-102.5.0-2.el8_7.alma.aarch64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "2.el8_7.alma",
@@ -78,18 +78,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "f2eff374a673f6214d8d0163f1efbc2c726705f8b3d372088b642a5d68224bc8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-102.5.0-2.el8_7.alma.s390x.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "2.el8_7.alma",
-			"src": "thunderbird-102.5.0-2.el8_7.alma.src.rpm",
-			"version": "102.5.0"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "06dea1174f5cc9c06ca216bc25f99261d3e0a78069b6559686755511e48d5041",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -98,6 +86,18 @@
 			"reboot_suggested": 0,
 			"release": "2.el8_7.alma.plus",
 			"src": "thunderbird-102.5.0-2.el8_7.alma.plus.src.rpm",
+			"version": "102.5.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f2eff374a673f6214d8d0163f1efbc2c726705f8b3d372088b642a5d68224bc8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-102.5.0-2.el8_7.alma.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "2.el8_7.alma",
+			"src": "thunderbird-102.5.0-2.el8_7.alma.src.rpm",
 			"version": "102.5.0"
 		}
 	],

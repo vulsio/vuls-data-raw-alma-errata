@@ -1,0 +1,120 @@
+{
+	"description": "The shim package contains a first-stage UEFI boot loader that handles chaining\nto a trusted full boot loader under secure boot environments.\n\nSecurity Fix(es):\n\n* shim: RCE in http boot support may lead to Secure Boot bypass (CVE-2023-40547)\n* shim: Interger overflow leads to heap buffer overflow in verify_sbat_section\non 32-bits systems (CVE-2023-40548)\n* shim: Out-of-bounds read printing error messages (CVE-2023-40546)\n* shim: Out-of-bounds read in verify_buffer_authenticode() malformed PE file\n(CVE-2023-40549)\n* shim: Out-of-bound read in verify_buffer_sbat() (CVE-2023-40550)\n* shim: out of bounds read when parsing MZ binaries (CVE-2023-40551)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:1902",
+	"issued_date": 1713398400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "112fcb50a67218cc56c32d07c169a3f2b1c9361875cbe4f55232187e91900b44",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-ia32-15.8-4.el8_9.alma.1.x86_64.rpm",
+			"name": "shim-ia32",
+			"reboot_suggested": 0,
+			"release": "4.el8_9.alma.1",
+			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
+			"version": "15.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7f274577375b61be494a295b6c31c280bca6c95c2f7b8be7dd4f5e0f938241f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-x64-15.8-4.el8_9.alma.1.x86_64.rpm",
+			"name": "shim-x64",
+			"reboot_suggested": 0,
+			"release": "4.el8_9.alma.1",
+			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
+			"version": "15.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "99a983eeec0afc0dd5d88f798da359cf30643dcd4782fe659dbc82b50cda5106",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-aa64-15.8-4.el8_9.alma.1.aarch64.rpm",
+			"name": "shim-aa64",
+			"reboot_suggested": 0,
+			"release": "4.el8_9.alma.1",
+			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
+			"version": "15.8"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:1902",
+			"id": "RHSA-2024:1902",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40546",
+			"id": "CVE-2023-40546",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40547",
+			"id": "CVE-2023-40547",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40548",
+			"id": "CVE-2023-40548",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40549",
+			"id": "CVE-2023-40549",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40550",
+			"id": "CVE-2023-40550",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-40551",
+			"id": "CVE-2023-40551",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2234589",
+			"id": "2234589",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2241782",
+			"id": "2241782",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2241796",
+			"id": "2241796",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2241797",
+			"id": "2241797",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259915",
+			"id": "2259915",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2259918",
+			"id": "2259918",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-1902.html",
+			"id": "ALSA-2024:1902",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: shim security update",
+	"type": "security",
+	"updated_date": 1715373403
+}
