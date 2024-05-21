@@ -1,0 +1,290 @@
+{
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: CONTINUATION frames DoS (CVE-2024-27983)\n* nodejs: using the fetch() function to retrieve content from an untrusted URL leads to denial of service (CVE-2024-22025)\n* nodejs: HTTP Request Smuggling via Content Length Obfuscation (CVE-2024-27982)\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n* c-ares: Out of bounds read in ares__read_line() (CVE-2024-25629)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:2910",
+	"issued_date": 1716163200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "b1b792b69a5411822d1b67865bfa0e978b9dbeeb54e65ac1739ca4d446ca1803",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.20.2-8.el9_4.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c1d81463c422ae9b5039af176412f56a0325b4736450f2d1eab293d78ce71a14",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2f5518e200e3ab81326b715367a2fe5599724a33ad45eec9b91d1b76f12cd1e3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.aarch64.rpm",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "53855d916d8f1fd995b00ce8b6b1e8f02cb5c8b29e81c92a2c86a72d9ab029a7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7445e3a0a3086a0870f7e2c6347bc8fbb91bcebc55f2b4f48d7288dc0eaa6355",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ede4f9efae617ef4a97cb1a71a307a23125156b7cb1ac45921ab26277013f3a0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "053aa6c94d983659147ee500fe278e37a56c806efc56218a6a07b7a57cd89826",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.x86_64.rpm",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4583c065b9174a82a4137dc0c75c139715cf6ac23f294c1f79a4bf87a54bf708",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.x86_64.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6ce14aca83f7379c6b894b66e2dd9649926facd24814d9367fce19fe46bbeb9b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-8.el9_4.x86_64.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a069ab5d77d1be776634164ecbb0dac05c300e28077c463e4d37392cb0c1053b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.x86_64.rpm",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4fa6f2c48eef2faf6ad38528dcd2a0be3e0ddee21fc12f61b7463cb8d3715a95",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.ppc64le.rpm",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c13fe86975ee8d67480eabd07e12ebda14d61f588554e976b8f46868081ff165",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-8.el9_4.ppc64le.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c70427b198378df906b24528a8d81f7caa277f0171e4bcd0fb4dc8e9442293b3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.ppc64le.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fb9a2bf86cea1516786e77d7ea038427f86233abd3c82ccf70838e43105b0faf",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.ppc64le.rpm",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5e1f703bdbde91d1d516acd232018376a5c988b2dd67baf3b2fd866f1ae4cfcb",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-8.el9_4.s390x.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7f92eadc97d1e3451107866be0d70d4473daca58a491f61237046867a3bc839b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.s390x.rpm",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9ec9b5500ab500f3d845903e32367e3f21de0a4f2778f6e5793e40649e241311",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.s390x.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c471c11fb541b5cec6f1d1522b91f3ce0ba9f7aaf83b2954338c206aad90c57e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.s390x.rpm",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2910",
+			"id": "RHSA-2024:2910",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-22025",
+			"id": "CVE-2024-22025",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-25629",
+			"id": "CVE-2024-25629",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-27982",
+			"id": "CVE-2024-27982",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-27983",
+			"id": "CVE-2024-27983",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-28182",
+			"id": "CVE-2024-28182",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2265713",
+			"id": "2265713",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2268639",
+			"id": "2268639",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2270559",
+			"id": "2270559",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2272764",
+			"id": "2272764",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2275392",
+			"id": "2275392",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-2910.html",
+			"id": "ALSA-2024:2910",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: nodejs security update",
+	"type": "security",
+	"updated_date": 1716189795
+}

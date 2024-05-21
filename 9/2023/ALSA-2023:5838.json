@@ -17,6 +17,18 @@
 			"version": "1.43.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "3a60580cb909cf653450cafb61154092a0effedaffb15877703eea203c40724b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-1.43.0-5.el9_2.1.x86_64.rpm",
+			"name": "libnghttp2",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "a9501b1bd929dd91a3a65e9383515b97d88a8f226403d2df8c336a45370afd1a",
 			"checksum_type": "sha256",
@@ -34,18 +46,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libnghttp2-1.43.0-5.el9_2.1.s390x.rpm",
-			"name": "libnghttp2",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3a60580cb909cf653450cafb61154092a0effedaffb15877703eea203c40724b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-1.43.0-5.el9_2.1.x86_64.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -77,6 +77,30 @@
 			"version": "1.43.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "483f30d1823a5e9515b384c1b63ed0468eaa03f2db92511a166a9bdf8a2d9bbf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nghttp2-1.43.0-5.el9_2.1.ppc64le.rpm",
+			"name": "nghttp2",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d3a72706496722d56477d16dff11004a467d8451d4ff754934f9d0394801086a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-devel-1.43.0-5.el9_2.1.ppc64le.rpm",
+			"name": "libnghttp2-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_2.1",
+			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
+			"version": "1.43.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3d07b2ab8d2e4a449dc542a9826fc1ce03855272392e9dfb084512e77c7ae24f",
 			"checksum_type": "sha256",
@@ -101,11 +125,11 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "483f30d1823a5e9515b384c1b63ed0468eaa03f2db92511a166a9bdf8a2d9bbf",
+			"arch": "s390x",
+			"checksum": "4a349dcd81731ed6e9f85960a1cfd3378e785c45e41683be7d06acdfc052bb8e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nghttp2-1.43.0-5.el9_2.1.ppc64le.rpm",
+			"filename": "nghttp2-1.43.0-5.el9_2.1.s390x.rpm",
 			"name": "nghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -113,11 +137,11 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "d3a72706496722d56477d16dff11004a467d8451d4ff754934f9d0394801086a",
+			"arch": "s390x",
+			"checksum": "fbd4ef9bfbb683f06954802afa1c07c4239e816089f2bafcb4bc4f7f9a7f11b3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-devel-1.43.0-5.el9_2.1.ppc64le.rpm",
+			"filename": "libnghttp2-devel-1.43.0-5.el9_2.1.s390x.rpm",
 			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
@@ -143,30 +167,6 @@
 			"epoch": "0",
 			"filename": "nghttp2-1.43.0-5.el9_2.1.aarch64.rpm",
 			"name": "nghttp2",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "4a349dcd81731ed6e9f85960a1cfd3378e785c45e41683be7d06acdfc052bb8e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nghttp2-1.43.0-5.el9_2.1.s390x.rpm",
-			"name": "nghttp2",
-			"reboot_suggested": 0,
-			"release": "5.el9_2.1",
-			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
-			"version": "1.43.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "fbd4ef9bfbb683f06954802afa1c07c4239e816089f2bafcb4bc4f7f9a7f11b3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-devel-1.43.0-5.el9_2.1.s390x.rpm",
-			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_2.1",
 			"src": "nghttp2-1.43.0-5.el9_2.1.src.rpm",
