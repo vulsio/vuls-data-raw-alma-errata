@@ -17,18 +17,6 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fbe9d41337f16777f313075196b5ef3398223fb58f05ea55356ab009003b49fb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-5.4.4-3.el9.x86_64.rpm",
-			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "lua-5.4.4-3.el9.src.rpm",
-			"version": "5.4.4"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "d0035baeb1fd3beb16106c122ce8efc60c113461282122058d63f35304678375",
 			"checksum_type": "sha256",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lua-5.4.4-3.el9.ppc64le.rpm",
+			"name": "lua",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "lua-5.4.4-3.el9.src.rpm",
+			"version": "5.4.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fbe9d41337f16777f313075196b5ef3398223fb58f05ea55356ab009003b49fb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-5.4.4-3.el9.x86_64.rpm",
 			"name": "lua",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -161,11 +161,11 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f2d7ab675516c5dee02f6063118da0e1b57b5f3e2306a0cabbee9d24f65f410b",
+			"arch": "s390x",
+			"checksum": "b13f7a016cd877354520ff10fab7be44c8d29788c922e0681f7a71528d0f3f60",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.aarch64.rpm",
+			"filename": "lua-devel-5.4.4-3.el9.s390x.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -173,11 +173,11 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "b13f7a016cd877354520ff10fab7be44c8d29788c922e0681f7a71528d0f3f60",
+			"arch": "aarch64",
+			"checksum": "f2d7ab675516c5dee02f6063118da0e1b57b5f3e2306a0cabbee9d24f65f410b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.s390x.rpm",
+			"filename": "lua-devel-5.4.4-3.el9.aarch64.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",

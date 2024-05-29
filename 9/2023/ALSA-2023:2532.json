@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "ddd23a488aeb3fb31196d48bd8317c9a10f1b3171562e7ae18e7351e5378f5ef",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bsdtar-3.5.3-4.el9.x86_64.rpm",
-			"name": "bsdtar",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "libarchive-3.5.3-4.el9.src.rpm",
-			"version": "3.5.3"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "2431056636504759d99627ce2a22b17ee7c37f042a7717dc09b6dcc03fa2df5b",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "bsdtar-3.5.3-4.el9.ppc64le.rpm",
+			"name": "bsdtar",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "libarchive-3.5.3-4.el9.src.rpm",
+			"version": "3.5.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ddd23a488aeb3fb31196d48bd8317c9a10f1b3171562e7ae18e7351e5378f5ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bsdtar-3.5.3-4.el9.x86_64.rpm",
 			"name": "bsdtar",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -149,11 +149,11 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "728c9e27fa15a7e65734c65067cd33d075dd1558856270fc503f3cd4290358e4",
+			"arch": "s390x",
+			"checksum": "8ed49b31b4112e8c44f34864475692c034cf2b0700bd8ceb28ed3d4cff86dc9b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libarchive-devel-3.5.3-4.el9.aarch64.rpm",
+			"filename": "libarchive-devel-3.5.3-4.el9.s390x.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -161,11 +161,11 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8ed49b31b4112e8c44f34864475692c034cf2b0700bd8ceb28ed3d4cff86dc9b",
+			"arch": "aarch64",
+			"checksum": "728c9e27fa15a7e65734c65067cd33d075dd1558856270fc503f3cd4290358e4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libarchive-devel-3.5.3-4.el9.s390x.rpm",
+			"filename": "libarchive-devel-3.5.3-4.el9.aarch64.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9",
