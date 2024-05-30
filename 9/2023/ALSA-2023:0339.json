@@ -29,30 +29,6 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3847187bbe8a41aaeed59d0f238bff57a6ca6c5e7f71fbf935d3a38a516f7732",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-3.34.1-6.el9_1.aarch64.rpm",
-			"name": "sqlite",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "sqlite-3.34.1-6.el9_1.src.rpm",
-			"version": "3.34.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "64f87926bf0d60f136d34a8029ffaff7bd2689bc9e0f53e8c8c5100796fb23de",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-devel-3.34.1-6.el9_1.aarch64.rpm",
-			"name": "sqlite-devel",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "sqlite-3.34.1-6.el9_1.src.rpm",
-			"version": "3.34.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "1d19af4473b5f1c13f6fb94ab69fc422867a50ab200e11d8791517e2b278447d",
 			"checksum_type": "sha256",
@@ -71,6 +47,30 @@
 			"epoch": "0",
 			"filename": "sqlite-3.34.1-6.el9_1.ppc64le.rpm",
 			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "sqlite-3.34.1-6.el9_1.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3847187bbe8a41aaeed59d0f238bff57a6ca6c5e7f71fbf935d3a38a516f7732",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.34.1-6.el9_1.aarch64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "sqlite-3.34.1-6.el9_1.src.rpm",
+			"version": "3.34.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "64f87926bf0d60f136d34a8029ffaff7bd2689bc9e0f53e8c8c5100796fb23de",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.34.1-6.el9_1.aarch64.rpm",
+			"name": "sqlite-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
 			"src": "sqlite-3.34.1-6.el9_1.src.rpm",
@@ -137,11 +137,11 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "c827efde7374ef0e3dc181bac5197f7f9ecfbba0d2db792e3b1d850279fd01ee",
+			"arch": "ppc64le",
+			"checksum": "2a170372d52d8df283ae1504623d7a21d7d687951d97d12253efef50081f7009",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-6.el9_1.x86_64.rpm",
+			"filename": "sqlite-libs-3.34.1-6.el9_1.ppc64le.rpm",
 			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -149,11 +149,11 @@
 			"version": "3.34.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "2a170372d52d8df283ae1504623d7a21d7d687951d97d12253efef50081f7009",
+			"arch": "x86_64",
+			"checksum": "c827efde7374ef0e3dc181bac5197f7f9ecfbba0d2db792e3b1d850279fd01ee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sqlite-libs-3.34.1-6.el9_1.ppc64le.rpm",
+			"filename": "sqlite-libs-3.34.1-6.el9_1.x86_64.rpm",
 			"name": "sqlite-libs",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
