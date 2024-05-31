@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "13bbfe95a11a9098468ea0e65dde4d4821d6591c7ef7a1c820cc1f1629cd7568",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsepol-devel-2.9-3.el8.i686.rpm",
+			"name": "libsepol-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libsepol-2.9-3.el8.src.rpm",
+			"version": "2.9"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3da02b16eb3851065c08750b2298448c9ea830157c2aae48548da8d8488becc4",
 			"checksum_type": "sha256",
@@ -29,12 +41,12 @@
 			"version": "2.9"
 		},
 		{
-			"arch": "i686",
-			"checksum": "a9528073bf059f0b0bbe370fd6b0a43c192606d92d13877b0b963fdda9e87c97",
+			"arch": "x86_64",
+			"checksum": "55bfbf557e668657b3d8e9b7389c9ec89944c9c21957eecb5e311a9d50a7708d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsepol-static-2.9-3.el8.i686.rpm",
-			"name": "libsepol-static",
+			"filename": "libsepol-2.9-3.el8.x86_64.rpm",
+			"name": "libsepol",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "libsepol-2.9-3.el8.src.rpm",
@@ -53,11 +65,11 @@
 			"version": "2.9"
 		},
 		{
-			"arch": "i686",
-			"checksum": "13bbfe95a11a9098468ea0e65dde4d4821d6591c7ef7a1c820cc1f1629cd7568",
+			"arch": "x86_64",
+			"checksum": "bf7296b0ec33968e01014c1b5097b51c085bf393e11574b85d194c0f5555c292",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsepol-devel-2.9-3.el8.i686.rpm",
+			"filename": "libsepol-devel-2.9-3.el8.x86_64.rpm",
 			"name": "libsepol-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8",
@@ -113,6 +125,18 @@
 			"version": "2.9"
 		},
 		{
+			"arch": "i686",
+			"checksum": "a9528073bf059f0b0bbe370fd6b0a43c192606d92d13877b0b963fdda9e87c97",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsepol-static-2.9-3.el8.i686.rpm",
+			"name": "libsepol-static",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "libsepol-2.9-3.el8.src.rpm",
+			"version": "2.9"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "354f505661ae7d4441ac75ad6520dc4cc3a9d9775015eaafa762efead43790d8",
 			"checksum_type": "sha256",
@@ -151,6 +175,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4513.html",
+			"id": "ALSA-2021-4513",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2021-36084",
 			"id": "CVE-2021-36084",
 			"type": "cve"
@@ -169,15 +198,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-36087",
 			"id": "CVE-2021-36087",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4513.html",
-			"id": "ALSA-2021-4513",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libsepol security update",
 	"type": "security",
-	"updated_date": 1636712461
+	"updated_date": 1678725237
 }

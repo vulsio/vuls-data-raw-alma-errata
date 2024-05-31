@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "noarch",
-			"checksum": "b016dc61be16c27a11ff117a6741aaf9a80afc19a5fa22384c06a6cec61c5d8c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-filesystem-26.1-11.el8.noarch.rpm",
-			"name": "emacs-filesystem",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "emacs-26.1-11.el8.src.rpm",
-			"version": "26.1"
-		},
-		{
-			"arch": "noarch",
 			"checksum": "edc883dfc02496a420f8f40a848dfb1949ee6ece77215b8d25741bbe0fbe922a",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -29,48 +17,12 @@
 			"version": "26.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "08fff9529587b4e504e9016454cd9439ba7fa2002e797d7834b84603f0b96773",
+			"arch": "noarch",
+			"checksum": "b016dc61be16c27a11ff117a6741aaf9a80afc19a5fa22384c06a6cec61c5d8c",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "emacs-lucid-26.1-11.el8.x86_64.rpm",
-			"name": "emacs-lucid",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "emacs-26.1-11.el8.src.rpm",
-			"version": "26.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "12ed1d86de1a284b4009566a2544e839c2da04f7be1d6f76940968f21cdbaa76",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-nox-26.1-11.el8.x86_64.rpm",
-			"name": "emacs-nox",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "emacs-26.1-11.el8.src.rpm",
-			"version": "26.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "98e8c1646b6cbd9ea71d7c761d2e5a6d63da05b6e204776da1f960d0fc87a34a",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-common-26.1-11.el8.x86_64.rpm",
-			"name": "emacs-common",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "emacs-26.1-11.el8.src.rpm",
-			"version": "26.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9afa955feaa6f11d5c4d0115b565afa1a3eeb86a504f4d2fe04221ab0dec3012",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-26.1-11.el8.x86_64.rpm",
-			"name": "emacs",
+			"filename": "emacs-filesystem-26.1-11.el8.noarch.rpm",
+			"name": "emacs-filesystem",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "emacs-26.1-11.el8.src.rpm",
@@ -119,6 +71,54 @@
 			"epoch": "1",
 			"filename": "emacs-common-26.1-11.el8.aarch64.rpm",
 			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "emacs-26.1-11.el8.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "08fff9529587b4e504e9016454cd9439ba7fa2002e797d7834b84603f0b96773",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-lucid-26.1-11.el8.x86_64.rpm",
+			"name": "emacs-lucid",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "emacs-26.1-11.el8.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "12ed1d86de1a284b4009566a2544e839c2da04f7be1d6f76940968f21cdbaa76",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-nox-26.1-11.el8.x86_64.rpm",
+			"name": "emacs-nox",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "emacs-26.1-11.el8.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "98e8c1646b6cbd9ea71d7c761d2e5a6d63da05b6e204776da1f960d0fc87a34a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-common-26.1-11.el8.x86_64.rpm",
+			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "emacs-26.1-11.el8.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9afa955feaa6f11d5c4d0115b565afa1a3eeb86a504f4d2fe04221ab0dec3012",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-26.1-11.el8.x86_64.rpm",
+			"name": "emacs",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "emacs-26.1-11.el8.src.rpm",
@@ -256,5 +256,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: emacs security update",
 	"type": "security",
-	"updated_date": 1700734941
+	"updated_date": 1700734942
 }

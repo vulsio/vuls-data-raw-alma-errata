@@ -4,18 +4,18 @@
 	"issued_date": 1636446291,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "e34216c9",
-			"name": "container-tools",
-			"stream": "rhel8",
-			"version": "8050020220202104101"
-		},
-		{
 			"arch": "aarch64",
 			"context": "20125149",
 			"name": "container-tools",
 			"stream": "rhel8",
 			"version": "8060020220516071747"
+		},
+		{
+			"arch": "x86_64",
+			"context": "e34216c9",
+			"name": "container-tools",
+			"stream": "rhel8",
+			"version": "8050020220202104101"
 		},
 		{
 			"arch": "ppc64le",
@@ -26,149 +26,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "0ab67db94a5c0b540275c174a4958ea06a7ab4790d036af37e8824479b6bc521",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-libs-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "criu-libs",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0cf6d2b7119a68c092c1b0582ccfb2e850f9aa5eca37b6e14481003905cac789",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-criu-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "python3-criu",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3b70dfd7f08a87506fd257e77fedb2c27a365354ec0dacda8a99c54f6e226417",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-devel-4.4.0-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "libslirp-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2613+1b78b731",
-			"src": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "4.4.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "472d12661f595930968a14cc09a04b89f300db6e42e97dd515168d6b7032070d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "libslirp",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2613+1b78b731",
-			"src": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "4.4.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "50096755fbdf6142ea242f56d765a1a9c0e573ca32b06641e2a9e5bf085679c6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "criu",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "770fcd2c253ec0c1e9e91088c0921ed9aaaf84e2db2327061dbd3a1593a87939",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "crit-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "crit",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "826e6ebabde0dc5baa2b4f00ccec33230f580f347e9baaab9ef44f6ca3766b53",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "toolbox",
-			"reboot_suggested": 0,
-			"release": "0.4.module_el8.5.0+2613+1b78b731",
-			"src": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "0.0.99.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "918ce7894e30279bcfd49637a5415abf53a5e2d156b1d4c4a671e006fea76642",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-tests-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "toolbox-tests",
-			"reboot_suggested": 0,
-			"release": "0.4.module_el8.5.0+2613+1b78b731",
-			"src": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "0.0.99.3"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a10db1550b47bea94ac998bef85c2cb34d0c86b03db0fb82f620aa5af2193de1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "slirp4netns-1.1.8-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "slirp4netns",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.5.0+2613+1b78b731",
-			"src": "slirp4netns-1.1.8-1.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "1.1.8"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ddeaeab45bc5edc8ac270033592969ee27d23b9ecd0a0977682af345008efed3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "criu-devel-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "criu-devel",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "3.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e326929cdb0d0aca7da92470da430e075847559e5836e61b4881e7a3d9e1503a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
-			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
-			"name": "oci-seccomp-bpf-hook",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.5.0+2613+1b78b731",
-			"src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.src.rpm",
-			"version": "1.2.3"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "356ab2a0229ae2b6fe4fe86d271b30253b605841b66b1bdb0ff04e0286f51f3d",
@@ -311,6 +168,149 @@
 			"release": "1.module_el8.6.0+2876+9ed4eae2",
 			"src": "slirp4netns-1.1.8-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
 			"version": "1.1.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0ab67db94a5c0b540275c174a4958ea06a7ab4790d036af37e8824479b6bc521",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-libs-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "criu-libs",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0cf6d2b7119a68c092c1b0582ccfb2e850f9aa5eca37b6e14481003905cac789",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-criu-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "python3-criu",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3b70dfd7f08a87506fd257e77fedb2c27a365354ec0dacda8a99c54f6e226417",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-devel-4.4.0-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "libslirp-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2613+1b78b731",
+			"src": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "472d12661f595930968a14cc09a04b89f300db6e42e97dd515168d6b7032070d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "libslirp",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2613+1b78b731",
+			"src": "libslirp-4.4.0-1.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "4.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "50096755fbdf6142ea242f56d765a1a9c0e573ca32b06641e2a9e5bf085679c6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "criu",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "770fcd2c253ec0c1e9e91088c0921ed9aaaf84e2db2327061dbd3a1593a87939",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "crit-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "crit",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "826e6ebabde0dc5baa2b4f00ccec33230f580f347e9baaab9ef44f6ca3766b53",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "toolbox",
+			"reboot_suggested": 0,
+			"release": "0.4.module_el8.5.0+2613+1b78b731",
+			"src": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "0.0.99.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "918ce7894e30279bcfd49637a5415abf53a5e2d156b1d4c4a671e006fea76642",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-tests-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "toolbox-tests",
+			"reboot_suggested": 0,
+			"release": "0.4.module_el8.5.0+2613+1b78b731",
+			"src": "toolbox-0.0.99.3-0.4.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "0.0.99.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a10db1550b47bea94ac998bef85c2cb34d0c86b03db0fb82f620aa5af2193de1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "slirp4netns-1.1.8-1.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "slirp4netns",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.5.0+2613+1b78b731",
+			"src": "slirp4netns-1.1.8-1.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "1.1.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ddeaeab45bc5edc8ac270033592969ee27d23b9ecd0a0977682af345008efed3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "criu-devel-3.15-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "criu-devel",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "criu-3.15-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "3.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e326929cdb0d0aca7da92470da430e075847559e5836e61b4881e7a3d9e1503a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.x86_64.rpm",
+			"module": "container-tools:rhel8:8050020220202104101:e34216c9:x86_64",
+			"name": "oci-seccomp-bpf-hook",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.5.0+2613+1b78b731",
+			"src": "oci-seccomp-bpf-hook-1.2.3-3.module_el8.5.0+2613+1b78b731.src.rpm",
+			"version": "1.2.3"
 		},
 		{
 			"arch": "ppc64le",
@@ -458,6 +458,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4154.html",
+			"id": "ALSA-2021-4154",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2021-20291",
 			"id": "CVE-2021-20291",
 			"type": "cve"
@@ -466,15 +471,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-3602",
 			"id": "CVE-2021-3602",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4154.html",
-			"id": "ALSA-2021-4154",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1643824729
+	"updated_date": 1636461929
 }

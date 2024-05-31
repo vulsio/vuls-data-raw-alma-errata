@@ -29,36 +29,12 @@
 			"version": "5.3.4"
 		},
 		{
-			"arch": "i686",
-			"checksum": "7d90b3c05b44591db6644cffd11abff1ae1e4ab17501e3e55cf7005e94d5df24",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-5.3.4-12.el8.i686.rpm",
-			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "lua-5.3.4-12.el8.src.rpm",
-			"version": "5.3.4"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "7fa49f92f4402ba54412ac32fb882e41813a26669e26549700b6193797c5261f",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lua-5.3.4-12.el8.x86_64.rpm",
 			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "lua-5.3.4-12.el8.src.rpm",
-			"version": "5.3.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9b1d9aff3313d15f4838230077e03b4f7695c05787d6c5fce6cb690f1c982883",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-devel-5.3.4-12.el8.i686.rpm",
-			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "12.el8",
 			"src": "lua-5.3.4-12.el8.src.rpm",
@@ -95,6 +71,30 @@
 			"epoch": "0",
 			"filename": "lua-libs-5.3.4-12.el8.aarch64.rpm",
 			"name": "lua-libs",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "lua-5.3.4-12.el8.src.rpm",
+			"version": "5.3.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7d90b3c05b44591db6644cffd11abff1ae1e4ab17501e3e55cf7005e94d5df24",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-5.3.4-12.el8.i686.rpm",
+			"name": "lua",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "lua-5.3.4-12.el8.src.rpm",
+			"version": "5.3.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9b1d9aff3313d15f4838230077e03b4f7695c05787d6c5fce6cb690f1c982883",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-devel-5.3.4-12.el8.i686.rpm",
+			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "12.el8",
 			"src": "lua-5.3.4-12.el8.src.rpm",
@@ -152,5 +152,5 @@
 	"severity": "Low",
 	"title": "Low: lua security update",
 	"type": "security",
-	"updated_date": 1636712461
+	"updated_date": 1636712456
 }

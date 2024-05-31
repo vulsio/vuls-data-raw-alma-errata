@@ -6,6 +6,42 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "092a5296b19b4dcccd75b11e7e4574c75bb253afeffc49a529e30fdbdde99ab7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-20.11.0-11.el8.i686.rpm",
+			"name": "poppler",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "76c164626176a001d92e60376df6bcead888aa56099a04b2e8c56792d0981d86",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-qt5-20.11.0-11.el8.i686.rpm",
+			"name": "poppler-qt5",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c2ef768881845d31347b312add5ed33860eb390641a7aeb17a29c8d3ec33a395",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-glib-20.11.0-11.el8.i686.rpm",
+			"name": "poppler-glib",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "i686",
 			"checksum": "023a1402f6de099b2c50f6a1b2ee833fa9dbd62857719b54cc477e923314d265",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -71,42 +107,6 @@
 			"epoch": "0",
 			"filename": "poppler-glib-doc-20.11.0-11.el8.noarch.rpm",
 			"name": "poppler-glib-doc",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "092a5296b19b4dcccd75b11e7e4574c75bb253afeffc49a529e30fdbdde99ab7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-20.11.0-11.el8.i686.rpm",
-			"name": "poppler",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "76c164626176a001d92e60376df6bcead888aa56099a04b2e8c56792d0981d86",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-qt5-20.11.0-11.el8.i686.rpm",
-			"name": "poppler-qt5",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c2ef768881845d31347b312add5ed33860eb390641a7aeb17a29c8d3ec33a395",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-glib-20.11.0-11.el8.i686.rpm",
-			"name": "poppler-glib",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "poppler-20.11.0-11.el8.src.rpm",
@@ -233,54 +233,6 @@
 			"version": "20.11.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1027d802a88adb70d6d2257fd13de41e881eadd2fded8e5f13770e3ea981a2e2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-glib-20.11.0-11.el8.x86_64.rpm",
-			"name": "poppler-glib",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "26d15332c061ef4247162e7465d0b1ca99f1a15196862f25ce7d14171233cbc1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-qt5-20.11.0-11.el8.x86_64.rpm",
-			"name": "poppler-qt5",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "39549e88d940eff04961222f0cb0dd227969090ef5e88d581c4a99788895e058",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-20.11.0-11.el8.x86_64.rpm",
-			"name": "poppler",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "51e99bd86f1be648ea87bef8f482cd39792bfe10ef9c72533a0c263a436e79cf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-utils-20.11.0-11.el8.x86_64.rpm",
-			"name": "poppler-utils",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "08a7a3a2122c0a7ed150c93c4a0b3f4c4bdbc42b3bc0543f670d337ad9825839",
 			"checksum_type": "sha256",
@@ -329,11 +281,11 @@
 			"version": "20.11.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0b17dfec6581e46e0b6008ae59a7231c044f311b2676321e30a1b39cf8b32fde",
+			"arch": "x86_64",
+			"checksum": "1027d802a88adb70d6d2257fd13de41e881eadd2fded8e5f13770e3ea981a2e2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "poppler-glib-20.11.0-11.el8.ppc64le.rpm",
+			"filename": "poppler-glib-20.11.0-11.el8.x86_64.rpm",
 			"name": "poppler-glib",
 			"reboot_suggested": 0,
 			"release": "11.el8",
@@ -341,23 +293,11 @@
 			"version": "20.11.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "366f1e63b50e09f56f59f7b732287783049eec007b0ac39691f44515d7050c9a",
+			"arch": "x86_64",
+			"checksum": "26d15332c061ef4247162e7465d0b1ca99f1a15196862f25ce7d14171233cbc1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "poppler-utils-20.11.0-11.el8.ppc64le.rpm",
-			"name": "poppler-utils",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "poppler-20.11.0-11.el8.src.rpm",
-			"version": "20.11.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "928fd6c4544aeac19f0e3d5294a2c595658c60e4ef9440ca46f61f4e497cbead",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "poppler-qt5-20.11.0-11.el8.ppc64le.rpm",
+			"filename": "poppler-qt5-20.11.0-11.el8.x86_64.rpm",
 			"name": "poppler-qt5",
 			"reboot_suggested": 0,
 			"release": "11.el8",
@@ -365,12 +305,24 @@
 			"version": "20.11.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b81d347793c2a0f583ba5e9c49ad731009feb55bc108e2fc25404b6925315756",
+			"arch": "x86_64",
+			"checksum": "39549e88d940eff04961222f0cb0dd227969090ef5e88d581c4a99788895e058",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "poppler-20.11.0-11.el8.ppc64le.rpm",
+			"filename": "poppler-20.11.0-11.el8.x86_64.rpm",
 			"name": "poppler",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "51e99bd86f1be648ea87bef8f482cd39792bfe10ef9c72533a0c263a436e79cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-utils-20.11.0-11.el8.x86_64.rpm",
+			"name": "poppler-utils",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "poppler-20.11.0-11.el8.src.rpm",
@@ -497,6 +449,54 @@
 			"version": "20.11.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "0b17dfec6581e46e0b6008ae59a7231c044f311b2676321e30a1b39cf8b32fde",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-glib-20.11.0-11.el8.ppc64le.rpm",
+			"name": "poppler-glib",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "366f1e63b50e09f56f59f7b732287783049eec007b0ac39691f44515d7050c9a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-utils-20.11.0-11.el8.ppc64le.rpm",
+			"name": "poppler-utils",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "928fd6c4544aeac19f0e3d5294a2c595658c60e4ef9440ca46f61f4e497cbead",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-qt5-20.11.0-11.el8.ppc64le.rpm",
+			"name": "poppler-qt5",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b81d347793c2a0f583ba5e9c49ad731009feb55bc108e2fc25404b6925315756",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "poppler-20.11.0-11.el8.ppc64le.rpm",
+			"name": "poppler",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "poppler-20.11.0-11.el8.src.rpm",
+			"version": "20.11.0"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "0bf23d13658a1002387077512fc3139cde56b5d13927993123cb5634ea474b9b",
 			"checksum_type": "sha256",
@@ -570,5 +570,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: poppler security update",
 	"type": "security",
-	"updated_date": 1716993940
+	"updated_date": 1716993626
 }
