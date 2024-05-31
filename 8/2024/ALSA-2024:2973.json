@@ -1,0 +1,246 @@
+{
+	"description": "The libX11 packages contain the core X11 protocol client library.\n\nSecurity Fix(es):\n\n* libX11: out-of-bounds memory access in _XkbReadKeySyms() (CVE-2023-43785)\n* libX11: stack exhaustion from infinite recursion in PutSubImage() (CVE-2023-43786)\n* libX11: integer overflow in XCreateImage() leading to a heap overflow (CVE-2023-43787)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2973",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "3a01813ca9e2700e2a330d3c89135eaf0c6a24de04b5b3b6c234d66652b72a76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-common-1.6.8-8.el8.noarch.rpm",
+			"name": "libX11-common",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "49199fc38afadfb3f1a826c83500ffc8df661b6f75736020949e152a3041052e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-8.el8.i686.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "66dc975c28cf2e6eb15e05719ee312fe9d817bb3aecb83d0c606d15df4238f81",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-8.el8.i686.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "864ee5c7952da89922887cba41cd3c2e6932aba1ee412b51740b028059f0de74",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-8.el8.i686.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7b0a4a1a70c4741f0017d5ed1bd9038e34a25161d088ea84b00d51db057410a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-8.el8.x86_64.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7ff72795d394d5f3bf9f1fcc60f891631155d0390d08841af2657923a4e7d470",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-8.el8.x86_64.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ddc8024da4e8ee8981f79e4cf4a336bb1e7487238ceb3279910ff4bff6b88f04",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-8.el8.x86_64.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3a0276177ae782fe37e55d58e1f77f3a57fa7dacf05f69981cb1fd21c30a8be8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-8.el8.aarch64.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "918c2238d75042a8b8e8819faa5f1639aebc82cf7fc6751152e116506115d6ec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-8.el8.aarch64.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fb52b601d0f2a13ff2bb99273306ad53c4621fa42184716eb451fa263f642477",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-8.el8.aarch64.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5c44e122c52a3c95b1654f945fbccfa5f23ccfbec979cc646573d5b7e824dfd2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-8.el8.ppc64le.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8d559ee49448452e6c4f24fae7c5c4a387b5f0da6c1bf86c43f4b74a89c19d5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-8.el8.ppc64le.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b2ca14315858565a535459ccecd265b3cc1cff1d4251d5124dd602ee453bccb8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-8.el8.ppc64le.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f2d899bcded124d7185bdd29a975dac14cb47703d9d3da6d168a127c96ae3d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-8.el8.s390x.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ced05b57d370c041b48f12224da49f2846dd4b880d450498dcfb9df3f56ddc44",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-8.el8.s390x.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e7e23c5a8a0923bc8b57b373f7c09d32bb35cd110c0710ca11753b3aa428bf05",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-8.el8.s390x.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "libX11-1.6.8-8.el8.src.rpm",
+			"version": "1.6.8"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2973",
+			"id": "RHSA-2024:2973",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-43785",
+			"id": "CVE-2023-43785",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-43786",
+			"id": "CVE-2023-43786",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-43787",
+			"id": "CVE-2023-43787",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242252",
+			"id": "2242252",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242253",
+			"id": "2242253",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242254",
+			"id": "2242254",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-2973.html",
+			"id": "ALSA-2024:2973",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libX11 security update",
+	"type": "security",
+	"updated_date": 1716993885
+}

@@ -29,18 +29,6 @@
 			"version": "104"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "42a2587e8f44f1d195c35a798c7e903943b5bcef129d63cdc1c9c6511ddb1ea8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mingw32-binutils-2.30-3.el8.aarch64.rpm",
-			"name": "mingw32-binutils",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "mingw-binutils-2.30-3.el8.src.rpm",
-			"version": "2.30"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "5ead7341f4fb765581cdd6ed8c8723c66ff788c5da29668d64725f534c683cab",
 			"checksum_type": "sha256",
@@ -63,18 +51,6 @@
 			"release": "1.el8",
 			"src": "mingw-sqlite-3.26.0.0-1.el8.src.rpm",
 			"version": "3.26.0.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "835910046fc1d6620dac15651e0e32a44636088ffb22ebdb6b684fdc279a491c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mingw-binutils-generic-2.30-3.el8.aarch64.rpm",
-			"name": "mingw-binutils-generic",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "mingw-binutils-2.30-3.el8.src.rpm",
-			"version": "2.30"
 		},
 		{
 			"arch": "noarch",
@@ -113,12 +89,12 @@
 			"version": "3.26.0.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "bb69ae77e561ed8b5245cf05cf18150d8e9b7eea86d9baf7ea9429845ca31d71",
+			"arch": "x86_64",
+			"checksum": "bd46328106c3173bd255701447eb54e602ecf66de27fda6c9a4b0a94a4065a8c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mingw64-binutils-2.30-3.el8.aarch64.rpm",
-			"name": "mingw64-binutils",
+			"filename": "mingw32-binutils-2.30-3.el8.x86_64.rpm",
+			"name": "mingw32-binutils",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "mingw-binutils-2.30-3.el8.src.rpm",
@@ -161,6 +137,18 @@
 			"version": "1.0.6"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "e69659adc97e487b5dc5ce0e7b1dd8e1d3b8e11859d08b6fea1a9dac5a10e8e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw64-binutils-2.30-3.el8.x86_64.rpm",
+			"name": "mingw64-binutils",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mingw-binutils-2.30-3.el8.src.rpm",
+			"version": "2.30"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "f38cbadb0f2be95dfa1d8d39406f47b8189ee2c9a6dcb5fb9f7d94af8b8ab8ff",
 			"checksum_type": "sha256",
@@ -174,10 +162,22 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "bd46328106c3173bd255701447eb54e602ecf66de27fda6c9a4b0a94a4065a8c",
+			"checksum": "ff69aa8fbbfef22dc1f95a94ee8e39b3e6e39b6c6fe58a4b70de9eb72a2bd3d3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mingw32-binutils-2.30-3.el8.x86_64.rpm",
+			"filename": "mingw-binutils-generic-2.30-3.el8.x86_64.rpm",
+			"name": "mingw-binutils-generic",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mingw-binutils-2.30-3.el8.src.rpm",
+			"version": "2.30"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "42a2587e8f44f1d195c35a798c7e903943b5bcef129d63cdc1c9c6511ddb1ea8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mingw32-binutils-2.30-3.el8.aarch64.rpm",
 			"name": "mingw32-binutils",
 			"reboot_suggested": 0,
 			"release": "3.el8",
@@ -185,24 +185,24 @@
 			"version": "2.30"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e69659adc97e487b5dc5ce0e7b1dd8e1d3b8e11859d08b6fea1a9dac5a10e8e7",
+			"arch": "aarch64",
+			"checksum": "835910046fc1d6620dac15651e0e32a44636088ffb22ebdb6b684fdc279a491c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mingw64-binutils-2.30-3.el8.x86_64.rpm",
-			"name": "mingw64-binutils",
+			"filename": "mingw-binutils-generic-2.30-3.el8.aarch64.rpm",
+			"name": "mingw-binutils-generic",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "mingw-binutils-2.30-3.el8.src.rpm",
 			"version": "2.30"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "ff69aa8fbbfef22dc1f95a94ee8e39b3e6e39b6c6fe58a4b70de9eb72a2bd3d3",
+			"arch": "aarch64",
+			"checksum": "bb69ae77e561ed8b5245cf05cf18150d8e9b7eea86d9baf7ea9429845ca31d71",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mingw-binutils-generic-2.30-3.el8.x86_64.rpm",
-			"name": "mingw-binutils-generic",
+			"filename": "mingw64-binutils-2.30-3.el8.aarch64.rpm",
+			"name": "mingw64-binutils",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "mingw-binutils-2.30-3.el8.src.rpm",
@@ -247,11 +247,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1968.html",
-			"id": "ALSA-2021-1968",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2019-16168",
 			"id": "CVE-2019-16168",
 			"type": "cve"
@@ -275,10 +270,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-13632",
 			"id": "CVE-2020-13632",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1968.html",
+			"id": "ALSA-2021-1968",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: mingw packages security and bug fix update",
 	"type": "security",
-	"updated_date": 1621319424
+	"updated_date": 1628672040
 }

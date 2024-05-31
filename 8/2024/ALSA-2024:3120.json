@@ -1,0 +1,164 @@
+{
+	"description": "freeglut is a completely open source alternative to the OpenGL Utility Toolkit (GLUT) library with an OSI approved free software license.\n\nSecurity Fix(es):\n\n* freeglut: memory leak via glutAddSubMenu() function (CVE-2024-24258)\n* freeglut: memory leak via glutAddMenuEntry() function (CVE-2024-24259)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:3120",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "53104520a06d6f1fa4b924c97ddf86d315e52617072229e353ef91d0be5fc999",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.0.0-9.el8.i686.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9a385c2d9afe5909343ffabdc8c70f44dd21ed80050dbee09ee51cf49903c196",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.0.0-9.el8.i686.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "343b0567238f29c60d8fa26d34287b0b20a7a5aa7207501ea67bd5f77e324a7c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.0.0-9.el8.x86_64.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "afc2d91fb4385409280ce5f7966ff5dbcc9b7fbc49d1552d9e18c242407c79f2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.0.0-9.el8.x86_64.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "503c34d3c745416eeaa571bda6834d1ffa2d5b49e2b9b651f2bb0992b5ddb24e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.0.0-9.el8.aarch64.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d31c2db03569aed2bda53fb679be079cf7b37af20cbd83ae6691ac360421bff7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.0.0-9.el8.aarch64.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "80c924dd129ddb90f3ddd6d0796efb32a5d72fd8422dfa9e6683946b8e4ebbc7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.0.0-9.el8.ppc64le.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e903ed34e5b3092e71c1545fbf6504e1c20f5429515033665049991f90cea790",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.0.0-9.el8.ppc64le.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2802b8bf7bcc4df4d9aaec1a7eed362f306af4cb7ebe8431b38e7ab6625fb9d2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.0.0-9.el8.s390x.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7ee7e1e5a19f266c85964447f8f02b3f4f06a3a6fc1214208bbd651303c93998",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.0.0-9.el8.s390x.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freeglut-3.0.0-9.el8.src.rpm",
+			"version": "3.0.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3120",
+			"id": "RHSA-2024:3120",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24258",
+			"id": "CVE-2024-24258",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24259",
+			"id": "CVE-2024-24259",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2263939",
+			"id": "2263939",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2263943",
+			"id": "2263943",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3120.html",
+			"id": "ALSA-2024:3120",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: freeglut security update",
+	"type": "security",
+	"updated_date": 1716993602
+}

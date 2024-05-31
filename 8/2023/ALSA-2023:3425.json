@@ -29,11 +29,11 @@
 			"version": "1.20.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "34a6f69c12ec214ab5b59a40ab6e5a6824c2a6d39793b2cdec7f6df7e3b2b26b",
+			"arch": "x86_64",
+			"checksum": "8f66e5bb0fd9cbb41f6f2749333b732f606cbacf97b7287e7688d39934fb19d5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.aarch64.rpm",
+			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.x86_64.rpm",
 			"name": "cups-filters-devel",
 			"reboot_suggested": 0,
 			"release": "29.el8_8.2",
@@ -41,11 +41,11 @@
 			"version": "1.20.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "8f66e5bb0fd9cbb41f6f2749333b732f606cbacf97b7287e7688d39934fb19d5",
+			"arch": "aarch64",
+			"checksum": "34a6f69c12ec214ab5b59a40ab6e5a6824c2a6d39793b2cdec7f6df7e3b2b26b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.x86_64.rpm",
+			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.aarch64.rpm",
 			"name": "cups-filters-devel",
 			"reboot_suggested": 0,
 			"release": "29.el8_8.2",
@@ -102,18 +102,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "e5513bd6f99e7db5e125123dd33cc3e3a85bdd00015fc886e1d2b7d13ff76d40",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.ppc64le.rpm",
-			"name": "cups-filters-devel",
-			"reboot_suggested": 0,
-			"release": "29.el8_8.2",
-			"src": "cups-filters-1.20.0-29.el8_8.2.src.rpm",
-			"version": "1.20.0"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "13f06356aa24a6bcfc3e259ecd4f04e1c02e7d3de300ffd4507a3be117cab7dd",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -131,6 +119,18 @@
 			"epoch": "0",
 			"filename": "cups-filters-1.20.0-29.el8_8.2.ppc64le.rpm",
 			"name": "cups-filters",
+			"reboot_suggested": 0,
+			"release": "29.el8_8.2",
+			"src": "cups-filters-1.20.0-29.el8_8.2.src.rpm",
+			"version": "1.20.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e5513bd6f99e7db5e125123dd33cc3e3a85bdd00015fc886e1d2b7d13ff76d40",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cups-filters-devel-1.20.0-29.el8_8.2.ppc64le.rpm",
+			"name": "cups-filters-devel",
 			"reboot_suggested": 0,
 			"release": "29.el8_8.2",
 			"src": "cups-filters-1.20.0-29.el8_8.2.src.rpm",

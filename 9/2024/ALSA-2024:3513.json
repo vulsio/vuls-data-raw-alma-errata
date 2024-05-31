@@ -1,0 +1,82 @@
+{
+	"description": "The \"less\" utility is a text file browser that resembles \"more\", but allows users to move backwards in the file as well as forwards. Since \"less\" does not read the entire input file at startup, it also starts more quickly than ordinary text editors.\n\nSecurity Fix(es):\n\n* less: OS command injection (CVE-2024-32487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:3513",
+	"issued_date": 1717027200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "cd551b728138b9cfad00fe1d03a5b796f1f45e105d1321dbdbc76bd3835759bb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-590-4.el9_4.aarch64.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "less-590-4.el9_4.src.rpm",
+			"version": "590"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e991bce4845ee1f31a098544ba30f87f98efb472cb290114468f6a562f6b80fb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-590-4.el9_4.x86_64.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "less-590-4.el9_4.src.rpm",
+			"version": "590"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5fa0a4085e62e8cf86ffbb4bf5e10bee977dc53c8d9a7884dd3cb2af20c54ed1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-590-4.el9_4.ppc64le.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "less-590-4.el9_4.src.rpm",
+			"version": "590"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9a3db7063613807f8ff75204f3d88b5366d626b11d211692d1fc916dd06b9d1b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-590-4.el9_4.s390x.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "less-590-4.el9_4.src.rpm",
+			"version": "590"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3513",
+			"id": "RHSA-2024:3513",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-32487",
+			"id": "CVE-2024-32487",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274980",
+			"id": "2274980",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-3513.html",
+			"id": "ALSA-2024:3513",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: less security update",
+	"type": "security",
+	"updated_date": 1717099861
+}

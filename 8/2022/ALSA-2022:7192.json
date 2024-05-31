@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "x86_64",
+			"checksum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
+			"name": "device-mapper-multipath-devel",
+			"reboot_suggested": 0,
+			"release": "22.el8_6.2",
+			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+			"version": "0.8.4"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "6e9cf59ce5be7ccf936759a8e830c9da94566319755271fb628fc8459484578c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -113,18 +125,6 @@
 			"version": "0.8.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
-			"name": "device-mapper-multipath-devel",
-			"reboot_suggested": 0,
-			"release": "22.el8_6.2",
-			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-			"version": "0.8.4"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "35d333fe2d8c1539d955769ac2bb8f4b514a9a5acc190b422f938b8a21fa29b9",
 			"checksum_type": "sha256",
@@ -186,6 +186,18 @@
 		},
 		{
 			"arch": "s390x",
+			"checksum": "d86c41c023d4331a9920fade5c5623633f8ce690867dccbaa5ad65623fff13d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.s390x.rpm",
+			"name": "device-mapper-multipath-devel",
+			"reboot_suggested": 0,
+			"release": "22.el8_6.2",
+			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+			"version": "0.8.4"
+		},
+		{
+			"arch": "s390x",
 			"checksum": "981f1d0b7072e42b4462bb4e1fb71dbd472309dd0d429cb0b68cd4a5904e70e6",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -231,18 +243,6 @@
 			"release": "22.el8_6.2",
 			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
 			"version": "0.8.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "d86c41c023d4331a9920fade5c5623633f8ce690867dccbaa5ad65623fff13d6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.s390x.rpm",
-			"name": "device-mapper-multipath-devel",
-			"reboot_suggested": 0,
-			"release": "22.el8_6.2",
-			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-			"version": "0.8.4"
 		}
 	],
 	"references": [
@@ -270,5 +270,5 @@
 	"severity": "Important",
 	"title": "Important: device-mapper-multipath security update",
 	"type": "security",
-	"updated_date": 1666765457
+	"updated_date": 1666765455
 }

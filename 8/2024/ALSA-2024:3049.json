@@ -1,0 +1,46 @@
+{
+	"description": "Convert::ASN1 encodes and decodes ASN.1 data structures using BER/DER rules.\n\nSecurity Fix(es):\n\n* perl-Convert-ASN1: allows remote attackers to cause an infinite loop via unexpected input (CVE-2013-7488)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:3049",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "8ec74995e2fc22f2a69833c055b364d45b52f40b9fb4c113f75980f35de56cef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-Convert-ASN1-0.27-18.el8.noarch.rpm",
+			"name": "perl-Convert-ASN1",
+			"reboot_suggested": 0,
+			"release": "18.el8",
+			"src": "perl-Convert-ASN1-0.27-18.el8.src.rpm",
+			"version": "0.27"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3049",
+			"id": "RHSA-2024:3049",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2013-7488",
+			"id": "CVE-2013-7488",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/1821879",
+			"id": "1821879",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3049.html",
+			"id": "ALSA-2024:3049",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: perl-Convert-ASN1 security update",
+	"type": "security",
+	"updated_date": 1716985150
+}

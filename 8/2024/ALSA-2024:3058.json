@@ -1,0 +1,92 @@
+{
+	"description": "Mutt is a low resource, highly configurable, text-based MIME e-mail client. Mutt supports most e-mail storing formats, such as mbox and Maildir, as well as most protocols, including POP3 and IMAP.\n\nSecurity Fix(es):\n\n* mutt: null pointer dereference (CVE-2023-4874)\n* mutt: null pointer dereference (CVE-2023-4875)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:3058",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "4be7fbdfc49989201b1eaec92847bfdd2192be98a9964e9ea00cec1cf7eaf8a3",
+			"checksum_type": "sha256",
+			"epoch": "5",
+			"filename": "mutt-2.0.7-3.el8.x86_64.rpm",
+			"name": "mutt",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mutt-2.0.7-3.el8.src.rpm",
+			"version": "2.0.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8b6feb62208dff090427ee1abca5ef92dbaaa8c4a66cbff1e334a29dc523bd00",
+			"checksum_type": "sha256",
+			"epoch": "5",
+			"filename": "mutt-2.0.7-3.el8.aarch64.rpm",
+			"name": "mutt",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mutt-2.0.7-3.el8.src.rpm",
+			"version": "2.0.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "790cb825e3085cf5dd20f9d70b1f960ecf38d4fea67f6b506eaf886f555fd966",
+			"checksum_type": "sha256",
+			"epoch": "5",
+			"filename": "mutt-2.0.7-3.el8.ppc64le.rpm",
+			"name": "mutt",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mutt-2.0.7-3.el8.src.rpm",
+			"version": "2.0.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9a60fafd50ec8dd275e8514d8afadeeb01829abade9b6ec1d595164c84245ae8",
+			"checksum_type": "sha256",
+			"epoch": "5",
+			"filename": "mutt-2.0.7-3.el8.s390x.rpm",
+			"name": "mutt",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "mutt-2.0.7-3.el8.src.rpm",
+			"version": "2.0.7"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3058",
+			"id": "RHSA-2024:3058",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4874",
+			"id": "CVE-2023-4874",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-4875",
+			"id": "CVE-2023-4875",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2238240",
+			"id": "2238240",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2238241",
+			"id": "2238241",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3058.html",
+			"id": "ALSA-2024:3058",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: mutt security update",
+	"type": "security",
+	"updated_date": 1716993577
+}

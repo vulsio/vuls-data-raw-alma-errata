@@ -1,0 +1,140 @@
+{
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for\nGraphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n* grafana: vulnerable to authorization bypass (CVE-2024-1313)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:3265",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "5382374dfbe160aacbb44af708331e99f1b88091f96cf9e32d6ec4c48b34a7d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-16.el8_10.x86_64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a6423bc4e0b0bef493b2768534f7e9f81ce35ab4a149e1db291a4b35ce2bb382",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-16.el8_10.x86_64.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1ab012787d918f04e0546b41a9e8902eaf144cc098a95e229fc8f098be7582e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-16.el8_10.aarch64.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f7eddc98d657a1e117505eb05b4b6d7ea049a761f64ca7ffb99c6cde8fab96e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-16.el8_10.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2a04515e14b6471102fd61c62fcd032d70721ddf4620c6fc41d6f31b65814e4f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-16.el8_10.ppc64le.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b84149af24f1e31619528ef0091eaa58ba2fad9b4e4658f16c41319dbfb513e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-16.el8_10.ppc64le.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5e03e0705e8bc51c2d8b0ba6c3a37c6fba705e4737b0c1c14699a96acc0466d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-16.el8_10.s390x.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c2ae82d57742bffce825de91f52ef7b7dd1bd92d0de6f168f529965f87e8389f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-16.el8_10.s390x.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el8_10",
+			"src": "grafana-9.2.10-16.el8_10.src.rpm",
+			"version": "9.2.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3265",
+			"id": "RHSA-2024:3265",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-1313",
+			"id": "CVE-2024-1313",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-1394",
+			"id": "CVE-2024-1394",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2262921",
+			"id": "2262921",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271903",
+			"id": "2271903",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3265.html",
+			"id": "ALSA-2024:3265",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: grafana security update",
+	"type": "security",
+	"updated_date": 1716993610
+}

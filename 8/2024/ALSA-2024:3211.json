@@ -1,0 +1,82 @@
+{
+	"description": "The traceroute utility displays the route used by IP packets on their way to a specified network (or Internet) host.\n\nSecurity Fix(es):\n\n* traceroute: improper command line parsing (CVE-2023-46316)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:3211",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "ba3da22f72f558bb827e76de28910d0cb857dd87b07199b21779c9633ea24fee",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "traceroute-2.1.0-8.el8.x86_64.rpm",
+			"name": "traceroute",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "traceroute-2.1.0-8.el8.src.rpm",
+			"version": "2.1.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1763fbfde4ea6487bf37ad8a24d2e10a9a0a361126d37a0cc1f3de7e4db1b34c",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "traceroute-2.1.0-8.el8.aarch64.rpm",
+			"name": "traceroute",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "traceroute-2.1.0-8.el8.src.rpm",
+			"version": "2.1.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "05526daae5439b81601fcc637323803e084d2aac032f20facbb414686b185a24",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "traceroute-2.1.0-8.el8.ppc64le.rpm",
+			"name": "traceroute",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "traceroute-2.1.0-8.el8.src.rpm",
+			"version": "2.1.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6820f15ada88367000751d53c1942be7a299495ee0fa1d5eb348ef2dda47d6bc",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "traceroute-2.1.0-8.el8.s390x.rpm",
+			"name": "traceroute",
+			"reboot_suggested": 0,
+			"release": "8.el8",
+			"src": "traceroute-2.1.0-8.el8.src.rpm",
+			"version": "2.1.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3211",
+			"id": "RHSA-2024:3211",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-46316",
+			"id": "CVE-2023-46316",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246303",
+			"id": "2246303",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3211.html",
+			"id": "ALSA-2024:3211",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: traceroute security update",
+	"type": "security",
+	"updated_date": 1716993583
+}

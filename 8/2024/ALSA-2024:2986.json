@@ -1,0 +1,46 @@
+{
+	"description": "The python-urllib3 package provides the Python HTTP module with connection pooling and file POST abilities.\n\nSecurity Fix(es):\n\n* python-urllib3: Cookie request header isn't stripped during cross-origin redirects (CVE-2023-43804)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2986",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "e8656b9901104210105668e2765f7bfa69b344a5c77579c7d82a13f731a89639",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-urllib3-1.26.12-2.el8.noarch.rpm",
+			"name": "python3.11-urllib3",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "python3.11-urllib3-1.26.12-2.el8.src.rpm",
+			"version": "1.26.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2986",
+			"id": "RHSA-2024:2986",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-43804",
+			"id": "CVE-2023-43804",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2242493",
+			"id": "2242493",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-2986.html",
+			"id": "ALSA-2024:2986",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python3.11-urllib3 security update",
+	"type": "security",
+	"updated_date": 1716985149
+}

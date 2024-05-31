@@ -1,0 +1,134 @@
+{
+	"description": "FRRouting is free software that manages TCP/IP based routing protocols. It supports BGP4, OSPFv2, OSPFv3, ISIS, RIP, RIPng, PIM, NHRP, PBR, EIGRP and BFD. \n\nSecurity Fix(es):\n\n* frr: missing length check in bgp_attr_psid_sub() can lead do DoS (CVE-2023-31490)\n* frr: processes invalid NLRIs if attribute length is zero (CVE-2023-41358)\n* frr: NULL pointer dereference in bgp_nlri_parse_flowspec() in bgpd/bgp_flowspec.c (CVE-2023-41909)\n* frr: mishandled malformed data leading to a crash (CVE-2023-46752)\n* frr: crafted BGP UPDATE message leading to a crash (CVE-2023-46753)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2981",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "a9084424bc3c86a44864c397eb368afab0a49d2aaac2a9b5ab990033e5816cfc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-selinux-7.5.1-22.el8.noarch.rpm",
+			"name": "frr-selinux",
+			"reboot_suggested": 0,
+			"release": "22.el8",
+			"src": "frr-7.5.1-22.el8.src.rpm",
+			"version": "7.5.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d892ae39d75640ed6e290d71c3038009ae7b8f86b2a619422d5bf38e42e0a4b9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-7.5.1-22.el8.x86_64.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "22.el8",
+			"src": "frr-7.5.1-22.el8.src.rpm",
+			"version": "7.5.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0762e8a33858e4c344a1123172cf7fbf9e448f4892d0501a01800178ae1d080a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-7.5.1-22.el8.aarch64.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "22.el8",
+			"src": "frr-7.5.1-22.el8.src.rpm",
+			"version": "7.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "56e6e030bf5a4a10c5efbe799e15817b3becda990e76b55259b1bfaa76905f59",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-7.5.1-22.el8.ppc64le.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "22.el8",
+			"src": "frr-7.5.1-22.el8.src.rpm",
+			"version": "7.5.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a496b8ee0dcf2b1630b98d9f25a2022057771625a8fda9d9be6fd2fe8bf0ba5c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-7.5.1-22.el8.s390x.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "22.el8",
+			"src": "frr-7.5.1-22.el8.src.rpm",
+			"version": "7.5.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2981",
+			"id": "RHSA-2024:2981",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-31490",
+			"id": "CVE-2023-31490",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-41358",
+			"id": "CVE-2023-41358",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-41909",
+			"id": "CVE-2023-41909",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-46752",
+			"id": "CVE-2023-46752",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-46753",
+			"id": "CVE-2023-46753",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2235839",
+			"id": "2235839",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2237416",
+			"id": "2237416",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2238992",
+			"id": "2238992",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246379",
+			"id": "2246379",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246381",
+			"id": "2246381",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-2981.html",
+			"id": "ALSA-2024:2981",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: frr security update",
+	"type": "security",
+	"updated_date": 1716993723
+}

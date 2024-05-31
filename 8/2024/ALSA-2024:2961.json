@@ -1,0 +1,178 @@
+{
+	"description": "Image Builder is a service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood.\n\nSecurity Fix(es):\n\n* osbuild-composer: race condition may disable GPG verification for package repositories (CVE-2024-2307)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.",
+	"id": "ALSA-2024:2961",
+	"issued_date": 1716336000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "5ed9a4e0e9dd81c5d5d6d6197745655662c1ad9647fcadd1bf7cb848ffbd7521",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-worker-101-1.el8.alma.1.x86_64.rpm",
+			"name": "osbuild-composer-worker",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8f48a837f77e1d76f043b1cb533fb08ada4b3a3a4d964729eb746e39f92271d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-core-101-1.el8.alma.1.x86_64.rpm",
+			"name": "osbuild-composer-core",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b8f1381b32ca35d20a64221dce4911c4513931e6d38b94503b38506044b8fd64",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-101-1.el8.alma.1.x86_64.rpm",
+			"name": "osbuild-composer",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3f59d172741baab8bdbf22ac85db25cf240ca145a606a3b493126f168191ed12",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-worker-101-1.el8.alma.1.aarch64.rpm",
+			"name": "osbuild-composer-worker",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b2a4a20959c0840843f125404165202cca971a12861d83d6080bff7530dc6e53",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-101-1.el8.alma.1.aarch64.rpm",
+			"name": "osbuild-composer",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b39ad4da7de57a98f8639dddeab949fd3760a695cd89d0c99118a26ee4f57fba",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-core-101-1.el8.alma.1.aarch64.rpm",
+			"name": "osbuild-composer-core",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "20c106ead71d8569a454987fe6a259651758d0ab88c5fc04f3a6ecde5d256b73",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-worker-101-1.el8.alma.1.ppc64le.rpm",
+			"name": "osbuild-composer-worker",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "31fb996ae33ac8e21f37c825527e25200c44f6406909bffa9b10d2f56ffdb4ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-core-101-1.el8.alma.1.ppc64le.rpm",
+			"name": "osbuild-composer-core",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3a00943f3f35e479f698c1dba93eae0696754cc69ac43fc60cff05645a2046c9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-101-1.el8.alma.1.ppc64le.rpm",
+			"name": "osbuild-composer",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a1fbb0097bf3eb1b14c5a04f12d63f29296c9b2216b8a2651a110c53734b8e38",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-101-1.el8.alma.1.s390x.rpm",
+			"name": "osbuild-composer",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "bc5bae12773b79a04fc0c1d9de04860cf7ddf4904252f08dc3e278527809cce6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-core-101-1.el8.alma.1.s390x.rpm",
+			"name": "osbuild-composer-core",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e51891da927085400f933bbfb1a45c1739ba36f20771b859d77f8ef740310a48",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "osbuild-composer-worker-101-1.el8.alma.1.s390x.rpm",
+			"name": "osbuild-composer-worker",
+			"reboot_suggested": 0,
+			"release": "1.el8.alma.1",
+			"src": "osbuild-composer-101-1.el8.alma.1.src.rpm",
+			"version": "101"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:2961",
+			"id": "RHSA-2024:2961",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2307",
+			"id": "CVE-2024-2307",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2268513",
+			"id": "2268513",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-2961.html",
+			"id": "ALSA-2024:2961",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: Image builder components bug fix, enhancement and security update",
+	"type": "security",
+	"updated_date": 1716993622
+}

@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "af30e036ea326c48c2381bd4a46d7a3e57ec89634762af53e03cb89914171020",
+			"arch": "x86_64",
+			"checksum": "757c15e1754a6a4dd945b2bfe3280a1a8ce456b829d3283217dbbfe1f6fad0d4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.aarch64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.x86_64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "2.el8_9",
@@ -17,11 +17,11 @@
 			"version": "8.0.102"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "757c15e1754a6a4dd945b2bfe3280a1a8ce456b829d3283217dbbfe1f6fad0d4",
+			"arch": "aarch64",
+			"checksum": "af30e036ea326c48c2381bd4a46d7a3e57ec89634762af53e03cb89914171020",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.x86_64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.aarch64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "2.el8_9",
@@ -159,6 +159,42 @@
 			"release": "2.el8_9",
 			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
 			"version": "8.0.102"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0eb458cc0e54820219ea22706de26aebb8fc4261dedf6ec03649d6889813c729",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-dbg-8.0-8.0.102-2.el8_9.aarch64.rpm",
+			"name": "dotnet-sdk-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "2.el8_9",
+			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
+			"version": "8.0.102"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ce973db9dc18809c128deb4fb413ab2b2d6adc150b631f0bf915387c7e49c7ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "aspnetcore-runtime-dbg-8.0-8.0.2-2.el8_9.aarch64.rpm",
+			"name": "aspnetcore-runtime-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "2.el8_9",
+			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
+			"version": "8.0.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ea72065b3d8856fbf955ad537a1c7e0b4ac4ed559a0f614d1b5e83a1e44cf8eb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-runtime-dbg-8.0-8.0.2-2.el8_9.aarch64.rpm",
+			"name": "dotnet-runtime-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "2.el8_9",
+			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
+			"version": "8.0.2"
 		},
 		{
 			"arch": "aarch64",
@@ -329,42 +365,6 @@
 			"version": "8.0.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0eb458cc0e54820219ea22706de26aebb8fc4261dedf6ec03649d6889813c729",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-dbg-8.0-8.0.102-2.el8_9.aarch64.rpm",
-			"name": "dotnet-sdk-dbg-8.0",
-			"reboot_suggested": 0,
-			"release": "2.el8_9",
-			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
-			"version": "8.0.102"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ce973db9dc18809c128deb4fb413ab2b2d6adc150b631f0bf915387c7e49c7ee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "aspnetcore-runtime-dbg-8.0-8.0.2-2.el8_9.aarch64.rpm",
-			"name": "aspnetcore-runtime-dbg-8.0",
-			"reboot_suggested": 0,
-			"release": "2.el8_9",
-			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
-			"version": "8.0.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ea72065b3d8856fbf955ad537a1c7e0b4ac4ed559a0f614d1b5e83a1e44cf8eb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-runtime-dbg-8.0-8.0.2-2.el8_9.aarch64.rpm",
-			"name": "dotnet-runtime-dbg-8.0",
-			"reboot_suggested": 0,
-			"release": "2.el8_9",
-			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
-			"version": "8.0.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "1df031441123f387faf2608ed23f7d01322d6eb1d4e2a4b7fd28d8ced4f25981",
 			"checksum_type": "sha256",
@@ -399,18 +399,6 @@
 			"release": "2.el8_9",
 			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
 			"version": "8.0.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "29c7af31281717c93e193ad08d2f38a9b1ed5b5aa8dcdbc9f9501de9c491b1ce",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.ppc64le.rpm",
-			"name": "dotnet-sdk-8.0-source-built-artifacts",
-			"reboot_suggested": 0,
-			"release": "2.el8_9",
-			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
-			"version": "8.0.102"
 		},
 		{
 			"arch": "ppc64le",
@@ -539,6 +527,18 @@
 			"epoch": "0",
 			"filename": "dotnet-templates-8.0-8.0.102-2.el8_9.ppc64le.rpm",
 			"name": "dotnet-templates-8.0",
+			"reboot_suggested": 0,
+			"release": "2.el8_9",
+			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
+			"version": "8.0.102"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "29c7af31281717c93e193ad08d2f38a9b1ed5b5aa8dcdbc9f9501de9c491b1ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.102-2.el8_9.ppc64le.rpm",
+			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "2.el8_9",
 			"src": "dotnet8.0-8.0.102-2.el8_9.src.rpm",
