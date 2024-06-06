@@ -1,0 +1,202 @@
+{
+	"description": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.\n\nSecurity Fix(es):\n\n* cockpit: command injection when deleting a sosreport with a crafted name (CVE-2024-2947)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:3667",
+	"issued_date": 1717632000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "c45516e6904042551edbb1d459d09589ec4d65b739da0aae966bb36d3d061b68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-system-310.4-1.el8_10.noarch.rpm",
+			"name": "cockpit-system",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e1b29397d19e0753a737a719462be7424f3dbdcbeeff7362c6617c03bed0fac2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-doc-310.4-1.el8_10.noarch.rpm",
+			"name": "cockpit-doc",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "289d4fc57534ea3cf2f8ca14dd0af03be6d74b68f805ddfb99e2cb5025731b3c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "34dba5806f472bcb527c912d8c85fd18bc6a1abca4c53f5958edcc9957b6d4a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71b96fb144f979f41ba0c4f1b2b01ea61e412b0a2e0dbe77d577b7a5426be55e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1e4ca98779caab143d57e5d43bd82d99ab3546039ebadf546cc48a7f5ac4545f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-310.4-1.el8_10.aarch64.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d18422e13f6c79a41b2f47c617ca066472b968f8140fcc94de8bbd52875b2d3b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-310.4-1.el8_10.aarch64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d5ce89e78eef1042f6d446eee4eb2e60123efe452a776a3eb9947f4188375f52",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-310.4-1.el8_10.aarch64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ae3a271fb479ff89d4032b6ba4807787d645d0329488e64a6b9242de0525e5d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-310.4-1.el8_10.ppc64le.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c1afa0d996fe1a8046815f255c2a1f1b1568dac6c02dfc92fdb6647b7128a38f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-310.4-1.el8_10.ppc64le.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "efa8fa0a4d4149ea0c180304aa4a0e8fe1d05c020d98a4ac266b067c632f7d68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-310.4-1.el8_10.ppc64le.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "18e178b685e5cf3f4f2cbd4a1cf6688c3aec24811ec6da7da931afc380ecd1e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-310.4-1.el8_10.s390x.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5f501f408255b9a8a0926d197e18a90d6044ab8a234947aca810f70c63f5cb30",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-310.4-1.el8_10.s390x.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d51b18241d7a892bfb087d727694ea65174989b569fb913b4f77226ffcff81dd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-310.4-1.el8_10.s390x.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3667",
+			"id": "RHSA-2024:3667",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2947",
+			"id": "CVE-2024-2947",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271614",
+			"id": "2271614",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3667.html",
+			"id": "ALSA-2024:3667",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: cockpit security update",
+	"type": "security",
+	"updated_date": 1717678672
+}
