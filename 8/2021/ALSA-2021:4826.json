@@ -4,18 +4,18 @@
 	"issued_date": 1637698655,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "aa3ced04",
-			"name": "mailman",
-			"stream": "2.1",
-			"version": "8050020211124141021"
-		},
-		{
 			"arch": "aarch64",
 			"context": "aa3ced04",
 			"name": "mailman",
 			"stream": "2.1",
 			"version": "8050020211203030332"
+		},
+		{
+			"arch": "x86_64",
+			"context": "aa3ced04",
+			"name": "mailman",
+			"stream": "2.1",
+			"version": "8050020211124141021"
 		},
 		{
 			"arch": "ppc64le",
@@ -27,19 +27,6 @@
 	],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "365b7f111fcd8680044caadf67c14f988d4719e48e9a61245b6d433e43edf955",
-			"checksum_type": "sha256",
-			"epoch": "3",
-			"filename": "mailman-2.1.29-12.module_el8.5.0+2601+e8845b76.1.x86_64.rpm",
-			"module": "mailman:2.1:8050020211124141021:aa3ced04:x86_64",
-			"name": "mailman",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.5.0+2601+e8845b76.1",
-			"src": "mailman-2.1.29-12.module_el8.5.0+2601+e8845b76.1.src.rpm",
-			"version": "2.1.29"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "efe69d400b2d20c0d8051d2e3e87f550b6deb07fbae9d6e0fabb5350b8283a7a",
 			"checksum_type": "sha256",
@@ -50,6 +37,19 @@
 			"reboot_suggested": 0,
 			"release": "12.module_el8.5.0+2602+327eb9f3.2",
 			"src": "mailman-2.1.29-12.module_el8.5.0+2602+327eb9f3.2.src.rpm",
+			"version": "2.1.29"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "365b7f111fcd8680044caadf67c14f988d4719e48e9a61245b6d433e43edf955",
+			"checksum_type": "sha256",
+			"epoch": "3",
+			"filename": "mailman-2.1.29-12.module_el8.5.0+2601+e8845b76.1.x86_64.rpm",
+			"module": "mailman:2.1:8050020211124141021:aa3ced04:x86_64",
+			"name": "mailman",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.5.0+2601+e8845b76.1",
+			"src": "mailman-2.1.29-12.module_el8.5.0+2601+e8845b76.1.src.rpm",
 			"version": "2.1.29"
 		},
 		{
@@ -68,6 +68,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4826.html",
+			"id": "ALSA-2021-4826",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2021-42096",
 			"id": "CVE-2021-42096",
 			"type": "cve"
@@ -76,15 +81,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-42097",
 			"id": "CVE-2021-42097",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4826.html",
-			"id": "ALSA-2021-4826",
-			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: mailman:2.1 security update",
 	"type": "security",
-	"updated_date": 1637787179
+	"updated_date": 1637698655
 }
