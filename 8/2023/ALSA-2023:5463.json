@@ -6,47 +6,23 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "5142a9ebc9419eeaf1ed44bffe34f5a7ed1050d9ff08ae8c880f3f46e429a869",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-devel-3.11.2-2.el8_8.2.i686.rpm",
-			"name": "python3.11-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8_8.2",
-			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
-			"version": "3.11.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "678bde342133be317a11236e091d8da2101c239582a8e9d087fa350f9b2f402f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-rpm-macros-3.11.2-2.el8_8.2.noarch.rpm",
-			"name": "python3.11-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "2.el8_8.2",
-			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
-			"version": "3.11.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "6d79916602e06f0229505f6d9f4a7c49e3ce78358790a3dd81f4d3711f634227",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-libs-3.11.2-2.el8_8.2.i686.rpm",
-			"name": "python3.11-libs",
-			"reboot_suggested": 0,
-			"release": "2.el8_8.2",
-			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
-			"version": "3.11.2"
-		},
-		{
-			"arch": "i686",
 			"checksum": "39ad2ae7907b70e2301453b186803a228acf03ab708ae9945762162428febea1",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3.11-idle-3.11.2-2.el8_8.2.i686.rpm",
 			"name": "python3.11-idle",
+			"reboot_suggested": 0,
+			"release": "2.el8_8.2",
+			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
+			"version": "3.11.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "5142a9ebc9419eeaf1ed44bffe34f5a7ed1050d9ff08ae8c880f3f46e429a869",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-devel-3.11.2-2.el8_8.2.i686.rpm",
+			"name": "python3.11-devel",
 			"reboot_suggested": 0,
 			"release": "2.el8_8.2",
 			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
@@ -95,6 +71,30 @@
 			"epoch": "0",
 			"filename": "python3.11-test-3.11.2-2.el8_8.2.i686.rpm",
 			"name": "python3.11-test",
+			"reboot_suggested": 0,
+			"release": "2.el8_8.2",
+			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
+			"version": "3.11.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "678bde342133be317a11236e091d8da2101c239582a8e9d087fa350f9b2f402f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-rpm-macros-3.11.2-2.el8_8.2.noarch.rpm",
+			"name": "python3.11-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "2.el8_8.2",
+			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
+			"version": "3.11.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "6d79916602e06f0229505f6d9f4a7c49e3ce78358790a3dd81f4d3711f634227",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-libs-3.11.2-2.el8_8.2.i686.rpm",
+			"name": "python3.11-libs",
 			"reboot_suggested": 0,
 			"release": "2.el8_8.2",
 			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
@@ -221,30 +221,6 @@
 			"version": "3.11.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "53df55d06a416d7fbb692c61fb5a35f17710f3532920deb8def3c0d84ee024e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-libs-3.11.2-2.el8_8.2.aarch64.rpm",
-			"name": "python3.11-libs",
-			"reboot_suggested": 0,
-			"release": "2.el8_8.2",
-			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
-			"version": "3.11.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "eb4fd43c999c0c1b8470e722443b9ac89097b5d60a5e757a0bbacdcbd1bb612b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-3.11.2-2.el8_8.2.aarch64.rpm",
-			"name": "python3.11",
-			"reboot_suggested": 0,
-			"release": "2.el8_8.2",
-			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
-			"version": "3.11.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "18d7736b2d8c8f53b8190ad59135fc8057a6281985777140fb894f0c9b213359",
 			"checksum_type": "sha256",
@@ -262,6 +238,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3.11-3.11.2-2.el8_8.2.x86_64.rpm",
+			"name": "python3.11",
+			"reboot_suggested": 0,
+			"release": "2.el8_8.2",
+			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
+			"version": "3.11.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "53df55d06a416d7fbb692c61fb5a35f17710f3532920deb8def3c0d84ee024e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-libs-3.11.2-2.el8_8.2.aarch64.rpm",
+			"name": "python3.11-libs",
+			"reboot_suggested": 0,
+			"release": "2.el8_8.2",
+			"src": "python3.11-3.11.2-2.el8_8.2.src.rpm",
+			"version": "3.11.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "eb4fd43c999c0c1b8470e722443b9ac89097b5d60a5e757a0bbacdcbd1bb612b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-3.11.2-2.el8_8.2.aarch64.rpm",
 			"name": "python3.11",
 			"reboot_suggested": 0,
 			"release": "2.el8_8.2",
@@ -462,5 +462,5 @@
 	"severity": "Important",
 	"title": "Important: python3.11 security update",
 	"type": "security",
-	"updated_date": 1696584825
+	"updated_date": 1696584819
 }

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "5d84c7719bb5ddba51d00175b26bff26333f6904f08bf6408084927fb24c80c6",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind9.16-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
-			"name": "python3-bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "b4b5bbfa4be8453ed0a34c8637e440adb001438fc59c65af8ab5c007a9d5bd96",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-license-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
-			"name": "bind9.16-license",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "i686",
 			"checksum": "103e12eadafd1c6450724daeb32794c33685b35f2b6726d488489cd40f2ae857",
 			"checksum_type": "sha256",
@@ -54,11 +30,35 @@
 		},
 		{
 			"arch": "noarch",
+			"checksum": "5d84c7719bb5ddba51d00175b26bff26333f6904f08bf6408084927fb24c80c6",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind9.16-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
+			"name": "python3-bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
 			"checksum": "8e544110bed059bf34466eff737b3a9b9ccada47075189a9d8580dcb84244ce4",
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind9.16-doc-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
 			"name": "bind9.16-doc",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b4b5bbfa4be8453ed0a34c8637e440adb001438fc59c65af8ab5c007a9d5bd96",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-license-9.16.23-0.14.el8_8.2.alma.1.noarch.rpm",
+			"name": "bind9.16-license",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
 			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
@@ -113,54 +113,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3627cac27cae3d3808ed0ed139b38e25cf048b9d0d18d8ef68c3e042fb25a8dd",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
-			"name": "bind9.16",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "4fc7a4d6479a5606ba31f0766292d45bbf0bfecec6c193d1a480eaab9eab8548",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
-			"name": "bind9.16-libs",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "8d00a1f4ef51a0d110e6627ab85e61d3f830fa6e990774798620219715ea89d4",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
-			"name": "bind9.16-chroot",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9c0b0378bb420952249169358172a756e068011f6be29aa0eb87c24f940dded3",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
-			"name": "bind9.16-utils",
-			"reboot_suggested": 0,
-			"release": "0.14.el8_8.2.alma.1",
-			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "63bc7bf34b071fd29fa99bf312d1a182ad4e1855686df44eec6693e4f36cf0f3",
 			"checksum_type": "sha256",
@@ -202,6 +154,54 @@
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.x86_64.rpm",
+			"name": "bind9.16-utils",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3627cac27cae3d3808ed0ed139b38e25cf048b9d0d18d8ef68c3e042fb25a8dd",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4fc7a4d6479a5606ba31f0766292d45bbf0bfecec6c193d1a480eaab9eab8548",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-libs-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-libs",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8d00a1f4ef51a0d110e6627ab85e61d3f830fa6e990774798620219715ea89d4",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-chroot-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
+			"name": "bind9.16-chroot",
+			"reboot_suggested": 0,
+			"release": "0.14.el8_8.2.alma.1",
+			"src": "bind9.16-9.16.23-0.14.el8_8.2.alma.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9c0b0378bb420952249169358172a756e068011f6be29aa0eb87c24f940dded3",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-utils-9.16.23-0.14.el8_8.2.alma.1.aarch64.rpm",
 			"name": "bind9.16-utils",
 			"reboot_suggested": 0,
 			"release": "0.14.el8_8.2.alma.1",
@@ -378,5 +378,5 @@
 	"severity": "Important",
 	"title": "Important: bind9.16 security update",
 	"type": "security",
-	"updated_date": 1696586531
+	"updated_date": 1696586533
 }
