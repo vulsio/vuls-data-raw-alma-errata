@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "0118850aad57f4ee26d3696822c1e3f21e9e71c5ebe554b17afec9733ee9d1af",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-8.0.0-16.el9_3.alma.1.ppc64le.rpm",
+			"name": "qemu-img",
+			"reboot_suggested": 0,
+			"release": "16.el9_3.alma.1",
+			"src": "qemu-kvm-8.0.0-16.el9_3.alma.1.src.rpm",
+			"version": "8.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0571a9bc35cf08f6bb643dbab6665b7b616d93ca2340133e7f0402eb4ff2aeb0",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-8.0.0-16.el9_3.alma.1.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "16.el9_3.alma.1",
+			"src": "qemu-kvm-8.0.0-16.el9_3.alma.1.src.rpm",
+			"version": "8.0.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "03aa44710d563633dbcc7b912033563aba6faad8c374535fbe13518bfdb19dea",
 			"checksum_type": "sha256",
@@ -179,30 +203,6 @@
 			"epoch": "17",
 			"filename": "qemu-kvm-common-8.0.0-16.el9_3.alma.1.aarch64.rpm",
 			"name": "qemu-kvm-common",
-			"reboot_suggested": 0,
-			"release": "16.el9_3.alma.1",
-			"src": "qemu-kvm-8.0.0-16.el9_3.alma.1.src.rpm",
-			"version": "8.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0118850aad57f4ee26d3696822c1e3f21e9e71c5ebe554b17afec9733ee9d1af",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-8.0.0-16.el9_3.alma.1.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "16.el9_3.alma.1",
-			"src": "qemu-kvm-8.0.0-16.el9_3.alma.1.src.rpm",
-			"version": "8.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0571a9bc35cf08f6bb643dbab6665b7b616d93ca2340133e7f0402eb4ff2aeb0",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-8.0.0-16.el9_3.alma.1.ppc64le.rpm",
-			"name": "qemu-guest-agent",
 			"reboot_suggested": 0,
 			"release": "16.el9_3.alma.1",
 			"src": "qemu-kvm-8.0.0-16.el9_3.alma.1.src.rpm",
@@ -642,5 +642,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qemu-kvm security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1700051105
+	"updated_date": 1700051098
 }
