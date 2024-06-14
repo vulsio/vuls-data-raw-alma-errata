@@ -1,0 +1,200 @@
+{
+	"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base\npackages include the Lightweight Directory Access Protocol (LDAP) server and\ncommand-line utilities for server administration.\n\nSecurity Fix(es):\n\n* 389-ds-base: potential denial of service via specially crafted kerberos AS-REQ request (CVE-2024-3657)\n* 389-ds-base: Malformed userPassword may cause crash at do_modify in slapd/modify.c (CVE-2024-2199)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:3837",
+	"issued_date": 1718064000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "13a71cd517eeffda1384aa1a720f66dafe47f1f2d381a2f852010d50b9d829aa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-lib389-2.4.5-8.el9_4.noarch.rpm",
+			"name": "python3-lib389",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "68e8bb19289ed67e23392626626a8f965b344d524ff52ad5678f4ea081c5fca4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-8.el9_4.ppc64le.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b4b49010ab96f5ff6a273567ea4050977a1536c3c6cb29977a93cbcc12bbae54",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-8.el9_4.ppc64le.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "529886fd0edaaece46c1e3ee31a4ba096af6a5ba7e2b3e5b214f0d342bf96886",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-8.el9_4.aarch64.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5e47a84a8732b226add7c1d7245b80273dc699a37d72a30cf96c93aff4fb57b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-8.el9_4.aarch64.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8589fbaeff803fdd82376b3116b5b23ddc0bd70f4730ff80f07e844c78b0f799",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-8.el9_4.x86_64.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a881e73e5afbbc95cb8fdffdd72011bab6e297cbb0c159cad546c623dd346c42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-8.el9_4.x86_64.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "346ac74217f783d72d897610316d4b4211c25539fb7bec443305e7e678618c6b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-8.el9_4.s390x.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9e2c5a8cefc468c41955f1d424d4fe22bf16ba56d4b7dfe911f5b462cd2c7de6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-8.el9_4.s390x.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9a7baba9fbee59a744a7f1ac2e65d3f56b44ab6333c46451e37d7da96057906c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.ppc64le.rpm",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9d3cb10dc814d7e80e7ad5747c47f666e9cf259e110b460aabf7acb7bf951fd6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.s390x.rpm",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "812c9b72d1e358437a2255567e38772b87b0164d1e79dba3bdf2f7c67bb43ba2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.x86_64.rpm",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "084dc1ebc5e8c7c19a509e104be0b17715f1763d1e86d7320f256def5bfa72be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.aarch64.rpm",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3837",
+			"id": "RHSA-2024:3837",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2199",
+			"id": "CVE-2024-2199",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-3657",
+			"id": "CVE-2024-3657",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2267976",
+			"id": "2267976",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274401",
+			"id": "2274401",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-3837.html",
+			"id": "ALSA-2024:3837",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: 389-ds-base security update",
+	"type": "security",
+	"updated_date": 1718347276
+}

@@ -17,48 +17,24 @@
 			"version": "1.19.13"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "b5aac5c2d4cf88d4e4317c72aa8c6d0668231a8fce484ad8baf75ee90e706b7a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-docs-1.19.13-1.el9_2.noarch.rpm",
-			"name": "golang-docs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "golang-1.19.13-1.el9_2.src.rpm",
-			"version": "1.19.13"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "f6dec5d72b4fe83f0c561cd7d019d7a3357c497a92f890d90bdbdbe227f57fc1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-misc-1.19.13-1.el9_2.noarch.rpm",
-			"name": "golang-misc",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "golang-1.19.13-1.el9_2.src.rpm",
-			"version": "1.19.13"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "f8fb3e03768edd80525b2ac8e65807ef49defae23da467d9d6341427e2e2dccd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-tests-1.19.13-1.el9_2.noarch.rpm",
-			"name": "golang-tests",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "golang-1.19.13-1.el9_2.src.rpm",
-			"version": "1.19.13"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "728d8249e940e4c351f580294afc3fab11a60dd905cabc74a4c963608d8dbcd6",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "golang-bin-1.19.13-1.el9_2.ppc64le.rpm",
 			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "golang-1.19.13-1.el9_2.src.rpm",
+			"version": "1.19.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b5aac5c2d4cf88d4e4317c72aa8c6d0668231a8fce484ad8baf75ee90e706b7a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-docs-1.19.13-1.el9_2.noarch.rpm",
+			"name": "golang-docs",
 			"reboot_suggested": 0,
 			"release": "1.el9_2",
 			"src": "golang-1.19.13-1.el9_2.src.rpm",
@@ -86,6 +62,30 @@
 			"reboot_suggested": 0,
 			"release": "1.el9_2",
 			"src": "go-toolset-1.19.13-1.el9_2.src.rpm",
+			"version": "1.19.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f6dec5d72b4fe83f0c561cd7d019d7a3357c497a92f890d90bdbdbe227f57fc1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-misc-1.19.13-1.el9_2.noarch.rpm",
+			"name": "golang-misc",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "golang-1.19.13-1.el9_2.src.rpm",
+			"version": "1.19.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f8fb3e03768edd80525b2ac8e65807ef49defae23da467d9d6341427e2e2dccd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-tests-1.19.13-1.el9_2.noarch.rpm",
+			"name": "golang-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "golang-1.19.13-1.el9_2.src.rpm",
 			"version": "1.19.13"
 		},
 		{
@@ -254,5 +254,5 @@
 	"severity": "Important",
 	"title": "Important: go-toolset and golang security and bug fix update",
 	"type": "security",
-	"updated_date": 1697525815
+	"updated_date": 1697525821
 }

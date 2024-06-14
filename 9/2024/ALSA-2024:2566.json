@@ -5,66 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "13ec29fc06b8a5e640d312f8de6e3af24a1c10c2ff27c23287ac6e03ccea9970",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcp-libs-devel-6.2.0-2.el9_4.i686.rpm",
-			"name": "pcp-libs-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "pcp-6.2.0-2.el9_4.src.rpm",
-			"version": "6.2.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "35c6888e11e77627a27a7d3fb147f32a7cf136cceb8ce0303f7c9b34604cddef",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcp-libs-6.2.0-2.el9_4.i686.rpm",
-			"name": "pcp-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "pcp-6.2.0-2.el9_4.src.rpm",
-			"version": "6.2.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "3c5e2102743b1c749d636a37cfe4381deb3e038555b0203949542315a55f468e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcp-devel-6.2.0-2.el9_4.i686.rpm",
-			"name": "pcp-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "pcp-6.2.0-2.el9_4.src.rpm",
-			"version": "6.2.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "6211b9c76975412183769953e738068418bd1c287ec8699347c24d9b41caffaf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcp-testsuite-6.2.0-2.el9_4.i686.rpm",
-			"name": "pcp-testsuite",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "pcp-6.2.0-2.el9_4.src.rpm",
-			"version": "6.2.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "d9ebf07165b85e07494e2a654f6430ae6d81a524001434e3cede4ee9f5d93b5c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcp-doc-6.2.0-2.el9_4.noarch.rpm",
-			"name": "pcp-doc",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "pcp-6.2.0-2.el9_4.src.rpm",
-			"version": "6.2.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "0146bc12845bc4e0634fb58e82d6028edf272dc8ca19e61f3d071b23bb51926f",
 			"checksum_type": "sha256",
@@ -1085,6 +1025,18 @@
 			"version": "6.2.0"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "d9ebf07165b85e07494e2a654f6430ae6d81a524001434e3cede4ee9f5d93b5c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcp-doc-6.2.0-2.el9_4.noarch.rpm",
+			"name": "pcp-doc",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "pcp-6.2.0-2.el9_4.src.rpm",
+			"version": "6.2.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "dae1cb0f59588710657282d972ae3105ba6cc8a73a8989b8f15dc1727ba6fc7a",
 			"checksum_type": "sha256",
@@ -1271,6 +1223,54 @@
 			"epoch": "0",
 			"filename": "pcp-export-pcp2spark-6.2.0-2.el9_4.ppc64le.rpm",
 			"name": "pcp-export-pcp2spark",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "pcp-6.2.0-2.el9_4.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "13ec29fc06b8a5e640d312f8de6e3af24a1c10c2ff27c23287ac6e03ccea9970",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcp-libs-devel-6.2.0-2.el9_4.i686.rpm",
+			"name": "pcp-libs-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "pcp-6.2.0-2.el9_4.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "35c6888e11e77627a27a7d3fb147f32a7cf136cceb8ce0303f7c9b34604cddef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcp-libs-6.2.0-2.el9_4.i686.rpm",
+			"name": "pcp-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "pcp-6.2.0-2.el9_4.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "3c5e2102743b1c749d636a37cfe4381deb3e038555b0203949542315a55f468e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcp-devel-6.2.0-2.el9_4.i686.rpm",
+			"name": "pcp-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "pcp-6.2.0-2.el9_4.src.rpm",
+			"version": "6.2.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "6211b9c76975412183769953e738068418bd1c287ec8699347c24d9b41caffaf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcp-testsuite-6.2.0-2.el9_4.i686.rpm",
+			"name": "pcp-testsuite",
 			"reboot_suggested": 0,
 			"release": "2.el9_4",
 			"src": "pcp-6.2.0-2.el9_4.src.rpm",
@@ -4926,5 +4926,5 @@
 	"severity": "Important",
 	"title": "Important: pcp security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1715094342
+	"updated_date": 1715094520
 }

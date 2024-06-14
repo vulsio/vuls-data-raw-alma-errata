@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "ad257cb1cc200865902b4abd6e86a48c4119db98f7628e52db56fb2ce8f67212",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-devel-1.12.20-7.el9_2.1.i686.rpm",
-			"name": "dbus-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9_2.1",
-			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
-			"version": "1.12.20"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "63cc9ea02a237d527928de2dcc4782b237facf9c34e1b2b4dd393dfc4e8ce374",
 			"checksum_type": "sha256",
@@ -47,6 +35,18 @@
 			"epoch": "1",
 			"filename": "dbus-x11-1.12.20-7.el9_2.1.ppc64le.rpm",
 			"name": "dbus-x11",
+			"reboot_suggested": 0,
+			"release": "7.el9_2.1",
+			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
+			"version": "1.12.20"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ad257cb1cc200865902b4abd6e86a48c4119db98f7628e52db56fb2ce8f67212",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-devel-1.12.20-7.el9_2.1.i686.rpm",
+			"name": "dbus-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.1",
 			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
@@ -149,42 +149,6 @@
 			"version": "1.12.20"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "2afc3c1fd0210adcffad66df5e860f3cddbd036981f5ac61595e170286433ec5",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-tools-1.12.20-7.el9_2.1.x86_64.rpm",
-			"name": "dbus-tools",
-			"reboot_suggested": 0,
-			"release": "7.el9_2.1",
-			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
-			"version": "1.12.20"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "487f05bef7f307eda61454af9d602eb21f7c252eedeb4677bf2327ffb9339dfe",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-libs-1.12.20-7.el9_2.1.x86_64.rpm",
-			"name": "dbus-libs",
-			"reboot_suggested": 0,
-			"release": "7.el9_2.1",
-			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
-			"version": "1.12.20"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9a0b64bbab2e8975b9a9e7814461be7b0c46c14e1951a88eb84f0c3c841ff8ec",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dbus-1.12.20-7.el9_2.1.x86_64.rpm",
-			"name": "dbus",
-			"reboot_suggested": 0,
-			"release": "7.el9_2.1",
-			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
-			"version": "1.12.20"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "676c39e4d0707f5ad89faba5bbd5176c5155d5e042d35142815514d2596e273c",
 			"checksum_type": "sha256",
@@ -257,36 +221,36 @@
 			"version": "1.12.20"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "5419f62d4e6c2073623710c778fa993db9e1280fcc6f666b68ed91cb58fbeb7d",
+			"arch": "x86_64",
+			"checksum": "2afc3c1fd0210adcffad66df5e860f3cddbd036981f5ac61595e170286433ec5",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "dbus-daemon-1.12.20-7.el9_2.1.s390x.rpm",
-			"name": "dbus-daemon",
+			"filename": "dbus-tools-1.12.20-7.el9_2.1.x86_64.rpm",
+			"name": "dbus-tools",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.1",
 			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
 			"version": "1.12.20"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "60b0151501857d6facc190ba34a28ee9bf934c7252804e051bd7301bbc2b2052",
+			"arch": "x86_64",
+			"checksum": "487f05bef7f307eda61454af9d602eb21f7c252eedeb4677bf2327ffb9339dfe",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "dbus-x11-1.12.20-7.el9_2.1.s390x.rpm",
-			"name": "dbus-x11",
+			"filename": "dbus-libs-1.12.20-7.el9_2.1.x86_64.rpm",
+			"name": "dbus-libs",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.1",
 			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
 			"version": "1.12.20"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "925e7250a05c75f5754e603b03e027d7df8fea8ae6e630cbe322dcdeb8c4ae69",
+			"arch": "x86_64",
+			"checksum": "9a0b64bbab2e8975b9a9e7814461be7b0c46c14e1951a88eb84f0c3c841ff8ec",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "dbus-devel-1.12.20-7.el9_2.1.s390x.rpm",
-			"name": "dbus-devel",
+			"filename": "dbus-1.12.20-7.el9_2.1.x86_64.rpm",
+			"name": "dbus",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.1",
 			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
@@ -327,6 +291,42 @@
 			"release": "7.el9_2.1",
 			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
 			"version": "1.12.20"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5419f62d4e6c2073623710c778fa993db9e1280fcc6f666b68ed91cb58fbeb7d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-daemon-1.12.20-7.el9_2.1.s390x.rpm",
+			"name": "dbus-daemon",
+			"reboot_suggested": 0,
+			"release": "7.el9_2.1",
+			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
+			"version": "1.12.20"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "60b0151501857d6facc190ba34a28ee9bf934c7252804e051bd7301bbc2b2052",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-x11-1.12.20-7.el9_2.1.s390x.rpm",
+			"name": "dbus-x11",
+			"reboot_suggested": 0,
+			"release": "7.el9_2.1",
+			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
+			"version": "1.12.20"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "925e7250a05c75f5754e603b03e027d7df8fea8ae6e630cbe322dcdeb8c4ae69",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dbus-devel-1.12.20-7.el9_2.1.s390x.rpm",
+			"name": "dbus-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9_2.1",
+			"src": "dbus-1.12.20-7.el9_2.1.src.rpm",
+			"version": "1.12.20"
 		}
 	],
 	"references": [
@@ -354,5 +354,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dbus security update",
 	"type": "security",
-	"updated_date": 1691580687
+	"updated_date": 1691580689
 }

@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "7d2cd2926a2a1055a094e35ace1481c09033033a86e78e656745ce16d58e4d61",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-selinux-6.5.2-6.el9_2.alma.1.noarch.rpm",
-			"name": "keylime-selinux",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "13b0dedbd8eef50c3a6a1b9aa3717f4f24e51424426e0db0061112481981b254",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "keylime-verifier-6.5.2-6.el9_2.alma.1.ppc64le.rpm",
 			"name": "keylime-verifier",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7d2cd2926a2a1055a094e35ace1481c09033033a86e78e656745ce16d58e4d61",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-selinux-6.5.2-6.el9_2.alma.1.noarch.rpm",
+			"name": "keylime-selinux",
 			"reboot_suggested": 0,
 			"release": "6.el9_2.alma.1",
 			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
@@ -340,5 +340,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: keylime security update",
 	"type": "security",
-	"updated_date": 1694684694
+	"updated_date": 1694684695
 }

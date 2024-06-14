@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "c64c08c33c7668d08498995f1e6a3d59a1046d39dadfd48da093b6a924f2bf7b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.20.2-1.el9_2.i686.rpm",
-			"name": "nodejs-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e9b2779d80a707dc7add98c8b2e875b6ce047e4af60f689ad6b78da46cb089ff",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-docs-16.20.2-1.el9_2.noarch.rpm",
-			"name": "nodejs-docs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
-			"version": "16.20.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "0b34239a91ee00bd2cebda08ca549acc24ec1838f5c6fa2583eb6a78b4cfd934",
 			"checksum_type": "sha256",
@@ -65,6 +41,18 @@
 			"version": "16.20.2"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "e9b2779d80a707dc7add98c8b2e875b6ce047e4af60f689ad6b78da46cb089ff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.20.2-1.el9_2.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
+			"version": "16.20.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "fd77d30bc8abb317ad0d03857473c8e34549393f612bdb67ce80499f9d139b92",
 			"checksum_type": "sha256",
@@ -75,6 +63,18 @@
 			"release": "1.16.20.2.1.el9_2",
 			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
 			"version": "8.19.4"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c64c08c33c7668d08498995f1e6a3d59a1046d39dadfd48da093b6a924f2bf7b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-1.el9_2.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
+			"version": "16.20.2"
 		},
 		{
 			"arch": "aarch64",
@@ -266,5 +266,5 @@
 	"severity": "Important",
 	"title": "Important: nodejs security and bug fix update",
 	"type": "security",
-	"updated_date": 1696881031
+	"updated_date": 1696881032
 }

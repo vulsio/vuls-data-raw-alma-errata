@@ -17,30 +17,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "68add8db9f08d920be81a334a49c98a4ad4475725c0cbed03414757ca6c70198",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind-9.16.23-11.el9_2.2.noarch.rpm",
-			"name": "python3-bind",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.2",
-			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "6ccf0a2650f08758150be4498d10a6885e217045eeecdb6569f1d7225ab6beb1",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-dnssec-doc-9.16.23-11.el9_2.2.noarch.rpm",
-			"name": "bind-dnssec-doc",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.2",
-			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "29496c53c514488c80ef76e8a1da2d86af1e03035145f4d56a46aafc21ccc0ad",
 			"checksum_type": "sha256",
@@ -59,6 +35,30 @@
 			"epoch": "32",
 			"filename": "bind-chroot-9.16.23-11.el9_2.2.ppc64le.rpm",
 			"name": "bind-chroot",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.2",
+			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "68add8db9f08d920be81a334a49c98a4ad4475725c0cbed03414757ca6c70198",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind-9.16.23-11.el9_2.2.noarch.rpm",
+			"name": "python3-bind",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.2",
+			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6ccf0a2650f08758150be4498d10a6885e217045eeecdb6569f1d7225ab6beb1",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-dnssec-doc-9.16.23-11.el9_2.2.noarch.rpm",
+			"name": "bind-dnssec-doc",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
 			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
@@ -317,18 +317,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "eba0c7b4808e4358a6a7367f33a4fef4aec571f67cba1329976966070d738572",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9_2.2.x86_64.rpm",
-			"name": "bind-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9_2.2",
-			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "351d63d55969a2afc41b46505928c5db446aed4e5f6ae6e675a61f60a9b76ad1",
 			"checksum_type": "sha256",
@@ -341,11 +329,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "b7519cbd39b75a4aa7590126caf9ee5b1e1048b21463a8407b916aef5d4475d2",
+			"arch": "s390x",
+			"checksum": "cba32d5f0d4abbd9d6d6a36ef2d2c071f61ed159e0126563b87e24aa08a9f424",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9_2.2.aarch64.rpm",
+			"filename": "bind-devel-9.16.23-11.el9_2.2.s390x.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
@@ -353,11 +341,23 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "cba32d5f0d4abbd9d6d6a36ef2d2c071f61ed159e0126563b87e24aa08a9f424",
+			"arch": "x86_64",
+			"checksum": "eba0c7b4808e4358a6a7367f33a4fef4aec571f67cba1329976966070d738572",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9_2.2.s390x.rpm",
+			"filename": "bind-devel-9.16.23-11.el9_2.2.x86_64.rpm",
+			"name": "bind-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9_2.2",
+			"src": "bind-9.16.23-11.el9_2.2.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b7519cbd39b75a4aa7590126caf9ee5b1e1048b21463a8407b916aef5d4475d2",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-devel-9.16.23-11.el9_2.2.aarch64.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_2.2",
@@ -390,5 +390,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1697209099
+	"updated_date": 1697209100
 }

@@ -17,18 +17,6 @@
 			"version": "2.4.57"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "fbcf58ec068a000054e200feb51f9895f88c020e0957e544f35b5c450e8dc47b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.57-8.el9.noarch.rpm",
-			"name": "httpd-manual",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "httpd-2.4.57-8.el9.src.rpm",
-			"version": "2.4.57"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "2d5ec368a943c00b51917db135955e01ec79442c3ff0bcffe07894573557943b",
 			"checksum_type": "sha256",
@@ -131,6 +119,18 @@
 			"epoch": "0",
 			"filename": "httpd-core-2.4.57-8.el9.ppc64le.rpm",
 			"name": "httpd-core",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "httpd-2.4.57-8.el9.src.rpm",
+			"version": "2.4.57"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "fbcf58ec068a000054e200feb51f9895f88c020e0957e544f35b5c450e8dc47b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.57-8.el9.noarch.rpm",
+			"name": "httpd-manual",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "httpd-2.4.57-8.el9.src.rpm",
@@ -486,5 +486,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: httpd security update",
 	"type": "security",
-	"updated_date": 1715094389
+	"updated_date": 1715094416
 }

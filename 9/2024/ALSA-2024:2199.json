@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "31d95099ad930ed28d7584a061c4384558a8069b6b7dd96be69e25d98d2f4467",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pmix-pmi-3.2.3-5.el9.i686.rpm",
-			"name": "pmix-pmi",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "pmix-3.2.3-5.el9.src.rpm",
-			"version": "3.2.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d1bc0b0c0be362abb82031764c79e4c4746531473b2d86ba36c4054b4045dc5d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pmix-3.2.3-5.el9.i686.rpm",
-			"name": "pmix",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "pmix-3.2.3-5.el9.src.rpm",
-			"version": "3.2.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "fb588e536efa0f16d3f127c0bdc5d48295818d8387cd00af12a45131570a5d43",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pmix-devel-3.2.3-5.el9.i686.rpm",
-			"name": "pmix-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "pmix-3.2.3-5.el9.src.rpm",
-			"version": "3.2.3"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "592a001d099a9f806dcd0ef3ca3c3b999ec62fb8877fe076575b751ea930ffb9",
 			"checksum_type": "sha256",
@@ -82,6 +46,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pmix-devel-3.2.3-5.el9.ppc64le.rpm",
+			"name": "pmix-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "pmix-3.2.3-5.el9.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "31d95099ad930ed28d7584a061c4384558a8069b6b7dd96be69e25d98d2f4467",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pmix-pmi-3.2.3-5.el9.i686.rpm",
+			"name": "pmix-pmi",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "pmix-3.2.3-5.el9.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d1bc0b0c0be362abb82031764c79e4c4746531473b2d86ba36c4054b4045dc5d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pmix-3.2.3-5.el9.i686.rpm",
+			"name": "pmix",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "pmix-3.2.3-5.el9.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "fb588e536efa0f16d3f127c0bdc5d48295818d8387cd00af12a45131570a5d43",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pmix-devel-3.2.3-5.el9.i686.rpm",
 			"name": "pmix-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -245,18 +245,6 @@
 			"version": "3.2.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "2a57f5ac0c1b1eac5a4f3b412c94098815dd6e67eb185ecadc8a3cc5a2e4c59b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pmix-pmi-devel-3.2.3-5.el9.x86_64.rpm",
-			"name": "pmix-pmi-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "pmix-3.2.3-5.el9.src.rpm",
-			"version": "3.2.3"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "74a44e4106fcd16b3bb722ce7c890fbd2dbc9cb7a9d7a7b521f3ee841034b0f8",
 			"checksum_type": "sha256",
@@ -269,11 +257,11 @@
 			"version": "3.2.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "d9da7634c37267e5773733d8e4f16aed23bd0b6bd75b6581b50ea66da6e94284",
+			"arch": "s390x",
+			"checksum": "0a8ed7f4f28fc0050682c6a49ba5594df9cb15acc8b05874eb87cdbc508de240",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pmix-pmi-devel-3.2.3-5.el9.aarch64.rpm",
+			"filename": "pmix-pmi-devel-3.2.3-5.el9.s390x.rpm",
 			"name": "pmix-pmi-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -281,11 +269,23 @@
 			"version": "3.2.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "0a8ed7f4f28fc0050682c6a49ba5594df9cb15acc8b05874eb87cdbc508de240",
+			"arch": "x86_64",
+			"checksum": "2a57f5ac0c1b1eac5a4f3b412c94098815dd6e67eb185ecadc8a3cc5a2e4c59b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pmix-pmi-devel-3.2.3-5.el9.s390x.rpm",
+			"filename": "pmix-pmi-devel-3.2.3-5.el9.x86_64.rpm",
+			"name": "pmix-pmi-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "pmix-3.2.3-5.el9.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d9da7634c37267e5773733d8e4f16aed23bd0b6bd75b6581b50ea66da6e94284",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pmix-pmi-devel-3.2.3-5.el9.aarch64.rpm",
 			"name": "pmix-pmi-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -318,5 +318,5 @@
 	"severity": "Important",
 	"title": "Important: pmix security update",
 	"type": "security",
-	"updated_date": 1715094030
+	"updated_date": 1715093840
 }

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "9d099399c3b2092bce0f4c2af5ea40886743bf96af2825cf8c90f11c86770bfa",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.19.1-1.el9_2.i686.rpm",
-			"name": "nodejs-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
-			"version": "16.19.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "f11bb41fc5bd941d6b4ceaabcbd5a55df759beac7e34945b8cd3a3f52838fe29",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-docs-16.19.1-1.el9_2.noarch.rpm",
-			"name": "nodejs-docs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
-			"version": "16.19.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "75b1f2341fabecff21cef26890ebfc9c38a3f7bbc503f90087235e754460f81f",
 			"checksum_type": "sha256",
@@ -75,6 +51,30 @@
 			"release": "1.16.19.1.1.el9_2",
 			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
 			"version": "8.19.3"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f11bb41fc5bd941d6b4ceaabcbd5a55df759beac7e34945b8cd3a3f52838fe29",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.19.1-1.el9_2.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
+			"version": "16.19.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9d099399c3b2092bce0f4c2af5ea40886743bf96af2825cf8c90f11c86770bfa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.19.1-1.el9_2.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
+			"version": "16.19.1"
 		},
 		{
 			"arch": "aarch64",
@@ -296,5 +296,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: nodejs and nodejs-nodemon security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1683838963
+	"updated_date": 1683838964
 }

@@ -1,0 +1,46 @@
+{
+	"description": "The hsakmt packages include a thunk library for AMD's Heterogeneous System Architecture (HSA) Linux kernel driver (amdkfd).\n\nSecurity Fix(es):\n\n* python-idna: potential DoS via resource consumption via specially crafted inputs to idna.encode() (CVE-2024-3651)",
+	"id": "ALSA-2024:3846",
+	"issued_date": 1718064000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "466dae94af8101d05da26c89ac5e6cfdb2488f4e324c03eb856c034084d0ac7d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idna-2.10-7.el9_4.1.noarch.rpm",
+			"name": "python3-idna",
+			"reboot_suggested": 0,
+			"release": "7.el9_4.1",
+			"src": "python-idna-2.10-7.el9_4.1.src.rpm",
+			"version": "2.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3846",
+			"id": "RHSA-2024:3846",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-3651",
+			"id": "CVE-2024-3651",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274779",
+			"id": "2274779",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-3846.html",
+			"id": "ALSA-2024:3846",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-idna security update",
+	"type": "security",
+	"updated_date": 1718284239
+}
