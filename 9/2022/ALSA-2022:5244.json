@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "c07cdd3796d62662a2b077cf05786bf59fc79599b53b3c7f44cebdded5f4af93",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-devel-2.2.10-12.el9_0.2.i686.rpm",
+			"name": "expat-devel",
+			"reboot_suggested": 0,
+			"release": "12.el9_0.2",
+			"src": "expat-2.2.10-12.el9_0.2.src.rpm",
+			"version": "2.2.10"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d55c59b0c26f06481a7dae0ab87203cadfca0af6ec3c44126d83285898172b2f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-2.2.10-12.el9_0.2.i686.rpm",
+			"name": "expat",
+			"reboot_suggested": 0,
+			"release": "12.el9_0.2",
+			"src": "expat-2.2.10-12.el9_0.2.src.rpm",
+			"version": "2.2.10"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "40910d792dca4fb076d05994881d9d58410d8f21eb83e76ba3fa2980351fbd21",
 			"checksum_type": "sha256",
@@ -29,11 +53,11 @@
 			"version": "2.2.10"
 		},
 		{
-			"arch": "i686",
-			"checksum": "c07cdd3796d62662a2b077cf05786bf59fc79599b53b3c7f44cebdded5f4af93",
+			"arch": "x86_64",
+			"checksum": "95937f9587edacf6f55004b6784329e43a62e5b3daaebd0103aa7b1540174d4d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.2.10-12.el9_0.2.i686.rpm",
+			"filename": "expat-devel-2.2.10-12.el9_0.2.x86_64.rpm",
 			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "12.el9_0.2",
@@ -41,11 +65,11 @@
 			"version": "2.2.10"
 		},
 		{
-			"arch": "i686",
-			"checksum": "d55c59b0c26f06481a7dae0ab87203cadfca0af6ec3c44126d83285898172b2f",
+			"arch": "x86_64",
+			"checksum": "dbd74a9af798bb28a849bbf0ce4efbcc72505c7800bb2baf82cdd325b7b364c5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-2.2.10-12.el9_0.2.i686.rpm",
+			"filename": "expat-2.2.10-12.el9_0.2.x86_64.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "12.el9_0.2",
@@ -71,30 +95,6 @@
 			"epoch": "0",
 			"filename": "expat-devel-2.2.10-12.el9_0.2.aarch64.rpm",
 			"name": "expat-devel",
-			"reboot_suggested": 0,
-			"release": "12.el9_0.2",
-			"src": "expat-2.2.10-12.el9_0.2.src.rpm",
-			"version": "2.2.10"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "95937f9587edacf6f55004b6784329e43a62e5b3daaebd0103aa7b1540174d4d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-devel-2.2.10-12.el9_0.2.x86_64.rpm",
-			"name": "expat-devel",
-			"reboot_suggested": 0,
-			"release": "12.el9_0.2",
-			"src": "expat-2.2.10-12.el9_0.2.src.rpm",
-			"version": "2.2.10"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "dbd74a9af798bb28a849bbf0ce4efbcc72505c7800bb2baf82cdd325b7b364c5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-2.2.10-12.el9_0.2.x86_64.rpm",
-			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "12.el9_0.2",
 			"src": "expat-2.2.10-12.el9_0.2.src.rpm",
@@ -160,5 +160,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: expat security update",
 	"type": "security",
-	"updated_date": 1658424896
+	"updated_date": 1658424885
 }
