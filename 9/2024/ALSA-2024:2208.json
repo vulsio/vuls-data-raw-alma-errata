@@ -29,42 +29,6 @@
 			"version": "2.11.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "da440a04b8029766b56b52503459a8bbd8cd27d39a8ecd2d78a699a7b69e1f48",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "libwinpr-2.11.2-1.el9.ppc64le.rpm",
-			"name": "libwinpr",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "freerdp-2.11.2-1.el9.src.rpm",
-			"version": "2.11.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "dbfaa553f952e4dd0e60f708b9d9988ead8f0f3835561c6f35f612923358d795",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-2.11.2-1.el9.ppc64le.rpm",
-			"name": "freerdp",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "freerdp-2.11.2-1.el9.src.rpm",
-			"version": "2.11.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f75d8145f6ce64ec72452c0ae8307baf5e9876efd9ac225d6d113889320c3e27",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-libs-2.11.2-1.el9.ppc64le.rpm",
-			"name": "freerdp-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "freerdp-2.11.2-1.el9.src.rpm",
-			"version": "2.11.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "3522b754ce06cd5b906d7023a2a6e83502a2f134f6fa571cdb9aaba562775db4",
 			"checksum_type": "sha256",
@@ -173,6 +137,42 @@
 			"version": "2.11.2"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "da440a04b8029766b56b52503459a8bbd8cd27d39a8ecd2d78a699a7b69e1f48",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "libwinpr-2.11.2-1.el9.ppc64le.rpm",
+			"name": "libwinpr",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "freerdp-2.11.2-1.el9.src.rpm",
+			"version": "2.11.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dbfaa553f952e4dd0e60f708b9d9988ead8f0f3835561c6f35f612923358d795",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-2.11.2-1.el9.ppc64le.rpm",
+			"name": "freerdp",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "freerdp-2.11.2-1.el9.src.rpm",
+			"version": "2.11.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f75d8145f6ce64ec72452c0ae8307baf5e9876efd9ac225d6d113889320c3e27",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-libs-2.11.2-1.el9.ppc64le.rpm",
+			"name": "freerdp-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "freerdp-2.11.2-1.el9.src.rpm",
+			"version": "2.11.2"
+		},
+		{
 			"arch": "i686",
 			"checksum": "541068d16c9b71bc99dce43711cc4b8dc6886140bf0e69bfac0a99685014627f",
 			"checksum_type": "sha256",
@@ -221,30 +221,6 @@
 			"version": "2.11.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c80e2a5bfcf37068b1485a313c7799779bf0a4e01bfd0deaf9f429c44311d758",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-devel-2.11.2-1.el9.aarch64.rpm",
-			"name": "freerdp-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "freerdp-2.11.2-1.el9.src.rpm",
-			"version": "2.11.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d07b45debd13f257ec7a99995bf29936114605cceaf1130c3a7155e066d546d8",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "libwinpr-devel-2.11.2-1.el9.aarch64.rpm",
-			"name": "libwinpr-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "freerdp-2.11.2-1.el9.src.rpm",
-			"version": "2.11.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "ac68c37a53f482ed7552e3bb6bdb10dd09ce441e6be9fe28c0af0cdd21da9c6b",
 			"checksum_type": "sha256",
@@ -262,6 +238,30 @@
 			"checksum_type": "sha256",
 			"epoch": "2",
 			"filename": "libwinpr-devel-2.11.2-1.el9.ppc64le.rpm",
+			"name": "libwinpr-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "freerdp-2.11.2-1.el9.src.rpm",
+			"version": "2.11.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c80e2a5bfcf37068b1485a313c7799779bf0a4e01bfd0deaf9f429c44311d758",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-devel-2.11.2-1.el9.aarch64.rpm",
+			"name": "freerdp-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "freerdp-2.11.2-1.el9.src.rpm",
+			"version": "2.11.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d07b45debd13f257ec7a99995bf29936114605cceaf1130c3a7155e066d546d8",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "libwinpr-devel-2.11.2-1.el9.aarch64.rpm",
 			"name": "libwinpr-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
