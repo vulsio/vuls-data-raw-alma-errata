@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "7f8b7ef40d4b39f77af1eb1ea4392e9c839d91fac72a7aebb7a6c00009df99ee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "procps-ng-devel-3.3.15-14.el8.i686.rpm",
-			"name": "procps-ng-devel",
-			"reboot_suggested": 0,
-			"release": "14.el8",
-			"src": "procps-ng-3.3.15-14.el8.src.rpm",
-			"version": "3.3.15"
-		},
-		{
-			"arch": "i686",
 			"checksum": "4e8737ad1cebb5a8b2dddefe25db3151feebc1517c97ea01e08c021e3089fd46",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "procps-ng-i18n-3.3.15-14.el8.noarch.rpm",
 			"name": "procps-ng-i18n",
+			"reboot_suggested": 0,
+			"release": "14.el8",
+			"src": "procps-ng-3.3.15-14.el8.src.rpm",
+			"version": "3.3.15"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7f8b7ef40d4b39f77af1eb1ea4392e9c839d91fac72a7aebb7a6c00009df99ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "procps-ng-devel-3.3.15-14.el8.i686.rpm",
+			"name": "procps-ng-devel",
 			"reboot_suggested": 0,
 			"release": "14.el8",
 			"src": "procps-ng-3.3.15-14.el8.src.rpm",
@@ -66,11 +66,11 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "12dd320236733330314087d4ef66007e6aa756a319096b8dfb7d386c026b4c2a",
+			"checksum": "2bbfced407d90383e74fa9805386f79ba006715030ca75b03e37a392f19d6637",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "procps-ng-devel-3.3.15-14.el8.aarch64.rpm",
-			"name": "procps-ng-devel",
+			"filename": "procps-ng-3.3.15-14.el8.aarch64.rpm",
+			"name": "procps-ng",
 			"reboot_suggested": 0,
 			"release": "14.el8",
 			"src": "procps-ng-3.3.15-14.el8.src.rpm",
@@ -78,11 +78,11 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "2bbfced407d90383e74fa9805386f79ba006715030ca75b03e37a392f19d6637",
+			"checksum": "12dd320236733330314087d4ef66007e6aa756a319096b8dfb7d386c026b4c2a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "procps-ng-3.3.15-14.el8.aarch64.rpm",
-			"name": "procps-ng",
+			"filename": "procps-ng-devel-3.3.15-14.el8.aarch64.rpm",
+			"name": "procps-ng-devel",
 			"reboot_suggested": 0,
 			"release": "14.el8",
 			"src": "procps-ng-3.3.15-14.el8.src.rpm",
@@ -162,5 +162,5 @@
 	"severity": "Low",
 	"title": "Low: procps-ng security update",
 	"type": "security",
-	"updated_date": 1700734751
+	"updated_date": 1700734959
 }

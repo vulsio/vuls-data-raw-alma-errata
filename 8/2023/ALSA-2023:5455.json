@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "4c38bb343f1f64763e64e6716ee678da91ab97fa1a697193cc84bf7d52afd401",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.28-225.el8_8.6.i686.rpm",
-			"name": "nss_hesiod",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "b84aa4e3afc80d9fdc7282b2627338b0da964f55f8f13d10759cc85cb295344c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-static-2.28-225.el8_8.6.i686.rpm",
-			"name": "glibc-static",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d278264d148ec43f40f292272ed6eea26d55dd37dc24686e840fc33bbe4d1a7c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-nss-devel-2.28-225.el8_8.6.i686.rpm",
-			"name": "glibc-nss-devel",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "1a1fe0a74e3863ac919cc508a49ebe965bb7aa2f67732fea3673d236debed292",
 			"checksum_type": "sha256",
@@ -119,6 +83,42 @@
 			"epoch": "0",
 			"filename": "nss_db-2.28-225.el8_8.6.i686.rpm",
 			"name": "nss_db",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "4c38bb343f1f64763e64e6716ee678da91ab97fa1a697193cc84bf7d52afd401",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.28-225.el8_8.6.i686.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "b84aa4e3afc80d9fdc7282b2627338b0da964f55f8f13d10759cc85cb295344c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-static-2.28-225.el8_8.6.i686.rpm",
+			"name": "glibc-static",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d278264d148ec43f40f292272ed6eea26d55dd37dc24686e840fc33bbe4d1a7c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-nss-devel-2.28-225.el8_8.6.i686.rpm",
+			"name": "glibc-nss-devel",
 			"reboot_suggested": 0,
 			"release": "225.el8_8.6",
 			"src": "glibc-2.28-225.el8_8.6.src.rpm",
@@ -2658,54 +2658,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "023046574dbeb248c55cbfefa0de9edaf4df75a45552e2871e845b3ea5673047",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-static-2.28-225.el8_8.6.aarch64.rpm",
-			"name": "glibc-static",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "83a6930abe9cbfad381c37a7cfa2eb2d8a748106ab60f052f3d6a96fc0cb5a9f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.28-225.el8_8.6.aarch64.rpm",
-			"name": "nss_hesiod",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "bf118b9140e6f1afdfeafec166fae9009d09b1fe8ac7114ef5efa9e0e092155b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-nss-devel-2.28-225.el8_8.6.aarch64.rpm",
-			"name": "glibc-nss-devel",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d5945d4529098792e3289c57faaf160713347befd48408336bbb22f763ebd4e8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-benchtests-2.28-225.el8_8.6.aarch64.rpm",
-			"name": "glibc-benchtests",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "0105c120c030ad6f0bfa7d9ac12890ed9d1f7a0ebdfe09696bf0ac361043e3f9",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -5189,6 +5141,54 @@
 			"version": "2.28"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "023046574dbeb248c55cbfefa0de9edaf4df75a45552e2871e845b3ea5673047",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-static-2.28-225.el8_8.6.aarch64.rpm",
+			"name": "glibc-static",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "83a6930abe9cbfad381c37a7cfa2eb2d8a748106ab60f052f3d6a96fc0cb5a9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.28-225.el8_8.6.aarch64.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "bf118b9140e6f1afdfeafec166fae9009d09b1fe8ac7114ef5efa9e0e092155b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-nss-devel-2.28-225.el8_8.6.aarch64.rpm",
+			"name": "glibc-nss-devel",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d5945d4529098792e3289c57faaf160713347befd48408336bbb22f763ebd4e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-benchtests-2.28-225.el8_8.6.aarch64.rpm",
+			"name": "glibc-benchtests",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2abfdf8b7027c81dba89cdd5cfa878b6a52e8aa289486acebafaa15febb8c0ba",
 			"checksum_type": "sha256",
@@ -5230,6 +5230,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glibc-utils-2.28-225.el8_8.6.aarch64.rpm",
+			"name": "glibc-utils",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "861b8c909883e7da6519bf6df24d85b7a2c7cf8700ea95d91f41f2b072904472",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-libpthread-nonshared-2.28-225.el8_8.6.ppc64le.rpm",
+			"name": "compat-libpthread-nonshared",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8d2e6c1a028decbb37282b800fc6b1c6bb401b0ff44e4756a378481856654222",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-utils-2.28-225.el8_8.6.ppc64le.rpm",
 			"name": "glibc-utils",
 			"reboot_suggested": 0,
 			"release": "225.el8_8.6",
@@ -10301,30 +10325,6 @@
 			"version": "2.28"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "861b8c909883e7da6519bf6df24d85b7a2c7cf8700ea95d91f41f2b072904472",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "compat-libpthread-nonshared-2.28-225.el8_8.6.ppc64le.rpm",
-			"name": "compat-libpthread-nonshared",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "8d2e6c1a028decbb37282b800fc6b1c6bb401b0ff44e4756a378481856654222",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-utils-2.28-225.el8_8.6.ppc64le.rpm",
-			"name": "glibc-utils",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "8a6ad8a8c26f07c347f07265089242c48dcc7b47d2ad782fdf643e0110a23ba0",
 			"checksum_type": "sha256",
@@ -10404,5 +10404,5 @@
 	"severity": "Important",
 	"title": "Important: glibc security update",
 	"type": "security",
-	"updated_date": 1696547788
+	"updated_date": 1696547804
 }
