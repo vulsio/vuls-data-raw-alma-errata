@@ -1,0 +1,132 @@
+{
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.11.0.\n\nSecurity Fix(es):\n\n* firefox: Arbitrary JavaScript execution in PDF.js (CVE-2024-4367)\n* firefox: IndexedDB files retained in private browsing mode (CVE-2024-4767)\n* firefox: Potential permissions request bypass via clickjacking (CVE-2024-4768)\n* firefox: Cross-origin responses could be distinguished between script and\nnon-script content-types (CVE-2024-4769)\n* firefox: Use-after-free could occur when printing to PDF (CVE-2024-4770)\n* firefox: Memory safety bugs fixed in Firefox 126, Firefox ESR 115.11, and\nThunderbird 115.11 (CVE-2024-4777)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:3784",
+	"issued_date": 1717977600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "46b2a935e481111f5d347e9f1cd611d40285a30931654b12fc7a63fbe5f1a0a8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-115.11.0-1.el8_10.alma.1.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-115.11.0-1.el8_10.alma.1.src.rpm",
+			"version": "115.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "69af3610e34f6fdfc495ee412251142f4ea205be58455b1f3de2448a0e0a5535",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-115.11.0-1.el8_10.alma.1.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-115.11.0-1.el8_10.alma.1.src.rpm",
+			"version": "115.11.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1fd9f6fafe258b1fa2490d15f2e0a739f8b905ae4381e549a29cbd250cc880ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-115.11.0-1.el8_10.alma.1.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-115.11.0-1.el8_10.alma.1.src.rpm",
+			"version": "115.11.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c33da09660129ff4e2fb09699867995794edf96388f208e82f28c7fabdb18bb6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-115.11.0-1.el8_10.alma.1.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-115.11.0-1.el8_10.alma.1.src.rpm",
+			"version": "115.11.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:3784",
+			"id": "RHSA-2024:3784",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4367",
+			"id": "CVE-2024-4367",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4767",
+			"id": "CVE-2024-4767",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4768",
+			"id": "CVE-2024-4768",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4769",
+			"id": "CVE-2024-4769",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4770",
+			"id": "CVE-2024-4770",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-4777",
+			"id": "CVE-2024-4777",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280382",
+			"id": "2280382",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280383",
+			"id": "2280383",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280384",
+			"id": "2280384",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280385",
+			"id": "2280385",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280386",
+			"id": "2280386",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280387",
+			"id": "2280387",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-3784.html",
+			"id": "ALSA-2024:3784",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: thunderbird security update",
+	"type": "security",
+	"updated_date": 1718919374
+}

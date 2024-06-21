@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "9fd3a01c7779b6883d82521e738094b46d0cf54f35cd423e67f188f40db95899",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-nss-devel-2.28-236.el8_9.13.i686.rpm",
+			"name": "glibc-nss-devel",
+			"reboot_suggested": 0,
+			"release": "236.el8_9.13",
+			"src": "glibc-2.28-236.el8_9.13.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "a308cd8437673466c01767bd0c66e66e3daf9b9503084d044e18b508b1bb97be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-static-2.28-236.el8_9.13.i686.rpm",
+			"name": "glibc-static",
+			"reboot_suggested": 0,
+			"release": "236.el8_9.13",
+			"src": "glibc-2.28-236.el8_9.13.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c66a69a8e21fa10dec4547308630af627a3ea2e07967d0dc3deff5888ba63f3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.28-236.el8_9.13.i686.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "236.el8_9.13",
+			"src": "glibc-2.28-236.el8_9.13.src.rpm",
+			"version": "2.28"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "4bd6910515fbc848e4a54e9ae769936f15f3ce98416d1cd707042bf0cadc5d8e",
 			"checksum_type": "sha256",
@@ -83,42 +119,6 @@
 			"epoch": "0",
 			"filename": "glibc-headers-2.28-236.el8_9.13.i686.rpm",
 			"name": "glibc-headers",
-			"reboot_suggested": 0,
-			"release": "236.el8_9.13",
-			"src": "glibc-2.28-236.el8_9.13.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9fd3a01c7779b6883d82521e738094b46d0cf54f35cd423e67f188f40db95899",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-nss-devel-2.28-236.el8_9.13.i686.rpm",
-			"name": "glibc-nss-devel",
-			"reboot_suggested": 0,
-			"release": "236.el8_9.13",
-			"src": "glibc-2.28-236.el8_9.13.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "a308cd8437673466c01767bd0c66e66e3daf9b9503084d044e18b508b1bb97be",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-static-2.28-236.el8_9.13.i686.rpm",
-			"name": "glibc-static",
-			"reboot_suggested": 0,
-			"release": "236.el8_9.13",
-			"src": "glibc-2.28-236.el8_9.13.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c66a69a8e21fa10dec4547308630af627a3ea2e07967d0dc3deff5888ba63f3d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.28-236.el8_9.13.i686.rpm",
-			"name": "nss_hesiod",
 			"reboot_suggested": 0,
 			"release": "236.el8_9.13",
 			"src": "glibc-2.28-236.el8_9.13.src.rpm",
@@ -5238,30 +5238,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "620f714813fdfad367c4f099c9aaa46581fc7f950c0ff74155448e6f44cd9a6f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-utils-2.28-236.el8_9.13.ppc64le.rpm",
-			"name": "glibc-utils",
-			"reboot_suggested": 0,
-			"release": "236.el8_9.13",
-			"src": "glibc-2.28-236.el8_9.13.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ba6cd1346534da0c49d2f9884781f738b22e9b7339877b680845e1fb9cd1a611",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "compat-libpthread-nonshared-2.28-236.el8_9.13.ppc64le.rpm",
-			"name": "compat-libpthread-nonshared",
-			"reboot_suggested": 0,
-			"release": "236.el8_9.13",
-			"src": "glibc-2.28-236.el8_9.13.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "0003672d115e4f428bc37df7a9d2c51dd047768724995f231ed13b32e34f1e3f",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -10325,6 +10301,30 @@
 			"version": "2.28"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "620f714813fdfad367c4f099c9aaa46581fc7f950c0ff74155448e6f44cd9a6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-utils-2.28-236.el8_9.13.ppc64le.rpm",
+			"name": "glibc-utils",
+			"reboot_suggested": 0,
+			"release": "236.el8_9.13",
+			"src": "glibc-2.28-236.el8_9.13.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ba6cd1346534da0c49d2f9884781f738b22e9b7339877b680845e1fb9cd1a611",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-libpthread-nonshared-2.28-236.el8_9.13.ppc64le.rpm",
+			"name": "compat-libpthread-nonshared",
+			"reboot_suggested": 0,
+			"release": "236.el8_9.13",
+			"src": "glibc-2.28-236.el8_9.13.src.rpm",
+			"version": "2.28"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "1e18fa2087b79c17c780beced6067f7f63c75f7cb7e6395c22c50bb25234e971",
 			"checksum_type": "sha256",
@@ -10374,5 +10374,5 @@
 	"severity": "Important",
 	"title": "Important: glibc security update",
 	"type": "security",
-	"updated_date": 1715256496
+	"updated_date": 1715256492
 }
