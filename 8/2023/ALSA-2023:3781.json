@@ -4,18 +4,18 @@
 	"issued_date": 1687392000,
 	"modules": [
 		{
-			"arch": "i686",
-			"context": "a51370e3",
-			"name": "python38",
-			"stream": "3.8",
-			"version": "8080020230630114531"
-		},
-		{
 			"arch": "x86_64",
 			"context": "34b68433",
 			"name": "python38",
 			"stream": "3.8",
 			"version": "8060020220421093957"
+		},
+		{
+			"arch": "i686",
+			"context": "a51370e3",
+			"name": "python38",
+			"stream": "3.8",
+			"version": "8080020230630114531"
 		},
 		{
 			"arch": "aarch64",
@@ -61,19 +61,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "noarch",
-			"checksum": "2433b15320950806c765761850e82176110b0af46d0cda079c6b6a1cd7d342bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python38-rpm-macros-3.8.16-1.module_el8.8.0+3576+cd671ecd.1.noarch.rpm",
-			"module": "python38:3.8:8080020230630114531:a51370e3:i686",
-			"name": "python38-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.8.0+3576+cd671ecd.1",
-			"src": "python38-3.8.16-1.module_el8.8.0+3576+cd671ecd.1.src.rpm",
-			"version": "3.8.16"
-		},
 		{
 			"arch": "noarch",
 			"checksum": "09a1d9e4a52965982dfc1fa8ba2beba109e069f6a9f9223d0d37b873326924c4",
@@ -190,6 +177,19 @@
 			"release": "5.module_el8.6.0+2778+cd494b30",
 			"src": "python-more-itertools-7.2.0-5.module_el8.6.0+2778+cd494b30.src.rpm",
 			"version": "7.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "2433b15320950806c765761850e82176110b0af46d0cda079c6b6a1cd7d342bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python38-rpm-macros-3.8.16-1.module_el8.8.0+3576+cd671ecd.1.noarch.rpm",
+			"module": "python38:3.8:8080020230630114531:a51370e3:i686",
+			"name": "python38-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.8.0+3576+cd671ecd.1",
+			"src": "python38-3.8.16-1.module_el8.8.0+3576+cd671ecd.1.src.rpm",
+			"version": "3.8.16"
 		},
 		{
 			"arch": "noarch",
@@ -1569,5 +1569,5 @@
 	"severity": "Important",
 	"title": "Important: python38:3.8 and python38-devel:3.8 security update",
 	"type": "security",
-	"updated_date": 1688138213
+	"updated_date": 1688138220
 }

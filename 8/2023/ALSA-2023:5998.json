@@ -4,18 +4,18 @@
 	"issued_date": 1698019200,
 	"modules": [
 		{
-			"arch": "i686",
-			"context": "0a5380d9",
-			"name": "python39",
-			"stream": "3.9",
-			"version": "8080020231024184852"
-		},
-		{
 			"arch": "x86_64",
 			"context": "b9465af8",
 			"name": "python39",
 			"stream": "3.9",
 			"version": "8060020220421104152"
+		},
+		{
+			"arch": "i686",
+			"context": "0a5380d9",
+			"name": "python39",
+			"stream": "3.9",
+			"version": "8080020231024184852"
 		},
 		{
 			"arch": "aarch64",
@@ -32,18 +32,18 @@
 			"version": "8060020220421104204"
 		},
 		{
-			"arch": "s390x",
-			"context": "b9465af8",
-			"name": "python39",
-			"stream": "3.9",
-			"version": "8060020220421104152"
-		},
-		{
 			"arch": "ppc64le",
 			"context": "0a5380d9",
 			"name": "python39",
 			"stream": "3.9",
 			"version": "8080020231024184852"
+		},
+		{
+			"arch": "s390x",
+			"context": "b9465af8",
+			"name": "python39",
+			"stream": "3.9",
+			"version": "8060020220421104152"
 		},
 		{
 			"arch": "s390x",
@@ -54,19 +54,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "noarch",
-			"checksum": "462c8a375a3503de315002d52f82de5fc13706810a60f21ff490cae0c2f9a6d1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-rpm-macros-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.noarch.rpm",
-			"module": "python39:3.9:8080020231024184852:0a5380d9:i686",
-			"name": "python39-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.8.0+3664+2b1e4686.2",
-			"src": "python39-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.src.rpm",
-			"version": "3.9.16"
-		},
 		{
 			"arch": "noarch",
 			"checksum": "31ad3684d951066c0e5ca1adf44adfbe92fca7f11d24d699bf02826453774740",
@@ -235,6 +222,19 @@
 			"release": "5.module_el8.6.0+2780+a40f65e1",
 			"src": "python3x-pyparsing-2.4.7-5.module_el8.6.0+2780+a40f65e1.src.rpm",
 			"version": "2.4.7"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "462c8a375a3503de315002d52f82de5fc13706810a60f21ff490cae0c2f9a6d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-rpm-macros-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.noarch.rpm",
+			"module": "python39:3.9:8080020231024184852:0a5380d9:i686",
+			"name": "python39-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.8.0+3664+2b1e4686.2",
+			"src": "python39-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.src.rpm",
+			"version": "3.9.16"
 		},
 		{
 			"arch": "aarch64",
@@ -1030,58 +1030,6 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "016d533c9725f5e48b9071395677957848106cdf2b9926b05ee5c79a0ad7b55b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-debug-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.s390x.rpm",
-			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
-			"name": "python39-debug",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.8.0+3664+2b1e4686.2",
-			"src": "python39-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "063584fa1c141e7a180e82f9e4d90aff07a3ce585bf334c8851302cc8324b3a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-pybind11-devel-2.7.1-1.module_el8.6.0+3248+c431e88c.s390x.rpm",
-			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
-			"name": "python39-pybind11-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+3248+c431e88c",
-			"src": "pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.src.rpm",
-			"version": "2.7.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "7ac20861dd83b2a7e6204cbe102ea187f1110adb9e22f76000a22a4bed4aa5e8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-Cython-0.29.21-5.module_el8.6.0+3248+c431e88c.s390x.rpm",
-			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
-			"name": "python39-Cython",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.6.0+3248+c431e88c",
-			"src": "Cython-0.29.21-5.module_el8.6.0+3248+c431e88c.src.rpm",
-			"version": "0.29.21"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "bc32e3b8d8186fb57c25119ea1362ebd91714054afede97c477c2cd75fee4309",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python39-pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.s390x.rpm",
-			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
-			"name": "python39-pybind11",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+3248+c431e88c",
-			"src": "pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.src.rpm",
-			"version": "2.7.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "117c5eaae6ae42097a8967106915dc1fb53abcee696091c80969810165ed18e3",
 			"checksum_type": "sha256",
@@ -1314,6 +1262,58 @@
 			"release": "1.module_el8.6.0+2780+a40f65e1",
 			"src": "python-lxml-4.6.5-1.module_el8.6.0+2780+a40f65e1.src.rpm",
 			"version": "4.6.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "016d533c9725f5e48b9071395677957848106cdf2b9926b05ee5c79a0ad7b55b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-debug-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.s390x.rpm",
+			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
+			"name": "python39-debug",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.8.0+3664+2b1e4686.2",
+			"src": "python39-3.9.16-1.module_el8.8.0+3664+2b1e4686.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "063584fa1c141e7a180e82f9e4d90aff07a3ce585bf334c8851302cc8324b3a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-pybind11-devel-2.7.1-1.module_el8.6.0+3248+c431e88c.s390x.rpm",
+			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
+			"name": "python39-pybind11-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3248+c431e88c",
+			"src": "pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.src.rpm",
+			"version": "2.7.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7ac20861dd83b2a7e6204cbe102ea187f1110adb9e22f76000a22a4bed4aa5e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-Cython-0.29.21-5.module_el8.6.0+3248+c431e88c.s390x.rpm",
+			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
+			"name": "python39-Cython",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.6.0+3248+c431e88c",
+			"src": "Cython-0.29.21-5.module_el8.6.0+3248+c431e88c.src.rpm",
+			"version": "0.29.21"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "bc32e3b8d8186fb57c25119ea1362ebd91714054afede97c477c2cd75fee4309",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python39-pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.s390x.rpm",
+			"module": "python39:3.9:8060020220421104152:b9465af8:s390x",
+			"name": "python39-pybind11",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+3248+c431e88c",
+			"src": "pybind11-2.7.1-1.module_el8.6.0+3248+c431e88c.src.rpm",
+			"version": "2.7.1"
 		},
 		{
 			"arch": "s390x",
@@ -1575,5 +1575,5 @@
 	"severity": "Important",
 	"title": "Important: python39:3.9 and python39-devel:3.9 security update",
 	"type": "security",
-	"updated_date": 1698218465
+	"updated_date": 1698218474
 }

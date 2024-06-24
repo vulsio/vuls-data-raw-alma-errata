@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "515290f5c516fd0deaa14e0893d768baa7e0c761f0bf5c30417d8bb297f3db0d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-6.4.7.2-15.el8.alma.x86_64.rpm",
+			"name": "libreoffice-sdk",
+			"reboot_suggested": 0,
+			"release": "15.el8.alma",
+			"src": "libreoffice-6.4.7.2-15.el8.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ed1224965b7831dd21ce9b02ad36a830e561fbbf0e948f7c78f8e840e59dc83e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-doc-6.4.7.2-15.el8.alma.x86_64.rpm",
+			"name": "libreoffice-sdk-doc",
+			"reboot_suggested": 0,
+			"release": "15.el8.alma",
+			"src": "libreoffice-6.4.7.2-15.el8.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "05c485654a9e6d8c693a65dab2989c957a611f1361fbf17e6639fa143ed4ec8f",
 			"checksum_type": "sha256",
@@ -431,30 +455,6 @@
 			"epoch": "1",
 			"filename": "autocorr-af-6.4.7.2-15.el8.alma.noarch.rpm",
 			"name": "autocorr-af",
-			"reboot_suggested": 0,
-			"release": "15.el8.alma",
-			"src": "libreoffice-6.4.7.2-15.el8.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "515290f5c516fd0deaa14e0893d768baa7e0c761f0bf5c30417d8bb297f3db0d",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-6.4.7.2-15.el8.alma.x86_64.rpm",
-			"name": "libreoffice-sdk",
-			"reboot_suggested": 0,
-			"release": "15.el8.alma",
-			"src": "libreoffice-6.4.7.2-15.el8.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ed1224965b7831dd21ce9b02ad36a830e561fbbf0e948f7c78f8e840e59dc83e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-doc-6.4.7.2-15.el8.alma.x86_64.rpm",
-			"name": "libreoffice-sdk-doc",
 			"reboot_suggested": 0,
 			"release": "15.el8.alma",
 			"src": "libreoffice-6.4.7.2-15.el8.alma.src.rpm",
@@ -3204,5 +3204,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libreoffice security update",
 	"type": "security",
-	"updated_date": 1700732984
+	"updated_date": 1700734737
 }

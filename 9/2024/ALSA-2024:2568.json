@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "108f7595acfcd0bcdce742ba93673be1dd02ffff86239ee11612b0073d124f0c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-9.2.10-16.el9_4.alma.1.ppc64le.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "16.el9_4.alma.1",
-			"src": "grafana-9.2.10-16.el9_4.alma.1.src.rpm",
-			"version": "9.2.10"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "732d227703d54ba1fb564d9bc649e2380255e89589dd607287c853acae57643f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-selinux-9.2.10-16.el9_4.alma.1.ppc64le.rpm",
-			"name": "grafana-selinux",
-			"reboot_suggested": 0,
-			"release": "16.el9_4.alma.1",
-			"src": "grafana-9.2.10-16.el9_4.alma.1.src.rpm",
-			"version": "9.2.10"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "221ba386f2b53c730a0b42599e730c05ac3e40ef07339e7778dc86eaf2e3850a",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "grafana-9.2.10-16.el9_4.alma.1.aarch64.rpm",
 			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el9_4.alma.1",
+			"src": "grafana-9.2.10-16.el9_4.alma.1.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "108f7595acfcd0bcdce742ba93673be1dd02ffff86239ee11612b0073d124f0c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-16.el9_4.alma.1.ppc64le.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "16.el9_4.alma.1",
+			"src": "grafana-9.2.10-16.el9_4.alma.1.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "732d227703d54ba1fb564d9bc649e2380255e89589dd607287c853acae57643f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-16.el9_4.alma.1.ppc64le.rpm",
+			"name": "grafana-selinux",
 			"reboot_suggested": 0,
 			"release": "16.el9_4.alma.1",
 			"src": "grafana-9.2.10-16.el9_4.alma.1.src.rpm",
@@ -136,5 +136,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: grafana security update",
 	"type": "security",
-	"updated_date": 1715093697
+	"updated_date": 1715093696
 }

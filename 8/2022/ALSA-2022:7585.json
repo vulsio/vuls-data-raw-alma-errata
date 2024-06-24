@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "f4cd100292617ac1569d1b2bb9f6d4de4f0f47d6bf8fd5e9c98df9b24eac8af9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.0.9-23.el8.x86_64.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "23.el8",
+			"src": "libtiff-4.0.9-23.el8.src.rpm",
+			"version": "4.0.9"
+		},
+		{
 			"arch": "i686",
 			"checksum": "00ca87da82cd109a83469f42d8a41714e79aa5ce231639f59317a6873e7e3c02",
 			"checksum_type": "sha256",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "libtiff-4.0.9-23.el8.i686.rpm",
 			"name": "libtiff",
-			"reboot_suggested": 0,
-			"release": "23.el8",
-			"src": "libtiff-4.0.9-23.el8.src.rpm",
-			"version": "4.0.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f4cd100292617ac1569d1b2bb9f6d4de4f0f47d6bf8fd5e9c98df9b24eac8af9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-tools-4.0.9-23.el8.x86_64.rpm",
-			"name": "libtiff-tools",
 			"reboot_suggested": 0,
 			"release": "23.el8",
 			"src": "libtiff-4.0.9-23.el8.src.rpm",
@@ -113,18 +113,6 @@
 			"version": "4.0.9"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8391ea7ea01b560518327f247351ee9316c98e738b3f025edd3259862e7bbacb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-tools-4.0.9-23.el8.s390x.rpm",
-			"name": "libtiff-tools",
-			"reboot_suggested": 0,
-			"release": "23.el8",
-			"src": "libtiff-4.0.9-23.el8.src.rpm",
-			"version": "4.0.9"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "4983b43939dde8a1425a75009b2abf9141605223021ae05b9d3ed2685339e2c3",
 			"checksum_type": "sha256",
@@ -143,6 +131,18 @@
 			"epoch": "0",
 			"filename": "libtiff-devel-4.0.9-23.el8.ppc64le.rpm",
 			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "23.el8",
+			"src": "libtiff-4.0.9-23.el8.src.rpm",
+			"version": "4.0.9"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8391ea7ea01b560518327f247351ee9316c98e738b3f025edd3259862e7bbacb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.0.9-23.el8.s390x.rpm",
+			"name": "libtiff-tools",
 			"reboot_suggested": 0,
 			"release": "23.el8",
 			"src": "libtiff-4.0.9-23.el8.src.rpm",
@@ -278,5 +278,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libtiff security update",
 	"type": "security",
-	"updated_date": 1668215607
+	"updated_date": 1668215606
 }

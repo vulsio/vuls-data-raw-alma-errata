@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "1d3c1b41c0c9bb3e59c4e4e549fb821edfea21f6b34b72abf19b16a5a38a8789",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-doc-6.4.7.2-16.el8_9.alma.1.x86_64.rpm",
+			"name": "libreoffice-sdk-doc",
+			"reboot_suggested": 0,
+			"release": "16.el8_9.alma.1",
+			"src": "libreoffice-6.4.7.2-16.el8_9.alma.1.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fc974500c2aee6315d25ee5daad60bf640813b393e13e1755f4d45fdd3dbbc7d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-6.4.7.2-16.el8_9.alma.1.x86_64.rpm",
+			"name": "libreoffice-sdk",
+			"reboot_suggested": 0,
+			"release": "16.el8_9.alma.1",
+			"src": "libreoffice-6.4.7.2-16.el8_9.alma.1.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "0b6de9ec9bb8dfa78c97474aab5b26a0b8d64cd459bc15001da8a4e664c50554",
 			"checksum_type": "sha256",
@@ -431,30 +455,6 @@
 			"epoch": "1",
 			"filename": "autocorr-pl-6.4.7.2-16.el8_9.alma.1.noarch.rpm",
 			"name": "autocorr-pl",
-			"reboot_suggested": 0,
-			"release": "16.el8_9.alma.1",
-			"src": "libreoffice-6.4.7.2-16.el8_9.alma.1.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1d3c1b41c0c9bb3e59c4e4e549fb821edfea21f6b34b72abf19b16a5a38a8789",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-doc-6.4.7.2-16.el8_9.alma.1.x86_64.rpm",
-			"name": "libreoffice-sdk-doc",
-			"reboot_suggested": 0,
-			"release": "16.el8_9.alma.1",
-			"src": "libreoffice-6.4.7.2-16.el8_9.alma.1.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "fc974500c2aee6315d25ee5daad60bf640813b393e13e1755f4d45fdd3dbbc7d",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-6.4.7.2-16.el8_9.alma.1.x86_64.rpm",
-			"name": "libreoffice-sdk",
 			"reboot_suggested": 0,
 			"release": "16.el8_9.alma.1",
 			"src": "libreoffice-6.4.7.2-16.el8_9.alma.1.src.rpm",
@@ -3184,5 +3184,5 @@
 	"severity": "Important",
 	"title": "Important: libreoffice security fix update",
 	"type": "security",
-	"updated_date": 1712645991
+	"updated_date": 1712645846
 }

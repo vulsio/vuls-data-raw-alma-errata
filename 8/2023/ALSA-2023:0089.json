@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "250a20bfc053ee69174edc593cec0114da4f31ab75c1135c766d3acbc7d9508b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-6.4.7.2-12.el8_7.alma.x86_64.rpm",
+			"name": "libreoffice-sdk",
+			"reboot_suggested": 0,
+			"release": "12.el8_7.alma",
+			"src": "libreoffice-6.4.7.2-12.el8_7.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e095466bd0dd95b1384c6493ca511126cebdb8ccc095a8f747b22d985e51c0e0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-doc-6.4.7.2-12.el8_7.alma.x86_64.rpm",
+			"name": "libreoffice-sdk-doc",
+			"reboot_suggested": 0,
+			"release": "12.el8_7.alma",
+			"src": "libreoffice-6.4.7.2-12.el8_7.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "000096c3962c63efbfeb6b031816ecaee7660df53ac8ba786039706054845223",
 			"checksum_type": "sha256",
@@ -431,30 +455,6 @@
 			"epoch": "1",
 			"filename": "autocorr-ko-6.4.7.2-12.el8_7.alma.noarch.rpm",
 			"name": "autocorr-ko",
-			"reboot_suggested": 0,
-			"release": "12.el8_7.alma",
-			"src": "libreoffice-6.4.7.2-12.el8_7.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "250a20bfc053ee69174edc593cec0114da4f31ab75c1135c766d3acbc7d9508b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-6.4.7.2-12.el8_7.alma.x86_64.rpm",
-			"name": "libreoffice-sdk",
-			"reboot_suggested": 0,
-			"release": "12.el8_7.alma",
-			"src": "libreoffice-6.4.7.2-12.el8_7.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e095466bd0dd95b1384c6493ca511126cebdb8ccc095a8f747b22d985e51c0e0",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-doc-6.4.7.2-12.el8_7.alma.x86_64.rpm",
-			"name": "libreoffice-sdk-doc",
 			"reboot_suggested": 0,
 			"release": "12.el8_7.alma",
 			"src": "libreoffice-6.4.7.2-12.el8_7.alma.src.rpm",
@@ -3180,5 +3180,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libreoffice security update",
 	"type": "security",
-	"updated_date": 1673633465
+	"updated_date": 1673633292
 }

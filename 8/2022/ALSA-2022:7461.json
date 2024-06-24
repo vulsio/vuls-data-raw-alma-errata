@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "4876818a4bb73c43022a1018368eba87c645f23f41b0a9a0b52c25ac1d14c917",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-6.4.7.2-11.el8.alma.x86_64.rpm",
+			"name": "libreoffice-sdk",
+			"reboot_suggested": 0,
+			"release": "11.el8.alma",
+			"src": "libreoffice-6.4.7.2-11.el8.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "89a59989a1f6caf092ae7a1708debcea06e0c089afe13fd1ed1f519d930f409a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libreoffice-sdk-doc-6.4.7.2-11.el8.alma.x86_64.rpm",
+			"name": "libreoffice-sdk-doc",
+			"reboot_suggested": 0,
+			"release": "11.el8.alma",
+			"src": "libreoffice-6.4.7.2-11.el8.alma.src.rpm",
+			"version": "6.4.7.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "08d275a2a78b10cf7a2bd7f6e06b2bf6aeb2be7f08a7ea8a9cce964e4715187a",
 			"checksum_type": "sha256",
@@ -431,30 +455,6 @@
 			"epoch": "1",
 			"filename": "libreoffice-opensymbol-fonts-6.4.7.2-11.el8.alma.noarch.rpm",
 			"name": "libreoffice-opensymbol-fonts",
-			"reboot_suggested": 0,
-			"release": "11.el8.alma",
-			"src": "libreoffice-6.4.7.2-11.el8.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4876818a4bb73c43022a1018368eba87c645f23f41b0a9a0b52c25ac1d14c917",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-6.4.7.2-11.el8.alma.x86_64.rpm",
-			"name": "libreoffice-sdk",
-			"reboot_suggested": 0,
-			"release": "11.el8.alma",
-			"src": "libreoffice-6.4.7.2-11.el8.alma.src.rpm",
-			"version": "6.4.7.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "89a59989a1f6caf092ae7a1708debcea06e0c089afe13fd1ed1f519d930f409a",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libreoffice-sdk-doc-6.4.7.2-11.el8.alma.x86_64.rpm",
-			"name": "libreoffice-sdk-doc",
 			"reboot_suggested": 0,
 			"release": "11.el8.alma",
 			"src": "libreoffice-6.4.7.2-11.el8.alma.src.rpm",
@@ -3150,5 +3150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libreoffice security update",
 	"type": "security",
-	"updated_date": 1668221740
+	"updated_date": 1668221589
 }
