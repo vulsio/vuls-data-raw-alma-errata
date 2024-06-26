@@ -54,30 +54,6 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "64ea295870d1525130c76deafde7be36513a612442a69ecaa974113b560b22ce",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-kvm-5.14.0-70.26.1.rt21.98.el9_0.x86_64.rpm",
-			"name": "kernel-rt-kvm",
-			"reboot_suggested": 0,
-			"release": "70.26.1.rt21.98.el9_0",
-			"src": "kernel-rt-5.14.0-70.26.1.rt21.98.el9_0.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6a54547da40ffd1074f19e6130f1f80d8241a318c8a2899078a758cafc88a39c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-debug-kvm-5.14.0-70.26.1.rt21.98.el9_0.x86_64.rpm",
-			"name": "kernel-rt-debug-kvm",
-			"reboot_suggested": 0,
-			"release": "70.26.1.rt21.98.el9_0",
-			"src": "kernel-rt-5.14.0-70.26.1.rt21.98.el9_0.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "8dc9a03abad39a8a51da61fe1a3ea80a2d20f5461a9630d376f3181bebe297c4",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -147,6 +123,30 @@
 			"release": "70.26.1.rt21.98.el9_0",
 			"src": "kernel-rt-5.14.0-70.26.1.rt21.98.el9_0.src.rpm",
 			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "64ea295870d1525130c76deafde7be36513a612442a69ecaa974113b560b22ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-kvm-5.14.0-70.26.1.rt21.98.el9_0.x86_64.rpm",
+			"name": "kernel-rt-kvm",
+			"reboot_suggested": 0,
+			"release": "70.26.1.rt21.98.el9_0",
+			"src": "kernel-rt-5.14.0-70.26.1.rt21.98.el9_0.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6a54547da40ffd1074f19e6130f1f80d8241a318c8a2899078a758cafc88a39c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-kvm-5.14.0-70.26.1.rt21.98.el9_0.x86_64.rpm",
+			"name": "kernel-rt-debug-kvm",
+			"reboot_suggested": 0,
+			"release": "70.26.1.rt21.98.el9_0",
+			"src": "kernel-rt-5.14.0-70.26.1.rt21.98.el9_0.src.rpm",
+			"version": "5.14.0"
 		}
 	],
 	"references": [
@@ -184,5 +184,5 @@
 	"severity": "Important",
 	"title": "Important: kernel-rt security and bug fix update",
 	"type": "security",
-	"updated_date": 1666162699
+	"updated_date": 1666162698
 }

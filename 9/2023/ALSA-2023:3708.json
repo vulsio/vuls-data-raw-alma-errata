@@ -18,18 +18,6 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "1b545bc324b32b951e1808c52f3b76400c990f495307e608b0a9ff20c51a7759",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-kvm-5.14.0-284.18.1.rt14.303.el9_2.x86_64.rpm",
-			"name": "kernel-rt-kvm",
-			"reboot_suggested": 0,
-			"release": "284.18.1.rt14.303.el9_2",
-			"src": "kernel-rt-5.14.0-284.18.1.rt14.303.el9_2.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "43910abc8c5ceb8086c12ea84d7faa21e41a1c73a6ac2cf98927abbb016294d3",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -114,18 +102,6 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "ac7dd269912aa0d6634073a490d42aef9ab6a60192c39795326083eaf7e870c5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-debug-kvm-5.14.0-284.18.1.rt14.303.el9_2.x86_64.rpm",
-			"name": "kernel-rt-debug-kvm",
-			"reboot_suggested": 0,
-			"release": "284.18.1.rt14.303.el9_2",
-			"src": "kernel-rt-5.14.0-284.18.1.rt14.303.el9_2.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "af5489f0b6da033acabc0e4e8384c09bc488acc0a1a7444335aa73f04485c911",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -167,6 +143,30 @@
 			"epoch": "0",
 			"filename": "kernel-rt-debug-modules-5.14.0-284.18.1.rt14.303.el9_2.x86_64.rpm",
 			"name": "kernel-rt-debug-modules",
+			"reboot_suggested": 0,
+			"release": "284.18.1.rt14.303.el9_2",
+			"src": "kernel-rt-5.14.0-284.18.1.rt14.303.el9_2.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1b545bc324b32b951e1808c52f3b76400c990f495307e608b0a9ff20c51a7759",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-kvm-5.14.0-284.18.1.rt14.303.el9_2.x86_64.rpm",
+			"name": "kernel-rt-kvm",
+			"reboot_suggested": 0,
+			"release": "284.18.1.rt14.303.el9_2",
+			"src": "kernel-rt-5.14.0-284.18.1.rt14.303.el9_2.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ac7dd269912aa0d6634073a490d42aef9ab6a60192c39795326083eaf7e870c5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-kvm-5.14.0-284.18.1.rt14.303.el9_2.x86_64.rpm",
+			"name": "kernel-rt-debug-kvm",
 			"reboot_suggested": 0,
 			"release": "284.18.1.rt14.303.el9_2",
 			"src": "kernel-rt-5.14.0-284.18.1.rt14.303.el9_2.src.rpm",
@@ -248,5 +248,5 @@
 	"severity": "Important",
 	"title": "Important: kernel-rt security and bug fix update",
 	"type": "security",
-	"updated_date": 1689109785
+	"updated_date": 1689109784
 }

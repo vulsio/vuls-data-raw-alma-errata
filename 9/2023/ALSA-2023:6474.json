@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "04fc87e6275c29790c9d8e9c9a120dd0944c2b665cc3d0944b743168d09448ff",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-4.6.1-5.el9.x86_64.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "26f969f6a921d0cce1dc6f9a5627c4710c59afb8598dad1ecc10b200fd5ebf9c",
 			"checksum_type": "sha256",
@@ -29,11 +17,23 @@
 			"version": "4.6.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "483b8086815ac3a3bed2579ef130eaa3e7e21330b19508122eb9850ab3e3612c",
+			"arch": "aarch64",
+			"checksum": "3a8e0e11cb73909033cd09ba1e63e20905d92b3f11913eaf3940fb2bcb921f06",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "podman-plugins-4.6.1-5.el9.x86_64.rpm",
+			"filename": "podman-tests-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "59325efe9ae548445ecd0a995ea9192e58fd76161623c18fee1a15780a49cfa6",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.aarch64.rpm",
 			"name": "podman-plugins",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -41,11 +41,23 @@
 			"version": "4.6.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5435eb2819a3f244631963c9a3e10c50accdaf41fba512aed6b21c4a4d2318c0",
+			"arch": "aarch64",
+			"checksum": "871c8a54a37ca3a40966ef052b5a4da07dc6da4161468206e009d25a2ba9e4a3",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "podman-gvproxy-4.6.1-5.el9.x86_64.rpm",
+			"filename": "podman-4.6.1-5.el9.aarch64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9f8d49203d8c3f5b976624b6cb0961c22b95e4d7bde871fd69b98270fb950c37",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.aarch64.rpm",
 			"name": "podman-gvproxy",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -53,24 +65,12 @@
 			"version": "4.6.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "c5a32f7d1a5f6a124185a19519acf4e3d1b502d8dfe2e8afad0fe72bf4a40277",
+			"arch": "aarch64",
+			"checksum": "fc2530123b02971fddbe56db155793f94af2e7a6b194eabe51a427cac07c0691",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "podman-remote-4.6.1-5.el9.x86_64.rpm",
+			"filename": "podman-remote-4.6.1-5.el9.aarch64.rpm",
 			"name": "podman-remote",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c72edd12c9a6b75f0bc82fa64a4da2e28c4bb734e2d36441f684c6355927bacf",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-tests-4.6.1-5.el9.x86_64.rpm",
-			"name": "podman-tests",
 			"reboot_suggested": 0,
 			"release": "5.el9",
 			"src": "podman-4.6.1-5.el9.src.rpm",
@@ -137,6 +137,66 @@
 			"version": "4.6.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "04fc87e6275c29790c9d8e9c9a120dd0944c2b665cc3d0944b743168d09448ff",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "483b8086815ac3a3bed2579ef130eaa3e7e21330b19508122eb9850ab3e3612c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-plugins-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5435eb2819a3f244631963c9a3e10c50accdaf41fba512aed6b21c4a4d2318c0",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-gvproxy-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-gvproxy",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c5a32f7d1a5f6a124185a19519acf4e3d1b502d8dfe2e8afad0fe72bf4a40277",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-remote-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c72edd12c9a6b75f0bc82fa64a4da2e28c4bb734e2d36441f684c6355927bacf",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-tests-4.6.1-5.el9.x86_64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "podman-4.6.1-5.el9.src.rpm",
+			"version": "4.6.1"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "128193af1bfbb521a26c723bf36502c4c5fd42c023538cb0c716b59f1f4224b8",
 			"checksum_type": "sha256",
@@ -191,66 +251,6 @@
 			"epoch": "2",
 			"filename": "podman-plugins-4.6.1-5.el9.s390x.rpm",
 			"name": "podman-plugins",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3a8e0e11cb73909033cd09ba1e63e20905d92b3f11913eaf3940fb2bcb921f06",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-tests-4.6.1-5.el9.aarch64.rpm",
-			"name": "podman-tests",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "59325efe9ae548445ecd0a995ea9192e58fd76161623c18fee1a15780a49cfa6",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-plugins-4.6.1-5.el9.aarch64.rpm",
-			"name": "podman-plugins",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "871c8a54a37ca3a40966ef052b5a4da07dc6da4161468206e009d25a2ba9e4a3",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-4.6.1-5.el9.aarch64.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9f8d49203d8c3f5b976624b6cb0961c22b95e4d7bde871fd69b98270fb950c37",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-gvproxy-4.6.1-5.el9.aarch64.rpm",
-			"name": "podman-gvproxy",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "podman-4.6.1-5.el9.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "fc2530123b02971fddbe56db155793f94af2e7a6b194eabe51a427cac07c0691",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-remote-4.6.1-5.el9.aarch64.rpm",
-			"name": "podman-remote",
 			"reboot_suggested": 0,
 			"release": "5.el9",
 			"src": "podman-4.6.1-5.el9.src.rpm",
@@ -402,5 +402,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: podman security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1699963849
+	"updated_date": 1699963848
 }
