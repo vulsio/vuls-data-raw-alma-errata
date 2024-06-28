@@ -29,11 +29,11 @@
 			"version": "1.3.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e5ead1be77605272b879a970f894edb86f5447346cfb656c2a8c60ba35e51aee",
+			"arch": "x86_64",
+			"checksum": "a588c2830aa4a31199fdf336996eae5fcc816450f93105994b3a3fa153229eae",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libtirpc-1.3.3-0.el9.aarch64.rpm",
+			"filename": "libtirpc-1.3.3-0.el9.x86_64.rpm",
 			"name": "libtirpc",
 			"reboot_suggested": 0,
 			"release": "0.el9",
@@ -41,11 +41,11 @@
 			"version": "1.3.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a588c2830aa4a31199fdf336996eae5fcc816450f93105994b3a3fa153229eae",
+			"arch": "aarch64",
+			"checksum": "e5ead1be77605272b879a970f894edb86f5447346cfb656c2a8c60ba35e51aee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libtirpc-1.3.3-0.el9.x86_64.rpm",
+			"filename": "libtirpc-1.3.3-0.el9.aarch64.rpm",
 			"name": "libtirpc",
 			"reboot_suggested": 0,
 			"release": "0.el9",
@@ -77,6 +77,18 @@
 			"version": "1.3.3"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "8a704d707d71135b784d3d34394bf3d74914ecb097ec49e7fbeb7631525ba93d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtirpc-devel-1.3.3-0.el9.s390x.rpm",
+			"name": "libtirpc-devel",
+			"reboot_suggested": 0,
+			"release": "0.el9",
+			"src": "libtirpc-1.3.3-0.el9.src.rpm",
+			"version": "1.3.3"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "567177465e3794ad8f01be4976399978ff08462c06c51c9d00506d59c25b0815",
 			"checksum_type": "sha256",
@@ -94,18 +106,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libtirpc-devel-1.3.3-0.el9.x86_64.rpm",
-			"name": "libtirpc-devel",
-			"reboot_suggested": 0,
-			"release": "0.el9",
-			"src": "libtirpc-1.3.3-0.el9.src.rpm",
-			"version": "1.3.3"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "8a704d707d71135b784d3d34394bf3d74914ecb097ec49e7fbeb7631525ba93d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtirpc-devel-1.3.3-0.el9.s390x.rpm",
 			"name": "libtirpc-devel",
 			"reboot_suggested": 0,
 			"release": "0.el9",
