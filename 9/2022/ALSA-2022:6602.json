@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "65224d74fe5a665c938f330e9cf9b0fa0b4fa7bafa1c662844973f2e1795fe50",
+			"arch": "aarch64",
+			"checksum": "a04d24e71487266a10ab60a9976746b5f50d99479ea8b7403fe74cf7dde7532b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnupg2-smime-2.3.3-2.el9_0.x86_64.rpm",
+			"filename": "gnupg2-smime-2.3.3-2.el9_0.aarch64.rpm",
 			"name": "gnupg2-smime",
 			"reboot_suggested": 0,
 			"release": "2.el9_0",
@@ -17,11 +17,11 @@
 			"version": "2.3.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a04d24e71487266a10ab60a9976746b5f50d99479ea8b7403fe74cf7dde7532b",
+			"arch": "x86_64",
+			"checksum": "65224d74fe5a665c938f330e9cf9b0fa0b4fa7bafa1c662844973f2e1795fe50",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnupg2-smime-2.3.3-2.el9_0.aarch64.rpm",
+			"filename": "gnupg2-smime-2.3.3-2.el9_0.x86_64.rpm",
 			"name": "gnupg2-smime",
 			"reboot_suggested": 0,
 			"release": "2.el9_0",
@@ -41,18 +41,6 @@
 			"version": "2.3.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "c886bcbb7b3cc74c795cf87817a34750002734d2055c5c345489040eceb5996a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnupg2-smime-2.3.3-2.el9_0.s390x.rpm",
-			"name": "gnupg2-smime",
-			"reboot_suggested": 0,
-			"release": "2.el9_0",
-			"src": "gnupg2-2.3.3-2.el9_0.src.rpm",
-			"version": "2.3.3"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "fea9468dd67a1b70ba12bf44d01779c66ba8b3c4a8c7f5673f3f5ad48ecc0363",
 			"checksum_type": "sha256",
@@ -65,12 +53,12 @@
 			"version": "2.3.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5a639754e7001029b0a35ab7cb853a7b86246bd75af9100bd6a37b80a80dd371",
+			"arch": "s390x",
+			"checksum": "c886bcbb7b3cc74c795cf87817a34750002734d2055c5c345489040eceb5996a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnupg2-2.3.3-2.el9_0.x86_64.rpm",
-			"name": "gnupg2",
+			"filename": "gnupg2-smime-2.3.3-2.el9_0.s390x.rpm",
+			"name": "gnupg2-smime",
 			"reboot_suggested": 0,
 			"release": "2.el9_0",
 			"src": "gnupg2-2.3.3-2.el9_0.src.rpm",
@@ -82,6 +70,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gnupg2-2.3.3-2.el9_0.aarch64.rpm",
+			"name": "gnupg2",
+			"reboot_suggested": 0,
+			"release": "2.el9_0",
+			"src": "gnupg2-2.3.3-2.el9_0.src.rpm",
+			"version": "2.3.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5a639754e7001029b0a35ab7cb853a7b86246bd75af9100bd6a37b80a80dd371",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnupg2-2.3.3-2.el9_0.x86_64.rpm",
 			"name": "gnupg2",
 			"reboot_suggested": 0,
 			"release": "2.el9_0",
