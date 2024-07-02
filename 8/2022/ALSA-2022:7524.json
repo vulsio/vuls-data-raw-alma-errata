@@ -6,11 +6,11 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "6606089a06634514380d59c62054347c588f8085d148b7f0a98ca3a522e3db1d",
+			"checksum": "71980b28ec8fde6b2a046944c93e4b328328609eaaa8c5f24036e5f34e830a1f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "yajl-devel-2.1.0-11.el8.i686.rpm",
-			"name": "yajl-devel",
+			"filename": "yajl-2.1.0-11.el8.i686.rpm",
+			"name": "yajl",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "yajl-2.1.0-11.el8.src.rpm",
@@ -18,11 +18,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "71980b28ec8fde6b2a046944c93e4b328328609eaaa8c5f24036e5f34e830a1f",
+			"checksum": "6606089a06634514380d59c62054347c588f8085d148b7f0a98ca3a522e3db1d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "yajl-2.1.0-11.el8.i686.rpm",
-			"name": "yajl",
+			"filename": "yajl-devel-2.1.0-11.el8.i686.rpm",
+			"name": "yajl-devel",
 			"reboot_suggested": 0,
 			"release": "11.el8",
 			"src": "yajl-2.1.0-11.el8.src.rpm",
@@ -89,18 +89,6 @@
 			"version": "2.1.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0a641c7f964d81019863f758933cf1e77e03237099cf8a9560713bf28774fe99",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "yajl-2.1.0-11.el8.ppc64le.rpm",
-			"name": "yajl",
-			"reboot_suggested": 0,
-			"release": "11.el8",
-			"src": "yajl-2.1.0-11.el8.src.rpm",
-			"version": "2.1.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "b3a79744a7702161cdb657b4ec4adadd50f7e3f50cf6d28b887f8a11c2e88435",
 			"checksum_type": "sha256",
@@ -118,6 +106,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "yajl-2.1.0-11.el8.s390x.rpm",
+			"name": "yajl",
+			"reboot_suggested": 0,
+			"release": "11.el8",
+			"src": "yajl-2.1.0-11.el8.src.rpm",
+			"version": "2.1.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0a641c7f964d81019863f758933cf1e77e03237099cf8a9560713bf28774fe99",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "yajl-2.1.0-11.el8.ppc64le.rpm",
 			"name": "yajl",
 			"reboot_suggested": 0,
 			"release": "11.el8",

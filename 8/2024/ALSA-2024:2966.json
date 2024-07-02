@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "ca9e2f728d1168996289ba2dd3d72db80ad02ec37281c02275bb9a25487c205a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.27-12.el8.i686.rpm",
+			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "ghostscript-9.27-12.el8.src.rpm",
+			"version": "9.27"
+		},
+		{
+			"arch": "i686",
 			"checksum": "b86e2e9061469eed3c818faadaa891d7f0f547ee6c754b8ab7dd9833a5c9bec4",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "ghostscript-doc-9.27-12.el8.noarch.rpm",
 			"name": "ghostscript-doc",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "ghostscript-9.27-12.el8.src.rpm",
-			"version": "9.27"
-		},
-		{
-			"arch": "i686",
-			"checksum": "ca9e2f728d1168996289ba2dd3d72db80ad02ec37281c02275bb9a25487c205a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.27-12.el8.i686.rpm",
-			"name": "libgs",
 			"reboot_suggested": 0,
 			"release": "12.el8",
 			"src": "ghostscript-9.27-12.el8.src.rpm",
@@ -257,42 +257,6 @@
 			"version": "9.27"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "4817353d0ccddcdacde186410614c36ce2e0a168ffd41b17b69ace17718564e9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-x11-9.27-12.el8.ppc64le.rpm",
-			"name": "ghostscript-x11",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "ghostscript-9.27-12.el8.src.rpm",
-			"version": "9.27"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7f5a372c84a08567453bff2d36ef65b78f95e07691b22aba1ea12ca46ecd26b2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-9.27-12.el8.ppc64le.rpm",
-			"name": "ghostscript",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "ghostscript-9.27-12.el8.src.rpm",
-			"version": "9.27"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d62ed51382cad40c476682b6840469b92234a8695d237268f6d410c3db0383e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.27-12.el8.ppc64le.rpm",
-			"name": "libgs",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "ghostscript-9.27-12.el8.src.rpm",
-			"version": "9.27"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "1b7ce805066d97c3b361ca2c4b6404afd2019da635694973d87dddf29e780227",
 			"checksum_type": "sha256",
@@ -375,6 +339,42 @@
 			"release": "12.el8",
 			"src": "ghostscript-9.27-12.el8.src.rpm",
 			"version": "9.27"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4817353d0ccddcdacde186410614c36ce2e0a168ffd41b17b69ace17718564e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-x11-9.27-12.el8.ppc64le.rpm",
+			"name": "ghostscript-x11",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "ghostscript-9.27-12.el8.src.rpm",
+			"version": "9.27"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7f5a372c84a08567453bff2d36ef65b78f95e07691b22aba1ea12ca46ecd26b2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-9.27-12.el8.ppc64le.rpm",
+			"name": "ghostscript",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "ghostscript-9.27-12.el8.src.rpm",
+			"version": "9.27"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d62ed51382cad40c476682b6840469b92234a8695d237268f6d410c3db0383e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.27-12.el8.ppc64le.rpm",
+			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "ghostscript-9.27-12.el8.src.rpm",
+			"version": "9.27"
 		}
 	],
 	"references": [
@@ -402,5 +402,5 @@
 	"severity": "Low",
 	"title": "Low: ghostscript security update",
 	"type": "security",
-	"updated_date": 1716993795
+	"updated_date": 1716993572
 }

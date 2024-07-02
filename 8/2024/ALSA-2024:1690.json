@@ -18,14 +18,14 @@
 			"version": "8090020240410072434"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "s390x",
 			"context": "9edba152",
 			"name": "varnish",
 			"stream": "6",
 			"version": "8090020240410072434"
 		},
 		{
-			"arch": "s390x",
+			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "varnish",
 			"stream": "6",
@@ -138,58 +138,6 @@
 			"version": "6.0.13"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3b1a374563d9b0367f494346105fee4cc35e2c6de615a9caeaa5781489877f34",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-docs-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
-			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
-			"name": "varnish-docs",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
-			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
-			"version": "6.0.13"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a7505d9877993dcf5268df1c5f80dbf0f10992c878e3b7c466968121061fe8f6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
-			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
-			"name": "varnish",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
-			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
-			"version": "6.0.13"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ce0bd61771a07d5936b8463c102cbae869f45358f0bf20025c781043b8be2daa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-devel-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
-			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
-			"name": "varnish-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
-			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
-			"version": "6.0.13"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "de1f5422f92056ada37c2bfa75ad55a3aa44fe2f7a44f79ab9c43a70ab16cd22",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+76+a10ffa55.ppc64le.rpm",
-			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
-			"name": "varnish-modules",
-			"reboot_suggested": 0,
-			"release": "6.module_el8.5.0+76+a10ffa55",
-			"src": "varnish-modules-0.15.0-6.module_el8.5.0+76+a10ffa55.src.rpm",
-			"version": "0.15.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "5176a55b2bd8da780db1952d5ea793137895f16508960a9274d2a5109f17e329",
 			"checksum_type": "sha256",
@@ -239,6 +187,58 @@
 			"reboot_suggested": 0,
 			"release": "6.module_el8.6.0+3089+dac88e97",
 			"src": "varnish-modules-0.15.0-6.module_el8.6.0+3089+dac88e97.src.rpm",
+			"version": "0.15.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3b1a374563d9b0367f494346105fee4cc35e2c6de615a9caeaa5781489877f34",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-docs-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
+			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
+			"name": "varnish-docs",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
+			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
+			"version": "6.0.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a7505d9877993dcf5268df1c5f80dbf0f10992c878e3b7c466968121061fe8f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
+			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
+			"name": "varnish",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
+			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
+			"version": "6.0.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ce0bd61771a07d5936b8463c102cbae869f45358f0bf20025c781043b8be2daa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-devel-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.ppc64le.rpm",
+			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
+			"name": "varnish-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.9.0+3786+e8a73bbf.alma.1",
+			"src": "varnish-6.0.13-1.module_el8.9.0+3786+e8a73bbf.alma.1.src.rpm",
+			"version": "6.0.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "de1f5422f92056ada37c2bfa75ad55a3aa44fe2f7a44f79ab9c43a70ab16cd22",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+76+a10ffa55.ppc64le.rpm",
+			"module": "varnish:6:8090020240410072434:9edba152:ppc64le",
+			"name": "varnish-modules",
+			"reboot_suggested": 0,
+			"release": "6.module_el8.5.0+76+a10ffa55",
+			"src": "varnish-modules-0.15.0-6.module_el8.5.0+76+a10ffa55.src.rpm",
 			"version": "0.15.0"
 		}
 	],

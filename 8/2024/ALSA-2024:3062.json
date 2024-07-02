@@ -6,42 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "d3dd3cf8843a0e43c8104298d2b37af27b9f184f457f02f59eda599fe5aac0fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-idle-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-idle",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "e3c109ab76a116f8303780d7798e06f9188564b4c2a74b6d8e2111d0fbb8a4e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-debug-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-debug",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f5b604b692091841eee890d71dd255b2907ac611271e94be539300e0e2e37558",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-test-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-test",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
 			"checksum": "09bfab67a747f00572d8fd53aeb0f40ad94e11aefe96ab922eb7ed6df7679c18",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -95,6 +59,42 @@
 			"epoch": "0",
 			"filename": "python3.11-3.11.7-1.el8.i686.rpm",
 			"name": "python3.11",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d3dd3cf8843a0e43c8104298d2b37af27b9f184f457f02f59eda599fe5aac0fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-idle-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-idle",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e3c109ab76a116f8303780d7798e06f9188564b4c2a74b6d8e2111d0fbb8a4e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-debug-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-debug",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f5b604b692091841eee890d71dd255b2907ac611271e94be539300e0e2e37558",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-test-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-test",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "python3.11-3.11.7-1.el8.src.rpm",
@@ -305,54 +305,6 @@
 			"version": "3.11.7"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3aaa1eaf0f8d55ef86b195e7495f09ff4cdc1c362e33793559b431406a9225a3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-libs-3.11.7-1.el8.ppc64le.rpm",
-			"name": "python3.11-libs",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6742387d058f531cdbbc9138b789ae8a79f7b30224ff8529184921c802b7dbb6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-3.11.7-1.el8.ppc64le.rpm",
-			"name": "python3.11",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7156525e482d32244f5b3a5309ee46d0dfd8774e193983819878b39787d1d82d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-devel-3.11.7-1.el8.ppc64le.rpm",
-			"name": "python3.11-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f161daa36b2324f89f011cb36dce8a21f65259f4930de1d82e9969a8ff8a522b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-tkinter-3.11.7-1.el8.ppc64le.rpm",
-			"name": "python3.11-tkinter",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "367ecfb10afe7ceff8c96dd8536add709a9f9b1746704d7f32d1426ff5b91ae3",
 			"checksum_type": "sha256",
@@ -435,6 +387,54 @@
 			"release": "1.el8",
 			"src": "python3.11-3.11.7-1.el8.src.rpm",
 			"version": "3.11.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3aaa1eaf0f8d55ef86b195e7495f09ff4cdc1c362e33793559b431406a9225a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-libs-3.11.7-1.el8.ppc64le.rpm",
+			"name": "python3.11-libs",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6742387d058f531cdbbc9138b789ae8a79f7b30224ff8529184921c802b7dbb6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-3.11.7-1.el8.ppc64le.rpm",
+			"name": "python3.11",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7156525e482d32244f5b3a5309ee46d0dfd8774e193983819878b39787d1d82d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-devel-3.11.7-1.el8.ppc64le.rpm",
+			"name": "python3.11-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f161daa36b2324f89f011cb36dce8a21f65259f4930de1d82e9969a8ff8a522b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-tkinter-3.11.7-1.el8.ppc64le.rpm",
+			"name": "python3.11-tkinter",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
 		}
 	],
 	"references": [
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python3.11 security update",
 	"type": "security",
-	"updated_date": 1716993658
+	"updated_date": 1716993919
 }
