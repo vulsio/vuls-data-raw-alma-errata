@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "b7fe4224b315e42e0a0f597d875ee694e9784192a28bfa2b9a9da21b8f901510",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-devel-2.2.0-10.el8.i686.rpm",
+			"name": "freerdp-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "freerdp-2.2.0-10.el8.src.rpm",
+			"version": "2.2.0"
+		},
+		{
+			"arch": "i686",
 			"checksum": "5221170e1d29ffcfa742170f9bc57975c84194cbc1f4c4d88f0c351c9953bb63",
 			"checksum_type": "sha256",
 			"epoch": "2",
@@ -35,18 +47,6 @@
 			"epoch": "2",
 			"filename": "libwinpr-devel-2.2.0-10.el8.i686.rpm",
 			"name": "libwinpr-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "freerdp-2.2.0-10.el8.src.rpm",
-			"version": "2.2.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "b7fe4224b315e42e0a0f597d875ee694e9784192a28bfa2b9a9da21b8f901510",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-devel-2.2.0-10.el8.i686.rpm",
-			"name": "freerdp-devel",
 			"reboot_suggested": 0,
 			"release": "10.el8",
 			"src": "freerdp-2.2.0-10.el8.src.rpm",
@@ -185,6 +185,54 @@
 			"version": "2.2.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "1092134642c7b58003956a18b50582e6bf620a513786eb690bf6d74d2449fd0f",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "libwinpr-devel-2.2.0-10.el8.ppc64le.rpm",
+			"name": "libwinpr-devel",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "freerdp-2.2.0-10.el8.src.rpm",
+			"version": "2.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7327c9cc33e0e60402b307614d168bc5f9531c08bc44f0d35d7a4e5f504746f8",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "libwinpr-2.2.0-10.el8.ppc64le.rpm",
+			"name": "libwinpr",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "freerdp-2.2.0-10.el8.src.rpm",
+			"version": "2.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e9522ba4b70525c8f572b4bdebc1a95a7799878d349a33695905025026ede224",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-2.2.0-10.el8.ppc64le.rpm",
+			"name": "freerdp",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "freerdp-2.2.0-10.el8.src.rpm",
+			"version": "2.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f8d5978b11d741418deaf65d9df9d4dde448f6cd8b34b94b19943570cc7f5d08",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "freerdp-libs-2.2.0-10.el8.ppc64le.rpm",
+			"name": "freerdp-libs",
+			"reboot_suggested": 0,
+			"release": "10.el8",
+			"src": "freerdp-2.2.0-10.el8.src.rpm",
+			"version": "2.2.0"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "857853f74e3fc68a2adba2a8e7fdf1425dc3e8af73989eb832afae7369e28cd6",
 			"checksum_type": "sha256",
@@ -239,54 +287,6 @@
 			"epoch": "2",
 			"filename": "libwinpr-2.2.0-10.el8.s390x.rpm",
 			"name": "libwinpr",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "freerdp-2.2.0-10.el8.src.rpm",
-			"version": "2.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "1092134642c7b58003956a18b50582e6bf620a513786eb690bf6d74d2449fd0f",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "libwinpr-devel-2.2.0-10.el8.ppc64le.rpm",
-			"name": "libwinpr-devel",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "freerdp-2.2.0-10.el8.src.rpm",
-			"version": "2.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "7327c9cc33e0e60402b307614d168bc5f9531c08bc44f0d35d7a4e5f504746f8",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "libwinpr-2.2.0-10.el8.ppc64le.rpm",
-			"name": "libwinpr",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "freerdp-2.2.0-10.el8.src.rpm",
-			"version": "2.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e9522ba4b70525c8f572b4bdebc1a95a7799878d349a33695905025026ede224",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-2.2.0-10.el8.ppc64le.rpm",
-			"name": "freerdp",
-			"reboot_suggested": 0,
-			"release": "10.el8",
-			"src": "freerdp-2.2.0-10.el8.src.rpm",
-			"version": "2.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f8d5978b11d741418deaf65d9df9d4dde448f6cd8b34b94b19943570cc7f5d08",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "freerdp-libs-2.2.0-10.el8.ppc64le.rpm",
-			"name": "freerdp-libs",
 			"reboot_suggested": 0,
 			"release": "10.el8",
 			"src": "freerdp-2.2.0-10.el8.src.rpm",
@@ -398,5 +398,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: freerdp security update",
 	"type": "security",
-	"updated_date": 1684533714
+	"updated_date": 1684533619
 }

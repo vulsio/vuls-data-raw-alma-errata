@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "8b57d63b431f889fb63c8f5d3503b632dff50fefd20aff4e2f38c0161128344d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.i686.rpm",
+			"name": "qt5-qtbase-static",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "i686",
 			"checksum": "1ba89c06bab499cf05d3188c149a98cde2f2f5f5ad549eea77811949dd89b3c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -107,18 +119,6 @@
 			"epoch": "0",
 			"filename": "qt5-qtbase-devel-5.15.3-5.el8.i686.rpm",
 			"name": "qt5-qtbase-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "8b57d63b431f889fb63c8f5d3503b632dff50fefd20aff4e2f38c0161128344d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.i686.rpm",
-			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
@@ -353,6 +353,102 @@
 			"version": "5.15.3"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "20c55d6a218e17fc78fb54b00267fee3e5bfef4491157ea52255826bd27cd113",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "21ddd817afd17ded32fd1f57619f194e386e413fd5d1f20af7b67f01f5db8d17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-private-devel-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-private-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "30fa87fba225a1293bdd40ea2299531374139cfbefb676b792a6d75212ccd491",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-examples-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-examples",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3d39561fb5dc58a8c46e00bf737d9273f114f80de5f142bb840284f8f0cae668",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-odbc-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-odbc",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "583655ba9ec723a1837b0a3474f4ccae6fd94d192f98fe0cd29d44eb01a639d3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-devel-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c126439ea458dc1c83da7903ed07ff5044945349b271f2a561d70d868e5b987c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-mysql-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-mysql",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ccde22ecbd1269959cd4d0c062d1125f00bde525a62664df6fb0636d47a29a88",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-postgresql-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-postgresql",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d42e2d618a950392e9c7f3ad4f128bc764501ef709d1aba25df99bac37c9e066",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-gui-5.15.3-5.el8.ppc64le.rpm",
+			"name": "qt5-qtbase-gui",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "52cf8660e7622cac37f6d7fc86d0ecc14cef1108ce6b82748fccbc250d1aeda9",
 			"checksum_type": "sha256",
@@ -459,102 +555,6 @@
 			"release": "5.el8",
 			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
 			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "20c55d6a218e17fc78fb54b00267fee3e5bfef4491157ea52255826bd27cd113",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "21ddd817afd17ded32fd1f57619f194e386e413fd5d1f20af7b67f01f5db8d17",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-private-devel-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-private-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "30fa87fba225a1293bdd40ea2299531374139cfbefb676b792a6d75212ccd491",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-examples-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-examples",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3d39561fb5dc58a8c46e00bf737d9273f114f80de5f142bb840284f8f0cae668",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-odbc-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-odbc",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "583655ba9ec723a1837b0a3474f4ccae6fd94d192f98fe0cd29d44eb01a639d3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-devel-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c126439ea458dc1c83da7903ed07ff5044945349b271f2a561d70d868e5b987c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-mysql-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-mysql",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ccde22ecbd1269959cd4d0c062d1125f00bde525a62664df6fb0636d47a29a88",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-postgresql-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-postgresql",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d42e2d618a950392e9c7f3ad4f128bc764501ef709d1aba25df99bac37c9e066",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-gui-5.15.3-5.el8.ppc64le.rpm",
-			"name": "qt5-qtbase-gui",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
 		}
 	],
 	"references": [
@@ -612,5 +612,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qt5-qtbase security update",
 	"type": "security",
-	"updated_date": 1700728663
+	"updated_date": 1700734738
 }
