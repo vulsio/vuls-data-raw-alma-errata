@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "47988b4caf05c78cd43bb7aa2a1507df2479430b93c75eef64e267fd20d5ad30",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libss-devel-1.45.6-5.el8.i686.rpm",
+			"name": "libss-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+			"version": "1.45.6"
+		},
+		{
+			"arch": "i686",
 			"checksum": "1b3e835fb7bb5fa221eecbb231845560074373c366ccbdcab9c3d11cc2cadbe2",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "libss-1.45.6-5.el8.i686.rpm",
 			"name": "libss",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
-			"version": "1.45.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "47988b4caf05c78cd43bb7aa2a1507df2479430b93c75eef64e267fd20d5ad30",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libss-devel-1.45.6-5.el8.i686.rpm",
-			"name": "libss-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
@@ -143,6 +143,18 @@
 			"epoch": "0",
 			"filename": "libss-1.45.6-5.el8.x86_64.rpm",
 			"name": "libss",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+			"version": "1.45.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "67dbb958a2167069958760e093a9c4cb48a532bfad58339de6fdec5adcbc3649",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libss-devel-1.45.6-5.el8.x86_64.rpm",
+			"name": "libss-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
@@ -226,18 +238,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libss-devel-1.45.6-5.el8.aarch64.rpm",
-			"name": "libss-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "e2fsprogs-1.45.6-5.el8.src.rpm",
-			"version": "1.45.6"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "67dbb958a2167069958760e093a9c4cb48a532bfad58339de6fdec5adcbc3649",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libss-devel-1.45.6-5.el8.x86_64.rpm",
 			"name": "libss-devel",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -438,5 +438,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: e2fsprogs security and bug fix update",
 	"type": "security",
-	"updated_date": 1668197045
+	"updated_date": 1668197042
 }

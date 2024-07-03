@@ -1,0 +1,154 @@
+{
+	"description": "The c-ares C library defines asynchronous DNS (Domain Name System) requests and\nprovides name resolving API.\n\nSecurity Fix(es):\n\n* c-ares: Out of bounds read in ares__read_line() (CVE-2024-25629)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4249",
+	"issued_date": 1719878400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "7c1553f7ebab9f49b1f6d8590e9e9b81ecd574ae5883cc83ecb208f288d876a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-11.el8_10.i686.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ef2dfa5feaab1f933a65e2d205da82ac293a8af7ca4976519e9b8365e05e49f5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-11.el8_10.i686.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "238b55cc8af5ec1934f35cfecca1716574585cbcef6a1d28b2ff9cd4547b7b0c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-11.el8_10.x86_64.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4df62a70a46b5fb3381552b3238cc3c2d3d9b19023a3e927d02d0e04fcfa2671",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-11.el8_10.x86_64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "024a7ecb2a45158d10789a019942e041c5b6e5f8bc044b29dab303df5fe49222",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-11.el8_10.aarch64.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8aa81cfb86422fe6ed3def0becec1d0e5ce6639675789b87769bc7d49bba3ad7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-11.el8_10.aarch64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2ae92e0a79c03bec4aec962a881343e25497dcba248e5500c3e2f97eb73cb829",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-11.el8_10.ppc64le.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9164b6809e45b8404a67bf8c5f4f934ea3113fbc3ff08338a3adb8e8652a14e2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-11.el8_10.ppc64le.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "067b228e324910acd17a6ae127114e959437ab3a1b15f640323e69e7235e68f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-11.el8_10.s390x.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "dd1e87f6bfee3660acae2e79f81b5e063971310fc27b852dd444c23a7bf161aa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-11.el8_10.s390x.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "c-ares-1.13.0-11.el8_10.src.rpm",
+			"version": "1.13.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4249",
+			"id": "RHSA-2024:4249",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-25629",
+			"id": "CVE-2024-25629",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2265713",
+			"id": "2265713",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4249.html",
+			"id": "ALSA-2024:4249",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: c-ares security update",
+	"type": "security",
+	"updated_date": 1720019719
+}

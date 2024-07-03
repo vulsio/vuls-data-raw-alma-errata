@@ -1,0 +1,46 @@
+{
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python-pymysql: SQL injection if used with untrusted JSON input (CVE-2024-36039)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4245",
+	"issued_date": 1719878400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "62e5bb7b24b556f3fd22e7718efa51406ec3211dde665b0c02a7b0c1871c10a9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-PyMySQL-1.1.0-3.el8_10.noarch.rpm",
+			"name": "python3.12-PyMySQL",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "python3.12-PyMySQL-1.1.0-3.el8_10.src.rpm",
+			"version": "1.1.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4245",
+			"id": "RHSA-2024:4245",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-36039",
+			"id": "CVE-2024-36039",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2282821",
+			"id": "2282821",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4245.html",
+			"id": "ALSA-2024:4245",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python3 security update",
+	"type": "security",
+	"updated_date": 1720008346
+}

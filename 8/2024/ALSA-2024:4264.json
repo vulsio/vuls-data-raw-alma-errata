@@ -1,0 +1,250 @@
+{
+	"description": "OpenLDAP is an open-source suite of Lightweight Directory Access Protocol (LDAP) applications and development tools. LDAP is a set of protocols used to access and maintain distributed directory information services over an IP network. \n\nSecurity Fix(es):\n\n* openldap: null pointer dereference in  ber_memalloc_x  function (CVE-2023-2953)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4264",
+	"issued_date": 1719878400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "19482659145a9398907a28fca47e5375aeeecc63294dd52658e6a5b8a7931d0f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-2.4.46-19.el8_10.i686.rpm",
+			"name": "openldap",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "i686",
+			"checksum": "5aa92a22b78265a7609e7567d3a753a3e43ba6fc5485bf632b7638d12c7d7ee3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-devel-2.4.46-19.el8_10.i686.rpm",
+			"name": "openldap-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "650f401657ad68df18ea8297e8f606a0af8bfb92b3aa52615793e1b861b3031b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-2.4.46-19.el8_10.x86_64.rpm",
+			"name": "openldap",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6c6d2b9bb92a1a06aa45b862e21b197a707f322b8b6684d1ff56ed94e2886190",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-clients-2.4.46-19.el8_10.x86_64.rpm",
+			"name": "openldap-clients",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fe0d13606532f70ac23a064bc3558acca974a0ae5bc1cff2e269a05c44e04914",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-devel-2.4.46-19.el8_10.x86_64.rpm",
+			"name": "openldap-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "caa097f5aff29244cec3d620bb1b89f2fbf87079b19b24b68be8946431b234e3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-servers-2.4.46-19.el8_10.x86_64.rpm",
+			"name": "openldap-servers",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "18424629835b56f6b13cd39831491d008d3f520b353a2faa016684e254edbb9a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-2.4.46-19.el8_10.aarch64.rpm",
+			"name": "openldap",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8ae1f9b77c0e8480ab2ba7defd234d6ca8b9e0ed2ae4e00618abf94a69acd0c9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-devel-2.4.46-19.el8_10.aarch64.rpm",
+			"name": "openldap-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a3df58e71c77dfe037ca2c9655218bd8a93ba422cff83c6351da14bc510b9ec7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-clients-2.4.46-19.el8_10.aarch64.rpm",
+			"name": "openldap-clients",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4d18167417f6881072ce19a9de5b377eba51ade48906f635e650e551e8da3968",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-servers-2.4.46-19.el8_10.aarch64.rpm",
+			"name": "openldap-servers",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "19e7308b31f5ed12b4e1b442b6908b505e8c6b1c25d00bd8e0c59994d1fd174f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-clients-2.4.46-19.el8_10.ppc64le.rpm",
+			"name": "openldap-clients",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "469b28b782d2391aa90c76a81c6e1138e35b17b7fdf4505f46a8adf68b94bb13",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-devel-2.4.46-19.el8_10.ppc64le.rpm",
+			"name": "openldap-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a36a5171c3015cbd2831a179d8e611ddbdde7b209d72a839fe04b3dbad39b593",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-2.4.46-19.el8_10.ppc64le.rpm",
+			"name": "openldap",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c80d4cdfbac30372268c944dea44452dc7286079804f78014a83407b5f918d13",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-servers-2.4.46-19.el8_10.ppc64le.rpm",
+			"name": "openldap-servers",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "99cff26c8cbdafb4f573de7d9ba19707f993dfb25d8a0c145619410aff724e85",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-servers-2.4.46-19.el8_10.s390x.rpm",
+			"name": "openldap-servers",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "0c2acfe9022099fdfbee4df27add3bfd95165c1d7f5f25629fca73d3dd2a506d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-2.4.46-19.el8_10.s390x.rpm",
+			"name": "openldap",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "297b55b49ba52f470881c82b43cae58d590d8b6f45fb1346ec039d3c158a63ab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-clients-2.4.46-19.el8_10.s390x.rpm",
+			"name": "openldap-clients",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6333f6817de70d443725f480986ba2595dbd9ab330d960bc9af9b0454249fa17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openldap-devel-2.4.46-19.el8_10.s390x.rpm",
+			"name": "openldap-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_10",
+			"src": "openldap-2.4.46-19.el8_10.src.rpm",
+			"version": "2.4.46"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4264",
+			"id": "RHSA-2024:4264",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-2953",
+			"id": "CVE-2023-2953",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2210651",
+			"id": "2210651",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4264.html",
+			"id": "ALSA-2024:4264",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: openldap security update",
+	"type": "security",
+	"updated_date": 1720006401
+}

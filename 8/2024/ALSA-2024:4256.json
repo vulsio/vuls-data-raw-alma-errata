@@ -1,0 +1,92 @@
+{
+	"description": "The \"less\" utility is a text file browser that resembles \"more\", but allows users to move backwards in the file as well as forwards. Since \"less\" does not read the entire input file at startup, it also starts more quickly than ordinary text editors.\n\nSecurity Fix(es):\n\n* less: OS command injection (CVE-2024-32487)\n* less: missing quoting of shell metacharacters in LESSCLOSE handling (CVE-2022-48624)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4256",
+	"issued_date": 1719878400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "cb48d3f265b2164e5e967c0c648c8cecbd7aca5faa065812560d14aa30a02a81",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-530-3.el8_10.x86_64.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "less-530-3.el8_10.src.rpm",
+			"version": "530"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ad520836d12b2f6442c49833c6ffda855431e5452c8133f9cff5dea2554e5a87",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-530-3.el8_10.aarch64.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "less-530-3.el8_10.src.rpm",
+			"version": "530"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3e88e318060d0d211570902d6fafc23e0b918756cca6bd75fdf9c7ae7dea2d4e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-530-3.el8_10.ppc64le.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "less-530-3.el8_10.src.rpm",
+			"version": "530"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e6c2652a362d61f10cc598ac7bdd148206c3a3f0ec2fabb2a711035d0c4de0ec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "less-530-3.el8_10.s390x.rpm",
+			"name": "less",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "less-530-3.el8_10.src.rpm",
+			"version": "530"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4256",
+			"id": "RHSA-2024:4256",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-48624",
+			"id": "CVE-2022-48624",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-32487",
+			"id": "CVE-2024-32487",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2265081",
+			"id": "2265081",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274980",
+			"id": "2274980",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4256.html",
+			"id": "ALSA-2024:4256",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: less security update",
+	"type": "security",
+	"updated_date": 1720006884
+}
