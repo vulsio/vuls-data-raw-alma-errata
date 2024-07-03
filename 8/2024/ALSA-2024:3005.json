@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "7fd4765ad31a124db32d32a58c1eadf148defd7a062c68266b383d5d24398692",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-20.el8.i686.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "python-pillow-5.1.1-20.el8.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "i686",
 			"checksum": "4c1435d5770c744cf659ea28d8d7acbacd1c8f64f41dc8a5d6cabb00210b99c6",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -23,42 +35,6 @@
 			"epoch": "0",
 			"filename": "python3-pillow-doc-5.1.1-20.el8.noarch.rpm",
 			"name": "python3-pillow-doc",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "python-pillow-5.1.1-20.el8.src.rpm",
-			"version": "5.1.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7fd4765ad31a124db32d32a58c1eadf148defd7a062c68266b383d5d24398692",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-pillow-5.1.1-20.el8.i686.rpm",
-			"name": "python3-pillow",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "python-pillow-5.1.1-20.el8.src.rpm",
-			"version": "5.1.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1b710a714a1736a4953aae5878793536c0da236d1cbb923c7afba5e2376ccbfd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-pillow-tk-5.1.1-20.el8.x86_64.rpm",
-			"name": "python3-pillow-tk",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "python-pillow-5.1.1-20.el8.src.rpm",
-			"version": "5.1.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "830d2991a0536a532d92842837b968588934c9300f5a7475142d428902caca42",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-pillow-devel-5.1.1-20.el8.x86_64.rpm",
-			"name": "python3-pillow-devel",
 			"reboot_suggested": 0,
 			"release": "20.el8",
 			"src": "python-pillow-5.1.1-20.el8.src.rpm",
@@ -90,11 +66,23 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "15adc99e4e2a9bf7119d2a584f58df27e01d71396c489534dac0b7401a27245a",
+			"checksum": "1b710a714a1736a4953aae5878793536c0da236d1cbb923c7afba5e2376ccbfd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-pillow-5.1.1-20.el8.x86_64.rpm",
-			"name": "python3-pillow",
+			"filename": "python3-pillow-tk-5.1.1-20.el8.x86_64.rpm",
+			"name": "python3-pillow-tk",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "python-pillow-5.1.1-20.el8.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "830d2991a0536a532d92842837b968588934c9300f5a7475142d428902caca42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-devel-5.1.1-20.el8.x86_64.rpm",
+			"name": "python3-pillow-devel",
 			"reboot_suggested": 0,
 			"release": "20.el8",
 			"src": "python-pillow-5.1.1-20.el8.src.rpm",
@@ -106,6 +94,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-pillow-5.1.1-20.el8.aarch64.rpm",
+			"name": "python3-pillow",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "python-pillow-5.1.1-20.el8.src.rpm",
+			"version": "5.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "15adc99e4e2a9bf7119d2a584f58df27e01d71396c489534dac0b7401a27245a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-pillow-5.1.1-20.el8.x86_64.rpm",
 			"name": "python3-pillow",
 			"reboot_suggested": 0,
 			"release": "20.el8",
@@ -210,5 +210,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python-pillow security update",
 	"type": "security",
-	"updated_date": 1716993802
+	"updated_date": 1716993575
 }

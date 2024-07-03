@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "bb6eccd076d5c8d1023e600903a44fb2a9a926278ec39cb47f32238f02478674",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "yajl-devel-2.1.0-12.el8.i686.rpm",
-			"name": "yajl-devel",
-			"reboot_suggested": 0,
-			"release": "12.el8",
-			"src": "yajl-2.1.0-12.el8.src.rpm",
-			"version": "2.1.0"
-		},
-		{
-			"arch": "i686",
 			"checksum": "2cf923e962eb47de759b191334df72733a4ea13147a1b6c68dda0779c1a38a28",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -29,11 +17,11 @@
 			"version": "2.1.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1c4cc40ab3ae54eea41746ce996269d92c5159a986f8be3c3c2b1cb707daa820",
+			"arch": "i686",
+			"checksum": "bb6eccd076d5c8d1023e600903a44fb2a9a926278ec39cb47f32238f02478674",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "yajl-devel-2.1.0-12.el8.x86_64.rpm",
+			"filename": "yajl-devel-2.1.0-12.el8.i686.rpm",
 			"name": "yajl-devel",
 			"reboot_suggested": 0,
 			"release": "12.el8",
@@ -54,11 +42,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "240b5ea4f2a902171113c1b1ed23a057585a5ca4f2688580d7ba9bb92ee142f7",
+			"checksum": "1c4cc40ab3ae54eea41746ce996269d92c5159a986f8be3c3c2b1cb707daa820",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "yajl-2.1.0-12.el8.x86_64.rpm",
-			"name": "yajl",
+			"filename": "yajl-devel-2.1.0-12.el8.x86_64.rpm",
+			"name": "yajl-devel",
 			"reboot_suggested": 0,
 			"release": "12.el8",
 			"src": "yajl-2.1.0-12.el8.src.rpm",
@@ -70,6 +58,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "yajl-2.1.0-12.el8.aarch64.rpm",
+			"name": "yajl",
+			"reboot_suggested": 0,
+			"release": "12.el8",
+			"src": "yajl-2.1.0-12.el8.src.rpm",
+			"version": "2.1.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "240b5ea4f2a902171113c1b1ed23a057585a5ca4f2688580d7ba9bb92ee142f7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "yajl-2.1.0-12.el8.x86_64.rpm",
 			"name": "yajl",
 			"reboot_suggested": 0,
 			"release": "12.el8",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: yajl security update",
 	"type": "security",
-	"updated_date": 1700734744
+	"updated_date": 1700734743
 }

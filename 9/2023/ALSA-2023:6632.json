@@ -17,11 +17,11 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "392bf13f3c2a6cbe339ac0a977e4727f855ea1fc5c50687b026a1ba0d39b2a57",
+			"arch": "ppc64le",
+			"checksum": "42af66bdb94987b128bfe19f3ba18bf6de31060de3678f4c2600d98956eed91b",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "shadow-utils-4.9-8.el9.s390x.rpm",
+			"filename": "shadow-utils-4.9-8.el9.ppc64le.rpm",
 			"name": "shadow-utils",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -29,11 +29,11 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "9e6f97c7e39f717ad81b7f0598949caae97768c80dfe860d773b64c1c5ad53c7",
+			"arch": "ppc64le",
+			"checksum": "831f1df3738b648b702df179715d3abb31f47c8ff7b9067ac314a04bc35814e2",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "shadow-utils-subid-4.9-8.el9.s390x.rpm",
+			"filename": "shadow-utils-subid-4.9-8.el9.ppc64le.rpm",
 			"name": "shadow-utils-subid",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -65,6 +65,30 @@
 			"version": "4.9"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "392bf13f3c2a6cbe339ac0a977e4727f855ea1fc5c50687b026a1ba0d39b2a57",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "shadow-utils-4.9-8.el9.s390x.rpm",
+			"name": "shadow-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "shadow-utils-4.9-8.el9.src.rpm",
+			"version": "4.9"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9e6f97c7e39f717ad81b7f0598949caae97768c80dfe860d773b64c1c5ad53c7",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "shadow-utils-subid-4.9-8.el9.s390x.rpm",
+			"name": "shadow-utils-subid",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "shadow-utils-4.9-8.el9.src.rpm",
+			"version": "4.9"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "5e7613458d8eb96d5a0145ef3234c74df0b7b9f3eb72dd8140a602308052aa6c",
 			"checksum_type": "sha256",
@@ -89,30 +113,6 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "42af66bdb94987b128bfe19f3ba18bf6de31060de3678f4c2600d98956eed91b",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "shadow-utils-4.9-8.el9.ppc64le.rpm",
-			"name": "shadow-utils",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "shadow-utils-4.9-8.el9.src.rpm",
-			"version": "4.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "831f1df3738b648b702df179715d3abb31f47c8ff7b9067ac314a04bc35814e2",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "shadow-utils-subid-4.9-8.el9.ppc64le.rpm",
-			"name": "shadow-utils-subid",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "shadow-utils-4.9-8.el9.src.rpm",
-			"version": "4.9"
-		},
-		{
 			"arch": "i686",
 			"checksum": "e2e445f2d144c356a7823eb4bfdd7fdcb5407501084e852fa54750782e710004",
 			"checksum_type": "sha256",
@@ -125,11 +125,11 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e797c7a645c887b11dbb3d575da1a68b07e95c6161d4ad57330683811dba9405",
+			"arch": "s390x",
+			"checksum": "02000ade5890b4c7032f154f663f4a4e519ffa5b155f4525308fb0581e2ffb78",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "shadow-utils-subid-devel-4.9-8.el9.x86_64.rpm",
+			"filename": "shadow-utils-subid-devel-4.9-8.el9.s390x.rpm",
 			"name": "shadow-utils-subid-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -137,11 +137,11 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "02000ade5890b4c7032f154f663f4a4e519ffa5b155f4525308fb0581e2ffb78",
+			"arch": "x86_64",
+			"checksum": "e797c7a645c887b11dbb3d575da1a68b07e95c6161d4ad57330683811dba9405",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "shadow-utils-subid-devel-4.9-8.el9.s390x.rpm",
+			"filename": "shadow-utils-subid-devel-4.9-8.el9.x86_64.rpm",
 			"name": "shadow-utils-subid-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",

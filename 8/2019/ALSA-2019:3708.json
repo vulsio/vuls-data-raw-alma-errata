@@ -11,6 +11,13 @@
 			"version": "8060020220803092659"
 		},
 		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "mariadb-devel",
+			"stream": "10.3",
+			"version": "8060020220503130727"
+		},
+		{
 			"arch": "x86_64",
 			"context": "229f0a1c",
 			"name": "mariadb-devel",
@@ -20,9 +27,9 @@
 		{
 			"arch": "aarch64",
 			"context": "9edba152",
-			"name": "mariadb-devel",
-			"stream": "10.3",
-			"version": "8060020220503130727"
+			"name": "mariadb",
+			"stream": "10.5",
+			"version": "8060020220420124706"
 		},
 		{
 			"arch": "x86_64",
@@ -37,13 +44,6 @@
 			"name": "mariadb",
 			"stream": "10.5",
 			"version": "8060020220803092659"
-		},
-		{
-			"arch": "aarch64",
-			"context": "9edba152",
-			"name": "mariadb",
-			"stream": "10.5",
-			"version": "8060020220420124706"
 		},
 		{
 			"arch": "aarch64",
@@ -95,6 +95,32 @@
 			"epoch": "0",
 			"filename": "Judy-devel-1.0.5-18.module_el8.6.0+2867+72759d2f.i686.rpm",
 			"module": "mariadb:10.5:8060020220803092659:9edba152:i686",
+			"name": "Judy-devel",
+			"reboot_suggested": 0,
+			"release": "18.module_el8.6.0+2867+72759d2f",
+			"src": "Judy-1.0.5-18.module_el8.6.0+2867+72759d2f.src.rpm",
+			"version": "1.0.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "63fc351fbcd03176401f95f16cebd29b23066a2a8c21696f72a9f8c2e916b4b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "asio-devel-1.10.8-7.module_el8.6.0+2867+72759d2f.aarch64.rpm",
+			"module": "mariadb-devel:10.3:8060020220503130727:9edba152:aarch64",
+			"name": "asio-devel",
+			"reboot_suggested": 0,
+			"release": "7.module_el8.6.0+2867+72759d2f",
+			"src": "asio-1.10.8-7.module_el8.6.0+2867+72759d2f.src.rpm",
+			"version": "1.10.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "93d0e21e8df7e2b686fe949792b8587fbe3436ee13cc46cd539a1a73684fa5d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "Judy-devel-1.0.5-18.module_el8.6.0+2867+72759d2f.aarch64.rpm",
+			"module": "mariadb-devel:10.3:8060020220503130727:9edba152:aarch64",
 			"name": "Judy-devel",
 			"reboot_suggested": 0,
 			"release": "18.module_el8.6.0+2867+72759d2f",
@@ -155,28 +181,15 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "63fc351fbcd03176401f95f16cebd29b23066a2a8c21696f72a9f8c2e916b4b3",
+			"checksum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "asio-devel-1.10.8-7.module_el8.6.0+2867+72759d2f.aarch64.rpm",
-			"module": "mariadb-devel:10.3:8060020220503130727:9edba152:aarch64",
-			"name": "asio-devel",
+			"filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
+			"module": "mariadb:10.5:8060020220420124706:9edba152:aarch64",
+			"name": "Judy",
 			"reboot_suggested": 0,
-			"release": "7.module_el8.6.0+2867+72759d2f",
-			"src": "asio-1.10.8-7.module_el8.6.0+2867+72759d2f.src.rpm",
-			"version": "1.10.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "93d0e21e8df7e2b686fe949792b8587fbe3436ee13cc46cd539a1a73684fa5d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "Judy-devel-1.0.5-18.module_el8.6.0+2867+72759d2f.aarch64.rpm",
-			"module": "mariadb-devel:10.3:8060020220503130727:9edba152:aarch64",
-			"name": "Judy-devel",
-			"reboot_suggested": 0,
-			"release": "18.module_el8.6.0+2867+72759d2f",
-			"src": "Judy-1.0.5-18.module_el8.6.0+2867+72759d2f.src.rpm",
+			"release": "18.module_el8.6.0+2761+593e5e59",
+			"src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
 			"version": "1.0.5"
 		},
 		{
@@ -217,19 +230,6 @@
 			"release": "7.module_el8.6.0+3072+3c630e87",
 			"src": "asio-1.10.8-7.module_el8.6.0+3072+3c630e87.src.rpm",
 			"version": "1.10.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d6a69d3a722b634e22140ac45951705586f6eacae111d6eddf8f0783a90dff0e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.aarch64.rpm",
-			"module": "mariadb:10.5:8060020220420124706:9edba152:aarch64",
-			"name": "Judy",
-			"reboot_suggested": 0,
-			"release": "18.module_el8.6.0+2761+593e5e59",
-			"src": "Judy-1.0.5-18.module_el8.6.0+2761+593e5e59.src.rpm",
-			"version": "1.0.5"
 		},
 		{
 			"arch": "ppc64le",
@@ -403,6 +403,11 @@
 			"type": "self"
 		},
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2019-3708.html",
+			"id": "ALSA-2019-3708",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2019-2510",
 			"id": "CVE-2019-2510",
 			"type": "cve"
@@ -461,11 +466,6 @@
 			"href": "https://vulners.com/cve/CVE-2021-2007",
 			"id": "CVE-2021-2007",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2019-3708.html",
-			"id": "ALSA-2019-3708",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
