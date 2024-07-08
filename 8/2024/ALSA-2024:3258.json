@@ -29,11 +29,11 @@
 			"version": "1.20.11"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "04bab4c4535aa715e48b30946b814ba26d1524e6dff0cc4082d612c1d1834faa",
+			"arch": "aarch64",
+			"checksum": "0c16a3e75df4aa9412f24b2266bbabe040389239593e453d58e24fea8701b3f1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.x86_64.rpm",
+			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.aarch64.rpm",
 			"name": "xorg-x11-server-devel",
 			"reboot_suggested": 0,
 			"release": "23.el8_10",
@@ -41,11 +41,11 @@
 			"version": "1.20.11"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0c16a3e75df4aa9412f24b2266bbabe040389239593e453d58e24fea8701b3f1",
+			"arch": "x86_64",
+			"checksum": "04bab4c4535aa715e48b30946b814ba26d1524e6dff0cc4082d612c1d1834faa",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.aarch64.rpm",
+			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.x86_64.rpm",
 			"name": "xorg-x11-server-devel",
 			"reboot_suggested": 0,
 			"release": "23.el8_10",
@@ -282,18 +282,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "c66238846298cdbd099b1f43dbd30d86e6da7d785a2ce0a0e692b118ee327e84",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.s390x.rpm",
-			"name": "xorg-x11-server-devel",
-			"reboot_suggested": 0,
-			"release": "23.el8_10",
-			"src": "xorg-x11-server-1.20.11-23.el8_10.src.rpm",
-			"version": "1.20.11"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "0901e55fff379e8a9239e1220d9e7c4a4fd68a28d3de4abcecf7cf2405e8d044",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -359,6 +347,18 @@
 			"epoch": "0",
 			"filename": "xorg-x11-server-Xephyr-1.20.11-23.el8_10.s390x.rpm",
 			"name": "xorg-x11-server-Xephyr",
+			"reboot_suggested": 0,
+			"release": "23.el8_10",
+			"src": "xorg-x11-server-1.20.11-23.el8_10.src.rpm",
+			"version": "1.20.11"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c66238846298cdbd099b1f43dbd30d86e6da7d785a2ce0a0e692b118ee327e84",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-devel-1.20.11-23.el8_10.s390x.rpm",
+			"name": "xorg-x11-server-devel",
 			"reboot_suggested": 0,
 			"release": "23.el8_10",
 			"src": "xorg-x11-server-1.20.11-23.el8_10.src.rpm",

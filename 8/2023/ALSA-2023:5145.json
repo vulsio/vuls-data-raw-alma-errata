@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "b1f9411cd7e10bf0e689a0a30829858b141aa862896961f5a3ae85f6e505457d",
+			"arch": "aarch64",
+			"checksum": "de5913f3f1adcd5df8b9099e8ba56e8c6c994d313b5c5827913a1cbacf120304",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.x86_64.rpm",
+			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.aarch64.rpm",
 			"name": "dotnet-sdk-7.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_8",
@@ -17,11 +17,11 @@
 			"version": "7.0.111"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "de5913f3f1adcd5df8b9099e8ba56e8c6c994d313b5c5827913a1cbacf120304",
+			"arch": "x86_64",
+			"checksum": "b1f9411cd7e10bf0e689a0a30829858b141aa862896961f5a3ae85f6e505457d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.aarch64.rpm",
+			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.x86_64.rpm",
 			"name": "dotnet-sdk-7.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_8",
@@ -438,18 +438,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "5cdbd40904005ae361334552527773e49ff905a6154a85e70ce001093d2ecfe5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.s390x.rpm",
-			"name": "dotnet-sdk-7.0-source-built-artifacts",
-			"reboot_suggested": 0,
-			"release": "1.el8_8",
-			"src": "dotnet7.0-7.0.111-1.el8_8.src.rpm",
-			"version": "7.0.111"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "06bd5d64c917198cb0f5988d909760281cd007b5658206e1c54f9890b8e54de6",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -579,6 +567,18 @@
 			"release": "1.el8_8",
 			"src": "dotnet7.0-7.0.111-1.el8_8.src.rpm",
 			"version": "7.0.11"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5cdbd40904005ae361334552527773e49ff905a6154a85e70ce001093d2ecfe5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-7.0-source-built-artifacts-7.0.111-1.el8_8.s390x.rpm",
+			"name": "dotnet-sdk-7.0-source-built-artifacts",
+			"reboot_suggested": 0,
+			"release": "1.el8_8",
+			"src": "dotnet7.0-7.0.111-1.el8_8.src.rpm",
+			"version": "7.0.111"
 		}
 	],
 	"references": [

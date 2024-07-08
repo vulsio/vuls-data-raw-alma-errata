@@ -65,11 +65,11 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "03f48f8336c64882cec9b8b842cd679806eefe9c404bb0b72c4173e35b87d39b",
+			"arch": "aarch64",
+			"checksum": "1018df361b142bbec7b32dceb957c6583a9dabcbee57418f59d30bc403174ad0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-1.el8_10.x86_64.rpm",
+			"filename": "flatpak-devel-1.12.9-1.el8_10.aarch64.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -77,11 +77,11 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "1018df361b142bbec7b32dceb957c6583a9dabcbee57418f59d30bc403174ad0",
+			"arch": "x86_64",
+			"checksum": "03f48f8336c64882cec9b8b842cd679806eefe9c404bb0b72c4173e35b87d39b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-1.el8_10.aarch64.rpm",
+			"filename": "flatpak-devel-1.12.9-1.el8_10.x86_64.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -210,18 +210,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "79703be4012c21e59ac4950ce77ca190a20fb27ded22a4bc2b67ba399c899b7d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-1.el8_10.s390x.rpm",
-			"name": "flatpak-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "5bb89f2c4c1428e53299fcb05f8c3674f2321a4e4d441fe732f9fc318c9bc9a2",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -251,6 +239,18 @@
 			"epoch": "0",
 			"filename": "flatpak-libs-1.12.9-1.el8_10.s390x.rpm",
 			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "79703be4012c21e59ac4950ce77ca190a20fb27ded22a4bc2b67ba399c899b7d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-devel-1.12.9-1.el8_10.s390x.rpm",
+			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "flatpak-1.12.9-1.el8_10.src.rpm",

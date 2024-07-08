@@ -125,11 +125,11 @@
 			"version": "5.15.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "b7873b7b89a7efa6a798187e9a63760cc04d7a7fa3e0f9a70233fe496b1d60a0",
+			"arch": "aarch64",
+			"checksum": "489a077b502c5665d7d4958236e07f72039fae83612f791c85d95a5f33750799",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.x86_64.rpm",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.aarch64.rpm",
 			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -137,11 +137,11 @@
 			"version": "5.15.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "489a077b502c5665d7d4958236e07f72039fae83612f791c85d95a5f33750799",
+			"arch": "x86_64",
+			"checksum": "b7873b7b89a7efa6a798187e9a63760cc04d7a7fa3e0f9a70233fe496b1d60a0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.aarch64.rpm",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.x86_64.rpm",
 			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -450,18 +450,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "52cf8660e7622cac37f6d7fc86d0ecc14cef1108ce6b82748fccbc250d1aeda9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-5.el8.s390x.rpm",
-			"name": "qt5-qtbase-static",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "4fbce5431db497c0466bc3c61286de3e19d15ddf5984631eabb41d32edd99825",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -551,6 +539,18 @@
 			"epoch": "0",
 			"filename": "qt5-qtbase-postgresql-5.15.3-5.el8.s390x.rpm",
 			"name": "qt5-qtbase-postgresql",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "52cf8660e7622cac37f6d7fc86d0ecc14cef1108ce6b82748fccbc250d1aeda9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-5.el8.s390x.rpm",
+			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "5.el8",
 			"src": "qt5-qtbase-5.15.3-5.el8.src.rpm",

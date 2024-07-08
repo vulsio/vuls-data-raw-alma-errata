@@ -65,11 +65,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "940b52e058906eebb95a13cc0246211fe0e415649ffd639755d2ab3e4c0ecb83",
+			"arch": "aarch64",
+			"checksum": "a08b167304571cb78cfeaca1ab67cf3980ba9e2773a7c272b6923a4498e142ac",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.x86_64.rpm",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.aarch64.rpm",
 			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
@@ -77,11 +77,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a08b167304571cb78cfeaca1ab67cf3980ba9e2773a7c272b6923a4498e142ac",
+			"arch": "x86_64",
+			"checksum": "940b52e058906eebb95a13cc0246211fe0e415649ffd639755d2ab3e4c0ecb83",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.aarch64.rpm",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.x86_64.rpm",
 			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
@@ -282,18 +282,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "47162e57fda6e290de25b9b31e468efcfcc3b29142778e6e2fad961234547f90",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.s390x.rpm",
-			"name": "bind9.16-devel",
-			"reboot_suggested": 0,
-			"release": "0.14.el8",
-			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "36bf65d7592d019b8f8e226207740c9288ca20ed22507ebf8ef0c3537db2da49",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -347,6 +335,18 @@
 			"epoch": "32",
 			"filename": "bind9.16-libs-9.16.23-0.14.el8.s390x.rpm",
 			"name": "bind9.16-libs",
+			"reboot_suggested": 0,
+			"release": "0.14.el8",
+			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "47162e57fda6e290de25b9b31e468efcfcc3b29142778e6e2fad961234547f90",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.s390x.rpm",
+			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
 			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
