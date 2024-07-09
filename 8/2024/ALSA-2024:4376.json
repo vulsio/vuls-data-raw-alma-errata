@@ -1,0 +1,82 @@
+{
+	"description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: IKEv1 default AH/ESP responder can crash and restart (CVE-2024-3652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4376",
+	"issued_date": 1720396800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "43ec115bf395e1e939de3608f07a52c8dcf4152286595c4d37111be7e8f8bdf8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_10.4.aarch64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.4",
+			"src": "libreswan-4.12-2.el8_10.4.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3ea306e2bab005922e45c629e7b228c5215f4e9bb388faf04621300d0a924adc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_10.4.x86_64.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.4",
+			"src": "libreswan-4.12-2.el8_10.4.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ab334c990662fe7d2e8a7a2c10202280d5c1cc9f79d7c1fba39f2ee0996b273b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_10.4.ppc64le.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.4",
+			"src": "libreswan-4.12-2.el8_10.4.src.rpm",
+			"version": "4.12"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d8d986d3723c1f7c2ed89137ab5e7bdf34c2c3e83046a492b37453497d1e0173",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libreswan-4.12-2.el8_10.4.s390x.rpm",
+			"name": "libreswan",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.4",
+			"src": "libreswan-4.12-2.el8_10.4.src.rpm",
+			"version": "4.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4376",
+			"id": "RHSA-2024:4376",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-3652",
+			"id": "CVE-2024-3652",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274448",
+			"id": "2274448",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4376.html",
+			"id": "ALSA-2024:4376",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: libreswan security update",
+	"type": "security",
+	"updated_date": 1720528612
+}
