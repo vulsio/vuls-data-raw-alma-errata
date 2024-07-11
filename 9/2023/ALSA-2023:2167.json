@@ -5,11 +5,23 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "32009c1a14aad2511660f815f9f9053f3b9978db816089aeca6fd43be6f579ba",
+			"arch": "aarch64",
+			"checksum": "3eb8954fcad58a92a3e583bef48b25b4cfd02419ddcfb8f79e67f76a367d57f9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "grafana-9.0.9-2.el9.ppc64le.rpm",
+			"filename": "grafana-9.0.9-2.el9.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "grafana-9.0.9-2.el9.src.rpm",
+			"version": "9.0.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5293a07251893259d83803924071876128ddb3e5d6fc03a65c472b9c8ec32da8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.0.9-2.el9.x86_64.rpm",
 			"name": "grafana",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -29,23 +41,11 @@
 			"version": "9.0.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3eb8954fcad58a92a3e583bef48b25b4cfd02419ddcfb8f79e67f76a367d57f9",
+			"arch": "ppc64le",
+			"checksum": "32009c1a14aad2511660f815f9f9053f3b9978db816089aeca6fd43be6f579ba",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "grafana-9.0.9-2.el9.aarch64.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "grafana-9.0.9-2.el9.src.rpm",
-			"version": "9.0.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "5293a07251893259d83803924071876128ddb3e5d6fc03a65c472b9c8ec32da8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-9.0.9-2.el9.x86_64.rpm",
+			"filename": "grafana-9.0.9-2.el9.ppc64le.rpm",
 			"name": "grafana",
 			"reboot_suggested": 0,
 			"release": "2.el9",

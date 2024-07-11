@@ -5,11 +5,23 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "894f0cd68100f4747107c58e13a36268ac7259382c684087323461bf1c305b0f",
+			"arch": "aarch64",
+			"checksum": "c7082e20a3f6a1bbcd142bfca11dfc3182a239311375adb0d04d7e580dea1198",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-102.4.0-1.el9_0.alma.ppc64le.rpm",
+			"filename": "firefox-102.4.0-1.el9_0.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_0.alma",
+			"src": "firefox-102.4.0-1.el9_0.alma.src.rpm",
+			"version": "102.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0fffbe244e9e135638487950960c246e86bd6dd0dbb64495228e3347c1b2719b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.4.0-1.el9_0.alma.x86_64.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.alma",
@@ -29,23 +41,11 @@
 			"version": "102.4.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c7082e20a3f6a1bbcd142bfca11dfc3182a239311375adb0d04d7e580dea1198",
+			"arch": "ppc64le",
+			"checksum": "894f0cd68100f4747107c58e13a36268ac7259382c684087323461bf1c305b0f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-102.4.0-1.el9_0.alma.aarch64.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "1.el9_0.alma",
-			"src": "firefox-102.4.0-1.el9_0.alma.src.rpm",
-			"version": "102.4.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0fffbe244e9e135638487950960c246e86bd6dd0dbb64495228e3347c1b2719b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.4.0-1.el9_0.alma.x86_64.rpm",
+			"filename": "firefox-102.4.0-1.el9_0.alma.ppc64le.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el9_0.alma",
