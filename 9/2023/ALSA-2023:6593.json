@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "bc897234de29cccd603dc6017250733b6c76561e38be1a1664240960f4e3f5bc",
+			"arch": "ppc64le",
+			"checksum": "66a1a587bbd51407fc7bb1fde50aef681cdee9d64dad987b3db48906f1a55d07",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.i686.rpm",
+			"filename": "binutils-devel-2.35.2-42.el9.ppc64le.rpm",
 			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -17,11 +17,11 @@
 			"version": "2.35.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6c4a55674edd55fc833a5403d085572bd0bd7ce31c8d51e99f494c5bce8c08bd",
+			"arch": "i686",
+			"checksum": "bc897234de29cccd603dc6017250733b6c76561e38be1a1664240960f4e3f5bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.aarch64.rpm",
+			"filename": "binutils-devel-2.35.2-42.el9.i686.rpm",
 			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -41,6 +41,18 @@
 			"version": "2.35.2"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "6c4a55674edd55fc833a5403d085572bd0bd7ce31c8d51e99f494c5bce8c08bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-devel-2.35.2-42.el9.aarch64.rpm",
+			"name": "binutils-devel",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "36d47a7168a1008f92ae68a38a861d74bd24500fc5ef2c8ff20df2f7c83f6703",
 			"checksum_type": "sha256",
@@ -53,71 +65,11 @@
 			"version": "2.35.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "66a1a587bbd51407fc7bb1fde50aef681cdee9d64dad987b3db48906f1a55d07",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.ppc64le.rpm",
-			"name": "binutils-devel",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "7dc267a4c33ec06824101b19410985640f78db39a55fe5e2433a1670f210759f",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "binutils-2.35.2-42.el9.i686.rpm",
-			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "67792878be184b1088739594fe08a015620a16eff8f511e27013a38d7d05de5b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.35.2-42.el9.ppc64le.rpm",
-			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e4bbba9a7d9996116a595d6647fdaf7316fc90f6ce813bb8570882935e71362a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-gold-2.35.2-42.el9.ppc64le.rpm",
-			"name": "binutils-gold",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9a7c568e34fe0d9696886dd7d341836711cb52799da5019c648981806ac4e0a1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-gold-2.35.2-42.el9.aarch64.rpm",
-			"name": "binutils-gold",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e34bc7e2f821432e6b4bc4369104dfb4ff49a64f48f6103999a3716a8d74a52e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.35.2-42.el9.aarch64.rpm",
 			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -149,6 +101,30 @@
 			"version": "2.35.2"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "67792878be184b1088739594fe08a015620a16eff8f511e27013a38d7d05de5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-2.35.2-42.el9.ppc64le.rpm",
+			"name": "binutils",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e4bbba9a7d9996116a595d6647fdaf7316fc90f6ce813bb8570882935e71362a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-gold-2.35.2-42.el9.ppc64le.rpm",
+			"name": "binutils-gold",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "772eaaf2da7b87fc45a6f8479deceddcf3be0478999f62670bbd578b20331f7d",
 			"checksum_type": "sha256",
@@ -167,6 +143,30 @@
 			"epoch": "0",
 			"filename": "binutils-gold-2.35.2-42.el9.s390x.rpm",
 			"name": "binutils-gold",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9a7c568e34fe0d9696886dd7d341836711cb52799da5019c648981806ac4e0a1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-gold-2.35.2-42.el9.aarch64.rpm",
+			"name": "binutils-gold",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e34bc7e2f821432e6b4bc4369104dfb4ff49a64f48f6103999a3716a8d74a52e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-2.35.2-42.el9.aarch64.rpm",
+			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "42.el9",
 			"src": "binutils-2.35.2-42.el9.src.rpm",

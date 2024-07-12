@@ -17,11 +17,11 @@
 			"version": "6.2.7"
 		},
 		{
-			"arch": "i686",
-			"checksum": "7aa3e793576437268a42d168c4febef9a03d425b0d5375e0d73f189024e16528",
+			"arch": "ppc64le",
+			"checksum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-devel-6.2.7-1.el9.i686.rpm",
+			"filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
 			"name": "redis-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -29,11 +29,11 @@
 			"version": "6.2.7"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "66f6158952241a26323601cfbf5f929687ad1c326488309a7393e09f1f160e41",
+			"arch": "ppc64le",
+			"checksum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-6.2.7-1.el9.aarch64.rpm",
+			"filename": "redis-6.2.7-1.el9.ppc64le.rpm",
 			"name": "redis",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -41,11 +41,11 @@
 			"version": "6.2.7"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ce8c061d66961a97d2fba567733884e17f854e687a024db00b2b1892634f3954",
+			"arch": "i686",
+			"checksum": "7aa3e793576437268a42d168c4febef9a03d425b0d5375e0d73f189024e16528",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-devel-6.2.7-1.el9.aarch64.rpm",
+			"filename": "redis-devel-6.2.7-1.el9.i686.rpm",
 			"name": "redis-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -77,6 +77,30 @@
 			"version": "6.2.7"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "66f6158952241a26323601cfbf5f929687ad1c326488309a7393e09f1f160e41",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.7-1.el9.aarch64.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "redis-6.2.7-1.el9.src.rpm",
+			"version": "6.2.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ce8c061d66961a97d2fba567733884e17f854e687a024db00b2b1892634f3954",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.7-1.el9.aarch64.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "redis-6.2.7-1.el9.src.rpm",
+			"version": "6.2.7"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "17036c47134ffcbed862a422ef7d397ef1f07c8549e843c6eb2790ace8935bb8",
 			"checksum_type": "sha256",
@@ -94,30 +118,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "redis-6.2.7-1.el9.s390x.rpm",
-			"name": "redis",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "redis-6.2.7-1.el9.src.rpm",
-			"version": "6.2.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
-			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "redis-6.2.7-1.el9.src.rpm",
-			"version": "6.2.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-6.2.7-1.el9.ppc64le.rpm",
 			"name": "redis",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -160,5 +160,5 @@
 	"severity": "Low",
 	"title": "Low: redis security and bug fix update",
 	"type": "security",
-	"updated_date": 1668745089
+	"updated_date": 1668745088
 }
