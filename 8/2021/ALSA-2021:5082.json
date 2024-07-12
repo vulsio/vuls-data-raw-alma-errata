@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "7dc5728cf2063194b99d625c7e9ad209e221bcb4dd6a25d425f93e74b08e302e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "samba-vfs-iouring-4.14.5-7.el8_5.x86_64.rpm",
+			"name": "samba-vfs-iouring",
+			"reboot_suggested": 0,
+			"release": "7.el8_5",
+			"src": "samba-4.14.5-7.el8_5.src.rpm",
+			"version": "4.14.5"
+		},
+		{
 			"arch": "i686",
 			"checksum": "40d6cdf0813e4f8e6af683657dc3e946f22af272d8f94d47019bde44ee7097b1",
 			"checksum_type": "sha256",
@@ -75,18 +87,6 @@
 			"release": "7.el8_5",
 			"src": "samba-4.14.5-7.el8_5.src.rpm",
 			"version": "4.14.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "7dc5728cf2063194b99d625c7e9ad209e221bcb4dd6a25d425f93e74b08e302e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "samba-vfs-iouring-4.14.5-7.el8_5.x86_64.rpm",
-			"name": "samba-vfs-iouring",
-			"reboot_suggested": 0,
-			"release": "7.el8_5",
-			"src": "samba-4.14.5-7.el8_5.src.rpm",
-			"version": "4.14.5"
 		}
 	],
 	"references": [
@@ -109,5 +109,5 @@
 	"severity": "Important",
 	"title": "Important: samba security update",
 	"type": "security",
-	"updated_date": 1639439128
+	"updated_date": 1639439210
 }

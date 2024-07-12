@@ -18,23 +18,23 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "586ab9ee82f7e089abb63e01f49b3848f8d2166d36e646380fb7dfc708a8abad",
+			"checksum": "2f2852bfec86004e4d869d049940e3158468a63c5cb194d05d4f0719dceed37d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-5.33-20.el8.x86_64.rpm",
-			"name": "file",
+			"filename": "file-libs-5.33-20.el8.x86_64.rpm",
+			"name": "file-libs",
 			"reboot_suggested": 0,
 			"release": "20.el8",
 			"src": "file-5.33-20.el8.src.rpm",
 			"version": "5.33"
 		},
 		{
-			"arch": "i686",
-			"checksum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
+			"arch": "x86_64",
+			"checksum": "586ab9ee82f7e089abb63e01f49b3848f8d2166d36e646380fb7dfc708a8abad",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.33-20.el8.i686.rpm",
-			"name": "file-devel",
+			"filename": "file-5.33-20.el8.x86_64.rpm",
+			"name": "file",
 			"reboot_suggested": 0,
 			"release": "20.el8",
 			"src": "file-5.33-20.el8.src.rpm",
@@ -59,6 +59,18 @@
 			"epoch": "0",
 			"filename": "python3-magic-5.33-20.el8.noarch.rpm",
 			"name": "python3-magic",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "file-5.33-20.el8.src.rpm",
+			"version": "5.33"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.33-20.el8.i686.rpm",
+			"name": "file-devel",
 			"reboot_suggested": 0,
 			"release": "20.el8",
 			"src": "file-5.33-20.el8.src.rpm",
@@ -139,18 +151,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2019-18218",
-			"id": "CVE-2019-18218",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-4374.html",
 			"id": "ALSA-2021-4374",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2019-18218",
+			"id": "CVE-2019-18218",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: file security update",
 	"type": "security",
-	"updated_date": 1636712461
+	"updated_date": 1636463342
 }

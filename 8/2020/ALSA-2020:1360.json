@@ -4,18 +4,18 @@
 	"issued_date": 1586264289,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "830d479e",
-			"name": "container-tools",
-			"stream": "1.0",
-			"version": "8040020210617090548"
-		},
-		{
 			"arch": "x86_64",
 			"context": "830d479e",
 			"name": "container-tools",
 			"stream": "1.0",
 			"version": "8040020210609195049"
+		},
+		{
+			"arch": "aarch64",
+			"context": "830d479e",
+			"name": "container-tools",
+			"stream": "1.0",
+			"version": "8040020210617090548"
 		},
 		{
 			"arch": "ppc64le",
@@ -26,97 +26,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "aarch64",
-			"checksum": "02e2ea615c59a32a2b6b0a3d62e5d8b1373c576bedae6438eea77e57c15b5747",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "skopeo",
-			"reboot_suggested": 0,
-			"release": "6.git1715c90.module_el8.4.0+2496+12421f43",
-			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "0.1.32"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "770d344d61dc1877c84a45a546afae1a8f23794049e5a2ec2a2da48f0ebf626b",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "oci-umount",
-			"reboot_suggested": 0,
-			"release": "2.git87f9237.module_el8.4.0+2496+12421f43",
-			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "2.3.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7e14f473b99c42b0099eb8869968cc5eb309b8ce43995f1993261972c30d09b6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "containernetworking-plugins",
-			"reboot_suggested": 0,
-			"release": "4.git9ebe139.module_el8.4.0+2496+12421f43",
-			"src": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "0.7.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "82a7c609f0920121fc1ce28ccf8a437f07063d9b4d2c930cec3d6894d962fe15",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "oci-systemd-hook",
-			"reboot_suggested": 0,
-			"release": "2.git2d0b8a3.module_el8.4.0+2496+12421f43",
-			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "0.1.15"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "86cc800b6ea8c1dd4255f6b4125165b15aa39bc60660c3e1920a9176ddcd64e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43",
-			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "fuse-overlayfs",
-			"reboot_suggested": 0,
-			"release": "5.module_el8.4.0+2496+12421f43",
-			"src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "0.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b4d1bed8a8776ee28d0b5ec98a6e6e64d19cd4f78bc1103d84630c65ff697053",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "containers-common-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.aarch64.rpm",
-			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
-			"name": "containers-common",
-			"reboot_suggested": 0,
-			"release": "6.git1715c90.module_el8.4.0+2496+12421f43",
-			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.src.rpm",
-			"version": "0.1.32"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "136c94b21fac16481272af5b5a2062818d62813e6349b88fb0ca4cb7ba6d839e",
@@ -206,6 +115,97 @@
 			"reboot_suggested": 0,
 			"release": "6.git1715c90.module_el8.4.0+2478+12421f43",
 			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2478+12421f43.src.rpm",
+			"version": "0.1.32"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "02e2ea615c59a32a2b6b0a3d62e5d8b1373c576bedae6438eea77e57c15b5747",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "6.git1715c90.module_el8.4.0+2496+12421f43",
+			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "0.1.32"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "770d344d61dc1877c84a45a546afae1a8f23794049e5a2ec2a2da48f0ebf626b",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "oci-umount",
+			"reboot_suggested": 0,
+			"release": "2.git87f9237.module_el8.4.0+2496+12421f43",
+			"src": "oci-umount-2.3.4-2.git87f9237.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "2.3.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7e14f473b99c42b0099eb8869968cc5eb309b8ce43995f1993261972c30d09b6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.git9ebe139.module_el8.4.0+2496+12421f43",
+			"src": "containernetworking-plugins-0.7.4-4.git9ebe139.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "0.7.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "82a7c609f0920121fc1ce28ccf8a437f07063d9b4d2c930cec3d6894d962fe15",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "oci-systemd-hook",
+			"reboot_suggested": 0,
+			"release": "2.git2d0b8a3.module_el8.4.0+2496+12421f43",
+			"src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "0.1.15"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "86cc800b6ea8c1dd4255f6b4125165b15aa39bc60660c3e1920a9176ddcd64e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43",
+			"src": "runc-1.0.0-56.rc5.dev.git2abd837.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "fuse-overlayfs",
+			"reboot_suggested": 0,
+			"release": "5.module_el8.4.0+2496+12421f43",
+			"src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
+			"version": "0.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b4d1bed8a8776ee28d0b5ec98a6e6e64d19cd4f78bc1103d84630c65ff697053",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containers-common-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.aarch64.rpm",
+			"module": "container-tools:1.0:8040020210617090548:830d479e:aarch64",
+			"name": "containers-common",
+			"reboot_suggested": 0,
+			"release": "6.git1715c90.module_el8.4.0+2496+12421f43",
+			"src": "skopeo-0.1.32-6.git1715c90.module_el8.4.0+2496+12421f43.src.rpm",
 			"version": "0.1.32"
 		},
 		{
