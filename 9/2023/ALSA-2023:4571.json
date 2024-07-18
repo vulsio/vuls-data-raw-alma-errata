@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "c23a81999e8ffb4c9007aed19a9ceb0e38787fd756f886fc156afb59f9421128",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "iperf3-3.9-10.el9_2.alma.ppc64le.rpm",
-			"name": "iperf3",
-			"reboot_suggested": 0,
-			"release": "10.el9_2.alma",
-			"src": "iperf3-3.9-10.el9_2.alma.src.rpm",
-			"version": "3.9"
-		},
-		{
 			"arch": "i686",
 			"checksum": "07de491b10151efcad25b686ace1bb2095e9097659cdcf148c44b225e3265775",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "iperf3-3.9-10.el9_2.alma.x86_64.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "10.el9_2.alma",
+			"src": "iperf3-3.9-10.el9_2.alma.src.rpm",
+			"version": "3.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c23a81999e8ffb4c9007aed19a9ceb0e38787fd756f886fc156afb59f9421128",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.9-10.el9_2.alma.ppc64le.rpm",
 			"name": "iperf3",
 			"reboot_suggested": 0,
 			"release": "10.el9_2.alma",
@@ -90,5 +90,5 @@
 	"severity": "Important",
 	"title": "Important: iperf3 security update",
 	"type": "security",
-	"updated_date": 1691580143
+	"updated_date": 1691580142
 }

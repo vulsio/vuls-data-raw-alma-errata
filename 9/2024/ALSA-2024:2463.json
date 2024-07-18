@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "7941a20af1a208208de17e5dc15e2d008aac84ea58a4931c9ba87ed218fb08f4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-devel-252-32.el9_4.alma.1.ppc64le.rpm",
-			"name": "systemd-devel",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9a5d600db1ae6d4b9255492b3d258e4c4806396d143895f8a8b2be3aff085599",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.ppc64le.rpm",
-			"name": "systemd-journal-remote",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
 			"arch": "i686",
 			"checksum": "a011201128f048ec29befe20ad095f777e93831bf3849b776def53baae6f34f0",
 			"checksum_type": "sha256",
@@ -59,6 +35,30 @@
 			"epoch": "0",
 			"filename": "systemd-devel-252-32.el9_4.alma.1.x86_64.rpm",
 			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7941a20af1a208208de17e5dc15e2d008aac84ea58a4931c9ba87ed218fb08f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-252-32.el9_4.alma.1.ppc64le.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9a5d600db1ae6d4b9255492b3d258e4c4806396d143895f8a8b2be3aff085599",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.ppc64le.rpm",
+			"name": "systemd-journal-remote",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
 			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
@@ -137,42 +137,6 @@
 			"version": "252"
 		},
 		{
-			"arch": "i686",
-			"checksum": "5681d97f77fc3c63d07586386d09efed1b2ef02368fe8f983c38bb13c845137a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-libs-252-32.el9_4.alma.1.i686.rpm",
-			"name": "systemd-libs",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
-			"arch": "i686",
-			"checksum": "887e8cde5849de81a965524238eea836a81673e7a4e9ed2306f967cb5e2a5076",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-252-32.el9_4.alma.1.i686.rpm",
-			"name": "systemd",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "d90c0d6253154dbaa4d1cac7580811b07043b6f51a1da78b07d86e461af91e0b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-rpm-macros-252-32.el9_4.alma.1.noarch.rpm",
-			"name": "systemd-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "479bd29b156216894d72ed2547482afecd4d5c7ce4ce0dadfff6cac8cea5940d",
 			"checksum_type": "sha256",
@@ -209,12 +173,36 @@
 			"version": "252"
 		},
 		{
+			"arch": "i686",
+			"checksum": "5681d97f77fc3c63d07586386d09efed1b2ef02368fe8f983c38bb13c845137a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-libs-252-32.el9_4.alma.1.i686.rpm",
+			"name": "systemd-libs",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "7658ef639b88e76e456d72e44cdcc7fad4d373213e79a679c0a0ab689a5f797b",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-libs-252-32.el9_4.alma.1.x86_64.rpm",
 			"name": "systemd-libs",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "i686",
+			"checksum": "887e8cde5849de81a965524238eea836a81673e7a4e9ed2306f967cb5e2a5076",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-252-32.el9_4.alma.1.i686.rpm",
+			"name": "systemd",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
 			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
@@ -251,6 +239,18 @@
 			"epoch": "0",
 			"filename": "systemd-resolved-252-32.el9_4.alma.1.x86_64.rpm",
 			"name": "systemd-resolved",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d90c0d6253154dbaa4d1cac7580811b07043b6f51a1da78b07d86e461af91e0b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-rpm-macros-252-32.el9_4.alma.1.noarch.rpm",
+			"name": "systemd-rpm-macros",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
 			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
@@ -558,5 +558,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: systemd security update",
 	"type": "security",
-	"updated_date": 1715093687
+	"updated_date": 1715093655
 }

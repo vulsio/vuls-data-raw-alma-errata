@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "4e2b908d9a458e239076261f81c41dfa92306cebf817d0ec5cd0bfbde93556d8",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-7.2.0-14.el9_2.ppc64le.rpm",
-			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "14.el9_2",
-			"src": "qemu-kvm-7.2.0-14.el9_2.src.rpm",
-			"version": "7.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a3039497d06be19ad409d5d3ea58f33dceb6a504c04ca6888c81fdb251ce831f",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-7.2.0-14.el9_2.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "14.el9_2",
-			"src": "qemu-kvm-7.2.0-14.el9_2.src.rpm",
-			"version": "7.2.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "2cc20dfb02284ecb2745ad5bc6925b37c9088dbb45b97fc49b3e51b996d7d424",
 			"checksum_type": "sha256",
@@ -239,6 +215,30 @@
 			"epoch": "17",
 			"filename": "qemu-kvm-device-display-virtio-vga-7.2.0-14.el9_2.x86_64.rpm",
 			"name": "qemu-kvm-device-display-virtio-vga",
+			"reboot_suggested": 0,
+			"release": "14.el9_2",
+			"src": "qemu-kvm-7.2.0-14.el9_2.src.rpm",
+			"version": "7.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4e2b908d9a458e239076261f81c41dfa92306cebf817d0ec5cd0bfbde93556d8",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-7.2.0-14.el9_2.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "14.el9_2",
+			"src": "qemu-kvm-7.2.0-14.el9_2.src.rpm",
+			"version": "7.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a3039497d06be19ad409d5d3ea58f33dceb6a504c04ca6888c81fdb251ce831f",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-7.2.0-14.el9_2.ppc64le.rpm",
+			"name": "qemu-img",
 			"reboot_suggested": 0,
 			"release": "14.el9_2",
 			"src": "qemu-kvm-7.2.0-14.el9_2.src.rpm",
@@ -616,5 +616,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qemu-kvm security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1683822873
+	"updated_date": 1683822876
 }

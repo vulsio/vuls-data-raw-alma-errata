@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "9fb96ff665095e539617f76c177713ff5a0e2ecb2df13eb478d9c81fa558816c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcom_err-devel-1.46.5-3.el9.ppc64le.rpm",
-			"name": "libcom_err-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "fcccbd9734bec3128fe7eb2c666d70b117f25d903ca975620932931ad2ac3cec",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "e2fsprogs-devel-1.46.5-3.el9.ppc64le.rpm",
-			"name": "e2fsprogs-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
 			"arch": "i686",
 			"checksum": "189e47293d98fc4954c1d2fd144b38a87e8a1f94cb5bb2d3fe8a3ca2db12024c",
 			"checksum_type": "sha256",
@@ -71,6 +47,30 @@
 			"epoch": "0",
 			"filename": "libcom_err-devel-1.46.5-3.el9.x86_64.rpm",
 			"name": "libcom_err-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9fb96ff665095e539617f76c177713ff5a0e2ecb2df13eb478d9c81fa558816c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcom_err-devel-1.46.5-3.el9.ppc64le.rpm",
+			"name": "libcom_err-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fcccbd9734bec3128fe7eb2c666d70b117f25d903ca975620932931ad2ac3cec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "e2fsprogs-devel-1.46.5-3.el9.ppc64le.rpm",
+			"name": "e2fsprogs-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
@@ -125,42 +125,6 @@
 			"version": "1.46.5"
 		},
 		{
-			"arch": "i686",
-			"checksum": "82beb32e861f64c0ef54d4c788686f1e24f6644de3052cd387b3abae1fb47219",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "e2fsprogs-libs-1.46.5-3.el9.i686.rpm",
-			"name": "e2fsprogs-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "932645424cafcb91fce7b3958fd1b7d353e87267175784e6f356b61ed501a845",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcom_err-1.46.5-3.el9.i686.rpm",
-			"name": "libcom_err",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c9ac9c74a4353f91dafb67a6ee1686cc5e23d53996ea792163358432f221e854",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libss-1.46.5-3.el9.i686.rpm",
-			"name": "libss",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "32dc812d50fb4a016d6d876e9cc436c3732a20d2a5da3d7dead7bd2f4f585bc7",
 			"checksum_type": "sha256",
@@ -185,12 +149,48 @@
 			"version": "1.46.5"
 		},
 		{
+			"arch": "i686",
+			"checksum": "82beb32e861f64c0ef54d4c788686f1e24f6644de3052cd387b3abae1fb47219",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "e2fsprogs-libs-1.46.5-3.el9.i686.rpm",
+			"name": "e2fsprogs-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "932645424cafcb91fce7b3958fd1b7d353e87267175784e6f356b61ed501a845",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcom_err-1.46.5-3.el9.i686.rpm",
+			"name": "libcom_err",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "be0cbed8b02ba6de98c1b58298e629202bce86f29743fbf3ab501d58ec06c9f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libcom_err-1.46.5-3.el9.x86_64.rpm",
 			"name": "libcom_err",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c9ac9c74a4353f91dafb67a6ee1686cc5e23d53996ea792163358432f221e854",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libss-1.46.5-3.el9.i686.rpm",
+			"name": "libss",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
@@ -378,5 +378,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: e2fsprogs security update",
 	"type": "security",
-	"updated_date": 1668721715
+	"updated_date": 1668721716
 }

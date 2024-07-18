@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "06177e7b74eb793fadb0a736226aa0e96c081913394e21f8e8bf9d5e4d6994a1",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.1-43.el9_0.ppc64le.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "0926322816fa625547692a3e6d3414d6ea19ca744a3bca85e002dea73fdd9f98",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-perl-3.0.1-43.el9_0.ppc64le.rpm",
-			"name": "openssl-perl",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "58d00dd21d0082ef5b326531bbac83f62750c851b00bd815d4fadc32312e3c32",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-perl-3.0.1-43.el9_0.x86_64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "06177e7b74eb793fadb0a736226aa0e96c081913394e21f8e8bf9d5e4d6994a1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.1-43.el9_0.ppc64le.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0926322816fa625547692a3e6d3414d6ea19ca744a3bca85e002dea73fdd9f98",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.1-43.el9_0.ppc64le.rpm",
 			"name": "openssl-perl",
 			"reboot_suggested": 0,
 			"release": "43.el9_0",
@@ -256,5 +256,5 @@
 	"severity": "Important",
 	"title": "Important: openssl security update",
 	"type": "security",
-	"updated_date": 1667384568
+	"updated_date": 1678725352
 }

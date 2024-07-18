@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "747436d1f2af79ac4978b88c18677e89eb415d3f7f8d3addf3ae336d71e5ac8a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-3.2.1-10.el9.ppc64le.rpm",
-			"name": "freeglut",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "810f0178e8df03e514c6512085729af629fdc761a4d6ae4235184cb53713b05a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-devel-3.2.1-10.el9.ppc64le.rpm",
-			"name": "freeglut-devel",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "2457f85c7a5f58bbbe9f67c5f274465c52e01520f653bea3c2887f1b75a79adc",
 			"checksum_type": "sha256",
@@ -70,6 +46,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "freeglut-devel-3.2.1-10.el9.x86_64.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "747436d1f2af79ac4978b88c18677e89eb415d3f7f8d3addf3ae336d71e5ac8a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.2.1-10.el9.ppc64le.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "810f0178e8df03e514c6512085729af629fdc761a4d6ae4235184cb53713b05a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.2.1-10.el9.ppc64le.rpm",
 			"name": "freeglut-devel",
 			"reboot_suggested": 0,
 			"release": "10.el9",
@@ -160,5 +160,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: freeglut security update",
 	"type": "security",
-	"updated_date": 1715093679
+	"updated_date": 1715093884
 }

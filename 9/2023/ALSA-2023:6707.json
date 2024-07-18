@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "0ba506dd57aa84ad5660ddf17357d860ea1c774c094d12bf66ed1dbe15207bf1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-tools-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-tools",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a6d718a8ebc0fa6ec8e7b277abad9c3990e8e8f7d2f21112126afcbc85118658",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "avahi-glib-0.8-15.el9.ppc64le.rpm",
-			"name": "avahi-glib",
-			"reboot_suggested": 0,
-			"release": "15.el9",
-			"src": "avahi-0.8-15.el9.src.rpm",
-			"version": "0.8"
-		},
-		{
 			"arch": "i686",
 			"checksum": "d6f9fb7ed65aed5fd7cafc3ea9371030c72fccc78342c92f4e1e736b72178e10",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "avahi-glib-0.8-15.el9.x86_64.rpm",
+			"name": "avahi-glib",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0ba506dd57aa84ad5660ddf17357d860ea1c774c094d12bf66ed1dbe15207bf1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-tools-0.8-15.el9.ppc64le.rpm",
+			"name": "avahi-tools",
+			"reboot_suggested": 0,
+			"release": "15.el9",
+			"src": "avahi-0.8-15.el9.src.rpm",
+			"version": "0.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a6d718a8ebc0fa6ec8e7b277abad9c3990e8e8f7d2f21112126afcbc85118658",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "avahi-glib-0.8-15.el9.ppc64le.rpm",
 			"name": "avahi-glib",
 			"reboot_suggested": 0,
 			"release": "15.el9",
@@ -638,5 +638,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: avahi security update",
 	"type": "security",
-	"updated_date": 1699963556
+	"updated_date": 1699963526
 }

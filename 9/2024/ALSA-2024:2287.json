@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "1929fff5ea2cb0d0687544887c8e24dfa99d7ea2dd912aa15d6c526220879213",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gstreamer1-plugins-bad-free-1.22.1-4.el9.ppc64le.rpm",
-			"name": "gstreamer1-plugins-bad-free",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "gstreamer1-plugins-bad-free-1.22.1-4.el9.src.rpm",
-			"version": "1.22.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "701b187919acddf6341bffd5548aa1f770ae1b6379141d24ee95fbac3a9a1ed2",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gstreamer1-plugins-bad-free-1.22.1-4.el9.x86_64.rpm",
+			"name": "gstreamer1-plugins-bad-free",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "gstreamer1-plugins-bad-free-1.22.1-4.el9.src.rpm",
+			"version": "1.22.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1929fff5ea2cb0d0687544887c8e24dfa99d7ea2dd912aa15d6c526220879213",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-bad-free-1.22.1-4.el9.ppc64le.rpm",
 			"name": "gstreamer1-plugins-bad-free",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -180,5 +180,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gstreamer1-plugins-bad-free security update",
 	"type": "security",
-	"updated_date": 1715093648
+	"updated_date": 1715093673
 }

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "0c074e3a4969a4e69feb68c39a5ceff4f5b21d10669c63ab3b20b85f0217930f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-perl-3.0.1-47.el9_1.ppc64le.rpm",
-			"name": "openssl-perl",
-			"reboot_suggested": 0,
-			"release": "47.el9_1",
-			"src": "openssl-3.0.1-47.el9_1.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "8a2a14307ceba266473d7fdeed19da8a2f2b50641da7222cd5a96eb1b03782f2",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.1-47.el9_1.ppc64le.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "47.el9_1",
-			"src": "openssl-3.0.1-47.el9_1.src.rpm",
-			"version": "3.0.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "b2d37c816aba81b64f4ef993cad7add3c3cd631e278f1bc8eaeaf52294ff9284",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-devel-3.0.1-47.el9_1.x86_64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "47.el9_1",
+			"src": "openssl-3.0.1-47.el9_1.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0c074e3a4969a4e69feb68c39a5ceff4f5b21d10669c63ab3b20b85f0217930f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.1-47.el9_1.ppc64le.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "47.el9_1",
+			"src": "openssl-3.0.1-47.el9_1.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8a2a14307ceba266473d7fdeed19da8a2f2b50641da7222cd5a96eb1b03782f2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.1-47.el9_1.ppc64le.rpm",
 			"name": "openssl-devel",
 			"reboot_suggested": 0,
 			"release": "47.el9_1",
@@ -316,5 +316,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: openssl security and bug fix update",
 	"type": "security",
-	"updated_date": 1677604686
+	"updated_date": 1677604685
 }

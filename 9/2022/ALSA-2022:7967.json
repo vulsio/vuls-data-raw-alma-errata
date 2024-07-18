@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
-			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-			"version": "7.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-			"version": "7.0.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "1a861b87d94df0bf977e8ff534273dab5d08b3c9a744c0bf4b666564f1b131a1",
 			"checksum_type": "sha256",
@@ -275,6 +251,30 @@
 			"epoch": "17",
 			"filename": "qemu-kvm-docs-7.0.0-13.el9.x86_64.rpm",
 			"name": "qemu-kvm-docs",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+			"version": "7.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+			"version": "7.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
+			"name": "qemu-img",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "qemu-kvm-7.0.0-13.el9.src.rpm",
@@ -708,5 +708,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qemu-kvm security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1668749730
+	"updated_date": 1668749734
 }

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile-utils",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
 			"arch": "i686",
 			"checksum": "99b6a4d46f959bfe62cc48c3d1ac4ea888e5a313e07a54c9a8a3473742fe8c7b",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libsndfile-utils-1.0.31-8.el9.x86_64.rpm",
+			"name": "libsndfile-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
+			"name": "libsndfile",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
 			"name": "libsndfile-utils",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libsndfile security update",
 	"type": "security",
-	"updated_date": 1715093667
+	"updated_date": 1715093666
 }

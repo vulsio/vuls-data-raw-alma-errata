@@ -29,11 +29,11 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ea7f6fc284559f9facaf83a7cad94e913855b7375de564e0f4636282b14cb8cd",
+			"arch": "x86_64",
+			"checksum": "fbbc9a7d1076662394a743c9f53afd17e5933d123665a7ebfcb69f85bb40bb80",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.ppc64le.rpm",
+			"filename": "cockpit-pcp-311.2-1.el9_4.x86_64.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -41,11 +41,11 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fbbc9a7d1076662394a743c9f53afd17e5933d123665a7ebfcb69f85bb40bb80",
+			"arch": "ppc64le",
+			"checksum": "ea7f6fc284559f9facaf83a7cad94e913855b7375de564e0f4636282b14cb8cd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.x86_64.rpm",
+			"filename": "cockpit-pcp-311.2-1.el9_4.ppc64le.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -89,18 +89,6 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "86357b0231f081824fb70b7cd8f07ef710e4b4dfd63777a38de238aa314236c5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-doc-311.2-1.el9_4.noarch.rpm",
-			"name": "cockpit-doc",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "4cacecacd0ecec951adaab3ef8b3757cccd3387cf032f1c373ea6363506e0143",
 			"checksum_type": "sha256",
@@ -119,6 +107,18 @@
 			"epoch": "0",
 			"filename": "cockpit-311.2-1.el9_4.x86_64.rpm",
 			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "86357b0231f081824fb70b7cd8f07ef710e4b4dfd63777a38de238aa314236c5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-doc-311.2-1.el9_4.noarch.rpm",
+			"name": "cockpit-doc",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
 			"src": "cockpit-311.2-1.el9_4.src.rpm",

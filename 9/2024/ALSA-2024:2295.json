@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "02559290803df951de368d8be8c595b4ee4b9a2d025b3f0e5fa6dcf70cfac0bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjpeg-turbo-2.0.90-7.el9.ppc64le.rpm",
-			"name": "libjpeg-turbo",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
-			"version": "2.0.90"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "1a4ed0f1b3c4741194e590fd4fc376dca7e87b931154bada44c594b12b13a14a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjpeg-turbo-devel-2.0.90-7.el9.ppc64le.rpm",
-			"name": "libjpeg-turbo-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
-			"version": "2.0.90"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c24210642003411cd2bf29540636304bc93d07ea3c99dbea49e644653347bab3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjpeg-turbo-utils-2.0.90-7.el9.ppc64le.rpm",
-			"name": "libjpeg-turbo-utils",
-			"reboot_suggested": 0,
-			"release": "7.el9",
-			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
-			"version": "2.0.90"
-		},
-		{
 			"arch": "i686",
 			"checksum": "25d9d516f7023637893c87ed7243a3dea492c8094e63b37807482089bedb3eef",
 			"checksum_type": "sha256",
@@ -94,6 +58,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libjpeg-turbo-utils-2.0.90-7.el9.x86_64.rpm",
+			"name": "libjpeg-turbo-utils",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
+			"version": "2.0.90"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "02559290803df951de368d8be8c595b4ee4b9a2d025b3f0e5fa6dcf70cfac0bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjpeg-turbo-2.0.90-7.el9.ppc64le.rpm",
+			"name": "libjpeg-turbo",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
+			"version": "2.0.90"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1a4ed0f1b3c4741194e590fd4fc376dca7e87b931154bada44c594b12b13a14a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjpeg-turbo-devel-2.0.90-7.el9.ppc64le.rpm",
+			"name": "libjpeg-turbo-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9",
+			"src": "libjpeg-turbo-2.0.90-7.el9.src.rpm",
+			"version": "2.0.90"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c24210642003411cd2bf29540636304bc93d07ea3c99dbea49e644653347bab3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjpeg-turbo-utils-2.0.90-7.el9.ppc64le.rpm",
 			"name": "libjpeg-turbo-utils",
 			"reboot_suggested": 0,
 			"release": "7.el9",
@@ -318,5 +318,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libjpeg-turbo security update",
 	"type": "security",
-	"updated_date": 1715093747
+	"updated_date": 1715093873
 }
