@@ -1,0 +1,94 @@
+{
+	"description": "Libndp is a library (used by NetworkManager) that provides a wrapper for the IPv6 Neighbor Discovery Protocol. It also provides a tool named ndptool for sending and receiving NDP messages.\n\nSecurity Fix(es):\n\n* libndp: buffer overflow in route information length field (CVE-2024-5564)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4620",
+	"issued_date": 1721260800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "2a85b47ac7c12e7b30f8e29c345dd8cb33f51e59dab9d80e5deb671c52db61c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libndp-1.7-7.el8_10.alma.1.i686.rpm",
+			"name": "libndp",
+			"reboot_suggested": 0,
+			"release": "7.el8_10.alma.1",
+			"src": "libndp-1.7-7.el8_10.alma.1.src.rpm",
+			"version": "1.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "74a82f6dc6494d8151a8faeb1375fb74fbc9d4cf984f97d0688ce7db0e70a4fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libndp-1.7-7.el8_10.alma.1.aarch64.rpm",
+			"name": "libndp",
+			"reboot_suggested": 0,
+			"release": "7.el8_10.alma.1",
+			"src": "libndp-1.7-7.el8_10.alma.1.src.rpm",
+			"version": "1.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "bf7faf2da2316f27a0fc58498aae732aa3618fe1fad22a8a2be38893a5c1efca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libndp-1.7-7.el8_10.alma.1.x86_64.rpm",
+			"name": "libndp",
+			"reboot_suggested": 0,
+			"release": "7.el8_10.alma.1",
+			"src": "libndp-1.7-7.el8_10.alma.1.src.rpm",
+			"version": "1.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d83c6c6c682fe1a2c8f49a12e38b7367592f31b5adb3ef92d6f13b8e86e304e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libndp-1.7-7.el8_10.alma.1.ppc64le.rpm",
+			"name": "libndp",
+			"reboot_suggested": 0,
+			"release": "7.el8_10.alma.1",
+			"src": "libndp-1.7-7.el8_10.alma.1.src.rpm",
+			"version": "1.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "58bf3fa81abddb68abad516195f685bdc3e62f5b3a9a02c2d4ac5a7604c6fccb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libndp-1.7-7.el8_10.alma.1.s390x.rpm",
+			"name": "libndp",
+			"reboot_suggested": 0,
+			"release": "7.el8_10.alma.1",
+			"src": "libndp-1.7-7.el8_10.alma.1.src.rpm",
+			"version": "1.7"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4620",
+			"id": "RHSA-2024:4620",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-5564",
+			"id": "CVE-2024-5564",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2284122",
+			"id": "2284122",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-4620.html",
+			"id": "ALSA-2024:4620",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: libndp security update",
+	"type": "security",
+	"updated_date": 1721384685
+}
