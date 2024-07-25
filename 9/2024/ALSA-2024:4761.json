@@ -1,0 +1,82 @@
+{
+	"description": "The Container Network Interface (CNI) project consists of a specification and libraries for writing plug-ins for configuring network interfaces in Linux containers, along with a number of supported plug-ins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted. \n\nSecurity Fix(es):\n\n* golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:4761",
+	"issued_date": 1721692800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "3113b6d28fc10334be5c3550eada4c71a34853b50f45a31ff87a9edeb73c160b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containernetworking-plugins-1.4.0-4.el9_4.aarch64.rpm",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "containernetworking-plugins-1.4.0-4.el9_4.src.rpm",
+			"version": "1.4.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "887da954211987964c09087d01d48c7d68b3c22c20e3e3c3646aa55dd7f5a84a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containernetworking-plugins-1.4.0-4.el9_4.x86_64.rpm",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "containernetworking-plugins-1.4.0-4.el9_4.src.rpm",
+			"version": "1.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6574918f6f9bacb4093786baef8910d913c0ff6fef86d6938022a3c15544c424",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containernetworking-plugins-1.4.0-4.el9_4.ppc64le.rpm",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "containernetworking-plugins-1.4.0-4.el9_4.src.rpm",
+			"version": "1.4.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "06fcd9575511b3833d1dbbb61998b4d544eba4916bfd71b1abc185f5c91da416",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "containernetworking-plugins-1.4.0-4.el9_4.s390x.rpm",
+			"name": "containernetworking-plugins",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "containernetworking-plugins-1.4.0-4.el9_4.src.rpm",
+			"version": "1.4.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:4761",
+			"id": "RHSA-2024:4761",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-1394",
+			"id": "CVE-2024-1394",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2262921",
+			"id": "2262921",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-4761.html",
+			"id": "ALSA-2024:4761",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: containernetworking-plugins security update",
+	"type": "security",
+	"updated_date": 1721833190
+}
