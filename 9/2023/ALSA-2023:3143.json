@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "39d50d80cdcad7dd674e11bbf598cf48c74014cce9377ec6b5ce203135982fef",
+			"arch": "ppc64le",
+			"checksum": "c06201cadec10ef081a04c096f02855ba842e2fd1b4d95619e181ae25111eaca",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-102.11.0-2.el9_2.alma.aarch64.rpm",
+			"filename": "firefox-102.11.0-2.el9_2.alma.ppc64le.rpm",
 			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "2.el9_2.alma",
@@ -17,11 +17,11 @@
 			"version": "102.11.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a2879c174f3a71ec17891f45e6f3ece527ff61d1ee6054cc1af59e730d294053",
+			"arch": "ppc64le",
+			"checksum": "f28e4817d67e9ba23dfd87703c86d9c6054babcfaa39c01eda1d0f0a6d8aab32",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "firefox-x11-102.11.0-2.el9_2.alma.aarch64.rpm",
+			"filename": "firefox-x11-102.11.0-2.el9_2.alma.ppc64le.rpm",
 			"name": "firefox-x11",
 			"reboot_suggested": 0,
 			"release": "2.el9_2.alma",
@@ -53,30 +53,6 @@
 			"version": "102.11.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c06201cadec10ef081a04c096f02855ba842e2fd1b4d95619e181ae25111eaca",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.11.0-2.el9_2.alma.ppc64le.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "2.el9_2.alma",
-			"src": "firefox-102.11.0-2.el9_2.alma.src.rpm",
-			"version": "102.11.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f28e4817d67e9ba23dfd87703c86d9c6054babcfaa39c01eda1d0f0a6d8aab32",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-x11-102.11.0-2.el9_2.alma.ppc64le.rpm",
-			"name": "firefox-x11",
-			"reboot_suggested": 0,
-			"release": "2.el9_2.alma",
-			"src": "firefox-102.11.0-2.el9_2.alma.src.rpm",
-			"version": "102.11.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "10aa3a96657333c7f960b10bbb61223cb1fae3ecc331288f30a48750e8260345",
 			"checksum_type": "sha256",
@@ -94,6 +70,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "firefox-x11-102.11.0-2.el9_2.alma.s390x.rpm",
+			"name": "firefox-x11",
+			"reboot_suggested": 0,
+			"release": "2.el9_2.alma",
+			"src": "firefox-102.11.0-2.el9_2.alma.src.rpm",
+			"version": "102.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "39d50d80cdcad7dd674e11bbf598cf48c74014cce9377ec6b5ce203135982fef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.11.0-2.el9_2.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "2.el9_2.alma",
+			"src": "firefox-102.11.0-2.el9_2.alma.src.rpm",
+			"version": "102.11.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a2879c174f3a71ec17891f45e6f3ece527ff61d1ee6054cc1af59e730d294053",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-x11-102.11.0-2.el9_2.alma.aarch64.rpm",
 			"name": "firefox-x11",
 			"reboot_suggested": 0,
 			"release": "2.el9_2.alma",
@@ -186,5 +186,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1684533631
+	"updated_date": 1684533632
 }
