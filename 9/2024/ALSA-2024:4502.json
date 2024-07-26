@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "36b3ec2e923d83d23395e6bacac68b6af088e621a709fa8bb1236e91a1e12899",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.14.3-3.el9_4.aarch64.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "skopeo-1.14.3-3.el9_4.src.rpm",
+			"version": "1.14.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f7b5f81d9c08c1e5d5a956428e0ee8e5ab947005f829a7cf596b0c250fa4c702",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.14.3-3.el9_4.aarch64.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "skopeo-1.14.3-3.el9_4.src.rpm",
+			"version": "1.14.3"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "6b3748bc9df3c559f7eb5a9c508f282d2958538619d7d162f3d7fcc6ae98969a",
 			"checksum_type": "sha256",
@@ -75,30 +99,6 @@
 			"release": "3.el9_4",
 			"src": "skopeo-1.14.3-3.el9_4.src.rpm",
 			"version": "1.14.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "36b3ec2e923d83d23395e6bacac68b6af088e621a709fa8bb1236e91a1e12899",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "skopeo-tests-1.14.3-3.el9_4.aarch64.rpm",
-			"name": "skopeo-tests",
-			"reboot_suggested": 0,
-			"release": "3.el9_4",
-			"src": "skopeo-1.14.3-3.el9_4.src.rpm",
-			"version": "1.14.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f7b5f81d9c08c1e5d5a956428e0ee8e5ab947005f829a7cf596b0c250fa4c702",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "skopeo-1.14.3-3.el9_4.aarch64.rpm",
-			"name": "skopeo",
-			"reboot_suggested": 0,
-			"release": "3.el9_4",
-			"src": "skopeo-1.14.3-3.el9_4.src.rpm",
-			"version": "1.14.3"
 		}
 	],
 	"references": [
@@ -126,5 +126,5 @@
 	"severity": "Important",
 	"title": "Important: skopeo security update",
 	"type": "security",
-	"updated_date": 1721227402
+	"updated_date": 1721227403
 }
