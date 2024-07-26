@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "7d477bc219911be0b476f91f6b6055c714febe3d1e489a3b2b6fef09f43500b1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-askpass-8.7p1-38.el9_4.4.aarch64.rpm",
-			"name": "openssh-askpass",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c011bcd049ed0e66ddaf28887a58f49104f4c62f99e5cc9847b5dd8444188d0a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam_ssh_agent_auth-0.10.4-5.38.el9_4.4.aarch64.rpm",
-			"name": "pam_ssh_agent_auth",
-			"reboot_suggested": 0,
-			"release": "5.38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "0.10.4"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "d2781e48498633999e4b8917efbacf55c18797bae466dee6111f80440a102654",
 			"checksum_type": "sha256",
@@ -53,6 +29,30 @@
 			"version": "8.7p1"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "7d477bc219911be0b476f91f6b6055c714febe3d1e489a3b2b6fef09f43500b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-askpass-8.7p1-38.el9_4.4.aarch64.rpm",
+			"name": "openssh-askpass",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c011bcd049ed0e66ddaf28887a58f49104f4c62f99e5cc9847b5dd8444188d0a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam_ssh_agent_auth-0.10.4-5.38.el9_4.4.aarch64.rpm",
+			"name": "pam_ssh_agent_auth",
+			"reboot_suggested": 0,
+			"release": "5.38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "0.10.4"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3d1910a53f3921d989221eeba2c1b0fa693d6b1719d314588f90bfc2a8cbff0a",
 			"checksum_type": "sha256",
@@ -71,78 +71,6 @@
 			"epoch": "0",
 			"filename": "openssh-askpass-8.7p1-38.el9_4.4.x86_64.rpm",
 			"name": "openssh-askpass",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "05b2a9741568f9e8135a66474bf6914e8e4797a35bbc167bcf37f515a6914842",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-askpass-8.7p1-38.el9_4.4.s390x.rpm",
-			"name": "openssh-askpass",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "8ecdd0dd00a3058da0ef9c9d2e28c820f58959121d958fe0879b76d0db47eb51",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam_ssh_agent_auth-0.10.4-5.38.el9_4.4.s390x.rpm",
-			"name": "pam_ssh_agent_auth",
-			"reboot_suggested": 0,
-			"release": "5.38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "0.10.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "03bf8b1f82b5dcfbbe71cff59340c8341cd01a3b9227356e5267bd589640bd38",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-keycat-8.7p1-38.el9_4.4.x86_64.rpm",
-			"name": "openssh-keycat",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "197053c566edde7d1bcf4df5121b229c555bd6746f6d54b1c51b5f75bb6b3f27",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-clients-8.7p1-38.el9_4.4.x86_64.rpm",
-			"name": "openssh-clients",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "628524e5f95313b117d2684160cf5c8486183ea5b03c0af7437b6688530aeecd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-server-8.7p1-38.el9_4.4.x86_64.rpm",
-			"name": "openssh-server",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c67a826764c6e5b2bb6721292f01316e853fc9276a400591269bc5734f2a1239",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-8.7p1-38.el9_4.4.x86_64.rpm",
-			"name": "openssh",
 			"reboot_suggested": 0,
 			"release": "38.el9_4.4",
 			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
@@ -197,52 +125,28 @@
 			"version": "8.7p1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "7596a0dfb4642525590f95166fad5e5c998eee85710dacacba0d4fe2766e512a",
+			"arch": "s390x",
+			"checksum": "05b2a9741568f9e8135a66474bf6914e8e4797a35bbc167bcf37f515a6914842",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-server-8.7p1-38.el9_4.4.aarch64.rpm",
-			"name": "openssh-server",
+			"filename": "openssh-askpass-8.7p1-38.el9_4.4.s390x.rpm",
+			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "38.el9_4.4",
 			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
 			"version": "8.7p1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "8f0d4c060628a120c4c5db1aaf94a3997da5cb7a329e18ac393cd1431aec5187",
+			"arch": "s390x",
+			"checksum": "8ecdd0dd00a3058da0ef9c9d2e28c820f58959121d958fe0879b76d0db47eb51",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-8.7p1-38.el9_4.4.aarch64.rpm",
-			"name": "openssh",
+			"filename": "pam_ssh_agent_auth-0.10.4-5.38.el9_4.4.s390x.rpm",
+			"name": "pam_ssh_agent_auth",
 			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
+			"release": "5.38.el9_4.4",
 			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b4c9164b06b55202647e851a9402e50a01bdd9bb1674207ce2719809032803d8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-clients-8.7p1-38.el9_4.4.aarch64.rpm",
-			"name": "openssh-clients",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f06bab5e0a601a39b4f5f7fe0ca4e7a1875acd8e8c649d6bd255edf67eb00fae",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-keycat-8.7p1-38.el9_4.4.aarch64.rpm",
-			"name": "openssh-keycat",
-			"reboot_suggested": 0,
-			"release": "38.el9_4.4",
-			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
-			"version": "8.7p1"
+			"version": "0.10.4"
 		},
 		{
 			"arch": "s390x",
@@ -291,6 +195,102 @@
 			"release": "38.el9_4.4",
 			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
 			"version": "8.7p1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "03bf8b1f82b5dcfbbe71cff59340c8341cd01a3b9227356e5267bd589640bd38",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-keycat-8.7p1-38.el9_4.4.x86_64.rpm",
+			"name": "openssh-keycat",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "197053c566edde7d1bcf4df5121b229c555bd6746f6d54b1c51b5f75bb6b3f27",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-clients-8.7p1-38.el9_4.4.x86_64.rpm",
+			"name": "openssh-clients",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "628524e5f95313b117d2684160cf5c8486183ea5b03c0af7437b6688530aeecd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-server-8.7p1-38.el9_4.4.x86_64.rpm",
+			"name": "openssh-server",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c67a826764c6e5b2bb6721292f01316e853fc9276a400591269bc5734f2a1239",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-8.7p1-38.el9_4.4.x86_64.rpm",
+			"name": "openssh",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7596a0dfb4642525590f95166fad5e5c998eee85710dacacba0d4fe2766e512a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-server-8.7p1-38.el9_4.4.aarch64.rpm",
+			"name": "openssh-server",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8f0d4c060628a120c4c5db1aaf94a3997da5cb7a329e18ac393cd1431aec5187",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-8.7p1-38.el9_4.4.aarch64.rpm",
+			"name": "openssh",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b4c9164b06b55202647e851a9402e50a01bdd9bb1674207ce2719809032803d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-clients-8.7p1-38.el9_4.4.aarch64.rpm",
+			"name": "openssh-clients",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f06bab5e0a601a39b4f5f7fe0ca4e7a1875acd8e8c649d6bd255edf67eb00fae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-keycat-8.7p1-38.el9_4.4.aarch64.rpm",
+			"name": "openssh-keycat",
+			"reboot_suggested": 0,
+			"release": "38.el9_4.4",
+			"src": "openssh-8.7p1-38.el9_4.4.src.rpm",
+			"version": "8.7p1"
 		}
 	],
 	"references": [
@@ -318,5 +318,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: openssh security update",
 	"type": "security",
-	"updated_date": 1721227797
+	"updated_date": 1721227798
 }
