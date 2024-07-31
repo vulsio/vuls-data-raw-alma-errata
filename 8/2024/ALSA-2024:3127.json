@@ -6,11 +6,11 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "04de860bdd2634486724fc34012fa11f4215e6405ca26c880a2a2c3c7b79b463",
+			"checksum": "849e90b076ef21de16c8a681b086571ff8b78ea5beb0522582d0fcfc99ed4d87",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zziplib-devel-0.13.68-13.el8_10.i686.rpm",
-			"name": "zziplib-devel",
+			"filename": "zziplib-0.13.68-13.el8_10.i686.rpm",
+			"name": "zziplib",
 			"reboot_suggested": 0,
 			"release": "13.el8_10",
 			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
@@ -18,11 +18,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "849e90b076ef21de16c8a681b086571ff8b78ea5beb0522582d0fcfc99ed4d87",
+			"checksum": "04de860bdd2634486724fc34012fa11f4215e6405ca26c880a2a2c3c7b79b463",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zziplib-0.13.68-13.el8_10.i686.rpm",
-			"name": "zziplib",
+			"filename": "zziplib-devel-0.13.68-13.el8_10.i686.rpm",
+			"name": "zziplib-devel",
 			"reboot_suggested": 0,
 			"release": "13.el8_10",
 			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
@@ -35,6 +35,30 @@
 			"epoch": "0",
 			"filename": "zziplib-devel-0.13.68-13.el8_10.x86_64.rpm",
 			"name": "zziplib-devel",
+			"reboot_suggested": 0,
+			"release": "13.el8_10",
+			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
+			"version": "0.13.68"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "18d90a5d2733d7dd2dac312ac655138c955ff27d7efb297e3b6d70c2bb577109",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zziplib-0.13.68-13.el8_10.aarch64.rpm",
+			"name": "zziplib",
+			"reboot_suggested": 0,
+			"release": "13.el8_10",
+			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
+			"version": "0.13.68"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6abaf6d2c25c9e36e353d09c179874de694a54f1489c236b1e762a6826799956",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zziplib-utils-0.13.68-13.el8_10.aarch64.rpm",
+			"name": "zziplib-utils",
 			"reboot_suggested": 0,
 			"release": "13.el8_10",
 			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
@@ -71,30 +95,6 @@
 			"epoch": "0",
 			"filename": "zziplib-devel-0.13.68-13.el8_10.aarch64.rpm",
 			"name": "zziplib-devel",
-			"reboot_suggested": 0,
-			"release": "13.el8_10",
-			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
-			"version": "0.13.68"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "18d90a5d2733d7dd2dac312ac655138c955ff27d7efb297e3b6d70c2bb577109",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zziplib-0.13.68-13.el8_10.aarch64.rpm",
-			"name": "zziplib",
-			"reboot_suggested": 0,
-			"release": "13.el8_10",
-			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
-			"version": "0.13.68"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6abaf6d2c25c9e36e353d09c179874de694a54f1489c236b1e762a6826799956",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zziplib-utils-0.13.68-13.el8_10.aarch64.rpm",
-			"name": "zziplib-utils",
 			"reboot_suggested": 0,
 			"release": "13.el8_10",
 			"src": "zziplib-0.13.68-13.el8_10.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: zziplib security update",
 	"type": "security",
-	"updated_date": 1716993581
+	"updated_date": 1716993580
 }

@@ -4,14 +4,14 @@
 	"issued_date": 1690848000,
 	"modules": [
 		{
-			"arch": "x86_64",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
 			"version": "8070020221011155741"
 		},
 		{
-			"arch": "aarch64",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "mod_auth_openidc",
 			"stream": "2.3",
@@ -33,45 +33,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "1930a62735fac54a68e7ee0d603375bdd36d9a77e6ed0eb25f3b31c0974b9d4a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-devel-0.6.1-3.module_el8.8.0+3591+c9939da8.x86_64.rpm",
-			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
-			"name": "cjose-devel",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.8.0+3591+c9939da8",
-			"src": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3fc0afc0893bb28a36b2d505ed934bc3e43417cd69ac07e2eda24190051ff309",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.x86_64.rpm",
-			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
-			"name": "cjose",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.8.0+3591+c9939da8",
-			"src": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.src.rpm",
-			"version": "0.6.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ede184fae153877b592de93a359d53a9ef1a52b980e290e7d7b0a48211f64665",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mod_auth_openidc-2.4.9.4-1.module_el8.7.0+3305+9a59f0c3.x86_64.rpm",
-			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
-			"name": "mod_auth_openidc",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.7.0+3305+9a59f0c3",
-			"src": "mod_auth_openidc-2.4.9.4-1.module_el8.7.0+3305+9a59f0c3.src.rpm",
-			"version": "2.4.9.4"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "1fa801a826692db7617a8b024d47677c638c0af755fcbbcf94bb914ce671b28b",
@@ -105,6 +66,45 @@
 			"epoch": "0",
 			"filename": "mod_auth_openidc-2.4.9.4-1.module_el8.7.0+3305+9a59f0c3.aarch64.rpm",
 			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:aarch64",
+			"name": "mod_auth_openidc",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.7.0+3305+9a59f0c3",
+			"src": "mod_auth_openidc-2.4.9.4-1.module_el8.7.0+3305+9a59f0c3.src.rpm",
+			"version": "2.4.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1930a62735fac54a68e7ee0d603375bdd36d9a77e6ed0eb25f3b31c0974b9d4a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-devel-0.6.1-3.module_el8.8.0+3591+c9939da8.x86_64.rpm",
+			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
+			"name": "cjose-devel",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.8.0+3591+c9939da8",
+			"src": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3fc0afc0893bb28a36b2d505ed934bc3e43417cd69ac07e2eda24190051ff309",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.x86_64.rpm",
+			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
+			"name": "cjose",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.8.0+3591+c9939da8",
+			"src": "cjose-0.6.1-3.module_el8.8.0+3591+c9939da8.src.rpm",
+			"version": "0.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ede184fae153877b592de93a359d53a9ef1a52b980e290e7d7b0a48211f64665",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_auth_openidc-2.4.9.4-1.module_el8.7.0+3305+9a59f0c3.x86_64.rpm",
+			"module": "mod_auth_openidc:2.3:8070020221011155741:9edba152:x86_64",
 			"name": "mod_auth_openidc",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.7.0+3305+9a59f0c3",

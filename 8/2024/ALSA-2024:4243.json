@@ -6,6 +6,42 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "0c3e23cc66470c72150b4e6a7a945acb38d660c00cc202470dfe9adfc67ff8f7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-libs-3.12.3-2.el8_10.i686.rpm",
+			"name": "python3.12-libs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "0d5731e29954016d5dbb37128ed72c8c0a0a639bd3a8167922f80f5c3f994d58",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-devel-3.12.3-2.el8_10.i686.rpm",
+			"name": "python3.12-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "5fb8ef1a4fd47fce25f3cb656f5289dccea2a5dfe0d9fa25ccc375313304d53f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-rpm-macros-3.12.3-2.el8_10.noarch.rpm",
+			"name": "python3.12-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "i686",
 			"checksum": "2176cfc32ad05a2960abe5a4ed64d0fdcae41786c881ac568906f3d536463776",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -65,42 +101,6 @@
 			"version": "3.12.3"
 		},
 		{
-			"arch": "i686",
-			"checksum": "0c3e23cc66470c72150b4e6a7a945acb38d660c00cc202470dfe9adfc67ff8f7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-libs-3.12.3-2.el8_10.i686.rpm",
-			"name": "python3.12-libs",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "0d5731e29954016d5dbb37128ed72c8c0a0a639bd3a8167922f80f5c3f994d58",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-devel-3.12.3-2.el8_10.i686.rpm",
-			"name": "python3.12-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "5fb8ef1a4fd47fce25f3cb656f5289dccea2a5dfe0d9fa25ccc375313304d53f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-rpm-macros-3.12.3-2.el8_10.noarch.rpm",
-			"name": "python3.12-rpm-macros",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "05f689df00c6b9a71ee4afbe6d9b383427e55ad7e76634af8952efda6b701df6",
 			"checksum_type": "sha256",
@@ -131,6 +131,54 @@
 			"epoch": "0",
 			"filename": "python3.12-idle-3.12.3-2.el8_10.x86_64.rpm",
 			"name": "python3.12-idle",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "14f135d9dddbcf3b8f0de7689a21b2ccf4c88ddb45d2e07f2b1567d501d9e395",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-devel-3.12.3-2.el8_10.aarch64.rpm",
+			"name": "python3.12-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "1fd68a21935e0fc93a2f7af49befbbc79f06e42626c2fbf4c0f5e9d36bd26f06",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-tkinter-3.12.3-2.el8_10.aarch64.rpm",
+			"name": "python3.12-tkinter",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3627648992ebd22dea5e2704178f56bef751f82a7286584f05537f6709458299",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-libs-3.12.3-2.el8_10.aarch64.rpm",
+			"name": "python3.12-libs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
+			"version": "3.12.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "80670cfe0d193b993a5f980d78697d309236fea4fe23debf4595b01a1d1e61f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-3.12.3-2.el8_10.aarch64.rpm",
+			"name": "python3.12",
 			"reboot_suggested": 0,
 			"release": "2.el8_10",
 			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
@@ -215,54 +263,6 @@
 			"epoch": "0",
 			"filename": "python3.12-idle-3.12.3-2.el8_10.aarch64.rpm",
 			"name": "python3.12-idle",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "14f135d9dddbcf3b8f0de7689a21b2ccf4c88ddb45d2e07f2b1567d501d9e395",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-devel-3.12.3-2.el8_10.aarch64.rpm",
-			"name": "python3.12-devel",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "1fd68a21935e0fc93a2f7af49befbbc79f06e42626c2fbf4c0f5e9d36bd26f06",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-tkinter-3.12.3-2.el8_10.aarch64.rpm",
-			"name": "python3.12-tkinter",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3627648992ebd22dea5e2704178f56bef751f82a7286584f05537f6709458299",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-libs-3.12.3-2.el8_10.aarch64.rpm",
-			"name": "python3.12-libs",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
-			"version": "3.12.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "80670cfe0d193b993a5f980d78697d309236fea4fe23debf4595b01a1d1e61f1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-3.12.3-2.el8_10.aarch64.rpm",
-			"name": "python3.12",
 			"reboot_suggested": 0,
 			"release": "2.el8_10",
 			"src": "python3.12-3.12.3-2.el8_10.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python3 security update",
 	"type": "security",
-	"updated_date": 1720008941
+	"updated_date": 1720008996
 }

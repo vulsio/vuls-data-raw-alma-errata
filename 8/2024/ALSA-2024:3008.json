@@ -6,11 +6,11 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "4fb9b9054984352000f05d130e9c168c1b9e3c4b5111db1f7d1c9e796c8da5e6",
+			"checksum": "443e409fab4195bf81f30f885ad2e0b7551ee7d9c39d2ab2683a3fe1cc7b05a1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pmix-devel-2.2.5-3.el8.i686.rpm",
-			"name": "pmix-devel",
+			"filename": "pmix-2.2.5-3.el8.i686.rpm",
+			"name": "pmix",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "pmix-2.2.5-3.el8.src.rpm",
@@ -18,11 +18,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "443e409fab4195bf81f30f885ad2e0b7551ee7d9c39d2ab2683a3fe1cc7b05a1",
+			"checksum": "4fb9b9054984352000f05d130e9c168c1b9e3c4b5111db1f7d1c9e796c8da5e6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pmix-2.2.5-3.el8.i686.rpm",
-			"name": "pmix",
+			"filename": "pmix-devel-2.2.5-3.el8.i686.rpm",
+			"name": "pmix-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "pmix-2.2.5-3.el8.src.rpm",
@@ -35,6 +35,18 @@
 			"epoch": "0",
 			"filename": "pmix-devel-2.2.5-3.el8.x86_64.rpm",
 			"name": "pmix-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "pmix-2.2.5-3.el8.src.rpm",
+			"version": "2.2.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a213876e02465874729eedab63a2e4b656d4e120a1f34c901548ed99141bf7d3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pmix-2.2.5-3.el8.aarch64.rpm",
+			"name": "pmix",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "pmix-2.2.5-3.el8.src.rpm",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "pmix-devel-2.2.5-3.el8.aarch64.rpm",
 			"name": "pmix-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "pmix-2.2.5-3.el8.src.rpm",
-			"version": "2.2.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a213876e02465874729eedab63a2e4b656d4e120a1f34c901548ed99141bf7d3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pmix-2.2.5-3.el8.aarch64.rpm",
-			"name": "pmix",
 			"reboot_suggested": 0,
 			"release": "3.el8",
 			"src": "pmix-2.2.5-3.el8.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Important",
 	"title": "Important: pmix security update",
 	"type": "security",
-	"updated_date": 1716993576
+	"updated_date": 1716993575
 }
