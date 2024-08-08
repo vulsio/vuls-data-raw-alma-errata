@@ -53,42 +53,6 @@
 			"version": "0.8.7"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "898235e1c73541fc538e7027c49b43469d6e8304c1d9538b092ba540c3c3d674",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kpartx-0.8.7-20.el9.x86_64.rpm",
-			"name": "kpartx",
-			"reboot_suggested": 0,
-			"release": "20.el9",
-			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
-			"version": "0.8.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c5ebfd572718ebf5a7b4e5a2e17bb032e69e5fe29a107ae452f94a0971f5634f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-0.8.7-20.el9.x86_64.rpm",
-			"name": "device-mapper-multipath",
-			"reboot_suggested": 0,
-			"release": "20.el9",
-			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
-			"version": "0.8.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d78f3e0cf4157387bf02276215732a0dbc60796d32d0a408ff28f8ac3594a0d1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-libs-0.8.7-20.el9.x86_64.rpm",
-			"name": "device-mapper-multipath-libs",
-			"reboot_suggested": 0,
-			"release": "20.el9",
-			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
-			"version": "0.8.7"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "6a4eb60dcb5b04301d9bee54f1a4ae5c4f6eb934ff858c998c2b3b881def0cdc",
 			"checksum_type": "sha256",
@@ -118,6 +82,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "device-mapper-multipath-libs-0.8.7-20.el9.aarch64.rpm",
+			"name": "device-mapper-multipath-libs",
+			"reboot_suggested": 0,
+			"release": "20.el9",
+			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
+			"version": "0.8.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "898235e1c73541fc538e7027c49b43469d6e8304c1d9538b092ba540c3c3d674",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kpartx-0.8.7-20.el9.x86_64.rpm",
+			"name": "kpartx",
+			"reboot_suggested": 0,
+			"release": "20.el9",
+			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
+			"version": "0.8.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c5ebfd572718ebf5a7b4e5a2e17bb032e69e5fe29a107ae452f94a0971f5634f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-0.8.7-20.el9.x86_64.rpm",
+			"name": "device-mapper-multipath",
+			"reboot_suggested": 0,
+			"release": "20.el9",
+			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
+			"version": "0.8.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d78f3e0cf4157387bf02276215732a0dbc60796d32d0a408ff28f8ac3594a0d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-libs-0.8.7-20.el9.x86_64.rpm",
 			"name": "device-mapper-multipath-libs",
 			"reboot_suggested": 0,
 			"release": "20.el9",
@@ -173,30 +173,6 @@
 			"version": "0.8.7"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "dd4a2d670b81cffffcd0d4ae26a724e0d25595390cff4d6a0cfa2a66ec93611d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-devel-0.8.7-20.el9.aarch64.rpm",
-			"name": "device-mapper-multipath-devel",
-			"reboot_suggested": 0,
-			"release": "20.el9",
-			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
-			"version": "0.8.7"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "540c9f790a4f798fbe4bc5ab181bd865dc6b640eda1e15198070650082adf0b5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-devel-0.8.7-20.el9.s390x.rpm",
-			"name": "device-mapper-multipath-devel",
-			"reboot_suggested": 0,
-			"release": "20.el9",
-			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
-			"version": "0.8.7"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "2d7f402ad2cc0bfe0faeefb4ad28f638c05dfe1a01e224c527d2a98ea40dad77",
 			"checksum_type": "sha256",
@@ -209,11 +185,35 @@
 			"version": "0.8.7"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "dd4a2d670b81cffffcd0d4ae26a724e0d25595390cff4d6a0cfa2a66ec93611d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-devel-0.8.7-20.el9.aarch64.rpm",
+			"name": "device-mapper-multipath-devel",
+			"reboot_suggested": 0,
+			"release": "20.el9",
+			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
+			"version": "0.8.7"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "1a48b14901692425364db8af8003e1bd28325cf635395e82dcdd4c7198ecec23",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "device-mapper-multipath-devel-0.8.7-20.el9.ppc64le.rpm",
+			"name": "device-mapper-multipath-devel",
+			"reboot_suggested": 0,
+			"release": "20.el9",
+			"src": "device-mapper-multipath-0.8.7-20.el9.src.rpm",
+			"version": "0.8.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "540c9f790a4f798fbe4bc5ab181bd865dc6b640eda1e15198070650082adf0b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-devel-0.8.7-20.el9.s390x.rpm",
 			"name": "device-mapper-multipath-devel",
 			"reboot_suggested": 0,
 			"release": "20.el9",
