@@ -6,6 +6,42 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "d3dd3cf8843a0e43c8104298d2b37af27b9f184f457f02f59eda599fe5aac0fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-idle-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-idle",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "e3c109ab76a116f8303780d7798e06f9188564b4c2a74b6d8e2111d0fbb8a4e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-debug-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-debug",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f5b604b692091841eee890d71dd255b2907ac611271e94be539300e0e2e37558",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-test-3.11.7-1.el8.i686.rpm",
+			"name": "python3.11-test",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
 			"checksum": "09bfab67a747f00572d8fd53aeb0f40ad94e11aefe96ab922eb7ed6df7679c18",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -65,42 +101,6 @@
 			"version": "3.11.7"
 		},
 		{
-			"arch": "i686",
-			"checksum": "d3dd3cf8843a0e43c8104298d2b37af27b9f184f457f02f59eda599fe5aac0fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-idle-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-idle",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "e3c109ab76a116f8303780d7798e06f9188564b4c2a74b6d8e2111d0fbb8a4e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-debug-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-debug",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f5b604b692091841eee890d71dd255b2907ac611271e94be539300e0e2e37558",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-test-3.11.7-1.el8.i686.rpm",
-			"name": "python3.11-test",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "7d0111ac0634324ab4bac5b4f84e97f74c5ed5de2c64033523ecb5df547dcd11",
 			"checksum_type": "sha256",
@@ -130,6 +130,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3.11-debug-3.11.7-1.el8.x86_64.rpm",
+			"name": "python3.11-debug",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "561a8f74e3ee9c13e6dab96b602f1bfed08f6c4146d9743702da3389e07b4278",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-test-3.11.7-1.el8.aarch64.rpm",
+			"name": "python3.11-test",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ca63a98ffad484510e0f6e376070c9e91870437894bdb0fa64c403fe6856c319",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-idle-3.11.7-1.el8.aarch64.rpm",
+			"name": "python3.11-idle",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "python3.11-3.11.7-1.el8.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "de13fc7d815fdf2dda3a0d2dd7bed169ebabf82dd5651865998ee73c0287d2a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-debug-3.11.7-1.el8.aarch64.rpm",
 			"name": "python3.11-debug",
 			"reboot_suggested": 0,
 			"release": "1.el8",
@@ -227,42 +263,6 @@
 			"epoch": "0",
 			"filename": "python3.11-devel-3.11.7-1.el8.x86_64.rpm",
 			"name": "python3.11-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "561a8f74e3ee9c13e6dab96b602f1bfed08f6c4146d9743702da3389e07b4278",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-test-3.11.7-1.el8.aarch64.rpm",
-			"name": "python3.11-test",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ca63a98ffad484510e0f6e376070c9e91870437894bdb0fa64c403fe6856c319",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-idle-3.11.7-1.el8.aarch64.rpm",
-			"name": "python3.11-idle",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "python3.11-3.11.7-1.el8.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "de13fc7d815fdf2dda3a0d2dd7bed169ebabf82dd5651865998ee73c0287d2a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-debug-3.11.7-1.el8.aarch64.rpm",
-			"name": "python3.11-debug",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "python3.11-3.11.7-1.el8.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python3.11 security update",
 	"type": "security",
-	"updated_date": 1716993919
+	"updated_date": 1716993658
 }

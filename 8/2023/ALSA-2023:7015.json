@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "783ec3fe4f5500aeebba0e09f849a5694ac090bb912cd6d380279d144c8f13af",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-cli-2.6.2-17.el8.i686.rpm",
-			"name": "wireshark-cli",
-			"reboot_suggested": 0,
-			"release": "17.el8",
-			"src": "wireshark-2.6.2-17.el8.src.rpm",
-			"version": "2.6.2"
-		},
-		{
-			"arch": "i686",
 			"checksum": "d4ceca1fd157bb394e5fecb14fe404436f994ad29969d0396ace7dcd0e63c3a3",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -29,11 +17,35 @@
 			"version": "2.6.2"
 		},
 		{
+			"arch": "i686",
+			"checksum": "783ec3fe4f5500aeebba0e09f849a5694ac090bb912cd6d380279d144c8f13af",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-cli-2.6.2-17.el8.i686.rpm",
+			"name": "wireshark-cli",
+			"reboot_suggested": 0,
+			"release": "17.el8",
+			"src": "wireshark-2.6.2-17.el8.src.rpm",
+			"version": "2.6.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "24060974ed45f33359b5e9a304357500b9980b92a2a6f18758e4317d021f1235",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "wireshark-devel-2.6.2-17.el8.x86_64.rpm",
+			"name": "wireshark-devel",
+			"reboot_suggested": 0,
+			"release": "17.el8",
+			"src": "wireshark-2.6.2-17.el8.src.rpm",
+			"version": "2.6.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "143d00b01abbba76f186b7d09f01233974b161fd422c9bef514d40d85c248474",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "wireshark-devel-2.6.2-17.el8.aarch64.rpm",
 			"name": "wireshark-devel",
 			"reboot_suggested": 0,
 			"release": "17.el8",
@@ -83,18 +95,6 @@
 			"epoch": "1",
 			"filename": "wireshark-cli-2.6.2-17.el8.x86_64.rpm",
 			"name": "wireshark-cli",
-			"reboot_suggested": 0,
-			"release": "17.el8",
-			"src": "wireshark-2.6.2-17.el8.src.rpm",
-			"version": "2.6.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "143d00b01abbba76f186b7d09f01233974b161fd422c9bef514d40d85c248474",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "wireshark-devel-2.6.2-17.el8.aarch64.rpm",
-			"name": "wireshark-devel",
 			"reboot_suggested": 0,
 			"release": "17.el8",
 			"src": "wireshark-2.6.2-17.el8.src.rpm",
@@ -228,5 +228,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: wireshark security update",
 	"type": "security",
-	"updated_date": 1700734739
+	"updated_date": 1700734740
 }

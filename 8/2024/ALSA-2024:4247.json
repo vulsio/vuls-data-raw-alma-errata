@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "a0781021d9525b46a1ac5eabdbe4767c704e562e9388f45731163ec0c07e11d7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libuv-1.41.1-2.el8_10.i686.rpm",
-			"name": "libuv",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "libuv-1.41.1-2.el8_10.src.rpm",
-			"version": "1.41.1"
-		},
-		{
-			"arch": "i686",
 			"checksum": "78472ba6633292c59363d5822d2718691f4134db7604b5d44b4243af103fdfab",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -29,11 +17,35 @@
 			"version": "1.41.1"
 		},
 		{
+			"arch": "i686",
+			"checksum": "a0781021d9525b46a1ac5eabdbe4767c704e562e9388f45731163ec0c07e11d7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libuv-1.41.1-2.el8_10.i686.rpm",
+			"name": "libuv",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "libuv-1.41.1-2.el8_10.src.rpm",
+			"version": "1.41.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "de9034de05f9585be3dd4233e1cc1bcf26e7bc5fe9b5e445d68b02e756d8d1ba",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libuv-devel-1.41.1-2.el8_10.x86_64.rpm",
+			"name": "libuv-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "libuv-1.41.1-2.el8_10.src.rpm",
+			"version": "1.41.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "21d2d18c4c8670204d589b5f8898078575394a0bf5c84950cb5243dc7be22fa0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libuv-devel-1.41.1-2.el8_10.aarch64.rpm",
 			"name": "libuv-devel",
 			"reboot_suggested": 0,
 			"release": "2.el8_10",
@@ -59,18 +71,6 @@
 			"epoch": "1",
 			"filename": "libuv-1.41.1-2.el8_10.x86_64.rpm",
 			"name": "libuv",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "libuv-1.41.1-2.el8_10.src.rpm",
-			"version": "1.41.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "21d2d18c4c8670204d589b5f8898078575394a0bf5c84950cb5243dc7be22fa0",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libuv-devel-1.41.1-2.el8_10.aarch64.rpm",
-			"name": "libuv-devel",
 			"reboot_suggested": 0,
 			"release": "2.el8_10",
 			"src": "libuv-1.41.1-2.el8_10.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libuv security update",
 	"type": "security",
-	"updated_date": 1720007387
+	"updated_date": 1720007389
 }

@@ -6,6 +6,30 @@
 	"packages": [
 		{
 			"arch": "noarch",
+			"checksum": "18b262dd4ad98ad55add7f007f6933cecb05c939e1cb5eacc32df8c37105a609",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-doc-9.16.23-0.14.el8.noarch.rpm",
+			"name": "bind9.16-doc",
+			"reboot_suggested": 0,
+			"release": "0.14.el8",
+			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f1b6522edb78aa7a966ca2c8de01e50a29c66f565db8846eddd8e1140c45ec91",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.i686.rpm",
+			"name": "bind9.16-devel",
+			"reboot_suggested": 0,
+			"release": "0.14.el8",
+			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
 			"checksum": "352d36dd038ee5e0652a61c839b11cebcca8a1a426a18882259e2af389887bba",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -41,23 +65,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "18b262dd4ad98ad55add7f007f6933cecb05c939e1cb5eacc32df8c37105a609",
+			"arch": "x86_64",
+			"checksum": "940b52e058906eebb95a13cc0246211fe0e415649ffd639755d2ab3e4c0ecb83",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-doc-9.16.23-0.14.el8.noarch.rpm",
-			"name": "bind9.16-doc",
-			"reboot_suggested": 0,
-			"release": "0.14.el8",
-			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f1b6522edb78aa7a966ca2c8de01e50a29c66f565db8846eddd8e1140c45ec91",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.i686.rpm",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.x86_64.rpm",
 			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
@@ -65,11 +77,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "940b52e058906eebb95a13cc0246211fe0e415649ffd639755d2ab3e4c0ecb83",
+			"arch": "aarch64",
+			"checksum": "a08b167304571cb78cfeaca1ab67cf3980ba9e2773a7c272b6923a4498e142ac",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.x86_64.rpm",
+			"filename": "bind9.16-devel-9.16.23-0.14.el8.aarch64.rpm",
 			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
@@ -191,18 +203,6 @@
 			"epoch": "32",
 			"filename": "bind9.16-utils-9.16.23-0.14.el8.x86_64.rpm",
 			"name": "bind9.16-utils",
-			"reboot_suggested": 0,
-			"release": "0.14.el8",
-			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a08b167304571cb78cfeaca1ab67cf3980ba9e2773a7c272b6923a4498e142ac",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.14.el8.aarch64.rpm",
-			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.14.el8",
 			"src": "bind9.16-9.16.23-0.14.el8.src.rpm",
@@ -408,5 +408,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: bind9.16 security and bug fix update",
 	"type": "security",
-	"updated_date": 1684534163
+	"updated_date": 1684533960
 }
