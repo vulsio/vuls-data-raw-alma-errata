@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "65d8a5b2b3469b1408715d02b285d7700af5810d185de5c584db60db0b895423",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-devel-1.33.0-3.el8_2.1.i686.rpm",
+			"name": "libnghttp2-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8_2.1",
+			"src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
+			"version": "1.33.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "786fc0578da180e0567f65f98eb23d5e34dd735dee045d07dc13968db645de7c",
 			"checksum_type": "sha256",
@@ -29,30 +41,6 @@
 			"version": "1.33.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "bc985967f917e0ddb99c9966440165b80c2df104f035968c0f58e39324e5f743",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-1.33.0-3.el8_2.1.i686.rpm",
-			"name": "libnghttp2",
-			"reboot_suggested": 0,
-			"release": "3.el8_2.1",
-			"src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
-			"version": "1.33.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "bc985967f917e0ddb99c9966440165b80c2df104f035968c0f58e39324e5f743",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-1.33.0-3.el8_2.1.i686.rpm",
-			"name": "libnghttp2",
-			"reboot_suggested": 0,
-			"release": "3.el8_2.1",
-			"src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
-			"version": "1.33.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "ec2b6aee4dc42e190d0aecb2eb236f4e0d83356ccfd8ee813cb31d1ed8da3e29",
 			"checksum_type": "sha256",
@@ -65,11 +53,11 @@
 			"version": "1.33.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "ec2b6aee4dc42e190d0aecb2eb236f4e0d83356ccfd8ee813cb31d1ed8da3e29",
+			"arch": "i686",
+			"checksum": "bc985967f917e0ddb99c9966440165b80c2df104f035968c0f58e39324e5f743",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-1.33.0-3.el8_2.1.x86_64.rpm",
+			"filename": "libnghttp2-1.33.0-3.el8_2.1.i686.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "3.el8_2.1",
@@ -107,18 +95,6 @@
 			"epoch": "0",
 			"filename": "nghttp2-1.33.0-3.el8_2.1.aarch64.rpm",
 			"name": "nghttp2",
-			"reboot_suggested": 0,
-			"release": "3.el8_2.1",
-			"src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
-			"version": "1.33.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "65d8a5b2b3469b1408715d02b285d7700af5810d185de5c584db60db0b895423",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-devel-1.33.0-3.el8_2.1.i686.rpm",
-			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_2.1",
 			"src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
@@ -163,18 +139,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-2755.html",
-			"id": "ALSA-2020-2755",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-11080",
 			"id": "CVE-2020-11080",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-2755.html",
+			"id": "ALSA-2020-2755",
+			"type": "self"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: nghttp2 security update",
 	"type": "security",
-	"updated_date": 1678725270
+	"updated_date": 1628672040
 }
