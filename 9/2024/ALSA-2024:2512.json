@@ -17,18 +17,6 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "i686",
-			"checksum": "edbe6d61717c3922535c019dc052f8952b27d4b635b22f1744789715480b7388",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-libs-5.39-16.el9.i686.rpm",
-			"name": "file-libs",
-			"reboot_suggested": 0,
-			"release": "16.el9",
-			"src": "file-5.39-16.el9.src.rpm",
-			"version": "5.39"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "4b1f183535ebcce0ed63936df0b7c54c4ed2d4b3d76a0d89f8c7c1702a8a99ba",
 			"checksum_type": "sha256",
@@ -53,23 +41,11 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "862d1690ad53416bd5a8d1555c500be99f740e9c5800d100fac1bb4c2e001d11",
+			"arch": "i686",
+			"checksum": "edbe6d61717c3922535c019dc052f8952b27d4b635b22f1744789715480b7388",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-5.39-16.el9.aarch64.rpm",
-			"name": "file",
-			"reboot_suggested": 0,
-			"release": "16.el9",
-			"src": "file-5.39-16.el9.src.rpm",
-			"version": "5.39"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "95379c76336cb20ac09844cef833e2d2a080d941b64a372d94408698e606b2d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-libs-5.39-16.el9.aarch64.rpm",
+			"filename": "file-libs-5.39-16.el9.i686.rpm",
 			"name": "file-libs",
 			"reboot_suggested": 0,
 			"release": "16.el9",
@@ -94,6 +70,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "file-libs-5.39-16.el9.ppc64le.rpm",
+			"name": "file-libs",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "862d1690ad53416bd5a8d1555c500be99f740e9c5800d100fac1bb4c2e001d11",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-5.39-16.el9.aarch64.rpm",
+			"name": "file",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "95379c76336cb20ac09844cef833e2d2a080d941b64a372d94408698e606b2d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-libs-5.39-16.el9.aarch64.rpm",
 			"name": "file-libs",
 			"reboot_suggested": 0,
 			"release": "16.el9",
@@ -137,11 +137,11 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ef9c0c614a61d4e0016afbb9a4710854b2ac555f3cfdf03bd13b2506e21bbfe2",
+			"arch": "x86_64",
+			"checksum": "c2edb53441ae3e4121b4976ec6c1e3324bb8a31de083a266cb80bdfd2a90a4f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.39-16.el9.aarch64.rpm",
+			"filename": "file-devel-5.39-16.el9.x86_64.rpm",
 			"name": "file-devel",
 			"reboot_suggested": 0,
 			"release": "16.el9",
@@ -173,11 +173,11 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "c2edb53441ae3e4121b4976ec6c1e3324bb8a31de083a266cb80bdfd2a90a4f0",
+			"arch": "aarch64",
+			"checksum": "ef9c0c614a61d4e0016afbb9a4710854b2ac555f3cfdf03bd13b2506e21bbfe2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.39-16.el9.x86_64.rpm",
+			"filename": "file-devel-5.39-16.el9.aarch64.rpm",
 			"name": "file-devel",
 			"reboot_suggested": 0,
 			"release": "16.el9",

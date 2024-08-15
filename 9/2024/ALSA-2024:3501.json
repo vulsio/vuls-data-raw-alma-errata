@@ -29,11 +29,11 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3ca712a5bdfa6dbd8ba521ac41998f3ed3a53b82d2d30fcadfce56f51a556c61",
+			"arch": "ppc64le",
+			"checksum": "69f6d0154058a690398dfc610238e51f380b289f0c186e756e1b40a8b6fc8637",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-1.43.0-5.el9_4.3.aarch64.rpm",
+			"filename": "libnghttp2-1.43.0-5.el9_4.3.ppc64le.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
@@ -41,11 +41,11 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "69f6d0154058a690398dfc610238e51f380b289f0c186e756e1b40a8b6fc8637",
+			"arch": "aarch64",
+			"checksum": "3ca712a5bdfa6dbd8ba521ac41998f3ed3a53b82d2d30fcadfce56f51a556c61",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-1.43.0-5.el9_4.3.ppc64le.rpm",
+			"filename": "libnghttp2-1.43.0-5.el9_4.3.aarch64.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
@@ -77,24 +77,24 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0083f6b4d4c6ed52bc73e14c7ba256443401388579ab9b0cc8fa1ddff64049e0",
+			"arch": "x86_64",
+			"checksum": "ca448ce4b472d60167d61631d8ed1ef9d939053cd2b0ac7b80e039c7d95efd05",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-devel-1.43.0-5.el9_4.3.aarch64.rpm",
-			"name": "libnghttp2-devel",
+			"filename": "nghttp2-1.43.0-5.el9_4.3.x86_64.rpm",
+			"name": "nghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
 			"src": "nghttp2-1.43.0-5.el9_4.3.src.rpm",
 			"version": "1.43.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "59e880af00d5249048bd2841f7216f25078d1c1721803db8a03c82a0f08d871c",
+			"arch": "x86_64",
+			"checksum": "f8c8486c4db8d81f78b99c08ea5386b8e25967c6b556331e966e84fefb07dcf5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nghttp2-1.43.0-5.el9_4.3.aarch64.rpm",
-			"name": "nghttp2",
+			"filename": "libnghttp2-devel-1.43.0-5.el9_4.3.x86_64.rpm",
+			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
 			"src": "nghttp2-1.43.0-5.el9_4.3.src.rpm",
@@ -149,24 +149,24 @@
 			"version": "1.43.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "ca448ce4b472d60167d61631d8ed1ef9d939053cd2b0ac7b80e039c7d95efd05",
+			"arch": "aarch64",
+			"checksum": "0083f6b4d4c6ed52bc73e14c7ba256443401388579ab9b0cc8fa1ddff64049e0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nghttp2-1.43.0-5.el9_4.3.x86_64.rpm",
-			"name": "nghttp2",
+			"filename": "libnghttp2-devel-1.43.0-5.el9_4.3.aarch64.rpm",
+			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
 			"src": "nghttp2-1.43.0-5.el9_4.3.src.rpm",
 			"version": "1.43.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "f8c8486c4db8d81f78b99c08ea5386b8e25967c6b556331e966e84fefb07dcf5",
+			"arch": "aarch64",
+			"checksum": "59e880af00d5249048bd2841f7216f25078d1c1721803db8a03c82a0f08d871c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-devel-1.43.0-5.el9_4.3.x86_64.rpm",
-			"name": "libnghttp2-devel",
+			"filename": "nghttp2-1.43.0-5.el9_4.3.aarch64.rpm",
+			"name": "nghttp2",
 			"reboot_suggested": 0,
 			"release": "5.el9_4.3",
 			"src": "nghttp2-1.43.0-5.el9_4.3.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: nghttp2 security update",
 	"type": "security",
-	"updated_date": 1717099963
+	"updated_date": 1717099964
 }

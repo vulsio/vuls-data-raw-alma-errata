@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "76e9936d01ec5147ee0bdec2d69e9057cc30f6582a0865198cc19f518e49b5ad",
+			"checksum_type": "sha256",
+			"epoch": "14",
+			"filename": "tcpdump-4.99.0-9.el9.x86_64.rpm",
+			"name": "tcpdump",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "tcpdump-4.99.0-9.el9.src.rpm",
+			"version": "4.99.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "ce68babe86ab72f9ea74cc2db4c2b60bfffea1e09921bbd673a9cebd75f659c2",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "14",
 			"filename": "tcpdump-4.99.0-9.el9.aarch64.rpm",
-			"name": "tcpdump",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "tcpdump-4.99.0-9.el9.src.rpm",
-			"version": "4.99.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "76e9936d01ec5147ee0bdec2d69e9057cc30f6582a0865198cc19f518e49b5ad",
-			"checksum_type": "sha256",
-			"epoch": "14",
-			"filename": "tcpdump-4.99.0-9.el9.x86_64.rpm",
 			"name": "tcpdump",
 			"reboot_suggested": 0,
 			"release": "9.el9",
@@ -78,5 +78,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: tcpdump security update",
 	"type": "security",
-	"updated_date": 1715093645
+	"updated_date": 1715093646
 }
