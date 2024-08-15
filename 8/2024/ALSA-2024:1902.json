@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "99a983eeec0afc0dd5d88f798da359cf30643dcd4782fe659dbc82b50cda5106",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "shim-aa64-15.8-4.el8_9.alma.1.aarch64.rpm",
-			"name": "shim-aa64",
-			"reboot_suggested": 0,
-			"release": "4.el8_9.alma.1",
-			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
-			"version": "15.8"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "112fcb50a67218cc56c32d07c169a3f2b1c9361875cbe4f55232187e91900b44",
 			"checksum_type": "sha256",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "shim-x64-15.8-4.el8_9.alma.1.x86_64.rpm",
 			"name": "shim-x64",
+			"reboot_suggested": 0,
+			"release": "4.el8_9.alma.1",
+			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
+			"version": "15.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "99a983eeec0afc0dd5d88f798da359cf30643dcd4782fe659dbc82b50cda5106",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-aa64-15.8-4.el8_9.alma.1.aarch64.rpm",
+			"name": "shim-aa64",
 			"reboot_suggested": 0,
 			"release": "4.el8_9.alma.1",
 			"src": "shim-15.8-4.el8_9.alma.1.src.rpm",
@@ -116,5 +116,5 @@
 	"severity": "Important",
 	"title": "Important: shim security update",
 	"type": "security",
-	"updated_date": 1715373402
+	"updated_date": 1715373403
 }

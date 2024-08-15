@@ -4,18 +4,18 @@
 	"issued_date": 1704240000,
 	"modules": [
 		{
-			"arch": "x86_64",
-			"context": "9edba152",
-			"name": "squid",
-			"stream": "4",
-			"version": "8060020220408134354"
-		},
-		{
 			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "squid",
 			"stream": "4",
 			"version": "8060020220408134403"
+		},
+		{
+			"arch": "x86_64",
+			"context": "9edba152",
+			"name": "squid",
+			"stream": "4",
+			"version": "8060020220408134354"
 		},
 		{
 			"arch": "ppc64le",
@@ -33,45 +33,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "x86_64",
-			"checksum": "1cbc8a0c82dbc6330bd8880c0db4cdc3ef8d59ecafa7ded1aa5431d18933a432",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
-			"module": "squid:4:8060020220408134354:9edba152:x86_64",
-			"name": "libecap",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2741+01592ae8",
-			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-			"version": "1.0.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4bb0dc85bf1c746bf3ecd159089e902108e282ddf69520e8fb8ae808b9c89951",
-			"checksum_type": "sha256",
-			"epoch": "7",
-			"filename": "squid-4.15-7.module_el8.9.0+3708+6acaac63.5.x86_64.rpm",
-			"module": "squid:4:8060020220408134354:9edba152:x86_64",
-			"name": "squid",
-			"reboot_suggested": 0,
-			"release": "7.module_el8.9.0+3708+6acaac63.5",
-			"src": "squid-4.15-7.module_el8.9.0+3708+6acaac63.5.src.rpm",
-			"version": "4.15"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4d62ea1c65382c3acfe697af449cc2c673d03660a3a39f6c0b1e71e09f5fe8df",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
-			"module": "squid:4:8060020220408134354:9edba152:x86_64",
-			"name": "libecap-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2741+01592ae8",
-			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-			"version": "1.0.1"
-		},
 		{
 			"arch": "aarch64",
 			"checksum": "55e3f425f9b79d25a1b7886223c57dc2ec531e67854501992274d404e0f1a950",
@@ -110,6 +71,45 @@
 			"release": "7.module_el8.9.0+3708+6acaac63.5",
 			"src": "squid-4.15-7.module_el8.9.0+3708+6acaac63.5.src.rpm",
 			"version": "4.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1cbc8a0c82dbc6330bd8880c0db4cdc3ef8d59ecafa7ded1aa5431d18933a432",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
+			"module": "squid:4:8060020220408134354:9edba152:x86_64",
+			"name": "libecap",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2741+01592ae8",
+			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+			"version": "1.0.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4bb0dc85bf1c746bf3ecd159089e902108e282ddf69520e8fb8ae808b9c89951",
+			"checksum_type": "sha256",
+			"epoch": "7",
+			"filename": "squid-4.15-7.module_el8.9.0+3708+6acaac63.5.x86_64.rpm",
+			"module": "squid:4:8060020220408134354:9edba152:x86_64",
+			"name": "squid",
+			"reboot_suggested": 0,
+			"release": "7.module_el8.9.0+3708+6acaac63.5",
+			"src": "squid-4.15-7.module_el8.9.0+3708+6acaac63.5.src.rpm",
+			"version": "4.15"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4d62ea1c65382c3acfe697af449cc2c673d03660a3a39f6c0b1e71e09f5fe8df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
+			"module": "squid:4:8060020220408134354:9edba152:x86_64",
+			"name": "libecap-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2741+01592ae8",
+			"src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+			"version": "1.0.1"
 		},
 		{
 			"arch": "ppc64le",

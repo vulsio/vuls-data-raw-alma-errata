@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "8ffde9e136446d8c8ac15aaa5d4491df41541e1691353b62b61562720a562ce5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.i686.rpm",
-			"name": "gdk-pixbuf2",
-			"reboot_suggested": 0,
-			"release": "6.el8_10",
-			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
-			"version": "2.36.12"
-		},
-		{
-			"arch": "i686",
 			"checksum": "079d4593c6474be23a56ed874122683c04043379b257481995c8870f4c63818e",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "gdk-pixbuf2-xlib-2.36.12-6.el8_10.i686.rpm",
 			"name": "gdk-pixbuf2-xlib",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
+			"version": "2.36.12"
+		},
+		{
+			"arch": "i686",
+			"checksum": "8ffde9e136446d8c8ac15aaa5d4491df41541e1691353b62b61562720a562ce5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.i686.rpm",
+			"name": "gdk-pixbuf2",
 			"reboot_suggested": 0,
 			"release": "6.el8_10",
 			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
@@ -65,11 +65,11 @@
 			"version": "2.36.12"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "bc83501f177d2e9aa67bec744815dc2196e6d0661a13ff16bdba0e1654fc2323",
+			"arch": "x86_64",
+			"checksum": "469ab5b709ce0d9b4a9c806b9db33ced4203621b5ca981efb5abfaf7c3211ba1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.aarch64.rpm",
+			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.x86_64.rpm",
 			"name": "gdk-pixbuf2",
 			"reboot_suggested": 0,
 			"release": "6.el8_10",
@@ -77,11 +77,11 @@
 			"version": "2.36.12"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "469ab5b709ce0d9b4a9c806b9db33ced4203621b5ca981efb5abfaf7c3211ba1",
+			"arch": "aarch64",
+			"checksum": "bc83501f177d2e9aa67bec744815dc2196e6d0661a13ff16bdba0e1654fc2323",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.x86_64.rpm",
+			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.aarch64.rpm",
 			"name": "gdk-pixbuf2",
 			"reboot_suggested": 0,
 			"release": "6.el8_10",
@@ -137,30 +137,6 @@
 			"version": "2.36.12"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "61f12c074d477724ebec802a9d11ade8c593c810933b67b7facc466adc59d8e6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-devel-2.36.12-6.el8_10.x86_64.rpm",
-			"name": "gdk-pixbuf2-devel",
-			"reboot_suggested": 0,
-			"release": "6.el8_10",
-			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
-			"version": "2.36.12"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "7b2a9452fdc9653978d29af048dacbfbbd24d9ac80e6456103b20937ae27e0d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-modules-2.36.12-6.el8_10.x86_64.rpm",
-			"name": "gdk-pixbuf2-modules",
-			"reboot_suggested": 0,
-			"release": "6.el8_10",
-			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
-			"version": "2.36.12"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "34190bec8d9945af34066d5a9e6bb1667438e99b7100da28acad0b029b4fb158",
 			"checksum_type": "sha256",
@@ -185,36 +161,36 @@
 			"version": "2.36.12"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "61f12c074d477724ebec802a9d11ade8c593c810933b67b7facc466adc59d8e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.36.12-6.el8_10.x86_64.rpm",
+			"name": "gdk-pixbuf2-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
+			"version": "2.36.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7b2a9452fdc9653978d29af048dacbfbbd24d9ac80e6456103b20937ae27e0d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-modules-2.36.12-6.el8_10.x86_64.rpm",
+			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
+			"version": "2.36.12"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "9912a7cc9f28e12d74020cb8b1acd08cfb6dde45ec9b19d63b83cef82a45e1d2",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gdk-pixbuf2-2.36.12-6.el8_10.ppc64le.rpm",
 			"name": "gdk-pixbuf2",
-			"reboot_suggested": 0,
-			"release": "6.el8_10",
-			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
-			"version": "2.36.12"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "37a1157672959122e1c55d4c62b406c74fdcfd743493a1882b9be445c417254f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-xlib-2.36.12-6.el8_10.ppc64le.rpm",
-			"name": "gdk-pixbuf2-xlib",
-			"reboot_suggested": 0,
-			"release": "6.el8_10",
-			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
-			"version": "2.36.12"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c174e0a007a9f17bac2b03c35f19a72fdc1454c90eccb2b3e9fb2f22f0e73fdc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-xlib-devel-2.36.12-6.el8_10.ppc64le.rpm",
-			"name": "gdk-pixbuf2-xlib-devel",
 			"reboot_suggested": 0,
 			"release": "6.el8_10",
 			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
@@ -239,6 +215,30 @@
 			"epoch": "0",
 			"filename": "gdk-pixbuf2-modules-2.36.12-6.el8_10.ppc64le.rpm",
 			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
+			"version": "2.36.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "37a1157672959122e1c55d4c62b406c74fdcfd743493a1882b9be445c417254f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-xlib-2.36.12-6.el8_10.ppc64le.rpm",
+			"name": "gdk-pixbuf2-xlib",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
+			"version": "2.36.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c174e0a007a9f17bac2b03c35f19a72fdc1454c90eccb2b3e9fb2f22f0e73fdc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-xlib-devel-2.36.12-6.el8_10.ppc64le.rpm",
+			"name": "gdk-pixbuf2-xlib-devel",
 			"reboot_suggested": 0,
 			"release": "6.el8_10",
 			"src": "gdk-pixbuf2-2.36.12-6.el8_10.src.rpm",
@@ -330,5 +330,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gdk-pixbuf2 security update",
 	"type": "security",
-	"updated_date": 1716993587
+	"updated_date": 1716993615
 }
