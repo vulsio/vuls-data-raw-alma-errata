@@ -5,78 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "1936ecf922a78e52b1f815efd52a8fad08b9c01809616ec55aff96da12050568",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-libs-3.11.7-1.el9_4.3.i686.rpm",
-			"name": "python3.11-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "4228db7340a6beeca2673580d898175476c8eae1e68c6576ee732ea8f92b8e88",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-devel-3.11.7-1.el9_4.3.i686.rpm",
-			"name": "python3.11-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "5d077f1483a532ae46714e60b91e4d01a358336a622b1ed7026a6a73f7fabbe0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-libs-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "783cf66303672ddb9ee3a55e123b2f2c8e76bad9f241543c8713255db32fe2c6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-tkinter-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-tkinter",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c399fd8b128b5d976e7d62cd846b7216e716447407c8a7de38d8086d056d4b16",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "edcc96f7c0e56adcb15e2c5ed42761affc2d12899d1d94f555b4c9e0f4f23f72",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-devel-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "1962a4a78ceeec40cfbe6e7859ad7259d421337ed5f333e8c2a4a988c869faa5",
 			"checksum_type": "sha256",
@@ -125,6 +53,30 @@
 			"version": "3.11.7"
 		},
 		{
+			"arch": "i686",
+			"checksum": "1936ecf922a78e52b1f815efd52a8fad08b9c01809616ec55aff96da12050568",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-libs-3.11.7-1.el9_4.3.i686.rpm",
+			"name": "python3.11-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "4228db7340a6beeca2673580d898175476c8eae1e68c6576ee732ea8f92b8e88",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-devel-3.11.7-1.el9_4.3.i686.rpm",
+			"name": "python3.11-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "275e202a7b7324245e7de3fc966046563819e4143431c95d9f91c2e062eb2f26",
 			"checksum_type": "sha256",
@@ -167,6 +119,54 @@
 			"epoch": "0",
 			"filename": "python3.11-tkinter-3.11.7-1.el9_4.3.aarch64.rpm",
 			"name": "python3.11-tkinter",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5d077f1483a532ae46714e60b91e4d01a358336a622b1ed7026a6a73f7fabbe0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-libs-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "783cf66303672ddb9ee3a55e123b2f2c8e76bad9f241543c8713255db32fe2c6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-tkinter-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-tkinter",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c399fd8b128b5d976e7d62cd846b7216e716447407c8a7de38d8086d056d4b16",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "edcc96f7c0e56adcb15e2c5ed42761affc2d12899d1d94f555b4c9e0f4f23f72",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-devel-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_4.3",
 			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
@@ -281,42 +281,6 @@
 			"version": "3.11.7"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "3038f72121b18fecb852c2a4b9848a4186c1a10b475840baf21d4462e0cae86b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-test-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-test",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8516d18d9027b95fadcabe2b0e6cc5e39b82b1faf4dea6661381c5001edd5d9f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-debug-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-debug",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d942a26aedf5326f4b1c082f7e23bf5ffae5ca74a9d254ba102d13316ade7ab0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.11-idle-3.11.7-1.el9_4.3.x86_64.rpm",
-			"name": "python3.11-idle",
-			"reboot_suggested": 0,
-			"release": "1.el9_4.3",
-			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
-			"version": "3.11.7"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "17fdd2cea44f56078f5a60ca648393b32eb7df75a966fb988435d747d15202f1",
 			"checksum_type": "sha256",
@@ -389,6 +353,42 @@
 			"version": "3.11.7"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "3038f72121b18fecb852c2a4b9848a4186c1a10b475840baf21d4462e0cae86b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-test-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-test",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8516d18d9027b95fadcabe2b0e6cc5e39b82b1faf4dea6661381c5001edd5d9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-debug-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-debug",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d942a26aedf5326f4b1c082f7e23bf5ffae5ca74a9d254ba102d13316ade7ab0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-idle-3.11.7-1.el9_4.3.x86_64.rpm",
+			"name": "python3.11-idle",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.3",
+			"src": "python3.11-3.11.7-1.el9_4.3.src.rpm",
+			"version": "3.11.7"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "17a60306d6dc4206383c3ca8457341d0d70fb2984a9ed3f4a1a64562cf88d511",
 			"checksum_type": "sha256",
@@ -450,5 +450,5 @@
 	"severity": "Low",
 	"title": "Low: python3 security update",
 	"type": "security",
-	"updated_date": 1721826430
+	"updated_date": 1721826431
 }
