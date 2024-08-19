@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "47e6ddcb889e01207fa693a7b9f050d8c10d587ce68d5ee53a0668ab97461a95",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-7.5.11-5.el9_0.ppc64le.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "5.el9_0",
-			"src": "grafana-7.5.11-5.el9_0.src.rpm",
-			"version": "7.5.11"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "d6d2ac2542e8b967566ae6bc73df631a4506df68407a5436ee2d2dbc0943aa06",
 			"checksum_type": "sha256",
@@ -51,6 +39,18 @@
 			"release": "5.el9_0",
 			"src": "grafana-7.5.11-5.el9_0.src.rpm",
 			"version": "7.5.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "47e6ddcb889e01207fa693a7b9f050d8c10d587ce68d5ee53a0668ab97461a95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-7.5.11-5.el9_0.ppc64le.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "5.el9_0",
+			"src": "grafana-7.5.11-5.el9_0.src.rpm",
+			"version": "7.5.11"
 		}
 	],
 	"references": [
@@ -78,5 +78,5 @@
 	"severity": "Important",
 	"title": "Important: grafana security update",
 	"type": "security",
-	"updated_date": 1659000352
+	"updated_date": 1659000348
 }

@@ -5,36 +5,12 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "26a7864aa031b23395fec6def0ac08686a32eff26319c2b6a3435301a0d2a206",
+			"arch": "i686",
+			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-xcb-1.7.0-9.el9.ppc64le.rpm",
-			"name": "libX11-xcb",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2bd521da0ad6ea1552799a7359b7c0a65384f4edd133f05431252c0c2cf438d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.ppc64le.rpm",
+			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
 			"name": "libX11-devel",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "4025c59875684ae0d83c6fe795ba8e025b385b1d8b89da7a3090886e8a096735",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-1.7.0-9.el9.ppc64le.rpm",
-			"name": "libX11",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -47,18 +23,6 @@
 			"epoch": "0",
 			"filename": "libX11-common-1.7.0-9.el9.noarch.rpm",
 			"name": "libX11-common",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
-			"name": "libX11-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -195,6 +159,42 @@
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
 			"version": "1.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "26a7864aa031b23395fec6def0ac08686a32eff26319c2b6a3435301a0d2a206",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.7.0-9.el9.ppc64le.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2bd521da0ad6ea1552799a7359b7c0a65384f4edd133f05431252c0c2cf438d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.7.0-9.el9.ppc64le.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4025c59875684ae0d83c6fe795ba8e025b385b1d8b89da7a3090886e8a096735",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.7.0-9.el9.ppc64le.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
 		}
 	],
 	"references": [
@@ -242,5 +242,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libX11 security update",
 	"type": "security",
-	"updated_date": 1715094307
+	"updated_date": 1715094333
 }

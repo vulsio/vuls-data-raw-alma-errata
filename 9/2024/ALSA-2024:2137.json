@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "0aa257ad20e1857f897dad2286e04ff5b8aa5e3b7c71ba5f34eeb18500b2d83a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-0.21.1-1.el9.ppc64le.rpm",
-			"name": "LibRaw",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "LibRaw-0.21.1-1.el9.src.rpm",
-			"version": "0.21.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "5e11a0703badeecbd07ff78c648fd04567d10820a1e05ad8d4dcf781ff2902e5",
 			"checksum_type": "sha256",
@@ -58,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "LibRaw-0.21.1-1.el9.s390x.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "LibRaw-0.21.1-1.el9.src.rpm",
+			"version": "0.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0aa257ad20e1857f897dad2286e04ff5b8aa5e3b7c71ba5f34eeb18500b2d83a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.21.1-1.el9.ppc64le.rpm",
 			"name": "LibRaw",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -126,5 +126,5 @@
 	"severity": "Low",
 	"title": "Low: LibRaw security update",
 	"type": "security",
-	"updated_date": 1715093642
+	"updated_date": 1715093664
 }
