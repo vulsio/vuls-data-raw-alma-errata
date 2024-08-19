@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "x86_64",
+			"checksum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
+			"name": "device-mapper-multipath-devel",
+			"reboot_suggested": 0,
+			"release": "22.el8_6.2",
+			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
+			"version": "0.8.4"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "6e9cf59ce5be7ccf936759a8e830c9da94566319755271fb628fc8459484578c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -47,18 +59,6 @@
 			"epoch": "0",
 			"filename": "libdmmp-0.8.4-22.el8_6.2.x86_64.rpm",
 			"name": "libdmmp",
-			"reboot_suggested": 0,
-			"release": "22.el8_6.2",
-			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
-			"version": "0.8.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b2548d3fec20373058486d892a8c94773d21813a3ad8aedcae918be6156d9f04",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "device-mapper-multipath-devel-0.8.4-22.el8_6.2.x86_64.rpm",
-			"name": "device-mapper-multipath-devel",
 			"reboot_suggested": 0,
 			"release": "22.el8_6.2",
 			"src": "device-mapper-multipath-0.8.4-22.el8_6.2.src.rpm",
@@ -270,5 +270,5 @@
 	"severity": "Important",
 	"title": "Important: device-mapper-multipath security update",
 	"type": "security",
-	"updated_date": 1666765457
+	"updated_date": 1666765455
 }
