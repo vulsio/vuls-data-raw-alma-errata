@@ -1,0 +1,46 @@
+{
+	"description": "The python-urllib3 package provides the Python HTTP module with connection pooling and file POST abilities.\n\nSecurity Fix(es):\n\n* urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5309",
+	"issued_date": 1723507200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "08e8c2597e93c2d3397ac463fe8069db215cc0e47223ef2efa44cee9a8a3cd1b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-urllib3-1.24.2-8.el8_10.noarch.rpm",
+			"name": "python3-urllib3",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "python-urllib3-1.24.2-8.el8_10.src.rpm",
+			"version": "1.24.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5309",
+			"id": "RHSA-2024:5309",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-37891",
+			"id": "CVE-2024-37891",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292788",
+			"id": "2292788",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5309.html",
+			"id": "ALSA-2024:5309",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python-urllib3 security update",
+	"type": "security",
+	"updated_date": 1724242331
+}

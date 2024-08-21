@@ -1,0 +1,130 @@
+{
+	"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* REXML: DoS parsing an XML with many `<`s in an attribute value (CVE-2024-35176)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5338",
+	"issued_date": 1723507200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "2aa5323892b98a38ac08011858243620229a06a16bb956d07e0fa8c5443ef2c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.1.x86_64.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ca704d3e4689ccc6d1ee01e889695dd90bc6ace635ae56ef5f1a2d911c3ca959",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.1.x86_64.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3ffb571f1e4e87deaff59bb75f83232ca21285ac1521a6fe45eaac7eac43b745",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.1.aarch64.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a6194b2e6bf7a5e93c35f7533f9118ab148751599c4136b77039e85c7ce06bcb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.1.aarch64.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "38f34acef2eb6c6ab5b9817b488b3d2c2da302a91e6a1d5840b7319f016019ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.1.ppc64le.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cc550bd18ddc0047a11a2f8ab1f032ea77cbb24630f98a3127ad086bb1178f5f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.1.ppc64le.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "adca26c8559d6cf0b3bea303e9239e629017ede18fdbf3d6a6a5213898c3179a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.1.s390x.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c4cf39805f0be84639578e91c2d086c7f4f2d5905e2fc1d2969a7fecb010ade0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.1.s390x.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.1",
+			"src": "pcs-0.10.18-2.el8_10.1.src.rpm",
+			"version": "0.10.18"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5338",
+			"id": "RHSA-2024:5338",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-35176",
+			"id": "CVE-2024-35176",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280894",
+			"id": "2280894",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5338.html",
+			"id": "ALSA-2024:5338",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: pcs security update",
+	"type": "security",
+	"updated_date": 1724242882
+}

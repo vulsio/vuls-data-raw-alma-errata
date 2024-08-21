@@ -1,0 +1,82 @@
+{
+	"description": "The wget packages provide the GNU Wget file retrieval utility for HTTP, HTTPS, and FTP protocols.\n\nSecurity Fix(es):\n\n* wget: Misinterpretation of input may lead to improper behavior (CVE-2024-38428)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5299",
+	"issued_date": 1723507200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "ff410eed45fcfe0ca0bf824b9ef70ac921a7c1e38d4fe2f98ad95a27aedf4a17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wget-1.19.5-12.el8_10.aarch64.rpm",
+			"name": "wget",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "wget-1.19.5-12.el8_10.src.rpm",
+			"version": "1.19.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7ff6220dca62c1d6b363d3cfc30aecfa012a227fc12467cd737f00f810fb7553",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wget-1.19.5-12.el8_10.x86_64.rpm",
+			"name": "wget",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "wget-1.19.5-12.el8_10.src.rpm",
+			"version": "1.19.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "45716413c2ddf9ff56205144bc684a4d963547c78a2c219ec13ef1f3d138f21b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wget-1.19.5-12.el8_10.ppc64le.rpm",
+			"name": "wget",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "wget-1.19.5-12.el8_10.src.rpm",
+			"version": "1.19.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "753fc225e1309ed0084125ee03811449db0ec927cb8673725bb2de78441689c0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "wget-1.19.5-12.el8_10.s390x.rpm",
+			"name": "wget",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "wget-1.19.5-12.el8_10.src.rpm",
+			"version": "1.19.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5299",
+			"id": "RHSA-2024:5299",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-38428",
+			"id": "CVE-2024-38428",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292836",
+			"id": "2292836",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5299.html",
+			"id": "ALSA-2024:5299",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: wget security update",
+	"type": "security",
+	"updated_date": 1724241901
+}

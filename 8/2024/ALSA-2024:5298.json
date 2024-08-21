@@ -1,0 +1,82 @@
+{
+	"description": "GNOME Shell acts as a compositing manager for the desktop, and displays both application windows and other objects. It provides core interface functions like switching windows, launching applications, and notifications. It takes advantage of the capabilities of modern graphics hardware and introduces innovative user interface concepts. \n\nSecurity Fix(es):\n\n* gnome-shell: code execution in portal helper (CVE-2024-36472)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5298",
+	"issued_date": 1723507200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "ac28708ec09c165d19aa05ca8906829ad582c26062661766bf290a7f360f11fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-shell-3.32.2-56.el8_10.aarch64.rpm",
+			"name": "gnome-shell",
+			"reboot_suggested": 0,
+			"release": "56.el8_10",
+			"src": "gnome-shell-3.32.2-56.el8_10.src.rpm",
+			"version": "3.32.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "566cfa9d9e00f101fe6fb2a5424826bb75f357b6c0a98cc83a7ad465f451ac7f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-shell-3.32.2-56.el8_10.x86_64.rpm",
+			"name": "gnome-shell",
+			"reboot_suggested": 0,
+			"release": "56.el8_10",
+			"src": "gnome-shell-3.32.2-56.el8_10.src.rpm",
+			"version": "3.32.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "0fee47dc74c07a2b7b9bda7a837cbd9c374368c15c29b3cfd77d9b811574592d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-shell-3.32.2-56.el8_10.ppc64le.rpm",
+			"name": "gnome-shell",
+			"reboot_suggested": 0,
+			"release": "56.el8_10",
+			"src": "gnome-shell-3.32.2-56.el8_10.src.rpm",
+			"version": "3.32.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4ae9f92b796da74db01f80884ab52f698072957202f69b76d94b0ad1c76a55ed",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnome-shell-3.32.2-56.el8_10.s390x.rpm",
+			"name": "gnome-shell",
+			"reboot_suggested": 0,
+			"release": "56.el8_10",
+			"src": "gnome-shell-3.32.2-56.el8_10.src.rpm",
+			"version": "3.32.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5298",
+			"id": "RHSA-2024:5298",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-36472",
+			"id": "CVE-2024-36472",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2283750",
+			"id": "2283750",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5298.html",
+			"id": "ALSA-2024:5298",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: gnome-shell security update",
+	"type": "security",
+	"updated_date": 1724242130
+}

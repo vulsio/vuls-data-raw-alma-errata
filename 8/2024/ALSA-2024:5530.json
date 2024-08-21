@@ -1,0 +1,70 @@
+{
+	"description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa/setuptools: Remote code execution via download functions in the package_index module in pypa/setuptools (CVE-2024-6345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5530",
+	"issued_date": 1724025600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "562985ccfb3e38d4618b06617879fb6a4576524fb1f1a3c2ccb97905c81dc3f2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-wheel-39.2.0-8.el8_10.noarch.rpm",
+			"name": "python3-setuptools-wheel",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "python-setuptools-39.2.0-8.el8_10.src.rpm",
+			"version": "39.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "805b304b4a3ae7f4126291e1ad6f039eff7d9c286c20a2be2943480c1658fbe5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-setuptools-39.2.0-8.el8_10.noarch.rpm",
+			"name": "platform-python-setuptools",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "python-setuptools-39.2.0-8.el8_10.src.rpm",
+			"version": "39.2.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ac09fdbc5f6b6e5c741b630f76fc6a6a5244d15f596a325ed3ba95e0584cf272",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-setuptools-39.2.0-8.el8_10.noarch.rpm",
+			"name": "python3-setuptools",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "python-setuptools-39.2.0-8.el8_10.src.rpm",
+			"version": "39.2.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5530",
+			"id": "RHSA-2024:5530",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6345",
+			"id": "CVE-2024-6345",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2297771",
+			"id": "2297771",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5530.html",
+			"id": "ALSA-2024:5530",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: python-setuptools security update",
+	"type": "security",
+	"updated_date": 1724243703
+}

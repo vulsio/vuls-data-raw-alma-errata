@@ -1,0 +1,58 @@
+{
+	"description": "Setuptools is a collection of enhancements to the Python 3 distutils that allow you to more easily build and distribute Python 3 packages, especially ones that have dependencies on other packages.  This package also contains the runtime components of setuptools, necessary to execute the software that requires pkg_resources.\n\nSecurity Fix(es):\n\n* pypa/setuptools: Remote code execution via download functions in the package_index module in pypa/setuptools (CVE-2024-6345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5531",
+	"issued_date": 1724025600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "361f91dbf3ae4385b1dee922c6101a87c4baf4860b1af647ee3833e456723723",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-setuptools-wheel-68.2.2-4.el8_10.noarch.rpm",
+			"name": "python3.12-setuptools-wheel",
+			"reboot_suggested": 0,
+			"release": "4.el8_10",
+			"src": "python3.12-setuptools-68.2.2-4.el8_10.src.rpm",
+			"version": "68.2.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a11f5cbedf4187bed34a180e46a1ccfda34c250e83104b1a4bcf564d81a83139",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-setuptools-68.2.2-4.el8_10.noarch.rpm",
+			"name": "python3.12-setuptools",
+			"reboot_suggested": 0,
+			"release": "4.el8_10",
+			"src": "python3.12-setuptools-68.2.2-4.el8_10.src.rpm",
+			"version": "68.2.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5531",
+			"id": "RHSA-2024:5531",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6345",
+			"id": "CVE-2024-6345",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2297771",
+			"id": "2297771",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5531.html",
+			"id": "ALSA-2024:5531",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: python3.12-setuptools security update",
+	"type": "security",
+	"updated_date": 1724243819
+}

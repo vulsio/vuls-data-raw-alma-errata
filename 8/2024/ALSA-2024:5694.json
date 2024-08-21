@@ -1,0 +1,130 @@
+{
+	"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* tomcat: Improper Handling of Exceptional Conditions (CVE-2024-34750)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:5694",
+	"issued_date": 1724198400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "088f3d951190c43a20c26bf0fd0e771e663dda5caa27069b0387d3807fc2b7b1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "4423ad61dfd65d3748d0a9e87ac87c060bb485984303fd759ac85cabe59f075d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-el-3.0-api-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-el-3.0-api",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "47c1130d686f20e3a5d734e6d1bbda40037c52ee8f3c4a802148cac73ab120e1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-webapps-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-webapps",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "73a70d18cfc63b84e22a8bfefbe1953050033fcfa5cb97067bd9be2cab9f477b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-docs-webapp-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-docs-webapp",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7e6687309eba50c6cd340d8fbc43e2526ed16107e6c3f7e20784e544deeff59e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-jsp-2.3-api-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-jsp-2.3-api",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "8403f65eded173fc2553195fb36a1c78bb061447abfaf5cc61a68404ca1eb2d9",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-servlet-4.0-api-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-servlet-4.0-api",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "db6fa93a90de8aa30752a4e6ebd44eb7fdcd48e3373926419044e7fd046da85c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-admin-webapps-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-admin-webapps",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e6d642a0315d40504a384351f05db6131c25c6363b5dd806d7a239b0b776513a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "tomcat-lib-9.0.87-1.el8_10.2.noarch.rpm",
+			"name": "tomcat-lib",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.2",
+			"src": "tomcat-9.0.87-1.el8_10.2.src.rpm",
+			"version": "9.0.87"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:5694",
+			"id": "RHSA-2024:5694",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-34750",
+			"id": "CVE-2024-34750",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2295651",
+			"id": "2295651",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-5694.html",
+			"id": "ALSA-2024:5694",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: tomcat security update",
+	"type": "security",
+	"updated_date": 1724246508
+}
