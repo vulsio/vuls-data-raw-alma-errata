@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "3d73417f8052eb6a23c8113068c029df9fc105423f2f6ccd485acc35e8f2034a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcs-snmp-0.11.6-3.el9.x86_64.rpm",
-			"name": "pcs-snmp",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "pcs-0.11.6-3.el9.src.rpm",
-			"version": "0.11.6"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "754bf14f5b3f4b8d84ed447c7047e3276db1b31303bc79c99099ddc22b52aad4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcs-0.11.6-3.el9.x86_64.rpm",
-			"name": "pcs",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "pcs-0.11.6-3.el9.src.rpm",
-			"version": "0.11.6"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "2094069aac3e645aee45572012c73a152a8bddedd83c0940262e2db66c3ecd2f",
 			"checksum_type": "sha256",
@@ -99,6 +75,30 @@
 			"release": "3.el9",
 			"src": "pcs-0.11.6-3.el9.src.rpm",
 			"version": "0.11.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3d73417f8052eb6a23c8113068c029df9fc105423f2f6ccd485acc35e8f2034a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.11.6-3.el9.x86_64.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "pcs-0.11.6-3.el9.src.rpm",
+			"version": "0.11.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "754bf14f5b3f4b8d84ed447c7047e3276db1b31303bc79c99099ddc22b52aad4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.11.6-3.el9.x86_64.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "pcs-0.11.6-3.el9.src.rpm",
+			"version": "0.11.6"
 		}
 	],
 	"references": [
@@ -126,5 +126,5 @@
 	"severity": "Low",
 	"title": "Low: pcs security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1699963530
+	"updated_date": 1699963529
 }

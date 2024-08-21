@@ -65,30 +65,6 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "cd3a33efbfb395d5cc9b7b15b85848c79ed71f070c30dc2d5a69fb7bc76d86bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-libs-2.4.5-9.el9_4.s390x.rpm",
-			"name": "389-ds-base-libs",
-			"reboot_suggested": 0,
-			"release": "9.el9_4",
-			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "dfa00100132c18bffc3ae4ff0c3b2dc1ff31c9b853df3786abce3e54ab72dab3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-2.4.5-9.el9_4.s390x.rpm",
-			"name": "389-ds-base",
-			"reboot_suggested": 0,
-			"release": "9.el9_4",
-			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "45ae0ee1e4835f295f9054e7a52d3dd7dd8d7a91bd2bf9e938aacdcd7ff3e6f6",
 			"checksum_type": "sha256",
@@ -114,10 +90,34 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "4840dd677ba9d8c550a50979970d78180da6b96b2b67349b07b4a4b408e0b710",
+			"checksum": "cd3a33efbfb395d5cc9b7b15b85848c79ed71f070c30dc2d5a69fb7bc76d86bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-9.el9_4.s390x.rpm",
+			"filename": "389-ds-base-libs-2.4.5-9.el9_4.s390x.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "9.el9_4",
+			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "dfa00100132c18bffc3ae4ff0c3b2dc1ff31c9b853df3786abce3e54ab72dab3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-9.el9_4.s390x.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "9.el9_4",
+			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e0fd820f5a57cf508707adc2ecba139fcd29961812a55696be945fdef00064ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-2.4.5-9.el9_4.aarch64.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9_4",
@@ -137,11 +137,11 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e0fd820f5a57cf508707adc2ecba139fcd29961812a55696be945fdef00064ce",
+			"arch": "s390x",
+			"checksum": "4840dd677ba9d8c550a50979970d78180da6b96b2b67349b07b4a4b408e0b710",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-9.el9_4.aarch64.rpm",
+			"filename": "389-ds-base-devel-2.4.5-9.el9_4.s390x.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9_4",

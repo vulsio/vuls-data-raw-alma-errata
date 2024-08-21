@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "62b9599b0e357704737663588a1584008920f7832d74101bd44998e13cedd447",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ppp-devel-2.4.7-26.el8_1.i686.rpm",
-			"name": "ppp-devel",
-			"reboot_suggested": 0,
-			"release": "26.el8_1",
-			"src": "ppp-2.4.7-26.el8_1.src.rpm",
-			"version": "2.4.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "77338f397cd45c865917959aef6159cfbb3419e48fb1574f4576f80f4606f7b0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ppp-2.4.7-26.el8_1.i686.rpm",
-			"name": "ppp",
-			"reboot_suggested": 0,
-			"release": "26.el8_1",
-			"src": "ppp-2.4.7-26.el8_1.src.rpm",
-			"version": "2.4.7"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "80cc2705132ebbd99c2e6f57d2c31f106f61d282fe3fef66465e3d8ddc332954",
 			"checksum_type": "sha256",
@@ -77,6 +53,30 @@
 			"version": "2.4.7"
 		},
 		{
+			"arch": "i686",
+			"checksum": "62b9599b0e357704737663588a1584008920f7832d74101bd44998e13cedd447",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ppp-devel-2.4.7-26.el8_1.i686.rpm",
+			"name": "ppp-devel",
+			"reboot_suggested": 0,
+			"release": "26.el8_1",
+			"src": "ppp-2.4.7-26.el8_1.src.rpm",
+			"version": "2.4.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "77338f397cd45c865917959aef6159cfbb3419e48fb1574f4576f80f4606f7b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ppp-2.4.7-26.el8_1.i686.rpm",
+			"name": "ppp",
+			"reboot_suggested": 0,
+			"release": "26.el8_1",
+			"src": "ppp-2.4.7-26.el8_1.src.rpm",
+			"version": "2.4.7"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "7b5ada10499e1c3c49f09af8bcc7ebc9e01b3c47b0a2c772e32f1df08b964bc9",
 			"checksum_type": "sha256",
@@ -103,18 +103,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2020-8597",
-			"id": "CVE-2020-8597",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2020-0633.html",
 			"id": "ALSA-2020-0633",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-8597",
+			"id": "CVE-2020-8597",
+			"type": "cve"
 		}
 	],
 	"severity": "Important",
 	"title": "Important: ppp security update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1582815549
 }

@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "948b0a976f6e54e4fd2cd1b1824d793c83663b7a951d5848e593ce65cea6e0d5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.i686.rpm",
-			"name": "libsss_nss_idmap-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "sssd-2.9.4-3.el8_10.src.rpm",
-			"version": "2.9.4"
-		},
-		{
-			"arch": "i686",
 			"checksum": "187960b4dcba04f1d8738731adc0c0952e09d1b73c984eeccdab507bc3ee7fdc",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -101,11 +89,11 @@
 			"version": "2.9.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "dc2af56733e4044077efcb59919f5ff81550e94a0b844064cf851abfbf9f7bb6",
+			"arch": "i686",
+			"checksum": "948b0a976f6e54e4fd2cd1b1824d793c83663b7a951d5848e593ce65cea6e0d5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.x86_64.rpm",
+			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.i686.rpm",
 			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
@@ -762,11 +750,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "7c498ff84a8222e99f4c14cfb7a7d572723020edfa24ea4f1e3fce8c6f93602c",
+			"checksum": "dc2af56733e4044077efcb59919f5ff81550e94a0b844064cf851abfbf9f7bb6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sssd-idp-2.9.4-3.el8_10.x86_64.rpm",
-			"name": "sssd-idp",
+			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.x86_64.rpm",
+			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "sssd-2.9.4-3.el8_10.src.rpm",
@@ -779,6 +767,18 @@
 			"epoch": "0",
 			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.aarch64.rpm",
 			"name": "libsss_nss_idmap-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "sssd-2.9.4-3.el8_10.src.rpm",
+			"version": "2.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7c498ff84a8222e99f4c14cfb7a7d572723020edfa24ea4f1e3fce8c6f93602c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sssd-idp-2.9.4-3.el8_10.x86_64.rpm",
+			"name": "sssd-idp",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "sssd-2.9.4-3.el8_10.src.rpm",
@@ -1518,5 +1518,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: sssd security update",
 	"type": "security",
-	"updated_date": 1716993586
+	"updated_date": 1716993986
 }
