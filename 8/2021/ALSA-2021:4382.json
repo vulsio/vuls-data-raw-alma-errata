@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "33e7a0c1fe4ae2ceaeed0241ac97fae87af80642e5237d023906edde6823bef5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "json-c-doc-0.13.1-2.el8.noarch.rpm",
+			"name": "json-c-doc",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "json-c-0.13.1-2.el8.src.rpm",
+			"version": "0.13.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "277ca7581b61ed8518c9250fe562e6122b9bf478d4b269edbf336662c494bb34",
 			"checksum_type": "sha256",
@@ -27,18 +39,6 @@
 			"release": "2.el8",
 			"src": "json-c-0.13.1-2.el8.src.rpm",
 			"version": "0.13.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "33e7a0c1fe4ae2ceaeed0241ac97fae87af80642e5237d023906edde6823bef5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "json-c-doc-0.13.1-2.el8.noarch.rpm",
-			"name": "json-c-doc",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "json-c-0.13.1-2.el8.src.rpm",
-			"version": "0.13.1"
 		}
 	],
 	"references": [
@@ -51,5 +51,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: json-c security and bug fix update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636712461
 }

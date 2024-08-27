@@ -41,18 +41,6 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "33c0b14c3b062807c5889653879af8b9155716517e03260f1b92488758dcf5f2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libksba-1.5.1-5.el9_0.s390x.rpm",
-			"name": "libksba",
-			"reboot_suggested": 0,
-			"release": "5.el9_0",
-			"src": "libksba-1.5.1-5.el9_0.src.rpm",
-			"version": "1.5.1"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "38601070520dacfaaaeeb88b34bf77e8285526a31f255a82731cca0dda36dbe0",
 			"checksum_type": "sha256",
@@ -65,12 +53,12 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "bdadaa2cc84b06767d9a5c5c5f2ff9543d3103c9933bf9153a76323111fa8540",
+			"arch": "s390x",
+			"checksum": "33c0b14c3b062807c5889653879af8b9155716517e03260f1b92488758dcf5f2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-5.el9_0.ppc64le.rpm",
-			"name": "libksba-devel",
+			"filename": "libksba-1.5.1-5.el9_0.s390x.rpm",
+			"name": "libksba",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",
 			"src": "libksba-1.5.1-5.el9_0.src.rpm",
@@ -89,11 +77,23 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a0062ca0363fde88f0ad08e33ad89b3d3bbf83ec161a27b400bff9e446f981c1",
+			"arch": "aarch64",
+			"checksum": "696574c4d227e766f2f78434cd768d8d6e8ea1bf196237b488a5920d650b3b55",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-5.el9_0.x86_64.rpm",
+			"filename": "libksba-devel-1.5.1-5.el9_0.aarch64.rpm",
+			"name": "libksba-devel",
+			"reboot_suggested": 0,
+			"release": "5.el9_0",
+			"src": "libksba-1.5.1-5.el9_0.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "bdadaa2cc84b06767d9a5c5c5f2ff9543d3103c9933bf9153a76323111fa8540",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libksba-devel-1.5.1-5.el9_0.ppc64le.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",
@@ -113,11 +113,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "696574c4d227e766f2f78434cd768d8d6e8ea1bf196237b488a5920d650b3b55",
+			"arch": "x86_64",
+			"checksum": "a0062ca0363fde88f0ad08e33ad89b3d3bbf83ec161a27b400bff9e446f981c1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-5.el9_0.aarch64.rpm",
+			"filename": "libksba-devel-1.5.1-5.el9_0.x86_64.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",

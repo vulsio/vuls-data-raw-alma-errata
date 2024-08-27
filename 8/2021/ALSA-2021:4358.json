@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "0e8cf8f276fdde22fb2a868d4ca151e35ad965a56168fa7e1c5e45236bf2a95f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-utils-2.28-164.el8.x86_64.rpm",
-			"name": "glibc-utils",
-			"reboot_suggested": 1,
-			"release": "164.el8",
-			"src": "glibc-2.28-164.el8.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "be882b8cf6670aa37c083813123840ee78f447efa9cf88b38d2cdcf6f3e0204d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "compat-libpthread-nonshared-2.28-164.el8.x86_64.rpm",
-			"name": "compat-libpthread-nonshared",
-			"reboot_suggested": 1,
-			"release": "164.el8",
-			"src": "glibc-2.28-164.el8.src.rpm",
-			"version": "2.28"
-		},
-		{
 			"arch": "i686",
 			"checksum": "30b32bdf7554213a9a013b272965022a21ab49e3602c779eefa2b2c1f1cf62d3",
 			"checksum_type": "sha256",
@@ -111,6 +87,30 @@
 			"release": "164.el8",
 			"src": "glibc-2.28-164.el8.src.rpm",
 			"version": "2.28"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0e8cf8f276fdde22fb2a868d4ca151e35ad965a56168fa7e1c5e45236bf2a95f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-utils-2.28-164.el8.x86_64.rpm",
+			"name": "glibc-utils",
+			"reboot_suggested": 1,
+			"release": "164.el8",
+			"src": "glibc-2.28-164.el8.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "be882b8cf6670aa37c083813123840ee78f447efa9cf88b38d2cdcf6f3e0204d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "compat-libpthread-nonshared-2.28-164.el8.x86_64.rpm",
+			"name": "compat-libpthread-nonshared",
+			"reboot_suggested": 1,
+			"release": "164.el8",
+			"src": "glibc-2.28-164.el8.src.rpm",
+			"version": "2.28"
 		}
 	],
 	"references": [
@@ -133,5 +133,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: glibc security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636712461
 }

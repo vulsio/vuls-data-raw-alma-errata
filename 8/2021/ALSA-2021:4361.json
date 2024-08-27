@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
-			"name": "NetworkManager-cloud-setup",
-			"reboot_suggested": 0,
-			"release": "4.el8",
-			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
-			"version": "1.32.10"
-		},
-		{
 			"arch": "i686",
 			"checksum": "3e561c7e966e521871ed3ce4c10b0eedde8a7c6f03da4ec6d53336fa7afff5f9",
 			"checksum_type": "sha256",
@@ -39,6 +27,18 @@
 			"release": "4.el8",
 			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
 			"version": "1.32.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2ef5b808519c0b67b19b09e3f00fc0f280626481b1ee9dc6f1531c9079abcdff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-cloud-setup-1.32.10-4.el8.x86_64.rpm",
+			"name": "NetworkManager-cloud-setup",
+			"reboot_suggested": 0,
+			"release": "4.el8",
+			"src": "NetworkManager-1.32.10-4.el8.src.rpm",
+			"version": "1.32.10"
 		}
 	],
 	"references": [
@@ -51,5 +51,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: NetworkManager security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636712461
 }

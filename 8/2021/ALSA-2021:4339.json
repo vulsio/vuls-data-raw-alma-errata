@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "0ce2ea252c4cd7bff593eed6b00c23a1e578b41f9ab0f470daa885b596124d4c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grilo-0.3.6-3.el8.aarch64.rpm",
-			"name": "grilo",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "grilo-0.3.6-3.el8.src.rpm",
-			"version": "0.3.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
-			"name": "grilo-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8",
-			"src": "grilo-0.3.6-3.el8.src.rpm",
-			"version": "0.3.6"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "08e82c1011d6de74f66dac9585dd62524775778d97832459ff6123474594bea5",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "grilo-devel-0.3.6-3.el8.i686.rpm",
+			"name": "grilo-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "grilo-0.3.6-3.el8.src.rpm",
+			"version": "0.3.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0ce2ea252c4cd7bff593eed6b00c23a1e578b41f9ab0f470daa885b596124d4c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grilo-0.3.6-3.el8.aarch64.rpm",
+			"name": "grilo",
+			"reboot_suggested": 0,
+			"release": "3.el8",
+			"src": "grilo-0.3.6-3.el8.src.rpm",
+			"version": "0.3.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
 			"name": "grilo-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8",
@@ -103,18 +103,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4339.html",
-			"id": "ALSA-2021-4339",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-39365",
 			"id": "CVE-2021-39365",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4339.html",
+			"id": "ALSA-2021-4339",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: grilo security update",
 	"type": "security",
-	"updated_date": 1636463019
+	"updated_date": 1636712461
 }

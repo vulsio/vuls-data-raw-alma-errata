@@ -41,18 +41,6 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "63f445754d49fa6c142747927a29515e55ff47449a4340c774c1f1b5bf0294a2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tpm2-tss-3.2.2-2.el9.s390x.rpm",
-			"name": "tpm2-tss",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "tpm2-tss-3.2.2-2.el9.src.rpm",
-			"version": "3.2.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "f118959cf293e4c727c75e1e4299d935e52fbf113bc7cb2d21d1712423695292",
 			"checksum_type": "sha256",
@@ -65,12 +53,12 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "547ae243932b2bd2ecfd4304bab8b0f0b6dc03d5a113b4e0a31ef1a16e9a09b5",
+			"arch": "s390x",
+			"checksum": "63f445754d49fa6c142747927a29515e55ff47449a4340c774c1f1b5bf0294a2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.ppc64le.rpm",
-			"name": "tpm2-tss-devel",
+			"filename": "tpm2-tss-3.2.2-2.el9.s390x.rpm",
+			"name": "tpm2-tss",
 			"reboot_suggested": 0,
 			"release": "2.el9",
 			"src": "tpm2-tss-3.2.2-2.el9.src.rpm",
@@ -89,11 +77,23 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a252ad3261ffbe7f2a2b6d3c1aa00d7e70a259c884c6235794985fa20b942618",
+			"arch": "aarch64",
+			"checksum": "4fb52d1b2abe34937ff2607f162461fe361ce4d9c76dc35130421aaea70d041f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.x86_64.rpm",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.aarch64.rpm",
+			"name": "tpm2-tss-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "tpm2-tss-3.2.2-2.el9.src.rpm",
+			"version": "3.2.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "547ae243932b2bd2ecfd4304bab8b0f0b6dc03d5a113b4e0a31ef1a16e9a09b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.ppc64le.rpm",
 			"name": "tpm2-tss-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -113,11 +113,11 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "4fb52d1b2abe34937ff2607f162461fe361ce4d9c76dc35130421aaea70d041f",
+			"arch": "x86_64",
+			"checksum": "a252ad3261ffbe7f2a2b6d3c1aa00d7e70a259c884c6235794985fa20b942618",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.aarch64.rpm",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.x86_64.rpm",
 			"name": "tpm2-tss-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",

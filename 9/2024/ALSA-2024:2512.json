@@ -77,30 +77,6 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "15ef29be05f165cf95d9953f24ff3a247ffc684407316df6a00a57c15bdabdaa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-5.39-16.el9.s390x.rpm",
-			"name": "file",
-			"reboot_suggested": 0,
-			"release": "16.el9",
-			"src": "file-5.39-16.el9.src.rpm",
-			"version": "5.39"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "db4b374d05c920efd7c172a50d3cca7699d0f3e0646a4a7a39c9f1f98ad280d5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-libs-5.39-16.el9.s390x.rpm",
-			"name": "file-libs",
-			"reboot_suggested": 0,
-			"release": "16.el9",
-			"src": "file-5.39-16.el9.src.rpm",
-			"version": "5.39"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "862d1690ad53416bd5a8d1555c500be99f740e9c5800d100fac1bb4c2e001d11",
 			"checksum_type": "sha256",
@@ -125,12 +101,24 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "440b2f467c3beb0f10cad7e9618bcc2315133e14ae10a790dd52c51e8941488b",
+			"arch": "s390x",
+			"checksum": "15ef29be05f165cf95d9953f24ff3a247ffc684407316df6a00a57c15bdabdaa",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.39-16.el9.ppc64le.rpm",
-			"name": "file-devel",
+			"filename": "file-5.39-16.el9.s390x.rpm",
+			"name": "file",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "db4b374d05c920efd7c172a50d3cca7699d0f3e0646a4a7a39c9f1f98ad280d5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-libs-5.39-16.el9.s390x.rpm",
+			"name": "file-libs",
 			"reboot_suggested": 0,
 			"release": "16.el9",
 			"src": "file-5.39-16.el9.src.rpm",
@@ -149,11 +137,23 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "c2edb53441ae3e4121b4976ec6c1e3324bb8a31de083a266cb80bdfd2a90a4f0",
+			"arch": "aarch64",
+			"checksum": "ef9c0c614a61d4e0016afbb9a4710854b2ac555f3cfdf03bd13b2506e21bbfe2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.39-16.el9.x86_64.rpm",
+			"filename": "file-devel-5.39-16.el9.aarch64.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9",
+			"src": "file-5.39-16.el9.src.rpm",
+			"version": "5.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "440b2f467c3beb0f10cad7e9618bcc2315133e14ae10a790dd52c51e8941488b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.39-16.el9.ppc64le.rpm",
 			"name": "file-devel",
 			"reboot_suggested": 0,
 			"release": "16.el9",
@@ -173,11 +173,11 @@
 			"version": "5.39"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ef9c0c614a61d4e0016afbb9a4710854b2ac555f3cfdf03bd13b2506e21bbfe2",
+			"arch": "x86_64",
+			"checksum": "c2edb53441ae3e4121b4976ec6c1e3324bb8a31de083a266cb80bdfd2a90a4f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "file-devel-5.39-16.el9.aarch64.rpm",
+			"filename": "file-devel-5.39-16.el9.x86_64.rpm",
 			"name": "file-devel",
 			"reboot_suggested": 0,
 			"release": "16.el9",

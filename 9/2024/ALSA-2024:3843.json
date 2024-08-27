@@ -29,18 +29,6 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "40f65d32d9ed4317912629d45ac359bfbfd5e21bb34d69969a97b3e5428c4a9a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.aarch64.rpm",
-			"name": "cockpit-pcp",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "fbbc9a7d1076662394a743c9f53afd17e5933d123665a7ebfcb69f85bb40bb80",
 			"checksum_type": "sha256",
@@ -58,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "cockpit-pcp-311.2-1.el9_4.ppc64le.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "40f65d32d9ed4317912629d45ac359bfbfd5e21bb34d69969a97b3e5428c4a9a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-311.2-1.el9_4.aarch64.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -173,42 +173,6 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "3516ebe5c9c1076df6ff8ba5db5f62352f776a7ddc517b8c4d743e1e841e682a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-bridge-311.2-1.el9_4.s390x.rpm",
-			"name": "cockpit-bridge",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "885ec0fe636b5227e3cabc3a7fcdf5afbea9ba48f719b77d53bba0fee2005dff",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-311.2-1.el9_4.s390x.rpm",
-			"name": "cockpit",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f9563ff346fde71cbea487b4252b336de23089435dcf793ece5bfca1182c3750",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-ws-311.2-1.el9_4.s390x.rpm",
-			"name": "cockpit-ws",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0e402029d5e5baed9169ca7e3ed3796e67890c23060436551c9f6aa6faeb2559",
 			"checksum_type": "sha256",
@@ -238,6 +202,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "cockpit-ws-311.2-1.el9_4.aarch64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3516ebe5c9c1076df6ff8ba5db5f62352f776a7ddc517b8c4d743e1e841e682a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-311.2-1.el9_4.s390x.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "885ec0fe636b5227e3cabc3a7fcdf5afbea9ba48f719b77d53bba0fee2005dff",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-311.2-1.el9_4.s390x.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f9563ff346fde71cbea487b4252b336de23089435dcf793ece5bfca1182c3750",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-311.2-1.el9_4.s390x.rpm",
 			"name": "cockpit-ws",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
