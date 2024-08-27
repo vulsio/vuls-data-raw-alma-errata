@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "22f8dfd8ec13c10d0c29a9186f4c8b8029347d4f95131d0d4aa3d56b346c4a76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "trousers-lib-0.3.15-1.el8.i686.rpm",
+			"name": "trousers-lib",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "trousers-0.3.15-1.el8.src.rpm",
+			"version": "0.3.15"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2842483c72ada955b37d3d7008765d169683c6c6602a31cad4a7dabfe0d6e4d5",
 			"checksum_type": "sha256",
@@ -17,12 +29,12 @@
 			"version": "0.3.15"
 		},
 		{
-			"arch": "i686",
-			"checksum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
+			"arch": "x86_64",
+			"checksum": "2842483c72ada955b37d3d7008765d169683c6c6602a31cad4a7dabfe0d6e4d5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
-			"name": "trousers-devel",
+			"filename": "trousers-lib-0.3.15-1.el8.x86_64.rpm",
+			"name": "trousers-lib",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "trousers-0.3.15-1.el8.src.rpm",
@@ -54,11 +66,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "22f8dfd8ec13c10d0c29a9186f4c8b8029347d4f95131d0d4aa3d56b346c4a76",
+			"checksum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "trousers-lib-0.3.15-1.el8.i686.rpm",
-			"name": "trousers-lib",
+			"filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
+			"name": "trousers-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "trousers-0.3.15-1.el8.src.rpm",
@@ -139,6 +151,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
+			"id": "ALSA-2021-1627",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2020-24330",
 			"id": "CVE-2020-24330",
 			"type": "cve"
@@ -152,15 +169,10 @@
 			"href": "https://vulners.com/cve/CVE-2020-24332",
 			"id": "CVE-2020-24332",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1627.html",
-			"id": "ALSA-2021-1627",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: trousers security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1678725249
 }
