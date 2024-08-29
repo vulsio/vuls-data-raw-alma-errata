@@ -17,42 +17,6 @@
 			"version": "4.4.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5d4858e844e9f78c2b12b05b4f84b0938f459ac1a973ba2006b92fa9d12dbc90",
-			"checksum_type": "sha256",
-			"epoch": "12",
-			"filename": "dhcp-server-4.4.2-17.b1.el9.x86_64.rpm",
-			"name": "dhcp-server",
-			"reboot_suggested": 0,
-			"release": "17.b1.el9",
-			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
-			"version": "4.4.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "973948bc95ec65670427f57f18ef79a705ddf2c544e54ebc159600efe8d5f30e",
-			"checksum_type": "sha256",
-			"epoch": "12",
-			"filename": "dhcp-client-4.4.2-17.b1.el9.x86_64.rpm",
-			"name": "dhcp-client",
-			"reboot_suggested": 0,
-			"release": "17.b1.el9",
-			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
-			"version": "4.4.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d7879be4e5c5fc59e6cdc019af2fccfc3254ab0718324656101c8996db38feac",
-			"checksum_type": "sha256",
-			"epoch": "12",
-			"filename": "dhcp-relay-4.4.2-17.b1.el9.x86_64.rpm",
-			"name": "dhcp-relay",
-			"reboot_suggested": 0,
-			"release": "17.b1.el9",
-			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
-			"version": "4.4.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "3ddc46eea1d41ad7f9c4d3ade78ddba2e8cc48f748018e53ff36e8e0e65ef86f",
 			"checksum_type": "sha256",
@@ -83,6 +47,42 @@
 			"epoch": "12",
 			"filename": "dhcp-client-4.4.2-17.b1.el9.ppc64le.rpm",
 			"name": "dhcp-client",
+			"reboot_suggested": 0,
+			"release": "17.b1.el9",
+			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
+			"version": "4.4.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "344c8cc72290499715ed8b6c08612374fd7a461725fd006a0165dd830f6b3284",
+			"checksum_type": "sha256",
+			"epoch": "12",
+			"filename": "dhcp-client-4.4.2-17.b1.el9.s390x.rpm",
+			"name": "dhcp-client",
+			"reboot_suggested": 0,
+			"release": "17.b1.el9",
+			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
+			"version": "4.4.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7c85d36e9f86821f718a9c2ee2e195ac2fd03d1e3b1cac42c200ef9941f073e4",
+			"checksum_type": "sha256",
+			"epoch": "12",
+			"filename": "dhcp-relay-4.4.2-17.b1.el9.s390x.rpm",
+			"name": "dhcp-relay",
+			"reboot_suggested": 0,
+			"release": "17.b1.el9",
+			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
+			"version": "4.4.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "aa5cb0354dcb124b7a3739b2d65fa30abce6dade39235919ed9a8bb6e238c28f",
+			"checksum_type": "sha256",
+			"epoch": "12",
+			"filename": "dhcp-server-4.4.2-17.b1.el9.s390x.rpm",
+			"name": "dhcp-server",
 			"reboot_suggested": 0,
 			"release": "17.b1.el9",
 			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
@@ -125,11 +125,23 @@
 			"version": "4.4.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "344c8cc72290499715ed8b6c08612374fd7a461725fd006a0165dd830f6b3284",
+			"arch": "x86_64",
+			"checksum": "5d4858e844e9f78c2b12b05b4f84b0938f459ac1a973ba2006b92fa9d12dbc90",
 			"checksum_type": "sha256",
 			"epoch": "12",
-			"filename": "dhcp-client-4.4.2-17.b1.el9.s390x.rpm",
+			"filename": "dhcp-server-4.4.2-17.b1.el9.x86_64.rpm",
+			"name": "dhcp-server",
+			"reboot_suggested": 0,
+			"release": "17.b1.el9",
+			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
+			"version": "4.4.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "973948bc95ec65670427f57f18ef79a705ddf2c544e54ebc159600efe8d5f30e",
+			"checksum_type": "sha256",
+			"epoch": "12",
+			"filename": "dhcp-client-4.4.2-17.b1.el9.x86_64.rpm",
 			"name": "dhcp-client",
 			"reboot_suggested": 0,
 			"release": "17.b1.el9",
@@ -137,24 +149,12 @@
 			"version": "4.4.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "7c85d36e9f86821f718a9c2ee2e195ac2fd03d1e3b1cac42c200ef9941f073e4",
+			"arch": "x86_64",
+			"checksum": "d7879be4e5c5fc59e6cdc019af2fccfc3254ab0718324656101c8996db38feac",
 			"checksum_type": "sha256",
 			"epoch": "12",
-			"filename": "dhcp-relay-4.4.2-17.b1.el9.s390x.rpm",
+			"filename": "dhcp-relay-4.4.2-17.b1.el9.x86_64.rpm",
 			"name": "dhcp-relay",
-			"reboot_suggested": 0,
-			"release": "17.b1.el9",
-			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
-			"version": "4.4.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "aa5cb0354dcb124b7a3739b2d65fa30abce6dade39235919ed9a8bb6e238c28f",
-			"checksum_type": "sha256",
-			"epoch": "12",
-			"filename": "dhcp-server-4.4.2-17.b1.el9.s390x.rpm",
-			"name": "dhcp-server",
 			"reboot_suggested": 0,
 			"release": "17.b1.el9",
 			"src": "dhcp-4.4.2-17.b1.el9.src.rpm",
@@ -186,5 +186,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dhcp security and enhancement update",
 	"type": "security",
-	"updated_date": 1668720388
+	"updated_date": 1668720386
 }
