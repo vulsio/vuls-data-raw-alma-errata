@@ -29,18 +29,6 @@
 			"version": "1.42.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "25e2f37310d22c20eb8b77404340675ee90a3df6458b9bceca9334625e88460e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "libuv-1.42.0-2.el9_4.aarch64.rpm",
-			"name": "libuv",
-			"reboot_suggested": 0,
-			"release": "2.el9_4",
-			"src": "libuv-1.42.0-2.el9_4.src.rpm",
-			"version": "1.42.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "afcf4a23de576c6f61661e1070cd2398f4856374f7e2abb3ce165662f14d58f8",
 			"checksum_type": "sha256",
@@ -58,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "libuv-1.42.0-2.el9_4.s390x.rpm",
+			"name": "libuv",
+			"reboot_suggested": 0,
+			"release": "2.el9_4",
+			"src": "libuv-1.42.0-2.el9_4.src.rpm",
+			"version": "1.42.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "25e2f37310d22c20eb8b77404340675ee90a3df6458b9bceca9334625e88460e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "libuv-1.42.0-2.el9_4.aarch64.rpm",
 			"name": "libuv",
 			"reboot_suggested": 0,
 			"release": "2.el9_4",
@@ -89,11 +89,11 @@
 			"version": "1.42.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f6b30820f6298311ae7dca875e6b8422b4bd45874b5a4eb7ed5d637321534686",
+			"arch": "s390x",
+			"checksum": "d5736a99625818827faba825d3a6fb42b2caffd50a63731115f9352d67212176",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libuv-devel-1.42.0-2.el9_4.aarch64.rpm",
+			"filename": "libuv-devel-1.42.0-2.el9_4.s390x.rpm",
 			"name": "libuv-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_4",
@@ -113,11 +113,11 @@
 			"version": "1.42.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "d5736a99625818827faba825d3a6fb42b2caffd50a63731115f9352d67212176",
+			"arch": "aarch64",
+			"checksum": "f6b30820f6298311ae7dca875e6b8422b4bd45874b5a4eb7ed5d637321534686",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libuv-devel-1.42.0-2.el9_4.s390x.rpm",
+			"filename": "libuv-devel-1.42.0-2.el9_4.aarch64.rpm",
 			"name": "libuv-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_4",
