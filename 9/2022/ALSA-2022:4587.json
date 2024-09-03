@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "02cb8c114267ccbbbd8f33e4dd66dd6b2949dcf0bcdf68e5272e52047c9bb82a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcs-snmp-0.11.1-10.el9.x86_64.rpm",
-			"name": "pcs-snmp",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "pcs-0.11.1-10.el9.src.rpm",
-			"version": "0.11.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f252670062e70d5c419480e55029c69d67e95559f86843ad572fce650c6200e6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pcs-0.11.1-10.el9.x86_64.rpm",
-			"name": "pcs",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "pcs-0.11.1-10.el9.src.rpm",
-			"version": "0.11.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "7eb26a83cc4cb82be9c22a087619f6af2e2f53e2b78077ff2ae010c768cac13b",
 			"checksum_type": "sha256",
@@ -46,6 +22,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pcs-snmp-0.11.1-10.el9.ppc64le.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "pcs-0.11.1-10.el9.src.rpm",
+			"version": "0.11.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "64c92b686e8706571a7d022594aa1e28018aac36ebdd2c627d266d886c613d80",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.11.1-10.el9.s390x.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "pcs-0.11.1-10.el9.src.rpm",
+			"version": "0.11.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "dd8d9f7d15a6e692d9527db57e188bb603dc28284ed91be7810a4d93b6a282cb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.11.1-10.el9.s390x.rpm",
 			"name": "pcs-snmp",
 			"reboot_suggested": 0,
 			"release": "10.el9",
@@ -77,24 +77,24 @@
 			"version": "0.11.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "64c92b686e8706571a7d022594aa1e28018aac36ebdd2c627d266d886c613d80",
+			"arch": "x86_64",
+			"checksum": "02cb8c114267ccbbbd8f33e4dd66dd6b2949dcf0bcdf68e5272e52047c9bb82a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pcs-0.11.1-10.el9.s390x.rpm",
-			"name": "pcs",
+			"filename": "pcs-snmp-0.11.1-10.el9.x86_64.rpm",
+			"name": "pcs-snmp",
 			"reboot_suggested": 0,
 			"release": "10.el9",
 			"src": "pcs-0.11.1-10.el9.src.rpm",
 			"version": "0.11.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "dd8d9f7d15a6e692d9527db57e188bb603dc28284ed91be7810a4d93b6a282cb",
+			"arch": "x86_64",
+			"checksum": "f252670062e70d5c419480e55029c69d67e95559f86843ad572fce650c6200e6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pcs-snmp-0.11.1-10.el9.s390x.rpm",
-			"name": "pcs-snmp",
+			"filename": "pcs-0.11.1-10.el9.x86_64.rpm",
+			"name": "pcs",
 			"reboot_suggested": 0,
 			"release": "10.el9",
 			"src": "pcs-0.11.1-10.el9.src.rpm",
@@ -126,5 +126,5 @@
 	"severity": "Important",
 	"title": "Important: pcs security update",
 	"type": "security",
-	"updated_date": 1656593465
+	"updated_date": 1656593492
 }
