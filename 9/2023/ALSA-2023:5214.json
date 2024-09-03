@@ -29,11 +29,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "207d7ec91e51db985befa5c399aeb64add4a6c35f7e7fdf8c7e3ba0ee58f6c4b",
+			"arch": "aarch64",
+			"checksum": "1991c321daf18e169ba564b3af379e082b2d58cf244fae4f7f88208cc5c7ab7b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-1.2.0-7.el9_2.ppc64le.rpm",
+			"filename": "libwebp-1.2.0-7.el9_2.aarch64.rpm",
 			"name": "libwebp",
 			"reboot_suggested": 0,
 			"release": "7.el9_2",
@@ -41,11 +41,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ddf8dfe17e1378355465a9a97b9030cb51ae5e2a9b97de4314484cabcb8c04fe",
+			"arch": "aarch64",
+			"checksum": "2572a04e417245c9ca2cffd720e6a4eb9a23113a8ce7d372568cbc57033f76e9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-devel-1.2.0-7.el9_2.ppc64le.rpm",
+			"filename": "libwebp-devel-1.2.0-7.el9_2.aarch64.rpm",
 			"name": "libwebp-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9_2",
@@ -77,6 +77,30 @@
 			"version": "1.2.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "207d7ec91e51db985befa5c399aeb64add4a6c35f7e7fdf8c7e3ba0ee58f6c4b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-1.2.0-7.el9_2.ppc64le.rpm",
+			"name": "libwebp",
+			"reboot_suggested": 0,
+			"release": "7.el9_2",
+			"src": "libwebp-1.2.0-7.el9_2.src.rpm",
+			"version": "1.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ddf8dfe17e1378355465a9a97b9030cb51ae5e2a9b97de4314484cabcb8c04fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libwebp-devel-1.2.0-7.el9_2.ppc64le.rpm",
+			"name": "libwebp-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9_2",
+			"src": "libwebp-1.2.0-7.el9_2.src.rpm",
+			"version": "1.2.0"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "1dab22581c0e263a0f9d32a4b5c5bb2937bf606076797251c90d6ce257a1dd92",
 			"checksum_type": "sha256",
@@ -101,30 +125,6 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "1991c321daf18e169ba564b3af379e082b2d58cf244fae4f7f88208cc5c7ab7b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-1.2.0-7.el9_2.aarch64.rpm",
-			"name": "libwebp",
-			"reboot_suggested": 0,
-			"release": "7.el9_2",
-			"src": "libwebp-1.2.0-7.el9_2.src.rpm",
-			"version": "1.2.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "2572a04e417245c9ca2cffd720e6a4eb9a23113a8ce7d372568cbc57033f76e9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libwebp-devel-1.2.0-7.el9_2.aarch64.rpm",
-			"name": "libwebp-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9_2",
-			"src": "libwebp-1.2.0-7.el9_2.src.rpm",
-			"version": "1.2.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "4dea40da29430bea6d0ff5b7b0494afa0f499e54ae4576842ded8221f4f93fc2",
 			"checksum_type": "sha256",
@@ -137,11 +137,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "f25921176c5b4e071c0e1b4d2c0454ffa99df4735834fed41af3cca993496f76",
+			"arch": "x86_64",
+			"checksum": "6d99785433232a234454bd64d818448193b3df5cd4ce4053ec7fac66283b4419",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-tools-1.2.0-7.el9_2.s390x.rpm",
+			"filename": "libwebp-tools-1.2.0-7.el9_2.x86_64.rpm",
 			"name": "libwebp-tools",
 			"reboot_suggested": 0,
 			"release": "7.el9_2",
@@ -149,11 +149,11 @@
 			"version": "1.2.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "6d99785433232a234454bd64d818448193b3df5cd4ce4053ec7fac66283b4419",
+			"arch": "s390x",
+			"checksum": "f25921176c5b4e071c0e1b4d2c0454ffa99df4735834fed41af3cca993496f76",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libwebp-tools-1.2.0-7.el9_2.x86_64.rpm",
+			"filename": "libwebp-tools-1.2.0-7.el9_2.s390x.rpm",
 			"name": "libwebp-tools",
 			"reboot_suggested": 0,
 			"release": "7.el9_2",

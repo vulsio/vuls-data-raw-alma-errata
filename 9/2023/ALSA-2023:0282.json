@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "b6d991bd123344f97080e50246ca6948827397d73c72f5e6d49ea2de16eb1230",
+			"arch": "aarch64",
+			"checksum": "66b1cafd177faead9e2fb58e03052607e3bc54f21db4fe20182239a5101dd1da",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-python-plugin-1.9.5p2-7.el9_1.1.ppc64le.rpm",
+			"filename": "sudo-python-plugin-1.9.5p2-7.el9_1.1.aarch64.rpm",
 			"name": "sudo-python-plugin",
 			"reboot_suggested": 0,
 			"release": "7.el9_1.1",
@@ -29,6 +29,18 @@
 			"version": "1.9.5p2"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "b6d991bd123344f97080e50246ca6948827397d73c72f5e6d49ea2de16eb1230",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sudo-python-plugin-1.9.5p2-7.el9_1.1.ppc64le.rpm",
+			"name": "sudo-python-plugin",
+			"reboot_suggested": 0,
+			"release": "7.el9_1.1",
+			"src": "sudo-1.9.5p2-7.el9_1.1.src.rpm",
+			"version": "1.9.5p2"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "0793688b10af2e04bc77e9778829e66fc8b778eaad5c73cb5ca89f72209b0333",
 			"checksum_type": "sha256",
@@ -41,12 +53,12 @@
 			"version": "1.9.5p2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "66b1cafd177faead9e2fb58e03052607e3bc54f21db4fe20182239a5101dd1da",
+			"arch": "ppc64le",
+			"checksum": "dcff805d1da58c2737bb49f6d5872daee4fa3781bd6820abdbc1d1b46f4615c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-python-plugin-1.9.5p2-7.el9_1.1.aarch64.rpm",
-			"name": "sudo-python-plugin",
+			"filename": "sudo-1.9.5p2-7.el9_1.1.ppc64le.rpm",
+			"name": "sudo",
 			"reboot_suggested": 0,
 			"release": "7.el9_1.1",
 			"src": "sudo-1.9.5p2-7.el9_1.1.src.rpm",
@@ -58,18 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "sudo-1.9.5p2-7.el9_1.1.x86_64.rpm",
-			"name": "sudo",
-			"reboot_suggested": 0,
-			"release": "7.el9_1.1",
-			"src": "sudo-1.9.5p2-7.el9_1.1.src.rpm",
-			"version": "1.9.5p2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "dcff805d1da58c2737bb49f6d5872daee4fa3781bd6820abdbc1d1b46f4615c8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sudo-1.9.5p2-7.el9_1.1.ppc64le.rpm",
 			"name": "sudo",
 			"reboot_suggested": 0,
 			"release": "7.el9_1.1",

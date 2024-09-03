@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "24580ceb7feb389755000b041c5bfdeca91375ddfd51b5e8a48d917ab5c21c94",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libksba-1.5.1-5.el9_0.ppc64le.rpm",
+			"name": "libksba",
+			"reboot_suggested": 0,
+			"release": "5.el9_0",
+			"src": "libksba-1.5.1-5.el9_0.src.rpm",
+			"version": "1.5.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "fcb9a502ecd923f101b7a909a5d5d55f36974c16e861620f11c73d1ad2f0782c",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libksba-1.5.1-5.el9_0.x86_64.rpm",
-			"name": "libksba",
-			"reboot_suggested": 0,
-			"release": "5.el9_0",
-			"src": "libksba-1.5.1-5.el9_0.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "24580ceb7feb389755000b041c5bfdeca91375ddfd51b5e8a48d917ab5c21c94",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libksba-1.5.1-5.el9_0.ppc64le.rpm",
 			"name": "libksba",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",
@@ -89,11 +89,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "5d31961559861193512120df2f84f442d611fc9737c39d3b1e6f4cd6cd607834",
+			"arch": "x86_64",
+			"checksum": "a0062ca0363fde88f0ad08e33ad89b3d3bbf83ec161a27b400bff9e446f981c1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-5.el9_0.s390x.rpm",
+			"filename": "libksba-devel-1.5.1-5.el9_0.x86_64.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",
@@ -101,11 +101,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a0062ca0363fde88f0ad08e33ad89b3d3bbf83ec161a27b400bff9e446f981c1",
+			"arch": "s390x",
+			"checksum": "5d31961559861193512120df2f84f442d611fc9737c39d3b1e6f4cd6cd607834",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-5.el9_0.x86_64.rpm",
+			"filename": "libksba-devel-1.5.1-5.el9_0.s390x.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9_0",
