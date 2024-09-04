@@ -53,42 +53,6 @@
 			"version": "1.12.8"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2cc9bb7c4e3bf92a16f513212ead6363e4ef8d495777d761495d4ab8a7076a3d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-session-helper-1.12.8-1.el9.aarch64.rpm",
-			"name": "flatpak-session-helper",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "flatpak-1.12.8-1.el9.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3fdece9dc1ffdab84a18d58625a314de9d16559d6a9482a8f94e4633b499f96a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-libs-1.12.8-1.el9.aarch64.rpm",
-			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "flatpak-1.12.8-1.el9.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "d5ebd85cdd5c24bc2941f967abee3183308035ab8c37accd3776ef681575db68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-1.12.8-1.el9.aarch64.rpm",
-			"name": "flatpak",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "flatpak-1.12.8-1.el9.src.rpm",
-			"version": "1.12.8"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0939deb625ad04aaf064a58025908b5e1d7a15e5a4b8a28f5c068b453b613d3d",
 			"checksum_type": "sha256",
@@ -119,6 +83,42 @@
 			"epoch": "0",
 			"filename": "flatpak-session-helper-1.12.8-1.el9.x86_64.rpm",
 			"name": "flatpak-session-helper",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "flatpak-1.12.8-1.el9.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2cc9bb7c4e3bf92a16f513212ead6363e4ef8d495777d761495d4ab8a7076a3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-session-helper-1.12.8-1.el9.aarch64.rpm",
+			"name": "flatpak-session-helper",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "flatpak-1.12.8-1.el9.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3fdece9dc1ffdab84a18d58625a314de9d16559d6a9482a8f94e4633b499f96a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-libs-1.12.8-1.el9.aarch64.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "flatpak-1.12.8-1.el9.src.rpm",
+			"version": "1.12.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d5ebd85cdd5c24bc2941f967abee3183308035ab8c37accd3776ef681575db68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-1.12.8-1.el9.aarch64.rpm",
+			"name": "flatpak",
 			"reboot_suggested": 0,
 			"release": "1.el9",
 			"src": "flatpak-1.12.8-1.el9.src.rpm",
@@ -197,6 +197,18 @@
 			"version": "1.12.8"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "0a0112a64512a88bd3bfbb3485a64b4d30b706932feb0809dd03141f3b2b5fad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-devel-1.12.8-1.el9.ppc64le.rpm",
+			"name": "flatpak-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "flatpak-1.12.8-1.el9.src.rpm",
+			"version": "1.12.8"
+		},
+		{
 			"arch": "i686",
 			"checksum": "1a2eeaafe68b54a811748d633320d2779ac69be3426ed22d1fcec1f89880b03e",
 			"checksum_type": "sha256",
@@ -221,11 +233,11 @@
 			"version": "1.12.8"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0a0112a64512a88bd3bfbb3485a64b4d30b706932feb0809dd03141f3b2b5fad",
+			"arch": "aarch64",
+			"checksum": "52eaf143b3e493f2eef36591d3fdcdb81af63550b881b291dfeaa5578bc611a3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.8-1.el9.ppc64le.rpm",
+			"filename": "flatpak-devel-1.12.8-1.el9.aarch64.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -238,18 +250,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "flatpak-devel-1.12.8-1.el9.s390x.rpm",
-			"name": "flatpak-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "flatpak-1.12.8-1.el9.src.rpm",
-			"version": "1.12.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "52eaf143b3e493f2eef36591d3fdcdb81af63550b881b291dfeaa5578bc611a3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-devel-1.12.8-1.el9.aarch64.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
