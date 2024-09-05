@@ -1,0 +1,164 @@
+{
+	"description": "The resource-agents packages provide the Pacemaker and RGManager service managers with a set of scripts. These scripts interface with several services to allow operating in a high-availability (HA) environment.\n\nSecurity Fix(es):\n\n* urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n* pypa/setuptools: Remote code execution via download functions in the package_index module in pypa/setuptools (CVE-2024-6345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:6311",
+	"issued_date": 1725408000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "05d5ec4f428e08db525091893310125a063e503668ec7bc82369318bd5c4daa0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-4.9.0-54.el8_10.4.x86_64.rpm",
+			"name": "resource-agents",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "29655096b8525963863acf7fd39753c4875b0b666845d49812160f0e73df76c6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-aliyun-4.9.0-54.el8_10.4.x86_64.rpm",
+			"name": "resource-agents-aliyun",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "64b7cda763f34cf36eabafd2055129658bc5fe6791c89021b0fff6eb9346b44e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-paf-4.9.0-54.el8_10.4.x86_64.rpm",
+			"name": "resource-agents-paf",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "815fce3f7ba6d68cf25542c9144b9ec95c9e27d0c1288cd3aa27782096633e69",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-gcp-4.9.0-54.el8_10.4.x86_64.rpm",
+			"name": "resource-agents-gcp",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "915f45b4bf66ed762e5a3d96b0dc2154e1789a72d4ab9009efd9c14765fc5984",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-4.9.0-54.el8_10.4.aarch64.rpm",
+			"name": "resource-agents",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a409a0e96d063081226e31b0d5211e05267c6775b97ca81aff683e2d9c5a678d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-paf-4.9.0-54.el8_10.4.aarch64.rpm",
+			"name": "resource-agents-paf",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "1c32528c2e70a229dc512107b9b6c8f53b90477154bdcceb1d88d6324972d2c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-4.9.0-54.el8_10.4.ppc64le.rpm",
+			"name": "resource-agents",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "34a7ee7d7b1113a1fe69d52a68b9b90bde40968efdbe482ac094ca7fd48a1940",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-paf-4.9.0-54.el8_10.4.ppc64le.rpm",
+			"name": "resource-agents-paf",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "49968c46d225ff231eb9d118bc88fa52f68e463b87e54960c4dafcf849278e4d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-4.9.0-54.el8_10.4.s390x.rpm",
+			"name": "resource-agents",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "70184f5bbb27787d22c0ebf2b099169b56b1f712badb4ca877d700ee96cb1c14",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "resource-agents-paf-4.9.0-54.el8_10.4.s390x.rpm",
+			"name": "resource-agents-paf",
+			"reboot_suggested": 0,
+			"release": "54.el8_10.4",
+			"src": "resource-agents-4.9.0-54.el8_10.4.src.rpm",
+			"version": "4.9.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:6311",
+			"id": "RHSA-2024:6311",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-37891",
+			"id": "CVE-2024-37891",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6345",
+			"id": "CVE-2024-6345",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292788",
+			"id": "2292788",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2297771",
+			"id": "2297771",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-6311.html",
+			"id": "ALSA-2024:6311",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: resource-agents security update",
+	"type": "security",
+	"updated_date": 1725517743
+}
