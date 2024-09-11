@@ -1,0 +1,343 @@
+{
+	"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: Malformed userPassword hash may cause Denial of Service (CVE-2024-5953)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:6569",
+	"issued_date": 1726012800,
+	"modules": [
+		{
+			"arch": "i686",
+			"context": "17499975",
+			"name": "389-ds",
+			"stream": "1.4",
+			"version": "8100020240911061138"
+		},
+		{
+			"arch": "x86_64",
+			"context": "17499975",
+			"name": "389-ds",
+			"stream": "1.4",
+			"version": "8100020240911061138"
+		},
+		{
+			"arch": "aarch64",
+			"context": "17499975",
+			"name": "389-ds",
+			"stream": "1.4",
+			"version": "8100020240911061138"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "17499975",
+			"name": "389-ds",
+			"stream": "1.4",
+			"version": "8100020240911061138"
+		},
+		{
+			"arch": "s390x",
+			"context": "17499975",
+			"name": "389-ds",
+			"stream": "1.4",
+			"version": "8100020240911061138"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "c881262873431a0b95ad861ec4d6f1c52d341d78c8821fe687aaa7c3d9e9831a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-lib389-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.noarch.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:i686",
+			"name": "python3-lib389",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2ff9907bdce6162409a2651c39c8c3411148422264f63c93398e3db3936cf076",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.x86_64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:x86_64",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "59105fc6fa3caec18bb865339f7d7009a43ac8080c92a1141a8314a94423c3cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.x86_64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:x86_64",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "84dcca55802b140a1064a60ffb89cdf3d4f70a7d90fd7352413a491cd55d6a07",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-legacy-tools-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.x86_64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:x86_64",
+			"name": "389-ds-base-legacy-tools",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cfdc82840d025a012bd9b2413cea11ed0ce85f3db89f6ba70005bd3ac078f6d0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-snmp-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.x86_64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:x86_64",
+			"name": "389-ds-base-snmp",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f691b8d0f38b52da89b904ccd86855c22af1fbea311a2ee998c1355c05ac4d6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.x86_64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:x86_64",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "03053adeb804ac38c642dd7d9f708146bb2295f542fd045b3ab983a7bd06bb23",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-legacy-tools-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.aarch64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:aarch64",
+			"name": "389-ds-base-legacy-tools",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2ca377be31e18733e4a62b22eeeb32f7dbff5a849c9bf9ad00780ffa2a7df1bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.aarch64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:aarch64",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "63b55af54d638d509e7e63fcca4f83adef81446a7cf0a77697a898e7889fecb5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.aarch64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:aarch64",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f2bcd05ce61780134c6a926381bfe3973c34ac4a122622f0bf9b78e409c16cc7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.aarch64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:aarch64",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f2f0edc41caa6d6c3749473b91f4041542f6d563a66d0004fd8485b0c59ab274",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-snmp-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.aarch64.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:aarch64",
+			"name": "389-ds-base-snmp",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3d7629ff4053872f982f1dcc45ec68723ebd69116d6ff801b82915ced9a01ca2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.ppc64le.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:ppc64le",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "53812f6a305d359d456d4787ab6b2f0a914c5c1a353d2f27ff4b040e5a93ff75",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.ppc64le.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:ppc64le",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "751af5b0ffdfabf6774105be13c9bd42dbfe75e409e2f94ecc50a6da813b3810",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.ppc64le.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:ppc64le",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b9c2ad89effa28dd9cd6044e138e1b12e4d0124b89b0842524b1081ef7cb473b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-snmp-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.ppc64le.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:ppc64le",
+			"name": "389-ds-base-snmp",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c37ad174f12ad278fe7c3c303ece6868e3b8a6bf419bf215a5ac3ecb03aef59a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-legacy-tools-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.ppc64le.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:ppc64le",
+			"name": "389-ds-base-legacy-tools",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "1f20d14026e7c4034c4f71494c74543145e1a521e2fb9369732abd5e245211ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.s390x.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:s390x",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3f6821bbab4bbe7a5d592f3a75f9f45dd29de1fe70705be3a9de461d9c2b489b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-snmp-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.s390x.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:s390x",
+			"name": "389-ds-base-snmp",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4fc4b927afbbb148f2e193d99a11a6b99e0a964eaabfa17c682c27c8c513ba6b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-devel-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.s390x.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:s390x",
+			"name": "389-ds-base-devel",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d8149ab68a8000c5c2b957d191099ed956137b4283bc8690c6e216fb8c87cb22",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.s390x.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:s390x",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f2f0e8dae1e527b01940b2e25586bf3756282d5c044c6f74e80b6130e8e6f8a5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-legacy-tools-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.s390x.rpm",
+			"module": "389-ds:1.4:8100020240911061138:17499975:s390x",
+			"name": "389-ds-base-legacy-tools",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.10.0+3891+cbd883bf",
+			"src": "389-ds-base-1.4.3.39-8.module_el8.10.0+3891+cbd883bf.src.rpm",
+			"version": "1.4.3.39"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:6569",
+			"id": "RHSA-2024:6569",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-5953",
+			"id": "CVE-2024-5953",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292104",
+			"id": "2292104",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-6569.html",
+			"id": "ALSA-2024:6569",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: 389-ds:1.4 security update",
+	"type": "security",
+	"updated_date": 1726048215
+}

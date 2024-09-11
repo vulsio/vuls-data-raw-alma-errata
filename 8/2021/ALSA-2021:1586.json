@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gamin-0.1.10-32.el8.aarch64.rpm",
+			"name": "gamin",
+			"reboot_suggested": 0,
+			"release": "32.el8",
+			"src": "gamin-0.1.10-32.el8.src.rpm",
+			"version": "0.1.10"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "030ed5e6f89fa0683e4213320fd540d451b751fc11427c1142ce3ffdd891ea50",
 			"checksum_type": "sha256",
@@ -1902,18 +1914,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gamin-0.1.10-32.el8.aarch64.rpm",
-			"name": "gamin",
-			"reboot_suggested": 0,
-			"release": "32.el8",
-			"src": "gamin-0.1.10-32.el8.src.rpm",
-			"version": "0.1.10"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "07e5b85592ad3504edfa3e7c672ad6ada21e146bd46a97bb62674c005ef2683a",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -3211,6 +3211,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1586.html",
+			"id": "ALSA-2021-1586",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2019-13012",
 			"id": "CVE-2019-13012",
 			"type": "cve"
@@ -3226,6 +3231,11 @@
 			"type": "cve"
 		},
 		{
+			"href": "https://vulners.com/cve/CVE-2020-16125",
+			"id": "CVE-2020-16125",
+			"type": "cve"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2020-9948",
 			"id": "CVE-2020-9948",
 			"type": "cve"
@@ -3238,11 +3248,6 @@
 		{
 			"href": "https://vulners.com/cve/CVE-2020-9983",
 			"id": "CVE-2020-9983",
-			"type": "cve"
-		},
-		{
-			"href": "https://vulners.com/cve/CVE-2020-16125",
-			"id": "CVE-2020-16125",
 			"type": "cve"
 		},
 		{
@@ -3269,15 +3274,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-30661",
 			"id": "CVE-2021-30661",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1586.html",
-			"id": "ALSA-2021-1586",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1621316107
 }

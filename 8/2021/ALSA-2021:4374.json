@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "69bf90a1c2d9f6ffd18be854fbb1c7ffc752109d3c74f31fd2006179ef1a7dd5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-devel-5.33-20.el8.aarch64.rpm",
+			"name": "file-devel",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "file-5.33-20.el8.src.rpm",
+			"version": "5.33"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7edc703ad5702df36cb92bc01ab139d6436d869e843d23cdfb0001b7f6a5fbd3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-5.33-20.el8.aarch64.rpm",
+			"name": "file",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "file-5.33-20.el8.src.rpm",
+			"version": "5.33"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a1f8013dde5ce1bff68a804a1bd7c7f85b7ef3848d3b9621945c1b026c19957f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-magic-5.33-20.el8.noarch.rpm",
+			"name": "python3-magic",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "file-5.33-20.el8.src.rpm",
+			"version": "5.33"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b4c16671a545a9f066105acd1065c7434618de9fdafeb2601fc480365c7f8760",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "file-libs-5.33-20.el8.aarch64.rpm",
+			"name": "file-libs",
+			"reboot_suggested": 0,
+			"release": "20.el8",
+			"src": "file-5.33-20.el8.src.rpm",
+			"version": "5.33"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2f2852bfec86004e4d869d049940e3158468a63c5cb194d05d4f0719dceed37d",
 			"checksum_type": "sha256",
@@ -53,54 +101,6 @@
 			"version": "5.33"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "a1f8013dde5ce1bff68a804a1bd7c7f85b7ef3848d3b9621945c1b026c19957f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-magic-5.33-20.el8.noarch.rpm",
-			"name": "python3-magic",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "file-5.33-20.el8.src.rpm",
-			"version": "5.33"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "69bf90a1c2d9f6ffd18be854fbb1c7ffc752109d3c74f31fd2006179ef1a7dd5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-devel-5.33-20.el8.aarch64.rpm",
-			"name": "file-devel",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "file-5.33-20.el8.src.rpm",
-			"version": "5.33"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7edc703ad5702df36cb92bc01ab139d6436d869e843d23cdfb0001b7f6a5fbd3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-5.33-20.el8.aarch64.rpm",
-			"name": "file",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "file-5.33-20.el8.src.rpm",
-			"version": "5.33"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b4c16671a545a9f066105acd1065c7434618de9fdafeb2601fc480365c7f8760",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "file-libs-5.33-20.el8.aarch64.rpm",
-			"name": "file-libs",
-			"reboot_suggested": 0,
-			"release": "20.el8",
-			"src": "file-5.33-20.el8.src.rpm",
-			"version": "5.33"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "ebcd4e164aa192d0b1a2861f9533838cd1bf6c8f2a1e23fa181a5dc29efdfc7a",
 			"checksum_type": "sha256",
@@ -139,18 +139,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2019-18218",
-			"id": "CVE-2019-18218",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-4374.html",
 			"id": "ALSA-2021-4374",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2019-18218",
+			"id": "CVE-2019-18218",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: file security update",
 	"type": "security",
-	"updated_date": 1636712461
+	"updated_date": 1636463342
 }
