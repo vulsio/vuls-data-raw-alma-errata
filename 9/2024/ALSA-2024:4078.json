@@ -101,18 +101,6 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "i686",
-			"checksum": "85f9533f727c09bfc99a5c26ae8087aed15452ba25391ffbabb0ec0c36ce43f1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.9.18-3.el9_4.1.i686.rpm",
-			"name": "python3-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "11965f8a3feb9aae464a52b2bffb31e4f7cbcd5ecba8dda50f1dc1d2b6c785dd",
 			"checksum_type": "sha256",
@@ -155,6 +143,18 @@
 			"epoch": "0",
 			"filename": "python3-3.9.18-3.el9_4.1.x86_64.rpm",
 			"name": "python3",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
+			"arch": "i686",
+			"checksum": "85f9533f727c09bfc99a5c26ae8087aed15452ba25391ffbabb0ec0c36ce43f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libs-3.9.18-3.el9_4.1.i686.rpm",
+			"name": "python3-libs",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
 			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
@@ -245,18 +245,6 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "746c1899df85315aff422344d05c6e00a209e460a147f7095f99c452c2d94ff1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.18-3.el9_4.1.x86_64.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
 			"arch": "i686",
 			"checksum": "a08510f6caa3be3f3088384eb16e5a0e135fe2778277196107ce0eef617f226b",
 			"checksum_type": "sha256",
@@ -281,36 +269,12 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d2dc41880589f9ee20b090e8b2f0b7a5298545bf2a1e1b6399dd37dcd5699160",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-debug-3.9.18-3.el9_4.1.x86_64.rpm",
-			"name": "python3-debug",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
 			"arch": "i686",
 			"checksum": "dc5c951ca40e9a4d47fcce7780765951ef1011cafdae5416859cc800af566bee",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-3.9.18-3.el9_4.1.i686.rpm",
 			"name": "python3",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "eaa0184fc895ecd56805adc4acb7a7474b22d50d8e5d65866f616295450b40fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-idle-3.9.18-3.el9_4.1.x86_64.rpm",
-			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
 			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
@@ -430,6 +394,42 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-idle-3.9.18-3.el9_4.1.s390x.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "746c1899df85315aff422344d05c6e00a209e460a147f7095f99c452c2d94ff1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.9.18-3.el9_4.1.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d2dc41880589f9ee20b090e8b2f0b7a5298545bf2a1e1b6399dd37dcd5699160",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-debug-3.9.18-3.el9_4.1.x86_64.rpm",
+			"name": "python3-debug",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "eaa0184fc895ecd56805adc4acb7a7474b22d50d8e5d65866f616295450b40fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idle-3.9.18-3.el9_4.1.x86_64.rpm",
 			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",

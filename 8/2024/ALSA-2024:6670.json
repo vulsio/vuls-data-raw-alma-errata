@@ -1,0 +1,150 @@
+{
+	"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* rexml: rubygem-rexml: DoS when parsing an XML having many specific characters such as whitespace character, >] and ]> (CVE-2024-41123)\n* rexml: DoS vulnerability in REXML (CVE-2024-41946)\n* rexml: DoS vulnerability in REXML (CVE-2024-43398)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:6670",
+	"issued_date": 1726444800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "3e8f2ca52c0c9e6f51be560716be6258af694e07b60dc6c3a39bbb9e22733e7a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.2.alma.1.x86_64.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4b643e9d11067532ebaacfc644fc817b047cf56e475a6567853ee0a0e01fbfa2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.2.alma.1.x86_64.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "11d449632833ec458b0008750fc86af6194bb470840613b02ca71a28ff3fb2db",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.2.alma.1.aarch64.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d0fca1f05c1467b82f47961db9b3a20dfd241e5984ce4664bcf7bf80f763b736",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.2.alma.1.aarch64.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "809e28de8ff4d0f65b078f3f6a498e763e839f2de622f0d19ce7c2f06d0f9a5a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.2.alma.1.ppc64le.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b64505280f0c25eaae72f5fc5b041ffea6b9a1684f509be9b09136f8eeacd6b9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.2.alma.1.ppc64le.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3553dc9ff9afd24ad8c65fa1d08f5a7045cac3457b9ddc940630f6a49265cf21",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-snmp-0.10.18-2.el8_10.2.alma.1.s390x.rpm",
+			"name": "pcs-snmp",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3818d8479e92065a8691d0cfb127ba968da1704b2242f594f1949b1e34a72da3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pcs-0.10.18-2.el8_10.2.alma.1.s390x.rpm",
+			"name": "pcs",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.2.alma.1",
+			"src": "pcs-0.10.18-2.el8_10.2.alma.1.src.rpm",
+			"version": "0.10.18"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:6670",
+			"id": "RHSA-2024:6670",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-41123",
+			"id": "CVE-2024-41123",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-41946",
+			"id": "CVE-2024-41946",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-43398",
+			"id": "CVE-2024-43398",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2302268",
+			"id": "2302268",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2302272",
+			"id": "2302272",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2307297",
+			"id": "2307297",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-6670.html",
+			"id": "ALSA-2024:6670",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: pcs security update",
+	"type": "security",
+	"updated_date": 1726567184
+}

@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "57cfad19dce5c48dea33949eae17c2bb645475522d02061e4abbd80df98f43aa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "procps-ng-3.3.17-13.el9.x86_64.rpm",
+			"name": "procps-ng",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "procps-ng-3.3.17-13.el9.src.rpm",
+			"version": "3.3.17"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "592e2cdb77f70527fad67f55c9d6ffa97d95c28e78af0afe278c7245becfdb73",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "procps-ng-3.3.17-13.el9.i686.rpm",
-			"name": "procps-ng",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "procps-ng-3.3.17-13.el9.src.rpm",
-			"version": "3.3.17"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "57cfad19dce5c48dea33949eae17c2bb645475522d02061e4abbd80df98f43aa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "procps-ng-3.3.17-13.el9.x86_64.rpm",
 			"name": "procps-ng",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -71,18 +71,6 @@
 			"epoch": "0",
 			"filename": "procps-ng-3.3.17-13.el9.s390x.rpm",
 			"name": "procps-ng",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "procps-ng-3.3.17-13.el9.src.rpm",
-			"version": "3.3.17"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1bd4e08a3c4e81964e8c77affc770ed38a43ac6115e54d5686edcc507cb14136",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "procps-ng-devel-3.3.17-13.el9.x86_64.rpm",
-			"name": "procps-ng-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "procps-ng-3.3.17-13.el9.src.rpm",
@@ -135,6 +123,18 @@
 			"release": "13.el9",
 			"src": "procps-ng-3.3.17-13.el9.src.rpm",
 			"version": "3.3.17"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1bd4e08a3c4e81964e8c77affc770ed38a43ac6115e54d5686edcc507cb14136",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "procps-ng-devel-3.3.17-13.el9.x86_64.rpm",
+			"name": "procps-ng-devel",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "procps-ng-3.3.17-13.el9.src.rpm",
+			"version": "3.3.17"
 		}
 	],
 	"references": [
@@ -162,5 +162,5 @@
 	"severity": "Low",
 	"title": "Low: procps-ng security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963854
+	"updated_date": 1699963866
 }

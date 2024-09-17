@@ -197,18 +197,6 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "b135c414b00bd0e1996b535e19247e464b2e8a688b699a363c0215ae00b05ad1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-abi-stablelists-5.14.0-162.23.1.el9_1.noarch.rpm",
-			"name": "kernel-abi-stablelists",
-			"reboot_suggested": 0,
-			"release": "162.23.1.el9_1",
-			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
-			"version": "5.14.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "3a3d9baaf0affe4f67bb6265d2811b9b5561bbc1d280ecf83e8132af721e5e23",
 			"checksum_type": "sha256",
@@ -407,6 +395,18 @@
 			"epoch": "0",
 			"filename": "kernel-tools-5.14.0-162.23.1.el9_1.x86_64.rpm",
 			"name": "kernel-tools",
+			"reboot_suggested": 0,
+			"release": "162.23.1.el9_1",
+			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b135c414b00bd0e1996b535e19247e464b2e8a688b699a363c0215ae00b05ad1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-5.14.0-162.23.1.el9_1.noarch.rpm",
+			"name": "kernel-abi-stablelists",
 			"reboot_suggested": 0,
 			"release": "162.23.1.el9_1",
 			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
@@ -905,30 +905,6 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a52a08603ce037460fb11caf8263d28dd7a6991184cffb0324fbbb2be9777332",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-162.23.1.el9_1.x86_64.rpm",
-			"name": "kernel-cross-headers",
-			"reboot_suggested": 0,
-			"release": "162.23.1.el9_1",
-			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c012a19a756eddb9cd2ec20ca653cb0e20cd3e85b8475fca5c1624a09017ad3e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-162.23.1.el9_1.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "162.23.1.el9_1",
-			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
-			"version": "5.14.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "43df2455bbcda04b4a018621db0c7cb2342ff559f723a26599c8793c73009693",
 			"checksum_type": "sha256",
@@ -983,6 +959,30 @@
 			"epoch": "0",
 			"filename": "kernel-cross-headers-5.14.0-162.23.1.el9_1.s390x.rpm",
 			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "162.23.1.el9_1",
+			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a52a08603ce037460fb11caf8263d28dd7a6991184cffb0324fbbb2be9777332",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-5.14.0-162.23.1.el9_1.x86_64.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "162.23.1.el9_1",
+			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c012a19a756eddb9cd2ec20ca653cb0e20cd3e85b8475fca5c1624a09017ad3e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-5.14.0-162.23.1.el9_1.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "162.23.1.el9_1",
 			"src": "kernel-5.14.0-162.23.1.el9_1.src.rpm",
