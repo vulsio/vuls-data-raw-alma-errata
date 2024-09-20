@@ -233,18 +233,6 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0cd8f6f6a63fe2534cf32a5d44fd714a90091b750fc13e117d3d0ca86e829c37",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
-			"name": "fence-agents-all",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.4.alma.1",
-			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "11ec59f1b9f57f1867d6dab483267e9c53a2d6eea6ac72f0d92a5abd510e7a22",
 			"checksum_type": "sha256",
@@ -449,18 +437,6 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6045d8fcd8902ebb2f6d877ff467d8f5151ed4f2be15cf64a29c7a3983716771",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
-			"name": "fence-agents-redfish",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.4.alma.1",
-			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "70a82a4578c4fc11070952dd4139527e5dd142a1c1846bc2de37d32992138670",
 			"checksum_type": "sha256",
@@ -503,18 +479,6 @@
 			"epoch": "0",
 			"filename": "fence-agents-bladecenter-4.10.0-62.el9_4.4.alma.1.noarch.rpm",
 			"name": "fence-agents-bladecenter",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.4.alma.1",
-			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a0d82bfa06e857e0d93b6d6675e994cd0a2fa25ab89934058152093c9413a556",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
-			"name": "fence-agents-kdump",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.4.alma.1",
 			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
@@ -629,6 +593,54 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "4f2ec2d4935f2fe83af3b561326ae6b7f9aac724b8285a9cff6e9f230f370f56",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-openstack-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"name": "fence-agents-openstack",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.4.alma.1",
+			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "550b0885a4541f886bd42c36abd727249d030e20d17931f7cf620b232e661c9d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kdump-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"name": "fence-agents-kdump",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.4.alma.1",
+			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e655a4a16169912865d9eb126255c11a8b574f0547e4d964c727f130e33fed60",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-all-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"name": "fence-agents-all",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.4.alma.1",
+			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ee4822e9a049ef565b1ba05544ac592dad369a648d9a60291170cbd1122fb886",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-redfish-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"name": "fence-agents-redfish",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.4.alma.1",
+			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "3657e3b76988034c6eda16a96ac821b4d23040eae8bb7561469d5842313f23f6",
 			"checksum_type": "sha256",
@@ -677,35 +689,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "4f2ec2d4935f2fe83af3b561326ae6b7f9aac724b8285a9cff6e9f230f370f56",
+			"arch": "aarch64",
+			"checksum": "0cd8f6f6a63fe2534cf32a5d44fd714a90091b750fc13e117d3d0ca86e829c37",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-openstack-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
-			"name": "fence-agents-openstack",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.4.alma.1",
-			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "550b0885a4541f886bd42c36abd727249d030e20d17931f7cf620b232e661c9d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
-			"name": "fence-agents-kdump",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.4.alma.1",
-			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e655a4a16169912865d9eb126255c11a8b574f0547e4d964c727f130e33fed60",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"filename": "fence-agents-all-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
 			"name": "fence-agents-all",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.4.alma.1",
@@ -713,12 +701,24 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ee4822e9a049ef565b1ba05544ac592dad369a648d9a60291170cbd1122fb886",
+			"arch": "aarch64",
+			"checksum": "6045d8fcd8902ebb2f6d877ff467d8f5151ed4f2be15cf64a29c7a3983716771",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9_4.4.alma.1.ppc64le.rpm",
+			"filename": "fence-agents-redfish-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
 			"name": "fence-agents-redfish",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.4.alma.1",
+			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a0d82bfa06e857e0d93b6d6675e994cd0a2fa25ab89934058152093c9413a556",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kdump-4.10.0-62.el9_4.4.alma.1.aarch64.rpm",
+			"name": "fence-agents-kdump",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.4.alma.1",
 			"src": "fence-agents-4.10.0-62.el9_4.4.alma.1.src.rpm",

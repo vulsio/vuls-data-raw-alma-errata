@@ -5,11 +5,35 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "1789e641e14ee0b42ba8ae2d95b932b91e0a0c8619401e84364468d5f4cc74af",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-devel-2.2.5-11.el8_9.1.x86_64.rpm",
+			"name": "expat-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.1",
+			"src": "expat-2.2.5-11.el8_9.1.src.rpm",
+			"version": "2.2.5"
+		},
+		{
 			"arch": "i686",
 			"checksum": "bbad7a37f5d7a4c39b1ca0427ffbd4afcec33a2a1db294ef398689c6fb0ece9f",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "expat-2.2.5-11.el8_9.1.i686.rpm",
+			"name": "expat",
+			"reboot_suggested": 0,
+			"release": "11.el8_9.1",
+			"src": "expat-2.2.5-11.el8_9.1.src.rpm",
+			"version": "2.2.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "bc0afaef27d63fb09ef0070ce5cc55c0ffcad2721e73b504a1e328b92dbb865b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-2.2.5-11.el8_9.1.x86_64.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "11.el8_9.1",
@@ -46,30 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "expat-2.2.5-11.el8_9.1.aarch64.rpm",
-			"name": "expat",
-			"reboot_suggested": 0,
-			"release": "11.el8_9.1",
-			"src": "expat-2.2.5-11.el8_9.1.src.rpm",
-			"version": "2.2.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1789e641e14ee0b42ba8ae2d95b932b91e0a0c8619401e84364468d5f4cc74af",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-devel-2.2.5-11.el8_9.1.x86_64.rpm",
-			"name": "expat-devel",
-			"reboot_suggested": 0,
-			"release": "11.el8_9.1",
-			"src": "expat-2.2.5-11.el8_9.1.src.rpm",
-			"version": "2.2.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "bc0afaef27d63fb09ef0070ce5cc55c0ffcad2721e73b504a1e328b92dbb865b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-2.2.5-11.el8_9.1.x86_64.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "11.el8_9.1",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: expat security update",
 	"type": "security",
-	"updated_date": 1712134283
+	"updated_date": 1712134284
 }

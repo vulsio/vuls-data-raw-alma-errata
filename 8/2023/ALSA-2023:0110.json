@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "4d4b91c2599d5cfad5f97682fb5b80fd83b3ce6133ee8a99eacdcf6855c761b2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-devel-3.26.0-17.el8_7.x86_64.rpm",
+			"name": "sqlite-devel",
+			"reboot_suggested": 0,
+			"release": "17.el8_7",
+			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
+			"version": "3.26.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "6ad2c6c7510a71cdb8bfe00ea193245926203323a2ec60f9e555f55f99b456d8",
 			"checksum_type": "sha256",
@@ -53,6 +65,30 @@
 			"version": "3.26.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "c2639e71f7ae33c839b4efa895ed4bc2cca1757e53ddad4183eb4c5f20b453f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-libs-3.26.0-17.el8_7.x86_64.rpm",
+			"name": "sqlite-libs",
+			"reboot_suggested": 0,
+			"release": "17.el8_7",
+			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
+			"version": "3.26.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f654e4baf3ff6a5e73e3293028d3064061a4e87b47388405a87adc48df2d0e43",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sqlite-3.26.0-17.el8_7.x86_64.rpm",
+			"name": "sqlite",
+			"reboot_suggested": 0,
+			"release": "17.el8_7",
+			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
+			"version": "3.26.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "3d202c060a727aabba2ffc2943256773271df4c2abfcb1dda72a33e3671e927a",
 			"checksum_type": "sha256",
@@ -89,36 +125,12 @@
 			"version": "3.26.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "4d4b91c2599d5cfad5f97682fb5b80fd83b3ce6133ee8a99eacdcf6855c761b2",
+			"arch": "aarch64",
+			"checksum": "750775a88145c9c9f8afe9b49c1c5a8e6bd5b92d0f807eaf54f2926cf1f52a64",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sqlite-devel-3.26.0-17.el8_7.x86_64.rpm",
-			"name": "sqlite-devel",
-			"reboot_suggested": 0,
-			"release": "17.el8_7",
-			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c2639e71f7ae33c839b4efa895ed4bc2cca1757e53ddad4183eb4c5f20b453f9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-libs-3.26.0-17.el8_7.x86_64.rpm",
-			"name": "sqlite-libs",
-			"reboot_suggested": 0,
-			"release": "17.el8_7",
-			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f654e4baf3ff6a5e73e3293028d3064061a4e87b47388405a87adc48df2d0e43",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sqlite-3.26.0-17.el8_7.x86_64.rpm",
-			"name": "sqlite",
+			"filename": "lemon-3.26.0-17.el8_7.aarch64.rpm",
+			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "17.el8_7",
 			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
@@ -130,18 +142,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lemon-3.26.0-17.el8_7.x86_64.rpm",
-			"name": "lemon",
-			"reboot_suggested": 0,
-			"release": "17.el8_7",
-			"src": "sqlite-3.26.0-17.el8_7.src.rpm",
-			"version": "3.26.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "750775a88145c9c9f8afe9b49c1c5a8e6bd5b92d0f807eaf54f2926cf1f52a64",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lemon-3.26.0-17.el8_7.aarch64.rpm",
 			"name": "lemon",
 			"reboot_suggested": 0,
 			"release": "17.el8_7",
@@ -270,5 +270,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: sqlite security update",
 	"type": "security",
-	"updated_date": 1673868176
+	"updated_date": 1678275158
 }

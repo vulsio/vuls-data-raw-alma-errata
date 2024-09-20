@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "2e3f481625e2667adfd44df9251d0c5acae4546c48523b272ef130f0f13c3bdc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-1.3.1-33.el8.x86_64.rpm",
+			"name": "pam",
+			"reboot_suggested": 0,
+			"release": "33.el8",
+			"src": "pam-1.3.1-33.el8.src.rpm",
+			"version": "1.3.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "6fa07514fa1d0032b0673f959252100e2e2743327c52138eac3b42ce18712e98",
 			"checksum_type": "sha256",
@@ -22,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pam-devel-1.3.1-33.el8.i686.rpm",
+			"name": "pam-devel",
+			"reboot_suggested": 0,
+			"release": "33.el8",
+			"src": "pam-1.3.1-33.el8.src.rpm",
+			"version": "1.3.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "abbb1c49bcb7740567f9758693801b52512f238d9b5f53e54b5f07ba75a16758",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-devel-1.3.1-33.el8.x86_64.rpm",
 			"name": "pam-devel",
 			"reboot_suggested": 0,
 			"release": "33.el8",
@@ -47,30 +71,6 @@
 			"epoch": "0",
 			"filename": "pam-1.3.1-33.el8.aarch64.rpm",
 			"name": "pam",
-			"reboot_suggested": 0,
-			"release": "33.el8",
-			"src": "pam-1.3.1-33.el8.src.rpm",
-			"version": "1.3.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2e3f481625e2667adfd44df9251d0c5acae4546c48523b272ef130f0f13c3bdc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-1.3.1-33.el8.x86_64.rpm",
-			"name": "pam",
-			"reboot_suggested": 0,
-			"release": "33.el8",
-			"src": "pam-1.3.1-33.el8.src.rpm",
-			"version": "1.3.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "abbb1c49bcb7740567f9758693801b52512f238d9b5f53e54b5f07ba75a16758",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-devel-1.3.1-33.el8.x86_64.rpm",
-			"name": "pam-devel",
 			"reboot_suggested": 0,
 			"release": "33.el8",
 			"src": "pam-1.3.1-33.el8.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: pam security update",
 	"type": "security",
-	"updated_date": 1716993604
+	"updated_date": 1716993762
 }

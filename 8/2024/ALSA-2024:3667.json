@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "289d4fc57534ea3cf2f8ca14dd0af03be6d74b68f805ddfb99e2cb5025731b3c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "34dba5806f472bcb527c912d8c85fd18bc6a1abca4c53f5958edcc9957b6d4a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "71b96fb144f979f41ba0c4f1b2b01ea61e412b0a2e0dbe77d577b7a5426be55e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-310.4-1.el8_10.x86_64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "c45516e6904042551edbb1d459d09589ec4d65b739da0aae966bb36d3d061b68",
 			"checksum_type": "sha256",
@@ -59,42 +95,6 @@
 			"epoch": "0",
 			"filename": "cockpit-ws-310.4-1.el8_10.aarch64.rpm",
 			"name": "cockpit-ws",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "cockpit-310.4-1.el8_10.src.rpm",
-			"version": "310.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "289d4fc57534ea3cf2f8ca14dd0af03be6d74b68f805ddfb99e2cb5025731b3c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-bridge-310.4-1.el8_10.x86_64.rpm",
-			"name": "cockpit-bridge",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "cockpit-310.4-1.el8_10.src.rpm",
-			"version": "310.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "34dba5806f472bcb527c912d8c85fd18bc6a1abca4c53f5958edcc9957b6d4a0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-ws-310.4-1.el8_10.x86_64.rpm",
-			"name": "cockpit-ws",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "cockpit-310.4-1.el8_10.src.rpm",
-			"version": "310.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "71b96fb144f979f41ba0c4f1b2b01ea61e412b0a2e0dbe77d577b7a5426be55e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-310.4-1.el8_10.x86_64.rpm",
-			"name": "cockpit",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "cockpit-310.4-1.el8_10.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: cockpit security update",
 	"type": "security",
-	"updated_date": 1717678672
+	"updated_date": 1717678673
 }
