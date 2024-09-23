@@ -4,13 +4,6 @@
 	"issued_date": 1617639433,
 	"modules": [
 		{
-			"arch": "aarch64",
-			"context": "9edba152",
-			"name": "virt",
-			"stream": "rhel",
-			"version": "8060020220510122810"
-		},
-		{
 			"arch": "x86_64",
 			"context": "9f9e2e7e",
 			"name": "virt-devel",
@@ -25,6 +18,13 @@
 			"version": "8050020211221194137"
 		},
 		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "virt",
+			"stream": "rhel",
+			"version": "8060020220510122810"
+		},
+		{
 			"arch": "ppc64le",
 			"context": "9edba152",
 			"name": "virt",
@@ -33,110 +33,6 @@
 		}
 	],
 	"packages": [
-		{
-			"arch": "aarch64",
-			"checksum": "0bcaf5d8e5f17815e1295651458c4f429ff9fccadbfe7b2f3c23b784efee47c1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "netcf-libs",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2880+7d9e3703",
-			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "0.2.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "475718b68490ef173aef57f3aa680f5862a6799ade88eacbaf51738aed5af001",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "libiscsi-utils",
-			"reboot_suggested": 0,
-			"release": "8.module_el8.6.0+2880+7d9e3703",
-			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "1.18.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "622166df6272f067ff22fb348eae9e5c6b899d029f6fb40d2b259456d70110d8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "netcf",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2880+7d9e3703",
-			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "0.2.8"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "sgabios-bin",
-			"reboot_suggested": 0,
-			"release": "3.module_el8.6.0+2880+7d9e3703",
-			"src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "0.20170427git"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7bd28a649f56f3823e2cf3f6ac920ba389e4eaba1adad666059332b3564421ef",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "libvirt-dbus",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+2880+7d9e3703",
-			"src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "1.3.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b94dbcf9abf28d020816edcf78b874b8a4fb7cce37a822457f4d9fe4efdc33bf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "netcf-devel",
-			"reboot_suggested": 0,
-			"release": "12.module_el8.6.0+2880+7d9e3703",
-			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "0.2.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e6aabc36bca82477806e4d9cca5d92d6951021e58146a289170083bd53156e4b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "libiscsi",
-			"reboot_suggested": 0,
-			"release": "8.module_el8.6.0+2880+7d9e3703",
-			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "1.18.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f7772d478351f5bfc0421cc6fa02eb1d4f552a9723fad5327390b33a6d511477",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
-			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
-			"name": "libiscsi-devel",
-			"reboot_suggested": 0,
-			"release": "8.module_el8.6.0+2880+7d9e3703",
-			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
-			"version": "1.18.0"
-		},
 		{
 			"arch": "x86_64",
 			"checksum": "04265e542952aae8322f3b07ff2c6000c428fcbb7ad1f79748d2ce775393c723",
@@ -983,6 +879,110 @@
 			"version": "1.13.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "0bcaf5d8e5f17815e1295651458c4f429ff9fccadbfe7b2f3c23b784efee47c1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "netcf-libs-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "netcf-libs",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.6.0+2880+7d9e3703",
+			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "0.2.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "475718b68490ef173aef57f3aa680f5862a6799ade88eacbaf51738aed5af001",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libiscsi-utils-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "libiscsi-utils",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2880+7d9e3703",
+			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "1.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "622166df6272f067ff22fb348eae9e5c6b899d029f6fb40d2b259456d70110d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "netcf",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.6.0+2880+7d9e3703",
+			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "0.2.8"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "62a8a51a41f340146cc418ee91d9f48909327024150c0976e94a9cd537b2227f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "sgabios-bin-0.20170427git-3.module_el8.6.0+2880+7d9e3703.noarch.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "sgabios-bin",
+			"reboot_suggested": 0,
+			"release": "3.module_el8.6.0+2880+7d9e3703",
+			"src": "sgabios-0.20170427git-3.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "0.20170427git"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7bd28a649f56f3823e2cf3f6ac920ba389e4eaba1adad666059332b3564421ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "libvirt-dbus",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+2880+7d9e3703",
+			"src": "libvirt-dbus-1.3.0-2.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "1.3.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b94dbcf9abf28d020816edcf78b874b8a4fb7cce37a822457f4d9fe4efdc33bf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "netcf-devel-0.2.8-12.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "netcf-devel",
+			"reboot_suggested": 0,
+			"release": "12.module_el8.6.0+2880+7d9e3703",
+			"src": "netcf-0.2.8-12.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "0.2.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e6aabc36bca82477806e4d9cca5d92d6951021e58146a289170083bd53156e4b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "libiscsi",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2880+7d9e3703",
+			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "1.18.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f7772d478351f5bfc0421cc6fa02eb1d4f552a9723fad5327390b33a6d511477",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libiscsi-devel-1.18.0-8.module_el8.6.0+2880+7d9e3703.aarch64.rpm",
+			"module": "virt:rhel:8060020220510122810:9edba152:aarch64",
+			"name": "libiscsi-devel",
+			"reboot_suggested": 0,
+			"release": "8.module_el8.6.0+2880+7d9e3703",
+			"src": "libiscsi-1.18.0-8.module_el8.6.0+2880+7d9e3703.src.rpm",
+			"version": "1.18.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0e59bef3c22a3ac78aade7aca024d450b5a9844bb2efa77ec9472a6eb04546d3",
 			"checksum_type": "sha256",
@@ -1076,18 +1076,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1064.html",
-			"id": "ALSA-2021-1064",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2021-20295",
 			"id": "CVE-2021-20295",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1064.html",
+			"id": "ALSA-2021-1064",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: virt:rhel and virt-devel:rhel security update",
 	"type": "security",
-	"updated_date": 1617639433
+	"updated_date": 1628672040
 }

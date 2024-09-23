@@ -29,30 +29,6 @@
 			"version": "2.06"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1f279fc7b61d6a4dfed82a2708e6192bc57207d51a6d2f0db96cc5fa74e9fb45",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-efi-x64-cdboot-2.06-70.el9_3.2.alma.1.x86_64.rpm",
-			"name": "grub2-efi-x64-cdboot",
-			"reboot_suggested": 0,
-			"release": "70.el9_3.2.alma.1",
-			"src": "grub2-2.06-70.el9_3.2.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "33387050001919a47023c5462026c7ad429e5bab528043c8d3efafc95b27d86f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-pc-2.06-70.el9_3.2.alma.1.x86_64.rpm",
-			"name": "grub2-pc",
-			"reboot_suggested": 0,
-			"release": "70.el9_3.2.alma.1",
-			"src": "grub2-2.06-70.el9_3.2.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "7d3d0624d4d27e1ca89edd58f4230c2cf00c3d0372d88fa625ae4de77ef118f7",
 			"checksum_type": "sha256",
@@ -83,6 +59,30 @@
 			"epoch": "1",
 			"filename": "grub2-pc-modules-2.06-70.el9_3.2.alma.1.noarch.rpm",
 			"name": "grub2-pc-modules",
+			"reboot_suggested": 0,
+			"release": "70.el9_3.2.alma.1",
+			"src": "grub2-2.06-70.el9_3.2.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1f279fc7b61d6a4dfed82a2708e6192bc57207d51a6d2f0db96cc5fa74e9fb45",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-efi-x64-cdboot-2.06-70.el9_3.2.alma.1.x86_64.rpm",
+			"name": "grub2-efi-x64-cdboot",
+			"reboot_suggested": 0,
+			"release": "70.el9_3.2.alma.1",
+			"src": "grub2-2.06-70.el9_3.2.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "33387050001919a47023c5462026c7ad429e5bab528043c8d3efafc95b27d86f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-pc-2.06-70.el9_3.2.alma.1.x86_64.rpm",
+			"name": "grub2-pc",
 			"reboot_suggested": 0,
 			"release": "70.el9_3.2.alma.1",
 			"src": "grub2-2.06-70.el9_3.2.alma.1.src.rpm",
@@ -282,5 +282,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: grub2 security update",
 	"type": "security",
-	"updated_date": 1706264178
+	"updated_date": 1706264176
 }

@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "2265248019aefb0789c8d98bc734e986e561d6d68abe9d165fa3ad3be81c4e84",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-4.18.0-425.10.1.el8_7.noarch.rpm",
+			"name": "kernel-abi-stablelists",
+			"reboot_suggested": 0,
+			"release": "425.10.1.el8_7",
+			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d117f1e9f3043dd034cd508d9b444be73f2f9cf265e49112fbb70637fe497648",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-4.18.0-425.10.1.el8_7.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "425.10.1.el8_7",
+			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
+			"version": "4.18.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "121136efe972627e983ee6663d5e4af7bc9f031a10b610ded35b6efb34ded9c9",
 			"checksum_type": "sha256",
@@ -35,18 +59,6 @@
 			"epoch": "0",
 			"filename": "kernel-modules-extra-4.18.0-425.10.1.el8_7.x86_64.rpm",
 			"name": "kernel-modules-extra",
-			"reboot_suggested": 0,
-			"release": "425.10.1.el8_7",
-			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "2265248019aefb0789c8d98bc734e986e561d6d68abe9d165fa3ad3be81c4e84",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-abi-stablelists-4.18.0-425.10.1.el8_7.noarch.rpm",
-			"name": "kernel-abi-stablelists",
 			"reboot_suggested": 0,
 			"release": "425.10.1.el8_7",
 			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
@@ -149,18 +161,6 @@
 			"version": "4.18.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "d117f1e9f3043dd034cd508d9b444be73f2f9cf265e49112fbb70637fe497648",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-4.18.0-425.10.1.el8_7.noarch.rpm",
-			"name": "kernel-doc",
-			"reboot_suggested": 0,
-			"release": "425.10.1.el8_7",
-			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
-			"version": "4.18.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "d39801f7c2dc50ce88d5f25b561f13ecee73a3dcdc159c2f08448484f3affe5b",
 			"checksum_type": "sha256",
@@ -215,6 +215,18 @@
 			"epoch": "0",
 			"filename": "bpftool-4.18.0-425.10.1.el8_7.x86_64.rpm",
 			"name": "bpftool",
+			"reboot_suggested": 0,
+			"release": "425.10.1.el8_7",
+			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a6c4ff78aa27b0290ba89227e06e81ef6f7c5f19cb68da50a319f80452b0031d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-425.10.1.el8_7.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "425.10.1.el8_7",
 			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
@@ -407,18 +419,6 @@
 			"epoch": "0",
 			"filename": "kernel-tools-libs-4.18.0-425.10.1.el8_7.aarch64.rpm",
 			"name": "kernel-tools-libs",
-			"reboot_suggested": 0,
-			"release": "425.10.1.el8_7",
-			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "a6c4ff78aa27b0290ba89227e06e81ef6f7c5f19cb68da50a319f80452b0031d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-425.10.1.el8_7.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "425.10.1.el8_7",
 			"src": "kernel-4.18.0-425.10.1.el8_7.src.rpm",
@@ -916,5 +916,5 @@
 	"severity": "Important",
 	"title": "Important: kernel security and bug fix update",
 	"type": "security",
-	"updated_date": 1673867416
+	"updated_date": 1673867410
 }

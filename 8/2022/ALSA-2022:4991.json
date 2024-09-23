@@ -17,6 +17,18 @@
 			"version": "5.2.4"
 		},
 		{
+			"arch": "i686",
+			"checksum": "ac23b22995aa188dd98e08d8a9552fcf940bcaac66995739e8d9abd9817a06bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xz-devel-5.2.4-4.el8_6.i686.rpm",
+			"name": "xz-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8_6",
+			"src": "xz-5.2.4-4.el8_6.src.rpm",
+			"version": "5.2.4"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "609dff705f5eb3f00aa157396adb3edf76c57562640a37ec7512ee9b8f35b360",
 			"checksum_type": "sha256",
@@ -41,12 +53,12 @@
 			"version": "5.2.4"
 		},
 		{
-			"arch": "i686",
-			"checksum": "ac23b22995aa188dd98e08d8a9552fcf940bcaac66995739e8d9abd9817a06bd",
+			"arch": "x86_64",
+			"checksum": "eab633cd7e81de007792509bfbea6cbd48dec90e4c0f18a4c1c337cb9c06ee51",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xz-devel-5.2.4-4.el8_6.i686.rpm",
-			"name": "xz-devel",
+			"filename": "xz-libs-5.2.4-4.el8_6.x86_64.rpm",
+			"name": "xz-libs",
 			"reboot_suggested": 0,
 			"release": "4.el8_6",
 			"src": "xz-5.2.4-4.el8_6.src.rpm",
@@ -54,11 +66,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "eab633cd7e81de007792509bfbea6cbd48dec90e4c0f18a4c1c337cb9c06ee51",
+			"checksum": "bc2cd3adfd82ecfc1efda8aa75e566ca7ab7d0e10cda91d9e68e8bd37f310844",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "xz-libs-5.2.4-4.el8_6.x86_64.rpm",
-			"name": "xz-libs",
+			"filename": "xz-lzma-compat-5.2.4-4.el8_6.x86_64.rpm",
+			"name": "xz-lzma-compat",
 			"reboot_suggested": 0,
 			"release": "4.el8_6",
 			"src": "xz-5.2.4-4.el8_6.src.rpm",
@@ -95,18 +107,6 @@
 			"epoch": "0",
 			"filename": "xz-libs-5.2.4-4.el8_6.aarch64.rpm",
 			"name": "xz-libs",
-			"reboot_suggested": 0,
-			"release": "4.el8_6",
-			"src": "xz-5.2.4-4.el8_6.src.rpm",
-			"version": "5.2.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "bc2cd3adfd82ecfc1efda8aa75e566ca7ab7d0e10cda91d9e68e8bd37f310844",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xz-lzma-compat-5.2.4-4.el8_6.x86_64.rpm",
-			"name": "xz-lzma-compat",
 			"reboot_suggested": 0,
 			"release": "4.el8_6",
 			"src": "xz-5.2.4-4.el8_6.src.rpm",
@@ -174,18 +174,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "969a0d589c6855b7f4da1a9ad40efbfd6f5480e0390bf50ae77ee47adf404f20",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xz-lzma-compat-5.2.4-4.el8_6.s390x.rpm",
-			"name": "xz-lzma-compat",
-			"reboot_suggested": 0,
-			"release": "4.el8_6",
-			"src": "xz-5.2.4-4.el8_6.src.rpm",
-			"version": "5.2.4"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "41df743d523981a354661d6f6f2c98b5f8a8c3d3ef660c833c0cac5284d10d6c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -219,6 +207,18 @@
 			"release": "4.el8_6",
 			"src": "xz-5.2.4-4.el8_6.src.rpm",
 			"version": "5.2.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "969a0d589c6855b7f4da1a9ad40efbfd6f5480e0390bf50ae77ee47adf404f20",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xz-lzma-compat-5.2.4-4.el8_6.s390x.rpm",
+			"name": "xz-lzma-compat",
+			"reboot_suggested": 0,
+			"release": "4.el8_6",
+			"src": "xz-5.2.4-4.el8_6.src.rpm",
+			"version": "5.2.4"
 		}
 	],
 	"references": [
@@ -246,5 +246,5 @@
 	"severity": "Important",
 	"title": "Important: xz security update",
 	"type": "security",
-	"updated_date": 1678210543
+	"updated_date": 1678208923
 }

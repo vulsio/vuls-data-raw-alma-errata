@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "d3caabf880a989fdeba49e7051dfebcb8093d1487a40a6a4621c8a400a8eba25",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "vinagre-3.22.0-23.el8.aarch64.rpm",
-			"name": "vinagre",
-			"reboot_suggested": 0,
-			"release": "23.el8",
-			"src": "vinagre-3.22.0-23.el8.src.rpm",
-			"version": "3.22.0"
-		},
-		{
 			"arch": "i686",
 			"checksum": "039cd71e74b668f1ff3e4a068cfe6aeb22d4e4b878a3ee16429467bac5b82af8",
 			"checksum_type": "sha256",
@@ -53,6 +41,18 @@
 			"version": "3.22.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "d3caabf880a989fdeba49e7051dfebcb8093d1487a40a6a4621c8a400a8eba25",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "vinagre-3.22.0-23.el8.aarch64.rpm",
+			"name": "vinagre",
+			"reboot_suggested": 0,
+			"release": "23.el8",
+			"src": "vinagre-3.22.0-23.el8.src.rpm",
+			"version": "3.22.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "a80f0378b41c9d71516a5261916abffecc3e6831e8d678717a561bf6e57d1244",
 			"checksum_type": "sha256",
@@ -66,11 +66,6 @@
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4647.html",
-			"id": "ALSA-2020-4647",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-11018",
 			"id": "CVE-2020-11018",
@@ -195,10 +190,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-13397",
 			"id": "CVE-2020-13397",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4647.html",
+			"id": "ALSA-2020-4647",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: freerdp and vinagre security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1604432795
+	"updated_date": 1628672040
 }

@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "6149d20a7c4809dce6d843816a6af09c03a9b4c324be5be6e3b47eac3fdf6465",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-4.18.0-513.9.1.el8_9.noarch.rpm",
+			"name": "kernel-abi-stablelists",
+			"reboot_suggested": 0,
+			"release": "513.9.1.el8_9",
+			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ae251d61b72a46699f39e4ba8aeab0c6c91939c6017f6ed8542ebe7763863e50",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-4.18.0-513.9.1.el8_9.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "513.9.1.el8_9",
+			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1012fa54df0c3f7fc421625db6cf614c2ba427b5382c2fa4a7d161b052f9d370",
 			"checksum_type": "sha256",
@@ -59,18 +83,6 @@
 			"epoch": "0",
 			"filename": "perf-4.18.0-513.9.1.el8_9.x86_64.rpm",
 			"name": "perf",
-			"reboot_suggested": 0,
-			"release": "513.9.1.el8_9",
-			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "6149d20a7c4809dce6d843816a6af09c03a9b4c324be5be6e3b47eac3fdf6465",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-abi-stablelists-4.18.0-513.9.1.el8_9.noarch.rpm",
-			"name": "kernel-abi-stablelists",
 			"reboot_suggested": 0,
 			"release": "513.9.1.el8_9",
 			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
@@ -149,18 +161,6 @@
 			"version": "4.18.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "ae251d61b72a46699f39e4ba8aeab0c6c91939c6017f6ed8542ebe7763863e50",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-4.18.0-513.9.1.el8_9.noarch.rpm",
-			"name": "kernel-doc",
-			"reboot_suggested": 0,
-			"release": "513.9.1.el8_9",
-			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
-			"version": "4.18.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "ca10fa9df090366a3b406e8d42f2d39010213634c9a711477290f7330fd766d3",
 			"checksum_type": "sha256",
@@ -215,6 +215,18 @@
 			"epoch": "0",
 			"filename": "kernel-modules-4.18.0-513.9.1.el8_9.x86_64.rpm",
 			"name": "kernel-modules",
+			"reboot_suggested": 0,
+			"release": "513.9.1.el8_9",
+			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8b9d0f6a1a37190577b0c0f77b1b29795400e82106f1ec2889178d7ea9e6cccf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-513.9.1.el8_9.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "513.9.1.el8_9",
 			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
@@ -407,18 +419,6 @@
 			"epoch": "0",
 			"filename": "kernel-debug-modules-extra-4.18.0-513.9.1.el8_9.aarch64.rpm",
 			"name": "kernel-debug-modules-extra",
-			"reboot_suggested": 0,
-			"release": "513.9.1.el8_9",
-			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "8b9d0f6a1a37190577b0c0f77b1b29795400e82106f1ec2889178d7ea9e6cccf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-513.9.1.el8_9.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "513.9.1.el8_9",
 			"src": "kernel-4.18.0-513.9.1.el8_9.src.rpm",
@@ -966,5 +966,5 @@
 	"severity": "Important",
 	"title": "Important: kernel security and bug fix update",
 	"type": "security",
-	"updated_date": 1701651738
+	"updated_date": 1701651733
 }

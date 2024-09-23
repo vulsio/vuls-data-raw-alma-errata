@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "7d6fea9d916f75de57eec14c01123587d25106a11b36c6abb5b2bc35040070ae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-devel-239-82.el8.i686.rpm",
+			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "82.el8",
+			"src": "systemd-239-82.el8.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c29663fac87c574697ccb4c47fb5a4ab76cb04ebbe14221a869126d301b9885d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-libs-239-82.el8.i686.rpm",
+			"name": "systemd-libs",
+			"reboot_suggested": 0,
+			"release": "82.el8",
+			"src": "systemd-239-82.el8.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d1667e763ef7f657c2047038b1ade71ff95a259b45272d76d201b92cae912ac8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-container-239-82.el8.i686.rpm",
+			"name": "systemd-container",
+			"reboot_suggested": 0,
+			"release": "82.el8",
+			"src": "systemd-239-82.el8.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f65e27e7356270ee5121cd2f1226c70e8b45f8545b8e5f578e9efab7db4450a5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-239-82.el8.i686.rpm",
+			"name": "systemd",
+			"reboot_suggested": 0,
+			"release": "82.el8",
+			"src": "systemd-239-82.el8.src.rpm",
+			"version": "239"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "425f8d59cd932b08530e4aa331696a5debcd9da3f95e418264a49d16a7e844c2",
 			"checksum_type": "sha256",
@@ -22,18 +70,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-devel-239-82.el8.x86_64.rpm",
-			"name": "systemd-devel",
-			"reboot_suggested": 0,
-			"release": "82.el8",
-			"src": "systemd-239-82.el8.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7d6fea9d916f75de57eec14c01123587d25106a11b36c6abb5b2bc35040070ae",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-devel-239-82.el8.i686.rpm",
 			"name": "systemd-devel",
 			"reboot_suggested": 0,
 			"release": "82.el8",
@@ -101,48 +137,12 @@
 			"version": "239"
 		},
 		{
-			"arch": "i686",
-			"checksum": "c29663fac87c574697ccb4c47fb5a4ab76cb04ebbe14221a869126d301b9885d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-libs-239-82.el8.i686.rpm",
-			"name": "systemd-libs",
-			"reboot_suggested": 0,
-			"release": "82.el8",
-			"src": "systemd-239-82.el8.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d1667e763ef7f657c2047038b1ade71ff95a259b45272d76d201b92cae912ac8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-container-239-82.el8.i686.rpm",
-			"name": "systemd-container",
-			"reboot_suggested": 0,
-			"release": "82.el8",
-			"src": "systemd-239-82.el8.src.rpm",
-			"version": "239"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "dd527fd578a6ea7b7def395e2b5996bb0c465d8e282aa7781b8a358a7febfa30",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-udev-239-82.el8.x86_64.rpm",
 			"name": "systemd-udev",
-			"reboot_suggested": 0,
-			"release": "82.el8",
-			"src": "systemd-239-82.el8.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f65e27e7356270ee5121cd2f1226c70e8b45f8545b8e5f578e9efab7db4450a5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-239-82.el8.i686.rpm",
-			"name": "systemd",
 			"reboot_suggested": 0,
 			"release": "82.el8",
 			"src": "systemd-239-82.el8.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: systemd security update",
 	"type": "security",
-	"updated_date": 1716994013
+	"updated_date": 1716993765
 }

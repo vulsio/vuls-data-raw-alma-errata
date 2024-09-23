@@ -17,6 +17,42 @@
 			"version": "239"
 		},
 		{
+			"arch": "i686",
+			"checksum": "627994e40bb4adfe7b771ba14e6806333c514c295bdb7b21d2f8280a1ef61251",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-container-239-68.el8_7.4.i686.rpm",
+			"name": "systemd-container",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.4",
+			"src": "systemd-239-68.el8_7.4.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "881191ab974aca36d5af4b61af9125716b9b20bdb0ae663b92350b34142dcd04",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-239-68.el8_7.4.i686.rpm",
+			"name": "systemd",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.4",
+			"src": "systemd-239-68.el8_7.4.src.rpm",
+			"version": "239"
+		},
+		{
+			"arch": "i686",
+			"checksum": "91456e6d21c8842057358170144832630959b24ddd1acf48d8a7036ccf00ba68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-libs-239-68.el8_7.4.i686.rpm",
+			"name": "systemd-libs",
+			"reboot_suggested": 0,
+			"release": "68.el8_7.4",
+			"src": "systemd-239-68.el8_7.4.src.rpm",
+			"version": "239"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0c89f71181ab4b5bf578b8dc9a4f22761cd5271baef0aeaa08c862e0a01a33f5",
 			"checksum_type": "sha256",
@@ -65,48 +101,12 @@
 			"version": "239"
 		},
 		{
-			"arch": "i686",
-			"checksum": "627994e40bb4adfe7b771ba14e6806333c514c295bdb7b21d2f8280a1ef61251",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-container-239-68.el8_7.4.i686.rpm",
-			"name": "systemd-container",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.4",
-			"src": "systemd-239-68.el8_7.4.src.rpm",
-			"version": "239"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "634944dbbaabea5f3931e868099a9df742f85dc59501bb027dcfc0553352c100",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-container-239-68.el8_7.4.x86_64.rpm",
 			"name": "systemd-container",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.4",
-			"src": "systemd-239-68.el8_7.4.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "881191ab974aca36d5af4b61af9125716b9b20bdb0ae663b92350b34142dcd04",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-239-68.el8_7.4.i686.rpm",
-			"name": "systemd",
-			"reboot_suggested": 0,
-			"release": "68.el8_7.4",
-			"src": "systemd-239-68.el8_7.4.src.rpm",
-			"version": "239"
-		},
-		{
-			"arch": "i686",
-			"checksum": "91456e6d21c8842057358170144832630959b24ddd1acf48d8a7036ccf00ba68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-libs-239-68.el8_7.4.i686.rpm",
-			"name": "systemd-libs",
 			"reboot_suggested": 0,
 			"release": "68.el8_7.4",
 			"src": "systemd-239-68.el8_7.4.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: systemd security and bug fix update",
 	"type": "security",
-	"updated_date": 1678725410
+	"updated_date": 1677003332
 }

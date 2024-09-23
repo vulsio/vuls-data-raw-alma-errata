@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "c45516e6904042551edbb1d459d09589ec4d65b739da0aae966bb36d3d061b68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-system-310.4-1.el8_10.noarch.rpm",
+			"name": "cockpit-system",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e1b29397d19e0753a737a719462be7424f3dbdcbeeff7362c6617c03bed0fac2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-doc-310.4-1.el8_10.noarch.rpm",
+			"name": "cockpit-doc",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "cockpit-310.4-1.el8_10.src.rpm",
+			"version": "310.4"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "289d4fc57534ea3cf2f8ca14dd0af03be6d74b68f805ddfb99e2cb5025731b3c",
 			"checksum_type": "sha256",
@@ -35,30 +59,6 @@
 			"epoch": "0",
 			"filename": "cockpit-310.4-1.el8_10.x86_64.rpm",
 			"name": "cockpit",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "cockpit-310.4-1.el8_10.src.rpm",
-			"version": "310.4"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "c45516e6904042551edbb1d459d09589ec4d65b739da0aae966bb36d3d061b68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-system-310.4-1.el8_10.noarch.rpm",
-			"name": "cockpit-system",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "cockpit-310.4-1.el8_10.src.rpm",
-			"version": "310.4"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e1b29397d19e0753a737a719462be7424f3dbdcbeeff7362c6617c03bed0fac2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-doc-310.4-1.el8_10.noarch.rpm",
-			"name": "cockpit-doc",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "cockpit-310.4-1.el8_10.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: cockpit security update",
 	"type": "security",
-	"updated_date": 1717678673
+	"updated_date": 1717678672
 }

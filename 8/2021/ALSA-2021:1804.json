@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "194dfee5d3d98f31991d1332846f87b7ae54d977c26f24177bcb1a6e2a7750c4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "xorg-x11-drivers-7.7-30.el8.aarch64.rpm",
-			"name": "xorg-x11-drivers",
-			"reboot_suggested": 0,
-			"release": "30.el8",
-			"src": "xorg-x11-drivers-7.7-30.el8.src.rpm",
-			"version": "7.7"
-		},
-		{
 			"arch": "i686",
 			"checksum": "19551232f7a85953b82c7e4ec57fb7c698056fff3d93f2c4ba3be8ded993d6d2",
 			"checksum_type": "sha256",
@@ -329,6 +317,18 @@
 			"version": "1.3.2"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "194dfee5d3d98f31991d1332846f87b7ae54d977c26f24177bcb1a6e2a7750c4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-drivers-7.7-30.el8.aarch64.rpm",
+			"name": "xorg-x11-drivers",
+			"reboot_suggested": 0,
+			"release": "30.el8",
+			"src": "xorg-x11-drivers-7.7-30.el8.src.rpm",
+			"version": "7.7"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "806266360393bc0baca2f38ba1aec85a57ec3a87fecb093c2cae1c4fa6a7df38",
 			"checksum_type": "sha256",
@@ -342,11 +342,6 @@
 		}
 	],
 	"references": [
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1804.html",
-			"id": "ALSA-2021-1804",
-			"type": "self"
-		},
 		{
 			"href": "https://vulners.com/cve/CVE-2020-14344",
 			"id": "CVE-2020-14344",
@@ -391,10 +386,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-25712",
 			"id": "CVE-2020-25712",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1804.html",
+			"id": "ALSA-2021-1804",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: userspace graphics, xorg-x11, and mesa security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1621318056
+	"updated_date": 1628672040
 }

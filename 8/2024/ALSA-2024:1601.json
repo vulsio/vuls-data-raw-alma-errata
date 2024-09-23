@@ -17,6 +17,30 @@
 			"version": "7.61.1"
 		},
 		{
+			"arch": "i686",
+			"checksum": "9275ce5a17a0fed0e569d5ad4fdc904a1c322570c6db5ce853291d418f261edf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.61.1-33.el8_9.5.i686.rpm",
+			"name": "libcurl-devel",
+			"reboot_suggested": 0,
+			"release": "33.el8_9.5",
+			"src": "curl-7.61.1-33.el8_9.5.src.rpm",
+			"version": "7.61.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "b5c40afc05463f68a2f100f2e2c1060a7b48605729ff7b52f1fa4cd23dff42eb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-minimal-7.61.1-33.el8_9.5.i686.rpm",
+			"name": "libcurl-minimal",
+			"reboot_suggested": 0,
+			"release": "33.el8_9.5",
+			"src": "curl-7.61.1-33.el8_9.5.src.rpm",
+			"version": "7.61.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "85bca9fe04ad755d9a867849d2dfe380207818e0aabaf755dd109845979cf069",
 			"checksum_type": "sha256",
@@ -41,36 +65,12 @@
 			"version": "7.61.1"
 		},
 		{
-			"arch": "i686",
-			"checksum": "9275ce5a17a0fed0e569d5ad4fdc904a1c322570c6db5ce853291d418f261edf",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.61.1-33.el8_9.5.i686.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "33.el8_9.5",
-			"src": "curl-7.61.1-33.el8_9.5.src.rpm",
-			"version": "7.61.1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "97b7c16845c4e2e10cbc879a9190b5fa7e6631575d152b64af661237ce763774",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libcurl-devel-7.61.1-33.el8_9.5.x86_64.rpm",
 			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "33.el8_9.5",
-			"src": "curl-7.61.1-33.el8_9.5.src.rpm",
-			"version": "7.61.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "b5c40afc05463f68a2f100f2e2c1060a7b48605729ff7b52f1fa4cd23dff42eb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-minimal-7.61.1-33.el8_9.5.i686.rpm",
-			"name": "libcurl-minimal",
 			"reboot_suggested": 0,
 			"release": "33.el8_9.5",
 			"src": "curl-7.61.1-33.el8_9.5.src.rpm",
@@ -278,5 +278,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: curl security and bug fix update",
 	"type": "security",
-	"updated_date": 1712096913
+	"updated_date": 1712096912
 }

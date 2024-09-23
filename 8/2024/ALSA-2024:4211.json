@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "5f567b9364d989357f23d35a43b9d1b3726bc20772544df563f62bcc2780bbab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-4.18.0-553.8.1.el8_10.noarch.rpm",
+			"name": "kernel-abi-stablelists",
+			"reboot_suggested": 0,
+			"release": "553.8.1.el8_10",
+			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "62d68532724dcc0924d8697856a888e19b7c926d2673bc990dfc5908e020d32f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-4.18.0-553.8.1.el8_10.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "553.8.1.el8_10",
+			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "03a5a001ba0a043eb1a3affd8106b1db749467f2c09274f7712339968e0732e8",
 			"checksum_type": "sha256",
@@ -83,30 +107,6 @@
 			"epoch": "0",
 			"filename": "kernel-debug-4.18.0-553.8.1.el8_10.x86_64.rpm",
 			"name": "kernel-debug",
-			"reboot_suggested": 0,
-			"release": "553.8.1.el8_10",
-			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "5f567b9364d989357f23d35a43b9d1b3726bc20772544df563f62bcc2780bbab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-abi-stablelists-4.18.0-553.8.1.el8_10.noarch.rpm",
-			"name": "kernel-abi-stablelists",
-			"reboot_suggested": 0,
-			"release": "553.8.1.el8_10",
-			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "62d68532724dcc0924d8697856a888e19b7c926d2673bc990dfc5908e020d32f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-4.18.0-553.8.1.el8_10.noarch.rpm",
-			"name": "kernel-doc",
 			"reboot_suggested": 0,
 			"release": "553.8.1.el8_10",
 			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
@@ -227,6 +227,18 @@
 			"epoch": "0",
 			"filename": "kernel-debug-devel-4.18.0-553.8.1.el8_10.x86_64.rpm",
 			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "553.8.1.el8_10",
+			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "845ced1c2dbbfb4dd5a148335c3e89d3fbfeeb5755bc517c08b3a8003cca64e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-553.8.1.el8_10.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "553.8.1.el8_10",
 			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
@@ -431,18 +443,6 @@
 			"epoch": "0",
 			"filename": "kernel-tools-4.18.0-553.8.1.el8_10.aarch64.rpm",
 			"name": "kernel-tools",
-			"reboot_suggested": 0,
-			"release": "553.8.1.el8_10",
-			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "845ced1c2dbbfb4dd5a148335c3e89d3fbfeeb5755bc517c08b3a8003cca64e5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-553.8.1.el8_10.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "553.8.1.el8_10",
 			"src": "kernel-4.18.0-553.8.1.el8_10.src.rpm",
@@ -1554,5 +1554,5 @@
 	"severity": "Important",
 	"title": "Important: kernel security and bug fix update",
 	"type": "security",
-	"updated_date": 1719933122
+	"updated_date": 1719933116
 }

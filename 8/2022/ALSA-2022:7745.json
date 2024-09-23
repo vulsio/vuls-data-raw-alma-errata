@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "745f653aee0dede42ff50aeb06ec7f33ee86c776f3b4f59dfa7e3b0c7e851a41",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freetype-devel-2.9.1-9.el8.x86_64.rpm",
-			"name": "freetype-devel",
-			"reboot_suggested": 0,
-			"release": "9.el8",
-			"src": "freetype-2.9.1-9.el8.src.rpm",
-			"version": "2.9.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "a4b5a7093ebab5cd3e144715832faa8cbe5447549adc6fcc7ba96ae98677a913",
 			"checksum_type": "sha256",
@@ -34,6 +22,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "freetype-devel-2.9.1-9.el8.i686.rpm",
+			"name": "freetype-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "freetype-2.9.1-9.el8.src.rpm",
+			"version": "2.9.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "745f653aee0dede42ff50aeb06ec7f33ee86c776f3b4f59dfa7e3b0c7e851a41",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freetype-devel-2.9.1-9.el8.x86_64.rpm",
 			"name": "freetype-devel",
 			"reboot_suggested": 0,
 			"release": "9.el8",
@@ -170,5 +170,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: freetype security update",
 	"type": "security",
-	"updated_date": 1668447132
+	"updated_date": 1668263162
 }

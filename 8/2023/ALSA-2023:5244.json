@@ -17,6 +17,18 @@
 			"version": "4.18.0"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "a5f9c0f31383ae20007d8a9a6e8ed4e37433c7a4432ecef6fae6eb6638f6c06c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-4.18.0-477.27.2.el8_8.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "477.27.2.el8_8",
+			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
+			"version": "4.18.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "159ad1851fd52a6882e195ab682afd9a15abadb64b28385a5e0a4e5f12be17f8",
 			"checksum_type": "sha256",
@@ -125,18 +137,6 @@
 			"version": "4.18.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "a5f9c0f31383ae20007d8a9a6e8ed4e37433c7a4432ecef6fae6eb6638f6c06c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-4.18.0-477.27.2.el8_8.noarch.rpm",
-			"name": "kernel-doc",
-			"reboot_suggested": 0,
-			"release": "477.27.2.el8_8",
-			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
-			"version": "4.18.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "a81258b29af6430d95b134069615c80fc82882262b9439c9ec3792ac4c4cab0a",
 			"checksum_type": "sha256",
@@ -227,6 +227,18 @@
 			"epoch": "0",
 			"filename": "kernel-debug-devel-4.18.0-477.27.2.el8_8.x86_64.rpm",
 			"name": "kernel-debug-devel",
+			"reboot_suggested": 0,
+			"release": "477.27.2.el8_8",
+			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2aaf4fee2087eb82061771a6873f9b2374219341840050e0dbddf1188464f7a6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-477.27.2.el8_8.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "477.27.2.el8_8",
 			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
@@ -431,18 +443,6 @@
 			"epoch": "0",
 			"filename": "kernel-cross-headers-4.18.0-477.27.2.el8_8.aarch64.rpm",
 			"name": "kernel-cross-headers",
-			"reboot_suggested": 0,
-			"release": "477.27.2.el8_8",
-			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2aaf4fee2087eb82061771a6873f9b2374219341840050e0dbddf1188464f7a6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-477.27.2.el8_8.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "477.27.2.el8_8",
 			"src": "kernel-4.18.0-477.27.2.el8_8.src.rpm",
@@ -1024,5 +1024,5 @@
 	"severity": "Important",
 	"title": "Important: kernel security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1696358586
+	"updated_date": 1696358581
 }
