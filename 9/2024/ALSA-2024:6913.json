@@ -1,0 +1,256 @@
+{
+	"description": "The golang packages provide the Go programming language compiler.\n\nSecurity Fix(es):\n\n* net/http: Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n* go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion (CVE-2024-34155)\n* encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion (CVE-2024-34156)\n* go/build/constraint: golang: Calling Parse on a \"// +build\" build tag line with deeply nested expressions can cause a panic due to stack exhaustion (CVE-2024-34158)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:6913",
+	"issued_date": 1727049600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "0a9a2e10f59fcd9afdedd681cc2094369a54047107e97b51f89dbbbc7a8f88da",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-tests-1.21.13-3.el9_4.noarch.rpm",
+			"name": "golang-tests",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "4c96643e7b664e24c52084d40ba7e275c8ad632bac3ea356c27933cbedaf288b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-misc-1.21.13-3.el9_4.noarch.rpm",
+			"name": "golang-misc",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cb58cdb66dfd1b8b62f02981ce8a93b0ac62f5a533cc85df49c70b58d10b2785",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-docs-1.21.13-3.el9_4.noarch.rpm",
+			"name": "golang-docs",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "fa177fd98f928892135d944e2f65fbdeeb1a1135cc3e724ad3af2acf7711333b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-src-1.21.13-3.el9_4.noarch.rpm",
+			"name": "golang-src",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "17ea9925eb19d032d44eeec972467e6131220563c4b54db48dc5fab2a6852499",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.21.13-3.el9_4.ppc64le.rpm",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3be0d0f135059da79da671761559c89f9e83bfaf58ffc4e2306581121d3b0eea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.21.13-3.el9_4.ppc64le.rpm",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4d5913c27369a1a56e6c439d4288e64ef5e9db49d85f0c7695d034e8ce60f429",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.21.13-3.el9_4.ppc64le.rpm",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4265d3b2cbbc0ce903a4c8cb33a991313ba7a2cd71179ac2659907975b15c743",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.21.13-3.el9_4.aarch64.rpm",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4eb34750ea83b5102f4187a37308471a75769c73c509d45a5c97a1fa1faa014d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.21.13-3.el9_4.aarch64.rpm",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d12224e6a5875fc0e67473fe8aff234f9196993c63334f7eefb5384085bc2ef1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.21.13-3.el9_4.aarch64.rpm",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2e5c5b5afc1c0e1c1a9ef40c7fe7b69e188803d15d485105990095d8bfd7e56a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.21.13-3.el9_4.x86_64.rpm",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "87b6e1756a42b34e5de7d8af80763f4008130a6f7573a72058a2a643d9552b33",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.21.13-3.el9_4.x86_64.rpm",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f39d16075f4930e1edc57cdc3ae7f41bdff27c9c65972198c6b2b8c56d844af0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.21.13-3.el9_4.x86_64.rpm",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "810368ae2683be44f640ede786ba7000974fdd4515dc70b7b9e5f012e70fd7b2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.21.13-3.el9_4.s390x.rpm",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "da067d2573dc55f36b6a6fb98257e6ee928fa15cbe9082e22f44b1e36d522065",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.21.13-3.el9_4.s390x.rpm",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "dbdf03ab2f53a9216d8280bd0a9dfa751d3bc4f4c61881304d88f9fd52c41f4e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "go-toolset-1.21.13-3.el9_4.s390x.rpm",
+			"name": "go-toolset",
+			"reboot_suggested": 0,
+			"release": "3.el9_4",
+			"src": "golang-1.21.13-3.el9_4.src.rpm",
+			"version": "1.21.13"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:6913",
+			"id": "RHSA-2024:6913",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24791",
+			"id": "CVE-2024-24791",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-34155",
+			"id": "CVE-2024-34155",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-34156",
+			"id": "CVE-2024-34156",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-34158",
+			"id": "CVE-2024-34158",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2295310",
+			"id": "2295310",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2310527",
+			"id": "2310527",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2310528",
+			"id": "2310528",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2310529",
+			"id": "2310529",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-6913.html",
+			"id": "ALSA-2024:6913",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: golang security update",
+	"type": "security",
+	"updated_date": 1727170638
+}

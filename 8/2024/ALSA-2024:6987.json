@@ -1,0 +1,270 @@
+{
+	"description": "GNU Emacs is a powerful, customizable, self-documenting text editor. It provides special code editing features, a scripting language (elisp), and the capability to read e-mail and news.\n\nSecurity Fix(es):\n\n* emacs: Gnus treats inline MIME contents as trusted (CVE-2024-30203)\n* emacs: Org mode considers contents of remote files to be trusted (CVE-2024-30205)\n* emacs: org-link-expand-abbrev: Do not evaluate arbitrary unsafe Elisp code (CVE-2024-39331)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:6987",
+	"issued_date": 1727136000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "bfaf34502128a0e7f2d75a1959641b71455d8517139a381f14f1d41a32e06317",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-filesystem-26.1-12.el8_10.noarch.rpm",
+			"name": "emacs-filesystem",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "38eb9ff3fb3dcda9340ab737cf4ae82845cb5f0c3e5a99cb0a6fd7a71fbc3a48",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-terminal-26.1-12.el8_10.noarch.rpm",
+			"name": "emacs-terminal",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "37989f5344a4cd5dd65551062295e71538075583a9299c4fb82f21cd5df04820",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-lucid-26.1-12.el8_10.x86_64.rpm",
+			"name": "emacs-lucid",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "63781a9f055f62ffcb2c0ea3cd6e994e255779ef42f25599a0484b5fd207181e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-nox-26.1-12.el8_10.x86_64.rpm",
+			"name": "emacs-nox",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9d119a6cb04675d1ffe1d3561e9635a8e9edf4478b2d9fc673a8979a50f623fd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-26.1-12.el8_10.x86_64.rpm",
+			"name": "emacs",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "afd2a0378a31efc45c05880789fd1434d7059af78cd6c42f7aabdd3f34ecd6de",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-common-26.1-12.el8_10.x86_64.rpm",
+			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "09baa4820d3363d836aecb72612796088513c8d45ae1def895e1cafb7732caa5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-lucid-26.1-12.el8_10.aarch64.rpm",
+			"name": "emacs-lucid",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "19f2e953a85896fd3ed535e881fdc2e9d5536428250fb7c0a227d6e3e3b201d5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-nox-26.1-12.el8_10.aarch64.rpm",
+			"name": "emacs-nox",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "afdfb6faa57225e56e56ae98d55b5067589e51857f6dd8b87acfc45a6d517421",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-common-26.1-12.el8_10.aarch64.rpm",
+			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "df3da47f8dc2fd0d95c2feed27509b37e0decd16a610703cd23c074c5f0b2597",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-26.1-12.el8_10.aarch64.rpm",
+			"name": "emacs",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "15018ad3371279b24e0629b279e3a988229798acf6af4ba81c5c7f7f8f2e28fe",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-common-26.1-12.el8_10.ppc64le.rpm",
+			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "508e2040ed3992b6b32b1dd845732100a54ddd921faa29e4154018908b9f3e02",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-lucid-26.1-12.el8_10.ppc64le.rpm",
+			"name": "emacs-lucid",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9d2343e8d710d87a0735660754bc72242de2e0e1cf28751582d6c418b52ad799",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-26.1-12.el8_10.ppc64le.rpm",
+			"name": "emacs",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "aea70aa44fdf9bd706e4ee1ef3cc6027e154083064180a22e4e72564ebffd5c7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-nox-26.1-12.el8_10.ppc64le.rpm",
+			"name": "emacs-nox",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "50fabc0f24aba777da7cce2db294bf5de8f5ef112b8e549aaf5825a45e0e6b3c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-lucid-26.1-12.el8_10.s390x.rpm",
+			"name": "emacs-lucid",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b8d232df827b238d7d966b200441f2575562e7362e99539f63a211ef446b5ba9",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-common-26.1-12.el8_10.s390x.rpm",
+			"name": "emacs-common",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d2f868e938f1f2028ef4965f93aa130a1ad67b3ab9105a5ca711c6a1d214a059",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-26.1-12.el8_10.s390x.rpm",
+			"name": "emacs",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "ffd4282507b04752d1d8a74612df5f189bf0cc3b99a8098219795bee0afadf88",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-nox-26.1-12.el8_10.s390x.rpm",
+			"name": "emacs-nox",
+			"reboot_suggested": 0,
+			"release": "12.el8_10",
+			"src": "emacs-26.1-12.el8_10.src.rpm",
+			"version": "26.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:6987",
+			"id": "RHSA-2024:6987",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-30203",
+			"id": "CVE-2024-30203",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-30205",
+			"id": "CVE-2024-30205",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-39331",
+			"id": "CVE-2024-39331",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280296",
+			"id": "2280296",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2280298",
+			"id": "2280298",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2293942",
+			"id": "2293942",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-6987.html",
+			"id": "ALSA-2024:6987",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: emacs security update",
+	"type": "security",
+	"updated_date": 1727177274
+}
