@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "24e58e6bebf854f01749ec30abd25f8d5ec8f73947a1f2d165f3a3c7729ec030",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-8.2.0-11.el9_4.4.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "11.el9_4.4",
-			"src": "qemu-kvm-8.2.0-11.el9_4.4.src.rpm",
-			"version": "8.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9e1f6b885aae2b3b8f1f6e9090c6935bd346f70ffad94562a4894b3d20a84bc9",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-8.2.0-11.el9_4.4.ppc64le.rpm",
-			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "11.el9_4.4",
-			"src": "qemu-kvm-8.2.0-11.el9_4.4.src.rpm",
-			"version": "8.2.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0516f846ea8ae689a56396c2b49d06d0f8b168269a270afdd3266c3815aeacc2",
 			"checksum_type": "sha256",
@@ -215,6 +191,30 @@
 			"epoch": "17",
 			"filename": "qemu-kvm-audio-pa-8.2.0-11.el9_4.4.aarch64.rpm",
 			"name": "qemu-kvm-audio-pa",
+			"reboot_suggested": 0,
+			"release": "11.el9_4.4",
+			"src": "qemu-kvm-8.2.0-11.el9_4.4.src.rpm",
+			"version": "8.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "24e58e6bebf854f01749ec30abd25f8d5ec8f73947a1f2d165f3a3c7729ec030",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-8.2.0-11.el9_4.4.ppc64le.rpm",
+			"name": "qemu-img",
+			"reboot_suggested": 0,
+			"release": "11.el9_4.4",
+			"src": "qemu-kvm-8.2.0-11.el9_4.4.src.rpm",
+			"version": "8.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9e1f6b885aae2b3b8f1f6e9090c6935bd346f70ffad94562a4894b3d20a84bc9",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-8.2.0-11.el9_4.4.ppc64le.rpm",
+			"name": "qemu-guest-agent",
 			"reboot_suggested": 0,
 			"release": "11.el9_4.4",
 			"src": "qemu-kvm-8.2.0-11.el9_4.4.src.rpm",
@@ -654,5 +654,5 @@
 	"severity": "Important",
 	"title": "Important: qemu-kvm security update",
 	"type": "security",
-	"updated_date": 1720016024
+	"updated_date": 1720016027
 }
