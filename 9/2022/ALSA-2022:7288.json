@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "58d00dd21d0082ef5b326531bbac83f62750c851b00bd815d4fadc32312e3c32",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.1-43.el9_0.x86_64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7b665718d60062b134b9ba9b80ad3be9f74c6899e238b8cb387c7bc8733b9fdd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.1-43.el9_0.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "cc87a832f9f9ce4f72056f64febda7318f51c904f06baf930cbff09b508c328d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.1-43.el9_0.x86_64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "c82b92b0c1427105823a55e124e6ea752dcbf474e28346f25f925dbb52a30db0",
 			"checksum_type": "sha256",
@@ -53,42 +89,6 @@
 			"version": "3.0.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "58d00dd21d0082ef5b326531bbac83f62750c851b00bd815d4fadc32312e3c32",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.1-43.el9_0.x86_64.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7b665718d60062b134b9ba9b80ad3be9f74c6899e238b8cb387c7bc8733b9fdd",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.1-43.el9_0.i686.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "cc87a832f9f9ce4f72056f64febda7318f51c904f06baf930cbff09b508c328d",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-perl-3.0.1-43.el9_0.x86_64.rpm",
-			"name": "openssl-perl",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "2c76733a57f43cc39144cc197112915e7930461adcc8439faa78a5e8c72f3656",
 			"checksum_type": "sha256",
@@ -130,6 +130,30 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-3.0.1-43.el9_0.ppc64le.rpm",
+			"name": "openssl",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2a556d774e6162050116ea3a47c7cc8cc7cd7522f76e178cb7ece0af552f77d7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-3.0.1-43.el9_0.aarch64.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "43.el9_0",
+			"src": "openssl-3.0.1-43.el9_0.src.rpm",
+			"version": "3.0.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "34b41852b7cceada3b3b623942cfa68fd04de03823a25a89ca9c67403c93d4fd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-3.0.1-43.el9_0.aarch64.rpm",
 			"name": "openssl",
 			"reboot_suggested": 0,
 			"release": "43.el9_0",
@@ -195,30 +219,6 @@
 			"release": "43.el9_0",
 			"src": "openssl-3.0.1-43.el9_0.src.rpm",
 			"version": "3.0.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "2a556d774e6162050116ea3a47c7cc8cc7cd7522f76e178cb7ece0af552f77d7",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-libs-3.0.1-43.el9_0.aarch64.rpm",
-			"name": "openssl-libs",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "34b41852b7cceada3b3b623942cfa68fd04de03823a25a89ca9c67403c93d4fd",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-3.0.1-43.el9_0.aarch64.rpm",
-			"name": "openssl",
-			"reboot_suggested": 0,
-			"release": "43.el9_0",
-			"src": "openssl-3.0.1-43.el9_0.src.rpm",
-			"version": "3.0.1"
 		}
 	],
 	"references": [
@@ -256,5 +256,5 @@
 	"severity": "Important",
 	"title": "Important: openssl security update",
 	"type": "security",
-	"updated_date": 1667384568
+	"updated_date": 1678725352
 }
