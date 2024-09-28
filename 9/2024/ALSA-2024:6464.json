@@ -77,30 +77,6 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "7a9a814e1720e3674dddb25e1d1e592798c6263bb2b4a7eb6a389b74380d8030",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-tests-2.68.4-14.el9_4.1.s390x.rpm",
-			"name": "glib2-tests",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "963bea2782464473e09792fe5855a86bada303c4f865eeae963f99f743462735",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-devel-2.68.4-14.el9_4.1.s390x.rpm",
-			"name": "glib2-devel",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "f634d5f62689c108fb80fa6cfaf6475c385062ae8805aaf5ff78e72024deffc2",
 			"checksum_type": "sha256",
@@ -119,6 +95,30 @@
 			"epoch": "0",
 			"filename": "glib2-tests-2.68.4-14.el9_4.1.x86_64.rpm",
 			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7a9a814e1720e3674dddb25e1d1e592798c6263bb2b4a7eb6a389b74380d8030",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-tests-2.68.4-14.el9_4.1.s390x.rpm",
+			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "963bea2782464473e09792fe5855a86bada303c4f865eeae963f99f743462735",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-devel-2.68.4-14.el9_4.1.s390x.rpm",
+			"name": "glib2-devel",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
 			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
@@ -161,11 +161,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9bde32db5f34e510972d67825636c55eab3028440515b198f6ec853c8702b44c",
+			"arch": "s390x",
+			"checksum": "629ad99d953076f4362b7d40197f133d31600df6c49b0af1c40296e91071bcf1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-2.68.4-14.el9_4.1.aarch64.rpm",
+			"filename": "glib2-2.68.4-14.el9_4.1.s390x.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -173,11 +173,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "629ad99d953076f4362b7d40197f133d31600df6c49b0af1c40296e91071bcf1",
+			"arch": "aarch64",
+			"checksum": "9bde32db5f34e510972d67825636c55eab3028440515b198f6ec853c8702b44c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-2.68.4-14.el9_4.1.s390x.rpm",
+			"filename": "glib2-2.68.4-14.el9_4.1.aarch64.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -209,6 +209,18 @@
 			"version": "2.68.4"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "14e1a5824bfd15ee31b00e1ff1664609ac4a05b2acdd7670f6021ad587e6a5ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-static-2.68.4-14.el9_4.1.aarch64.rpm",
+			"name": "glib2-static",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "206170d6dd9dcb4eb5f152da4c42a8a12a20c5ce9e7a6353f4645a2529bc3c24",
 			"checksum_type": "sha256",
@@ -226,18 +238,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glib2-static-2.68.4-14.el9_4.1.ppc64le.rpm",
-			"name": "glib2-static",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "14e1a5824bfd15ee31b00e1ff1664609ac4a05b2acdd7670f6021ad587e6a5ca",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-static-2.68.4-14.el9_4.1.aarch64.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
