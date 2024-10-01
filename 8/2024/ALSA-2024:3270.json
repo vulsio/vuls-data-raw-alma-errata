@@ -6,6 +6,18 @@
 	"packages": [
 		{
 			"arch": "i686",
+			"checksum": "948b0a976f6e54e4fd2cd1b1824d793c83663b7a951d5848e593ce65cea6e0d5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.i686.rpm",
+			"name": "libsss_nss_idmap-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "sssd-2.9.4-3.el8_10.src.rpm",
+			"version": "2.9.4"
+		},
+		{
+			"arch": "i686",
 			"checksum": "187960b4dcba04f1d8738731adc0c0952e09d1b73c984eeccdab507bc3ee7fdc",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -83,18 +95,6 @@
 			"epoch": "0",
 			"filename": "libsss_nss_idmap-2.9.4-3.el8_10.i686.rpm",
 			"name": "libsss_nss_idmap",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "sssd-2.9.4-3.el8_10.src.rpm",
-			"version": "2.9.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "948b0a976f6e54e4fd2cd1b1824d793c83663b7a951d5848e593ce65cea6e0d5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.i686.rpm",
-			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "sssd-2.9.4-3.el8_10.src.rpm",
@@ -1122,6 +1122,18 @@
 		},
 		{
 			"arch": "ppc64le",
+			"checksum": "bbb9a88004b0ed94de527d813ed8a340198050a89e3882a6d2104bcca2c4a32d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sssd-idp-2.9.4-3.el8_10.ppc64le.rpm",
+			"name": "sssd-idp",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "sssd-2.9.4-3.el8_10.src.rpm",
+			"version": "2.9.4"
+		},
+		{
+			"arch": "ppc64le",
 			"checksum": "eee89fb59d59630d1f55d5938b7825c3e8b3bc5cf383c945f945964f82d8d9df",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -1133,12 +1145,12 @@
 			"version": "2.9.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "bbb9a88004b0ed94de527d813ed8a340198050a89e3882a6d2104bcca2c4a32d",
+			"arch": "s390x",
+			"checksum": "34022e0deebc7ccfc5ba3c3c47492d9ac65fda4b62ceecb9498c8563f232f789",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sssd-idp-2.9.4-3.el8_10.ppc64le.rpm",
-			"name": "sssd-idp",
+			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.s390x.rpm",
+			"name": "libsss_nss_idmap-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "sssd-2.9.4-3.el8_10.src.rpm",
@@ -1470,18 +1482,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "34022e0deebc7ccfc5ba3c3c47492d9ac65fda4b62ceecb9498c8563f232f789",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsss_nss_idmap-devel-2.9.4-3.el8_10.s390x.rpm",
-			"name": "libsss_nss_idmap-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "sssd-2.9.4-3.el8_10.src.rpm",
-			"version": "2.9.4"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "189ce34aaa58ca333df9cebeffcccd781496573e0f4aee271d42dcabac1569e7",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -1518,5 +1518,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: sssd security update",
 	"type": "security",
-	"updated_date": 1716993986
+	"updated_date": 1716993586
 }

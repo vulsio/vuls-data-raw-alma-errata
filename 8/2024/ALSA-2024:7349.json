@@ -1,0 +1,130 @@
+{
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* net/http: Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:7349",
+	"issued_date": 1727654400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "6ee875a16f3b160109fef34d7ded897d8d1421fb774160385fde6a66daf01ee4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-18.el8_10.x86_64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e8bb0ed0caa54addd91ead7fd9602584a5f092bed9cd249d5843b4a3c78b3a58",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-18.el8_10.x86_64.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "59545f9fdf922deb13be8bfc4eaad59307c714a766c762d6d587c3df046743fd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-18.el8_10.aarch64.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ead2ca7470be1ec365470d3014afcb85f905acf45b7802c85ed24c97806be6a2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-18.el8_10.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5d9437666b375f691c2a16ebd991026341308a3168daee25c7e64033fdab6633",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-18.el8_10.ppc64le.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6edc5080a0413b81066ed742fce342a8e95b6e8564ea901e255e71ff229e0bd1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-18.el8_10.ppc64le.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "504fd905a6375e88f0e7a7250462f704614290c952e225fb457a7ed87d6eaa45",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-9.2.10-18.el8_10.s390x.rpm",
+			"name": "grafana-selinux",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "76afa1f70ef4ed58609450de3b9e65daa2b42e4fe3f1ee9eeab8693dabef713a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-9.2.10-18.el8_10.s390x.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "grafana-9.2.10-18.el8_10.src.rpm",
+			"version": "9.2.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7349",
+			"id": "RHSA-2024:7349",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24791",
+			"id": "CVE-2024-24791",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2295310",
+			"id": "2295310",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-7349.html",
+			"id": "ALSA-2024:7349",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: grafana security update",
+	"type": "security",
+	"updated_date": 1727789164
+}
