@@ -1,0 +1,248 @@
+{
+	"description": "The linux-firmware packages contain all of the firmware files that are required by various devices to operate.\n\nSecurity Fix(es):\n\n* kernel: hw:amd:IOMMU improperly handles certain special address leading to a loss of guest integrity (CVE-2023-20584)\n* kernel: hw: amd:Incomplete system memory cleanup in SEV firmware corrupt guest private memory (CVE-2023-31356)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:7484",
+	"issued_date": 1727827200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "03388ed2705c49d3944f25fd82554355a9d8e18439ab61d5a928be6f1d9bb647",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl6000g2a-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl6000g2a-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "0430121006fec4e2e49e6369eccbe17cb36f0f9caa8b4cc3b3e3a6df8aec11a9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl2000-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl2000-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "25dadeb4bc3387c82347955e9575f2798e82bf80642732c5fc494ef04b331e10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl105-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl105-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "263f5643a8578010a11d6f6816be9fb70a2cfedc0c30f98c59dfdf86d486f24c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "iwl7260-firmware-25.30.13.0-143.3.el9_4.noarch.rpm",
+			"name": "iwl7260-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "25.30.13.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "2c6065a0665bd2bfd65a851b68c9d50eb017bc5cfb46b4cd6e8020179dc0ef4f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "iwl1000-firmware-39.31.5.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl1000-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "39.31.5.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "46bd49ebd60c9e1def27ea4d67cb941f9b719824473a2dc15fd35f3012d164a2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "iwl3160-firmware-25.30.13.0-143.3.el9_4.noarch.rpm",
+			"name": "iwl3160-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "25.30.13.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "5b1409bae5937a56c9e6141641852908d20036b2fbf5cf1636949c6106210735",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl5000-firmware-8.83.5.1_1-143.3.el9_4.noarch.rpm",
+			"name": "iwl5000-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "8.83.5.1_1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6ab4e85d882307d5331a55d3bddeb192c32406e92fe51769f588c1edaa66a762",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "linux-firmware-whence-20240905-143.3.el9_4.noarch.rpm",
+			"name": "linux-firmware-whence",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "20240905"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a855365eae209cc93f76a272eaffd066ae13a87909af9730acab12c16984868f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl5150-firmware-8.24.2.2-143.3.el9_4.noarch.rpm",
+			"name": "iwl5150-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "8.24.2.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "acb5dcba83e08ab4fb0cce30a5b9d91635ca01f06659ae6264b06dbea3b4586e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl2030-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl2030-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b35cb88a9417938a6d17f6d14b4fb660eaaaba9b1535bf38fb85900e81c2208f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl6050-firmware-41.28.5.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl6050-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "41.28.5.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "b458ed7d0a2d2ce1e2cf6e156aae13bfddf2b28eb6f705e0131efdcdb0ae3029",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libertas-sd8787-firmware-20240905-143.3.el9_4.noarch.rpm",
+			"name": "libertas-sd8787-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "20240905"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c1574bfe2dfaf060f07d936a1e043ef33ec0feb76a6e4ed408aa0c5527ef70bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl6000g2b-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl6000g2b-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c2e95a533ae5194e5d1988a15453be836d8f067ebea3e9087bb624a9f6076b7e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "netronome-firmware-20240905-143.3.el9_4.noarch.rpm",
+			"name": "netronome-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "20240905"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cf9ce8fbb000919c5c231772aed74595378a28a5a80b8130637ed9aaf7d07d3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "linux-firmware-20240905-143.3.el9_4.noarch.rpm",
+			"name": "linux-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "20240905"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e35811f39878a84e054efa5e2c265063e08a7d58f02b00ece15ce5a2d021ea77",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl100-firmware-39.31.5.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl100-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "39.31.5.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f7c04cb833b4ee5c62b2f5ec3feedbd3e1159230d92c54c1f6b11023fd158334",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iwl135-firmware-18.168.6.1-143.3.el9_4.noarch.rpm",
+			"name": "iwl135-firmware",
+			"reboot_suggested": 0,
+			"release": "143.3.el9_4",
+			"src": "linux-firmware-20240905-143.3.el9_4.src.rpm",
+			"version": "18.168.6.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7484",
+			"id": "RHSA-2024:7484",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-20584",
+			"id": "CVE-2023-20584",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-31356",
+			"id": "CVE-2023-31356",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2304583",
+			"id": "2304583",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2304593",
+			"id": "2304593",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-7484.html",
+			"id": "ALSA-2024:7484",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: linux-firmware security update",
+	"type": "security",
+	"updated_date": 1727960569
+}

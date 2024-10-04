@@ -17,6 +17,30 @@
 			"version": "6.6.2"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "5d71ea71fb8f330fd8d6712ed6d1a915c99de0a8bf19973c4adc5365f3435dfd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-6.6.2-4.el9_3.1.x86_64.rpm",
+			"name": "varnish",
+			"reboot_suggested": 0,
+			"release": "4.el9_3.1",
+			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
+			"version": "6.6.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f52ed10f4de01a280adec14877a1fa86b515ccc6e80af73ab544881a527736d0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-docs-6.6.2-4.el9_3.1.x86_64.rpm",
+			"name": "varnish-docs",
+			"reboot_suggested": 0,
+			"release": "4.el9_3.1",
+			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
+			"version": "6.6.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "96c655560051e4aa90092346f7c5030f8c4fe123b26aa5a387bbc2c9aef5c74d",
 			"checksum_type": "sha256",
@@ -65,30 +89,6 @@
 			"version": "6.6.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5d71ea71fb8f330fd8d6712ed6d1a915c99de0a8bf19973c4adc5365f3435dfd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-6.6.2-4.el9_3.1.x86_64.rpm",
-			"name": "varnish",
-			"reboot_suggested": 0,
-			"release": "4.el9_3.1",
-			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
-			"version": "6.6.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "f52ed10f4de01a280adec14877a1fa86b515ccc6e80af73ab544881a527736d0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-docs-6.6.2-4.el9_3.1.x86_64.rpm",
-			"name": "varnish-docs",
-			"reboot_suggested": 0,
-			"release": "4.el9_3.1",
-			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
-			"version": "6.6.2"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "6c3aee43b4d475d8d290d87f6385c06885dbe777d408968eee1aa06f17206764",
 			"checksum_type": "sha256",
@@ -125,18 +125,6 @@
 			"version": "6.6.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "0a3060f3236f591951b393125d87eb8abc27439a58b735be2dd0aabf45875b6e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "varnish-devel-6.6.2-4.el9_3.1.x86_64.rpm",
-			"name": "varnish-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9_3.1",
-			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
-			"version": "6.6.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "f79763be630d36dd3608ff6c6bf78a73594757de44df12a47bfec16aa7b3a9f4",
 			"checksum_type": "sha256",
@@ -149,11 +137,11 @@
 			"version": "6.6.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "f29676d3fe31c14d0de08da208ec42733f68aea97e7085c4d6b5a98ce7bab368",
+			"arch": "x86_64",
+			"checksum": "0a3060f3236f591951b393125d87eb8abc27439a58b735be2dd0aabf45875b6e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "varnish-devel-6.6.2-4.el9_3.1.s390x.rpm",
+			"filename": "varnish-devel-6.6.2-4.el9_3.1.x86_64.rpm",
 			"name": "varnish-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3.1",
@@ -166,6 +154,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "varnish-devel-6.6.2-4.el9_3.1.ppc64le.rpm",
+			"name": "varnish-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_3.1",
+			"src": "varnish-6.6.2-4.el9_3.1.src.rpm",
+			"version": "6.6.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f29676d3fe31c14d0de08da208ec42733f68aea97e7085c4d6b5a98ce7bab368",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "varnish-devel-6.6.2-4.el9_3.1.s390x.rpm",
 			"name": "varnish-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3.1",
