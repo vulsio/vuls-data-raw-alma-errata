@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "f85f64a1fb71053e0f2877d7703451ebadd7b820fa527fd6d06fe4022eb842c2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "frr-selinux-8.5.3-4.el9.noarch.rpm",
-			"name": "frr-selinux",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "frr-8.5.3-4.el9.src.rpm",
-			"version": "8.5.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "c81c623d5ef6777a3827743681e4885c0e88f856551d630ff6b92cba04253f94",
 			"checksum_type": "sha256",
@@ -29,12 +17,12 @@
 			"version": "8.5.3"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7dedd517a605b03b039339745373208ae8c7bdf83713e47fc5256384b2260d20",
+			"arch": "noarch",
+			"checksum": "f85f64a1fb71053e0f2877d7703451ebadd7b820fa527fd6d06fe4022eb842c2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "frr-8.5.3-4.el9.ppc64le.rpm",
-			"name": "frr",
+			"filename": "frr-selinux-8.5.3-4.el9.noarch.rpm",
+			"name": "frr-selinux",
 			"reboot_suggested": 0,
 			"release": "4.el9",
 			"src": "frr-8.5.3-4.el9.src.rpm",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "frr-8.5.3-4.el9.aarch64.rpm",
+			"name": "frr",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "frr-8.5.3-4.el9.src.rpm",
+			"version": "8.5.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7dedd517a605b03b039339745373208ae8c7bdf83713e47fc5256384b2260d20",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "frr-8.5.3-4.el9.ppc64le.rpm",
 			"name": "frr",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -160,5 +160,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: frr security update",
 	"type": "security",
-	"updated_date": 1715094277
+	"updated_date": 1715094284
 }

@@ -1,0 +1,82 @@
+{
+	"description": "The mod_jk module is an Apache HTTP Server plug-in that enables the Apache HTTP Server to connect with the Apache Tomcat servlet engine.\n\nBug Fix(es):\n\n* Rebase to upstream 1.2.50 release (JIRA:AlmaLinux-58855)\n\nSecurity fix(es):\n\n* mod_jk: information Disclosure / DoS (CVE-2024-46544) (JIRA:AlmaLinux-59800)",
+	"id": "ALSA-2024:7457",
+	"issued_date": 1727740800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "22ee66eb1ecf4ad4296ba30cb7eb18f981388ed1634545daefba127990523bac",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_jk-1.2.50-1.el9_4.1.x86_64.rpm",
+			"name": "mod_jk",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.1",
+			"src": "mod_jk-1.2.50-1.el9_4.1.src.rpm",
+			"version": "1.2.50"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6f43ff2200ea900c9d115ea706b62150e7e0a78c1f7189f8d3a98d9a8644ebd2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_jk-1.2.50-1.el9_4.1.aarch64.rpm",
+			"name": "mod_jk",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.1",
+			"src": "mod_jk-1.2.50-1.el9_4.1.src.rpm",
+			"version": "1.2.50"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "aeb4a8f7b7d3eb64c0545af7e32756650d5c78d9f33f5cd1c34e286615739531",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_jk-1.2.50-1.el9_4.1.ppc64le.rpm",
+			"name": "mod_jk",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.1",
+			"src": "mod_jk-1.2.50-1.el9_4.1.src.rpm",
+			"version": "1.2.50"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f31342a12bc4cd9bfe85ac8b3d014934e537bd4e2d7523d17b9455eae1598dc4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_jk-1.2.50-1.el9_4.1.s390x.rpm",
+			"name": "mod_jk",
+			"reboot_suggested": 0,
+			"release": "1.el9_4.1",
+			"src": "mod_jk-1.2.50-1.el9_4.1.src.rpm",
+			"version": "1.2.50"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7457",
+			"id": "RHSA-2024:7457",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-46544",
+			"id": "CVE-2024-46544",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2314194",
+			"id": "2314194",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-7457.html",
+			"id": "ALSA-2024:7457",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: mod_jk bug fix update",
+	"type": "security",
+	"updated_date": 1728464368
+}

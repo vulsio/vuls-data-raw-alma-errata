@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "e9fc43cd3f4a0d027441300881599f506b924ee2a965293e7f99b751f5a4409c",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "gimp-libs-2.99.8-3.el9.i686.rpm",
-			"name": "gimp-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "gimp-2.99.8-3.el9.src.rpm",
-			"version": "2.99.8"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "63f8f8b2b72f076fa6b2c6052b2960c917a9f88997afdcd0cbfc68151b986628",
 			"checksum_type": "sha256",
@@ -41,24 +29,12 @@
 			"version": "2.99.8"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "432a74a864f26587e3a568f69f374c5a0df4b92db2faaef5d44284ac7068ddb5",
+			"arch": "i686",
+			"checksum": "e9fc43cd3f4a0d027441300881599f506b924ee2a965293e7f99b751f5a4409c",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "gimp-libs-2.99.8-3.el9.ppc64le.rpm",
+			"filename": "gimp-libs-2.99.8-3.el9.i686.rpm",
 			"name": "gimp-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "gimp-2.99.8-3.el9.src.rpm",
-			"version": "2.99.8"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "66ba6e2dd1afcc8966707dc17109d620b392f518ace522b90e9df2ecc222747c",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "gimp-2.99.8-3.el9.ppc64le.rpm",
-			"name": "gimp",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "gimp-2.99.8-3.el9.src.rpm",
@@ -83,6 +59,30 @@
 			"epoch": "2",
 			"filename": "gimp-libs-2.99.8-3.el9.aarch64.rpm",
 			"name": "gimp-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gimp-2.99.8-3.el9.src.rpm",
+			"version": "2.99.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "432a74a864f26587e3a568f69f374c5a0df4b92db2faaef5d44284ac7068ddb5",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "gimp-libs-2.99.8-3.el9.ppc64le.rpm",
+			"name": "gimp-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "gimp-2.99.8-3.el9.src.rpm",
+			"version": "2.99.8"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "66ba6e2dd1afcc8966707dc17109d620b392f518ace522b90e9df2ecc222747c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "gimp-2.99.8-3.el9.ppc64le.rpm",
+			"name": "gimp",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "gimp-2.99.8-3.el9.src.rpm",
@@ -148,5 +148,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gimp security and enhancement update",
 	"type": "security",
-	"updated_date": 1668749062
+	"updated_date": 1668776330
 }

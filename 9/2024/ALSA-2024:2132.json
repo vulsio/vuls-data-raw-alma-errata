@@ -5,54 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "210fde9bca7cfa78ea2a0af44508b12e00780dfbe06e95c394765aa7b43a02e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-ibm-powervs-4.10.0-62.el9.noarch.rpm",
-			"name": "fence-agents-ibm-powervs",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "7de2e69a7d2f0cec06dc88b851e2b7e7fa3ee45cab5e8a927a5aae59d6af837b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-ibm-vpc-4.10.0-62.el9.noarch.rpm",
-			"name": "fence-agents-ibm-vpc",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a1d8d69a0d0ef8fe7ea1589214340121fee9cf64ad705a9b859086356b5cebbe",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-virsh-4.10.0-62.el9.noarch.rpm",
-			"name": "fence-agents-virsh",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a5867c0ce0bdae504b066f42a12ff1903ac5d918bc03fca12a3ab48242558673",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-common-4.10.0-62.el9.noarch.rpm",
-			"name": "fence-agents-common",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0026f5bdedf0312e6e0cdd62bb434a61197448b8e924d9bb4aae3afaf1791576",
 			"checksum_type": "sha256",
@@ -89,6 +41,18 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "210fde9bca7cfa78ea2a0af44508b12e00780dfbe06e95c394765aa7b43a02e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-ibm-powervs-4.10.0-62.el9.noarch.rpm",
+			"name": "fence-agents-ibm-powervs",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "696e7f944ce1656f1c54d6df5d9428a24253d0c6dca24f7beeeb7585e38292ed",
 			"checksum_type": "sha256",
@@ -113,12 +77,48 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "7de2e69a7d2f0cec06dc88b851e2b7e7fa3ee45cab5e8a927a5aae59d6af837b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-ibm-vpc-4.10.0-62.el9.noarch.rpm",
+			"name": "fence-agents-ibm-vpc",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "9aff18fe2149014371f95215287c87de8908e54b2d92d2846c87942bb5443bec",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "fence-virtd-tcp-4.10.0-62.el9.x86_64.rpm",
 			"name": "fence-virtd-tcp",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a1d8d69a0d0ef8fe7ea1589214340121fee9cf64ad705a9b859086356b5cebbe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-virsh-4.10.0-62.el9.noarch.rpm",
+			"name": "fence-agents-virsh",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a5867c0ce0bdae504b066f42a12ff1903ac5d918bc03fca12a3ab48242558673",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-common-4.10.0-62.el9.noarch.rpm",
+			"name": "fence-agents-common",
 			"reboot_suggested": 0,
 			"release": "62.el9",
 			"src": "fence-agents-4.10.0-62.el9.src.rpm",
@@ -161,6 +161,18 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "330adff2b97b733a08315e62a0098a595b8de22b924085b573ff720cbfb33787",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kubevirt-4.10.0-62.el9.aarch64.rpm",
+			"name": "fence-agents-kubevirt",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "014b049ed91b30e9b97342fed5e73513d0c85504b720ed290bddd413821074e7",
 			"checksum_type": "sha256",
@@ -179,30 +191,6 @@
 			"epoch": "0",
 			"filename": "fence-agents-compute-4.10.0-62.el9.ppc64le.rpm",
 			"name": "fence-agents-compute",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "330adff2b97b733a08315e62a0098a595b8de22b924085b573ff720cbfb33787",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kubevirt-4.10.0-62.el9.aarch64.rpm",
-			"name": "fence-agents-kubevirt",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "bd46bdbab35110106cf3eaa1fbe78154d6c154e956e321760f6c640ed0da37d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kubevirt-4.10.0-62.el9.s390x.rpm",
-			"name": "fence-agents-kubevirt",
 			"reboot_suggested": 0,
 			"release": "62.el9",
 			"src": "fence-agents-4.10.0-62.el9.src.rpm",
@@ -581,6 +569,66 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "bd46bdbab35110106cf3eaa1fbe78154d6c154e956e321760f6c640ed0da37d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kubevirt-4.10.0-62.el9.s390x.rpm",
+			"name": "fence-agents-kubevirt",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4de114e9632e3e3ac0aa54cede875a7787cd3df693f701402db50f54c25a77fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-zvm-4.10.0-62.el9.s390x.rpm",
+			"name": "fence-agents-zvm",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "df27cf05a257932996b0c74aefa70406b7b2aff02cf7005d80b9c3b314f065cd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kdump-4.10.0-62.el9.s390x.rpm",
+			"name": "fence-agents-kdump",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f3e5b7fcc56a69151c13360e56f811467813b6e1d515adafee0a9123b342b528",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-redfish-4.10.0-62.el9.s390x.rpm",
+			"name": "fence-agents-redfish",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f6a7b4f3cb36cd501ba6558dc42f6fdcc4ddc7fb8d77486140cd326de96002a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-all-4.10.0-62.el9.s390x.rpm",
+			"name": "fence-agents-all",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "25343a64e8e8354aec5745ff7a48e8290057361d2e12a2e3ba026b1d6c895007",
 			"checksum_type": "sha256",
@@ -635,6 +683,42 @@
 			"epoch": "0",
 			"filename": "fence-agents-openstack-4.10.0-62.el9.ppc64le.rpm",
 			"name": "fence-agents-openstack",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0da13528cb853a42d589762913e9da92147e9df0a84a8cb8a2a86cbbc899a232",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-redfish-4.10.0-62.el9.aarch64.rpm",
+			"name": "fence-agents-redfish",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "31572ebe4762ca87241c93a9e9ca06b457348974008c2493b1240c029c6fcbd6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-all-4.10.0-62.el9.aarch64.rpm",
+			"name": "fence-agents-all",
+			"reboot_suggested": 0,
+			"release": "62.el9",
+			"src": "fence-agents-4.10.0-62.el9.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f4f8d5daf7cc24fa1b5550efaeea8faeb0a90bf31597d2f99ca4af57849bb6bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kdump-4.10.0-62.el9.aarch64.rpm",
+			"name": "fence-agents-kdump",
 			"reboot_suggested": 0,
 			"release": "62.el9",
 			"src": "fence-agents-4.10.0-62.el9.src.rpm",
@@ -747,90 +831,6 @@
 			"release": "62.el9",
 			"src": "fence-agents-4.10.0-62.el9.src.rpm",
 			"version": "4.10.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "4de114e9632e3e3ac0aa54cede875a7787cd3df693f701402db50f54c25a77fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-zvm-4.10.0-62.el9.s390x.rpm",
-			"name": "fence-agents-zvm",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "df27cf05a257932996b0c74aefa70406b7b2aff02cf7005d80b9c3b314f065cd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9.s390x.rpm",
-			"name": "fence-agents-kdump",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f3e5b7fcc56a69151c13360e56f811467813b6e1d515adafee0a9123b342b528",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9.s390x.rpm",
-			"name": "fence-agents-redfish",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f6a7b4f3cb36cd501ba6558dc42f6fdcc4ddc7fb8d77486140cd326de96002a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9.s390x.rpm",
-			"name": "fence-agents-all",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "0da13528cb853a42d589762913e9da92147e9df0a84a8cb8a2a86cbbc899a232",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9.aarch64.rpm",
-			"name": "fence-agents-redfish",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "31572ebe4762ca87241c93a9e9ca06b457348974008c2493b1240c029c6fcbd6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9.aarch64.rpm",
-			"name": "fence-agents-all",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f4f8d5daf7cc24fa1b5550efaeea8faeb0a90bf31597d2f99ca4af57849bb6bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9.aarch64.rpm",
-			"name": "fence-agents-kdump",
-			"reboot_suggested": 0,
-			"release": "62.el9",
-			"src": "fence-agents-4.10.0-62.el9.src.rpm",
-			"version": "4.10.0"
 		}
 	],
 	"references": [
@@ -878,5 +878,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: fence-agents security and bug fix update",
 	"type": "security",
-	"updated_date": 1715094484
+	"updated_date": 1715094496
 }
