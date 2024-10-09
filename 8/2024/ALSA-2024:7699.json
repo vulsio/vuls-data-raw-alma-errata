@@ -1,0 +1,182 @@
+{
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nSecurity Fix(es):\n\n* thunderbird: 115.16/128.3 ()\n* firefox: thunderbird: Specially crafted WebTransport requests could lead to denial of service (CVE-2024-9399)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131 and Thunderbird 131 (CVE-2024-9403)\n* firefox: thunderbird: Potential directory upload bypass via clickjacking (CVE-2024-9397)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131, Firefox ESR 115.16, Firefox ESR 128.3, Thunderbird 131, and Thunderbird 128.3 (CVE-2024-9401)\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 131, Firefox ESR 128.3, Thunderbird 131, and Thunderbird 128.3 (CVE-2024-9402)\n* firefox: thunderbird: External protocol handlers could be enumerated via popups (CVE-2024-9398)\n* firefox: thunderbird: Potential memory corruption during JIT compilation (CVE-2024-9400)\n* firefox: thunderbird: Potential memory corruption may occur when cloning certain objects (CVE-2024-9396)\n* firefox: thunderbird: Cross-origin access to PDF contents through multipart responses (CVE-2024-9393)\n* firefox: thunderbird: Cross-origin access to JSON contents through multipart responses (CVE-2024-9394)\n* firefox: thunderbird: Compromised content process can bypass site isolation (CVE-2024-9392)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:7699",
+	"issued_date": 1728259200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "a4a20a5731190c5d433cbca2cd73ade77384cf01af6625a16d0c3f74810fec9d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.3.0-1.el8_10.alma.1.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.3.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.3.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9a7c7c6d9984565f93860450bf6e4ba94b3cc97868297fd4b7ea3f1445aeec73",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.3.0-1.el8_10.alma.1.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.3.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.3.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "7baec764f5c418ac1df2ee4a47ade1d2585f03874ed599199e1fd04133a6fc66",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.3.0-1.el8_10.alma.1.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.3.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.3.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "920b0a41ab15d797dbb4e465d1d120690111807b4ce32c5ddc02fa4aa7706e95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.3.0-1.el8_10.alma.1.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.3.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.3.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7699",
+			"id": "RHSA-2024:7699",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9392",
+			"id": "CVE-2024-9392",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9393",
+			"id": "CVE-2024-9393",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9394",
+			"id": "CVE-2024-9394",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9396",
+			"id": "CVE-2024-9396",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9397",
+			"id": "CVE-2024-9397",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9398",
+			"id": "CVE-2024-9398",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9399",
+			"id": "CVE-2024-9399",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9400",
+			"id": "CVE-2024-9400",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9401",
+			"id": "CVE-2024-9401",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9402",
+			"id": "CVE-2024-9402",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9403",
+			"id": "CVE-2024-9403",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315945",
+			"id": "2315945",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315947",
+			"id": "2315947",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315949",
+			"id": "2315949",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315950",
+			"id": "2315950",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315951",
+			"id": "2315951",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315952",
+			"id": "2315952",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315953",
+			"id": "2315953",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315954",
+			"id": "2315954",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315956",
+			"id": "2315956",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315957",
+			"id": "2315957",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315959",
+			"id": "2315959",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-7699.html",
+			"id": "ALSA-2024:7699",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: thunderbird security update",
+	"type": "security",
+	"updated_date": 1728464136
+}
