@@ -246,18 +246,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "c234f8530a494af206ef3f14a2f3ae0fa2a231b524aa118edb999ea7ec976613",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-553.el8_10.aarch64.rpm",
-			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "553.el8_10",
-			"src": "kernel-4.18.0-553.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "32f6e538b998c4c4776fb04a948f5da7f5db5b6aa98288ae921663d909a09586",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -461,11 +449,11 @@
 			"version": "4.18.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "f7a0a52a8cc2c3a7b85fd6b343e1d6dff0bf3477b1ff61409f804e1909df61cc",
+			"arch": "aarch64",
+			"checksum": "c234f8530a494af206ef3f14a2f3ae0fa2a231b524aa118edb999ea7ec976613",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-4.18.0-553.el8_10.ppc64le.rpm",
+			"filename": "kernel-tools-libs-devel-4.18.0-553.el8_10.aarch64.rpm",
 			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "553.el8_10",
@@ -671,6 +659,18 @@
 			"epoch": "0",
 			"filename": "perf-4.18.0-553.el8_10.ppc64le.rpm",
 			"name": "perf",
+			"reboot_suggested": 0,
+			"release": "553.el8_10",
+			"src": "kernel-4.18.0-553.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f7a0a52a8cc2c3a7b85fd6b343e1d6dff0bf3477b1ff61409f804e1909df61cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-4.18.0-553.el8_10.ppc64le.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "553.el8_10",
 			"src": "kernel-4.18.0-553.el8_10.src.rpm",

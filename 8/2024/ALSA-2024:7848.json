@@ -1,0 +1,250 @@
+{
+	"description": "OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full-strength general-purpose cryptography library.\n\nSecurity Fix(es):\n\n* openssl: SSL_select_next_proto buffer overread (CVE-2024-5535)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:7848",
+	"issued_date": 1728432000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "99e7ddc9ca6896ca27a68c82e42a126811d388bf5776e4e4adfae4cf95f4ad54",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-14.el8_6.i686.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "i686",
+			"checksum": "dcc9a4da0bb3fea8df827dd396bb0ac331ea352c5d3933d09289fe74a8c52027",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-14.el8_6.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "21460f9c9818acf7c9a314a7b56522718e7370387845bbf3a5a74c20a91d1076",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-14.el8_6.x86_64.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3750ef804b7ee9dffb9150509e267e91b4cbfa89c53721c98df4810fe9fb85c8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-1.1.1k-14.el8_6.x86_64.rpm",
+			"name": "openssl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7addfdd72171527e70300907e5cd0ad4c643b0d3dd5b93cc2a6ef3d84587dc17",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-14.el8_6.x86_64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c326e49266a4071060ff543828b37bed315d4c326c46327559f7ccd8c73b0d47",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-1.1.1k-14.el8_6.x86_64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "00250d5a267b7fc3ec2619bcf7ce68bf0ee193ca6e8a4c3d1a2db86a12cc5bdf",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-1.1.1k-14.el8_6.aarch64.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "04922b9b85cf7395559349832009b9490cc87b77a8ae82ed183d681d74c62eb5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-14.el8_6.aarch64.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3589afe4cf87d89fe0c4084bcd0fc7efc600da728840a2d5408ae32126650e90",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-1.1.1k-14.el8_6.aarch64.rpm",
+			"name": "openssl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9bb14dc70bd82fcd739e3cf342432989a5b48a9d0324664098166dbf1f2e3e0c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-14.el8_6.aarch64.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2c2ecbc96b34cc6ba1b6e4c0e11e9801516731474dc976d0800d30335274dcfd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-14.el8_6.ppc64le.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "81de7183038475505cc4291e040af6efc3993583f5189f4eafdfbc012e1a50d5",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-1.1.1k-14.el8_6.ppc64le.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b92f4d41426c2cf6157c116fa8d0161edd3f09fbf7d0bd68c8d3e8c9ba7bd05a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-1.1.1k-14.el8_6.ppc64le.rpm",
+			"name": "openssl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "de99ed47214218c949673e545d8ed380b83dbac0c73c1dbb64220510c8d0771a",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-14.el8_6.ppc64le.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "15ab2268ba4a9776a3894c5755a0f36f5ac7cdf67d543aa559e6bd1807f9441c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-1.1.1k-14.el8_6.s390x.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9b773490d55c05a5a57ae6a6ef04543d78b0534d1f46398b8036bceb6ba95c4e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-1.1.1k-14.el8_6.s390x.rpm",
+			"name": "openssl",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a06b9061d76cc088235bf58e4e09462acbc0167c5e869039c12431089fbe4743",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-1.1.1k-14.el8_6.s390x.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e1649e4fa510aaebb9fe25ac747cc00418d5dbd50e0a4262e9fea202a5261465",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-libs-1.1.1k-14.el8_6.s390x.rpm",
+			"name": "openssl-libs",
+			"reboot_suggested": 0,
+			"release": "14.el8_6",
+			"src": "openssl-1.1.1k-14.el8_6.src.rpm",
+			"version": "1.1.1k"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7848",
+			"id": "RHSA-2024:7848",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-5535",
+			"id": "CVE-2024-5535",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2294581",
+			"id": "2294581",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-7848.html",
+			"id": "ALSA-2024:7848",
+			"type": "self"
+		}
+	],
+	"severity": "Low",
+	"title": "Low: openssl security update",
+	"type": "security",
+	"updated_date": 1728559440
+}
