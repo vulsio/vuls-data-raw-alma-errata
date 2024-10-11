@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "c0429c7fe2ad7bdd76fc6e46b2625c44221267766ab886a265a9ed0c7619ecd7",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "runc-1.1.9-1.el9.x86_64.rpm",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "runc-1.1.9-1.el9.src.rpm",
-			"version": "1.1.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "21d0599589e60a1e6feae25df24cb6af284461ffaf2109b77921a393bd34cb90",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "runc-1.1.9-1.el9.aarch64.rpm",
-			"name": "runc",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "runc-1.1.9-1.el9.src.rpm",
-			"version": "1.1.9"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "b7d24c52e193f822cd630395e7e8e765750a69edff95f7df70ea575f551ffa3b",
 			"checksum_type": "sha256",
@@ -41,11 +17,35 @@
 			"version": "1.1.9"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "c0429c7fe2ad7bdd76fc6e46b2625c44221267766ab886a265a9ed0c7619ecd7",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.9-1.el9.x86_64.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "runc-1.1.9-1.el9.src.rpm",
+			"version": "1.1.9"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "102467e9862bad192c97eb3de75efecea26bb4528b4498efb991d8bdcc8457de",
 			"checksum_type": "sha256",
 			"epoch": "4",
 			"filename": "runc-1.1.9-1.el9.s390x.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "runc-1.1.9-1.el9.src.rpm",
+			"version": "1.1.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "21d0599589e60a1e6feae25df24cb6af284461ffaf2109b77921a393bd34cb90",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.9-1.el9.aarch64.rpm",
 			"name": "runc",
 			"reboot_suggested": 0,
 			"release": "1.el9",
