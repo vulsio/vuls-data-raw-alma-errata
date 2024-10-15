@@ -1,0 +1,82 @@
+{
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* firefox: Use-after-free in Animation timeline (128.3.1 ESR Chemspill) (CVE-2024-9680)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:7977",
+	"issued_date": 1728518400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "015f6f7cabc524d766d0476336d4ffc17cee0bafd54bcd606990ddabb4128196",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.3.1-2.el8_10.alma.1.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.alma.1",
+			"src": "firefox-128.3.1-2.el8_10.alma.1.src.rpm",
+			"version": "128.3.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ca847d5118bf8d44bd30764149559fe107774b74f8d844246012e0d8b65af2a8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.3.1-2.el8_10.alma.1.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.alma.1",
+			"src": "firefox-128.3.1-2.el8_10.alma.1.src.rpm",
+			"version": "128.3.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9d02e3888330a9a0169006cf8e22cca83b1f69000bbc0098b6562146cc6e6879",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.3.1-2.el8_10.alma.1.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.alma.1",
+			"src": "firefox-128.3.1-2.el8_10.alma.1.src.rpm",
+			"version": "128.3.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "825a6b472a686ba7a03c96a53cccd7c8672ec15fa5308866db976c65aa40194c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.3.1-2.el8_10.alma.1.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "2.el8_10.alma.1",
+			"src": "firefox-128.3.1-2.el8_10.alma.1.src.rpm",
+			"version": "128.3.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:7977",
+			"id": "RHSA-2024:7977",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9680",
+			"id": "CVE-2024-9680",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2317442",
+			"id": "2317442",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-7977.html",
+			"id": "ALSA-2024:7977",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1728739887
+}
