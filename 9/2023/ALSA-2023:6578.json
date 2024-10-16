@@ -17,11 +17,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "55acbc425afdc9e850dd5590a97de77096e0e54e2836927756e9f76c514ac455",
+			"arch": "ppc64le",
+			"checksum": "baec8f5215485e0c25c540435186209c8372a28593b1e3c7f4c243194415c8de",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-2.0.6-4.el9_3.aarch64.rpm",
+			"filename": "libqb-2.0.6-4.el9_3.ppc64le.rpm",
 			"name": "libqb",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -41,11 +41,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "baec8f5215485e0c25c540435186209c8372a28593b1e3c7f4c243194415c8de",
+			"arch": "aarch64",
+			"checksum": "55acbc425afdc9e850dd5590a97de77096e0e54e2836927756e9f76c514ac455",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-2.0.6-4.el9_3.ppc64le.rpm",
+			"filename": "libqb-2.0.6-4.el9_3.aarch64.rpm",
 			"name": "libqb",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -77,18 +77,6 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "255c83f1fc9096c65fa2b0880513e9e3421b336c8a84a634195b34eed14f5f27",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libqb-devel-2.0.6-4.el9_3.aarch64.rpm",
-			"name": "libqb-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9_3",
-			"src": "libqb-2.0.6-4.el9_3.src.rpm",
-			"version": "2.0.6"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "ac8bcbc03e218374a05900d4052b5fb181f23f9a2d94dcb6fd1a78f4ad100f5c",
 			"checksum_type": "sha256",
@@ -101,11 +89,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "6355285a056933973389884caecdd05ba218f91ee823855af4850a037ca53516",
+			"arch": "x86_64",
+			"checksum": "6c9dcf587d2b35da1c94dbea64b102fbe38252d8f50e218585008aa0fab64115",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-devel-2.0.6-4.el9_3.s390x.rpm",
+			"filename": "libqb-devel-2.0.6-4.el9_3.x86_64.rpm",
 			"name": "libqb-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -113,11 +101,23 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "6c9dcf587d2b35da1c94dbea64b102fbe38252d8f50e218585008aa0fab64115",
+			"arch": "aarch64",
+			"checksum": "255c83f1fc9096c65fa2b0880513e9e3421b336c8a84a634195b34eed14f5f27",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-devel-2.0.6-4.el9_3.x86_64.rpm",
+			"filename": "libqb-devel-2.0.6-4.el9_3.aarch64.rpm",
+			"name": "libqb-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_3",
+			"src": "libqb-2.0.6-4.el9_3.src.rpm",
+			"version": "2.0.6"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6355285a056933973389884caecdd05ba218f91ee823855af4850a037ca53516",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libqb-devel-2.0.6-4.el9_3.s390x.rpm",
 			"name": "libqb-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
