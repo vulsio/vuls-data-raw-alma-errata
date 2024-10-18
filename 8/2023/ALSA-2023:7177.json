@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "6eb8db2b5e082806cdfe14d705978b748f66fb4a26066e12947035e97a40b833",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-11.el8_9.i686.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f93076e4d43ee51730ab2fa26f0bd38f80bd1829520e1f3c993bb666332da4ba",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-11.el8_9.i686.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "11.el8_9",
-			"src": "bind-9.11.36-11.el8_9.src.rpm",
-			"version": "9.11.36"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "4eb4d07e03d5d044ca3b471e6076a18b272214a4130c1976074d03aa1f5ef47e",
 			"checksum_type": "sha256",
@@ -119,6 +95,30 @@
 			"epoch": "32",
 			"filename": "bind-libs-9.11.36-11.el8_9.i686.rpm",
 			"name": "bind-libs",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "i686",
+			"checksum": "6eb8db2b5e082806cdfe14d705978b748f66fb4a26066e12947035e97a40b833",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-11.el8_9.i686.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "11.el8_9",
+			"src": "bind-9.11.36-11.el8_9.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f93076e4d43ee51730ab2fa26f0bd38f80bd1829520e1f3c993bb666332da4ba",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-11.el8_9.i686.rpm",
+			"name": "bind-export-libs",
 			"reboot_suggested": 0,
 			"release": "11.el8_9",
 			"src": "bind-9.11.36-11.el8_9.src.rpm",
@@ -870,5 +870,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: bind security update",
 	"type": "security",
-	"updated_date": 1700734751
+	"updated_date": 1700728769
 }

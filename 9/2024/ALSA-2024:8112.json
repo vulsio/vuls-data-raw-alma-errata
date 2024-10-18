@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "48e313abc264ac371afe536d6bdedec27115f86b7bdd28a5078cdd7ed98fbadc",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "buildah-1.33.9-1.el9_4.ppc64le.rpm",
-			"name": "buildah",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "buildah-1.33.9-1.el9_4.src.rpm",
-			"version": "1.33.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d10c0eeb4e4221ff7875a20e933dc8b587522633e57ade6e49176d6091b5b3c3",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "buildah-tests-1.33.9-1.el9_4.ppc64le.rpm",
-			"name": "buildah-tests",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "buildah-1.33.9-1.el9_4.src.rpm",
-			"version": "1.33.9"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "75247b05b48d3811374b16bc32e86d071337e9327dbcb4eb714cb69c3bc396cd",
 			"checksum_type": "sha256",
@@ -53,11 +29,11 @@
 			"version": "1.33.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3998f7103a816538cbffb72733f0a53a4a5aa186f35a16d146982bf62b9a6713",
+			"arch": "ppc64le",
+			"checksum": "48e313abc264ac371afe536d6bdedec27115f86b7bdd28a5078cdd7ed98fbadc",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "buildah-1.33.9-1.el9_4.aarch64.rpm",
+			"filename": "buildah-1.33.9-1.el9_4.ppc64le.rpm",
 			"name": "buildah",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -65,11 +41,11 @@
 			"version": "1.33.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9f5998cf6b56ecf79caa0cdcf74c3347f7d92c3f713f30bf43a7173ec2a5e51c",
+			"arch": "ppc64le",
+			"checksum": "d10c0eeb4e4221ff7875a20e933dc8b587522633e57ade6e49176d6091b5b3c3",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "buildah-tests-1.33.9-1.el9_4.aarch64.rpm",
+			"filename": "buildah-tests-1.33.9-1.el9_4.ppc64le.rpm",
 			"name": "buildah-tests",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -95,6 +71,30 @@
 			"epoch": "2",
 			"filename": "buildah-1.33.9-1.el9_4.s390x.rpm",
 			"name": "buildah",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "buildah-1.33.9-1.el9_4.src.rpm",
+			"version": "1.33.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3998f7103a816538cbffb72733f0a53a4a5aa186f35a16d146982bf62b9a6713",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "buildah-1.33.9-1.el9_4.aarch64.rpm",
+			"name": "buildah",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "buildah-1.33.9-1.el9_4.src.rpm",
+			"version": "1.33.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9f5998cf6b56ecf79caa0cdcf74c3347f7d92c3f713f30bf43a7173ec2a5e51c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "buildah-tests-1.33.9-1.el9_4.aarch64.rpm",
+			"name": "buildah-tests",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
 			"src": "buildah-1.33.9-1.el9_4.src.rpm",
@@ -156,5 +156,5 @@
 	"severity": "Important",
 	"title": "Important: buildah security update",
 	"type": "security",
-	"updated_date": 1729073512
+	"updated_date": 1729073511
 }
