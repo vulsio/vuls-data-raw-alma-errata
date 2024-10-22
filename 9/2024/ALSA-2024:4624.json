@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "4b466946c6df4fcc6f2a7d11a932b284c1f2a5a0d365943859b4d3a40fdc899a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "thunderbird-115.13.0-3.el9_4.alma.1.x86_64.rpm",
-			"name": "thunderbird",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.alma.1",
-			"src": "thunderbird-115.13.0-3.el9_4.alma.1.src.rpm",
-			"version": "115.13.0"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "5fade19139e33b7e3b31e5b88120e782a14f7a106028ab21fa381603d935b472",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "115.13.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "84dc545fb81f6448e9dda79175250d8da7567b3e670d10c4330ef2cb672f41fa",
+			"arch": "x86_64",
+			"checksum": "4b466946c6df4fcc6f2a7d11a932b284c1f2a5a0d365943859b4d3a40fdc899a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "thunderbird-115.13.0-3.el9_4.alma.1.ppc64le.rpm",
+			"filename": "thunderbird-115.13.0-3.el9_4.alma.1.x86_64.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.alma.1",
@@ -46,6 +34,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "thunderbird-115.13.0-3.el9_4.alma.1.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.alma.1",
+			"src": "thunderbird-115.13.0-3.el9_4.alma.1.src.rpm",
+			"version": "115.13.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "84dc545fb81f6448e9dda79175250d8da7567b3e670d10c4330ef2cb672f41fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-115.13.0-3.el9_4.alma.1.ppc64le.rpm",
 			"name": "thunderbird",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.alma.1",
@@ -98,5 +98,5 @@
 	"severity": "Important",
 	"title": "Important: thunderbird security update",
 	"type": "security",
-	"updated_date": 1721384497
+	"updated_date": 1721384498
 }

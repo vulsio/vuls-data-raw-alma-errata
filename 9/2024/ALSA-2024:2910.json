@@ -29,6 +29,54 @@
 			"version": "16.20.2"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "2f5518e200e3ab81326b715367a2fe5599724a33ad45eec9b91d1b76f12cd1e3",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.aarch64.rpm",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "53855d916d8f1fd995b00ce8b6b1e8f02cb5c8b29e81c92a2c86a72d9ab029a7",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7445e3a0a3086a0870f7e2c6347bc8fbb91bcebc55f2b4f48d7288dc0eaa6355",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ede4f9efae617ef4a97cb1a71a307a23125156b7cb1ac45921ab26277013f3a0",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-8.el9_4.aarch64.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "053aa6c94d983659147ee500fe278e37a56c806efc56218a6a07b7a57cd89826",
 			"checksum_type": "sha256",
@@ -77,11 +125,23 @@
 			"version": "16.20.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2f5518e200e3ab81326b715367a2fe5599724a33ad45eec9b91d1b76f12cd1e3",
+			"arch": "s390x",
+			"checksum": "5e1f703bdbde91d1d516acd232018376a5c988b2dd67baf3b2fd866f1ae4cfcb",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.aarch64.rpm",
+			"filename": "nodejs-16.20.2-8.el9_4.s390x.rpm",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7f92eadc97d1e3451107866be0d70d4473daca58a491f61237046867a3bc839b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.s390x.rpm",
 			"name": "npm",
 			"reboot_suggested": 0,
 			"release": "1.16.20.2.8.el9_4",
@@ -89,23 +149,11 @@
 			"version": "8.19.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "53855d916d8f1fd995b00ce8b6b1e8f02cb5c8b29e81c92a2c86a72d9ab029a7",
+			"arch": "s390x",
+			"checksum": "9ec9b5500ab500f3d845903e32367e3f21de0a4f2778f6e5793e40649e241311",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.aarch64.rpm",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "7445e3a0a3086a0870f7e2c6347bc8fbb91bcebc55f2b4f48d7288dc0eaa6355",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.20.2-8.el9_4.aarch64.rpm",
+			"filename": "nodejs-libs-16.20.2-8.el9_4.s390x.rpm",
 			"name": "nodejs-libs",
 			"reboot_suggested": 0,
 			"release": "8.el9_4",
@@ -113,12 +161,12 @@
 			"version": "16.20.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ede4f9efae617ef4a97cb1a71a307a23125156b7cb1ac45921ab26277013f3a0",
+			"arch": "s390x",
+			"checksum": "c471c11fb541b5cec6f1d1522b91f3ce0ba9f7aaf83b2954338c206aad90c57e",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "nodejs-16.20.2-8.el9_4.aarch64.rpm",
-			"name": "nodejs",
+			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.s390x.rpm",
+			"name": "nodejs-full-i18n",
 			"reboot_suggested": 0,
 			"release": "8.el9_4",
 			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
@@ -171,54 +219,6 @@
 			"release": "1.16.20.2.8.el9_4",
 			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
 			"version": "8.19.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "5e1f703bdbde91d1d516acd232018376a5c988b2dd67baf3b2fd866f1ae4cfcb",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-16.20.2-8.el9_4.s390x.rpm",
-			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "7f92eadc97d1e3451107866be0d70d4473daca58a491f61237046867a3bc839b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "npm-8.19.4-1.16.20.2.8.el9_4.s390x.rpm",
-			"name": "npm",
-			"reboot_suggested": 0,
-			"release": "1.16.20.2.8.el9_4",
-			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
-			"version": "8.19.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "9ec9b5500ab500f3d845903e32367e3f21de0a4f2778f6e5793e40649e241311",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.20.2-8.el9_4.s390x.rpm",
-			"name": "nodejs-libs",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "c471c11fb541b5cec6f1d1522b91f3ce0ba9f7aaf83b2954338c206aad90c57e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-full-i18n-16.20.2-8.el9_4.s390x.rpm",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "nodejs-16.20.2-8.el9_4.src.rpm",
-			"version": "16.20.2"
 		}
 	],
 	"references": [
