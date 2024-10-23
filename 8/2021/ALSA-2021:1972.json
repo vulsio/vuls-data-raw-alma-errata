@@ -17,11 +17,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "4a896bdde1a6b3a08e9390459df39594225b0b41aaba1a010cbd937e0ae13f7c",
+			"arch": "x86_64",
+			"checksum": "b97dc64711360de0f157ea20061334ec4c2e27f5146bf18fcbff500ed1c89fa7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pandoc-2.0.6-5.el8.aarch64.rpm",
+			"filename": "pandoc-2.0.6-5.el8.x86_64.rpm",
 			"name": "pandoc",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -29,11 +29,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "b97dc64711360de0f157ea20061334ec4c2e27f5146bf18fcbff500ed1c89fa7",
+			"arch": "aarch64",
+			"checksum": "4a896bdde1a6b3a08e9390459df39594225b0b41aaba1a010cbd937e0ae13f7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pandoc-2.0.6-5.el8.x86_64.rpm",
+			"filename": "pandoc-2.0.6-5.el8.aarch64.rpm",
 			"name": "pandoc",
 			"reboot_suggested": 0,
 			"release": "5.el8",
@@ -55,18 +55,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1972.html",
-			"id": "ALSA-2021-1972",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-5238",
 			"id": "CVE-2020-5238",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1972.html",
+			"id": "ALSA-2021-1972",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: pandoc security update",
 	"type": "security",
-	"updated_date": 1621319475
+	"updated_date": 1628672040
 }

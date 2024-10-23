@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "2764da3923d477c4a857eb3aea37de969f1af911dbf8ee9585fc4b982fd8d6bd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zziplib-0.13.68-9.el8.aarch64.rpm",
-			"name": "zziplib",
-			"reboot_suggested": 0,
-			"release": "9.el8",
-			"src": "zziplib-0.13.68-9.el8.src.rpm",
-			"version": "0.13.68"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "541edbccbb8fd3f457589cd00e423baa66d4141e0c30b8d0967be8b059d7efd7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zziplib-utils-0.13.68-9.el8.aarch64.rpm",
-			"name": "zziplib-utils",
-			"reboot_suggested": 0,
-			"release": "9.el8",
-			"src": "zziplib-0.13.68-9.el8.src.rpm",
-			"version": "0.13.68"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f3aa81afa8078bcdb597f138a03e32bcb0c5e066faddb586f1248a6740bb4ba8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zziplib-devel-0.13.68-9.el8.aarch64.rpm",
-			"name": "zziplib-devel",
-			"reboot_suggested": 0,
-			"release": "9.el8",
-			"src": "zziplib-0.13.68-9.el8.src.rpm",
-			"version": "0.13.68"
-		},
-		{
 			"arch": "i686",
 			"checksum": "323dfc3babd7fc11857b451976d7a8db2cee8f4515ec381f8af8ec7604a998a6",
 			"checksum_type": "sha256",
@@ -101,6 +65,42 @@
 			"version": "0.13.68"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "2764da3923d477c4a857eb3aea37de969f1af911dbf8ee9585fc4b982fd8d6bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zziplib-0.13.68-9.el8.aarch64.rpm",
+			"name": "zziplib",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "zziplib-0.13.68-9.el8.src.rpm",
+			"version": "0.13.68"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "541edbccbb8fd3f457589cd00e423baa66d4141e0c30b8d0967be8b059d7efd7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zziplib-utils-0.13.68-9.el8.aarch64.rpm",
+			"name": "zziplib-utils",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "zziplib-0.13.68-9.el8.src.rpm",
+			"version": "0.13.68"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f3aa81afa8078bcdb597f138a03e32bcb0c5e066faddb586f1248a6740bb4ba8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zziplib-devel-0.13.68-9.el8.aarch64.rpm",
+			"name": "zziplib-devel",
+			"reboot_suggested": 0,
+			"release": "9.el8",
+			"src": "zziplib-0.13.68-9.el8.src.rpm",
+			"version": "0.13.68"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "0adff6408684dbdb9f4efe9d5abfc079e4fe6fa93de02e764a28dfcde0eb18d1",
 			"checksum_type": "sha256",
@@ -139,18 +139,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-4316.html",
-			"id": "ALSA-2021-4316",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-18442",
 			"id": "CVE-2020-18442",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-4316.html",
+			"id": "ALSA-2021-4316",
+			"type": "self"
 		}
 	],
 	"severity": "Low",
 	"title": "Low: zziplib security update",
 	"type": "security",
-	"updated_date": 1636462962
+	"updated_date": 1636712461
 }

@@ -5,42 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "5885c265cd260aab689b5474e87363650cb7c139f865c5d9440edf86fc331370",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gssdp-devel-1.0.5-1.el8.aarch64.rpm",
-			"name": "gssdp-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "gssdp-1.0.5-1.el8.src.rpm",
-			"version": "1.0.5"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "6c844d13ebf582672013a54345f097d1b093ecfd603f783357e0d1f6d7ba64ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gssdp-docs-1.0.5-1.el8.noarch.rpm",
-			"name": "gssdp-docs",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "gssdp-1.0.5-1.el8.src.rpm",
-			"version": "1.0.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "eb86e45b02d0c99c0f494b87aed8283888149ed21da87d2a144a211e610ad9fc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gssdp-1.0.5-1.el8.aarch64.rpm",
-			"name": "gssdp",
-			"reboot_suggested": 0,
-			"release": "1.el8",
-			"src": "gssdp-1.0.5-1.el8.src.rpm",
-			"version": "1.0.5"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0e81920a87a838100c55c31d4fd15d034c98abee4dfe3de221d82058b95d3d54",
 			"checksum_type": "sha256",
@@ -59,6 +23,18 @@
 			"epoch": "0",
 			"filename": "gssdp-devel-1.0.5-1.el8.i686.rpm",
 			"name": "gssdp-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gssdp-1.0.5-1.el8.src.rpm",
+			"version": "1.0.5"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6c844d13ebf582672013a54345f097d1b093ecfd603f783357e0d1f6d7ba64ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssdp-docs-1.0.5-1.el8.noarch.rpm",
+			"name": "gssdp-docs",
 			"reboot_suggested": 0,
 			"release": "1.el8",
 			"src": "gssdp-1.0.5-1.el8.src.rpm",
@@ -113,6 +89,30 @@
 			"version": "1.0.5"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "5885c265cd260aab689b5474e87363650cb7c139f865c5d9440edf86fc331370",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssdp-devel-1.0.5-1.el8.aarch64.rpm",
+			"name": "gssdp-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gssdp-1.0.5-1.el8.src.rpm",
+			"version": "1.0.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "eb86e45b02d0c99c0f494b87aed8283888149ed21da87d2a144a211e610ad9fc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gssdp-1.0.5-1.el8.aarch64.rpm",
+			"name": "gssdp",
+			"reboot_suggested": 0,
+			"release": "1.el8",
+			"src": "gssdp-1.0.5-1.el8.src.rpm",
+			"version": "1.0.5"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "b8bad58a0ca36327453091f07439d0bed37725c56fec76feccd4b61c223d1452",
 			"checksum_type": "sha256",
@@ -139,18 +139,18 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1789.html",
-			"id": "ALSA-2021-1789",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2020-12695",
 			"id": "CVE-2020-12695",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1789.html",
+			"id": "ALSA-2021-1789",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: gssdp and gupnp security update",
 	"type": "security",
-	"updated_date": 1621317912
+	"updated_date": 1628672040
 }
