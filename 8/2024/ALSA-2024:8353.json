@@ -1,0 +1,130 @@
+{
+	"description": "This package contains software for integrating the libreswan VPN software with NetworkManager and the GNOME desktop\n\nSecurity Fix(es):\n\n* NetworkManager-libreswan: Local privilege escalation via leftupdown (CVE-2024-9050)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"id": "ALSA-2024:8353",
+	"issued_date": 1729641600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "4eb7a56f9d02a5ee01768c780fd07cbec03d85ee0e49d85f6a9b93758d90a46d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-1.2.10-7.el8_10.x86_64.rpm",
+			"name": "NetworkManager-libreswan",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "69d2f3961a7c8e5fa732310057615cba7cfd0cd45f7e3daafce45bcf56ff9798",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-gnome-1.2.10-7.el8_10.x86_64.rpm",
+			"name": "NetworkManager-libreswan-gnome",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "45eede5c8057dd86e4f476671c5c2a4b48223063dae583dd1620ca83c3addd79",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-1.2.10-7.el8_10.aarch64.rpm",
+			"name": "NetworkManager-libreswan",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e4ac4b8b30a820e758979667a4796de876279ec5bc1f13d4003a36e7d653b2ec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-gnome-1.2.10-7.el8_10.aarch64.rpm",
+			"name": "NetworkManager-libreswan-gnome",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4042ec3fabc8846426b023bb7325d043931a610733f1ce31105935f6404d7dd7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-gnome-1.2.10-7.el8_10.ppc64le.rpm",
+			"name": "NetworkManager-libreswan-gnome",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "919937fd39fe04c42593ba5cc93ef2980f9712e336c9e6ceffcdbe68f58b9265",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-1.2.10-7.el8_10.ppc64le.rpm",
+			"name": "NetworkManager-libreswan",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "a5b461b4abfe8358134a2068db993e7e25dffcca83a1b68a670ba808439e48f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-1.2.10-7.el8_10.s390x.rpm",
+			"name": "NetworkManager-libreswan",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d429b6ede1507a53344989a297cf51947c8c571e6a3e1c06cfaded3a004d1f96",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "NetworkManager-libreswan-gnome-1.2.10-7.el8_10.s390x.rpm",
+			"name": "NetworkManager-libreswan-gnome",
+			"reboot_suggested": 0,
+			"release": "7.el8_10",
+			"src": "NetworkManager-libreswan-1.2.10-7.el8_10.src.rpm",
+			"version": "1.2.10"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8353",
+			"id": "RHSA-2024:8353",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-9050",
+			"id": "CVE-2024-9050",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2313828",
+			"id": "2313828",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-8353.html",
+			"id": "ALSA-2024:8353",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: NetworkManager-libreswan security update",
+	"type": "security",
+	"updated_date": 1729759752
+}

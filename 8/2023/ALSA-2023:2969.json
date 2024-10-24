@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "673966c2fe3195bfbe8f264b31030d6f4fabc3bb11cd115d83b253cd4b98fb66",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "net-snmp-libs-5.8-27.el8.i686.rpm",
-			"name": "net-snmp-libs",
-			"reboot_suggested": 0,
-			"release": "27.el8",
-			"src": "net-snmp-5.8-27.el8.src.rpm",
-			"version": "5.8"
-		},
-		{
-			"arch": "i686",
 			"checksum": "70f8beec8a8fb3dc58094bd24781854b061239a20737a190cc7f6ae9955ae05a",
 			"checksum_type": "sha256",
 			"epoch": "1",
@@ -35,6 +23,18 @@
 			"epoch": "1",
 			"filename": "net-snmp-agent-libs-5.8-27.el8.i686.rpm",
 			"name": "net-snmp-agent-libs",
+			"reboot_suggested": 0,
+			"release": "27.el8",
+			"src": "net-snmp-5.8-27.el8.src.rpm",
+			"version": "5.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "673966c2fe3195bfbe8f264b31030d6f4fabc3bb11cd115d83b253cd4b98fb66",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "net-snmp-libs-5.8-27.el8.i686.rpm",
+			"name": "net-snmp-libs",
 			"reboot_suggested": 0,
 			"release": "27.el8",
 			"src": "net-snmp-5.8-27.el8.src.rpm",
@@ -364,5 +364,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: net-snmp security and bug fix update",
 	"type": "security",
-	"updated_date": 1684533625
+	"updated_date": 1684533680
 }
