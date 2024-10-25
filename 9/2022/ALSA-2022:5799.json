@@ -17,18 +17,6 @@
 			"version": "1.17.12"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "588dc6330562281eb74baec7ee436597015a2fd5acf8a7eb88d6f91eb81d620b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-race-1.17.12-1.el9_0.x86_64.rpm",
-			"name": "golang-race",
-			"reboot_suggested": 0,
-			"release": "1.el9_0",
-			"src": "golang-1.17.12-1.el9_0.src.rpm",
-			"version": "1.17.12"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "72104a38591636eb5347c52dc7fc99796145050bce5c947969d9ddfc3faa4dbb",
 			"checksum_type": "sha256",
@@ -53,12 +41,48 @@
 			"version": "1.17.12"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "b14afa034fe98c1140e8b7e26f8f38ea1606df0e125d00552d29e4c808ca5047",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-1.17.12-1.el9_0.ppc64le.rpm",
+			"name": "golang",
+			"reboot_suggested": 0,
+			"release": "1.el9_0",
+			"src": "golang-1.17.12-1.el9_0.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c4e41baf35e30bd7f166af141b77c78b18cf3050b861da57b1f2d6e715f7e5e5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-bin-1.17.12-1.el9_0.ppc64le.rpm",
+			"name": "golang-bin",
+			"reboot_suggested": 0,
+			"release": "1.el9_0",
+			"src": "golang-1.17.12-1.el9_0.src.rpm",
+			"version": "1.17.12"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "c8197d076419d8de01726a8e6e5818593a8c2358bc4afb2843a93e69a9a69daf",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "golang-docs-1.17.12-1.el9_0.noarch.rpm",
 			"name": "golang-docs",
+			"reboot_suggested": 0,
+			"release": "1.el9_0",
+			"src": "golang-1.17.12-1.el9_0.src.rpm",
+			"version": "1.17.12"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "588dc6330562281eb74baec7ee436597015a2fd5acf8a7eb88d6f91eb81d620b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-race-1.17.12-1.el9_0.x86_64.rpm",
+			"name": "golang-race",
 			"reboot_suggested": 0,
 			"release": "1.el9_0",
 			"src": "golang-1.17.12-1.el9_0.src.rpm",
@@ -89,30 +113,6 @@
 			"version": "1.17.12"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8c3dc7b1b40ecd48a29e8dedbcd40da581f99567b9fc13bd69559c70eb096294",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-1.17.12-1.el9_0.s390x.rpm",
-			"name": "golang",
-			"reboot_suggested": 0,
-			"release": "1.el9_0",
-			"src": "golang-1.17.12-1.el9_0.src.rpm",
-			"version": "1.17.12"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e849bfad0f4fbaa1148803a9e13181ccf4eb48f476e49cebb7282fa36cc45b06",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-bin-1.17.12-1.el9_0.s390x.rpm",
-			"name": "golang-bin",
-			"reboot_suggested": 0,
-			"release": "1.el9_0",
-			"src": "golang-1.17.12-1.el9_0.src.rpm",
-			"version": "1.17.12"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "b445fba0c7fa46380c9b88bd7385b4b81c28c5701cea57d08ce4d1a2d4fe481d",
 			"checksum_type": "sha256",
@@ -137,11 +137,11 @@
 			"version": "1.17.12"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b14afa034fe98c1140e8b7e26f8f38ea1606df0e125d00552d29e4c808ca5047",
+			"arch": "s390x",
+			"checksum": "8c3dc7b1b40ecd48a29e8dedbcd40da581f99567b9fc13bd69559c70eb096294",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "golang-1.17.12-1.el9_0.ppc64le.rpm",
+			"filename": "golang-1.17.12-1.el9_0.s390x.rpm",
 			"name": "golang",
 			"reboot_suggested": 0,
 			"release": "1.el9_0",
@@ -149,11 +149,11 @@
 			"version": "1.17.12"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c4e41baf35e30bd7f166af141b77c78b18cf3050b861da57b1f2d6e715f7e5e5",
+			"arch": "s390x",
+			"checksum": "e849bfad0f4fbaa1148803a9e13181ccf4eb48f476e49cebb7282fa36cc45b06",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "golang-bin-1.17.12-1.el9_0.ppc64le.rpm",
+			"filename": "golang-bin-1.17.12-1.el9_0.s390x.rpm",
 			"name": "golang-bin",
 			"reboot_suggested": 0,
 			"release": "1.el9_0",
@@ -266,5 +266,5 @@
 	"severity": "Important",
 	"title": "Important: go-toolset and golang security and bug fix update",
 	"type": "security",
-	"updated_date": 1659713007
+	"updated_date": 1659712666
 }
