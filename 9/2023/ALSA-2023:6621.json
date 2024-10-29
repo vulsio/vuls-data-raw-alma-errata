@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "3650a3e5c9c5c37b107f5d950ca1c97f516aac5f452e7ddf7a294264b770e05e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "protobuf-c-1.3.3-13.el9.x86_64.rpm",
+			"name": "protobuf-c",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
+			"version": "1.3.3"
+		},
+		{
 			"arch": "i686",
 			"checksum": "c020ed014211395b5771d6e1d5209ede9de2147aa4a209f644b16fab0dec5cea",
 			"checksum_type": "sha256",
@@ -29,18 +41,6 @@
 			"version": "1.3.3"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "7e582cf1e3db0deb723d219df62b355b8a44a27b29dfd965c3e5fd85ac95f284",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "protobuf-c-1.3.3-13.el9.ppc64le.rpm",
-			"name": "protobuf-c",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
-			"version": "1.3.3"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "401906271b33b325890e33d2cbb5dad8d3fdab3ae29755edc455913c3d7e75be",
 			"checksum_type": "sha256",
@@ -53,36 +53,12 @@
 			"version": "1.3.3"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "3650a3e5c9c5c37b107f5d950ca1c97f516aac5f452e7ddf7a294264b770e05e",
+			"arch": "ppc64le",
+			"checksum": "7e582cf1e3db0deb723d219df62b355b8a44a27b29dfd965c3e5fd85ac95f284",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "protobuf-c-1.3.3-13.el9.x86_64.rpm",
+			"filename": "protobuf-c-1.3.3-13.el9.ppc64le.rpm",
 			"name": "protobuf-c",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
-			"version": "1.3.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "0e231f1a5dfeac470c2225ce32a61f6b5d11cc120993038355e50bd2f038a7bd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "protobuf-c-devel-1.3.3-13.el9.i686.rpm",
-			"name": "protobuf-c-devel",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
-			"version": "1.3.3"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d1513c1cf5ef9771f23fe6c11bb2050719d35c30408301669c3fd9faa65169da",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "protobuf-c-compiler-1.3.3-13.el9.i686.rpm",
-			"name": "protobuf-c-compiler",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
@@ -106,6 +82,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "protobuf-c-devel-1.3.3-13.el9.ppc64le.rpm",
+			"name": "protobuf-c-devel",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
+			"version": "1.3.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "0e231f1a5dfeac470c2225ce32a61f6b5d11cc120993038355e50bd2f038a7bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "protobuf-c-devel-1.3.3-13.el9.i686.rpm",
 			"name": "protobuf-c-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -137,24 +125,12 @@
 			"version": "1.3.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "4ece2848fd2a3d02d4af9f79d8c56c77c51a2f4c5b71816c401ccfb01775c1ea",
+			"arch": "i686",
+			"checksum": "d1513c1cf5ef9771f23fe6c11bb2050719d35c30408301669c3fd9faa65169da",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "protobuf-c-compiler-1.3.3-13.el9.aarch64.rpm",
+			"filename": "protobuf-c-compiler-1.3.3-13.el9.i686.rpm",
 			"name": "protobuf-c-compiler",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
-			"version": "1.3.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "57bc80e7f31e347ddb10b58fe3529d23fffaafbf874fe4e3a329b9b14cbcfb90",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "protobuf-c-devel-1.3.3-13.el9.aarch64.rpm",
-			"name": "protobuf-c-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
@@ -178,6 +154,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "protobuf-c-devel-1.3.3-13.el9.s390x.rpm",
+			"name": "protobuf-c-devel",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
+			"version": "1.3.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4ece2848fd2a3d02d4af9f79d8c56c77c51a2f4c5b71816c401ccfb01775c1ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "protobuf-c-compiler-1.3.3-13.el9.aarch64.rpm",
+			"name": "protobuf-c-compiler",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "protobuf-c-1.3.3-13.el9.src.rpm",
+			"version": "1.3.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "57bc80e7f31e347ddb10b58fe3529d23fffaafbf874fe4e3a329b9b14cbcfb90",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "protobuf-c-devel-1.3.3-13.el9.aarch64.rpm",
 			"name": "protobuf-c-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -210,5 +210,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: protobuf-c security update",
 	"type": "security",
-	"updated_date": 1699963519
+	"updated_date": 1699963547
 }
