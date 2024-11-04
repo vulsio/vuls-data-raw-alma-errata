@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "2457f85c7a5f58bbbe9f67c5f274465c52e01520f653bea3c2887f1b75a79adc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-3.2.1-10.el9.i686.rpm",
-			"name": "freeglut",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f0ff5f07c47f1689a8b6517e23ad1ed8d07ac1c4f1c8a134cadea9813e35ccf4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-devel-3.2.1-10.el9.i686.rpm",
-			"name": "freeglut-devel",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "747436d1f2af79ac4978b88c18677e89eb415d3f7f8d3addf3ae336d71e5ac8a",
 			"checksum_type": "sha256",
@@ -46,6 +22,54 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "freeglut-devel-3.2.1-10.el9.ppc64le.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1b1beb512edab448742a49a708390fa01e061b2aee5237c39570c07ec638bac9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.2.1-10.el9.x86_64.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "2457f85c7a5f58bbbe9f67c5f274465c52e01520f653bea3c2887f1b75a79adc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-3.2.1-10.el9.i686.rpm",
+			"name": "freeglut",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6fb137c4833114bdf438253be9d72b6f7efcfb68df846175d11e5b2c1bb9c6e3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.2.1-10.el9.x86_64.rpm",
+			"name": "freeglut-devel",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "freeglut-3.2.1-10.el9.src.rpm",
+			"version": "3.2.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f0ff5f07c47f1689a8b6517e23ad1ed8d07ac1c4f1c8a134cadea9813e35ccf4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "freeglut-devel-3.2.1-10.el9.i686.rpm",
 			"name": "freeglut-devel",
 			"reboot_suggested": 0,
 			"release": "10.el9",
@@ -99,30 +123,6 @@
 			"release": "10.el9",
 			"src": "freeglut-3.2.1-10.el9.src.rpm",
 			"version": "3.2.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "1b1beb512edab448742a49a708390fa01e061b2aee5237c39570c07ec638bac9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-3.2.1-10.el9.x86_64.rpm",
-			"name": "freeglut",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6fb137c4833114bdf438253be9d72b6f7efcfb68df846175d11e5b2c1bb9c6e3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "freeglut-devel-3.2.1-10.el9.x86_64.rpm",
-			"name": "freeglut-devel",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "freeglut-3.2.1-10.el9.src.rpm",
-			"version": "3.2.1"
 		}
 	],
 	"references": [
@@ -160,5 +160,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: freeglut security update",
 	"type": "security",
-	"updated_date": 1715093884
+	"updated_date": 1715093679
 }

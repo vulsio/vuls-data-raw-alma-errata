@@ -5,54 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
-			"name": "libX11-devel",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9db43557989cf17a44ff936cd59d632d0105f4c231f41317fd063de21d9ec0e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-common-1.7.0-9.el9.noarch.rpm",
-			"name": "libX11-common",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c8907ab5dd52193ff9973f5676a90c7ba957df9cd5109f2577a4e7b1fcbe120d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-1.7.0-9.el9.i686.rpm",
-			"name": "libX11",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "cb78fed074b20d07924fe2bb82a9707002da44c34e2e4a29ccb53594da9e27f8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-xcb-1.7.0-9.el9.i686.rpm",
-			"name": "libX11-xcb",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "26a7864aa031b23395fec6def0ac08686a32eff26319c2b6a3435301a0d2a206",
 			"checksum_type": "sha256",
@@ -83,6 +35,90 @@
 			"epoch": "0",
 			"filename": "libX11-1.7.0-9.el9.ppc64le.rpm",
 			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9db43557989cf17a44ff936cd59d632d0105f4c231f41317fd063de21d9ec0e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-common-1.7.0-9.el9.noarch.rpm",
+			"name": "libX11-common",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4c382abc012d0aac93d993591032165488c5f8798fb50accbdb25923831092a2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.7.0-9.el9.x86_64.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "936e2724840d3d7592173cee97d9b5c03298907f00004a6adb0fe5f026dd5222",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.7.0-9.el9.x86_64.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "c8907ab5dd52193ff9973f5676a90c7ba957df9cd5109f2577a4e7b1fcbe120d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.7.0-9.el9.i686.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "cb78fed074b20d07924fe2bb82a9707002da44c34e2e4a29ccb53594da9e27f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.7.0-9.el9.i686.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ffef859d9b686a279ce2f63df732f3fbf540d7fe9353104051bf9be49e5e2d68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.7.0-9.el9.x86_64.rpm",
+			"name": "libX11-xcb",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -159,42 +195,6 @@
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
 			"version": "1.7.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4c382abc012d0aac93d993591032165488c5f8798fb50accbdb25923831092a2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-1.7.0-9.el9.x86_64.rpm",
-			"name": "libX11",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "936e2724840d3d7592173cee97d9b5c03298907f00004a6adb0fe5f026dd5222",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.x86_64.rpm",
-			"name": "libX11-devel",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ffef859d9b686a279ce2f63df732f3fbf540d7fe9353104051bf9be49e5e2d68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-xcb-1.7.0-9.el9.x86_64.rpm",
-			"name": "libX11-xcb",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
 		}
 	],
 	"references": [
@@ -242,5 +242,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libX11 security update",
 	"type": "security",
-	"updated_date": 1715094333
+	"updated_date": 1715094307
 }

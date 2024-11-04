@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "700c95d3bfd740faaf48e8ab7861e396a0ddefaebaeee5f818c6924d54b247ae",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-libs-1.16.2-3.el9_3.1.i686.rpm",
-			"name": "unbound-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.1",
-			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
-			"version": "1.16.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "0eaa678cd9c035fae01711d717454c196af38047f705a8bbd63fca38ce56b503",
 			"checksum_type": "sha256",
@@ -47,6 +35,54 @@
 			"epoch": "0",
 			"filename": "unbound-libs-1.16.2-3.el9_3.1.ppc64le.rpm",
 			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.1",
+			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "700c95d3bfd740faaf48e8ab7861e396a0ddefaebaeee5f818c6924d54b247ae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-3.el9_3.1.i686.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.1",
+			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7c1e7442c37287de8fe0539c8ee6e0d9b8e4064240929338b17d438e7175632f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-3.el9_3.1.x86_64.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.1",
+			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b5ab5f7f866e68d1246247f5ef1f21e83bd02f5a1efa38c6baf8058d40897e5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-3.el9_3.1.x86_64.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.1",
+			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d95c8293979254e9da239b63dc9b7fa77b6629ee4e742a77616f25e5887783fb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-3.el9_3.1.x86_64.rpm",
+			"name": "python3-unbound",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.1",
 			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
@@ -125,54 +161,6 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "7c1e7442c37287de8fe0539c8ee6e0d9b8e4064240929338b17d438e7175632f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-1.16.2-3.el9_3.1.x86_64.rpm",
-			"name": "unbound",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.1",
-			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
-			"version": "1.16.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b5ab5f7f866e68d1246247f5ef1f21e83bd02f5a1efa38c6baf8058d40897e5b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-libs-1.16.2-3.el9_3.1.x86_64.rpm",
-			"name": "unbound-libs",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.1",
-			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
-			"version": "1.16.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d95c8293979254e9da239b63dc9b7fa77b6629ee4e742a77616f25e5887783fb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-unbound-1.16.2-3.el9_3.1.x86_64.rpm",
-			"name": "python3-unbound",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.1",
-			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
-			"version": "1.16.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2051a4929e0a234d6c032ab426046565240c59476837e81cf8467c26ad1d15b4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.1.ppc64le.rpm",
-			"name": "unbound-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.1",
-			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
-			"version": "1.16.2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "373a9fcdd64438cb6103b47a283325d1dd447100bf35db9ade4e45d9f786693d",
 			"checksum_type": "sha256",
@@ -185,11 +173,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e01443e46fc6d387fcf8b6a86d051f12cccea7b364c903cbeec393decb973aa3",
+			"arch": "ppc64le",
+			"checksum": "2051a4929e0a234d6c032ab426046565240c59476837e81cf8467c26ad1d15b4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.1.x86_64.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.1.ppc64le.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.1",
@@ -214,6 +202,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "unbound-devel-1.16.2-3.el9_3.1.aarch64.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.1",
+			"src": "unbound-1.16.2-3.el9_3.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e01443e46fc6d387fcf8b6a86d051f12cccea7b364c903cbeec393decb973aa3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-3.el9_3.1.x86_64.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.1",
@@ -256,5 +256,5 @@
 	"severity": "Important",
 	"title": "Important: unbound security update",
 	"type": "security",
-	"updated_date": 1709131291
+	"updated_date": 1709131293
 }

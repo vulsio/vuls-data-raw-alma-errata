@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "7d2cd2926a2a1055a094e35ace1481c09033033a86e78e656745ce16d58e4d61",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-selinux-6.5.2-6.el9_2.alma.1.noarch.rpm",
-			"name": "keylime-selinux",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "13b0dedbd8eef50c3a6a1b9aa3717f4f24e51424426e0db0061112481981b254",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "keylime-verifier-6.5.2-6.el9_2.alma.1.ppc64le.rpm",
 			"name": "keylime-verifier",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "7d2cd2926a2a1055a094e35ace1481c09033033a86e78e656745ce16d58e4d61",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-selinux-6.5.2-6.el9_2.alma.1.noarch.rpm",
+			"name": "keylime-selinux",
 			"reboot_suggested": 0,
 			"release": "6.el9_2.alma.1",
 			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
@@ -83,6 +83,78 @@
 			"epoch": "0",
 			"filename": "python3-keylime-6.5.2-6.el9_2.alma.1.ppc64le.rpm",
 			"name": "python3-keylime",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "310d09507febd1c3e7d8aded9ba6aa58e1336a3b700576d02e692ef5c3a87dfb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-base-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "keylime-base",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3e8c9261a9c9c1d4fcdd90e8067ea308057b5654e26f47c08634cddfbd125c90",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-registrar-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "keylime-registrar",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "50160b9df32c22c2a454debbdb50a0df8a8b8a7f400ed5596ffc3d6058d3f507",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-tenant-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "keylime-tenant",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7953eb33188434dc2b3ae9fcf3b903d4e2b0e1339bd2b79b0de7b9bd92368538",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-keylime-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "python3-keylime",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d43e8b63bff5890ac833f366f0fd90d36218f5464bd5e6742cb8c5c46206e966",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "keylime",
+			"reboot_suggested": 0,
+			"release": "6.el9_2.alma.1",
+			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
+			"version": "6.5.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "dc6974bfb3cdf392d184412525cc5e9f3e57234343c9903a3b2c204dbbf84f1a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-verifier-6.5.2-6.el9_2.alma.1.x86_64.rpm",
+			"name": "keylime-verifier",
 			"reboot_suggested": 0,
 			"release": "6.el9_2.alma.1",
 			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
@@ -231,78 +303,6 @@
 			"release": "6.el9_2.alma.1",
 			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
 			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "310d09507febd1c3e7d8aded9ba6aa58e1336a3b700576d02e692ef5c3a87dfb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-base-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "keylime-base",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3e8c9261a9c9c1d4fcdd90e8067ea308057b5654e26f47c08634cddfbd125c90",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-registrar-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "keylime-registrar",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "50160b9df32c22c2a454debbdb50a0df8a8b8a7f400ed5596ffc3d6058d3f507",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-tenant-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "keylime-tenant",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "7953eb33188434dc2b3ae9fcf3b903d4e2b0e1339bd2b79b0de7b9bd92368538",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-keylime-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "python3-keylime",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "d43e8b63bff5890ac833f366f0fd90d36218f5464bd5e6742cb8c5c46206e966",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "keylime",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "dc6974bfb3cdf392d184412525cc5e9f3e57234343c9903a3b2c204dbbf84f1a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-verifier-6.5.2-6.el9_2.alma.1.x86_64.rpm",
-			"name": "keylime-verifier",
-			"reboot_suggested": 0,
-			"release": "6.el9_2.alma.1",
-			"src": "keylime-6.5.2-6.el9_2.alma.1.src.rpm",
-			"version": "6.5.2"
 		}
 	],
 	"references": [
@@ -340,5 +340,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: keylime security update",
 	"type": "security",
-	"updated_date": 1694684694
+	"updated_date": 1694684695
 }
