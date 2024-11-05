@@ -17,36 +17,12 @@
 			"version": "1.18.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "8ae139e1a86aae5e3390bd30c8f2fc1f1d52565e2917749ef3040c303f919b3d",
+			"arch": "i686",
+			"checksum": "eb9ded445593ff9c7e64cceeba64c7eb6579dc60c425df28f79734a9381c13d9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnbd-1.18.1-4.el9_4.ppc64le.rpm",
+			"filename": "libnbd-1.18.1-4.el9_4.i686.rpm",
 			"name": "libnbd",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
-			"version": "1.18.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a2f60697d1cd872af40504c09464b4f4252e7038799b317138260bb1e3c739b0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nbdfuse-1.18.1-4.el9_4.ppc64le.rpm",
-			"name": "nbdfuse",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
-			"version": "1.18.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c063734864a1e4e815be67e9f876422d12ec3e42c0f115cfa3c833a69cd4542c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libnbd-1.18.1-4.el9_4.ppc64le.rpm",
-			"name": "python3-libnbd",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
 			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
@@ -89,18 +65,6 @@
 			"version": "1.18.1"
 		},
 		{
-			"arch": "i686",
-			"checksum": "eb9ded445593ff9c7e64cceeba64c7eb6579dc60c425df28f79734a9381c13d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnbd-1.18.1-4.el9_4.i686.rpm",
-			"name": "libnbd",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
-			"version": "1.18.1"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "3c2f5807c872b26a9844b075bb88379e1d34652b33101b8f958cd629c007c10e",
 			"checksum_type": "sha256",
@@ -131,6 +95,42 @@
 			"epoch": "0",
 			"filename": "libnbd-1.18.1-4.el9_4.aarch64.rpm",
 			"name": "libnbd",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
+			"version": "1.18.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8ae139e1a86aae5e3390bd30c8f2fc1f1d52565e2917749ef3040c303f919b3d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnbd-1.18.1-4.el9_4.ppc64le.rpm",
+			"name": "libnbd",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
+			"version": "1.18.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a2f60697d1cd872af40504c09464b4f4252e7038799b317138260bb1e3c739b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nbdfuse-1.18.1-4.el9_4.ppc64le.rpm",
+			"name": "nbdfuse",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
+			"version": "1.18.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c063734864a1e4e815be67e9f876422d12ec3e42c0f115cfa3c833a69cd4542c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libnbd-1.18.1-4.el9_4.ppc64le.rpm",
+			"name": "python3-libnbd",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
 			"src": "libnbd-1.18.1-4.el9_4.src.rpm",
@@ -354,5 +354,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libnbd security update",
 	"type": "security",
-	"updated_date": 1726838018
+	"updated_date": 1726838017
 }
