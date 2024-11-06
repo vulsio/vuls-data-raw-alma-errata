@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "5e28bc940718ecc5955697e721cdae9e1139dc4726999f085a105a5c1700946f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-devel-2.35.2-42.el9.x86_64.rpm",
+			"name": "binutils-devel",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
 			"arch": "i686",
 			"checksum": "bc897234de29cccd603dc6017250733b6c76561e38be1a1664240960f4e3f5bc",
 			"checksum_type": "sha256",
@@ -17,11 +29,11 @@
 			"version": "2.35.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "66a1a587bbd51407fc7bb1fde50aef681cdee9d64dad987b3db48906f1a55d07",
+			"arch": "aarch64",
+			"checksum": "6c4a55674edd55fc833a5403d085572bd0bd7ce31c8d51e99f494c5bce8c08bd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.ppc64le.rpm",
+			"filename": "binutils-devel-2.35.2-42.el9.aarch64.rpm",
 			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -29,11 +41,11 @@
 			"version": "2.35.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6c4a55674edd55fc833a5403d085572bd0bd7ce31c8d51e99f494c5bce8c08bd",
+			"arch": "ppc64le",
+			"checksum": "66a1a587bbd51407fc7bb1fde50aef681cdee9d64dad987b3db48906f1a55d07",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.aarch64.rpm",
+			"filename": "binutils-devel-2.35.2-42.el9.ppc64le.rpm",
 			"name": "binutils-devel",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -54,35 +66,11 @@
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "5e28bc940718ecc5955697e721cdae9e1139dc4726999f085a105a5c1700946f",
+			"checksum": "2d80943897692f8a6545ec74a4eefd5e63ae705dd92daa2147cd7a85efffd2bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.x86_64.rpm",
-			"name": "binutils-devel",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "67792878be184b1088739594fe08a015620a16eff8f511e27013a38d7d05de5b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.35.2-42.el9.ppc64le.rpm",
+			"filename": "binutils-2.35.2-42.el9.x86_64.rpm",
 			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e4bbba9a7d9996116a595d6647fdaf7316fc90f6ce813bb8570882935e71362a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-gold-2.35.2-42.el9.ppc64le.rpm",
-			"name": "binutils-gold",
 			"reboot_suggested": 0,
 			"release": "42.el9",
 			"src": "binutils-2.35.2-42.el9.src.rpm",
@@ -94,18 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "binutils-2.35.2-42.el9.i686.rpm",
-			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2d80943897692f8a6545ec74a4eefd5e63ae705dd92daa2147cd7a85efffd2bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.35.2-42.el9.x86_64.rpm",
 			"name": "binutils",
 			"reboot_suggested": 0,
 			"release": "42.el9",
@@ -143,6 +119,30 @@
 			"epoch": "0",
 			"filename": "binutils-2.35.2-42.el9.aarch64.rpm",
 			"name": "binutils",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "67792878be184b1088739594fe08a015620a16eff8f511e27013a38d7d05de5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-2.35.2-42.el9.ppc64le.rpm",
+			"name": "binutils",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e4bbba9a7d9996116a595d6647fdaf7316fc90f6ce813bb8570882935e71362a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-gold-2.35.2-42.el9.ppc64le.rpm",
+			"name": "binutils-gold",
 			"reboot_suggested": 0,
 			"release": "42.el9",
 			"src": "binutils-2.35.2-42.el9.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: binutils security update",
 	"type": "security",
-	"updated_date": 1699963518
+	"updated_date": 1699963546
 }

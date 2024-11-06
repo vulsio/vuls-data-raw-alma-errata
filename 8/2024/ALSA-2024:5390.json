@@ -18,30 +18,6 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "6f81dab2b8aa02ad45c0863bd50276bbcc58728a9a77d3efb59011b1cb55fd67",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-doc-9.16.23-0.22.el8_10.noarch.rpm",
-			"name": "bind9.16-doc",
-			"reboot_suggested": 0,
-			"release": "0.22.el8_10",
-			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9903ac1df3dd58a6543e4ef5fe85c8eeea78647e56a6b32083ee9b94d0191855",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.22.el8_10.i686.rpm",
-			"name": "bind9.16-devel",
-			"reboot_suggested": 0,
-			"release": "0.22.el8_10",
-			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
 			"checksum": "57f1413669381aea481f56905843c99ff543e2d505f1791fb787923aa11d0636",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -59,6 +35,30 @@
 			"epoch": "32",
 			"filename": "python3-bind9.16-9.16.23-0.22.el8_10.noarch.rpm",
 			"name": "python3-bind9.16",
+			"reboot_suggested": 0,
+			"release": "0.22.el8_10",
+			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6f81dab2b8aa02ad45c0863bd50276bbcc58728a9a77d3efb59011b1cb55fd67",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-doc-9.16.23-0.22.el8_10.noarch.rpm",
+			"name": "bind9.16-doc",
+			"reboot_suggested": 0,
+			"release": "0.22.el8_10",
+			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9903ac1df3dd58a6543e4ef5fe85c8eeea78647e56a6b32083ee9b94d0191855",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.22.el8_10.i686.rpm",
+			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.22.el8_10",
 			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
@@ -210,18 +210,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "b29513487ff41bb336bfc631435a371e95f05fb5778f46d6ff489414fbe57d23",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind9.16-devel-9.16.23-0.22.el8_10.ppc64le.rpm",
-			"name": "bind9.16-devel",
-			"reboot_suggested": 0,
-			"release": "0.22.el8_10",
-			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "1d8bbed6f9c01f345ddc6e320ca101cc0ec95943d49dbae8f1796c96664c1e79",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -275,6 +263,18 @@
 			"epoch": "32",
 			"filename": "bind9.16-chroot-9.16.23-0.22.el8_10.ppc64le.rpm",
 			"name": "bind9.16-chroot",
+			"reboot_suggested": 0,
+			"release": "0.22.el8_10",
+			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b29513487ff41bb336bfc631435a371e95f05fb5778f46d6ff489414fbe57d23",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind9.16-devel-9.16.23-0.22.el8_10.ppc64le.rpm",
+			"name": "bind9.16-devel",
 			"reboot_suggested": 0,
 			"release": "0.22.el8_10",
 			"src": "bind9.16-9.16.23-0.22.el8_10.src.rpm",
@@ -398,5 +398,5 @@
 	"severity": "Important",
 	"title": "Important: bind9.16 security update",
 	"type": "security",
-	"updated_date": 1724242977
+	"updated_date": 1724242979
 }

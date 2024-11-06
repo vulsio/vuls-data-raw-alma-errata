@@ -1,0 +1,82 @@
+{
+	"description": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.  \n\nSecurity Fix(es):  \n\n  * haproxy: untrimmed URI fragments may lead to exposure of confidential data on static servers (CVE-2023-45539)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:8849",
+	"issued_date": 1730764800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "2f3c99993979934681525692e838468214700b832e1b99c4980994931ec10512",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "haproxy-1.8.27-5.el8_10.1.x86_64.rpm",
+			"name": "haproxy",
+			"reboot_suggested": 0,
+			"release": "5.el8_10.1",
+			"src": "haproxy-1.8.27-5.el8_10.1.src.rpm",
+			"version": "1.8.27"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ff29984533a5a37273c8d17518a69b5bd5d1f7714c833413615f3a5b46f15183",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "haproxy-1.8.27-5.el8_10.1.aarch64.rpm",
+			"name": "haproxy",
+			"reboot_suggested": 0,
+			"release": "5.el8_10.1",
+			"src": "haproxy-1.8.27-5.el8_10.1.src.rpm",
+			"version": "1.8.27"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f4e9fa2b7268424c7bb940429d3af851a9ce93a6dec1f09271a4419eb3352452",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "haproxy-1.8.27-5.el8_10.1.ppc64le.rpm",
+			"name": "haproxy",
+			"reboot_suggested": 0,
+			"release": "5.el8_10.1",
+			"src": "haproxy-1.8.27-5.el8_10.1.src.rpm",
+			"version": "1.8.27"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "eba302de373444454ad31fe3687f227fd76c607f2e92e1f27c8489f0eccb4712",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "haproxy-1.8.27-5.el8_10.1.s390x.rpm",
+			"name": "haproxy",
+			"reboot_suggested": 0,
+			"release": "5.el8_10.1",
+			"src": "haproxy-1.8.27-5.el8_10.1.src.rpm",
+			"version": "1.8.27"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8849",
+			"id": "RHSA-2024:8849",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45539",
+			"id": "CVE-2023-45539",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2253037",
+			"id": "2253037",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-8849.html",
+			"id": "ALSA-2024:8849",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: haproxy security update",
+	"type": "security",
+	"updated_date": 1730887197
+}

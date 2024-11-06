@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "66d6f19a1f3ec43e8f36553d6b3bdb2134b41207f4047b69e00a4427deb44168",
+			"arch": "x86_64",
+			"checksum": "626170b4cf00a2e7525d1b0cb0fcce4a4ad751ff22bd76471234cc28502fed6e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "LibRaw-0.20.2-6.el9.i686.rpm",
+			"filename": "LibRaw-0.20.2-6.el9.x86_64.rpm",
 			"name": "LibRaw",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -17,11 +17,11 @@
 			"version": "0.20.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c41427f98caa2c924668c4a8c023f3ae5dab4791722d6828828f15ca0a47b2fa",
+			"arch": "i686",
+			"checksum": "66d6f19a1f3ec43e8f36553d6b3bdb2134b41207f4047b69e00a4427deb44168",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "LibRaw-0.20.2-6.el9.ppc64le.rpm",
+			"filename": "LibRaw-0.20.2-6.el9.i686.rpm",
 			"name": "LibRaw",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -41,6 +41,18 @@
 			"version": "0.20.2"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "c41427f98caa2c924668c4a8c023f3ae5dab4791722d6828828f15ca0a47b2fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "LibRaw-0.20.2-6.el9.ppc64le.rpm",
+			"name": "LibRaw",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "LibRaw-0.20.2-6.el9.src.rpm",
+			"version": "0.20.2"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "2be1a2f3a95c92794a56ddfee37a32286a64dcebae83c83a6420d90565babe07",
 			"checksum_type": "sha256",
@@ -53,12 +65,12 @@
 			"version": "0.20.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "626170b4cf00a2e7525d1b0cb0fcce4a4ad751ff22bd76471234cc28502fed6e",
+			"arch": "i686",
+			"checksum": "44f944a19b80f1aa4f822601cd6b29fb5f50f1b112808c9bae0039bdc69df544",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "LibRaw-0.20.2-6.el9.x86_64.rpm",
-			"name": "LibRaw",
+			"filename": "LibRaw-devel-0.20.2-6.el9.i686.rpm",
+			"name": "LibRaw-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9",
 			"src": "LibRaw-0.20.2-6.el9.src.rpm",
@@ -70,18 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "LibRaw-devel-0.20.2-6.el9.ppc64le.rpm",
-			"name": "LibRaw-devel",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "LibRaw-0.20.2-6.el9.src.rpm",
-			"version": "0.20.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "44f944a19b80f1aa4f822601cd6b29fb5f50f1b112808c9bae0039bdc69df544",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "LibRaw-devel-0.20.2-6.el9.i686.rpm",
 			"name": "LibRaw-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -126,5 +126,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: LibRaw security update",
 	"type": "security",
-	"updated_date": 1699963506
+	"updated_date": 1699963531
 }

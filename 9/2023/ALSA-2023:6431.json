@@ -17,11 +17,11 @@
 			"version": "0.99.9"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ef57255ea8a0a4a8a0924abf67ad2671d75827d1dc5ed0d0d8dede7956000130",
+			"arch": "x86_64",
+			"checksum": "9fde7e1944cd59a388d257511d89b0431c8409189d4020a702fcb818dc9a8ad7",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libfastjson-0.99.9-5.el9.ppc64le.rpm",
+			"filename": "libfastjson-0.99.9-5.el9.x86_64.rpm",
 			"name": "libfastjson",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -41,6 +41,18 @@
 			"version": "0.99.9"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "ef57255ea8a0a4a8a0924abf67ad2671d75827d1dc5ed0d0d8dede7956000130",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libfastjson-0.99.9-5.el9.ppc64le.rpm",
+			"name": "libfastjson",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "libfastjson-0.99.9-5.el9.src.rpm",
+			"version": "0.99.9"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "3d9f1c33bd8fe9048cf76b2b238c0a4a9754057e515e32e27a74a2ce164ebac4",
 			"checksum_type": "sha256",
@@ -53,12 +65,12 @@
 			"version": "0.99.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9fde7e1944cd59a388d257511d89b0431c8409189d4020a702fcb818dc9a8ad7",
+			"arch": "aarch64",
+			"checksum": "1afc430711d823780142130b5b67a1a2e0f54bdd0dbffb2fee487ecb92fef569",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libfastjson-0.99.9-5.el9.x86_64.rpm",
-			"name": "libfastjson",
+			"filename": "libfastjson-devel-0.99.9-5.el9.aarch64.rpm",
+			"name": "libfastjson-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
 			"src": "libfastjson-0.99.9-5.el9.src.rpm",
@@ -70,18 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libfastjson-devel-0.99.9-5.el9.ppc64le.rpm",
-			"name": "libfastjson-devel",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "libfastjson-0.99.9-5.el9.src.rpm",
-			"version": "0.99.9"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "a54b41774461638b18ea49dac35425f86bcf96c222d180aa60057880520a80ab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libfastjson-devel-0.99.9-5.el9.s390x.rpm",
 			"name": "libfastjson-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -101,11 +101,11 @@
 			"version": "0.99.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "1afc430711d823780142130b5b67a1a2e0f54bdd0dbffb2fee487ecb92fef569",
+			"arch": "s390x",
+			"checksum": "a54b41774461638b18ea49dac35425f86bcf96c222d180aa60057880520a80ab",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libfastjson-devel-0.99.9-5.el9.aarch64.rpm",
+			"filename": "libfastjson-devel-0.99.9-5.el9.s390x.rpm",
 			"name": "libfastjson-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -138,5 +138,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libfastjson security update",
 	"type": "security",
-	"updated_date": 1699963510
+	"updated_date": 1699963535
 }

@@ -1,0 +1,82 @@
+{
+	"description": "gevent is a coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of libevent event loop. Features include: * convenient API around greenlets * familiar synchronization primitives (gevent.event, gevent.queue) * socket module that cooperates * WSGI server on top of libevent-http * DNS requests done through libevent-dns * monkey patching utility to get pure Python modules to cooperate  \n\nSecurity Fix(es):  \n\n  * python-gevent: privilege escalation via a crafted script to the WSGIServer component (CVE-2023-41419)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:8834",
+	"issued_date": 1730764800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "99178454819b50f8c3bfaf863b9ccafffa123b8ef54b036741c73ba2de68f32c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-gevent-1.2.2-5.el8_10.x86_64.rpm",
+			"name": "python3-gevent",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "python-gevent-1.2.2-5.el8_10.src.rpm",
+			"version": "1.2.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8f1b27d40f5af78d62f6b57761f1fb30ba64d80849cd882938c2f8f81aff63a5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-gevent-1.2.2-5.el8_10.aarch64.rpm",
+			"name": "python3-gevent",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "python-gevent-1.2.2-5.el8_10.src.rpm",
+			"version": "1.2.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "065b0e5fbf473d94957aab136b38318dae61311e493a42886c9eea81473b60a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-gevent-1.2.2-5.el8_10.ppc64le.rpm",
+			"name": "python3-gevent",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "python-gevent-1.2.2-5.el8_10.src.rpm",
+			"version": "1.2.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "10a2c7c4affa40db39d292e1ea3d68b2bd1e2dbebded072bdc97716386077180",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-gevent-1.2.2-5.el8_10.s390x.rpm",
+			"name": "python3-gevent",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "python-gevent-1.2.2-5.el8_10.src.rpm",
+			"version": "1.2.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8834",
+			"id": "RHSA-2024:8834",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-41419",
+			"id": "CVE-2023-41419",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2240651",
+			"id": "2240651",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-8834.html",
+			"id": "ALSA-2024:8834",
+			"type": "self"
+		}
+	],
+	"severity": "important",
+	"title": "Important: python-gevent security update",
+	"type": "security",
+	"updated_date": 1730887910
+}

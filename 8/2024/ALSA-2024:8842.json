@@ -1,0 +1,46 @@
+{
+	"description": "urllib3 is a powerful, user-friendly HTTP client for Python. urllib3 brings many critical features that are missing from the Python standard libraries:   \n• Thread safety.  \n• Connection pooling.  \n• Client-side SSL/TLS verification.  \n• File uploads with multipart encoding.  \n• Helpers for retrying requests and dealing with HTTP redirects.  \n• Support for gzip, deflate, brotli, and zstd encoding.  \n• Proxy support for HTTP and SOCKS.  \n• 100% test coverage.  \n\nSecurity Fix(es):  \n\n  * urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:8842",
+	"issued_date": 1730764800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "e9c6302ea753f2b67dd0a7115b1dd94cb6e7337ebbd11269214b2aa7c8d9f95b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-urllib3-1.26.19-1.el8_10.noarch.rpm",
+			"name": "python3.12-urllib3",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "python3.12-urllib3-1.26.19-1.el8_10.src.rpm",
+			"version": "1.26.19"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8842",
+			"id": "RHSA-2024:8842",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-37891",
+			"id": "CVE-2024-37891",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292788",
+			"id": "2292788",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-8842.html",
+			"id": "ALSA-2024:8842",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: python3.12-urllib3 security update",
+	"type": "security",
+	"updated_date": 1730887583
+}

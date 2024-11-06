@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "403ac3175eb2958960029c3ff99e96f9ff320b6a56bdf9734abfd9dfd2913cd8",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-4.9.4-4.el9_4.x86_64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4b055705592cdf83afb2f24b293bc04ad028b690ffa17743ca4bd009f61692fb",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-tests-4.9.4-4.el9_4.x86_64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "9d79c85548bc603fddea4f740cd5337264900f7281d245c93a4d92712d0a83cb",
 			"checksum_type": "sha256",
@@ -17,23 +41,11 @@
 			"version": "4.9.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "583aae6c440a96c60092147f61ca32f4d10f55e841d3e5da68ccfcfca582d0ce",
+			"arch": "x86_64",
+			"checksum": "c5d9a17a59c118505abc859f36232ce5807b6c94509ea68d7ed534d7c363dff2",
 			"checksum_type": "sha256",
 			"epoch": "4",
-			"filename": "podman-tests-4.9.4-4.el9_4.ppc64le.rpm",
-			"name": "podman-tests",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "5d69cf806820f709c9ccc7f2eaf32dbd41a6b2fe92fe98c0bb05dfbb580364f2",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-plugins-4.9.4-4.el9_4.ppc64le.rpm",
+			"filename": "podman-plugins-4.9.4-4.el9_4.x86_64.rpm",
 			"name": "podman-plugins",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
@@ -41,23 +53,11 @@
 			"version": "4.9.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "9824d04bc0a1bb96addcd6e544709dff6ba43e8a9e897be205a5a0acb3cf9dee",
+			"arch": "x86_64",
+			"checksum": "ed24226999c47a9b8a9664b85315ba39af440f894add8bf9f84efb592dac35e6",
 			"checksum_type": "sha256",
 			"epoch": "4",
-			"filename": "podman-4.9.4-4.el9_4.ppc64le.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a61de8e5941ed85e141b973661f842642c2d6ce4aeb526fe81222aacc45a451e",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-remote-4.9.4-4.el9_4.ppc64le.rpm",
+			"filename": "podman-remote-4.9.4-4.el9_4.x86_64.rpm",
 			"name": "podman-remote",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
@@ -113,6 +113,54 @@
 			"version": "4.9.4"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "583aae6c440a96c60092147f61ca32f4d10f55e841d3e5da68ccfcfca582d0ce",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-tests-4.9.4-4.el9_4.ppc64le.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5d69cf806820f709c9ccc7f2eaf32dbd41a6b2fe92fe98c0bb05dfbb580364f2",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-plugins-4.9.4-4.el9_4.ppc64le.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9824d04bc0a1bb96addcd6e544709dff6ba43e8a9e897be205a5a0acb3cf9dee",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-4.9.4-4.el9_4.ppc64le.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a61de8e5941ed85e141b973661f842642c2d6ce4aeb526fe81222aacc45a451e",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-remote-4.9.4-4.el9_4.ppc64le.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "podman-4.9.4-4.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "6821c9769b964a14dcdba4eb4de0a3290b39b82567a406124ef50df5a760cb48",
 			"checksum_type": "sha256",
@@ -154,54 +202,6 @@
 			"checksum_type": "sha256",
 			"epoch": "4",
 			"filename": "podman-remote-4.9.4-4.el9_4.s390x.rpm",
-			"name": "podman-remote",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "403ac3175eb2958960029c3ff99e96f9ff320b6a56bdf9734abfd9dfd2913cd8",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-4.9.4-4.el9_4.x86_64.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4b055705592cdf83afb2f24b293bc04ad028b690ffa17743ca4bd009f61692fb",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-tests-4.9.4-4.el9_4.x86_64.rpm",
-			"name": "podman-tests",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c5d9a17a59c118505abc859f36232ce5807b6c94509ea68d7ed534d7c363dff2",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-plugins-4.9.4-4.el9_4.x86_64.rpm",
-			"name": "podman-plugins",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "podman-4.9.4-4.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ed24226999c47a9b8a9664b85315ba39af440f894add8bf9f84efb592dac35e6",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-remote-4.9.4-4.el9_4.x86_64.rpm",
 			"name": "podman-remote",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
@@ -254,5 +254,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: podman security and bug fix update",
 	"type": "security",
-	"updated_date": 1718358465
+	"updated_date": 1718358466
 }

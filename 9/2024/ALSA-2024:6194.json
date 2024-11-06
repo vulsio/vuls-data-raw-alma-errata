@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "0065efd816f914e7a04810d746cac815a820202a51c0b21f53b2255096a25fe5",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-4.9.4-10.el9_4.x86_64.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2f25f4cc051c8c851bfb4f4d4ea282df49c6aa932636717ea3d421aafeb9082f",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-tests-4.9.4-10.el9_4.x86_64.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3b3b526b3a8053d41cfc2f97db79042ae673560f012f0006a46ef0cea60de259",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-remote-4.9.4-10.el9_4.x86_64.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "9211804ac5d3c7cc1f7490d67ca70d07a72c9b68c3bc0830397903b832991129",
 			"checksum_type": "sha256",
@@ -17,48 +53,12 @@
 			"version": "4.9.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "2190744c406ca17471647c7a29b0d734f5b2f3e39f502daafea1ea647141ba14",
+			"arch": "x86_64",
+			"checksum": "eebed07819d4006101831f29b18b1ca602869adc08c2b6a81987abe78bac1be7",
 			"checksum_type": "sha256",
 			"epoch": "4",
-			"filename": "podman-4.9.4-10.el9_4.ppc64le.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2cfc25f2ab2b7195bb7c46366874599406cc14727f2c2a0d54344dadb04e970a",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-remote-4.9.4-10.el9_4.ppc64le.rpm",
-			"name": "podman-remote",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d325adaf3e144712854d27c529b374983bbc5a3a5c998e39637a4f28b6ce6f68",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-plugins-4.9.4-10.el9_4.ppc64le.rpm",
+			"filename": "podman-plugins-4.9.4-10.el9_4.x86_64.rpm",
 			"name": "podman-plugins",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "fa38c162a9e55fd76c6d7d5d552b784e6f84fc552492e7fc2057d2652136c273",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-tests-4.9.4-10.el9_4.ppc64le.rpm",
-			"name": "podman-tests",
 			"reboot_suggested": 0,
 			"release": "10.el9_4",
 			"src": "podman-4.9.4-10.el9_4.src.rpm",
@@ -113,6 +113,54 @@
 			"version": "4.9.4"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "2190744c406ca17471647c7a29b0d734f5b2f3e39f502daafea1ea647141ba14",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-4.9.4-10.el9_4.ppc64le.rpm",
+			"name": "podman",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2cfc25f2ab2b7195bb7c46366874599406cc14727f2c2a0d54344dadb04e970a",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-remote-4.9.4-10.el9_4.ppc64le.rpm",
+			"name": "podman-remote",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d325adaf3e144712854d27c529b374983bbc5a3a5c998e39637a4f28b6ce6f68",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-plugins-4.9.4-10.el9_4.ppc64le.rpm",
+			"name": "podman-plugins",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fa38c162a9e55fd76c6d7d5d552b784e6f84fc552492e7fc2057d2652136c273",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-tests-4.9.4-10.el9_4.ppc64le.rpm",
+			"name": "podman-tests",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "8ae4d1e9faf7f2144b44123b66f084a8bbfdd0adee14f95774d9efe3726cec45",
 			"checksum_type": "sha256",
@@ -154,54 +202,6 @@
 			"checksum_type": "sha256",
 			"epoch": "4",
 			"filename": "podman-plugins-4.9.4-10.el9_4.s390x.rpm",
-			"name": "podman-plugins",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "0065efd816f914e7a04810d746cac815a820202a51c0b21f53b2255096a25fe5",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-4.9.4-10.el9_4.x86_64.rpm",
-			"name": "podman",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2f25f4cc051c8c851bfb4f4d4ea282df49c6aa932636717ea3d421aafeb9082f",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-tests-4.9.4-10.el9_4.x86_64.rpm",
-			"name": "podman-tests",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3b3b526b3a8053d41cfc2f97db79042ae673560f012f0006a46ef0cea60de259",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-remote-4.9.4-10.el9_4.x86_64.rpm",
-			"name": "podman-remote",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "eebed07819d4006101831f29b18b1ca602869adc08c2b6a81987abe78bac1be7",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-plugins-4.9.4-10.el9_4.x86_64.rpm",
 			"name": "podman-plugins",
 			"reboot_suggested": 0,
 			"release": "10.el9_4",
@@ -254,5 +254,5 @@
 	"severity": "Important",
 	"title": "Important: podman security update",
 	"type": "security",
-	"updated_date": 1725437970
+	"updated_date": 1725437973
 }

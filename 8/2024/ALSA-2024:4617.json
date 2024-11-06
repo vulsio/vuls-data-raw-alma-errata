@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "aab46dc9f78e6bc165d9b2c1c3a8e87bf03d995ebfb714bc2579c46c4ea325d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-8.el8_10.i686.rpm",
-			"name": "qt5-qtbase-static",
-			"reboot_suggested": 0,
-			"release": "8.el8_10",
-			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
-			"version": "5.15.3"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "2e4519e82c76b357513ba542c204798e08d12bbaa78452e29722ddcbe1de11fa",
 			"checksum_type": "sha256",
@@ -119,6 +107,18 @@
 			"epoch": "0",
 			"filename": "qt5-qtbase-devel-5.15.3-8.el8_10.i686.rpm",
 			"name": "qt5-qtbase-devel",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "i686",
+			"checksum": "aab46dc9f78e6bc165d9b2c1c3a8e87bf03d995ebfb714bc2579c46c4ea325d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-8.el8_10.i686.rpm",
+			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "8.el8_10",
 			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
@@ -342,18 +342,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "dd2eb45266c24cbd0eb099a8557d6dfbd52528c4a97793177406847026af33a7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "qt5-qtbase-static-5.15.3-8.el8_10.ppc64le.rpm",
-			"name": "qt5-qtbase-static",
-			"reboot_suggested": 0,
-			"release": "8.el8_10",
-			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
-			"version": "5.15.3"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "3e3cadf2c2855ceb4bb07d9825b84c3267328b40b298cd435cd5656cac481fe6",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -443,6 +431,18 @@
 			"epoch": "0",
 			"filename": "qt5-qtbase-postgresql-5.15.3-8.el8_10.ppc64le.rpm",
 			"name": "qt5-qtbase-postgresql",
+			"reboot_suggested": 0,
+			"release": "8.el8_10",
+			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
+			"version": "5.15.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dd2eb45266c24cbd0eb099a8557d6dfbd52528c4a97793177406847026af33a7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "qt5-qtbase-static-5.15.3-8.el8_10.ppc64le.rpm",
+			"name": "qt5-qtbase-static",
 			"reboot_suggested": 0,
 			"release": "8.el8_10",
 			"src": "qt5-qtbase-5.15.3-8.el8_10.src.rpm",
@@ -582,5 +582,5 @@
 	"severity": "Important",
 	"title": "Important: qt5-qtbase security update",
 	"type": "security",
-	"updated_date": 1721384808
+	"updated_date": 1721384816
 }

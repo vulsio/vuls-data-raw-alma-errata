@@ -1,0 +1,82 @@
+{
+	"description": "BPFtrace is a high-level tracing language for Linux enhanced Berkeley Packet Filter (eBPF) available in recent Linux kernels (4.x). BPFtrace uses LLVM as a backend to compile scripts to BPF-bytecode and makes use of BCC for interacting with the Linux BPF system, as well as existing Linux tracing capabilities: kernel dynamic tracing (kprobes), user-level dynamic tracing (uprobes), and tracepoints. The BPFtrace language is inspired by awk and C, and predecessor tracers such as DTrace and SystemTap  \n\nSecurity Fix(es):  \n\n  * bpftrace: unprivileged users can force loading of compromised linux headers (CVE-2024-2313)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:8830",
+	"issued_date": 1730764800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "3eeafa6b17eb8fce7b2fdb3047e642266019cf159829d20ccf0289196a5adcf4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftrace-0.16.0-6.el8_10.x86_64.rpm",
+			"name": "bpftrace",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "bpftrace-0.16.0-6.el8_10.src.rpm",
+			"version": "0.16.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "53b59bc64faad29e59b0ef4fef4f50bb146768decccbd16902a35e7ec2492963",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftrace-0.16.0-6.el8_10.aarch64.rpm",
+			"name": "bpftrace",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "bpftrace-0.16.0-6.el8_10.src.rpm",
+			"version": "0.16.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "19d830e8162caa51cc667ee29404d859698feff61d1d2f5e092beeae70b0f943",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftrace-0.16.0-6.el8_10.ppc64le.rpm",
+			"name": "bpftrace",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "bpftrace-0.16.0-6.el8_10.src.rpm",
+			"version": "0.16.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "768c20fe1316b24bd30538ff081730218888b9e2ad133fb1be752375b7746957",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bpftrace-0.16.0-6.el8_10.s390x.rpm",
+			"name": "bpftrace",
+			"reboot_suggested": 0,
+			"release": "6.el8_10",
+			"src": "bpftrace-0.16.0-6.el8_10.src.rpm",
+			"version": "0.16.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8830",
+			"id": "RHSA-2024:8830",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2313",
+			"id": "CVE-2024-2313",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2269014",
+			"id": "2269014",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-8830.html",
+			"id": "ALSA-2024:8830",
+			"type": "self"
+		}
+	],
+	"severity": "low",
+	"title": "Low: bpftrace security update",
+	"type": "security",
+	"updated_date": 1730888143
+}
