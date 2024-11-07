@@ -6,30 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "00f9c89eb1837243c7dae838cbacdbfbda7cafd589518230a077d58c2c48c965",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-libs-1.12.9-1.el8_10.i686.rpm",
-			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "628edb8d36db58152cc75004cbb48142a94b758854fe2a3325d4ee58ba267c8a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-selinux-1.12.9-1.el8_10.noarch.rpm",
-			"name": "flatpak-selinux",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "i686",
 			"checksum": "3c30a188cf84e0255923592f393c2b084fcb56cc24112acbc0640ac567b2fe0c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -65,6 +41,30 @@
 			"version": "1.12.9"
 		},
 		{
+			"arch": "i686",
+			"checksum": "00f9c89eb1837243c7dae838cbacdbfbda7cafd589518230a077d58c2c48c965",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-libs-1.12.9-1.el8_10.i686.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "628edb8d36db58152cc75004cbb48142a94b758854fe2a3325d4ee58ba267c8a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-selinux-1.12.9-1.el8_10.noarch.rpm",
+			"name": "flatpak-selinux",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "03f48f8336c64882cec9b8b842cd679806eefe9c404bb0b72c4173e35b87d39b",
 			"checksum_type": "sha256",
@@ -83,42 +83,6 @@
 			"epoch": "0",
 			"filename": "flatpak-devel-1.12.9-1.el8_10.aarch64.rpm",
 			"name": "flatpak-devel",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4daf1b03fae0a7d492765f2044495a5120ecde812f0e9f9c60f7296911bd1427",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-libs-1.12.9-1.el8_10.x86_64.rpm",
-			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6bfe8bb07943e99e95fdd35562e50a7d71248074dd5165bcf879b41c3a61fef0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-session-helper-1.12.9-1.el8_10.x86_64.rpm",
-			"name": "flatpak-session-helper",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "7e46e6b690c1e34c6bc24bafdeb5990f0a48938edee4722d67443c3deca0fd96",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-1.12.9-1.el8_10.x86_64.rpm",
-			"name": "flatpak",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
@@ -161,6 +125,54 @@
 			"version": "1.12.9"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "4daf1b03fae0a7d492765f2044495a5120ecde812f0e9f9c60f7296911bd1427",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-libs-1.12.9-1.el8_10.x86_64.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6bfe8bb07943e99e95fdd35562e50a7d71248074dd5165bcf879b41c3a61fef0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-session-helper-1.12.9-1.el8_10.x86_64.rpm",
+			"name": "flatpak-session-helper",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7e46e6b690c1e34c6bc24bafdeb5990f0a48938edee4722d67443c3deca0fd96",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-1.12.9-1.el8_10.x86_64.rpm",
+			"name": "flatpak",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "76942c8d8010a9e146e11e66b8eab2dfa440432936ba605ff2fd4b0f3c0d3e8c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-devel-1.12.9-1.el8_10.ppc64le.rpm",
+			"name": "flatpak-devel",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "1876741b4beb5282d83c0d2d4d2fd12fd7c360f2d65673a9dee481b99ab08011",
 			"checksum_type": "sha256",
@@ -191,18 +203,6 @@
 			"epoch": "0",
 			"filename": "flatpak-libs-1.12.9-1.el8_10.ppc64le.rpm",
 			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "76942c8d8010a9e146e11e66b8eab2dfa440432936ba605ff2fd4b0f3c0d3e8c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-1.el8_10.ppc64le.rpm",
-			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "flatpak-1.12.9-1.el8_10.src.rpm",
@@ -282,5 +282,5 @@
 	"severity": "Important",
 	"title": "Important: flatpak security update",
 	"type": "security",
-	"updated_date": 1718788504
+	"updated_date": 1718788502
 }
