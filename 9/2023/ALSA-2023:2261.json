@@ -29,11 +29,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "174b89dcd668d7953473174b90cf92ba659457a14fe60897045d3438125ad814",
+			"arch": "i686",
+			"checksum": "230580fc034470985d19e0e60d9476cccaed56bf403ed9284f575f58fd3b174a",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-libs-9.16.23-11.el9.x86_64.rpm",
+			"filename": "bind-libs-9.16.23-11.el9.i686.rpm",
 			"name": "bind-libs",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -47,6 +47,18 @@
 			"epoch": "32",
 			"filename": "bind-dnssec-doc-9.16.23-11.el9.noarch.rpm",
 			"name": "bind-dnssec-doc",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "bind-9.16.23-11.el9.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "174b89dcd668d7953473174b90cf92ba659457a14fe60897045d3438125ad814",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-libs-9.16.23-11.el9.x86_64.rpm",
+			"name": "bind-libs",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "bind-9.16.23-11.el9.src.rpm",
@@ -155,18 +167,6 @@
 			"epoch": "32",
 			"filename": "bind-chroot-9.16.23-11.el9.aarch64.rpm",
 			"name": "bind-chroot",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "bind-9.16.23-11.el9.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "230580fc034470985d19e0e60d9476cccaed56bf403ed9284f575f58fd3b174a",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-libs-9.16.23-11.el9.i686.rpm",
-			"name": "bind-libs",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "bind-9.16.23-11.el9.src.rpm",
@@ -293,6 +293,18 @@
 			"version": "9.16.23"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "39bd9f30fc275e892b82d67222f978c1ca51fc51d395ca849ed8739f37d6fe35",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-devel-9.16.23-11.el9.x86_64.rpm",
+			"name": "bind-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "bind-9.16.23-11.el9.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "89aa2e6a4d42f3636b882c4f0a7b97379335821cf7298757b760024b54a49ca6",
 			"checksum_type": "sha256",
@@ -317,18 +329,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "d795962ea8f43e403d6cc66bd9b4659a3aa3a21f9e6798e7c0cedbaf37a3ec83",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9.aarch64.rpm",
-			"name": "bind-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "bind-9.16.23-11.el9.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "17404aee1fa0824c118351cc5a3b9120234c08939f0aa26eebcc9b2df139729b",
 			"checksum_type": "sha256",
@@ -341,11 +341,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "39bd9f30fc275e892b82d67222f978c1ca51fc51d395ca849ed8739f37d6fe35",
+			"arch": "aarch64",
+			"checksum": "d795962ea8f43e403d6cc66bd9b4659a3aa3a21f9e6798e7c0cedbaf37a3ec83",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-11.el9.x86_64.rpm",
+			"filename": "bind-devel-9.16.23-11.el9.aarch64.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",

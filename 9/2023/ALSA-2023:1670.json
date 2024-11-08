@@ -17,24 +17,24 @@
 			"version": "2.4.53"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "0f7e465398e572351d39d96dbae85122b07ec0d920ce69441919cfb6db9faac5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mod_lua-2.4.53-7.el9_1.5.x86_64.rpm",
-			"name": "mod_lua",
-			"reboot_suggested": 0,
-			"release": "7.el9_1.5",
-			"src": "httpd-2.4.53-7.el9_1.5.src.rpm",
-			"version": "2.4.53"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "2f9fcaf5d345420c53a8c3125d3f20a94e594d2c4fc208c8f71a194624f859bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "httpd-manual-2.4.53-7.el9_1.5.noarch.rpm",
 			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "7.el9_1.5",
+			"src": "httpd-2.4.53-7.el9_1.5.src.rpm",
+			"version": "2.4.53"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0f7e465398e572351d39d96dbae85122b07ec0d920ce69441919cfb6db9faac5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mod_lua-2.4.53-7.el9_1.5.x86_64.rpm",
+			"name": "mod_lua",
 			"reboot_suggested": 0,
 			"release": "7.el9_1.5",
 			"src": "httpd-2.4.53-7.el9_1.5.src.rpm",
@@ -534,5 +534,5 @@
 	"severity": "Important",
 	"title": "Important: httpd and mod_http2 security update",
 	"type": "security",
-	"updated_date": 1681997977
+	"updated_date": 1681997974
 }

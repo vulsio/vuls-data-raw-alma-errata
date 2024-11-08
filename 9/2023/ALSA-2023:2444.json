@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "3183dae53a3c8be55fcf44c8c21a7c2f01b140487709d24278cf09316caf2c51",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "net-snmp-5.9.1-9.el9.x86_64.rpm",
-			"name": "net-snmp",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "net-snmp-5.9.1-9.el9.src.rpm",
-			"version": "5.9.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "48b29d88ef8c7751d1a806d91013d4164a46d90ca558fc0b4077081793b3d524",
 			"checksum_type": "sha256",
@@ -35,6 +23,30 @@
 			"epoch": "1",
 			"filename": "net-snmp-agent-libs-5.9.1-9.el9.i686.rpm",
 			"name": "net-snmp-agent-libs",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "net-snmp-5.9.1-9.el9.src.rpm",
+			"version": "5.9.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "eb873fe53db9e7ada6c38fe5618f47c95ea1ad19ccfb6b354d754a34678be476",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "net-snmp-libs-5.9.1-9.el9.i686.rpm",
+			"name": "net-snmp-libs",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "net-snmp-5.9.1-9.el9.src.rpm",
+			"version": "5.9.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3183dae53a3c8be55fcf44c8c21a7c2f01b140487709d24278cf09316caf2c51",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "net-snmp-5.9.1-9.el9.x86_64.rpm",
+			"name": "net-snmp",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "net-snmp-5.9.1-9.el9.src.rpm",
@@ -95,18 +107,6 @@
 			"epoch": "1",
 			"filename": "net-snmp-agent-libs-5.9.1-9.el9.x86_64.rpm",
 			"name": "net-snmp-agent-libs",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "net-snmp-5.9.1-9.el9.src.rpm",
-			"version": "5.9.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "eb873fe53db9e7ada6c38fe5618f47c95ea1ad19ccfb6b354d754a34678be476",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "net-snmp-libs-5.9.1-9.el9.i686.rpm",
-			"name": "net-snmp-libs",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "net-snmp-5.9.1-9.el9.src.rpm",
@@ -412,5 +412,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: net-snmp security and bug fix update",
 	"type": "security",
-	"updated_date": 1683864706
+	"updated_date": 1683864699
 }

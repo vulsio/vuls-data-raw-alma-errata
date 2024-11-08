@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "7639bb9bfa5a418dbb416785f31cf16899a54d4618e0c83b66bfd984761ed1a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-icons-1.12.0-13.el9_2.noarch.rpm",
+			"name": "tigervnc-icons",
+			"reboot_suggested": 0,
+			"release": "13.el9_2",
+			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "831eff733daac545f21e1414cc9479dfc1b50a1e9dcab5e45b24d024e7bfca3c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-license-1.12.0-13.el9_2.noarch.rpm",
+			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "13.el9_2",
+			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e9b0a7560481052f404e85eabcea26f8ddb5bf6c776c00da92545c70f2dfd578",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-selinux-1.12.0-13.el9_2.noarch.rpm",
+			"name": "tigervnc-selinux",
+			"reboot_suggested": 0,
+			"release": "13.el9_2",
+			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "09ff0faea078ceff337f1d80a722926b61cb0fc5a105117660607ff7143762f7",
 			"checksum_type": "sha256",
@@ -41,48 +77,12 @@
 			"version": "1.12.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "7639bb9bfa5a418dbb416785f31cf16899a54d4618e0c83b66bfd984761ed1a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-icons-1.12.0-13.el9_2.noarch.rpm",
-			"name": "tigervnc-icons",
-			"reboot_suggested": 0,
-			"release": "13.el9_2",
-			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "831eff733daac545f21e1414cc9479dfc1b50a1e9dcab5e45b24d024e7bfca3c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-license-1.12.0-13.el9_2.noarch.rpm",
-			"name": "tigervnc-license",
-			"reboot_suggested": 0,
-			"release": "13.el9_2",
-			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "d2c8b05e927738cd4222b4e1f35e051b92fd8fdf4830f2496a92d59bcc16bac3",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "tigervnc-server-minimal-1.12.0-13.el9_2.x86_64.rpm",
 			"name": "tigervnc-server-minimal",
-			"reboot_suggested": 0,
-			"release": "13.el9_2",
-			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e9b0a7560481052f404e85eabcea26f8ddb5bf6c776c00da92545c70f2dfd578",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-selinux-1.12.0-13.el9_2.noarch.rpm",
-			"name": "tigervnc-selinux",
 			"reboot_suggested": 0,
 			"release": "13.el9_2",
 			"src": "tigervnc-1.12.0-13.el9_2.src.rpm",
@@ -308,5 +308,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: tigervnc security and bug fix update",
 	"type": "security",
-	"updated_date": 1683882506
+	"updated_date": 1683882505
 }

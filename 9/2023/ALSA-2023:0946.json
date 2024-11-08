@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "b2d37c816aba81b64f4ef993cad7add3c3cd631e278f1bc8eaeaf52294ff9284",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.1-47.el9_1.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "47.el9_1",
+			"src": "openssl-3.0.1-47.el9_1.src.rpm",
+			"version": "3.0.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "4a4df0837e1159a813151ef97ca398246bf3a0188406f7fbceaa9dc8ae7218e7",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-devel-3.0.1-47.el9_1.x86_64.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "47.el9_1",
-			"src": "openssl-3.0.1-47.el9_1.src.rpm",
-			"version": "3.0.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "b2d37c816aba81b64f4ef993cad7add3c3cd631e278f1bc8eaeaf52294ff9284",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.1-47.el9_1.i686.rpm",
 			"name": "openssl-devel",
 			"reboot_suggested": 0,
 			"release": "47.el9_1",
@@ -316,5 +316,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: openssl security and bug fix update",
 	"type": "security",
-	"updated_date": 1677613558
+	"updated_date": 1677604685
 }

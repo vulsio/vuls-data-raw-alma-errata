@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "7663106b5c2c824ad1fd4915d4857541a0b630cf6998e325a2b9a515c63c3590",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "lua-5.4.4-3.el9.i686.rpm",
+			"name": "lua",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "lua-5.4.4-3.el9.src.rpm",
+			"version": "5.4.4"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "fbe9d41337f16777f313075196b5ef3398223fb58f05ea55356ab009003b49fb",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "lua-5.4.4-3.el9.aarch64.rpm",
-			"name": "lua",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "lua-5.4.4-3.el9.src.rpm",
-			"version": "5.4.4"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7663106b5c2c824ad1fd4915d4857541a0b630cf6998e325a2b9a515c63c3590",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "lua-5.4.4-3.el9.i686.rpm",
 			"name": "lua",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -125,11 +125,11 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "i686",
-			"checksum": "d5667c8c99b29f4196516fb3e1a5fc06a4de1927e397ea64024461ba6b84b170",
+			"arch": "x86_64",
+			"checksum": "a1f1de6f100ad37b63ca4d40694677dfb185a7a5b713de25209de1ec11736783",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.i686.rpm",
+			"filename": "lua-devel-5.4.4-3.el9.x86_64.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -137,11 +137,11 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f2d7ab675516c5dee02f6063118da0e1b57b5f3e2306a0cabbee9d24f65f410b",
+			"arch": "i686",
+			"checksum": "d5667c8c99b29f4196516fb3e1a5fc06a4de1927e397ea64024461ba6b84b170",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.aarch64.rpm",
+			"filename": "lua-devel-5.4.4-3.el9.i686.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
@@ -161,11 +161,11 @@
 			"version": "5.4.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a1f1de6f100ad37b63ca4d40694677dfb185a7a5b713de25209de1ec11736783",
+			"arch": "aarch64",
+			"checksum": "f2d7ab675516c5dee02f6063118da0e1b57b5f3e2306a0cabbee9d24f65f410b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "lua-devel-5.4.4-3.el9.x86_64.rpm",
+			"filename": "lua-devel-5.4.4-3.el9.aarch64.rpm",
 			"name": "lua-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",

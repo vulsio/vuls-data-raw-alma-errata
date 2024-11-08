@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "6b18cc3a2eb81d23f0f033dfec9edbfaefa217280a25ea82adb1483b732fb46d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "dovecot-2.3.16-11.el9_4.1.i686.rpm",
+			"name": "dovecot",
+			"reboot_suggested": 0,
+			"release": "11.el9_4.1",
+			"src": "dovecot-2.3.16-11.el9_4.1.src.rpm",
+			"version": "2.3.16"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "38baf6dd2ebba5e9916cdac3eddbb990a2a373b7d049572346fa13cf79684767",
 			"checksum_type": "sha256",
@@ -94,18 +106,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "dovecot-2.3.16-11.el9_4.1.aarch64.rpm",
-			"name": "dovecot",
-			"reboot_suggested": 0,
-			"release": "11.el9_4.1",
-			"src": "dovecot-2.3.16-11.el9_4.1.src.rpm",
-			"version": "2.3.16"
-		},
-		{
-			"arch": "i686",
-			"checksum": "6b18cc3a2eb81d23f0f033dfec9edbfaefa217280a25ea82adb1483b732fb46d",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "dovecot-2.3.16-11.el9_4.1.i686.rpm",
 			"name": "dovecot",
 			"reboot_suggested": 0,
 			"release": "11.el9_4.1",
@@ -221,11 +221,11 @@
 			"version": "2.3.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e63d32e3b6c4c2ff632911daed9e65b0989885c7015f9d0b23503b9e3fddb120",
+			"arch": "x86_64",
+			"checksum": "71f1e54f81773cfb8437d1ccb0cd18ab4247ee2a4a85380f2b8bd05cc82f91e9",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "dovecot-devel-2.3.16-11.el9_4.1.aarch64.rpm",
+			"filename": "dovecot-devel-2.3.16-11.el9_4.1.x86_64.rpm",
 			"name": "dovecot-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_4.1",
@@ -245,11 +245,11 @@
 			"version": "2.3.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "71f1e54f81773cfb8437d1ccb0cd18ab4247ee2a4a85380f2b8bd05cc82f91e9",
+			"arch": "aarch64",
+			"checksum": "e63d32e3b6c4c2ff632911daed9e65b0989885c7015f9d0b23503b9e3fddb120",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "dovecot-devel-2.3.16-11.el9_4.1.x86_64.rpm",
+			"filename": "dovecot-devel-2.3.16-11.el9_4.1.aarch64.rpm",
 			"name": "dovecot-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9_4.1",
@@ -304,5 +304,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: dovecot security update",
 	"type": "security",
-	"updated_date": 1726048091
+	"updated_date": 1726048089
 }

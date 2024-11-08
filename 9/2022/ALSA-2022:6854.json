@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "28e23c3ed7a3fad46a6481d665708ae5a8b2edcfba7207cf6d46a210867d572e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-dane-3.7.6-12.el9_0.x86_64.rpm",
-			"name": "gnutls-dane",
-			"reboot_suggested": 0,
-			"release": "12.el9_0",
-			"src": "gnutls-3.7.6-12.el9_0.src.rpm",
-			"version": "3.7.6"
-		},
-		{
 			"arch": "i686",
 			"checksum": "3f88c538c2d491bf6909772104ea7c10a2102e2ea846a636868a5f413ec1b65d",
 			"checksum_type": "sha256",
@@ -29,11 +17,11 @@
 			"version": "3.7.6"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "3fc271072cdfbcf56aa9c71e2aab0350ddc1d1e0a36a9ec2a5a1f1a72fb02c0f",
+			"arch": "i686",
+			"checksum": "920fd4a0448ceb734c313950eeeaea6ac63a17df6df766b0fa9ca646f261647a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-c++-3.7.6-12.el9_0.x86_64.rpm",
+			"filename": "gnutls-c++-3.7.6-12.el9_0.i686.rpm",
 			"name": "gnutls-c++",
 			"reboot_suggested": 0,
 			"release": "12.el9_0",
@@ -42,10 +30,34 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "920fd4a0448ceb734c313950eeeaea6ac63a17df6df766b0fa9ca646f261647a",
+			"checksum": "cf5a84f274219d9d19a82b27706b411b39bf1db928bf9011ae257e0cc6a4d6c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gnutls-c++-3.7.6-12.el9_0.i686.rpm",
+			"filename": "gnutls-devel-3.7.6-12.el9_0.i686.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "12.el9_0",
+			"src": "gnutls-3.7.6-12.el9_0.src.rpm",
+			"version": "3.7.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "28e23c3ed7a3fad46a6481d665708ae5a8b2edcfba7207cf6d46a210867d572e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-dane-3.7.6-12.el9_0.x86_64.rpm",
+			"name": "gnutls-dane",
+			"reboot_suggested": 0,
+			"release": "12.el9_0",
+			"src": "gnutls-3.7.6-12.el9_0.src.rpm",
+			"version": "3.7.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3fc271072cdfbcf56aa9c71e2aab0350ddc1d1e0a36a9ec2a5a1f1a72fb02c0f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.7.6-12.el9_0.x86_64.rpm",
 			"name": "gnutls-c++",
 			"reboot_suggested": 0,
 			"release": "12.el9_0",
@@ -70,18 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gnutls-devel-3.7.6-12.el9_0.x86_64.rpm",
-			"name": "gnutls-devel",
-			"reboot_suggested": 0,
-			"release": "12.el9_0",
-			"src": "gnutls-3.7.6-12.el9_0.src.rpm",
-			"version": "3.7.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "cf5a84f274219d9d19a82b27706b411b39bf1db928bf9011ae257e0cc6a4d6c8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-devel-3.7.6-12.el9_0.i686.rpm",
 			"name": "gnutls-devel",
 			"reboot_suggested": 0,
 			"release": "12.el9_0",
@@ -318,5 +318,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gnutls and nettle security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1665776386
+	"updated_date": 1665656067
 }

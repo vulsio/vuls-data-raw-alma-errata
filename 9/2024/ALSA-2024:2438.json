@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "3de0ae2c129e6d26fcae28b89fd6ff137784e87c70c88a7d669bb056aef29091",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-docs-1.5.1-19.el9.x86_64.rpm",
-			"name": "pam-docs",
-			"reboot_suggested": 0,
-			"release": "19.el9",
-			"src": "pam-1.5.1-19.el9.src.rpm",
-			"version": "1.5.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "765d0723d2a4284fb705acf18f112516b0caec0c271c58ce210ac3241afa5724",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pam-devel-1.5.1-19.el9.i686.rpm",
 			"name": "pam-devel",
+			"reboot_suggested": 0,
+			"release": "19.el9",
+			"src": "pam-1.5.1-19.el9.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3de0ae2c129e6d26fcae28b89fd6ff137784e87c70c88a7d669bb056aef29091",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-docs-1.5.1-19.el9.x86_64.rpm",
+			"name": "pam-docs",
 			"reboot_suggested": 0,
 			"release": "19.el9",
 			"src": "pam-1.5.1-19.el9.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: pam security update",
 	"type": "security",
-	"updated_date": 1715093903
+	"updated_date": 1715093684
 }

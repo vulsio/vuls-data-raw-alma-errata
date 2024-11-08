@@ -245,6 +245,18 @@
 			"version": "3.9.18"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "746c1899df85315aff422344d05c6e00a209e460a147f7095f99c452c2d94ff1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.9.18-3.el9_4.1.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
 			"arch": "i686",
 			"checksum": "a08510f6caa3be3f3088384eb16e5a0e135fe2778277196107ce0eef617f226b",
 			"checksum_type": "sha256",
@@ -269,6 +281,18 @@
 			"version": "3.9.18"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "d2dc41880589f9ee20b090e8b2f0b7a5298545bf2a1e1b6399dd37dcd5699160",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-debug-3.9.18-3.el9_4.1.x86_64.rpm",
+			"name": "python3-debug",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
 			"arch": "i686",
 			"checksum": "dc5c951ca40e9a4d47fcce7780765951ef1011cafdae5416859cc800af566bee",
 			"checksum_type": "sha256",
@@ -281,23 +305,11 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "i686",
-			"checksum": "fa0b914dcae5500f1df766beab7309df2d11cacf77306c20d7765c6bf39f11ba",
+			"arch": "x86_64",
+			"checksum": "eaa0184fc895ecd56805adc4acb7a7474b22d50d8e5d65866f616295450b40fa",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.18-3.el9_4.1.i686.rpm",
-			"name": "python3-debug",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3528e4f493bba53ea5fe7bef446124bbb7a37bd731557b7870fa0086050291bc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-idle-3.9.18-3.el9_4.1.aarch64.rpm",
+			"filename": "python3-idle-3.9.18-3.el9_4.1.x86_64.rpm",
 			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
@@ -305,23 +317,11 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6da7eb58647e7d942e534644976ac6a424862f60fac396d2708d83cea80c5166",
+			"arch": "i686",
+			"checksum": "fa0b914dcae5500f1df766beab7309df2d11cacf77306c20d7765c6bf39f11ba",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-test-3.9.18-3.el9_4.1.aarch64.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9d9b612c0c34c8b20b044e6e9bf6afa2e98652d70a96e6c69ca5c2b686ea1882",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-debug-3.9.18-3.el9_4.1.aarch64.rpm",
+			"filename": "python3-debug-3.9.18-3.el9_4.1.i686.rpm",
 			"name": "python3-debug",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
@@ -365,11 +365,23 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "746c1899df85315aff422344d05c6e00a209e460a147f7095f99c452c2d94ff1",
+			"arch": "aarch64",
+			"checksum": "3528e4f493bba53ea5fe7bef446124bbb7a37bd731557b7870fa0086050291bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-test-3.9.18-3.el9_4.1.x86_64.rpm",
+			"filename": "python3-idle-3.9.18-3.el9_4.1.aarch64.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "3.el9_4.1",
+			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
+			"version": "3.9.18"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6da7eb58647e7d942e534644976ac6a424862f60fac396d2708d83cea80c5166",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.9.18-3.el9_4.1.aarch64.rpm",
 			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
@@ -377,24 +389,12 @@
 			"version": "3.9.18"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d2dc41880589f9ee20b090e8b2f0b7a5298545bf2a1e1b6399dd37dcd5699160",
+			"arch": "aarch64",
+			"checksum": "9d9b612c0c34c8b20b044e6e9bf6afa2e98652d70a96e6c69ca5c2b686ea1882",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.18-3.el9_4.1.x86_64.rpm",
+			"filename": "python3-debug-3.9.18-3.el9_4.1.aarch64.rpm",
 			"name": "python3-debug",
-			"reboot_suggested": 0,
-			"release": "3.el9_4.1",
-			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
-			"version": "3.9.18"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "eaa0184fc895ecd56805adc4acb7a7474b22d50d8e5d65866f616295450b40fa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-idle-3.9.18-3.el9_4.1.x86_64.rpm",
-			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "3.el9_4.1",
 			"src": "python3.9-3.9.18-3.el9_4.1.src.rpm",
@@ -472,5 +472,5 @@
 	"severity": "Important",
 	"title": "Important: python3.9 security update",
 	"type": "security",
-	"updated_date": 1719323943
+	"updated_date": 1719323941
 }

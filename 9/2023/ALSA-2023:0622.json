@@ -17,6 +17,30 @@
 			"version": "1.12.0"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "728a52e2fc345721666a6ac2c8c7c5f6826077f7cfd550b017f78c16389b07f3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-selinux-1.12.0-5.el9_1.1.noarch.rpm",
+			"name": "tigervnc-selinux",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.1",
+			"src": "tigervnc-1.12.0-5.el9_1.1.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "9ff23dea5996323a873dd14efd719829917875164325fd50d396325dc29ed839",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-license-1.12.0-5.el9_1.1.noarch.rpm",
+			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.1",
+			"src": "tigervnc-1.12.0-5.el9_1.1.src.rpm",
+			"version": "1.12.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1ea2f0f566894cc63ab9fe405e481407d6d887bfe657c3eb1e7a2e7e466fdb81",
 			"checksum_type": "sha256",
@@ -41,18 +65,6 @@
 			"version": "1.12.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "728a52e2fc345721666a6ac2c8c7c5f6826077f7cfd550b017f78c16389b07f3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-selinux-1.12.0-5.el9_1.1.noarch.rpm",
-			"name": "tigervnc-selinux",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.1",
-			"src": "tigervnc-1.12.0-5.el9_1.1.src.rpm",
-			"version": "1.12.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "88a7f3afd94800aafebe3f5d4d51fb0c00704108f120f475a51d9122200c323f",
 			"checksum_type": "sha256",
@@ -71,18 +83,6 @@
 			"epoch": "0",
 			"filename": "tigervnc-server-module-1.12.0-5.el9_1.1.x86_64.rpm",
 			"name": "tigervnc-server-module",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.1",
-			"src": "tigervnc-1.12.0-5.el9_1.1.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9ff23dea5996323a873dd14efd719829917875164325fd50d396325dc29ed839",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-license-1.12.0-5.el9_1.1.noarch.rpm",
-			"name": "tigervnc-license",
 			"reboot_suggested": 0,
 			"release": "5.el9_1.1",
 			"src": "tigervnc-1.12.0-5.el9_1.1.src.rpm",
@@ -258,5 +258,5 @@
 	"severity": "Important",
 	"title": "Important: tigervnc security update",
 	"type": "security",
-	"updated_date": 1675957646
+	"updated_date": 1675957645
 }

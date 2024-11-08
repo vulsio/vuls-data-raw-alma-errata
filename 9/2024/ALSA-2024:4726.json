@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "83c3fadfe9c92ba0d104583616b13b3807bad424b82edbb30814263953b71361",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-filesystem-2.4.57-11.el9_4.noarch.rpm",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "11.el9_4",
+			"src": "httpd-2.4.57-11.el9_4.src.rpm",
+			"version": "2.4.57"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "bafdbbd696cea4482b92bfbd18bfa476e362601fce71b5d4c83d4a97243c9a00",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.57-11.el9_4.noarch.rpm",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "11.el9_4",
+			"src": "httpd-2.4.57-11.el9_4.src.rpm",
+			"version": "2.4.57"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "250f7c62247ec167fa6b4f5096a73724fc7f9f51e799265c3a0124f6a326276d",
 			"checksum_type": "sha256",
@@ -65,18 +89,6 @@
 			"version": "2.4.57"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "83c3fadfe9c92ba0d104583616b13b3807bad424b82edbb30814263953b71361",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-filesystem-2.4.57-11.el9_4.noarch.rpm",
-			"name": "httpd-filesystem",
-			"reboot_suggested": 0,
-			"release": "11.el9_4",
-			"src": "httpd-2.4.57-11.el9_4.src.rpm",
-			"version": "2.4.57"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "9e7e222dbb0207527eb5af9138639722186f705df6f2b182134ba86190f3cc32",
 			"checksum_type": "sha256",
@@ -95,18 +107,6 @@
 			"epoch": "1",
 			"filename": "mod_ssl-2.4.57-11.el9_4.x86_64.rpm",
 			"name": "mod_ssl",
-			"reboot_suggested": 0,
-			"release": "11.el9_4",
-			"src": "httpd-2.4.57-11.el9_4.src.rpm",
-			"version": "2.4.57"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "bafdbbd696cea4482b92bfbd18bfa476e362601fce71b5d4c83d4a97243c9a00",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.57-11.el9_4.noarch.rpm",
-			"name": "httpd-manual",
 			"reboot_suggested": 0,
 			"release": "11.el9_4",
 			"src": "httpd-2.4.57-11.el9_4.src.rpm",
@@ -526,5 +526,5 @@
 	"severity": "Important",
 	"title": "Important: httpd security update",
 	"type": "security",
-	"updated_date": 1721772530
+	"updated_date": 1721772520
 }

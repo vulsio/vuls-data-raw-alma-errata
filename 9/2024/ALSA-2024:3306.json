@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "4a845b6d8740ef83d332d1ce8b7a50fb36d3eb855277cea863aa8360b5ae886c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-5.14.0-427.18.1.el9_4.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "427.18.1.el9_4",
+			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "141d934f00ba1b8cbc902308c793e1ebe31b6664c6a758cfbb0bdf9c9414c126",
 			"checksum_type": "sha256",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "rv-5.14.0-427.18.1.el9_4.x86_64.rpm",
 			"name": "rv",
-			"reboot_suggested": 0,
-			"release": "427.18.1.el9_4",
-			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "4a845b6d8740ef83d332d1ce8b7a50fb36d3eb855277cea863aa8360b5ae886c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-5.14.0-427.18.1.el9_4.noarch.rpm",
-			"name": "kernel-doc",
 			"reboot_suggested": 0,
 			"release": "427.18.1.el9_4",
 			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
@@ -1349,23 +1349,11 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6fbb46c77b5c907d2497994de5320ea6143a1a99f4d8977016fd13255c5f599e",
+			"arch": "x86_64",
+			"checksum": "31871e5eb67955c2ff8d997e1447225df52ecd46621b4f19c7e077f3bdf2ef33",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-427.18.1.el9_4.aarch64.rpm",
-			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "427.18.1.el9_4",
-			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "807b73e374da4a5f01ceff27c7296394383440a93b9646f03d58295f0b538c97",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libperf-5.14.0-427.18.1.el9_4.aarch64.rpm",
+			"filename": "libperf-5.14.0-427.18.1.el9_4.x86_64.rpm",
 			"name": "libperf",
 			"reboot_suggested": 0,
 			"release": "427.18.1.el9_4",
@@ -1373,11 +1361,23 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e26df682d4b8aa02d1a49bb9e8ded3dc38c22c06afc2cf044256d7206cf7873b",
+			"arch": "x86_64",
+			"checksum": "9aa23cc5c2325f9290904c9c468508ee43cc904177156b0cb3643aa142d38183",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-427.18.1.el9_4.aarch64.rpm",
+			"filename": "kernel-tools-libs-devel-5.14.0-427.18.1.el9_4.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "427.18.1.el9_4",
+			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ac21577564951033a36dabecca35dc779c804213a6cefaad18cdafb0c7f3a6f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-5.14.0-427.18.1.el9_4.x86_64.rpm",
 			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "427.18.1.el9_4",
@@ -1415,6 +1415,42 @@
 			"epoch": "0",
 			"filename": "libperf-5.14.0-427.18.1.el9_4.ppc64le.rpm",
 			"name": "libperf",
+			"reboot_suggested": 0,
+			"release": "427.18.1.el9_4",
+			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6fbb46c77b5c907d2497994de5320ea6143a1a99f4d8977016fd13255c5f599e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-5.14.0-427.18.1.el9_4.aarch64.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "427.18.1.el9_4",
+			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "807b73e374da4a5f01ceff27c7296394383440a93b9646f03d58295f0b538c97",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libperf-5.14.0-427.18.1.el9_4.aarch64.rpm",
+			"name": "libperf",
+			"reboot_suggested": 0,
+			"release": "427.18.1.el9_4",
+			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e26df682d4b8aa02d1a49bb9e8ded3dc38c22c06afc2cf044256d7206cf7873b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-5.14.0-427.18.1.el9_4.aarch64.rpm",
+			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "427.18.1.el9_4",
 			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
@@ -1565,42 +1601,6 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "31871e5eb67955c2ff8d997e1447225df52ecd46621b4f19c7e077f3bdf2ef33",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libperf-5.14.0-427.18.1.el9_4.x86_64.rpm",
-			"name": "libperf",
-			"reboot_suggested": 0,
-			"release": "427.18.1.el9_4",
-			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9aa23cc5c2325f9290904c9c468508ee43cc904177156b0cb3643aa142d38183",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-427.18.1.el9_4.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "427.18.1.el9_4",
-			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ac21577564951033a36dabecca35dc779c804213a6cefaad18cdafb0c7f3a6f4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-427.18.1.el9_4.x86_64.rpm",
-			"name": "kernel-cross-headers",
-			"reboot_suggested": 0,
-			"release": "427.18.1.el9_4",
-			"src": "kernel-5.14.0-427.18.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "36059fe4c160ae79f3bd04b43d44d76de980e962a58a6ddda304736720202a28",
 			"checksum_type": "sha256",
@@ -1685,5 +1685,5 @@
 	"severity": "moderate",
 	"title": "Moderate: kernel security and bug fix update",
 	"type": "security",
-	"updated_date": 1730671903
+	"updated_date": 1730671898
 }

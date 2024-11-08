@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "3c384729d4b691d37991d4471a3553143141fd2c866f19c4d30190d7d20bf727",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "usbguard-1.0.0-10.el9_1.2.i686.rpm",
+			"name": "usbguard",
+			"reboot_suggested": 0,
+			"release": "10.el9_1.2",
+			"src": "usbguard-1.0.0-10.el9_1.2.src.rpm",
+			"version": "1.0.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a415e5e1be55a36e9aad68b80ba34dc387313a81751ebc47ddf45a3ddcee81be",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "usbguard-selinux-1.0.0-10.el9_1.2.noarch.rpm",
+			"name": "usbguard-selinux",
+			"reboot_suggested": 0,
+			"release": "10.el9_1.2",
+			"src": "usbguard-1.0.0-10.el9_1.2.src.rpm",
+			"version": "1.0.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1eac7402609fc95dd3c43ccfde5f0a4f5e35411dbc87e034a17706705207fa91",
 			"checksum_type": "sha256",
@@ -29,36 +53,12 @@
 			"version": "1.0.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "3c384729d4b691d37991d4471a3553143141fd2c866f19c4d30190d7d20bf727",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "usbguard-1.0.0-10.el9_1.2.i686.rpm",
-			"name": "usbguard",
-			"reboot_suggested": 0,
-			"release": "10.el9_1.2",
-			"src": "usbguard-1.0.0-10.el9_1.2.src.rpm",
-			"version": "1.0.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "92616f0b9a090883f64fbc9309fc35f3b9c2ff8b74f129f8ad11b5224c87616f",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "usbguard-1.0.0-10.el9_1.2.x86_64.rpm",
 			"name": "usbguard",
-			"reboot_suggested": 0,
-			"release": "10.el9_1.2",
-			"src": "usbguard-1.0.0-10.el9_1.2.src.rpm",
-			"version": "1.0.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a415e5e1be55a36e9aad68b80ba34dc387313a81751ebc47ddf45a3ddcee81be",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "usbguard-selinux-1.0.0-10.el9_1.2.noarch.rpm",
-			"name": "usbguard-selinux",
 			"reboot_suggested": 0,
 			"release": "10.el9_1.2",
 			"src": "usbguard-1.0.0-10.el9_1.2.src.rpm",
@@ -246,5 +246,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: usbguard security update",
 	"type": "security",
-	"updated_date": 1678725399
+	"updated_date": 1674559567
 }

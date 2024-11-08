@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "9d099399c3b2092bce0f4c2af5ea40886743bf96af2825cf8c90f11c86770bfa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.19.1-1.el9_2.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
+			"version": "16.19.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f11bb41fc5bd941d6b4ceaabcbd5a55df759beac7e34945b8cd3a3f52838fe29",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.19.1-1.el9_2.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
+			"version": "16.19.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "6d2aae99a1950446554cf9dfe7e075a5376ba71e6f5e977b0ddfb43b4bc08569",
 			"checksum_type": "sha256",
@@ -47,30 +71,6 @@
 			"epoch": "1",
 			"filename": "nodejs-16.19.1-1.el9_2.x86_64.rpm",
 			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
-			"version": "16.19.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "9d099399c3b2092bce0f4c2af5ea40886743bf96af2825cf8c90f11c86770bfa",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.19.1-1.el9_2.i686.rpm",
-			"name": "nodejs-libs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
-			"version": "16.19.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "f11bb41fc5bd941d6b4ceaabcbd5a55df759beac7e34945b8cd3a3f52838fe29",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-docs-16.19.1-1.el9_2.noarch.rpm",
-			"name": "nodejs-docs",
 			"reboot_suggested": 0,
 			"release": "1.el9_2",
 			"src": "nodejs-16.19.1-1.el9_2.src.rpm",
@@ -296,5 +296,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: nodejs and nodejs-nodemon security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1683838964
+	"updated_date": 1683838963
 }

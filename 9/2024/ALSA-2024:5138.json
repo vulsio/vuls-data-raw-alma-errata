@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "617bedd804bdb369db24741136d165abe40e2adea6db7598de6ae9c59b87e76f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.57-11.el9_4.1.noarch.rpm",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "11.el9_4.1",
+			"src": "httpd-2.4.57-11.el9_4.1.src.rpm",
+			"version": "2.4.57"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a672dbfc7677ed70ba8883e04b529a83e68f1ad60d0ecd06a678c54172c0e81e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-filesystem-2.4.57-11.el9_4.1.noarch.rpm",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "11.el9_4.1",
+			"src": "httpd-2.4.57-11.el9_4.1.src.rpm",
+			"version": "2.4.57"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0a6de4afd1f1f9655331d95fcef04f648af842b0519a02d4c25c573c01c8c773",
 			"checksum_type": "sha256",
@@ -41,36 +65,12 @@
 			"version": "2.4.57"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "617bedd804bdb369db24741136d165abe40e2adea6db7598de6ae9c59b87e76f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.57-11.el9_4.1.noarch.rpm",
-			"name": "httpd-manual",
-			"reboot_suggested": 0,
-			"release": "11.el9_4.1",
-			"src": "httpd-2.4.57-11.el9_4.1.src.rpm",
-			"version": "2.4.57"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "8bcbf1ff1c4e18569ad030886ba819fe00064658afc9caaeed7d67fad977ae77",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "httpd-devel-2.4.57-11.el9_4.1.x86_64.rpm",
 			"name": "httpd-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9_4.1",
-			"src": "httpd-2.4.57-11.el9_4.1.src.rpm",
-			"version": "2.4.57"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a672dbfc7677ed70ba8883e04b529a83e68f1ad60d0ecd06a678c54172c0e81e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-filesystem-2.4.57-11.el9_4.1.noarch.rpm",
-			"name": "httpd-filesystem",
 			"reboot_suggested": 0,
 			"release": "11.el9_4.1",
 			"src": "httpd-2.4.57-11.el9_4.1.src.rpm",
@@ -486,5 +486,5 @@
 	"severity": "Important",
 	"title": "Important: httpd security update",
 	"type": "security",
-	"updated_date": 1723143677
+	"updated_date": 1723143675
 }

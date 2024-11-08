@@ -4,6 +4,13 @@
 	"issued_date": 1724803200,
 	"modules": [
 		{
+			"arch": "i686",
+			"context": "8cf767d6",
+			"name": "postgresql",
+			"stream": "16",
+			"version": "9040020240828134336"
+		},
+		{
 			"arch": "x86_64",
 			"context": "8cf767d6",
 			"name": "postgresql",
@@ -12,13 +19,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"context": "8cf767d6",
-			"name": "postgresql",
-			"stream": "16",
-			"version": "9040020240828134336"
-		},
-		{
-			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "16",
@@ -40,6 +40,19 @@
 		}
 	],
 	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "9a63e985bd0be681d52f689ef51210d8174d13c50f2de4208d0a784cc74ab9d2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-test-rpm-macros-16.4-1.module_el9.4.0+109+624ac33a.noarch.rpm",
+			"module": "postgresql:16:9040020240828134336:8cf767d6:i686",
+			"name": "postgresql-test-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.4.0+109+624ac33a",
+			"src": "postgresql-16.4-1.module_el9.4.0+109+624ac33a.src.rpm",
+			"version": "16.4"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "0360ec1d3004625828f1da90e5422bcc5d5d89990eb054e3148c177373a77c3b",
@@ -165,19 +178,6 @@
 			"filename": "postgresql-private-libs-16.4-1.module_el9.4.0+109+624ac33a.x86_64.rpm",
 			"module": "postgresql:16:9040020240828134336:8cf767d6:x86_64",
 			"name": "postgresql-private-libs",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.4.0+109+624ac33a",
-			"src": "postgresql-16.4-1.module_el9.4.0+109+624ac33a.src.rpm",
-			"version": "16.4"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9a63e985bd0be681d52f689ef51210d8174d13c50f2de4208d0a784cc74ab9d2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "postgresql-test-rpm-macros-16.4-1.module_el9.4.0+109+624ac33a.noarch.rpm",
-			"module": "postgresql:16:9040020240828134336:8cf767d6:x86_64",
-			"name": "postgresql-test-rpm-macros",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.4.0+109+624ac33a",
 			"src": "postgresql-16.4-1.module_el9.4.0+109+624ac33a.src.rpm",
@@ -973,5 +973,5 @@
 	"severity": "Important",
 	"title": "Important: postgresql:16 security update",
 	"type": "security",
-	"updated_date": 1724858758
+	"updated_date": 1724858754
 }

@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "3353e9654688cd38306bd37aa10893fbfae95a52fc000889d856ce6c964dfd28",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind-9.16.23-18.el9_4.1.noarch.rpm",
+			"name": "python3-bind",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.1",
+			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "i686",
+			"checksum": "51a338667417c99dafbe529b2e73c5bf5bf3dfc927946cf0f1169d5e1e9411e9",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-libs-9.16.23-18.el9_4.1.i686.rpm",
+			"name": "bind-libs",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.1",
+			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ae7bf12a28a5753931c0725bf5b9bbea371aa3cbefdd5fe0075bedd29c59be6a",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-license-9.16.23-18.el9_4.1.noarch.rpm",
+			"name": "bind-license",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.1",
+			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e4388e0eef62d2414d5a5aee824ba06b2443eea617ae13bfeac580a1f2ea3939",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-dnssec-doc-9.16.23-18.el9_4.1.noarch.rpm",
+			"name": "bind-dnssec-doc",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.1",
+			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "019caf6fde7da83ef31d17cd9f73c34469e6bb901f8cd358ca81ed6551fe34b7",
 			"checksum_type": "sha256",
@@ -41,30 +89,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "3353e9654688cd38306bd37aa10893fbfae95a52fc000889d856ce6c964dfd28",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind-9.16.23-18.el9_4.1.noarch.rpm",
-			"name": "python3-bind",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.1",
-			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ae7bf12a28a5753931c0725bf5b9bbea371aa3cbefdd5fe0075bedd29c59be6a",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-license-9.16.23-18.el9_4.1.noarch.rpm",
-			"name": "bind-license",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.1",
-			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "da554395a1769bfeeebc12e215ae08783728159822a415fbb9591704a216e360",
 			"checksum_type": "sha256",
@@ -83,18 +107,6 @@
 			"epoch": "32",
 			"filename": "bind-utils-9.16.23-18.el9_4.1.x86_64.rpm",
 			"name": "bind-utils",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.1",
-			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e4388e0eef62d2414d5a5aee824ba06b2443eea617ae13bfeac580a1f2ea3939",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-dnssec-doc-9.16.23-18.el9_4.1.noarch.rpm",
-			"name": "bind-dnssec-doc",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.1",
 			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
@@ -179,18 +191,6 @@
 			"epoch": "32",
 			"filename": "bind-chroot-9.16.23-18.el9_4.1.aarch64.rpm",
 			"name": "bind-chroot",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.1",
-			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "i686",
-			"checksum": "51a338667417c99dafbe529b2e73c5bf5bf3dfc927946cf0f1169d5e1e9411e9",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-libs-9.16.23-18.el9_4.1.i686.rpm",
-			"name": "bind-libs",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.1",
 			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
@@ -353,24 +353,24 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "f79829629665932a43bcf0575918edac6feb3858caced0cd6b7d9228d46c6ec4",
+			"arch": "x86_64",
+			"checksum": "e51ef145e049cb39beca061e774b1ce871a9705684ab10faadc47d494db11db3",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-doc-9.16.23-18.el9_4.1.noarch.rpm",
-			"name": "bind-doc",
+			"filename": "bind-devel-9.16.23-18.el9_4.1.x86_64.rpm",
+			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.1",
 			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "61484cbd6cc643c983998d7a59dd1c34d9d888355341c6076d1042944831a565",
+			"arch": "noarch",
+			"checksum": "f79829629665932a43bcf0575918edac6feb3858caced0cd6b7d9228d46c6ec4",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-18.el9_4.1.aarch64.rpm",
-			"name": "bind-devel",
+			"filename": "bind-doc-9.16.23-18.el9_4.1.noarch.rpm",
+			"name": "bind-doc",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.1",
 			"src": "bind-9.16.23-18.el9_4.1.src.rpm",
@@ -389,11 +389,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e51ef145e049cb39beca061e774b1ce871a9705684ab10faadc47d494db11db3",
+			"arch": "aarch64",
+			"checksum": "61484cbd6cc643c983998d7a59dd1c34d9d888355341c6076d1042944831a565",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-18.el9_4.1.x86_64.rpm",
+			"filename": "bind-devel-9.16.23-18.el9_4.1.aarch64.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.1",
@@ -488,5 +488,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1715094461
+	"updated_date": 1715094450
 }

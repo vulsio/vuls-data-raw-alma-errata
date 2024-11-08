@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "ef93dbe7e32a0acc409bf52449feea9913b5cd3c0d64f9cc01d02a7b54c2ce33",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-filesystem-27.2-10.el9_4.noarch.rpm",
+			"name": "emacs-filesystem",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "emacs-27.2-10.el9_4.src.rpm",
+			"version": "27.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3bec135c01fe8638d14176404aed54409233618bdf828493476d82af20710bee",
 			"checksum_type": "sha256",
@@ -47,18 +59,6 @@
 			"epoch": "1",
 			"filename": "emacs-nox-27.2-10.el9_4.x86_64.rpm",
 			"name": "emacs-nox",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "emacs-27.2-10.el9_4.src.rpm",
-			"version": "27.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ef93dbe7e32a0acc409bf52449feea9913b5cd3c0d64f9cc01d02a7b54c2ce33",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-filesystem-27.2-10.el9_4.noarch.rpm",
-			"name": "emacs-filesystem",
 			"reboot_suggested": 0,
 			"release": "10.el9_4",
 			"src": "emacs-27.2-10.el9_4.src.rpm",
@@ -234,5 +234,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: emacs security update",
 	"type": "security",
-	"updated_date": 1725949334
+	"updated_date": 1725949333
 }

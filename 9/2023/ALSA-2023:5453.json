@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "b815dc8db3dc8d6e123d6718685d319dde9832dbad92f00d6f6b5d24f161bf18",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-doc-2.34-60.el9_2.7.noarch.rpm",
+			"name": "glibc-doc",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d7471973e5c94064116c5ae057cf612fecd9f518fdeed7afcba2bf9d9a31a06b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-devel-2.34-60.el9_2.7.i686.rpm",
+			"name": "glibc-devel",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "36e39cc10173bf80f5f1776dbc85937a33a97f072075a6a3a88c1463688a70d9",
 			"checksum_type": "sha256",
@@ -29,36 +53,12 @@
 			"version": "2.34"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "b815dc8db3dc8d6e123d6718685d319dde9832dbad92f00d6f6b5d24f161bf18",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-doc-2.34-60.el9_2.7.noarch.rpm",
-			"name": "glibc-doc",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "ca983f6c167beba273931b2e009a5819f361573ecca56e95782299f418068c84",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glibc-utils-2.34-60.el9_2.7.x86_64.rpm",
 			"name": "glibc-utils",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d7471973e5c94064116c5ae057cf612fecd9f518fdeed7afcba2bf9d9a31a06b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-devel-2.34-60.el9_2.7.i686.rpm",
-			"name": "glibc-devel",
 			"reboot_suggested": 0,
 			"release": "60.el9_2.7",
 			"src": "glibc-2.34-60.el9_2.7.src.rpm",
@@ -10073,6 +10073,18 @@
 			"version": "2.34"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "017f2328aca87d3b301019fb522fe38111c9ff9e0fd4182c864515d4d7dc618f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-nss-devel-2.34-60.el9_2.7.x86_64.rpm",
+			"name": "glibc-nss-devel",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
 			"arch": "i686",
 			"checksum": "072adc50dbd0bb4320f13fa062726c43f110b96f4f75f8e2402d0f6e9a25ebdd",
 			"checksum_type": "sha256",
@@ -10109,6 +10121,18 @@
 			"version": "2.34"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "38fd82eb43b6efd244ea48f9e8d096565cc3c035c90f008cbd835030bf8a4de3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.34-60.el9_2.7.x86_64.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
 			"arch": "i686",
 			"checksum": "5ed08ab08fcf7e0c68ecf01e4029cc5bf85fce35a734d11dca174629548dcdbe",
 			"checksum_type": "sha256",
@@ -10121,11 +10145,23 @@
 			"version": "2.34"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3352f62f7dfb88bb51c4b0524b482cef30a427cd32c07b069b4985db8c1e065e",
+			"arch": "x86_64",
+			"checksum": "65ba707f704ff37fc1c1ae38ee20a4640e0dcffad8786e0acf59d624ddeb14b5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glibc-static-2.34-60.el9_2.7.aarch64.rpm",
+			"filename": "nss_db-2.34-60.el9_2.7.x86_64.rpm",
+			"name": "nss_db",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9c275b0a96b68360aab54c58fec2368ef1173b571c956fd8181b8f8a9d205f42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-static-2.34-60.el9_2.7.x86_64.rpm",
 			"name": "glibc-static",
 			"reboot_suggested": 0,
 			"release": "60.el9_2.7",
@@ -10133,48 +10169,12 @@
 			"version": "2.34"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3dd5ed65320b708c2db8163d7355d058b4e4f67613b16edfdaa837c03f88b4c6",
+			"arch": "x86_64",
+			"checksum": "aecc5952229a7b75bd6d1932a82c69b29ada135018d585ca825f727652dc1f33",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glibc-nss-devel-2.34-60.el9_2.7.aarch64.rpm",
-			"name": "glibc-nss-devel",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "89ea7d8a7667bcb5e918694ea0138bd0d92bc1a2320028e709afd57bceda1fde",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-benchtests-2.34-60.el9_2.7.aarch64.rpm",
+			"filename": "glibc-benchtests-2.34-60.el9_2.7.x86_64.rpm",
 			"name": "glibc-benchtests",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "94cf9f3e14380f573f9f58ecbb31a47fec952b03754fdcbc8b47d95c022688de",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.34-60.el9_2.7.aarch64.rpm",
-			"name": "nss_hesiod",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "985437109366e72a477c3f13ef600c9c93e05fc73be269d77c0eb90b879c855b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_db-2.34-60.el9_2.7.aarch64.rpm",
-			"name": "nss_db",
 			"reboot_suggested": 0,
 			"release": "60.el9_2.7",
 			"src": "glibc-2.34-60.el9_2.7.src.rpm",
@@ -10241,47 +10241,11 @@
 			"version": "2.34"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "017f2328aca87d3b301019fb522fe38111c9ff9e0fd4182c864515d4d7dc618f",
+			"arch": "aarch64",
+			"checksum": "3352f62f7dfb88bb51c4b0524b482cef30a427cd32c07b069b4985db8c1e065e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glibc-nss-devel-2.34-60.el9_2.7.x86_64.rpm",
-			"name": "glibc-nss-devel",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "38fd82eb43b6efd244ea48f9e8d096565cc3c035c90f008cbd835030bf8a4de3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.34-60.el9_2.7.x86_64.rpm",
-			"name": "nss_hesiod",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "65ba707f704ff37fc1c1ae38ee20a4640e0dcffad8786e0acf59d624ddeb14b5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_db-2.34-60.el9_2.7.x86_64.rpm",
-			"name": "nss_db",
-			"reboot_suggested": 0,
-			"release": "60.el9_2.7",
-			"src": "glibc-2.34-60.el9_2.7.src.rpm",
-			"version": "2.34"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9c275b0a96b68360aab54c58fec2368ef1173b571c956fd8181b8f8a9d205f42",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-static-2.34-60.el9_2.7.x86_64.rpm",
+			"filename": "glibc-static-2.34-60.el9_2.7.aarch64.rpm",
 			"name": "glibc-static",
 			"reboot_suggested": 0,
 			"release": "60.el9_2.7",
@@ -10289,12 +10253,48 @@
 			"version": "2.34"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "aecc5952229a7b75bd6d1932a82c69b29ada135018d585ca825f727652dc1f33",
+			"arch": "aarch64",
+			"checksum": "3dd5ed65320b708c2db8163d7355d058b4e4f67613b16edfdaa837c03f88b4c6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glibc-benchtests-2.34-60.el9_2.7.x86_64.rpm",
+			"filename": "glibc-nss-devel-2.34-60.el9_2.7.aarch64.rpm",
+			"name": "glibc-nss-devel",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "89ea7d8a7667bcb5e918694ea0138bd0d92bc1a2320028e709afd57bceda1fde",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-benchtests-2.34-60.el9_2.7.aarch64.rpm",
 			"name": "glibc-benchtests",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "94cf9f3e14380f573f9f58ecbb31a47fec952b03754fdcbc8b47d95c022688de",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.34-60.el9_2.7.aarch64.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "60.el9_2.7",
+			"src": "glibc-2.34-60.el9_2.7.src.rpm",
+			"version": "2.34"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "985437109366e72a477c3f13ef600c9c93e05fc73be269d77c0eb90b879c855b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_db-2.34-60.el9_2.7.aarch64.rpm",
+			"name": "nss_db",
 			"reboot_suggested": 0,
 			"release": "60.el9_2.7",
 			"src": "glibc-2.34-60.el9_2.7.src.rpm",
@@ -10416,5 +10416,5 @@
 	"severity": "Important",
 	"title": "Important: glibc security update",
 	"type": "security",
-	"updated_date": 1696588152
+	"updated_date": 1696588151
 }

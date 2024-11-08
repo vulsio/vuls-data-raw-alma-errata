@@ -5,24 +5,36 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "2e0f11ede0ee70174ea490e8a5ad4bea102d3e98e5c3e18c8f70335656f8bfc8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ghostscript-tools-fonts-9.54.0-13.el9.x86_64.rpm",
-			"name": "ghostscript-tools-fonts",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "ghostscript-9.54.0-13.el9.src.rpm",
-			"version": "9.54.0"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "6222dc6fd993f4ebb21d1855184a5ec133bcf11a08260984a4cebec91fde644d",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "ghostscript-doc-9.54.0-13.el9.noarch.rpm",
 			"name": "ghostscript-doc",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "ghostscript-9.54.0-13.el9.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d6e3e7eb3e2df0896612d7633655275a33e613a9ce70e9082eb91a4b6825bf33",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-9.54.0-13.el9.i686.rpm",
+			"name": "libgs",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "ghostscript-9.54.0-13.el9.src.rpm",
+			"version": "9.54.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2e0f11ede0ee70174ea490e8a5ad4bea102d3e98e5c3e18c8f70335656f8bfc8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ghostscript-tools-fonts-9.54.0-13.el9.x86_64.rpm",
+			"name": "ghostscript-tools-fonts",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "ghostscript-9.54.0-13.el9.src.rpm",
@@ -83,18 +95,6 @@
 			"epoch": "0",
 			"filename": "ghostscript-tools-dvipdf-9.54.0-13.el9.x86_64.rpm",
 			"name": "ghostscript-tools-dvipdf",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "ghostscript-9.54.0-13.el9.src.rpm",
-			"version": "9.54.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d6e3e7eb3e2df0896612d7633655275a33e613a9ce70e9082eb91a4b6825bf33",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-9.54.0-13.el9.i686.rpm",
-			"name": "libgs",
 			"reboot_suggested": 0,
 			"release": "13.el9",
 			"src": "ghostscript-9.54.0-13.el9.src.rpm",
@@ -329,6 +329,18 @@
 			"version": "9.54.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "87a6391937855d9f5156de0619afcb45c173aed57f85626a80b80d29ce182ade",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgs-devel-9.54.0-13.el9.x86_64.rpm",
+			"name": "libgs-devel",
+			"reboot_suggested": 0,
+			"release": "13.el9",
+			"src": "ghostscript-9.54.0-13.el9.src.rpm",
+			"version": "9.54.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "9085ec60aaa4b2569f4ea1b01d3e42e18d5d504ed94b7fe2c9a986bbd2412c75",
 			"checksum_type": "sha256",
@@ -365,18 +377,6 @@
 			"version": "9.54.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "70854d8a488f06b0e7a1e1418e35286d75ea1fed2ae2fe6c5707b6e07038f85d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgs-devel-9.54.0-13.el9.aarch64.rpm",
-			"name": "libgs-devel",
-			"reboot_suggested": 0,
-			"release": "13.el9",
-			"src": "ghostscript-9.54.0-13.el9.src.rpm",
-			"version": "9.54.0"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "b7ad94c806478f9151d57cea873ecf03c3fe8b0a2a52e2651118aacb1990a541",
 			"checksum_type": "sha256",
@@ -389,11 +389,11 @@
 			"version": "9.54.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "87a6391937855d9f5156de0619afcb45c173aed57f85626a80b80d29ce182ade",
+			"arch": "aarch64",
+			"checksum": "70854d8a488f06b0e7a1e1418e35286d75ea1fed2ae2fe6c5707b6e07038f85d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgs-devel-9.54.0-13.el9.x86_64.rpm",
+			"filename": "libgs-devel-9.54.0-13.el9.aarch64.rpm",
 			"name": "libgs-devel",
 			"reboot_suggested": 0,
 			"release": "13.el9",
@@ -448,5 +448,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: ghostscript security and bug fix update",
 	"type": "security",
-	"updated_date": 1700050072
+	"updated_date": 1700050070
 }

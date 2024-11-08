@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "e04db657a2b32f8ed6237a285a6a374c16fa32b0c4359d0aaaf7473b962e109d",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "podman-docker-4.6.1-7.el9_3.noarch.rpm",
+			"name": "podman-docker",
+			"reboot_suggested": 0,
+			"release": "7.el9_3",
+			"src": "podman-4.6.1-7.el9_3.src.rpm",
+			"version": "4.6.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2fb160fe20fef5de6ba7a67a28df479f0fd33c96f766bd15fdb49945e83fb063",
 			"checksum_type": "sha256",
@@ -59,18 +71,6 @@
 			"epoch": "2",
 			"filename": "podman-gvproxy-4.6.1-7.el9_3.x86_64.rpm",
 			"name": "podman-gvproxy",
-			"reboot_suggested": 0,
-			"release": "7.el9_3",
-			"src": "podman-4.6.1-7.el9_3.src.rpm",
-			"version": "4.6.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e04db657a2b32f8ed6237a285a6a374c16fa32b0c4359d0aaaf7473b962e109d",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "podman-docker-4.6.1-7.el9_3.noarch.rpm",
-			"name": "podman-docker",
 			"reboot_suggested": 0,
 			"release": "7.el9_3",
 			"src": "podman-4.6.1-7.el9_3.src.rpm",
@@ -322,5 +322,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: podman security update",
 	"type": "security",
-	"updated_date": 1702546778
+	"updated_date": 1702546776
 }

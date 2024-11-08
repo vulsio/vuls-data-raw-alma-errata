@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "42f691db1d5bf19f61201edc16027b0d23e1f8d4b636127269cfefaf1e8c5719",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "python3-bind-9.16.23-18.el9_4.6.noarch.rpm",
+			"name": "python3-bind",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.6",
+			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "71e7eda62fad82b98d7b568cdbd6ca85957e36db56c15ace1d21a620f75ea390",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-dnssec-doc-9.16.23-18.el9_4.6.noarch.rpm",
+			"name": "bind-dnssec-doc",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.6",
+			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
+			"version": "9.16.23"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cc05b8ec2e3a7cd1137ed17e0fddf12248c2470a2903f59f80e72afcbcfd45c3",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-license-9.16.23-18.el9_4.6.noarch.rpm",
+			"name": "bind-license",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.6",
+			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1bffa0e0e531940f55415e811906e8cd4a1429ededdf4b5769e551a89afcf386",
 			"checksum_type": "sha256",
@@ -23,18 +59,6 @@
 			"epoch": "32",
 			"filename": "bind-utils-9.16.23-18.el9_4.6.x86_64.rpm",
 			"name": "bind-utils",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.6",
-			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "42f691db1d5bf19f61201edc16027b0d23e1f8d4b636127269cfefaf1e8c5719",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "python3-bind-9.16.23-18.el9_4.6.noarch.rpm",
-			"name": "python3-bind",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.6",
 			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
@@ -63,30 +87,6 @@
 			"release": "10.el9_4.alma.1",
 			"src": "bind-dyndb-ldap-11.9-10.el9_4.alma.1.src.rpm",
 			"version": "11.9"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "71e7eda62fad82b98d7b568cdbd6ca85957e36db56c15ace1d21a620f75ea390",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-dnssec-doc-9.16.23-18.el9_4.6.noarch.rpm",
-			"name": "bind-dnssec-doc",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.6",
-			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
-			"version": "9.16.23"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "cc05b8ec2e3a7cd1137ed17e0fddf12248c2470a2903f59f80e72afcbcfd45c3",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-license-9.16.23-18.el9_4.6.noarch.rpm",
-			"name": "bind-license",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.6",
-			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
-			"version": "9.16.23"
 		},
 		{
 			"arch": "x86_64",
@@ -341,6 +341,18 @@
 			"version": "9.16.23"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "73e1124e110710b90d3e9c1e6ebd35f03b8914a4a2a56da0487bdbfd853f7627",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-devel-9.16.23-18.el9_4.6.x86_64.rpm",
+			"name": "bind-devel",
+			"reboot_suggested": 0,
+			"release": "18.el9_4.6",
+			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
+			"version": "9.16.23"
+		},
+		{
 			"arch": "i686",
 			"checksum": "94a32320a66459da400592d294420be8b62ba193ec66b80b97a662354a02743d",
 			"checksum_type": "sha256",
@@ -365,18 +377,6 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "553869277a16cfe0907b023158774c145a56152b6bb74589dacf883c7c7a70f5",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-devel-9.16.23-18.el9_4.6.aarch64.rpm",
-			"name": "bind-devel",
-			"reboot_suggested": 0,
-			"release": "18.el9_4.6",
-			"src": "bind-9.16.23-18.el9_4.6.src.rpm",
-			"version": "9.16.23"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "7b6d6bcccb18f1a8f0ad2e045d8cd07d1d84e6997bedb60aea396e11f636f64c",
 			"checksum_type": "sha256",
@@ -389,11 +389,11 @@
 			"version": "9.16.23"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "73e1124e110710b90d3e9c1e6ebd35f03b8914a4a2a56da0487bdbfd853f7627",
+			"arch": "aarch64",
+			"checksum": "553869277a16cfe0907b023158774c145a56152b6bb74589dacf883c7c7a70f5",
 			"checksum_type": "sha256",
 			"epoch": "32",
-			"filename": "bind-devel-9.16.23-18.el9_4.6.x86_64.rpm",
+			"filename": "bind-devel-9.16.23-18.el9_4.6.aarch64.rpm",
 			"name": "bind-devel",
 			"reboot_suggested": 0,
 			"release": "18.el9_4.6",
@@ -458,5 +458,5 @@
 	"severity": "Important",
 	"title": "Important: bind and bind-dyndb-ldap security update",
 	"type": "security",
-	"updated_date": 1724860657
+	"updated_date": 1724860655
 }

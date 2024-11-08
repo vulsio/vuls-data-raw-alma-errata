@@ -4,6 +4,13 @@
 	"issued_date": 1724889600,
 	"modules": [
 		{
+			"arch": "i686",
+			"context": "8cf767d6",
+			"name": "postgresql",
+			"stream": "15",
+			"version": "9040020240829130124"
+		},
+		{
 			"arch": "x86_64",
 			"context": "8cf767d6",
 			"name": "postgresql",
@@ -12,13 +19,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"context": "8cf767d6",
-			"name": "postgresql",
-			"stream": "15",
-			"version": "9040020240829130124"
-		},
-		{
-			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "postgresql",
 			"stream": "15",
@@ -40,6 +40,19 @@
 		}
 	],
 	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "dee51d8823d2bdd22387d82a4d8e40de05058d00c94a5e9216bdaba278f792dd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "postgresql-test-rpm-macros-15.8-1.module_el9.4.0+111+667b9e9e.noarch.rpm",
+			"module": "postgresql:15:9040020240829130124:8cf767d6:i686",
+			"name": "postgresql-test-rpm-macros",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.4.0+111+667b9e9e",
+			"src": "postgresql-15.8-1.module_el9.4.0+111+667b9e9e.src.rpm",
+			"version": "15.8"
+		},
 		{
 			"arch": "x86_64",
 			"checksum": "0ef4f8e1aa4a65299672fab45553e0aff838cfcee0af3ce51eb66ff7b5e9fa15",
@@ -243,19 +256,6 @@
 			"filename": "postgresql-contrib-15.8-1.module_el9.4.0+111+667b9e9e.x86_64.rpm",
 			"module": "postgresql:15:9040020240829130124:8cf767d6:x86_64",
 			"name": "postgresql-contrib",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.4.0+111+667b9e9e",
-			"src": "postgresql-15.8-1.module_el9.4.0+111+667b9e9e.src.rpm",
-			"version": "15.8"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "dee51d8823d2bdd22387d82a4d8e40de05058d00c94a5e9216bdaba278f792dd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "postgresql-test-rpm-macros-15.8-1.module_el9.4.0+111+667b9e9e.noarch.rpm",
-			"module": "postgresql:15:9040020240829130124:8cf767d6:x86_64",
-			"name": "postgresql-test-rpm-macros",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.4.0+111+667b9e9e",
 			"src": "postgresql-15.8-1.module_el9.4.0+111+667b9e9e.src.rpm",
@@ -973,5 +973,5 @@
 	"severity": "Important",
 	"title": "Important: postgresql:15 security update",
 	"type": "security",
-	"updated_date": 1724939083
+	"updated_date": 1724939073
 }

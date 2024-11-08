@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "6d54474b17c24c61330776bb7a07cde833dc8e89fa48d5bb7a2252e145e9e3fe",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.x86_64.rpm",
-			"name": "systemd-journal-remote",
-			"reboot_suggested": 0,
-			"release": "32.el9_4.alma.1",
-			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
-			"version": "252"
-		},
-		{
 			"arch": "i686",
 			"checksum": "a011201128f048ec29befe20ad095f777e93831bf3849b776def53baae6f34f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "systemd-devel-252-32.el9_4.alma.1.i686.rpm",
 			"name": "systemd-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_4.alma.1",
+			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
+			"version": "252"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6d54474b17c24c61330776bb7a07cde833dc8e89fa48d5bb7a2252e145e9e3fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "systemd-journal-remote-252-32.el9_4.alma.1.x86_64.rpm",
+			"name": "systemd-journal-remote",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
 			"src": "systemd-252-32.el9_4.alma.1.src.rpm",
@@ -509,11 +509,11 @@
 			"version": "252"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a87d3265835259e61c323584a4d3a6844dafa759477db8603a47825e976f791b",
+			"arch": "x86_64",
+			"checksum": "e897938f17643025bcdcf602d4a8e012be61e5f6c2b5a217c5a1d1a52a6e43ca",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.aarch64.rpm",
+			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.x86_64.rpm",
 			"name": "systemd-boot-unsigned",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
@@ -521,11 +521,11 @@
 			"version": "252"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e897938f17643025bcdcf602d4a8e012be61e5f6c2b5a217c5a1d1a52a6e43ca",
+			"arch": "aarch64",
+			"checksum": "a87d3265835259e61c323584a4d3a6844dafa759477db8603a47825e976f791b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.x86_64.rpm",
+			"filename": "systemd-boot-unsigned-252-32.el9_4.alma.1.aarch64.rpm",
 			"name": "systemd-boot-unsigned",
 			"reboot_suggested": 0,
 			"release": "32.el9_4.alma.1",
@@ -558,5 +558,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: systemd security update",
 	"type": "security",
-	"updated_date": 1715093776
+	"updated_date": 1715093655
 }

@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "2ab36a5c74e62f31f570c01fe4312b7e8d60488429e28e07a8a5395b005f68e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-filesystem-2.4.57-8.el9.noarch.rpm",
+			"name": "httpd-filesystem",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "httpd-2.4.57-8.el9.src.rpm",
+			"version": "2.4.57"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "fbcf58ec068a000054e200feb51f9895f88c020e0957e544f35b5c450e8dc47b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "httpd-manual-2.4.57-8.el9.noarch.rpm",
+			"name": "httpd-manual",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "httpd-2.4.57-8.el9.src.rpm",
+			"version": "2.4.57"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "061227c6e3926b2210533556336794d7f9038b6ad02961bb12b66b416b339aaf",
 			"checksum_type": "sha256",
@@ -23,18 +47,6 @@
 			"epoch": "0",
 			"filename": "httpd-core-2.4.57-8.el9.x86_64.rpm",
 			"name": "httpd-core",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "httpd-2.4.57-8.el9.src.rpm",
-			"version": "2.4.57"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "2ab36a5c74e62f31f570c01fe4312b7e8d60488429e28e07a8a5395b005f68e0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-filesystem-2.4.57-8.el9.noarch.rpm",
-			"name": "httpd-filesystem",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "httpd-2.4.57-8.el9.src.rpm",
@@ -119,18 +131,6 @@
 			"epoch": "0",
 			"filename": "mod_ldap-2.4.57-8.el9.x86_64.rpm",
 			"name": "mod_ldap",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "httpd-2.4.57-8.el9.src.rpm",
-			"version": "2.4.57"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "fbcf58ec068a000054e200feb51f9895f88c020e0957e544f35b5c450e8dc47b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "httpd-manual-2.4.57-8.el9.noarch.rpm",
-			"name": "httpd-manual",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "httpd-2.4.57-8.el9.src.rpm",
@@ -486,5 +486,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: httpd security update",
 	"type": "security",
-	"updated_date": 1715094416
+	"updated_date": 1715094389
 }

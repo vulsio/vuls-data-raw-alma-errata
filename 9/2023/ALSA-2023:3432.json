@@ -29,11 +29,11 @@
 			"version": "2.38.5"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "39b32d5b9e3d84ef284e8b38b1e8e2011dbc55eea5d8cbdc5c4a5796a71a56a9",
+			"arch": "i686",
+			"checksum": "8c822e1a73e647eb9cfbb6f63f6f08db3f516dd73892cda62efd17a2f41b0c5a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-devel-2.38.5-1.el9_2.2.x86_64.rpm",
+			"filename": "webkit2gtk3-devel-2.38.5-1.el9_2.2.i686.rpm",
 			"name": "webkit2gtk3-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
@@ -42,10 +42,22 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "8c822e1a73e647eb9cfbb6f63f6f08db3f516dd73892cda62efd17a2f41b0c5a",
+			"checksum": "bc8265143e2e19f2e57ea790031afc04bc5ebb78297d4287fdba181750030b64",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-devel-2.38.5-1.el9_2.2.i686.rpm",
+			"filename": "webkit2gtk3-jsc-devel-2.38.5-1.el9_2.2.i686.rpm",
+			"name": "webkit2gtk3-jsc-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "webkit2gtk3-2.38.5-1.el9_2.2.src.rpm",
+			"version": "2.38.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "39b32d5b9e3d84ef284e8b38b1e8e2011dbc55eea5d8cbdc5c4a5796a71a56a9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "webkit2gtk3-devel-2.38.5-1.el9_2.2.x86_64.rpm",
 			"name": "webkit2gtk3-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "webkit2gtk3-2.38.5-1.el9_2.2.x86_64.rpm",
 			"name": "webkit2gtk3",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "webkit2gtk3-2.38.5-1.el9_2.2.src.rpm",
-			"version": "2.38.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "bc8265143e2e19f2e57ea790031afc04bc5ebb78297d4287fdba181750030b64",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "webkit2gtk3-jsc-devel-2.38.5-1.el9_2.2.i686.rpm",
-			"name": "webkit2gtk3-jsc-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
 			"src": "webkit2gtk3-2.38.5-1.el9_2.2.src.rpm",
@@ -280,5 +280,5 @@
 	"severity": "Important",
 	"title": "Important: webkit2gtk3 security update",
 	"type": "security",
-	"updated_date": 1686032124
+	"updated_date": 1686032123
 }

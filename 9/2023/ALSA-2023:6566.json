@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "730607fa8fb6cbb8c95726b766a2542ba860ca640cfc1e3ed93c57d235ff54e3",
+			"arch": "i686",
+			"checksum": "ad3725cb8498ef79218f6cba51744c4af78f1a84282d2eb227b820aab797a839",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.72-5.el9.x86_64.rpm",
+			"filename": "libmicrohttpd-0.9.72-5.el9.i686.rpm",
 			"name": "libmicrohttpd",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -17,11 +17,11 @@
 			"version": "0.9.72"
 		},
 		{
-			"arch": "i686",
-			"checksum": "ad3725cb8498ef79218f6cba51744c4af78f1a84282d2eb227b820aab797a839",
+			"arch": "x86_64",
+			"checksum": "730607fa8fb6cbb8c95726b766a2542ba860ca640cfc1e3ed93c57d235ff54e3",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libmicrohttpd-0.9.72-5.el9.i686.rpm",
+			"filename": "libmicrohttpd-0.9.72-5.el9.x86_64.rpm",
 			"name": "libmicrohttpd",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -77,24 +77,24 @@
 			"version": "0.9.72"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "67390759e2ec13f61ba7f59dbe3cfaa36ab3d99119dee2bb683a6e76818003ec",
+			"arch": "x86_64",
+			"checksum": "4d039a63a73f10e5f05073db5e9e8afc047d9b1d70f2849bb715cf6a79dbfeee",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libmicrohttpd-doc-0.9.72-5.el9.noarch.rpm",
-			"name": "libmicrohttpd-doc",
+			"filename": "libmicrohttpd-devel-0.9.72-5.el9.x86_64.rpm",
+			"name": "libmicrohttpd-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
 			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
 			"version": "0.9.72"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "fdcefa5dc92899e9687d949d79c5e4c2795a8a7798ff2c3f6b79df3d213ff141",
+			"arch": "noarch",
+			"checksum": "67390759e2ec13f61ba7f59dbe3cfaa36ab3d99119dee2bb683a6e76818003ec",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libmicrohttpd-devel-0.9.72-5.el9.aarch64.rpm",
-			"name": "libmicrohttpd-devel",
+			"filename": "libmicrohttpd-doc-0.9.72-5.el9.noarch.rpm",
+			"name": "libmicrohttpd-doc",
 			"reboot_suggested": 0,
 			"release": "5.el9",
 			"src": "libmicrohttpd-0.9.72-5.el9.src.rpm",
@@ -113,11 +113,11 @@
 			"version": "0.9.72"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "4d039a63a73f10e5f05073db5e9e8afc047d9b1d70f2849bb715cf6a79dbfeee",
+			"arch": "aarch64",
+			"checksum": "fdcefa5dc92899e9687d949d79c5e4c2795a8a7798ff2c3f6b79df3d213ff141",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "libmicrohttpd-devel-0.9.72-5.el9.x86_64.rpm",
+			"filename": "libmicrohttpd-devel-0.9.72-5.el9.aarch64.rpm",
 			"name": "libmicrohttpd-devel",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -162,5 +162,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libmicrohttpd security update",
 	"type": "security",
-	"updated_date": 1699963542
+	"updated_date": 1699963516
 }

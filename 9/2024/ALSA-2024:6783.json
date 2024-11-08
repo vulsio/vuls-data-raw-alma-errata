@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "1453d0c67a159886c9a3b911e1813cb3274d0467793402881bb1d8a5384e7a09",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-perl-3.0.7-28.el9_4.x86_64.rpm",
-			"name": "openssl-perl",
-			"reboot_suggested": 0,
-			"release": "28.el9_4",
-			"src": "openssl-3.0.7-28.el9_4.src.rpm",
-			"version": "3.0.7"
-		},
-		{
 			"arch": "i686",
 			"checksum": "5a32e22713bb9d12217f4005fdbfcb19323475846123cbb4357c1eefbf8d15a4",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-devel-3.0.7-28.el9_4.i686.rpm",
 			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "28.el9_4",
+			"src": "openssl-3.0.7-28.el9_4.src.rpm",
+			"version": "3.0.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1453d0c67a159886c9a3b911e1813cb3274d0467793402881bb1d8a5384e7a09",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.0.7-28.el9_4.x86_64.rpm",
+			"name": "openssl-perl",
 			"reboot_suggested": 0,
 			"release": "28.el9_4",
 			"src": "openssl-3.0.7-28.el9_4.src.rpm",
@@ -246,5 +246,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: openssl security update",
 	"type": "security",
-	"updated_date": 1726730962
+	"updated_date": 1726730960
 }

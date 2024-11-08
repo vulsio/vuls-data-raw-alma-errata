@@ -29,6 +29,30 @@
 			"version": "1.19.10"
 		},
 		{
+			"arch": "noarch",
+			"checksum": "ce25db99e39e7ce0e75d9c795762a5246ef955db97b3030fdda7c25aeecd0561",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-misc-1.19.10-1.el9_2.noarch.rpm",
+			"name": "golang-misc",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "golang-1.19.10-1.el9_2.src.rpm",
+			"version": "1.19.10"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "dddbe14e399987dedb35b95a495ec72088fba6d56b01d95ae75c7be4f4d899f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "golang-src-1.19.10-1.el9_2.noarch.rpm",
+			"name": "golang-src",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "golang-1.19.10-1.el9_2.src.rpm",
+			"version": "1.19.10"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "7ec2f2884fbc856287d5ca7db57f4ea9379f4d94c8f91bd8fec045ec30b518fa",
 			"checksum_type": "sha256",
@@ -74,30 +98,6 @@
 			"reboot_suggested": 0,
 			"release": "1.el9_2",
 			"src": "go-toolset-1.19.10-1.el9_2.src.rpm",
-			"version": "1.19.10"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ce25db99e39e7ce0e75d9c795762a5246ef955db97b3030fdda7c25aeecd0561",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-misc-1.19.10-1.el9_2.noarch.rpm",
-			"name": "golang-misc",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "golang-1.19.10-1.el9_2.src.rpm",
-			"version": "1.19.10"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "dddbe14e399987dedb35b95a495ec72088fba6d56b01d95ae75c7be4f4d899f8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "golang-src-1.19.10-1.el9_2.noarch.rpm",
-			"name": "golang-src",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "golang-1.19.10-1.el9_2.src.rpm",
 			"version": "1.19.10"
 		},
 		{
@@ -264,5 +264,5 @@
 	"severity": "Critical",
 	"title": "Critical: go-toolset and golang security update",
 	"type": "security",
-	"updated_date": 1688072398
+	"updated_date": 1688072397
 }

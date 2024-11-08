@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "ecec382c085a8b0de4fb52bed6f17bf48ed9732bf5f7ad21f8cd2b74c4ded321",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-3.el9_3.5.i686.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_3.5",
+			"src": "unbound-1.16.2-3.el9_3.5.src.rpm",
+			"version": "1.16.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "137afd200aa2136dd8d4c550bd079b709db858cd4756ef314d93c6eb020c0c99",
 			"checksum_type": "sha256",
@@ -35,18 +47,6 @@
 			"epoch": "0",
 			"filename": "unbound-1.16.2-3.el9_3.5.x86_64.rpm",
 			"name": "unbound",
-			"reboot_suggested": 0,
-			"release": "3.el9_3.5",
-			"src": "unbound-1.16.2-3.el9_3.5.src.rpm",
-			"version": "1.16.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "ecec382c085a8b0de4fb52bed6f17bf48ed9732bf5f7ad21f8cd2b74c4ded321",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "unbound-libs-1.16.2-3.el9_3.5.i686.rpm",
-			"name": "unbound-libs",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
 			"src": "unbound-1.16.2-3.el9_3.5.src.rpm",
@@ -161,11 +161,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "i686",
-			"checksum": "50e1dd3667141f1b4ce9f2041bdc42ea10e5355e9374d48e925d7d9d1debcff2",
+			"arch": "x86_64",
+			"checksum": "4e964e25a70fca72be9837070320265bc947a26cdbac7985b827b432e92c14ea",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.5.i686.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.5.x86_64.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
@@ -173,11 +173,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ae6fde936ce92199744d8bbdeda76101437f6f21cafbb91857fcc46bb85102ce",
+			"arch": "i686",
+			"checksum": "50e1dd3667141f1b4ce9f2041bdc42ea10e5355e9374d48e925d7d9d1debcff2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.5.aarch64.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.5.i686.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
@@ -197,11 +197,11 @@
 			"version": "1.16.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "4e964e25a70fca72be9837070320265bc947a26cdbac7985b827b432e92c14ea",
+			"arch": "aarch64",
+			"checksum": "ae6fde936ce92199744d8bbdeda76101437f6f21cafbb91857fcc46bb85102ce",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "unbound-devel-1.16.2-3.el9_3.5.x86_64.rpm",
+			"filename": "unbound-devel-1.16.2-3.el9_3.5.aarch64.rpm",
 			"name": "unbound-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_3.5",
@@ -246,5 +246,5 @@
 	"severity": "Important",
 	"title": "Important: unbound security update",
 	"type": "security",
-	"updated_date": 1712922696
+	"updated_date": 1712922694
 }

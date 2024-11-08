@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "90f97d00c92fe8b67824effb9b32aa1edc63cc314315c0c24b43695926634479",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-devel-2.3.3op2-16.el9_2.1.i686.rpm",
+			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "16.el9_2.1",
+			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "aa04bc93b6930f3be08d7fcef1b901e910e5638414afe1eeed997ed3360b6477",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-filesystem-2.3.3op2-16.el9_2.1.noarch.rpm",
+			"name": "cups-filesystem",
+			"reboot_suggested": 0,
+			"release": "16.el9_2.1",
+			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3124d730a026c43272f20f42f27401c6a667baa5607bbf6881a897efaf8917e4",
 			"checksum_type": "sha256",
@@ -47,30 +71,6 @@
 			"epoch": "1",
 			"filename": "cups-2.3.3op2-16.el9_2.1.x86_64.rpm",
 			"name": "cups",
-			"reboot_suggested": 0,
-			"release": "16.el9_2.1",
-			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "90f97d00c92fe8b67824effb9b32aa1edc63cc314315c0c24b43695926634479",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-devel-2.3.3op2-16.el9_2.1.i686.rpm",
-			"name": "cups-devel",
-			"reboot_suggested": 0,
-			"release": "16.el9_2.1",
-			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "aa04bc93b6930f3be08d7fcef1b901e910e5638414afe1eeed997ed3360b6477",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-filesystem-2.3.3op2-16.el9_2.1.noarch.rpm",
-			"name": "cups-filesystem",
 			"reboot_suggested": 0,
 			"release": "16.el9_2.1",
 			"src": "cups-2.3.3op2-16.el9_2.1.src.rpm",
@@ -402,5 +402,5 @@
 	"severity": "Important",
 	"title": "Important: cups security update",
 	"type": "security",
-	"updated_date": 1693388365
+	"updated_date": 1693388363
 }

@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "c64c08c33c7668d08498995f1e6a3d59a1046d39dadfd48da093b6a924f2bf7b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-libs-16.20.2-1.el9_2.i686.rpm",
+			"name": "nodejs-libs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e9b2779d80a707dc7add98c8b2e875b6ce047e4af60f689ad6b78da46cb089ff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-docs-16.20.2-1.el9_2.noarch.rpm",
+			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "1.el9_2",
+			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
+			"version": "16.20.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "014d6a8dc96837c198f863d06bd88015bd650c7a55949a15e1e6b836a286b000",
 			"checksum_type": "sha256",
@@ -53,18 +77,6 @@
 			"version": "8.19.4"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "e9b2779d80a707dc7add98c8b2e875b6ce047e4af60f689ad6b78da46cb089ff",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-docs-16.20.2-1.el9_2.noarch.rpm",
-			"name": "nodejs-docs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
-			"version": "16.20.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0a524ab5833cd496a4c12d35c6454b4efbcaef8275382f79d7ce8445dd909c72",
 			"checksum_type": "sha256",
@@ -107,18 +119,6 @@
 			"epoch": "1",
 			"filename": "nodejs-16.20.2-1.el9_2.aarch64.rpm",
 			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "1.el9_2",
-			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c64c08c33c7668d08498995f1e6a3d59a1046d39dadfd48da093b6a924f2bf7b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-libs-16.20.2-1.el9_2.i686.rpm",
-			"name": "nodejs-libs",
 			"reboot_suggested": 0,
 			"release": "1.el9_2",
 			"src": "nodejs-16.20.2-1.el9_2.src.rpm",
@@ -266,5 +266,5 @@
 	"severity": "Important",
 	"title": "Important: nodejs security and bug fix update",
 	"type": "security",
-	"updated_date": 1696881032
+	"updated_date": 1696881031
 }

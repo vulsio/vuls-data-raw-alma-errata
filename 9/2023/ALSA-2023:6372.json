@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "4f4578cb4c9bb950fd98a4091523de664e12486835a8a6f75653a2e05c5d0f21",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdb-doc-10.2-11.el9.noarch.rpm",
+			"name": "gdb-doc",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "gdb-10.2-11.el9.src.rpm",
+			"version": "10.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3521f618bd971a5f214627d17ed82036f68c07c182aedefc7bef1eddecda390a",
 			"checksum_type": "sha256",
@@ -23,18 +35,6 @@
 			"epoch": "0",
 			"filename": "gdb-headless-10.2-11.el9.x86_64.rpm",
 			"name": "gdb-headless",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "gdb-10.2-11.el9.src.rpm",
-			"version": "10.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "4f4578cb4c9bb950fd98a4091523de664e12486835a8a6f75653a2e05c5d0f21",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdb-doc-10.2-11.el9.noarch.rpm",
-			"name": "gdb-doc",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "gdb-10.2-11.el9.src.rpm",
@@ -234,5 +234,5 @@
 	"severity": "Low",
 	"title": "Low: gdb security update",
 	"type": "security",
-	"updated_date": 1699963877
+	"updated_date": 1699963839
 }

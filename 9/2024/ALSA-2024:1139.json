@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "6fa1d17da5ef5e543bc7f876d5a207d4b9fc577d0190f6f5db1a8d9b917a7342",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "keylime-selinux-7.3.0-13.el9_3.noarch.rpm",
+			"name": "keylime-selinux",
+			"reboot_suggested": 0,
+			"release": "13.el9_3",
+			"src": "keylime-7.3.0-13.el9_3.src.rpm",
+			"version": "7.3.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0a636443047a68a7f47c81e025329e8e433915839b7808a425497d1c9404eeec",
 			"checksum_type": "sha256",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "keylime-base-7.3.0-13.el9_3.x86_64.rpm",
 			"name": "keylime-base",
-			"reboot_suggested": 0,
-			"release": "13.el9_3",
-			"src": "keylime-7.3.0-13.el9_3.src.rpm",
-			"version": "7.3.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "6fa1d17da5ef5e543bc7f876d5a207d4b9fc577d0190f6f5db1a8d9b917a7342",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "keylime-selinux-7.3.0-13.el9_3.noarch.rpm",
-			"name": "keylime-selinux",
 			"reboot_suggested": 0,
 			"release": "13.el9_3",
 			"src": "keylime-7.3.0-13.el9_3.src.rpm",
@@ -330,5 +330,5 @@
 	"severity": "Low",
 	"title": "Low: keylime security update",
 	"type": "security",
-	"updated_date": 1709736106
+	"updated_date": 1709736098
 }

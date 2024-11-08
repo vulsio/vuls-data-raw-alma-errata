@@ -17,12 +17,12 @@
 			"version": "1.6.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "2f74d1dc422aba3ac56bb62056adca2b60adf14b60e1c89d22e72b53a36d6beb",
+			"arch": "i686",
+			"checksum": "3df37f9a502f9470ddc2f017b83f6f1d82f3ae4de5e258c900bbb5cdcdef6017",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "apr-util-mysql-1.6.1-20.el9_2.1.x86_64.rpm",
-			"name": "apr-util-mysql",
+			"filename": "apr-util-1.6.1-20.el9_2.1.i686.rpm",
+			"name": "apr-util",
 			"reboot_suggested": 0,
 			"release": "20.el9_2.1",
 			"src": "apr-util-1.6.1-20.el9_2.1.src.rpm",
@@ -30,11 +30,23 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "3df37f9a502f9470ddc2f017b83f6f1d82f3ae4de5e258c900bbb5cdcdef6017",
+			"checksum": "f8aab82b06d2634eea967938fc0af27bf4d0ed3e29780a0c578466982f8caf2e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "apr-util-1.6.1-20.el9_2.1.i686.rpm",
-			"name": "apr-util",
+			"filename": "apr-util-devel-1.6.1-20.el9_2.1.i686.rpm",
+			"name": "apr-util-devel",
+			"reboot_suggested": 0,
+			"release": "20.el9_2.1",
+			"src": "apr-util-1.6.1-20.el9_2.1.src.rpm",
+			"version": "1.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2f74d1dc422aba3ac56bb62056adca2b60adf14b60e1c89d22e72b53a36d6beb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "apr-util-mysql-1.6.1-20.el9_2.1.x86_64.rpm",
+			"name": "apr-util-mysql",
 			"reboot_suggested": 0,
 			"release": "20.el9_2.1",
 			"src": "apr-util-1.6.1-20.el9_2.1.src.rpm",
@@ -131,18 +143,6 @@
 			"epoch": "0",
 			"filename": "apr-util-ldap-1.6.1-20.el9_2.1.x86_64.rpm",
 			"name": "apr-util-ldap",
-			"reboot_suggested": 0,
-			"release": "20.el9_2.1",
-			"src": "apr-util-1.6.1-20.el9_2.1.src.rpm",
-			"version": "1.6.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "f8aab82b06d2634eea967938fc0af27bf4d0ed3e29780a0c578466982f8caf2e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "apr-util-devel-1.6.1-20.el9_2.1.i686.rpm",
-			"name": "apr-util-devel",
 			"reboot_suggested": 0,
 			"release": "20.el9_2.1",
 			"src": "apr-util-1.6.1-20.el9_2.1.src.rpm",
@@ -498,5 +498,5 @@
 	"severity": "Important",
 	"title": "Important: apr-util security update",
 	"type": "security",
-	"updated_date": 1684533823
+	"updated_date": 1684533653
 }

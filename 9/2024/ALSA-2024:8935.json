@@ -1,0 +1,94 @@
+{
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * openssl: Possible denial of service in X.509 name checks (CVE-2024-6119)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:8935",
+	"issued_date": 1730851200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "6ead2d3429f2753faeac142fafcbdb556ed7e654686566cc8c3c51d6d0443a73",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20231122-6.el9_4.4.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "6.el9_4.4",
+			"src": "edk2-20231122-6.el9_4.4.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f240e4196ec775d8927b7347b3954c802adec030b855c4acc8bda3228f24530f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20231122-6.el9_4.4.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "6.el9_4.4",
+			"src": "edk2-20231122-6.el9_4.4.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "77142da292d12d7fabfd5a0305cf390edbca35a39a70f341ba81f203af210124",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20231122-6.el9_4.4.x86_64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9_4.4",
+			"src": "edk2-20231122-6.el9_4.4.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ba46cd872396c59af904379ce10005c4a600251e4545cdf711095752271afbd0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-doc-20231122-6.el9_4.4.noarch.rpm",
+			"name": "edk2-tools-doc",
+			"reboot_suggested": 0,
+			"release": "6.el9_4.4",
+			"src": "edk2-20231122-6.el9_4.4.src.rpm",
+			"version": "20231122"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "67fdee0cb6921c55cd576b19e460144bf0e8f513f23991a2fe90023d65052933",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20231122-6.el9_4.4.aarch64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9_4.4",
+			"src": "edk2-20231122-6.el9_4.4.src.rpm",
+			"version": "20231122"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:8935",
+			"id": "RHSA-2024:8935",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6119",
+			"id": "CVE-2024-6119",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2306158",
+			"id": "2306158",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-8935.html",
+			"id": "ALSA-2024:8935",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: edk2 security update",
+	"type": "security",
+	"updated_date": 1731056628
+}

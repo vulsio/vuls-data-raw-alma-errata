@@ -245,6 +245,30 @@
 			"version": "3.9.16"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "1366ceefd8e1b546e0c2c97f5d0559c697c54d3549bdc75388bb25de77898701",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idle-3.9.16-1.el9_2.2.x86_64.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "62bba1890831a91b803134999f7c778930f257f9446f7520fcb684bfc64662a5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.9.16-1.el9_2.2.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
 			"arch": "i686",
 			"checksum": "6e60cdbc76bee3452523addd9d8f7d685105ef0bb3906f7bd1dc516861b20d49",
 			"checksum_type": "sha256",
@@ -281,35 +305,11 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "i686",
-			"checksum": "efef0ecc5add7970dee404f73da71e374f0d446fb16accdaba8a11d18cfcc4c9",
+			"arch": "x86_64",
+			"checksum": "e0785d8758880a7f84a22d09e5f0cafdf96bfbaa5eb5206bf8febd494cb0c99c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-3.9.16-1.el9_2.2.i686.rpm",
-			"name": "python3",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "04387590be55c14c42a0f56ef926e88345ecc235fb48110bd265ab9e534a5700",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.16-1.el9_2.2.aarch64.rpm",
-			"name": "python3-test",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "32b56dfebd2cbc9ff903b32051fa3190a279a1de2e286389da15d03179c0fb47",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-debug-3.9.16-1.el9_2.2.aarch64.rpm",
+			"filename": "python3-debug-3.9.16-1.el9_2.2.x86_64.rpm",
 			"name": "python3-debug",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
@@ -317,12 +317,12 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c87ee594438dbf0fcabc0ec40f5a92963c6fc21a0d6e8d9330ecbac9bb52285b",
+			"arch": "i686",
+			"checksum": "efef0ecc5add7970dee404f73da71e374f0d446fb16accdaba8a11d18cfcc4c9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-idle-3.9.16-1.el9_2.2.aarch64.rpm",
-			"name": "python3-idle",
+			"filename": "python3-3.9.16-1.el9_2.2.i686.rpm",
+			"name": "python3",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
 			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
@@ -365,23 +365,11 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1366ceefd8e1b546e0c2c97f5d0559c697c54d3549bdc75388bb25de77898701",
+			"arch": "aarch64",
+			"checksum": "04387590be55c14c42a0f56ef926e88345ecc235fb48110bd265ab9e534a5700",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-idle-3.9.16-1.el9_2.2.x86_64.rpm",
-			"name": "python3-idle",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.2",
-			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
-			"version": "3.9.16"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "62bba1890831a91b803134999f7c778930f257f9446f7520fcb684bfc64662a5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.16-1.el9_2.2.x86_64.rpm",
+			"filename": "python3-test-3.9.16-1.el9_2.2.aarch64.rpm",
 			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
@@ -389,12 +377,24 @@
 			"version": "3.9.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e0785d8758880a7f84a22d09e5f0cafdf96bfbaa5eb5206bf8febd494cb0c99c",
+			"arch": "aarch64",
+			"checksum": "32b56dfebd2cbc9ff903b32051fa3190a279a1de2e286389da15d03179c0fb47",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.16-1.el9_2.2.x86_64.rpm",
+			"filename": "python3-debug-3.9.16-1.el9_2.2.aarch64.rpm",
 			"name": "python3-debug",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.2",
+			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
+			"version": "3.9.16"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c87ee594438dbf0fcabc0ec40f5a92963c6fc21a0d6e8d9330ecbac9bb52285b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idle-3.9.16-1.el9_2.2.aarch64.rpm",
+			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "1.el9_2.2",
 			"src": "python3.9-3.9.16-1.el9_2.2.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Important",
 	"title": "Important: python3.9 security update",
 	"type": "security",
-	"updated_date": 1696592079
+	"updated_date": 1696592078
 }

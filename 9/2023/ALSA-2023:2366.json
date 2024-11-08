@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "893b4d4e28600b5cc8312f686562525d4c14326e49988ca6d551d4b02b5abd9e",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-filesystem-27.2-8.el9.noarch.rpm",
+			"name": "emacs-filesystem",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "emacs-27.2-8.el9.src.rpm",
+			"version": "27.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0b50bdece296184a3128da91e6f51629a74c96661987605a4a2bb9287ceb669f",
 			"checksum_type": "sha256",
@@ -23,18 +35,6 @@
 			"epoch": "1",
 			"filename": "emacs-common-27.2-8.el9.x86_64.rpm",
 			"name": "emacs-common",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "emacs-27.2-8.el9.src.rpm",
-			"version": "27.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "893b4d4e28600b5cc8312f686562525d4c14326e49988ca6d551d4b02b5abd9e",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-filesystem-27.2-8.el9.noarch.rpm",
-			"name": "emacs-filesystem",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "emacs-27.2-8.el9.src.rpm",
@@ -234,5 +234,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: emacs security and bug fix update",
 	"type": "security",
-	"updated_date": 1683870803
+	"updated_date": 1683870795
 }

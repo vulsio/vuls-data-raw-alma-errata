@@ -245,6 +245,30 @@
 			"version": "3.9.14"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "63629e5eea53b2d7e4516740e1f76779740f52535dacf6b812c7930a4040bb63",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-idle-3.9.14-1.el9_1.1.x86_64.rpm",
+			"name": "python3-idle",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7a6d311a9c50566e6c3e07b6329a8305e2f3da765545e5143fe0a2e1fe687c6f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-test-3.9.14-1.el9_1.1.x86_64.rpm",
+			"name": "python3-test",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.1",
+			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
+			"version": "3.9.14"
+		},
+		{
 			"arch": "i686",
 			"checksum": "b0a4d1cbc5ee30ec776e3ef21610b49434f3e5797aca98b8c9e0123be9e4866f",
 			"checksum_type": "sha256",
@@ -293,36 +317,12 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2cf3e1c9164f6771f99ce2ef9a8e7cfa1b38c73f29e97e4e0560577e2187c354",
+			"arch": "x86_64",
+			"checksum": "fe9f9466c30dba97410c81d0d42d2474a08e3112afe49a215dea152b7e1092c3",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-idle-3.9.14-1.el9_1.1.aarch64.rpm",
-			"name": "python3-idle",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "3e14628205982ef5b80def3884101898116f58a37e90de4522ee7b6d56d4c158",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-debug-3.9.14-1.el9_1.1.aarch64.rpm",
+			"filename": "python3-debug-3.9.14-1.el9_1.1.x86_64.rpm",
 			"name": "python3-debug",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.1",
-			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
-			"version": "3.9.14"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "97fad320156284174038180e0773607870aab260905f9493a8895f4708b9cad9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-test-3.9.14-1.el9_1.1.aarch64.rpm",
-			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
 			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
@@ -365,11 +365,11 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "63629e5eea53b2d7e4516740e1f76779740f52535dacf6b812c7930a4040bb63",
+			"arch": "aarch64",
+			"checksum": "2cf3e1c9164f6771f99ce2ef9a8e7cfa1b38c73f29e97e4e0560577e2187c354",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-idle-3.9.14-1.el9_1.1.x86_64.rpm",
+			"filename": "python3-idle-3.9.14-1.el9_1.1.aarch64.rpm",
 			"name": "python3-idle",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
@@ -377,24 +377,24 @@
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "7a6d311a9c50566e6c3e07b6329a8305e2f3da765545e5143fe0a2e1fe687c6f",
+			"arch": "aarch64",
+			"checksum": "3e14628205982ef5b80def3884101898116f58a37e90de4522ee7b6d56d4c158",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-test-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3-test",
+			"filename": "python3-debug-3.9.14-1.el9_1.1.aarch64.rpm",
+			"name": "python3-debug",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
 			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
 			"version": "3.9.14"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fe9f9466c30dba97410c81d0d42d2474a08e3112afe49a215dea152b7e1092c3",
+			"arch": "aarch64",
+			"checksum": "97fad320156284174038180e0773607870aab260905f9493a8895f4708b9cad9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3-debug-3.9.14-1.el9_1.1.x86_64.rpm",
-			"name": "python3-debug",
+			"filename": "python3-test-3.9.14-1.el9_1.1.aarch64.rpm",
+			"name": "python3-test",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.1",
 			"src": "python3.9-3.9.14-1.el9_1.1.src.rpm",
@@ -462,5 +462,5 @@
 	"severity": "Important",
 	"title": "Important: python3.9 security update",
 	"type": "security",
-	"updated_date": 1678725370
+	"updated_date": 1668684484
 }

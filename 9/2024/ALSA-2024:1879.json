@@ -17,6 +17,30 @@
 			"version": "3.7.6"
 		},
 		{
+			"arch": "i686",
+			"checksum": "59226069f284b5ed749cce7e267301e6729df83fce59b03e666f4cc6685b06d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-devel-3.7.6-23.el9_3.4.i686.rpm",
+			"name": "gnutls-devel",
+			"reboot_suggested": 0,
+			"release": "23.el9_3.4",
+			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
+			"version": "3.7.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "7aee58510b8e52c0fdbe78c8bdb820ef0754fdb8455dc2ded605539dbd964257",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gnutls-c++-3.7.6-23.el9_3.4.i686.rpm",
+			"name": "gnutls-c++",
+			"reboot_suggested": 0,
+			"release": "23.el9_3.4",
+			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
+			"version": "3.7.6"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "3558a0a97b9c17c4b8769d0ed8aa740ceaeb1c5781cf5f80d0beeb2ad0e3dc0a",
 			"checksum_type": "sha256",
@@ -41,35 +65,11 @@
 			"version": "3.7.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "59226069f284b5ed749cce7e267301e6729df83fce59b03e666f4cc6685b06d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-devel-3.7.6-23.el9_3.4.i686.rpm",
-			"name": "gnutls-devel",
-			"reboot_suggested": 0,
-			"release": "23.el9_3.4",
-			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
-			"version": "3.7.6"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "71f12a775926fda3873ba37d54a0893c978bc48285c4ae8e6b8ca628b9504c76",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "gnutls-c++-3.7.6-23.el9_3.4.x86_64.rpm",
-			"name": "gnutls-c++",
-			"reboot_suggested": 0,
-			"release": "23.el9_3.4",
-			"src": "gnutls-3.7.6-23.el9_3.4.src.rpm",
-			"version": "3.7.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "7aee58510b8e52c0fdbe78c8bdb820ef0754fdb8455dc2ded605539dbd964257",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gnutls-c++-3.7.6-23.el9_3.4.i686.rpm",
 			"name": "gnutls-c++",
 			"reboot_suggested": 0,
 			"release": "23.el9_3.4",
@@ -328,5 +328,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gnutls security update",
 	"type": "security",
-	"updated_date": 1713436036
+	"updated_date": 1713436034
 }

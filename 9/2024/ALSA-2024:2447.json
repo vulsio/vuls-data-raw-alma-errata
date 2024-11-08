@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "ee2d4c73a82a1983a36dab63037fdc6e6c7eb831bdd0f87736299427f99afc5b",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.0.7-27.el9.i686.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9",
+			"src": "openssl-3.0.7-27.el9.src.rpm",
+			"version": "3.0.7"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0b536c723bcdc5e2d7d6d45a73f00910a0c3f1ce8c9cd163ed0206574dcaee9f",
 			"checksum_type": "sha256",
@@ -22,18 +34,6 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "openssl-devel-3.0.7-27.el9.x86_64.rpm",
-			"name": "openssl-devel",
-			"reboot_suggested": 0,
-			"release": "27.el9",
-			"src": "openssl-3.0.7-27.el9.src.rpm",
-			"version": "3.0.7"
-		},
-		{
-			"arch": "i686",
-			"checksum": "ee2d4c73a82a1983a36dab63037fdc6e6c7eb831bdd0f87736299427f99afc5b",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-devel-3.0.7-27.el9.i686.rpm",
 			"name": "openssl-devel",
 			"reboot_suggested": 0,
 			"release": "27.el9",
@@ -306,5 +306,5 @@
 	"severity": "Low",
 	"title": "Low: openssl and openssl-fips-provider security update",
 	"type": "security",
-	"updated_date": 1715093907
+	"updated_date": 1715093686
 }

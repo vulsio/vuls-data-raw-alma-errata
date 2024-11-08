@@ -17,12 +17,12 @@
 			"version": "1.13.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1c0465050db29de8a3786dfd8d978fbbe947a1fb342174cfc1a2ecaa5c1527f5",
+			"arch": "noarch",
+			"checksum": "979a5550d7a93b3b7c3315d677c68e470613c62749d044aff57d64a6f23d6153",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tigervnc-server-1.13.1-8.el9.x86_64.rpm",
-			"name": "tigervnc-server",
+			"filename": "tigervnc-icons-1.13.1-8.el9.noarch.rpm",
+			"name": "tigervnc-icons",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "tigervnc-1.13.1-8.el9.src.rpm",
@@ -30,11 +30,23 @@
 		},
 		{
 			"arch": "noarch",
-			"checksum": "979a5550d7a93b3b7c3315d677c68e470613c62749d044aff57d64a6f23d6153",
+			"checksum": "bd0c418ae3f80bd20978191c7c8771eaa24e156fe3f255c792c2af4e8869ec28",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tigervnc-icons-1.13.1-8.el9.noarch.rpm",
-			"name": "tigervnc-icons",
+			"filename": "tigervnc-license-1.13.1-8.el9.noarch.rpm",
+			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "tigervnc-1.13.1-8.el9.src.rpm",
+			"version": "1.13.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1c0465050db29de8a3786dfd8d978fbbe947a1fb342174cfc1a2ecaa5c1527f5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.13.1-8.el9.x86_64.rpm",
+			"name": "tigervnc-server",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "tigervnc-1.13.1-8.el9.src.rpm",
@@ -59,18 +71,6 @@
 			"epoch": "0",
 			"filename": "tigervnc-server-minimal-1.13.1-8.el9.x86_64.rpm",
 			"name": "tigervnc-server-minimal",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "tigervnc-1.13.1-8.el9.src.rpm",
-			"version": "1.13.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "bd0c418ae3f80bd20978191c7c8771eaa24e156fe3f255c792c2af4e8869ec28",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-license-1.13.1-8.el9.noarch.rpm",
-			"name": "tigervnc-license",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "tigervnc-1.13.1-8.el9.src.rpm",
@@ -268,5 +268,5 @@
 	"severity": "Important",
 	"title": "Important: tigervnc security update",
 	"type": "security",
-	"updated_date": 1715094880
+	"updated_date": 1715094878
 }

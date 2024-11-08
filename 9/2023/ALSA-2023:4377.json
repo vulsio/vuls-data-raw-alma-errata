@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "8eba8be1d7bcfa73611b13790706a35b22ba614e1fbfffd60e60f6451ea1255c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-5.14.0-284.25.1.el9_2.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "284.25.1.el9_2",
+			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
+			"version": "5.14.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "089cd65747be90494669b9b110e223ec7fd3cd4c36473e8a903a28dfa73ac4a4",
 			"checksum_type": "sha256",
@@ -35,18 +47,6 @@
 			"epoch": "0",
 			"filename": "kernel-debug-devel-5.14.0-284.25.1.el9_2.x86_64.rpm",
 			"name": "kernel-debug-devel",
-			"reboot_suggested": 0,
-			"release": "284.25.1.el9_2",
-			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "8eba8be1d7bcfa73611b13790706a35b22ba614e1fbfffd60e60f6451ea1255c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-5.14.0-284.25.1.el9_2.noarch.rpm",
-			"name": "kernel-doc",
 			"reboot_suggested": 0,
 			"release": "284.25.1.el9_2",
 			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
@@ -1253,24 +1253,24 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2aadf36f2b83289cdb69a86d40959a2d2567e24ffaab19309aaa291835da60ee",
+			"arch": "x86_64",
+			"checksum": "00a497136d30a3052c0f8479b6b2e95536eb2e50b06aec6245b960399244a9e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-284.25.1.el9_2.aarch64.rpm",
-			"name": "kernel-tools-libs-devel",
+			"filename": "kernel-cross-headers-5.14.0-284.25.1.el9_2.x86_64.rpm",
+			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "284.25.1.el9_2",
 			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "fed6bb23a4cc8263df8efea71e94a6d3f803850688c96b2c809218fbf542d352",
+			"arch": "x86_64",
+			"checksum": "abfd4478b1d3c6482a46f3cb1767ab215ddde463612de71fcd3a870922e7063d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-284.25.1.el9_2.aarch64.rpm",
-			"name": "kernel-cross-headers",
+			"filename": "kernel-tools-libs-devel-5.14.0-284.25.1.el9_2.x86_64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "284.25.1.el9_2",
 			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
@@ -1301,24 +1301,24 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "00a497136d30a3052c0f8479b6b2e95536eb2e50b06aec6245b960399244a9e5",
+			"arch": "aarch64",
+			"checksum": "2aadf36f2b83289cdb69a86d40959a2d2567e24ffaab19309aaa291835da60ee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-284.25.1.el9_2.x86_64.rpm",
-			"name": "kernel-cross-headers",
+			"filename": "kernel-tools-libs-devel-5.14.0-284.25.1.el9_2.aarch64.rpm",
+			"name": "kernel-tools-libs-devel",
 			"reboot_suggested": 0,
 			"release": "284.25.1.el9_2",
 			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
 			"version": "5.14.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "abfd4478b1d3c6482a46f3cb1767ab215ddde463612de71fcd3a870922e7063d",
+			"arch": "aarch64",
+			"checksum": "fed6bb23a4cc8263df8efea71e94a6d3f803850688c96b2c809218fbf542d352",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-284.25.1.el9_2.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
+			"filename": "kernel-cross-headers-5.14.0-284.25.1.el9_2.aarch64.rpm",
+			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "284.25.1.el9_2",
 			"src": "kernel-5.14.0-284.25.1.el9_2.src.rpm",
@@ -1402,5 +1402,5 @@
 	"severity": "Important",
 	"title": "Important: kernel security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1691500341
+	"updated_date": 1691500337
 }

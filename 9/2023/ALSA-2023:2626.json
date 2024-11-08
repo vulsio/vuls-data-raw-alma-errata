@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "8132dbe410df05ce2933a36657fa82d2e5165d3d9e32b343d6ab41a08a1025bb",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "emacs-filesystem-27.2-8.el9_2.1.noarch.rpm",
+			"name": "emacs-filesystem",
+			"reboot_suggested": 0,
+			"release": "8.el9_2.1",
+			"src": "emacs-27.2-8.el9_2.1.src.rpm",
+			"version": "27.2"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "1794d10e3b75b82d3217281068bbc101e1963e96201c3138a6a51f7bda849e6e",
 			"checksum_type": "sha256",
@@ -35,18 +47,6 @@
 			"epoch": "1",
 			"filename": "emacs-nox-27.2-8.el9_2.1.x86_64.rpm",
 			"name": "emacs-nox",
-			"reboot_suggested": 0,
-			"release": "8.el9_2.1",
-			"src": "emacs-27.2-8.el9_2.1.src.rpm",
-			"version": "27.2"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "8132dbe410df05ce2933a36657fa82d2e5165d3d9e32b343d6ab41a08a1025bb",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "emacs-filesystem-27.2-8.el9_2.1.noarch.rpm",
-			"name": "emacs-filesystem",
 			"reboot_suggested": 0,
 			"release": "8.el9_2.1",
 			"src": "emacs-27.2-8.el9_2.1.src.rpm",
@@ -264,5 +264,5 @@
 	"severity": "Important",
 	"title": "Important: emacs security update",
 	"type": "security",
-	"updated_date": 1683845728
+	"updated_date": 1683845726
 }

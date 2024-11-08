@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "x86_64",
+			"checksum": "e4878432f0d40bf78c6d95acd3e39e00c0f290c753335a19f0e2d37776f038a1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.0.9-32.el8_10.x86_64.rpm",
+			"name": "libtiff-tools",
+			"reboot_suggested": 0,
+			"release": "32.el8_10",
+			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
+			"version": "4.0.9"
+		},
+		{
 			"arch": "i686",
 			"checksum": "3f2d88d3dbf7e3730946cda630da2f61a943810960a49187f892b633749620fb",
 			"checksum_type": "sha256",
@@ -29,48 +41,12 @@
 			"version": "4.0.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "e4878432f0d40bf78c6d95acd3e39e00c0f290c753335a19f0e2d37776f038a1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-tools-4.0.9-32.el8_10.x86_64.rpm",
-			"name": "libtiff-tools",
-			"reboot_suggested": 0,
-			"release": "32.el8_10",
-			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
-			"version": "4.0.9"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "c695837399047fcb79ec764f898b0f30baa5a1302857b85021d03ab5f1fce3ec",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libtiff-tools-4.0.9-32.el8_10.aarch64.rpm",
 			"name": "libtiff-tools",
-			"reboot_suggested": 0,
-			"release": "32.el8_10",
-			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
-			"version": "4.0.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6fa455df5b3bf1f092cdf4aefd052fa567b3734b83e58a11257732ad93dcefd7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-4.0.9-32.el8_10.aarch64.rpm",
-			"name": "libtiff",
-			"reboot_suggested": 0,
-			"release": "32.el8_10",
-			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
-			"version": "4.0.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c87b2179aa2eb27ee6a138daad635b5e437dc2780a02c0287b1941f0a7b4cda2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-devel-4.0.9-32.el8_10.aarch64.rpm",
-			"name": "libtiff-devel",
 			"reboot_suggested": 0,
 			"release": "32.el8_10",
 			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
@@ -95,6 +71,30 @@
 			"epoch": "0",
 			"filename": "libtiff-4.0.9-32.el8_10.x86_64.rpm",
 			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "32.el8_10",
+			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
+			"version": "4.0.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6fa455df5b3bf1f092cdf4aefd052fa567b3734b83e58a11257732ad93dcefd7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-4.0.9-32.el8_10.aarch64.rpm",
+			"name": "libtiff",
+			"reboot_suggested": 0,
+			"release": "32.el8_10",
+			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
+			"version": "4.0.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c87b2179aa2eb27ee6a138daad635b5e437dc2780a02c0287b1941f0a7b4cda2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-devel-4.0.9-32.el8_10.aarch64.rpm",
+			"name": "libtiff-devel",
 			"reboot_suggested": 0,
 			"release": "32.el8_10",
 			"src": "libtiff-4.0.9-32.el8_10.src.rpm",
@@ -228,5 +228,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libtiff security update",
 	"type": "security",
-	"updated_date": 1723107246
+	"updated_date": 1723107245
 }

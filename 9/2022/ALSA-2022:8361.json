@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "0fa71156daf87228fb2e99dac2b155cf9b5848d57ffa20636268ca3cd1a3183f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "e2fsprogs-devel-1.46.5-3.el9.x86_64.rpm",
-			"name": "e2fsprogs-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9",
-			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
-			"version": "1.46.5"
-		},
-		{
 			"arch": "i686",
 			"checksum": "189e47293d98fc4954c1d2fd144b38a87e8a1f94cb5bb2d3fe8a3ca2db12024c",
 			"checksum_type": "sha256",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "libcom_err-devel-1.46.5-3.el9.i686.rpm",
 			"name": "libcom_err-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
+			"version": "1.46.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0fa71156daf87228fb2e99dac2b155cf9b5848d57ffa20636268ca3cd1a3183f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "e2fsprogs-devel-1.46.5-3.el9.x86_64.rpm",
+			"name": "e2fsprogs-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9",
 			"src": "e2fsprogs-1.46.5-3.el9.src.rpm",
@@ -378,5 +378,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: e2fsprogs security update",
 	"type": "security",
-	"updated_date": 1668773365
+	"updated_date": 1668721716
 }

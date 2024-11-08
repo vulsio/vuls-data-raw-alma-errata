@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "9211804ac5d3c7cc1f7490d67ca70d07a72c9b68c3bc0830397903b832991129",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "podman-docker-4.9.4-10.el9_4.noarch.rpm",
+			"name": "podman-docker",
+			"reboot_suggested": 0,
+			"release": "10.el9_4",
+			"src": "podman-4.9.4-10.el9_4.src.rpm",
+			"version": "4.9.4"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0065efd816f914e7a04810d746cac815a820202a51c0b21f53b2255096a25fe5",
 			"checksum_type": "sha256",
@@ -35,18 +47,6 @@
 			"epoch": "4",
 			"filename": "podman-remote-4.9.4-10.el9_4.x86_64.rpm",
 			"name": "podman-remote",
-			"reboot_suggested": 0,
-			"release": "10.el9_4",
-			"src": "podman-4.9.4-10.el9_4.src.rpm",
-			"version": "4.9.4"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "9211804ac5d3c7cc1f7490d67ca70d07a72c9b68c3bc0830397903b832991129",
-			"checksum_type": "sha256",
-			"epoch": "4",
-			"filename": "podman-docker-4.9.4-10.el9_4.noarch.rpm",
-			"name": "podman-docker",
 			"reboot_suggested": 0,
 			"release": "10.el9_4",
 			"src": "podman-4.9.4-10.el9_4.src.rpm",
@@ -254,5 +254,5 @@
 	"severity": "Important",
 	"title": "Important: podman security update",
 	"type": "security",
-	"updated_date": 1725437973
+	"updated_date": 1725437970
 }

@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "ccc8b24794ad81b3ecaa94f5f3f996e6d38c86928c1aff1394fff26ff7283d34",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-5.14.0-427.24.1.el9_4.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "427.24.1.el9_4",
+			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2e2df63bc7982030f759ad90aa05c503d19f7f0f2b736482a2f5f00a314411e5",
 			"checksum_type": "sha256",
@@ -71,18 +83,6 @@
 			"epoch": "0",
 			"filename": "kernel-headers-5.14.0-427.24.1.el9_4.x86_64.rpm",
 			"name": "kernel-headers",
-			"reboot_suggested": 0,
-			"release": "427.24.1.el9_4",
-			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ccc8b24794ad81b3ecaa94f5f3f996e6d38c86928c1aff1394fff26ff7283d34",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-5.14.0-427.24.1.el9_4.noarch.rpm",
-			"name": "kernel-doc",
 			"reboot_suggested": 0,
 			"release": "427.24.1.el9_4",
 			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
@@ -1349,11 +1349,23 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "31333b639b938d23b9eaea6c6f9bd1e47b3a1e5157be64570018765a4cb7f849",
+			"arch": "x86_64",
+			"checksum": "9c6b6869a6000f29b7b301c4b32d15bcd662ce359958afdd7f9d7bf641ed5754",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libperf-5.14.0-427.24.1.el9_4.aarch64.rpm",
+			"filename": "kernel-cross-headers-5.14.0-427.24.1.el9_4.x86_64.rpm",
+			"name": "kernel-cross-headers",
+			"reboot_suggested": 0,
+			"release": "427.24.1.el9_4",
+			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "caae346cac046b455ebbfef3cc81f8b4fd8ae03e8731bbbf2ea46ee81fed7b9f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libperf-5.14.0-427.24.1.el9_4.x86_64.rpm",
 			"name": "libperf",
 			"reboot_suggested": 0,
 			"release": "427.24.1.el9_4",
@@ -1361,24 +1373,12 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "cb74ce65e3a718f2915a47d5074dc63c9ebbb0c0305e3d7109f6d443c21cb012",
+			"arch": "x86_64",
+			"checksum": "daa76cef1ba85056c99cc729d45fd5749c8fe7366d1df1746cc2e4d4a8469dc1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-427.24.1.el9_4.aarch64.rpm",
+			"filename": "kernel-tools-libs-devel-5.14.0-427.24.1.el9_4.x86_64.rpm",
 			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "427.24.1.el9_4",
-			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ed0cb95802fef4493cca43941fb7148825b58b2dd6401e4548b5898f3f96b5f7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-427.24.1.el9_4.aarch64.rpm",
-			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "427.24.1.el9_4",
 			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
@@ -1415,6 +1415,42 @@
 			"epoch": "0",
 			"filename": "kernel-tools-libs-devel-5.14.0-427.24.1.el9_4.ppc64le.rpm",
 			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "427.24.1.el9_4",
+			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "31333b639b938d23b9eaea6c6f9bd1e47b3a1e5157be64570018765a4cb7f849",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libperf-5.14.0-427.24.1.el9_4.aarch64.rpm",
+			"name": "libperf",
+			"reboot_suggested": 0,
+			"release": "427.24.1.el9_4",
+			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "cb74ce65e3a718f2915a47d5074dc63c9ebbb0c0305e3d7109f6d443c21cb012",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-tools-libs-devel-5.14.0-427.24.1.el9_4.aarch64.rpm",
+			"name": "kernel-tools-libs-devel",
+			"reboot_suggested": 0,
+			"release": "427.24.1.el9_4",
+			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ed0cb95802fef4493cca43941fb7148825b58b2dd6401e4548b5898f3f96b5f7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-cross-headers-5.14.0-427.24.1.el9_4.aarch64.rpm",
+			"name": "kernel-cross-headers",
 			"reboot_suggested": 0,
 			"release": "427.24.1.el9_4",
 			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
@@ -1565,42 +1601,6 @@
 			"version": "5.14.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9c6b6869a6000f29b7b301c4b32d15bcd662ce359958afdd7f9d7bf641ed5754",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-cross-headers-5.14.0-427.24.1.el9_4.x86_64.rpm",
-			"name": "kernel-cross-headers",
-			"reboot_suggested": 0,
-			"release": "427.24.1.el9_4",
-			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "caae346cac046b455ebbfef3cc81f8b4fd8ae03e8731bbbf2ea46ee81fed7b9f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libperf-5.14.0-427.24.1.el9_4.x86_64.rpm",
-			"name": "libperf",
-			"reboot_suggested": 0,
-			"release": "427.24.1.el9_4",
-			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "daa76cef1ba85056c99cc729d45fd5749c8fe7366d1df1746cc2e4d4a8469dc1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-tools-libs-devel-5.14.0-427.24.1.el9_4.x86_64.rpm",
-			"name": "kernel-tools-libs-devel",
-			"reboot_suggested": 0,
-			"release": "427.24.1.el9_4",
-			"src": "kernel-5.14.0-427.24.1.el9_4.src.rpm",
-			"version": "5.14.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "72a4fc7a83c969efbd85e94335a4bfe556dfc4528161a4d2a6e46bb22d32fba3",
 			"checksum_type": "sha256",
@@ -1720,5 +1720,5 @@
 	"severity": "moderate",
 	"title": "Moderate: kernel security and bug fix update",
 	"type": "security",
-	"updated_date": 1730672248
+	"updated_date": 1730672243
 }

@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "0b1baee896f7b41e181bb08f72fa70decea8d98d185497cd249585980cc7ae28",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-virt-4.10.0-62.el9_4.3.x86_64.rpm",
-			"name": "fence-virt",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.3",
-			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
-			"version": "4.10.0"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "14a5c427e4ffff4b128e8c325243492da2b3a4deecb11de0ef93675bc786bbc4",
 			"checksum_type": "sha256",
@@ -35,6 +23,42 @@
 			"epoch": "0",
 			"filename": "fence-agents-ibm-vpc-4.10.0-62.el9_4.3.noarch.rpm",
 			"name": "fence-agents-ibm-vpc",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.3",
+			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "931740abb4c2d76c045b121cad133b3e1a58482fdc5efd1067e8936886714353",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-virsh-4.10.0-62.el9_4.3.noarch.rpm",
+			"name": "fence-agents-virsh",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.3",
+			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d3caf2e25a1f6a35cbd868b45f8a672e3964f1f16964b934663b4c87f34834e4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-common-4.10.0-62.el9_4.3.noarch.rpm",
+			"name": "fence-agents-common",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.3",
+			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0b1baee896f7b41e181bb08f72fa70decea8d98d185497cd249585980cc7ae28",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-virt-4.10.0-62.el9_4.3.x86_64.rpm",
+			"name": "fence-virt",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
 			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
@@ -101,18 +125,6 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "931740abb4c2d76c045b121cad133b3e1a58482fdc5efd1067e8936886714353",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-virsh-4.10.0-62.el9_4.3.noarch.rpm",
-			"name": "fence-agents-virsh",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.3",
-			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
-			"version": "4.10.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "bd05f611bae02021ad54b28df675ee77de8e74fd0552c6907900d731835d1a0e",
 			"checksum_type": "sha256",
@@ -131,18 +143,6 @@
 			"epoch": "0",
 			"filename": "fence-virtd-4.10.0-62.el9_4.3.x86_64.rpm",
 			"name": "fence-virtd",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.3",
-			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "d3caf2e25a1f6a35cbd868b45f8a672e3964f1f16964b934663b4c87f34834e4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-common-4.10.0-62.el9_4.3.noarch.rpm",
-			"name": "fence-agents-common",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
 			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
@@ -701,11 +701,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "221a450d748668f1c9bdf8cc97040f0ea39ef74d8da4b89b6ca06669c52dc431",
+			"arch": "aarch64",
+			"checksum": "018ee259c3b87a82084deed78836504cdc198d3e59bfac6748c91ef35a40089b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9_4.3.ppc64le.rpm",
+			"filename": "fence-agents-kdump-4.10.0-62.el9_4.3.aarch64.rpm",
 			"name": "fence-agents-kdump",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -713,11 +713,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3e3e6c9342eca1b0da8919c25b265b531c7b5eeaef59fbef49384a5610d031f0",
+			"arch": "aarch64",
+			"checksum": "0a06cce0312e6ca6ba0e420f64b86a41ab37662eeef31269e01d73cd1e8ce9e8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9_4.3.ppc64le.rpm",
+			"filename": "fence-agents-all-4.10.0-62.el9_4.3.aarch64.rpm",
 			"name": "fence-agents-all",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -725,23 +725,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "aa2cd4f058c64c350de7b747cb0427f7f376e50ad1dbac21b923b8f8481a8fb4",
+			"arch": "aarch64",
+			"checksum": "4a758e73e3b6da8d2e8a282a6ffbc8e9fa414ff27eb4c29cec479cb616e884b6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-openstack-4.10.0-62.el9_4.3.ppc64le.rpm",
-			"name": "fence-agents-openstack",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.3",
-			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "b61c6c4dadc2addd2752b14de31349a36d868aeaa937c8a9767c25224ca9b43e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9_4.3.ppc64le.rpm",
+			"filename": "fence-agents-redfish-4.10.0-62.el9_4.3.aarch64.rpm",
 			"name": "fence-agents-redfish",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -797,11 +785,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "018ee259c3b87a82084deed78836504cdc198d3e59bfac6748c91ef35a40089b",
+			"arch": "ppc64le",
+			"checksum": "221a450d748668f1c9bdf8cc97040f0ea39ef74d8da4b89b6ca06669c52dc431",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-kdump-4.10.0-62.el9_4.3.aarch64.rpm",
+			"filename": "fence-agents-kdump-4.10.0-62.el9_4.3.ppc64le.rpm",
 			"name": "fence-agents-kdump",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -809,11 +797,11 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0a06cce0312e6ca6ba0e420f64b86a41ab37662eeef31269e01d73cd1e8ce9e8",
+			"arch": "ppc64le",
+			"checksum": "3e3e6c9342eca1b0da8919c25b265b531c7b5eeaef59fbef49384a5610d031f0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-all-4.10.0-62.el9_4.3.aarch64.rpm",
+			"filename": "fence-agents-all-4.10.0-62.el9_4.3.ppc64le.rpm",
 			"name": "fence-agents-all",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -821,11 +809,23 @@
 			"version": "4.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "4a758e73e3b6da8d2e8a282a6ffbc8e9fa414ff27eb4c29cec479cb616e884b6",
+			"arch": "ppc64le",
+			"checksum": "aa2cd4f058c64c350de7b747cb0427f7f376e50ad1dbac21b923b8f8481a8fb4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "fence-agents-redfish-4.10.0-62.el9_4.3.aarch64.rpm",
+			"filename": "fence-agents-openstack-4.10.0-62.el9_4.3.ppc64le.rpm",
+			"name": "fence-agents-openstack",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.3",
+			"src": "fence-agents-4.10.0-62.el9_4.3.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b61c6c4dadc2addd2752b14de31349a36d868aeaa937c8a9767c25224ca9b43e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-redfish-4.10.0-62.el9_4.3.ppc64le.rpm",
 			"name": "fence-agents-redfish",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.3",
@@ -858,5 +858,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: fence-agents security update",
 	"type": "security",
-	"updated_date": 1718350249
+	"updated_date": 1718350243
 }

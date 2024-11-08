@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "232d05e4af484d9fb62fcffcdb7b23f898a654e8107f29507eaa1d61344427aa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-doc-5.14.0-70.22.1.el9_0.noarch.rpm",
+			"name": "kernel-doc",
+			"reboot_suggested": 0,
+			"release": "70.22.1.el9_0",
+			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
+			"version": "5.14.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "a7507bb31645b36cd5120e3dee6c9f7928ea50fa4707527e8af610752ebdea2e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-abi-stablelists-5.14.0-70.22.1.el9_0.noarch.rpm",
+			"name": "kernel-abi-stablelists",
+			"reboot_suggested": 0,
+			"release": "70.22.1.el9_0",
+			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
+			"version": "5.14.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "058da6c60d99668ca9527e389ca31f3e5a0b6807572ca6879bbad1bfcc001dc8",
 			"checksum_type": "sha256",
@@ -23,18 +47,6 @@
 			"epoch": "0",
 			"filename": "kernel-debug-modules-extra-5.14.0-70.22.1.el9_0.x86_64.rpm",
 			"name": "kernel-debug-modules-extra",
-			"reboot_suggested": 0,
-			"release": "70.22.1.el9_0",
-			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "232d05e4af484d9fb62fcffcdb7b23f898a654e8107f29507eaa1d61344427aa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-doc-5.14.0-70.22.1.el9_0.noarch.rpm",
-			"name": "kernel-doc",
 			"reboot_suggested": 0,
 			"release": "70.22.1.el9_0",
 			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
@@ -155,18 +167,6 @@
 			"epoch": "0",
 			"filename": "kernel-modules-extra-5.14.0-70.22.1.el9_0.x86_64.rpm",
 			"name": "kernel-modules-extra",
-			"reboot_suggested": 0,
-			"release": "70.22.1.el9_0",
-			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
-			"version": "5.14.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "a7507bb31645b36cd5120e3dee6c9f7928ea50fa4707527e8af610752ebdea2e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-abi-stablelists-5.14.0-70.22.1.el9_0.noarch.rpm",
-			"name": "kernel-abi-stablelists",
 			"reboot_suggested": 0,
 			"release": "70.22.1.el9_0",
 			"src": "kernel-5.14.0-70.22.1.el9_0.src.rpm",
@@ -1072,5 +1072,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: kernel security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1660165506
+	"updated_date": 1660165712
 }
