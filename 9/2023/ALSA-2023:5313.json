@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "4321062e57c9f51eb73b16a831b29af7d0351022502eb1f3fdc7aaa70b269f29",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-desktop-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+			"name": "open-vm-tools-desktop",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.3.alma.1",
+			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+			"version": "12.1.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "47d4a0a2084487c7b3eb1ef32c8c94c186659b0d0f4342892bdf3ab35797939a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-test-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+			"name": "open-vm-tools-test",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.3.alma.1",
+			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+			"version": "12.1.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "79da4088161ecee0c601b6bdca69554e7c9563aa1fdd414282f7b9d9bf29f89c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
+			"name": "open-vm-tools",
+			"reboot_suggested": 0,
+			"release": "1.el9_2.3.alma.1",
+			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
+			"version": "12.1.5"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "14cd92cb434579ab2c30e30710e60ce220a0d23a741da0d91954d90f92e6440d",
 			"checksum_type": "sha256",
@@ -63,42 +99,6 @@
 			"release": "1.el9_2.3.alma.1",
 			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
 			"version": "12.1.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "4321062e57c9f51eb73b16a831b29af7d0351022502eb1f3fdc7aaa70b269f29",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "open-vm-tools-desktop-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
-			"name": "open-vm-tools-desktop",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.3.alma.1",
-			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
-			"version": "12.1.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "47d4a0a2084487c7b3eb1ef32c8c94c186659b0d0f4342892bdf3ab35797939a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "open-vm-tools-test-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
-			"name": "open-vm-tools-test",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.3.alma.1",
-			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
-			"version": "12.1.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "79da4088161ecee0c601b6bdca69554e7c9563aa1fdd414282f7b9d9bf29f89c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.aarch64.rpm",
-			"name": "open-vm-tools",
-			"reboot_suggested": 0,
-			"release": "1.el9_2.3.alma.1",
-			"src": "open-vm-tools-12.1.5-1.el9_2.3.alma.1.src.rpm",
-			"version": "12.1.5"
 		}
 	],
 	"references": [
@@ -126,5 +126,5 @@
 	"severity": "Important",
 	"title": "Important: open-vm-tools security update",
 	"type": "security",
-	"updated_date": 1695300632
+	"updated_date": 1695300631
 }
