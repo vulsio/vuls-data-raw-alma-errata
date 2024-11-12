@@ -4,14 +4,14 @@
 	"issued_date": 1604406457,
 	"modules": [
 		{
-			"arch": "x86_64",
+			"arch": "aarch64",
 			"context": "20125149",
 			"name": "container-tools",
 			"stream": "3.0",
 			"version": "8060020220516071551"
 		},
 		{
-			"arch": "aarch64",
+			"arch": "x86_64",
 			"context": "20125149",
 			"name": "container-tools",
 			"stream": "3.0",
@@ -27,43 +27,17 @@
 	],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "27c0497463caea3a884f35c234bebfa9913644f0836bdebdb5ddf36a8c8705d8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-devel-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "libslirp-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "4.3.1"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "6014c5c3fb0e8b251cf8fe13d9dc538fe94d16ae2bfbf82206773d07378a433e",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.noarch.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"module": "container-tools:3.0:8060020220516071551:20125149:aarch64",
 			"name": "python-podman-api",
 			"reboot_suggested": 0,
 			"release": "0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39",
 			"src": "python-podman-api-1.2.0-0.2.gitd0a45fe.module_el8.5.0+2635+e4386a39.src.rpm",
 			"version": "1.2.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9e1495b5d6fb661fcea9e2d6b6a0e2098aa2341924c6d0f0790a7dd9ffded4f0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
-			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
-			"name": "libslirp",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.6.0+2876+9ed4eae2",
-			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
-			"version": "4.3.1"
 		},
 		{
 			"arch": "aarch64",
@@ -85,6 +59,32 @@
 			"epoch": "0",
 			"filename": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.aarch64.rpm",
 			"module": "container-tools:3.0:8060020220516071551:20125149:aarch64",
+			"name": "libslirp",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "4.3.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "27c0497463caea3a884f35c234bebfa9913644f0836bdebdb5ddf36a8c8705d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-devel-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
+			"name": "libslirp-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.6.0+2876+9ed4eae2",
+			"src": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.src.rpm",
+			"version": "4.3.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9e1495b5d6fb661fcea9e2d6b6a0e2098aa2341924c6d0f0790a7dd9ffded4f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libslirp-4.3.1-1.module_el8.6.0+2876+9ed4eae2.x86_64.rpm",
+			"module": "container-tools:3.0:8060020220516071551:20125149:x86_64",
 			"name": "libslirp",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.6.0+2876+9ed4eae2",

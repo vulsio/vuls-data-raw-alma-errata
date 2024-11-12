@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "a0b040bb48976fde2843c923a31eca04318ec9cefb3e7d8de256b423e3ad01b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcroco-devel-0.6.12-4.el8_2.1.aarch64.rpm",
+			"name": "libcroco-devel",
+			"reboot_suggested": 0,
+			"release": "4.el8_2.1",
+			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+			"version": "0.6.12"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f3bdd1daecafd47b451e84e862aa53a6f30b49058a78c7daf7c672df57e513e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcroco-0.6.12-4.el8_2.1.aarch64.rpm",
+			"name": "libcroco",
+			"reboot_suggested": 0,
+			"release": "4.el8_2.1",
+			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
+			"version": "0.6.12"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "001cfab74ef07ad7944258d39716828ca1dd0ed9f0bff30bbb34e05b6100fd2e",
 			"checksum_type": "sha256",
@@ -18,11 +42,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "414f1c5025b1f548afd752fd19252c43888b1e7ed4ce8bdfba572f64145c4166",
+			"checksum": "79f72726aa5f4f0149b80dcbbb93fca05dc74c53cc1dbef445dbe08e9383dcce",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcroco-devel-0.6.12-4.el8_2.1.i686.rpm",
-			"name": "libcroco-devel",
+			"filename": "libcroco-0.6.12-4.el8_2.1.i686.rpm",
+			"name": "libcroco",
 			"reboot_suggested": 0,
 			"release": "4.el8_2.1",
 			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
@@ -42,35 +66,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "79f72726aa5f4f0149b80dcbbb93fca05dc74c53cc1dbef445dbe08e9383dcce",
+			"checksum": "414f1c5025b1f548afd752fd19252c43888b1e7ed4ce8bdfba572f64145c4166",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcroco-0.6.12-4.el8_2.1.i686.rpm",
-			"name": "libcroco",
-			"reboot_suggested": 0,
-			"release": "4.el8_2.1",
-			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-			"version": "0.6.12"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a0b040bb48976fde2843c923a31eca04318ec9cefb3e7d8de256b423e3ad01b1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcroco-devel-0.6.12-4.el8_2.1.aarch64.rpm",
+			"filename": "libcroco-devel-0.6.12-4.el8_2.1.i686.rpm",
 			"name": "libcroco-devel",
-			"reboot_suggested": 0,
-			"release": "4.el8_2.1",
-			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
-			"version": "0.6.12"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f3bdd1daecafd47b451e84e862aa53a6f30b49058a78c7daf7c672df57e513e7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcroco-0.6.12-4.el8_2.1.aarch64.rpm",
-			"name": "libcroco",
 			"reboot_suggested": 0,
 			"release": "4.el8_2.1",
 			"src": "libcroco-0.6.12-4.el8_2.1.src.rpm",
@@ -103,18 +103,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2020-12825",
-			"id": "CVE-2020-12825",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2020-3654.html",
 			"id": "ALSA-2020-3654",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2020-12825",
+			"id": "CVE-2020-12825",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libcroco security update",
 	"type": "security",
-	"updated_date": 1628672040
+	"updated_date": 1599554174
 }
