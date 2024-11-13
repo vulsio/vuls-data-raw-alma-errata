@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "2dce73a86c7298aae6a35fb2146b3b56a288c651850c1d395fcb621c33512252",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-19.el8_6.aarch64.rpm",
-			"name": "zlib-devel",
-			"reboot_suggested": 0,
-			"release": "19.el8_6",
-			"src": "zlib-1.2.11-19.el8_6.src.rpm",
-			"version": "1.2.11"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f0d07493dec05ced63d1dde395117bbc80a2c7ccdaa1c8c775b763a1d9e93fab",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zlib-1.2.11-19.el8_6.aarch64.rpm",
-			"name": "zlib",
-			"reboot_suggested": 0,
-			"release": "19.el8_6",
-			"src": "zlib-1.2.11-19.el8_6.src.rpm",
-			"version": "1.2.11"
-		},
-		{
 			"arch": "i686",
 			"checksum": "13d26ef755ace9e0cf1b616ccc70e829ebfabb2ad28f5ab630f4d8cf747c500f",
 			"checksum_type": "sha256",
@@ -53,11 +29,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "040f3083e365dce75573fb58e837d94530d488cabb9db22891a07ccf2da4df6d",
+			"arch": "i686",
+			"checksum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-19.el8_6.aarch64.rpm",
+			"filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "19.el8_6",
@@ -65,11 +41,35 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "i686",
-			"checksum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
+			"arch": "aarch64",
+			"checksum": "2dce73a86c7298aae6a35fb2146b3b56a288c651850c1d395fcb621c33512252",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
+			"filename": "zlib-devel-1.2.11-19.el8_6.aarch64.rpm",
+			"name": "zlib-devel",
+			"reboot_suggested": 0,
+			"release": "19.el8_6",
+			"src": "zlib-1.2.11-19.el8_6.src.rpm",
+			"version": "1.2.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f0d07493dec05ced63d1dde395117bbc80a2c7ccdaa1c8c775b763a1d9e93fab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zlib-1.2.11-19.el8_6.aarch64.rpm",
+			"name": "zlib",
+			"reboot_suggested": 0,
+			"release": "19.el8_6",
+			"src": "zlib-1.2.11-19.el8_6.src.rpm",
+			"version": "1.2.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "040f3083e365dce75573fb58e837d94530d488cabb9db22891a07ccf2da4df6d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zlib-static-1.2.11-19.el8_6.aarch64.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "19.el8_6",
@@ -174,5 +174,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: zlib security update",
 	"type": "security",
-	"updated_date": 1666786434
+	"updated_date": 1666786436
 }
