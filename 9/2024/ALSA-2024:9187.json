@@ -1,0 +1,250 @@
+{
+	"description": "BPF Compiler Collection (BCC) is a toolkit for easier creation of efficient kernel tracing and manipulation programs. BCC uses the extended Berkeley Packet Filter (eBPF) tool.  \n\nSecurity Fix(es):  \n\n  * bcc: unprivileged users can force loading of compromised linux headers (CVE-2024-2314)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9187",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "192cb2c5ac4ccc7563a3d9fbeb20fba2bb74e135bec93c502b1c92887a6451cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-0.30.0-6.el9.ppc64le.rpm",
+			"name": "bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "295a650ca58b11d379ffea31cba3105e0f15f26b3adf52744ef296f590486e4d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libbpf-tools-0.30.0-6.el9.ppc64le.rpm",
+			"name": "libbpf-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c6c90f93d78277017fdd4004912c940a5a38bd8e4162d4a8874edca81c09f5ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-tools-0.30.0-6.el9.ppc64le.rpm",
+			"name": "bcc-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ea87f60b957329202b9687a56a8eaa09ae0ad1c01b6aa1a6f8c42dcad0eb6d62",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-bcc-0.30.0-6.el9.noarch.rpm",
+			"name": "python3-bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "11d294371c5a2516985b4b66d87baab2b00ec083e14b2f3784be4fb0c9f20b37",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-tools-0.30.0-6.el9.x86_64.rpm",
+			"name": "bcc-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c552c7324e8b7ec454fd5b6d1940cac9c1a37b3b77fde37c88b4f6d994bd29d3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libbpf-tools-0.30.0-6.el9.x86_64.rpm",
+			"name": "libbpf-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fbdf0bf64eca3b434fbdcba1e75738e5680ec8e75b2eb2755ad1911b2537d484",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-0.30.0-6.el9.x86_64.rpm",
+			"name": "bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4f395de6ecee8489684139ccaff70803fd7db72016b991e2554d9f0f17f93369",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-0.30.0-6.el9.aarch64.rpm",
+			"name": "bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "99ef3ac5472696373be8a8665af512cda66fcfc36a2eb08c9358c251e72563eb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libbpf-tools-0.30.0-6.el9.aarch64.rpm",
+			"name": "libbpf-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d5e7dbd2e68f49f78bd9db7cb03445d21314ab5b9026fd241054e5cb5ed8cf2b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-tools-0.30.0-6.el9.aarch64.rpm",
+			"name": "bcc-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c2c6c6ef1af2168390ee1d0d06658abde0cc98cd9ff53d40cde7f1d395521330",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-0.30.0-6.el9.s390x.rpm",
+			"name": "bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e3df4e35b29f03b09d73418ee7854c8824704564b205db19e4b607b120fd1390",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libbpf-tools-0.30.0-6.el9.s390x.rpm",
+			"name": "libbpf-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f5da41a634ff168abc84b5f5732e71a40414083738b72dd18a3290307491b334",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-tools-0.30.0-6.el9.s390x.rpm",
+			"name": "bcc-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "3958b07bc3d68a84cd7a6853ccd9de99a27799a4729312738344f67c282a73c8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-devel-0.30.0-6.el9.s390x.rpm",
+			"name": "bcc-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "bfa0e15890e368fcde724436ef7855beb8037f5b9570b22facd5dbaf178346b0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-doc-0.30.0-6.el9.noarch.rpm",
+			"name": "bcc-doc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "339ce28464ffcbd4374ad9b266ca34885b34bd67b20be6decded2c526f9c2740",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-devel-0.30.0-6.el9.ppc64le.rpm",
+			"name": "bcc-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2dd57215fb2e587eeea11e0160309dc5fdaa592ae26e6a6001916c877639928f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-devel-0.30.0-6.el9.x86_64.rpm",
+			"name": "bcc-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ac01f935b1e99cb5e3419e8d7f169ff049232ba49674a2e7924c3eee6f362105",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-devel-0.30.0-6.el9.aarch64.rpm",
+			"name": "bcc-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9187",
+			"id": "RHSA-2024:9187",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-2314",
+			"id": "CVE-2024-2314",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2269019",
+			"id": "2269019",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9187.html",
+			"id": "ALSA-2024:9187",
+			"type": "self"
+		}
+	],
+	"severity": "low",
+	"title": "Low: bcc security update",
+	"type": "security",
+	"updated_date": 1731930688
+}

@@ -1,0 +1,58 @@
+{
+	"description": "This package contains a pure-Python MySQL client library. The goal of PyMySQL is to be a drop-in replacement for MySQLdb and work on CPython, PyPy, IronPython and Jython.  \n\nSecurity Fix(es):  \n\n  * python-pymysql: SQL injection if used with untrusted JSON input (CVE-2024-36039)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9193",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "665de27ef3f4760443b3dea2bc9d92b783ae9d3e58aa7f7e915ff7bd024e1b71",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-PyMySQL+rsa-1.1.0-3.el9.noarch.rpm",
+			"name": "python3.12-PyMySQL+rsa",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "python3.12-PyMySQL-1.1.0-3.el9.src.rpm",
+			"version": "1.1.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ca24e6b68867f6338171b2ec1d569c507a998ffad99a5a9eef972f5e72376e83",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-PyMySQL-1.1.0-3.el9.noarch.rpm",
+			"name": "python3.12-PyMySQL",
+			"reboot_suggested": 0,
+			"release": "3.el9",
+			"src": "python3.12-PyMySQL-1.1.0-3.el9.src.rpm",
+			"version": "1.1.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9193",
+			"id": "RHSA-2024:9193",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-36039",
+			"id": "CVE-2024-36039",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2282821",
+			"id": "2282821",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9193.html",
+			"id": "ALSA-2024:9193",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: python3.12-PyMySQL security update",
+	"type": "security",
+	"updated_date": 1731930732
+}

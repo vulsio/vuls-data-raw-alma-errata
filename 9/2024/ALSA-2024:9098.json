@@ -1,0 +1,160 @@
+{
+	"description": "The skopeo command lets you inspect images from container image registries, get images and image layers, and use signatures to create and verify files.   \n\nSecurity Fix(es):  \n\n  * containers/image: digest type does not guarantee valid type (CVE-2024-3727)\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n  * go-retryable[http:](http:) url might write sensitive information to log file (CVE-2024-6104)\n  * net/[http:](http:) Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9098",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "3de37b0d7a7eb4d712899c4fd78d2a598b3f5215b7c9fb1e7ac43639e4da6b7a",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.16.1-1.el9.ppc64le.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "d9c4ff4dcb39a6e16db246d59c7b8574daf0e6f63da4dee10118e0f2e9d80738",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.16.1-1.el9.ppc64le.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5b5fe42353356082c9485f2b2c49d5ad2decd26c04573154fe94c811ece07208",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.16.1-1.el9.x86_64.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6e0c9c00f4865cc5dc708147a9d1f154fd0a05fca4a54f6e6754eec4601fb0e7",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.16.1-1.el9.x86_64.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "249f2268c16bd22c9fa479c55705482ba989b5342f51567bb1a1e837ed8bff1f",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.16.1-1.el9.aarch64.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c9c0251ca98d859c56daef09ae56e9295525ce9a9a868d09c43f0c9cf5df1d36",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.16.1-1.el9.aarch64.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "07fe07efbf54bf185b6424df987512d182655e8a3602e139873d273dbc89dc81",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-tests-1.16.1-1.el9.s390x.rpm",
+			"name": "skopeo-tests",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "403e6ae5839c7f5afab0fbe5cbe9fb66a3afb8246d4e3b649393fa2ce20dbfdf",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "skopeo-1.16.1-1.el9.s390x.rpm",
+			"name": "skopeo",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "skopeo-1.16.1-1.el9.src.rpm",
+			"version": "1.16.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9098",
+			"id": "RHSA-2024:9098",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24788",
+			"id": "CVE-2024-24788",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24791",
+			"id": "CVE-2024-24791",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-3727",
+			"id": "CVE-2024-3727",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6104",
+			"id": "CVE-2024-6104",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2274767",
+			"id": "2274767",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2279814",
+			"id": "2279814",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2294000",
+			"id": "2294000",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2295310",
+			"id": "2295310",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9098.html",
+			"id": "ALSA-2024:9098",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: skopeo security update",
+	"type": "security",
+	"updated_date": 1731930429
+}

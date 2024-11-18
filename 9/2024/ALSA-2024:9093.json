@@ -1,0 +1,174 @@
+{
+	"description": "Xwayland is an X server for running X clients under Wayland.  \n\nSecurity Fix(es):  \n\n  * xorg-x11-server: Heap buffer overread/data leakage in ProcXIGetSelectedEvents (CVE-2024-31080)\n  * xorg-x11-server: Heap buffer overread/data leakage in ProcXIPassiveGrabDevice (CVE-2024-31081)\n  * xorg-x11-server: Use-after-free in ProcRenderAddGlyphs (CVE-2024-31083)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9093",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "33c99e9ce748fccb3771c851d2e8e9a254f63b7442a04563116b048efc8ecae5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-23.2.7-1.el9.i686.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a5fda187b6727e1949dd8f5ffee925320658da5f885e51660690e8d632110bcd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-23.2.7-1.el9.ppc64le.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fda91951a57ec5318f6606f181be43ed5086f1ae756e03c8067141df2332f8e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-23.2.7-1.el9.x86_64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "55cb55322d9aed1709e75f9ffe88cbca788cdcb051b27fa7dddd7be7b442ac8a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-23.2.7-1.el9.aarch64.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "9a027fc09be6ddbaeb8fba16abda572ab536edb173734548823e746202534efa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-23.2.7-1.el9.s390x.rpm",
+			"name": "xorg-x11-server-Xwayland",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "i686",
+			"checksum": "548b626999958984b243ce780d5982a4ab22021b900d48b509f332fac96f77b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-devel-23.2.7-1.el9.i686.rpm",
+			"name": "xorg-x11-server-Xwayland-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d5e6c9aef66edbffc6049aac2412bf11efccfa31e52af7455ffe7fca5c4f13f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-devel-23.2.7-1.el9.s390x.rpm",
+			"name": "xorg-x11-server-Xwayland-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4a38bb7552b1bbd31c7b863787687a200eaf6d4f3bce50cf0a210343546f6df9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-devel-23.2.7-1.el9.ppc64le.rpm",
+			"name": "xorg-x11-server-Xwayland-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "542d10cc19672bd1fee926fde1d08fcb1280b6990fb264e50fb96a667572ff28",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-devel-23.2.7-1.el9.x86_64.rpm",
+			"name": "xorg-x11-server-Xwayland-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f6e31ff8246b3d620050cc248c5d2834ac3e39755a52253e7d025bedc0045a65",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "xorg-x11-server-Xwayland-devel-23.2.7-1.el9.aarch64.rpm",
+			"name": "xorg-x11-server-Xwayland-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "xorg-x11-server-Xwayland-23.2.7-1.el9.src.rpm",
+			"version": "23.2.7"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9093",
+			"id": "RHSA-2024:9093",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31080",
+			"id": "CVE-2024-31080",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31081",
+			"id": "CVE-2024-31081",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31083",
+			"id": "CVE-2024-31083",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271997",
+			"id": "2271997",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2271998",
+			"id": "2271998",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2272000",
+			"id": "2272000",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9093.html",
+			"id": "ALSA-2024:9093",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: xorg-x11-server-Xwayland security update",
+	"type": "security",
+	"updated_date": 1731930413
+}

@@ -17,11 +17,11 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5cabaeb0d59caa0034b1a9b2fdecd38a29646ff0db4d10cd9f8e0ac90e3f4bfe",
+			"arch": "aarch64",
+			"checksum": "f118959cf293e4c727c75e1e4299d935e52fbf113bc7cb2d21d1712423695292",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-3.2.2-2.el9.x86_64.rpm",
+			"filename": "tpm2-tss-3.2.2-2.el9.aarch64.rpm",
 			"name": "tpm2-tss",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -29,11 +29,11 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f118959cf293e4c727c75e1e4299d935e52fbf113bc7cb2d21d1712423695292",
+			"arch": "x86_64",
+			"checksum": "5cabaeb0d59caa0034b1a9b2fdecd38a29646ff0db4d10cd9f8e0ac90e3f4bfe",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-3.2.2-2.el9.aarch64.rpm",
+			"filename": "tpm2-tss-3.2.2-2.el9.x86_64.rpm",
 			"name": "tpm2-tss",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -77,23 +77,11 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "a252ad3261ffbe7f2a2b6d3c1aa00d7e70a259c884c6235794985fa20b942618",
+			"arch": "s390x",
+			"checksum": "542b6cdddcf42d38bf78989ddf982eaf9bfe44375494a3c67df1e5d891c5c575",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.x86_64.rpm",
-			"name": "tpm2-tss-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "tpm2-tss-3.2.2-2.el9.src.rpm",
-			"version": "3.2.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "4fb52d1b2abe34937ff2607f162461fe361ce4d9c76dc35130421aaea70d041f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.aarch64.rpm",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.s390x.rpm",
 			"name": "tpm2-tss-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -113,11 +101,23 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "542b6cdddcf42d38bf78989ddf982eaf9bfe44375494a3c67df1e5d891c5c575",
+			"arch": "x86_64",
+			"checksum": "a252ad3261ffbe7f2a2b6d3c1aa00d7e70a259c884c6235794985fa20b942618",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "tpm2-tss-devel-3.2.2-2.el9.s390x.rpm",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.x86_64.rpm",
+			"name": "tpm2-tss-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "tpm2-tss-3.2.2-2.el9.src.rpm",
+			"version": "3.2.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "4fb52d1b2abe34937ff2607f162461fe361ce4d9c76dc35130421aaea70d041f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tpm2-tss-devel-3.2.2-2.el9.aarch64.rpm",
 			"name": "tpm2-tss-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -150,5 +150,5 @@
 	"severity": "Low",
 	"title": "Low: tpm2-tss security and enhancement update",
 	"type": "security",
-	"updated_date": 1699963552
+	"updated_date": 1699963523
 }

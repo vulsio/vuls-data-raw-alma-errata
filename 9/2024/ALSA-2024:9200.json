@@ -1,0 +1,82 @@
+{
+	"description": "The runC tool is a lightweight, portable implementation of the Open Container Format (OCF) that provides container runtime.  \n\nSecurity Fix(es):  \n\n  * golang: net: malformed DNS message can cause infinite loop (CVE-2024-24788)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9200",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "c4a8c42baa141570524002fb16ebb02a350532e0d56f0127a543f0bd85f1f37f",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.13-4.el9.ppc64le.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "runc-1.1.13-4.el9.src.rpm",
+			"version": "1.1.13"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fb927d61e27f28c938be04450e5c3ca9b407a87bf70485eef3e383111bd05a35",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.13-4.el9.x86_64.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "runc-1.1.13-4.el9.src.rpm",
+			"version": "1.1.13"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "54101a2b6ce71c04ec43ee648544e992c8dabb50549a4b0e33c6e744ab36cbda",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.13-4.el9.aarch64.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "runc-1.1.13-4.el9.src.rpm",
+			"version": "1.1.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "bc3839b84f189045fd693301669451138afada7effc70076eaee3be2166dbcfd",
+			"checksum_type": "sha256",
+			"epoch": "4",
+			"filename": "runc-1.1.13-4.el9.s390x.rpm",
+			"name": "runc",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "runc-1.1.13-4.el9.src.rpm",
+			"version": "1.1.13"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9200",
+			"id": "RHSA-2024:9200",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-24788",
+			"id": "CVE-2024-24788",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2279814",
+			"id": "2279814",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9200.html",
+			"id": "ALSA-2024:9200",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: runc security update",
+	"type": "security",
+	"updated_date": 1731930417
+}

@@ -1,0 +1,46 @@
+{
+	"description": "The python-jinja2 package contains Jinja2, a template engine written in pure Python. Jinja2 provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment.   \n\nSecurity Fix(es):  \n\n  * jinja2: accepts keys containing non-attribute characters (CVE-2024-34064)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9150",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "c2e94cdf42485c89ff688bf4214002f4935732183fbb072404e58cb8899c30c4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-jinja2-2.11.3-6.el9.noarch.rpm",
+			"name": "python3-jinja2",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "python-jinja2-2.11.3-6.el9.src.rpm",
+			"version": "2.11.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9150",
+			"id": "RHSA-2024:9150",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-34064",
+			"id": "CVE-2024-34064",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2279476",
+			"id": "2279476",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9150.html",
+			"id": "ALSA-2024:9150",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: python-jinja2 security update",
+	"type": "security",
+	"updated_date": 1731930512
+}

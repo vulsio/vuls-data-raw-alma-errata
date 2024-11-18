@@ -1,0 +1,274 @@
+{
+	"description": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.  \n\nSecurity Fix(es):  \n\n  * cockpit: Authenticated user can kill any process when enabling pam_env's user_readenv option (CVE-2024-6126)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.  \n\nAdditional Changes:  \n\nFor detailed information on changes in this release, see the AlmaLinux Release Notes linked from the References section.\n",
+	"id": "ALSA-2024:9325",
+	"issued_date": 1731369600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "5b03657ce0f1b8298c622a1a26a990fc734b0f0423bac7888dfaae7fcb199508",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-323.1-1.el9_5.ppc64le.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "5c0b31aa290dae63c6d54434ed4c52453aad980f8cd50858b037b655c8065bd5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-storaged-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-storaged",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "f11f8d5faa1930670c93db8d29bfe7043deab6aa3678c51c44aae49deb2c9f05",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-packagekit-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-packagekit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5759987383ea3f0f91db645806115b7cfe1116f1c56988cc7c23307a519cd4ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-323.1-1.el9_5.x86_64.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2a6e538e6cbc762804daff3640843637940457d0fcf425661e422f072fcce26d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "588918f86ac1942225bfaba67174ff2ef6c7259a3c28f6f9708b5da912ab3cb7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cdf2fb7bbfe7bb2e80b3fe43c86de823d68e66151a164327ba25ab5c6fe77f86",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-system-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-system",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e8259d6db8bf8650684f1d3c735521575fa232533f932bf467a00049e6a9f250",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e85cf41907667446afcda7471b80d7d8f046b766b8d8f52ff8d27eefd6358156",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-doc-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-doc",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f18ffac26d96e054f0a920ac46d5c123c4a2e5f95dd7849d46ae24fa68118400",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "48fd889385ec628844eaae9a2d765e6a947539f82279dece96e7d8ff3ecf8a30",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-323.1-1.el9_5.x86_64.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5b715069254e8d755dd50f31a49c4055b5dbc0e76f1117e3f97c10720994fbdf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-323.1-1.el9_5.x86_64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7c2ca163030355714ce2348623b7d1f8c0161185d20968adb4287ac736ed17ce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-323.1-1.el9_5.x86_64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "208f299af2bea8524c58a2442bb402235c12751504e3a2c94085d24ad8fb61ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-323.1-1.el9_5.s390x.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "17a8fb34b1d70e698e0956501b397440c8577b59578631aec57dfb79f02eab24",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-323.1-1.el9_5.s390x.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f52e2bda1f04ed180af8c7f556867246e2d721722c8e6e61a628f77b94e0379",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-323.1-1.el9_5.s390x.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "89cb4de18e5e27f85b48308a8cdd11610c7b24347ec4f7095d9f46b9334f802e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-323.1-1.el9_5.s390x.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5c1755e3d845716a03498618ea30b6ec5f56995909a55eb8ef4139fd8092d746",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-323.1-1.el9_5.ppc64le.rpm",
+			"name": "cockpit-bridge",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "702aae2d460ee96af203d17fe9a3f4dbb1ff7863b63aff50068c9af062218869",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-323.1-1.el9_5.ppc64le.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "faf2855dbaac348f00087bb84d72e0af53dd42471ccf2b55bffe3e686c482d1f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-323.1-1.el9_5.ppc64le.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:9325",
+			"id": "RHSA-2024:9325",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-6126",
+			"id": "CVE-2024-6126",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2292897",
+			"id": "2292897",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-9325.html",
+			"id": "ALSA-2024:9325",
+			"type": "self"
+		}
+	],
+	"severity": "low",
+	"title": "Low: cockpit security update",
+	"type": "security",
+	"updated_date": 1731930774
+}
