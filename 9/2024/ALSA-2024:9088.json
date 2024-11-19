@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "noarch",
-			"checksum": "3528b27d7d11bfda697bf5473dd8035de0ba56571ec5a5d94fd68b6948e6a27c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "edk2-ovmf-20240524-6.el9_5.noarch.rpm",
-			"name": "edk2-ovmf",
-			"reboot_suggested": 0,
-			"release": "6.el9_5",
-			"src": "edk2-20240524-6.el9_5.src.rpm",
-			"version": "20240524"
-		},
-		{
-			"arch": "noarch",
 			"checksum": "0d9f83e534d3284e489bcfefea1d4408a20de4e7e09474f1f0ed1e86c95b7a22",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -29,12 +17,12 @@
 			"version": "20240524"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "336dcdd44c07dd10249e73578b32ad82cde32cf38181428de88e9028a5941b53",
+			"arch": "noarch",
+			"checksum": "3528b27d7d11bfda697bf5473dd8035de0ba56571ec5a5d94fd68b6948e6a27c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "edk2-tools-20240524-6.el9_5.x86_64.rpm",
-			"name": "edk2-tools",
+			"filename": "edk2-ovmf-20240524-6.el9_5.noarch.rpm",
+			"name": "edk2-ovmf",
 			"reboot_suggested": 0,
 			"release": "6.el9_5",
 			"src": "edk2-20240524-6.el9_5.src.rpm",
@@ -58,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "edk2-tools-20240524-6.el9_5.aarch64.rpm",
+			"name": "edk2-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9_5",
+			"src": "edk2-20240524-6.el9_5.src.rpm",
+			"version": "20240524"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "336dcdd44c07dd10249e73578b32ad82cde32cf38181428de88e9028a5941b53",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-tools-20240524-6.el9_5.x86_64.rpm",
 			"name": "edk2-tools",
 			"reboot_suggested": 0,
 			"release": "6.el9_5",
