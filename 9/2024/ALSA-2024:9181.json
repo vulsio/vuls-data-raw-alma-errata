@@ -17,30 +17,6 @@
 			"version": "14"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2b7b84669ffbaf64fc03441528075f5695d4a79219060a788c1583ee18f6d32d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjose-14-1.el9.aarch64.rpm",
-			"name": "libjose",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "jose-14-1.el9.src.rpm",
-			"version": "14"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "56307f35aaf26b518953776033c0ecea43d9f9ca90c8db303773d534b2ea76e1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "jose-14-1.el9.aarch64.rpm",
-			"name": "jose",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "jose-14-1.el9.src.rpm",
-			"version": "14"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "3ba9ca0bca7198741c08577fb25814f0e0c320e6d115661f8c647098ee2a6822",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "jose-14-1.el9.ppc64le.rpm",
+			"name": "jose",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "jose-14-1.el9.src.rpm",
+			"version": "14"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2b7b84669ffbaf64fc03441528075f5695d4a79219060a788c1583ee18f6d32d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjose-14-1.el9.aarch64.rpm",
+			"name": "libjose",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "jose-14-1.el9.src.rpm",
+			"version": "14"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "56307f35aaf26b518953776033c0ecea43d9f9ca90c8db303773d534b2ea76e1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "jose-14-1.el9.aarch64.rpm",
 			"name": "jose",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -113,6 +113,18 @@
 			"version": "14"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "c81ad45bbc22795e046a30b39b0dd2ecf1ba9ebbda49b0304ed61b693accd3f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libjose-devel-14-1.el9.x86_64.rpm",
+			"name": "libjose-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "jose-14-1.el9.src.rpm",
+			"version": "14"
+		},
+		{
 			"arch": "i686",
 			"checksum": "c924138bceaf77ad42477b8c1dbe840d6bb2790d26c2b8c0d42d0f3162512398",
 			"checksum_type": "sha256",
@@ -125,23 +137,11 @@
 			"version": "14"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "00f856532a96fac634b258a9542cc56ecb73eb7851cd6fba1dcc0233118f1105",
+			"arch": "ppc64le",
+			"checksum": "211a938df7b22c4be94aefc0293b355be46258156d7a076888e597101c912e0d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libjose-devel-14-1.el9.aarch64.rpm",
-			"name": "libjose-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "jose-14-1.el9.src.rpm",
-			"version": "14"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c81ad45bbc22795e046a30b39b0dd2ecf1ba9ebbda49b0304ed61b693accd3f6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libjose-devel-14-1.el9.x86_64.rpm",
+			"filename": "libjose-devel-14-1.el9.ppc64le.rpm",
 			"name": "libjose-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -161,11 +161,11 @@
 			"version": "14"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "211a938df7b22c4be94aefc0293b355be46258156d7a076888e597101c912e0d",
+			"arch": "aarch64",
+			"checksum": "00f856532a96fac634b258a9542cc56ecb73eb7851cd6fba1dcc0233118f1105",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libjose-devel-14-1.el9.ppc64le.rpm",
+			"filename": "libjose-devel-14-1.el9.aarch64.rpm",
 			"name": "libjose-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",

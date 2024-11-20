@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "55c836e79d8e9609ae18f3816415744569f810a3187d5baa9823364bc1f05aa2",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-9.0.0-10.el9_5.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "10.el9_5",
+			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
+			"version": "9.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e113c2d3e5fed7ce2f1987143df12e5f0880a88763102782162d90b954efac74",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-9.0.0-10.el9_5.ppc64le.rpm",
+			"name": "qemu-img",
+			"reboot_suggested": 0,
+			"release": "10.el9_5",
+			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
+			"version": "9.0.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "005870046168b8e23e315f6d4688fb9482db71f03098c812fe40f9b5fa0638f9",
 			"checksum_type": "sha256",
@@ -191,30 +215,6 @@
 			"epoch": "17",
 			"filename": "qemu-guest-agent-9.0.0-10.el9_5.aarch64.rpm",
 			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "10.el9_5",
-			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
-			"version": "9.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "55c836e79d8e9609ae18f3816415744569f810a3187d5baa9823364bc1f05aa2",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-9.0.0-10.el9_5.ppc64le.rpm",
-			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "10.el9_5",
-			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
-			"version": "9.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e113c2d3e5fed7ce2f1987143df12e5f0880a88763102782162d90b954efac74",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-9.0.0-10.el9_5.ppc64le.rpm",
-			"name": "qemu-img",
 			"reboot_suggested": 0,
 			"release": "10.el9_5",
 			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
@@ -674,5 +674,5 @@
 	"severity": "moderate",
 	"title": "Moderate: qemu-kvm security update",
 	"type": "security",
-	"updated_date": 1731930900
+	"updated_date": 1731930430
 }
