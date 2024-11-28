@@ -17,11 +17,11 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "a6d2027998105d4156496666a16d48659b39b882b59d97d79bef025305a3ef07",
+			"arch": "aarch64",
+			"checksum": "298ff58b40af2aad85dc43b31bcc8a55f1a80cb96525f46624955a32be284bee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgcrypt-devel-1.10.0-11.el9.ppc64le.rpm",
+			"filename": "libgcrypt-devel-1.10.0-11.el9.aarch64.rpm",
 			"name": "libgcrypt-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -29,11 +29,11 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "298ff58b40af2aad85dc43b31bcc8a55f1a80cb96525f46624955a32be284bee",
+			"arch": "ppc64le",
+			"checksum": "a6d2027998105d4156496666a16d48659b39b882b59d97d79bef025305a3ef07",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgcrypt-devel-1.10.0-11.el9.aarch64.rpm",
+			"filename": "libgcrypt-devel-1.10.0-11.el9.ppc64le.rpm",
 			"name": "libgcrypt-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -53,6 +53,18 @@
 			"version": "1.10.0"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "6e1c64aeb6090508c98515b6909c68438043dc169652bf9379f8dc477238026c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgcrypt-devel-1.10.0-11.el9.s390x.rpm",
+			"name": "libgcrypt-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
+			"version": "1.10.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "80f5c7359a929c68c4ba38c87a6a358069fe04d4bb418499a2fe0602cfded595",
 			"checksum_type": "sha256",
@@ -65,12 +77,12 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "6e1c64aeb6090508c98515b6909c68438043dc169652bf9379f8dc477238026c",
+			"arch": "aarch64",
+			"checksum": "80113460a316a68ca50bc1d1ddb6803b6b5c9716d7727ca9c567b18cebb6d0d6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgcrypt-devel-1.10.0-11.el9.s390x.rpm",
-			"name": "libgcrypt-devel",
+			"filename": "libgcrypt-1.10.0-11.el9.aarch64.rpm",
+			"name": "libgcrypt",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
@@ -106,18 +118,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libgcrypt-1.10.0-11.el9.s390x.rpm",
-			"name": "libgcrypt",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
-			"version": "1.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "80113460a316a68ca50bc1d1ddb6803b6b5c9716d7727ca9c567b18cebb6d0d6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgcrypt-1.10.0-11.el9.aarch64.rpm",
 			"name": "libgcrypt",
 			"reboot_suggested": 0,
 			"release": "11.el9",

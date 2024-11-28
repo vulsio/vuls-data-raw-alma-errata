@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "45565bfe4ebbf4b7eaf3046699d1c9a747a748d0d90c0dba3f8f2668ae255f6c",
+			"arch": "aarch64",
+			"checksum": "87907c846bf5e24bdf1269a615d30505a008a180fca2fe73745ebb959d077bc8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.x86_64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.aarch64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -17,11 +17,11 @@
 			"version": "8.0.108"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "87907c846bf5e24bdf1269a615d30505a008a180fca2fe73745ebb959d077bc8",
+			"arch": "x86_64",
+			"checksum": "45565bfe4ebbf4b7eaf3046699d1c9a747a748d0d90c0dba3f8f2668ae255f6c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.aarch64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.x86_64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -546,18 +546,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "cfae6ff3b5d135fa8b3930a1055b20110ee26e7e8566cdd3ddb70fcd697ddd56",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.s390x.rpm",
-			"name": "dotnet-sdk-8.0-source-built-artifacts",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "dotnet8.0-8.0.108-1.el8_10.src.rpm",
-			"version": "8.0.108"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "904ad6c6ff2b6a48022c3ad281aa532deb2e3c533c700c25d1f7f5a411405cb6",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -587,6 +575,18 @@
 			"epoch": "0",
 			"filename": "dotnet-sdk-dbg-8.0-8.0.108-1.el8_10.s390x.rpm",
 			"name": "dotnet-sdk-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "dotnet8.0-8.0.108-1.el8_10.src.rpm",
+			"version": "8.0.108"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "cfae6ff3b5d135fa8b3930a1055b20110ee26e7e8566cdd3ddb70fcd697ddd56",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.108-1.el8_10.s390x.rpm",
+			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
 			"src": "dotnet8.0-8.0.108-1.el8_10.src.rpm",

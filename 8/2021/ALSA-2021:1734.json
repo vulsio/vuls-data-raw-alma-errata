@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "6cfb21a2513e1cf3faea077e09b42277bd84a53dd4221db8548af8ab6aa43764",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-aa64-15.4-2.el8_1.alma.aarch64.rpm",
+			"name": "shim-aa64",
+			"reboot_suggested": 0,
+			"release": "2.el8_1.alma",
+			"src": "shim-15.4-2.el8_1.alma.src.rpm",
+			"version": "15.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c6c12853b775dd0f70ef7668c987157d301c3c667e50f65db887a26fd7a022e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "shim-unsigned-aarch64-15-7.el8_1.alma.aarch64.rpm",
+			"name": "shim-unsigned-aarch64",
+			"reboot_suggested": 0,
+			"release": "7.el8_1.alma",
+			"src": "shim-unsigned-aarch64-15-7.el8_1.alma.src.rpm",
+			"version": "15"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "2cde8b7d0f7100a7f8241144781048634fae1b249374049c071ac8af1e4692eb",
 			"checksum_type": "sha256",
@@ -39,30 +63,6 @@
 			"release": "2.el8_1.alma",
 			"src": "shim-15.4-2.el8_1.alma.src.rpm",
 			"version": "15.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6cfb21a2513e1cf3faea077e09b42277bd84a53dd4221db8548af8ab6aa43764",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "shim-aa64-15.4-2.el8_1.alma.aarch64.rpm",
-			"name": "shim-aa64",
-			"reboot_suggested": 0,
-			"release": "2.el8_1.alma",
-			"src": "shim-15.4-2.el8_1.alma.src.rpm",
-			"version": "15.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c6c12853b775dd0f70ef7668c987157d301c3c667e50f65db887a26fd7a022e0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "shim-unsigned-aarch64-15-7.el8_1.alma.aarch64.rpm",
-			"name": "shim-unsigned-aarch64",
-			"reboot_suggested": 0,
-			"release": "7.el8_1.alma",
-			"src": "shim-unsigned-aarch64-15-7.el8_1.alma.src.rpm",
-			"version": "15"
 		}
 	],
 	"references": [

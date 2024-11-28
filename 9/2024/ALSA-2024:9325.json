@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "ppc64le",
-			"checksum": "5b03657ce0f1b8298c622a1a26a990fc734b0f0423bac7888dfaae7fcb199508",
+			"arch": "aarch64",
+			"checksum": "2a6e538e6cbc762804daff3640843637940457d0fcf425661e422f072fcce26d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-323.1-1.el9_5.ppc64le.rpm",
+			"filename": "cockpit-pcp-323.1-1.el9_5.aarch64.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
@@ -41,11 +41,11 @@
 			"version": "323.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2a6e538e6cbc762804daff3640843637940457d0fcf425661e422f072fcce26d",
+			"arch": "ppc64le",
+			"checksum": "5b03657ce0f1b8298c622a1a26a990fc734b0f0423bac7888dfaae7fcb199508",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-323.1-1.el9_5.aarch64.rpm",
+			"filename": "cockpit-pcp-323.1-1.el9_5.ppc64le.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
@@ -71,6 +71,66 @@
 			"epoch": "0",
 			"filename": "cockpit-pcp-323.1-1.el9_5.s390x.rpm",
 			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "588918f86ac1942225bfaba67174ff2ef6c7259a3c28f6f9708b5da912ab3cb7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-ws-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "cdf2fb7bbfe7bb2e80b3fe43c86de823d68e66151a164327ba25ab5c6fe77f86",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-system-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-system",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e8259d6db8bf8650684f1d3c735521575fa232533f932bf467a00049e6a9f250",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e85cf41907667446afcda7471b80d7d8f046b766b8d8f52ff8d27eefd6358156",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-doc-323.1-1.el9_5.noarch.rpm",
+			"name": "cockpit-doc",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f18ffac26d96e054f0a920ac46d5c123c4a2e5f95dd7849d46ae24fa68118400",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-bridge-323.1-1.el9_5.aarch64.rpm",
+			"name": "cockpit-bridge",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
 			"src": "cockpit-323.1-1.el9_5.src.rpm",
@@ -107,30 +167,6 @@
 			"epoch": "0",
 			"filename": "cockpit-323.1-1.el9_5.x86_64.rpm",
 			"name": "cockpit",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "cdf2fb7bbfe7bb2e80b3fe43c86de823d68e66151a164327ba25ab5c6fe77f86",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-system-323.1-1.el9_5.noarch.rpm",
-			"name": "cockpit-system",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e85cf41907667446afcda7471b80d7d8f046b766b8d8f52ff8d27eefd6358156",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-doc-323.1-1.el9_5.noarch.rpm",
-			"name": "cockpit-doc",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
 			"src": "cockpit-323.1-1.el9_5.src.rpm",
@@ -207,42 +243,6 @@
 			"release": "1.el9_5",
 			"src": "cockpit-323.1-1.el9_5.src.rpm",
 			"version": "323.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "588918f86ac1942225bfaba67174ff2ef6c7259a3c28f6f9708b5da912ab3cb7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-ws-323.1-1.el9_5.aarch64.rpm",
-			"name": "cockpit-ws",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e8259d6db8bf8650684f1d3c735521575fa232533f932bf467a00049e6a9f250",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-323.1-1.el9_5.aarch64.rpm",
-			"name": "cockpit",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f18ffac26d96e054f0a920ac46d5c123c4a2e5f95dd7849d46ae24fa68118400",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-bridge-323.1-1.el9_5.aarch64.rpm",
-			"name": "cockpit-bridge",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
 		}
 	],
 	"references": [
@@ -270,5 +270,5 @@
 	"severity": "low",
 	"title": "Low: cockpit security update",
 	"type": "security",
-	"updated_date": 1731930774
+	"updated_date": 1731930775
 }

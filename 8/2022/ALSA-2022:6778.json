@@ -6,30 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "35bfba7da77f5c28fb530a0aedde5a23b31b23e699b5f2e520dbc1347de00f7f",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-libs-9.11.36-3.el8_6.1.i686.rpm",
-			"name": "bind-export-libs",
-			"reboot_suggested": 0,
-			"release": "3.el8_6.1",
-			"src": "bind-9.11.36-3.el8_6.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "i686",
-			"checksum": "efb99bfae9b36de386e34219d08a523665f1cc2bb02d5e69c447588e17636467",
-			"checksum_type": "sha256",
-			"epoch": "32",
-			"filename": "bind-export-devel-9.11.36-3.el8_6.1.i686.rpm",
-			"name": "bind-export-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8_6.1",
-			"src": "bind-9.11.36-3.el8_6.1.src.rpm",
-			"version": "9.11.36"
-		},
-		{
-			"arch": "i686",
 			"checksum": "4a796fddc664fe01078258ae7976a47d812d3c3451205b907ca7f761b6517818",
 			"checksum_type": "sha256",
 			"epoch": "32",
@@ -142,6 +118,30 @@
 			"checksum_type": "sha256",
 			"epoch": "32",
 			"filename": "bind-export-devel-9.11.36-3.el8_6.1.aarch64.rpm",
+			"name": "bind-export-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8_6.1",
+			"src": "bind-9.11.36-3.el8_6.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "i686",
+			"checksum": "35bfba7da77f5c28fb530a0aedde5a23b31b23e699b5f2e520dbc1347de00f7f",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-libs-9.11.36-3.el8_6.1.i686.rpm",
+			"name": "bind-export-libs",
+			"reboot_suggested": 0,
+			"release": "3.el8_6.1",
+			"src": "bind-9.11.36-3.el8_6.1.src.rpm",
+			"version": "9.11.36"
+		},
+		{
+			"arch": "i686",
+			"checksum": "efb99bfae9b36de386e34219d08a523665f1cc2bb02d5e69c447588e17636467",
+			"checksum_type": "sha256",
+			"epoch": "32",
+			"filename": "bind-export-devel-9.11.36-3.el8_6.1.i686.rpm",
 			"name": "bind-export-devel",
 			"reboot_suggested": 0,
 			"release": "3.el8_6.1",
@@ -784,5 +784,5 @@
 	"severity": "Important",
 	"title": "Important: bind security update",
 	"type": "security",
-	"updated_date": 1665767515
+	"updated_date": 1665767523
 }
