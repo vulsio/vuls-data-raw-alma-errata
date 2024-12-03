@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "501f5f0bde369eb0282a27eb4e764e1ddda42142e72ea0a759e751bb98317627",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "raptor2-devel-2.0.15-16.el8.aarch64.rpm",
-			"name": "raptor2-devel",
-			"reboot_suggested": 0,
-			"release": "16.el8",
-			"src": "raptor2-2.0.15-16.el8.src.rpm",
-			"version": "2.0.15"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
-			"name": "raptor2",
-			"reboot_suggested": 0,
-			"release": "16.el8",
-			"src": "raptor2-2.0.15-16.el8.src.rpm",
-			"version": "2.0.15"
-		},
-		{
 			"arch": "i686",
 			"checksum": "78c256072a68a6f65d4da07e5947f5cd8b3093c0f2f17cc0fb02640709726f83",
 			"checksum_type": "sha256",
@@ -59,6 +35,30 @@
 			"epoch": "0",
 			"filename": "raptor2-devel-2.0.15-16.el8.x86_64.rpm",
 			"name": "raptor2-devel",
+			"reboot_suggested": 0,
+			"release": "16.el8",
+			"src": "raptor2-2.0.15-16.el8.src.rpm",
+			"version": "2.0.15"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "501f5f0bde369eb0282a27eb4e764e1ddda42142e72ea0a759e751bb98317627",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "raptor2-devel-2.0.15-16.el8.aarch64.rpm",
+			"name": "raptor2-devel",
+			"reboot_suggested": 0,
+			"release": "16.el8",
+			"src": "raptor2-2.0.15-16.el8.src.rpm",
+			"version": "2.0.15"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ff9e5266d9616de0bd67d38919e3e373bef00396ed493acb7d003e899d870740",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "raptor2-2.0.15-16.el8.aarch64.rpm",
+			"name": "raptor2",
 			"reboot_suggested": 0,
 			"release": "16.el8",
 			"src": "raptor2-2.0.15-16.el8.src.rpm",
@@ -103,11 +103,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1842.html",
-			"id": "ALSA-2021-1842",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2017-18926",
 			"id": "CVE-2017-18926",
 			"type": "cve"
@@ -116,10 +111,15 @@
 			"href": "https://vulners.com/cve/CVE-2020-25713",
 			"id": "CVE-2020-25713",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1842.html",
+			"id": "ALSA-2021-1842",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: raptor2 security and bug fix update",
 	"type": "security",
-	"updated_date": 1621318383
+	"updated_date": 1628672040
 }

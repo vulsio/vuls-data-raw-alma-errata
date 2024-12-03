@@ -5,23 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "298cb7a2c763152f29fc092d18801f11650b8c0ab1aeb91c8bbf2729fd29d7bc",
+			"arch": "x86_64",
+			"checksum": "2f196bc7858fde6aacebfbf83211bfacb1ce5b14818b2c32827e88173de30ceb",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-devel-1.13.0-6.el8.aarch64.rpm",
-			"name": "c-ares-devel",
-			"reboot_suggested": 0,
-			"release": "6.el8",
-			"src": "c-ares-1.13.0-6.el8.src.rpm",
-			"version": "1.13.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e8dbbba696d5d228210a3e3fbc1949317f9e7c94cd116e98958971f52c8ca459",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-1.13.0-6.el8.aarch64.rpm",
+			"filename": "c-ares-1.13.0-6.el8.x86_64.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "6.el8",
@@ -65,11 +53,47 @@
 			"version": "1.13.0"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "76723fac6da6b27afd0dcdadc5b3abea13fa8adf9658410585248e54733aad66",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-6.el8.x86_64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "c-ares-1.13.0-6.el8.src.rpm",
+			"version": "1.13.0"
+		},
+		{
 			"arch": "i686",
 			"checksum": "ac44aabf9a844178cfadbb785b36fbc53e6fe99621329ff5d96e7f5c5b64ebad",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "c-ares-1.13.0-6.el8.i686.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "c-ares-1.13.0-6.el8.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "298cb7a2c763152f29fc092d18801f11650b8c0ab1aeb91c8bbf2729fd29d7bc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-devel-1.13.0-6.el8.aarch64.rpm",
+			"name": "c-ares-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8",
+			"src": "c-ares-1.13.0-6.el8.src.rpm",
+			"version": "1.13.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e8dbbba696d5d228210a3e3fbc1949317f9e7c94cd116e98958971f52c8ca459",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.13.0-6.el8.aarch64.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "6.el8",
@@ -116,5 +140,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: c-ares security update",
 	"type": "security",
-	"updated_date": 1652170467
+	"updated_date": 1678725172
 }

@@ -1,0 +1,161 @@
+{
+	"description": "The panminus is a script to get, unpack, build and install modules from CPAN.  \n\nSecurity Fix(es):  \n\n  * perl-App-cpanminus: Insecure HTTP in App::cpanminus Allows Code Execution Vulnerability (CVE-2024-45321)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:10219",
+	"issued_date": 1732492800,
+	"modules": [
+		{
+			"arch": "i686",
+			"context": "436af1ae",
+			"name": "perl-App-cpanminus",
+			"stream": "1.7044",
+			"version": "8100020241126083843"
+		},
+		{
+			"arch": "x86_64",
+			"context": "436af1ae",
+			"name": "perl-App-cpanminus",
+			"stream": "1.7044",
+			"version": "8100020241126083843"
+		},
+		{
+			"arch": "aarch64",
+			"context": "436af1ae",
+			"name": "perl-App-cpanminus",
+			"stream": "1.7044",
+			"version": "8100020241126083843"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "436af1ae",
+			"name": "perl-App-cpanminus",
+			"stream": "1.7044",
+			"version": "8100020241126083843"
+		},
+		{
+			"arch": "s390x",
+			"context": "436af1ae",
+			"name": "perl-App-cpanminus",
+			"stream": "1.7044",
+			"version": "8100020241126083843"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "0879dc6d89d8f59cf08adcf483de4039a2a1fe1149f620c083e94b22c4060d89",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-Parse-PMFile-0.41-7.module_el8.6.0+2851+b32f1bac.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-Parse-PMFile",
+			"reboot_suggested": 0,
+			"release": "7.module_el8.6.0+2851+b32f1bac",
+			"src": "perl-Parse-PMFile-0.41-7.module_el8.6.0+2851+b32f1bac.src.rpm",
+			"version": "0.41"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "0f3b309ab4287a18f3cbf3237950e8ebc44884f4d3f0eb9c59de91cb3d02a414",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-Module-CPANfile-1.1002-7.module_el8.6.0+2792+592c5e39.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-Module-CPANfile",
+			"reboot_suggested": 0,
+			"release": "7.module_el8.6.0+2792+592c5e39",
+			"src": "perl-Module-CPANfile-1.1002-7.module_el8.6.0+2792+592c5e39.src.rpm",
+			"version": "1.1002"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "5a6876e3a8c392939dc8bd51c0ca1742d8b6904d697e79d2e8c737648546a114",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-CPAN-Meta-Check-0.014-6.module_el8.10.0+3924+8d272be4.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-CPAN-Meta-Check",
+			"reboot_suggested": 0,
+			"release": "6.module_el8.10.0+3924+8d272be4",
+			"src": "perl-CPAN-Meta-Check-0.014-6.module_el8.10.0+3924+8d272be4.src.rpm",
+			"version": "0.014"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "957e29f0e69068ed299513068678f36fedd87316b853d1244799f6805c838205",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-File-pushd-1.014-6.module_el8.6.0+2851+b32f1bac.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-File-pushd",
+			"reboot_suggested": 0,
+			"release": "6.module_el8.6.0+2851+b32f1bac",
+			"src": "perl-File-pushd-1.014-6.module_el8.6.0+2851+b32f1bac.src.rpm",
+			"version": "1.014"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ba856ec19b5260b92c2a7b228fc04567a77a44d33f96ab8e1b48b8a453fb1bc0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-String-ShellQuote-1.04-24.module_el8.6.0+2810+886f1911.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-String-ShellQuote",
+			"reboot_suggested": 0,
+			"release": "24.module_el8.6.0+2810+886f1911",
+			"src": "perl-String-ShellQuote-1.04-24.module_el8.6.0+2810+886f1911.src.rpm",
+			"version": "1.04"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "c86cf82d68a8e6d7a6b192587b3e0a15b0e6049ad3d74f728e968e8f1b8a0374",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-App-cpanminus-1.7044-6.module_el8.10.0+3924+8d272be4.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-App-cpanminus",
+			"reboot_suggested": 0,
+			"release": "6.module_el8.10.0+3924+8d272be4",
+			"src": "perl-App-cpanminus-1.7044-6.module_el8.10.0+3924+8d272be4.src.rpm",
+			"version": "1.7044"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ef827f389b513f04cd93973fee8ed72ddae3e28a6bc82cdefa9c4a573b0035fa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "perl-CPAN-DistnameInfo-0.12-13.module_el8.6.0+2810+886f1911.noarch.rpm",
+			"module": "perl-App-cpanminus:1.7044:8100020241126083843:436af1ae:i686",
+			"name": "perl-CPAN-DistnameInfo",
+			"reboot_suggested": 0,
+			"release": "13.module_el8.6.0+2810+886f1911",
+			"src": "perl-CPAN-DistnameInfo-0.12-13.module_el8.6.0+2810+886f1911.src.rpm",
+			"version": "0.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:10219",
+			"id": "RHSA-2024:10219",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-45321",
+			"id": "CVE-2024-45321",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2308078",
+			"id": "2308078",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-10219.html",
+			"id": "ALSA-2024:10219",
+			"type": "self"
+		}
+	],
+	"severity": "moderate",
+	"title": "Moderate: perl-App-cpanminus:1.7044 security update",
+	"type": "security",
+	"updated_date": 1733136775
+}

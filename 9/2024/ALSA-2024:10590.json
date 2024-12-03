@@ -1,0 +1,82 @@
+{
+	"description": "Tornado is a Python web framework and asynchronous networking library that provides an open source version of scalable, non-blocking web server and tools.  \n\nSecurity Fix(es):  \n\n  * python-tornado: Tornado has HTTP cookie parsing DoS vulnerability (CVE-2024-52804)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:10590",
+	"issued_date": 1733097600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "28e4db1e2cb286f4c7b5a4d772f0957b5bbf95d71b97e1a46668a36bebe5cd10",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tornado-6.4.2-1.el9_5.aarch64.rpm",
+			"name": "python3-tornado",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "python-tornado-6.4.2-1.el9_5.src.rpm",
+			"version": "6.4.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9de8fcc6149b8fd7027b839d64141614ba1f6efc9a995e276d758e4452aa9750",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tornado-6.4.2-1.el9_5.ppc64le.rpm",
+			"name": "python3-tornado",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "python-tornado-6.4.2-1.el9_5.src.rpm",
+			"version": "6.4.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b302da14e217b2cb5d0a471c141274103d9d88167248ae18cc4f6c0e91cd1395",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tornado-6.4.2-1.el9_5.x86_64.rpm",
+			"name": "python3-tornado",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "python-tornado-6.4.2-1.el9_5.src.rpm",
+			"version": "6.4.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4f1cb443f94dc97a01dd8ac54cd0135a644484557311d28c62d2d623e4a5ecd6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-tornado-6.4.2-1.el9_5.s390x.rpm",
+			"name": "python3-tornado",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "python-tornado-6.4.2-1.el9_5.src.rpm",
+			"version": "6.4.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:10590",
+			"id": "RHSA-2024:10590",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-52804",
+			"id": "CVE-2024-52804",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328045",
+			"id": "2328045",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-10590.html",
+			"id": "ALSA-2024:10590",
+			"type": "self"
+		}
+	],
+	"severity": "important",
+	"title": "Important: python-tornado security update",
+	"type": "security",
+	"updated_date": 1733215068
+}
