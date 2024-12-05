@@ -77,6 +77,18 @@
 			"version": "0.4.0"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "85405a51a7efaba00817e6e0b593be00c6a663eef45eaa751f8a38374f10c20a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bubblewrap-0.4.0-2.el8_10.aarch64.rpm",
+			"name": "bubblewrap",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
+			"version": "0.4.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "e7ead25d76edda73661e0cb364d6094d5020368b082a09a80fcfac42628d7610",
 			"checksum_type": "sha256",
@@ -90,59 +102,11 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "85405a51a7efaba00817e6e0b593be00c6a663eef45eaa751f8a38374f10c20a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bubblewrap-0.4.0-2.el8_10.aarch64.rpm",
-			"name": "bubblewrap",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
-			"version": "0.4.0"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "32b4e255b1f52e31347784689f91e71bd4a287aba32823fab92d9f9a38e1585d",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "flatpak-devel-1.12.9-3.el8_10.aarch64.rpm",
 			"name": "flatpak-devel",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "404290e4a27334da8f0555e9e97cbfab10873f10a2e117a3ab8eea62e71bc81e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-libs-1.12.9-3.el8_10.x86_64.rpm",
-			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "4b15e7c9055df4f72ad75067e72f5410423b1e59f7c227955205515ca6dd15dd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-1.12.9-3.el8_10.x86_64.rpm",
-			"name": "flatpak",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "76756a75c1d1614b1300f55b459c6691f75230c677edaff8c0a5237b3041ed8e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-session-helper-1.12.9-3.el8_10.x86_64.rpm",
-			"name": "flatpak-session-helper",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
@@ -185,12 +149,36 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "354b3f5525d8a8c7faccf9cfcdb57827b91ec2e37b2e3b1f0951f6e36f5cec55",
+			"arch": "x86_64",
+			"checksum": "404290e4a27334da8f0555e9e97cbfab10873f10a2e117a3ab8eea62e71bc81e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-3.el8_10.ppc64le.rpm",
-			"name": "flatpak-devel",
+			"filename": "flatpak-libs-1.12.9-3.el8_10.x86_64.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4b15e7c9055df4f72ad75067e72f5410423b1e59f7c227955205515ca6dd15dd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-1.12.9-3.el8_10.x86_64.rpm",
+			"name": "flatpak",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "76756a75c1d1614b1300f55b459c6691f75230c677edaff8c0a5237b3041ed8e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-session-helper-1.12.9-3.el8_10.x86_64.rpm",
+			"name": "flatpak-session-helper",
 			"reboot_suggested": 0,
 			"release": "3.el8_10",
 			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
@@ -207,6 +195,18 @@
 			"release": "2.el8_10",
 			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
 			"version": "0.4.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "354b3f5525d8a8c7faccf9cfcdb57827b91ec2e37b2e3b1f0951f6e36f5cec55",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-devel-1.12.9-3.el8_10.ppc64le.rpm",
+			"name": "flatpak-devel",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
 		},
 		{
 			"arch": "ppc64le",

@@ -1,0 +1,132 @@
+{
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: CSP Bypass and XSS Exposure via Web Compatibility Shims (CVE-2024-11694)\n  * firefox: thunderbird: Unhandled Exception in Add-on Signature Verification (CVE-2024-11696)\n  * firefox: thunderbird: Select list elements could be shown over another site (CVE-2024-11692)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 133, Thunderbird 133, Firefox ESR 128.5, and Thunderbird 128.5 (CVE-2024-11699)\n  * firefox: thunderbird: URL Bar Spoofing via Manipulated Punycode and Whitespace Characters (CVE-2024-11695)\n  * firefox: thunderbird: Improper Keypress Handling in Executable File Confirmation Dialog (CVE-2024-11697)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:10752",
+	"issued_date": 1733184000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "a36f76ae94313cf443a5633728d350bc7abdc8fb1fbe7b2fd46bc68e1052d737",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.5.1-1.el8_10.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.5.1-1.el8_10.src.rpm",
+			"version": "128.5.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "9b9817ba2e9204e2ec0507ae4fe1cfdb2f5cc5d2597197578ccfa9c7ccddbd33",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.5.1-1.el8_10.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.5.1-1.el8_10.src.rpm",
+			"version": "128.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8b8acb79106cafe3dd7d0547a7427f6efa28890975dea592abe84ebea6fa47f6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.5.1-1.el8_10.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.5.1-1.el8_10.src.rpm",
+			"version": "128.5.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "86ae1f24c8370014a6d3d4c8f4d3d4562af4346750f3b0a26901be9355843187",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.5.1-1.el8_10.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.5.1-1.el8_10.src.rpm",
+			"version": "128.5.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:10752",
+			"id": "RHSA-2024:10752",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11692",
+			"id": "CVE-2024-11692",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11694",
+			"id": "CVE-2024-11694",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11695",
+			"id": "CVE-2024-11695",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11696",
+			"id": "CVE-2024-11696",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11697",
+			"id": "CVE-2024-11697",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11699",
+			"id": "CVE-2024-11699",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328941",
+			"id": "2328941",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328943",
+			"id": "2328943",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328946",
+			"id": "2328946",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328947",
+			"id": "2328947",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328948",
+			"id": "2328948",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2328950",
+			"id": "2328950",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-10752.html",
+			"id": "ALSA-2024:10752",
+			"type": "self"
+		}
+	],
+	"severity": "important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1733408833
+}
