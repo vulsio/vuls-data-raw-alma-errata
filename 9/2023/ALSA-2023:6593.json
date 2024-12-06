@@ -29,6 +29,18 @@
 			"version": "2.35.2"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "36d47a7168a1008f92ae68a38a861d74bd24500fc5ef2c8ff20df2f7c83f6703",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-devel-2.35.2-42.el9.s390x.rpm",
+			"name": "binutils-devel",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "66a1a587bbd51407fc7bb1fde50aef681cdee9d64dad987b3db48906f1a55d07",
 			"checksum_type": "sha256",
@@ -113,30 +125,6 @@
 			"version": "2.35.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "772eaaf2da7b87fc45a6f8479deceddcf3be0478999f62670bbd578b20331f7d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-2.35.2-42.el9.s390x.rpm",
-			"name": "binutils",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "d2d6b2ff4d39722a5f54f3e93cd064df8536e421f4f83bb0f7c33a7fcc6a11e6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "binutils-gold-2.35.2-42.el9.s390x.rpm",
-			"name": "binutils-gold",
-			"reboot_suggested": 0,
-			"release": "42.el9",
-			"src": "binutils-2.35.2-42.el9.src.rpm",
-			"version": "2.35.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "9a7c568e34fe0d9696886dd7d341836711cb52799da5019c648981806ac4e0a1",
 			"checksum_type": "sha256",
@@ -162,11 +150,23 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "36d47a7168a1008f92ae68a38a861d74bd24500fc5ef2c8ff20df2f7c83f6703",
+			"checksum": "772eaaf2da7b87fc45a6f8479deceddcf3be0478999f62670bbd578b20331f7d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "binutils-devel-2.35.2-42.el9.s390x.rpm",
-			"name": "binutils-devel",
+			"filename": "binutils-2.35.2-42.el9.s390x.rpm",
+			"name": "binutils",
+			"reboot_suggested": 0,
+			"release": "42.el9",
+			"src": "binutils-2.35.2-42.el9.src.rpm",
+			"version": "2.35.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "d2d6b2ff4d39722a5f54f3e93cd064df8536e421f4f83bb0f7c33a7fcc6a11e6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "binutils-gold-2.35.2-42.el9.s390x.rpm",
+			"name": "binutils-gold",
 			"reboot_suggested": 0,
 			"release": "42.el9",
 			"src": "binutils-2.35.2-42.el9.src.rpm",

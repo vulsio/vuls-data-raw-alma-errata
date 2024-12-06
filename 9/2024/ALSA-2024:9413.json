@@ -29,6 +29,18 @@
 			"version": "5.72"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "04019ef1918796570ce4b2d33a4de9f0c1137115bc12f68633fffe02d29ccf13",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bluez-cups-5.72-2.el9.s390x.rpm",
+			"name": "bluez-cups",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "bluez-5.72-2.el9.src.rpm",
+			"version": "5.72"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "e303d670df0ba42d1484e137cfa3380aef22da69808302b06deb9e9eb1312516",
 			"checksum_type": "sha256",
@@ -137,30 +149,6 @@
 			"version": "5.72"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "423179783b8d7a93cb80e6733c71f39587684c6e00494faec86ae38b48cce422",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bluez-libs-5.72-2.el9.s390x.rpm",
-			"name": "bluez-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "bluez-5.72-2.el9.src.rpm",
-			"version": "5.72"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "69e123adbbe8a36fb8e9e171a3995e26cbcf0bf5ca96adc41b908c5b1629bcc3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bluez-5.72-2.el9.s390x.rpm",
-			"name": "bluez",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "bluez-5.72-2.el9.src.rpm",
-			"version": "5.72"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "562045017360d672f5de87ab0fcedbe6389f30dad28950c0b664981b46dae84b",
 			"checksum_type": "sha256",
@@ -186,11 +174,23 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "04019ef1918796570ce4b2d33a4de9f0c1137115bc12f68633fffe02d29ccf13",
+			"checksum": "423179783b8d7a93cb80e6733c71f39587684c6e00494faec86ae38b48cce422",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "bluez-cups-5.72-2.el9.s390x.rpm",
-			"name": "bluez-cups",
+			"filename": "bluez-libs-5.72-2.el9.s390x.rpm",
+			"name": "bluez-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "bluez-5.72-2.el9.src.rpm",
+			"version": "5.72"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "69e123adbbe8a36fb8e9e171a3995e26cbcf0bf5ca96adc41b908c5b1629bcc3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bluez-5.72-2.el9.s390x.rpm",
+			"name": "bluez",
 			"reboot_suggested": 0,
 			"release": "2.el9",
 			"src": "bluez-5.72-2.el9.src.rpm",
@@ -202,30 +202,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "bluez-libs-devel-5.72-2.el9.i686.rpm",
-			"name": "bluez-libs-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "bluez-5.72-2.el9.src.rpm",
-			"version": "5.72"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "2e092ba6b9d929bc5c915835700b0c34cfb3c7be99ff0474c21be527d5da3571",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bluez-libs-devel-5.72-2.el9.x86_64.rpm",
-			"name": "bluez-libs-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "bluez-5.72-2.el9.src.rpm",
-			"version": "5.72"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ccb0b4cb67f1a35c31f3a3fb206f477fc83801ad4417fb43ca7c835ab79c836c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bluez-libs-devel-5.72-2.el9.ppc64le.rpm",
 			"name": "bluez-libs-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -245,11 +221,35 @@
 			"version": "5.72"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "2e092ba6b9d929bc5c915835700b0c34cfb3c7be99ff0474c21be527d5da3571",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bluez-libs-devel-5.72-2.el9.x86_64.rpm",
+			"name": "bluez-libs-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "bluez-5.72-2.el9.src.rpm",
+			"version": "5.72"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "76ddbac006ca360de5c0aee9d3b32f358b2fe39c9e34c127f6639cb6bd6dc9d4",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "bluez-libs-devel-5.72-2.el9.s390x.rpm",
+			"name": "bluez-libs-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "bluez-5.72-2.el9.src.rpm",
+			"version": "5.72"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ccb0b4cb67f1a35c31f3a3fb206f477fc83801ad4417fb43ca7c835ab79c836c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bluez-libs-devel-5.72-2.el9.ppc64le.rpm",
 			"name": "bluez-libs-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9",

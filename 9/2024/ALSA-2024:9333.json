@@ -41,6 +41,30 @@
 			"version": "3.2.2"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "2b201baf5a6d06efb00bd1723d17ca4a97abe5ca123a1724cef1854b84c980e8",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-devel-3.2.2-6.el9_5.s390x.rpm",
+			"name": "openssl-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9_5",
+			"src": "openssl-3.2.2-6.el9_5.src.rpm",
+			"version": "3.2.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7efe1ba69e120bda1c7e2f69e9910d4414c567e0665fb5237d3dfa5ccd0ca395",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "openssl-perl-3.2.2-6.el9_5.s390x.rpm",
+			"name": "openssl-perl",
+			"reboot_suggested": 0,
+			"release": "6.el9_5",
+			"src": "openssl-3.2.2-6.el9_5.src.rpm",
+			"version": "3.2.2"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "172b60ca821b84cb6e47102fd4f4a411a4f50f2b54cb4c9aa75fae06e03d8792",
 			"checksum_type": "sha256",
@@ -149,30 +173,6 @@
 			"version": "3.2.2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "524aa087777bdb2a8f05ac0d97207e7473d2b2b29983cf5fcb1b5d1f7ba63699",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-libs-3.2.2-6.el9_5.s390x.rpm",
-			"name": "openssl-libs",
-			"reboot_suggested": 0,
-			"release": "6.el9_5",
-			"src": "openssl-3.2.2-6.el9_5.src.rpm",
-			"version": "3.2.2"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "aaf07944124036b162dee20b545999c756678f04e322e21d9f8d5179401ddce3",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "openssl-3.2.2-6.el9_5.s390x.rpm",
-			"name": "openssl",
-			"reboot_suggested": 0,
-			"release": "6.el9_5",
-			"src": "openssl-3.2.2-6.el9_5.src.rpm",
-			"version": "3.2.2"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "bd7518eedd834d8410ae76c26cbbd34278a53dd0412704719dfaf571d0d393df",
 			"checksum_type": "sha256",
@@ -198,11 +198,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "2b201baf5a6d06efb00bd1723d17ca4a97abe5ca123a1724cef1854b84c980e8",
+			"checksum": "524aa087777bdb2a8f05ac0d97207e7473d2b2b29983cf5fcb1b5d1f7ba63699",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "openssl-devel-3.2.2-6.el9_5.s390x.rpm",
-			"name": "openssl-devel",
+			"filename": "openssl-libs-3.2.2-6.el9_5.s390x.rpm",
+			"name": "openssl-libs",
 			"reboot_suggested": 0,
 			"release": "6.el9_5",
 			"src": "openssl-3.2.2-6.el9_5.src.rpm",
@@ -210,11 +210,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "7efe1ba69e120bda1c7e2f69e9910d4414c567e0665fb5237d3dfa5ccd0ca395",
+			"checksum": "aaf07944124036b162dee20b545999c756678f04e322e21d9f8d5179401ddce3",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "openssl-perl-3.2.2-6.el9_5.s390x.rpm",
-			"name": "openssl-perl",
+			"filename": "openssl-3.2.2-6.el9_5.s390x.rpm",
+			"name": "openssl",
 			"reboot_suggested": 0,
 			"release": "6.el9_5",
 			"src": "openssl-3.2.2-6.el9_5.src.rpm",
