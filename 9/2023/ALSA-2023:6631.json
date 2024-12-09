@@ -29,30 +29,6 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9cc65521cce92bc3e0531eb070b16b51914a0707c8246df8e190806eb3e5615e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-devel-2.68.4-11.el9.aarch64.rpm",
-			"name": "glib2-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "glib2-2.68.4-11.el9.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ca86b179a2432ea029867fc93ac946d6032e1bad9eb45d1fd61830673de793b3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-tests-2.68.4-11.el9.aarch64.rpm",
-			"name": "glib2-tests",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "glib2-2.68.4-11.el9.src.rpm",
-			"version": "2.68.4"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "4f15a2950b9af4a5917d8a74973832189edd1a058aa60f1ac32f4469263c5231",
 			"checksum_type": "sha256",
@@ -70,6 +46,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glib2-tests-2.68.4-11.el9.s390x.rpm",
+			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "glib2-2.68.4-11.el9.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9cc65521cce92bc3e0531eb070b16b51914a0707c8246df8e190806eb3e5615e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-devel-2.68.4-11.el9.aarch64.rpm",
+			"name": "glib2-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "glib2-2.68.4-11.el9.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ca86b179a2432ea029867fc93ac946d6032e1bad9eb45d1fd61830673de793b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-tests-2.68.4-11.el9.aarch64.rpm",
 			"name": "glib2-tests",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -149,6 +149,18 @@
 			"version": "2.68.4"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "051cba2987ae9fced4ffd49df952eed432be5a02307a9153b06e425e40525275",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-2.68.4-11.el9.s390x.rpm",
+			"name": "glib2",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "glib2-2.68.4-11.el9.src.rpm",
+			"version": "2.68.4"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "28541e7558d8cf3ad6261a215fcbdf34f2fb9c0d42a9f0f1d90ea8f484afe7d0",
 			"checksum_type": "sha256",
@@ -166,18 +178,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glib2-2.68.4-11.el9.aarch64.rpm",
-			"name": "glib2",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "glib2-2.68.4-11.el9.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "051cba2987ae9fced4ffd49df952eed432be5a02307a9153b06e425e40525275",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-2.68.4-11.el9.s390x.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -221,11 +221,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "ac92a0002e15da3d754c8bf4ab3adab228fcdbc3f97b049d335d7376c24509e5",
+			"arch": "ppc64le",
+			"checksum": "cfa65f429e2c59e6cb0ba63f7ea78f2006c50ec6cdeaf78ae6099b9e1f18018d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-11.el9.s390x.rpm",
+			"filename": "glib2-static-2.68.4-11.el9.ppc64le.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "11.el9",
@@ -233,11 +233,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "cfa65f429e2c59e6cb0ba63f7ea78f2006c50ec6cdeaf78ae6099b9e1f18018d",
+			"arch": "s390x",
+			"checksum": "ac92a0002e15da3d754c8bf4ab3adab228fcdbc3f97b049d335d7376c24509e5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-11.el9.ppc64le.rpm",
+			"filename": "glib2-static-2.68.4-11.el9.s390x.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "11.el9",

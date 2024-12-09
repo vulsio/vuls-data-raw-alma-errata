@@ -17,11 +17,11 @@
 			"version": "1.19.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "338180cd33f0634fa96b991086314c40b2d2e9920cfa43cf80043e6aa0b89f06",
+			"arch": "s390x",
+			"checksum": "24c4eda7837d40e039588634850eb4568d72cbb27c6c8aa851bcb4770d8cbe46",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-devel-1.19.1-1.el9.aarch64.rpm",
+			"filename": "c-ares-devel-1.19.1-1.el9.s390x.rpm",
 			"name": "c-ares-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -29,11 +29,11 @@
 			"version": "1.19.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "24c4eda7837d40e039588634850eb4568d72cbb27c6c8aa851bcb4770d8cbe46",
+			"arch": "aarch64",
+			"checksum": "338180cd33f0634fa96b991086314c40b2d2e9920cfa43cf80043e6aa0b89f06",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "c-ares-devel-1.19.1-1.el9.s390x.rpm",
+			"filename": "c-ares-devel-1.19.1-1.el9.aarch64.rpm",
 			"name": "c-ares-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -89,6 +89,18 @@
 			"version": "1.19.1"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "e52a1ea35bcdc99f41f6e51562cc674dd1fa4808c5c64f917b3ee14530e51dde",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "c-ares-1.19.1-1.el9.s390x.rpm",
+			"name": "c-ares",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "c-ares-1.19.1-1.el9.src.rpm",
+			"version": "1.19.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "4eadc7f06a887f0eee2c90e2c0b29462685c5ccf000966280725a58937d1cbf2",
 			"checksum_type": "sha256",
@@ -106,18 +118,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "c-ares-1.19.1-1.el9.aarch64.rpm",
-			"name": "c-ares",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "c-ares-1.19.1-1.el9.src.rpm",
-			"version": "1.19.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e52a1ea35bcdc99f41f6e51562cc674dd1fa4808c5c64f917b3ee14530e51dde",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "c-ares-1.19.1-1.el9.s390x.rpm",
 			"name": "c-ares",
 			"reboot_suggested": 0,
 			"release": "1.el9",

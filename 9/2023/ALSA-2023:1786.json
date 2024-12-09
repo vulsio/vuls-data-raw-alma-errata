@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "af50fc5f91d05af5abbcdbead763f755557fc30fd315c6486bc5b7f73d94da68",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-102.10.0-1.el9_1.alma.aarch64.rpm",
-			"name": "firefox",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.alma",
-			"src": "firefox-102.10.0-1.el9_1.alma.src.rpm",
-			"version": "102.10.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c80b783b250357de80fa7d710147f5e210bcd858487930ecb5814eba09c465dc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-x11-102.10.0-1.el9_1.alma.aarch64.rpm",
-			"name": "firefox-x11",
-			"reboot_suggested": 0,
-			"release": "1.el9_1.alma",
-			"src": "firefox-102.10.0-1.el9_1.alma.src.rpm",
-			"version": "102.10.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "0b9b27465612b2226c8690b1d573dc6f6cc1410a0dbc48dde290211deb8a7756",
 			"checksum_type": "sha256",
@@ -47,6 +23,30 @@
 			"epoch": "0",
 			"filename": "firefox-102.10.0-1.el9_1.alma.s390x.rpm",
 			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.10.0-1.el9_1.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "af50fc5f91d05af5abbcdbead763f755557fc30fd315c6486bc5b7f73d94da68",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-102.10.0-1.el9_1.alma.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_1.alma",
+			"src": "firefox-102.10.0-1.el9_1.alma.src.rpm",
+			"version": "102.10.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c80b783b250357de80fa7d710147f5e210bcd858487930ecb5814eba09c465dc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-x11-102.10.0-1.el9_1.alma.aarch64.rpm",
+			"name": "firefox-x11",
 			"reboot_suggested": 0,
 			"release": "1.el9_1.alma",
 			"src": "firefox-102.10.0-1.el9_1.alma.src.rpm",
@@ -196,5 +196,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1682003790
+	"updated_date": 1682003789
 }

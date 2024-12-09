@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "s390x",
+			"checksum": "c2c6c6ef1af2168390ee1d0d06658abde0cc98cd9ff53d40cde7f1d395521330",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-0.30.0-6.el9.s390x.rpm",
+			"name": "bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e3df4e35b29f03b09d73418ee7854c8824704564b205db19e4b607b120fd1390",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libbpf-tools-0.30.0-6.el9.s390x.rpm",
+			"name": "libbpf-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "ea87f60b957329202b9687a56a8eaa09ae0ad1c01b6aa1a6f8c42dcad0eb6d62",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-bcc-0.30.0-6.el9.noarch.rpm",
+			"name": "python3-bcc",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f5da41a634ff168abc84b5f5732e71a40414083738b72dd18a3290307491b334",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bcc-tools-0.30.0-6.el9.s390x.rpm",
+			"name": "bcc-tools",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "bcc-0.30.0-6.el9.src.rpm",
+			"version": "0.30.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "4f395de6ecee8489684139ccaff70803fd7db72016b991e2554d9f0f17f93369",
 			"checksum_type": "sha256",
@@ -34,54 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "bcc-tools-0.30.0-6.el9.aarch64.rpm",
-			"name": "bcc-tools",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "bcc-0.30.0-6.el9.src.rpm",
-			"version": "0.30.0"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "ea87f60b957329202b9687a56a8eaa09ae0ad1c01b6aa1a6f8c42dcad0eb6d62",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-bcc-0.30.0-6.el9.noarch.rpm",
-			"name": "python3-bcc",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "bcc-0.30.0-6.el9.src.rpm",
-			"version": "0.30.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "c2c6c6ef1af2168390ee1d0d06658abde0cc98cd9ff53d40cde7f1d395521330",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bcc-0.30.0-6.el9.s390x.rpm",
-			"name": "bcc",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "bcc-0.30.0-6.el9.src.rpm",
-			"version": "0.30.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e3df4e35b29f03b09d73418ee7854c8824704564b205db19e4b607b120fd1390",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libbpf-tools-0.30.0-6.el9.s390x.rpm",
-			"name": "libbpf-tools",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "bcc-0.30.0-6.el9.src.rpm",
-			"version": "0.30.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f5da41a634ff168abc84b5f5732e71a40414083738b72dd18a3290307491b334",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bcc-tools-0.30.0-6.el9.s390x.rpm",
 			"name": "bcc-tools",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -197,11 +197,11 @@
 			"version": "0.30.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "3958b07bc3d68a84cd7a6853ccd9de99a27799a4729312738344f67c282a73c8",
+			"arch": "ppc64le",
+			"checksum": "339ce28464ffcbd4374ad9b266ca34885b34bd67b20be6decded2c526f9c2740",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "bcc-devel-0.30.0-6.el9.s390x.rpm",
+			"filename": "bcc-devel-0.30.0-6.el9.ppc64le.rpm",
 			"name": "bcc-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -209,11 +209,11 @@
 			"version": "0.30.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "339ce28464ffcbd4374ad9b266ca34885b34bd67b20be6decded2c526f9c2740",
+			"arch": "s390x",
+			"checksum": "3958b07bc3d68a84cd7a6853ccd9de99a27799a4729312738344f67c282a73c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "bcc-devel-0.30.0-6.el9.ppc64le.rpm",
+			"filename": "bcc-devel-0.30.0-6.el9.s390x.rpm",
 			"name": "bcc-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -246,5 +246,5 @@
 	"severity": "low",
 	"title": "Low: bcc security update",
 	"type": "security",
-	"updated_date": 1731930690
+	"updated_date": 1731930689
 }

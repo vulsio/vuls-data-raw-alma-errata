@@ -17,11 +17,11 @@
 			"version": "2.9.13"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "8dd98a979c044fb305ba80f32939a8f32a1ca2e3a80a959b8b45be9b561cbfd6",
+			"arch": "s390x",
+			"checksum": "9269127b0ca52804269b8c8e46acfaf1d87c88470bc6de2a942bdf7c92b6d1a6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.13-3.el9_2.1.aarch64.rpm",
+			"filename": "libxml2-devel-2.9.13-3.el9_2.1.s390x.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_2.1",
@@ -29,11 +29,11 @@
 			"version": "2.9.13"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "9269127b0ca52804269b8c8e46acfaf1d87c88470bc6de2a942bdf7c92b6d1a6",
+			"arch": "aarch64",
+			"checksum": "8dd98a979c044fb305ba80f32939a8f32a1ca2e3a80a959b8b45be9b561cbfd6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libxml2-devel-2.9.13-3.el9_2.1.s390x.rpm",
+			"filename": "libxml2-devel-2.9.13-3.el9_2.1.aarch64.rpm",
 			"name": "libxml2-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_2.1",
@@ -101,6 +101,30 @@
 			"version": "2.9.13"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "59b4f604cdf83e7b1537bc3d97572768302e8b5d806f011b058d574f7377d9fd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libxml2-2.9.13-3.el9_2.1.s390x.rpm",
+			"name": "libxml2",
+			"reboot_suggested": 0,
+			"release": "3.el9_2.1",
+			"src": "libxml2-2.9.13-3.el9_2.1.src.rpm",
+			"version": "2.9.13"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c987687cf80607f4628b7f561ded885b1c50dfaf95fca71f86643d8aa1379388",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-libxml2-2.9.13-3.el9_2.1.s390x.rpm",
+			"name": "python3-libxml2",
+			"reboot_suggested": 0,
+			"release": "3.el9_2.1",
+			"src": "libxml2-2.9.13-3.el9_2.1.src.rpm",
+			"version": "2.9.13"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "46f3142c75fcb17f281f55ec3bc214ccb3a24680e812fe69fcd608aee16ad994",
 			"checksum_type": "sha256",
@@ -142,30 +166,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "python3-libxml2-2.9.13-3.el9_2.1.aarch64.rpm",
-			"name": "python3-libxml2",
-			"reboot_suggested": 0,
-			"release": "3.el9_2.1",
-			"src": "libxml2-2.9.13-3.el9_2.1.src.rpm",
-			"version": "2.9.13"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "59b4f604cdf83e7b1537bc3d97572768302e8b5d806f011b058d574f7377d9fd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libxml2-2.9.13-3.el9_2.1.s390x.rpm",
-			"name": "libxml2",
-			"reboot_suggested": 0,
-			"release": "3.el9_2.1",
-			"src": "libxml2-2.9.13-3.el9_2.1.src.rpm",
-			"version": "2.9.13"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "c987687cf80607f4628b7f561ded885b1c50dfaf95fca71f86643d8aa1379388",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libxml2-2.9.13-3.el9_2.1.s390x.rpm",
 			"name": "python3-libxml2",
 			"reboot_suggested": 0,
 			"release": "3.el9_2.1",

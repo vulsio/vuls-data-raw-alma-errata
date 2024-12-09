@@ -29,30 +29,6 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3e400b2b23d0060c8ceb5fd24451bbb35c941ffa2f256fcdafcbf06d79963454",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-tests-2.68.4-14.el9_4.1.aarch64.rpm",
-			"name": "glib2-tests",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "51eafde5a3122a3f530b6fa815866dc6dfeedb1d11dc7256be5bad719c8f300d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-devel-2.68.4-14.el9_4.1.aarch64.rpm",
-			"name": "glib2-devel",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "7a9a814e1720e3674dddb25e1d1e592798c6263bb2b4a7eb6a389b74380d8030",
 			"checksum_type": "sha256",
@@ -70,6 +46,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glib2-devel-2.68.4-14.el9_4.1.s390x.rpm",
+			"name": "glib2-devel",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3e400b2b23d0060c8ceb5fd24451bbb35c941ffa2f256fcdafcbf06d79963454",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-tests-2.68.4-14.el9_4.1.aarch64.rpm",
+			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "51eafde5a3122a3f530b6fa815866dc6dfeedb1d11dc7256be5bad719c8f300d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-devel-2.68.4-14.el9_4.1.aarch64.rpm",
 			"name": "glib2-devel",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -149,6 +149,18 @@
 			"version": "2.68.4"
 		},
 		{
+			"arch": "s390x",
+			"checksum": "629ad99d953076f4362b7d40197f133d31600df6c49b0af1c40296e91071bcf1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-2.68.4-14.el9_4.1.s390x.rpm",
+			"name": "glib2",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "bdc26fdf8a8e52ba07a7468ae53259ef0a91b6a6c7fd302f07c54e44754b22f4",
 			"checksum_type": "sha256",
@@ -166,18 +178,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "glib2-2.68.4-14.el9_4.1.aarch64.rpm",
-			"name": "glib2",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "629ad99d953076f4362b7d40197f133d31600df6c49b0af1c40296e91071bcf1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-2.68.4-14.el9_4.1.s390x.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -221,11 +221,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "206170d6dd9dcb4eb5f152da4c42a8a12a20c5ce9e7a6353f4645a2529bc3c24",
+			"arch": "ppc64le",
+			"checksum": "6591fb5629927f9c6000c9259488bbe5d02a9aff1ec067d3d91b2e59d2464d7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-14.el9_4.1.s390x.rpm",
+			"filename": "glib2-static-2.68.4-14.el9_4.1.ppc64le.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -233,11 +233,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "6591fb5629927f9c6000c9259488bbe5d02a9aff1ec067d3d91b2e59d2464d7c",
+			"arch": "s390x",
+			"checksum": "206170d6dd9dcb4eb5f152da4c42a8a12a20c5ce9e7a6353f4645a2529bc3c24",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-14.el9_4.1.ppc64le.rpm",
+			"filename": "glib2-static-2.68.4-14.el9_4.1.s390x.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
