@@ -173,18 +173,6 @@
 			"version": "8.0p1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "cb3cffc4b5e4e7be6fc9eb772153063148df76cebc5292b20357a15df4652701",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-24.el8.aarch64.rpm",
-			"name": "openssh-askpass",
-			"reboot_suggested": 0,
-			"release": "24.el8",
-			"src": "openssh-8.0p1-24.el8.src.rpm",
-			"version": "8.0p1"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "b55744a12675009f6b3af236df33f032ab0485dddc11541f838227007fd27d80",
 			"checksum_type": "sha256",
@@ -281,11 +269,11 @@
 			"version": "8.0p1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "729989e57d56de0a208bf247d8489d151a85dbe711f0ec983257eab5e6376099",
+			"arch": "aarch64",
+			"checksum": "cb3cffc4b5e4e7be6fc9eb772153063148df76cebc5292b20357a15df4652701",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-24.el8.ppc64le.rpm",
+			"filename": "openssh-askpass-8.0p1-24.el8.aarch64.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "24.el8",
@@ -293,11 +281,11 @@
 			"version": "8.0p1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "25bfbecfecad0ea7f1c1eb0d2a09bc85f482a2fb78ef8f1b4c071d43f32b7794",
+			"arch": "ppc64le",
+			"checksum": "729989e57d56de0a208bf247d8489d151a85dbe711f0ec983257eab5e6376099",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-24.el8.s390x.rpm",
+			"filename": "openssh-askpass-8.0p1-24.el8.ppc64le.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "24.el8",
@@ -383,6 +371,18 @@
 			"epoch": "0",
 			"filename": "openssh-server-8.0p1-24.el8.s390x.rpm",
 			"name": "openssh-server",
+			"reboot_suggested": 0,
+			"release": "24.el8",
+			"src": "openssh-8.0p1-24.el8.src.rpm",
+			"version": "8.0p1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "25bfbecfecad0ea7f1c1eb0d2a09bc85f482a2fb78ef8f1b4c071d43f32b7794",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-askpass-8.0p1-24.el8.s390x.rpm",
+			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "24.el8",
 			"src": "openssh-8.0p1-24.el8.src.rpm",

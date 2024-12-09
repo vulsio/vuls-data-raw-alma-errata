@@ -113,42 +113,6 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "887580cd5747fed2507629b7414ee329e847872eda47ed258f97bcd9bf9dbc61",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-session-helper-1.12.9-3.el8_10.aarch64.rpm",
-			"name": "flatpak-session-helper",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "be8790b48b80303df072c9a8f812a83d89f605c75b72f5f5e2eb2b63100fcbaa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-1.12.9-3.el8_10.aarch64.rpm",
-			"name": "flatpak",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c719ccc759cb072dd0b0b68eed13725d7525ede796f778972d75dc1edc8bcadc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-libs-1.12.9-3.el8_10.aarch64.rpm",
-			"name": "flatpak-libs",
-			"reboot_suggested": 0,
-			"release": "3.el8_10",
-			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
-			"version": "1.12.9"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "404290e4a27334da8f0555e9e97cbfab10873f10a2e117a3ab8eea62e71bc81e",
 			"checksum_type": "sha256",
@@ -195,6 +159,42 @@
 			"release": "2.el8_10",
 			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
 			"version": "0.4.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "887580cd5747fed2507629b7414ee329e847872eda47ed258f97bcd9bf9dbc61",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-session-helper-1.12.9-3.el8_10.aarch64.rpm",
+			"name": "flatpak-session-helper",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "be8790b48b80303df072c9a8f812a83d89f605c75b72f5f5e2eb2b63100fcbaa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-1.12.9-3.el8_10.aarch64.rpm",
+			"name": "flatpak",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c719ccc759cb072dd0b0b68eed13725d7525ede796f778972d75dc1edc8bcadc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-libs-1.12.9-3.el8_10.aarch64.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "3.el8_10",
+			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
+			"version": "1.12.9"
 		},
 		{
 			"arch": "ppc64le",
@@ -258,6 +258,18 @@
 		},
 		{
 			"arch": "s390x",
+			"checksum": "5fd8de9029aed6562b89bfc34671df137f27efd77240241ace5dd8fcc595bf13",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bubblewrap-0.4.0-2.el8_10.s390x.rpm",
+			"name": "bubblewrap",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
+			"version": "0.4.0"
+		},
+		{
+			"arch": "s390x",
 			"checksum": "5889ee1495c76235bc52165e5a67d18645c8ae1b8f127c22e31d565a3c97656e",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -291,18 +303,6 @@
 			"release": "3.el8_10",
 			"src": "flatpak-1.12.9-3.el8_10.src.rpm",
 			"version": "1.12.9"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "5fd8de9029aed6562b89bfc34671df137f27efd77240241ace5dd8fcc595bf13",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bubblewrap-0.4.0-2.el8_10.s390x.rpm",
-			"name": "bubblewrap",
-			"reboot_suggested": 0,
-			"release": "2.el8_10",
-			"src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
-			"version": "0.4.0"
 		}
 	],
 	"references": [
