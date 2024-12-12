@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "s390x",
-			"checksum": "271fa7bdb4b4c44dd65b584284ce1016899bf9f5dc85139b24bec807cc17f2b7",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "buildah-1.33.6-2.el9.s390x.rpm",
-			"name": "buildah",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "buildah-1.33.6-2.el9.src.rpm",
-			"version": "1.33.6"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "67bc5eff13f5c0ea02cef144f2cc195ed910ca15449c6fd516fc2a9656dc243c",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "buildah-tests-1.33.6-2.el9.s390x.rpm",
-			"name": "buildah-tests",
-			"reboot_suggested": 0,
-			"release": "2.el9",
-			"src": "buildah-1.33.6-2.el9.src.rpm",
-			"version": "1.33.6"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "292028669412eac79369299fd33fa27df013f79c0b31d5abbb8962803519c15a",
 			"checksum_type": "sha256",
@@ -46,6 +22,30 @@
 			"checksum_type": "sha256",
 			"epoch": "2",
 			"filename": "buildah-tests-1.33.6-2.el9.aarch64.rpm",
+			"name": "buildah-tests",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "buildah-1.33.6-2.el9.src.rpm",
+			"version": "1.33.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "00813c474a459fa9d94447525d38c9a488e5c75a382e78b9d0868bf5e7336043",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "buildah-1.33.6-2.el9.x86_64.rpm",
+			"name": "buildah",
+			"reboot_suggested": 0,
+			"release": "2.el9",
+			"src": "buildah-1.33.6-2.el9.src.rpm",
+			"version": "1.33.6"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "5e950517f37da5bf220cb7acafa9f9e6d792f9cb7894bde396849fba7a6980ff",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "buildah-tests-1.33.6-2.el9.x86_64.rpm",
 			"name": "buildah-tests",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -77,11 +77,11 @@
 			"version": "1.33.6"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "00813c474a459fa9d94447525d38c9a488e5c75a382e78b9d0868bf5e7336043",
+			"arch": "s390x",
+			"checksum": "271fa7bdb4b4c44dd65b584284ce1016899bf9f5dc85139b24bec807cc17f2b7",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "buildah-1.33.6-2.el9.x86_64.rpm",
+			"filename": "buildah-1.33.6-2.el9.s390x.rpm",
 			"name": "buildah",
 			"reboot_suggested": 0,
 			"release": "2.el9",
@@ -89,11 +89,11 @@
 			"version": "1.33.6"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "5e950517f37da5bf220cb7acafa9f9e6d792f9cb7894bde396849fba7a6980ff",
+			"arch": "s390x",
+			"checksum": "67bc5eff13f5c0ea02cef144f2cc195ed910ca15449c6fd516fc2a9656dc243c",
 			"checksum_type": "sha256",
 			"epoch": "2",
-			"filename": "buildah-tests-1.33.6-2.el9.x86_64.rpm",
+			"filename": "buildah-tests-1.33.6-2.el9.s390x.rpm",
 			"name": "buildah-tests",
 			"reboot_suggested": 0,
 			"release": "2.el9",

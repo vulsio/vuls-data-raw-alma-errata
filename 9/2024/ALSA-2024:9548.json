@@ -17,30 +17,6 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "4f4da2fa47652389e9892c13e823bc12585c59a80d6e0799c61556c7565cb71c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-3.1.1-2.el9_5.1.s390x.rpm",
-			"name": "openexr",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e24fc2620a8f8b0764866c46892aa25497670bd8ece522bbdeaf4910200cae3c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-libs-3.1.1-2.el9_5.1.s390x.rpm",
-			"name": "openexr-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "9f87a0225d3911fc121bc3a467f47684eed6afe29117c90b98b5c75ec549f80e",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "openexr-libs-3.1.1-2.el9_5.1.aarch64.rpm",
+			"name": "openexr-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d12d3960291df7971cccc64141d2c8570ec6e09641124fff0b23f9eda482971a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-3.1.1-2.el9_5.1.x86_64.rpm",
+			"name": "openexr",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d9767dfa81dafd6c786c4a1757786c85afa63be7942f080700a78f7fcb40023b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-libs-3.1.1-2.el9_5.1.x86_64.rpm",
 			"name": "openexr-libs",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -89,11 +89,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d12d3960291df7971cccc64141d2c8570ec6e09641124fff0b23f9eda482971a",
+			"arch": "s390x",
+			"checksum": "4f4da2fa47652389e9892c13e823bc12585c59a80d6e0799c61556c7565cb71c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openexr-3.1.1-2.el9_5.1.x86_64.rpm",
+			"filename": "openexr-3.1.1-2.el9_5.1.s390x.rpm",
 			"name": "openexr",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -101,11 +101,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d9767dfa81dafd6c786c4a1757786c85afa63be7942f080700a78f7fcb40023b",
+			"arch": "s390x",
+			"checksum": "e24fc2620a8f8b0764866c46892aa25497670bd8ece522bbdeaf4910200cae3c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openexr-libs-3.1.1-2.el9_5.1.x86_64.rpm",
+			"filename": "openexr-libs-3.1.1-2.el9_5.1.s390x.rpm",
 			"name": "openexr-libs",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -125,11 +125,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "6ef74b3c20ca62eecca57bd5c3502efc57a99458fba1b09ba1ae538e3a7c5d46",
+			"arch": "ppc64le",
+			"checksum": "ed05160e4fc216afe7a781f281a1cf32d60efdea2659daa6893b603a61e3e892",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_5.1.aarch64.rpm",
+			"filename": "openexr-devel-3.1.1-2.el9_5.1.ppc64le.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -149,11 +149,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ed05160e4fc216afe7a781f281a1cf32d60efdea2659daa6893b603a61e3e892",
+			"arch": "s390x",
+			"checksum": "9f48e1a33828904b4dea9b8b8a2788f77f4c6cc55864fcb287c7d8bc63b4f6e9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_5.1.ppc64le.rpm",
+			"filename": "openexr-devel-3.1.1-2.el9_5.1.s390x.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -161,11 +161,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "9f48e1a33828904b4dea9b8b8a2788f77f4c6cc55864fcb287c7d8bc63b4f6e9",
+			"arch": "aarch64",
+			"checksum": "6ef74b3c20ca62eecca57bd5c3502efc57a99458fba1b09ba1ae538e3a7c5d46",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_5.1.s390x.rpm",
+			"filename": "openexr-devel-3.1.1-2.el9_5.1.aarch64.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "s390x",
-			"checksum": "6fc7b10fd4a860e1e8ac105a92d101395aeae1fa79b3cc0a34b0abc8a6de841d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dnsmasq-2.85-14.el9_3.1.s390x.rpm",
-			"name": "dnsmasq",
-			"reboot_suggested": 0,
-			"release": "14.el9_3.1",
-			"src": "dnsmasq-2.85-14.el9_3.1.src.rpm",
-			"version": "2.85"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f7aa7988a6fe29d9ac9a5c2ee91e955ce3bee69dfc2853faa1eb5673b951dbf6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dnsmasq-utils-2.85-14.el9_3.1.s390x.rpm",
-			"name": "dnsmasq-utils",
-			"reboot_suggested": 0,
-			"release": "14.el9_3.1",
-			"src": "dnsmasq-2.85-14.el9_3.1.src.rpm",
-			"version": "2.85"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0862cf8fec3c91d15c1c47c687d0b2f5e037b6ea3aeb22a0ce2e66043e5bc3e9",
 			"checksum_type": "sha256",
@@ -46,6 +22,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "dnsmasq-utils-2.85-14.el9_3.1.aarch64.rpm",
+			"name": "dnsmasq-utils",
+			"reboot_suggested": 0,
+			"release": "14.el9_3.1",
+			"src": "dnsmasq-2.85-14.el9_3.1.src.rpm",
+			"version": "2.85"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "1be42e2272eb00162c9261745ef97fa20694529c17694643034b46463dcbf66f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-2.85-14.el9_3.1.x86_64.rpm",
+			"name": "dnsmasq",
+			"reboot_suggested": 0,
+			"release": "14.el9_3.1",
+			"src": "dnsmasq-2.85-14.el9_3.1.src.rpm",
+			"version": "2.85"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d3efd95eae85ed1dca1717ba87951449324c7f4ef2382c2cfbc007f863263314",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dnsmasq-utils-2.85-14.el9_3.1.x86_64.rpm",
 			"name": "dnsmasq-utils",
 			"reboot_suggested": 0,
 			"release": "14.el9_3.1",
@@ -77,11 +77,11 @@
 			"version": "2.85"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1be42e2272eb00162c9261745ef97fa20694529c17694643034b46463dcbf66f",
+			"arch": "s390x",
+			"checksum": "6fc7b10fd4a860e1e8ac105a92d101395aeae1fa79b3cc0a34b0abc8a6de841d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dnsmasq-2.85-14.el9_3.1.x86_64.rpm",
+			"filename": "dnsmasq-2.85-14.el9_3.1.s390x.rpm",
 			"name": "dnsmasq",
 			"reboot_suggested": 0,
 			"release": "14.el9_3.1",
@@ -89,11 +89,11 @@
 			"version": "2.85"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d3efd95eae85ed1dca1717ba87951449324c7f4ef2382c2cfbc007f863263314",
+			"arch": "s390x",
+			"checksum": "f7aa7988a6fe29d9ac9a5c2ee91e955ce3bee69dfc2853faa1eb5673b951dbf6",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dnsmasq-utils-2.85-14.el9_3.1.x86_64.rpm",
+			"filename": "dnsmasq-utils-2.85-14.el9_3.1.s390x.rpm",
 			"name": "dnsmasq-utils",
 			"reboot_suggested": 0,
 			"release": "14.el9_3.1",
