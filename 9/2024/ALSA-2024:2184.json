@@ -17,6 +17,30 @@
 			"version": "1.0.31"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
+			"name": "libsndfile",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
+			"name": "libsndfile-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "52f316bc02ed03df61aa6eefc4f607449e657edffc4ae1995990feae7a30c6ce",
 			"checksum_type": "sha256",
@@ -65,30 +89,6 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile-utils",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "6325dea8d923ff74244a4d96b2f40c7ccbf0d5de4fd47be11dd41e8a8eb1bbec",
 			"checksum_type": "sha256",
@@ -125,18 +125,6 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c1bd45d605e3e6fc5e248ce9a9bfbba74794fcab30afec37ce71033c45fc9663",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-devel-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "e06ca0a58f1cbed32ee1ce5c54e55ff32b8675f70bb232bfebaca434f277ff6a",
 			"checksum_type": "sha256",
@@ -149,11 +137,11 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "5988451f6673eb8024b012d1a511a402e79d061a6fe206f02b85bf3b0a187e17",
+			"arch": "ppc64le",
+			"checksum": "c1bd45d605e3e6fc5e248ce9a9bfbba74794fcab30afec37ce71033c45fc9663",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsndfile-devel-1.0.31-8.el9.s390x.rpm",
+			"filename": "libsndfile-devel-1.0.31-8.el9.ppc64le.rpm",
 			"name": "libsndfile-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -166,6 +154,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libsndfile-devel-1.0.31-8.el9.aarch64.rpm",
+			"name": "libsndfile-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "5988451f6673eb8024b012d1a511a402e79d061a6fe206f02b85bf3b0a187e17",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-devel-1.0.31-8.el9.s390x.rpm",
 			"name": "libsndfile-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",
