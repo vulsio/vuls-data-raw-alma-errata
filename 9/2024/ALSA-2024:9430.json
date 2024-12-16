@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "30234cc14099a08a96b115233e1826c119c98c46239b627fc9af312bd895c335",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nano-5.6.1-6.el9.x86_64.rpm",
-			"name": "nano",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "nano-5.6.1-6.el9.src.rpm",
-			"version": "5.6.1"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "9e0530630eb1ecbbc70d462ec0df30d4744e349ce43b2510c148b8a15fd3379a",
 			"checksum_type": "sha256",
@@ -51,6 +39,18 @@
 			"release": "6.el9",
 			"src": "nano-5.6.1-6.el9.src.rpm",
 			"version": "5.6.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "30234cc14099a08a96b115233e1826c119c98c46239b627fc9af312bd895c335",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nano-5.6.1-6.el9.x86_64.rpm",
+			"name": "nano",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "nano-5.6.1-6.el9.src.rpm",
+			"version": "5.6.1"
 		}
 	],
 	"references": [
@@ -75,7 +75,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "low",
+	"severity": "Low",
 	"title": "Low: nano security update",
 	"type": "security",
 	"updated_date": 1731930421

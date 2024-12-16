@@ -29,18 +29,6 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "5daf39d16c5f8458ff5848fdff93afa458fcf7238848a65fa3a206da4b440ee2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-devel-2.5.0-3.el9_5.1.aarch64.rpm",
-			"name": "expat-devel",
-			"reboot_suggested": 0,
-			"release": "3.el9_5.1",
-			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
-			"version": "2.5.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "1c7e262215cce657436a9b3ba47d088202cf2790bdbcd7e631caed6fdefe3eff",
 			"checksum_type": "sha256",
@@ -53,12 +41,24 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "481ec409834355039546de36ec40ac3858c808f333428a4d1d6ffc02891f8eca",
+			"arch": "aarch64",
+			"checksum": "5daf39d16c5f8458ff5848fdff93afa458fcf7238848a65fa3a206da4b440ee2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-2.5.0-3.el9_5.1.x86_64.rpm",
-			"name": "expat",
+			"filename": "expat-devel-2.5.0-3.el9_5.1.aarch64.rpm",
+			"name": "expat-devel",
+			"reboot_suggested": 0,
+			"release": "3.el9_5.1",
+			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
+			"version": "2.5.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "7ca308228a8d85f9447f3897cca6b0f3b60b060cc27745e0d5390798e229d059",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-devel-2.5.0-3.el9_5.1.s390x.rpm",
+			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
 			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
@@ -113,12 +113,12 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "7ca308228a8d85f9447f3897cca6b0f3b60b060cc27745e0d5390798e229d059",
+			"arch": "x86_64",
+			"checksum": "481ec409834355039546de36ec40ac3858c808f333428a4d1d6ffc02891f8eca",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-3.el9_5.1.s390x.rpm",
-			"name": "expat-devel",
+			"filename": "expat-2.5.0-3.el9_5.1.x86_64.rpm",
+			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
 			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
@@ -147,7 +147,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "moderate",
+	"severity": "Moderate",
 	"title": "Moderate: expat security update",
 	"type": "security",
 	"updated_date": 1731930425

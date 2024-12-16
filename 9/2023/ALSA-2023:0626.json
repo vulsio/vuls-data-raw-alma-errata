@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "95b84e9a29325368df9ac97533c9fad91120c7dbc5c7274858e4f894aa7846af",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libksba-1.5.1-6.el9_1.x86_64.rpm",
-			"name": "libksba",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libksba-1.5.1-6.el9_1.src.rpm",
-			"version": "1.5.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "bab03b2be16b504f1aadf2af62dacbe0f66a8120baf70c4354f2fdb431173e85",
 			"checksum_type": "sha256",
@@ -65,35 +53,23 @@
 			"version": "1.5.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "95b84e9a29325368df9ac97533c9fad91120c7dbc5c7274858e4f894aa7846af",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libksba-1.5.1-6.el9_1.x86_64.rpm",
+			"name": "libksba",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libksba-1.5.1-6.el9_1.src.rpm",
+			"version": "1.5.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "8b44913ee8b77dec9b76047e6ac6f99a3e716a259ff6963dbeedef79b9e8e3c8",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libksba-devel-1.5.1-6.el9_1.i686.rpm",
-			"name": "libksba-devel",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libksba-1.5.1-6.el9_1.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e5ddf9853ddfbd214379b528a8c1a2c99c8215bb98a8628fc6707c614b850315",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-6.el9_1.x86_64.rpm",
-			"name": "libksba-devel",
-			"reboot_suggested": 0,
-			"release": "6.el9_1",
-			"src": "libksba-1.5.1-6.el9_1.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6185dc4e309e7df024c6f83e9d8f333b6f56eb58804d4758b0316fc347694faa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libksba-devel-1.5.1-6.el9_1.ppc64le.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -118,6 +94,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libksba-devel-1.5.1-6.el9_1.s390x.rpm",
+			"name": "libksba-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libksba-1.5.1-6.el9_1.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e5ddf9853ddfbd214379b528a8c1a2c99c8215bb98a8628fc6707c614b850315",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libksba-devel-1.5.1-6.el9_1.x86_64.rpm",
+			"name": "libksba-devel",
+			"reboot_suggested": 0,
+			"release": "6.el9_1",
+			"src": "libksba-1.5.1-6.el9_1.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6185dc4e309e7df024c6f83e9d8f333b6f56eb58804d4758b0316fc347694faa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libksba-devel-1.5.1-6.el9_1.ppc64le.rpm",
 			"name": "libksba-devel",
 			"reboot_suggested": 0,
 			"release": "6.el9_1",
@@ -150,5 +150,5 @@
 	"severity": "Important",
 	"title": "Important: libksba security update",
 	"type": "security",
-	"updated_date": 1678189811
+	"updated_date": 1675958401
 }

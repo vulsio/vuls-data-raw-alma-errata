@@ -29,30 +29,6 @@
 			"version": "10.2.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "61ece8f6d894c57eb104d0610bce6470c24b0562f0de97e99d82fea6f8ce88eb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-10.2.6-4.el9.aarch64.rpm",
-			"name": "grafana",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "grafana-10.2.6-4.el9.src.rpm",
-			"version": "10.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "fe23154a334abc9e76664ca6c83e20a4291d5034fe779421e6d112afe8d27869",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "grafana-selinux-10.2.6-4.el9.aarch64.rpm",
-			"name": "grafana-selinux",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "grafana-10.2.6-4.el9.src.rpm",
-			"version": "10.2.6"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "65889743a5986c96b25009ab78f4fbc96a5a92f82e183c50087b3338a12e6391",
 			"checksum_type": "sha256",
@@ -71,6 +47,30 @@
 			"epoch": "0",
 			"filename": "grafana-10.2.6-4.el9.x86_64.rpm",
 			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "grafana-10.2.6-4.el9.src.rpm",
+			"version": "10.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "61ece8f6d894c57eb104d0610bce6470c24b0562f0de97e99d82fea6f8ce88eb",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-10.2.6-4.el9.aarch64.rpm",
+			"name": "grafana",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "grafana-10.2.6-4.el9.src.rpm",
+			"version": "10.2.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "fe23154a334abc9e76664ca6c83e20a4291d5034fe779421e6d112afe8d27869",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "grafana-selinux-10.2.6-4.el9.aarch64.rpm",
+			"name": "grafana-selinux",
 			"reboot_suggested": 0,
 			"release": "4.el9",
 			"src": "grafana-10.2.6-4.el9.src.rpm",
@@ -163,7 +163,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "moderate",
+	"severity": "Moderate",
 	"title": "Moderate: grafana security update",
 	"type": "security",
 	"updated_date": 1731997846

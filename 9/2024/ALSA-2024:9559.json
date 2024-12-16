@@ -53,30 +53,6 @@
 			"version": "2.72.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "7ad865dea46b0266d1d5e58e88bcec0dac17015bae5606a06485d2a842055806",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsoup-2.72.0-8.el9_5.2.aarch64.rpm",
-			"name": "libsoup",
-			"reboot_suggested": 0,
-			"release": "8.el9_5.2",
-			"src": "libsoup-2.72.0-8.el9_5.2.src.rpm",
-			"version": "2.72.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "df4b41a4e34a124a05712df43095d636784cc8ba3249e7ea3953a293869a26fe",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsoup-devel-2.72.0-8.el9_5.2.aarch64.rpm",
-			"name": "libsoup-devel",
-			"reboot_suggested": 0,
-			"release": "8.el9_5.2",
-			"src": "libsoup-2.72.0-8.el9_5.2.src.rpm",
-			"version": "2.72.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "58d1e93507cad73bb15742e2993f3a6b3ea75cab9958db72f83fa596859cdb53",
 			"checksum_type": "sha256",
@@ -94,6 +70,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libsoup-devel-2.72.0-8.el9_5.2.x86_64.rpm",
+			"name": "libsoup-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.2",
+			"src": "libsoup-2.72.0-8.el9_5.2.src.rpm",
+			"version": "2.72.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7ad865dea46b0266d1d5e58e88bcec0dac17015bae5606a06485d2a842055806",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsoup-2.72.0-8.el9_5.2.aarch64.rpm",
+			"name": "libsoup",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.2",
+			"src": "libsoup-2.72.0-8.el9_5.2.src.rpm",
+			"version": "2.72.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "df4b41a4e34a124a05712df43095d636784cc8ba3249e7ea3953a293869a26fe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsoup-devel-2.72.0-8.el9_5.2.aarch64.rpm",
 			"name": "libsoup-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9_5.2",
@@ -157,7 +157,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "important",
+	"severity": "Important",
 	"title": "Important: libsoup security update",
 	"type": "security",
 	"updated_date": 1731930457

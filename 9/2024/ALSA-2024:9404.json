@@ -29,18 +29,6 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "298ff58b40af2aad85dc43b31bcc8a55f1a80cb96525f46624955a32be284bee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libgcrypt-devel-1.10.0-11.el9.aarch64.rpm",
-			"name": "libgcrypt-devel",
-			"reboot_suggested": 0,
-			"release": "11.el9",
-			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
-			"version": "1.10.0"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "fca0c1850968c4083fd37998542547842343b5ab4ce4d8bf24f6d8c37d0c4b56",
 			"checksum_type": "sha256",
@@ -53,12 +41,24 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "576b721f09644adc8fe7058dd7defadcd6a7f340fe05a17ddc966f39d3f32045",
+			"arch": "aarch64",
+			"checksum": "298ff58b40af2aad85dc43b31bcc8a55f1a80cb96525f46624955a32be284bee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgcrypt-1.10.0-11.el9.x86_64.rpm",
-			"name": "libgcrypt",
+			"filename": "libgcrypt-devel-1.10.0-11.el9.aarch64.rpm",
+			"name": "libgcrypt-devel",
+			"reboot_suggested": 0,
+			"release": "11.el9",
+			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
+			"version": "1.10.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6e1c64aeb6090508c98515b6909c68438043dc169652bf9379f8dc477238026c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libgcrypt-devel-1.10.0-11.el9.s390x.rpm",
+			"name": "libgcrypt-devel",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
@@ -113,12 +113,12 @@
 			"version": "1.10.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "6e1c64aeb6090508c98515b6909c68438043dc169652bf9379f8dc477238026c",
+			"arch": "x86_64",
+			"checksum": "576b721f09644adc8fe7058dd7defadcd6a7f340fe05a17ddc966f39d3f32045",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libgcrypt-devel-1.10.0-11.el9.s390x.rpm",
-			"name": "libgcrypt-devel",
+			"filename": "libgcrypt-1.10.0-11.el9.x86_64.rpm",
+			"name": "libgcrypt",
 			"reboot_suggested": 0,
 			"release": "11.el9",
 			"src": "libgcrypt-1.10.0-11.el9.src.rpm",
@@ -147,7 +147,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "moderate",
+	"severity": "Moderate",
 	"title": "Moderate: libgcrypt security update",
 	"type": "security",
 	"updated_date": 1731930419
