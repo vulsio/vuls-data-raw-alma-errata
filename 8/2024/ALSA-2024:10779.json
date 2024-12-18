@@ -18,11 +18,11 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "1e5a29e15495921f5a358474c23135a74e33486931ac9b12bde95a471160e2b5",
+			"checksum": "3bba27c4f1ff6e2e551cd05046b54a203743b738e5ad1ab0bcebd3810f640cf4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "platform-python-debug-3.6.8-69.el8_10.alma.1.i686.rpm",
-			"name": "platform-python-debug",
+			"filename": "platform-python-3.6.8-69.el8_10.alma.1.i686.rpm",
+			"name": "platform-python",
 			"reboot_suggested": 0,
 			"release": "69.el8_10.alma.1",
 			"src": "python3-3.6.8-69.el8_10.alma.1.src.rpm",
@@ -30,11 +30,23 @@
 		},
 		{
 			"arch": "i686",
-			"checksum": "3bba27c4f1ff6e2e551cd05046b54a203743b738e5ad1ab0bcebd3810f640cf4",
+			"checksum": "e48434cbb6d254879412b3fd15bd6a7218a9d634e2de578f74b315583bc4056f",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "platform-python-3.6.8-69.el8_10.alma.1.i686.rpm",
-			"name": "platform-python",
+			"filename": "python3-libs-3.6.8-69.el8_10.alma.1.i686.rpm",
+			"name": "python3-libs",
+			"reboot_suggested": 0,
+			"release": "69.el8_10.alma.1",
+			"src": "python3-3.6.8-69.el8_10.alma.1.src.rpm",
+			"version": "3.6.8"
+		},
+		{
+			"arch": "i686",
+			"checksum": "1e5a29e15495921f5a358474c23135a74e33486931ac9b12bde95a471160e2b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "platform-python-debug-3.6.8-69.el8_10.alma.1.i686.rpm",
+			"name": "platform-python-debug",
 			"reboot_suggested": 0,
 			"release": "69.el8_10.alma.1",
 			"src": "python3-3.6.8-69.el8_10.alma.1.src.rpm",
@@ -71,18 +83,6 @@
 			"epoch": "0",
 			"filename": "python3-idle-3.6.8-69.el8_10.alma.1.i686.rpm",
 			"name": "python3-idle",
-			"reboot_suggested": 0,
-			"release": "69.el8_10.alma.1",
-			"src": "python3-3.6.8-69.el8_10.alma.1.src.rpm",
-			"version": "3.6.8"
-		},
-		{
-			"arch": "i686",
-			"checksum": "e48434cbb6d254879412b3fd15bd6a7218a9d634e2de578f74b315583bc4056f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-libs-3.6.8-69.el8_10.alma.1.i686.rpm",
-			"name": "python3-libs",
 			"reboot_suggested": 0,
 			"release": "69.el8_10.alma.1",
 			"src": "python3-3.6.8-69.el8_10.alma.1.src.rpm",
@@ -457,8 +457,8 @@
 			"type": "self"
 		}
 	],
-	"severity": "moderate",
+	"severity": "Moderate",
 	"title": "Moderate: python3:3.6.8 security update",
 	"type": "security",
-	"updated_date": 1733409684
+	"updated_date": 1733409683
 }

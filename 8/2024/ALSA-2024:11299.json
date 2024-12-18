@@ -1,0 +1,194 @@
+{
+	"description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.  \n\nSecurity Fix(es):  \n\n  * gstreamer1-plugins-good: uninitialized stack memory in Matroska/WebM demuxer (CVE-2024-47540)\n  * gstreamer1-plugins-good: OOB-write in isomp4/qtdemux.c (CVE-2024-47537)\n  * gstreamer1-plugins-good: OOB-write in convert_to_s334_1a (CVE-2024-47539)\n  * gstreamer1-plugins-good: null pointer dereference in gst_gdk_pixbuf_dec_flush (CVE-2024-47613)\n  * gstreamer1-plugins-good: integer overflows in MP4/MOV demuxer and memory allocator that can lead to out-of-bounds writes (CVE-2024-47606)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:11299",
+	"issued_date": 1734393600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "16756da3a954b64024afaebaa8c00e1095ef8894de107574cb960182132905e7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-1.16.1-5.el8_10.i686.rpm",
+			"name": "gstreamer1-plugins-good",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "f18477d7844182643abc35a1bf07eabdc8ce4c3f925203b07c452d94daa678f4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-gtk-1.16.1-5.el8_10.i686.rpm",
+			"name": "gstreamer1-plugins-good-gtk",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "afc0a989ed60430ad48d8a2f1207044d8b46bd107cbbd1c0e9d0884b494cc575",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-gtk-1.16.1-5.el8_10.x86_64.rpm",
+			"name": "gstreamer1-plugins-good-gtk",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "de25bedbcb28888cca14ac20c4a287fbc9c0bc827bc15eccc5c0f61a9945625f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-1.16.1-5.el8_10.x86_64.rpm",
+			"name": "gstreamer1-plugins-good",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b577c3271d83f242dac5895cad1c59ae7b4fe730a102bfaaefba9cef771aae1a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-1.16.1-5.el8_10.aarch64.rpm",
+			"name": "gstreamer1-plugins-good",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b67ab3a224d57781a8c6b54de839f670fc1520bc22ab679fbd902ed3a84ca7d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-gtk-1.16.1-5.el8_10.aarch64.rpm",
+			"name": "gstreamer1-plugins-good-gtk",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "61a10e34f7c9a4c135fc6a57f5ad051042436aef99997f0befc12a5d25b936a1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-gtk-1.16.1-5.el8_10.ppc64le.rpm",
+			"name": "gstreamer1-plugins-good-gtk",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c17220890b07eaaf4c0badf40b8b2ba7f0f7cd60ca08dc8ccc171ebc9bd3b344",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-1.16.1-5.el8_10.ppc64le.rpm",
+			"name": "gstreamer1-plugins-good",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e753486556b0d28dfd02412d2d666655328b1fff73e93c6fb2c8df6bfce54e57",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-gtk-1.16.1-5.el8_10.s390x.rpm",
+			"name": "gstreamer1-plugins-good-gtk",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f7c85a077343bae7dddf598c68c3c5959478920ca6bee45d779a5b8f1077d09d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-good-1.16.1-5.el8_10.s390x.rpm",
+			"name": "gstreamer1-plugins-good",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-good-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:11299",
+			"id": "RHSA-2024:11299",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47537",
+			"id": "CVE-2024-47537",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47539",
+			"id": "CVE-2024-47539",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47540",
+			"id": "CVE-2024-47540",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47606",
+			"id": "CVE-2024-47606",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47613",
+			"id": "CVE-2024-47613",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331719",
+			"id": "2331719",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331722",
+			"id": "2331722",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331726",
+			"id": "2331726",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331753",
+			"id": "2331753",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331760",
+			"id": "2331760",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-11299.html",
+			"id": "ALSA-2024:11299",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: gstreamer1-plugins-good security update",
+	"type": "security",
+	"updated_date": 1734525666
+}

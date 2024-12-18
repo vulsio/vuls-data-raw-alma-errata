@@ -102,18 +102,6 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "a35fbdca1611f193492125296206d1c3509e20da424573093ac3452f8381f96a",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libtiff-tools-4.0.9-33.el8_10.ppc64le.rpm",
-			"name": "libtiff-tools",
-			"reboot_suggested": 0,
-			"release": "33.el8_10",
-			"src": "libtiff-4.0.9-33.el8_10.src.rpm",
-			"version": "4.0.9"
-		},
-		{
-			"arch": "ppc64le",
 			"checksum": "ae219748beac1801a64e667886078b00fe76ff35f06a8342f29cd42a9bb5d18c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -131,6 +119,18 @@
 			"epoch": "0",
 			"filename": "libtiff-devel-4.0.9-33.el8_10.ppc64le.rpm",
 			"name": "libtiff-devel",
+			"reboot_suggested": 0,
+			"release": "33.el8_10",
+			"src": "libtiff-4.0.9-33.el8_10.src.rpm",
+			"version": "4.0.9"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a35fbdca1611f193492125296206d1c3509e20da424573093ac3452f8381f96a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libtiff-tools-4.0.9-33.el8_10.ppc64le.rpm",
+			"name": "libtiff-tools",
 			"reboot_suggested": 0,
 			"release": "33.el8_10",
 			"src": "libtiff-4.0.9-33.el8_10.src.rpm",
@@ -195,7 +195,7 @@
 			"type": "self"
 		}
 	],
-	"severity": "moderate",
+	"severity": "Moderate",
 	"title": "Moderate: libtiff security update",
 	"type": "security",
 	"updated_date": 1730887999

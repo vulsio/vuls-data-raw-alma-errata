@@ -1,0 +1,58 @@
+{
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM.   \n\nSecurity Fix(es):  \n\n  * edk2: Integer overflows in PeCoffLoaderRelocateImage (CVE-2024-38796)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:11185",
+	"issued_date": 1734393600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "38eb3defd536970e26431434416f8c6dda2bf4ae2d637f22d3ae0a4e37697ef9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-aarch64-20220126gitbb1bba3d77-13.el8_10.4.noarch.rpm",
+			"name": "edk2-aarch64",
+			"reboot_suggested": 0,
+			"release": "13.el8_10.4",
+			"src": "edk2-20220126gitbb1bba3d77-13.el8_10.4.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "6d6a564763398e87f872239277aaa76ddca4d2e0cea7be212ce5848809a000a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "edk2-ovmf-20220126gitbb1bba3d77-13.el8_10.4.noarch.rpm",
+			"name": "edk2-ovmf",
+			"reboot_suggested": 0,
+			"release": "13.el8_10.4",
+			"src": "edk2-20220126gitbb1bba3d77-13.el8_10.4.src.rpm",
+			"version": "20220126gitbb1bba3d77"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:11185",
+			"id": "RHSA-2024:11185",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-38796",
+			"id": "CVE-2024-38796",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2315390",
+			"id": "2315390",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-11185.html",
+			"id": "ALSA-2024:11185",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: edk2:20220126gitbb1bba3d77 security update",
+	"type": "security",
+	"updated_date": 1734526168
+}

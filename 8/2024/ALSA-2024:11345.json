@@ -1,0 +1,174 @@
+{
+	"description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-base packages contain a collection of well-maintained base plug-ins.  \n\nSecurity Fix(es):  \n\n  * gstreamer1-plugins-base: GStreamer has a stack-buffer overflow in vorbis_handle_identification_packet (CVE-2024-47538)\n  * gstreamer1-plugins-base: out-of-bounds write in Ogg demuxer (CVE-2024-47615)\n  * gstreamer1-plugins-base: stack-buffer overflow in gst_opus_dec_parse_header (CVE-2024-47607)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:11345",
+	"issued_date": 1734480000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "1313b2a7a901b84a85056b1c88b07b1d3826b826c1710a3588d6c1b4b085d9c5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-devel-1.16.1-5.el8_10.i686.rpm",
+			"name": "gstreamer1-plugins-base-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "i686",
+			"checksum": "4b6817b6272c7e5716117e4cf125a68265fc8198045054da0ffbcce2d7b35086",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-1.16.1-5.el8_10.i686.rpm",
+			"name": "gstreamer1-plugins-base",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "841c90b670b1510ec57ed04bb7a2d2d523001435287e3f84fcb071992a399ab0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-devel-1.16.1-5.el8_10.x86_64.rpm",
+			"name": "gstreamer1-plugins-base-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e1c7b307454789bec1606517d7546097f47b3a36c0a089f728861d17cde92840",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-1.16.1-5.el8_10.x86_64.rpm",
+			"name": "gstreamer1-plugins-base",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "113ab0a082eebbe7629b780db9c09ea3d8987b5f446d57b3c771e4a865257eab",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-1.16.1-5.el8_10.aarch64.rpm",
+			"name": "gstreamer1-plugins-base",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7f1e68d423a10704772fbf449d2f21a37edb7d9d349911b43060d62113c126df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-devel-1.16.1-5.el8_10.aarch64.rpm",
+			"name": "gstreamer1-plugins-base-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3f3c65b3df05a6f364e2dd8975e0f1e17323d2ff35bd8ca673355864afc73dc9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-1.16.1-5.el8_10.ppc64le.rpm",
+			"name": "gstreamer1-plugins-base",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e70315ffd8e7bc1bebe1493f2d4729b77f453cda29a9241144a48cbb1bef3cc2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-devel-1.16.1-5.el8_10.ppc64le.rpm",
+			"name": "gstreamer1-plugins-base-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "1524a55031ffa32c9d6354f752734c56474dc6f3ccc75f719544719cf59e64c9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-1.16.1-5.el8_10.s390x.rpm",
+			"name": "gstreamer1-plugins-base",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "731019316622a547520a1f5d9969a34617d04916465f53291343cdeb81c85f8e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gstreamer1-plugins-base-devel-1.16.1-5.el8_10.s390x.rpm",
+			"name": "gstreamer1-plugins-base-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "gstreamer1-plugins-base-1.16.1-5.el8_10.src.rpm",
+			"version": "1.16.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:11345",
+			"id": "RHSA-2024:11345",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47538",
+			"id": "CVE-2024-47538",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47607",
+			"id": "CVE-2024-47607",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-47615",
+			"id": "CVE-2024-47615",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331727",
+			"id": "2331727",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331740",
+			"id": "2331740",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2331754",
+			"id": "2331754",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-11345.html",
+			"id": "ALSA-2024:11345",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: gstreamer1-plugins-base security update",
+	"type": "security",
+	"updated_date": 1734525550
+}

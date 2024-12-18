@@ -1,0 +1,234 @@
+{
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: selinux,smack: don't bypass permissions check in inode_setsecctx hook (CVE-2024-46695)\n  * kernel: net: avoid potential underflow in qdisc_pkt_len_init() with UFO (CVE-2024-49949)\n  * kernel: blk-rq-qos: fix crash on rq_qos_wait vs. rq_qos_wake_function race (CVE-2024-50082)\n  * kernel: arm64: probes: Remove broken LDR (literal) uprobe support (CVE-2024-50099)\n  * kernel: xfrm: fix one more kernel-infoleak in algo dumping (CVE-2024-50110)\n  * kernel: xfrm: validate new SA&#39;s prefixlen using SA family when sel.family is unset (CVE-2024-50142)\n  * kernel: irqchip/gic-v4: Don't allow a VMOVP on a dying VPE (CVE-2024-50192)\n  * kernel: netfilter: nf_reject_ipv6: fix potential crash in nf_send_reset6() (CVE-2024-50256)\n  * kernel: vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans (CVE-2024-50264)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:10944",
+	"issued_date": 1733875200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "4a0b55b2714c16ad44743359bd6b9b3bb75887edf53593e07b985daed4704b6a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-core-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-core",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "55edca775e37f37db39e95c37ff64d1f6d9a08e8275d3d62108ca700c8cee780",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "7954fc6f4b690e62109916172c734a1b00056943a99723c55e1213f4a6abddc9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-modules-extra-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-modules-extra",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8b5cca2e22193d96e5fab88d6002b9d4237932933a2d7c119f0d46641a03d0ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-devel-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-devel",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "a1a75499b47ff857f7ac19072f114acf8ee8f3eda8994a31e84de387b26620b5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-modules-extra-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "add945679c8df41ef593e76d43f1de527942160ae53733bd06c98906da5acd29",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-modules-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-modules",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c2e342042f849e57ff0318c9371e74c7e37e1290c931e601a719b3998382ee6d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-devel-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-devel",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ca1187f911d3b1a24431ce680071f83d261c4999ae47beb20439803b4e6cdc42",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-modules-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-modules",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d1e8a990c7164a5cb20da9f34b7bd0cca3e721f9ad0265231a21ad1d11dc4ded",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-core-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-core",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f5a26d814f9aef1d8b1393d6931454ac3c21be6edf18002fad926b3d30622608",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.x86_64.rpm",
+			"name": "kernel-rt",
+			"reboot_suggested": 0,
+			"release": "553.32.1.rt7.373.el8_10",
+			"src": "kernel-rt-4.18.0-553.32.1.rt7.373.el8_10.src.rpm",
+			"version": "4.18.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:10944",
+			"id": "RHSA-2024:10944",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-46695",
+			"id": "CVE-2024-46695",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-49949",
+			"id": "CVE-2024-49949",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50082",
+			"id": "CVE-2024-50082",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50099",
+			"id": "CVE-2024-50099",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50110",
+			"id": "CVE-2024-50110",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50142",
+			"id": "CVE-2024-50142",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50192",
+			"id": "CVE-2024-50192",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50256",
+			"id": "CVE-2024-50256",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-50264",
+			"id": "CVE-2024-50264",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2312083",
+			"id": "2312083",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2320505",
+			"id": "2320505",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2322308",
+			"id": "2322308",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2323904",
+			"id": "2323904",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2323930",
+			"id": "2323930",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2324315",
+			"id": "2324315",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2324612",
+			"id": "2324612",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2324889",
+			"id": "2324889",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2327168",
+			"id": "2327168",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-10944.html",
+			"id": "ALSA-2024:10944",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: kernel-rt security update",
+	"type": "security",
+	"updated_date": 1734361232
+}

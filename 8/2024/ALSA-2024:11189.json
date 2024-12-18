@@ -1,0 +1,46 @@
+{
+	"description": "The python-urllib3 package provides the Python HTTP module with connection pooling and file POST abilities.  \n\nSecurity Fix(es):  \n\n  * urllib3: Request body not stripped after redirect from 303 status changes request method to GET (CVE-2023-45803)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:11189",
+	"issued_date": 1734393600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "b85f650ed05643adcad6b136c07c07b6e7d94c6a54bb218e1f851db38f526af8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.11-urllib3-1.26.12-5.el8_10.noarch.rpm",
+			"name": "python3.11-urllib3",
+			"reboot_suggested": 0,
+			"release": "5.el8_10",
+			"src": "python3.11-urllib3-1.26.12-5.el8_10.src.rpm",
+			"version": "1.26.12"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:11189",
+			"id": "RHSA-2024:11189",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45803",
+			"id": "CVE-2023-45803",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2246840",
+			"id": "2246840",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2024-11189.html",
+			"id": "ALSA-2024:11189",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: python3.11-urllib3 security update",
+	"type": "security",
+	"updated_date": 1734526075
+}
