@@ -35,19 +35,6 @@
 	"packages": [
 		{
 			"arch": "x86_64",
-			"checksum": "e621458cd621eb4c60bf22745f688aa1016072241506d301ed4fc5dba4dfd764",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
-			"module": "mysql:8.0:8060020221025181128:9edba152:x86_64",
-			"name": "mecab-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.6.0+3340+d764b636",
-			"src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
-			"version": "0.996"
-		},
-		{
-			"arch": "x86_64",
 			"checksum": "01c25f1a3512236bd73267caa3bea6476ca3a7c377c5977467aeb9f40023dbdd",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -177,12 +164,12 @@
 			"version": "2.7.0.20070801"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "c0b14c42d4982d3da9aee02be557152498892b0b4e4a2434a6881bb17e53eba3",
+			"arch": "x86_64",
+			"checksum": "e621458cd621eb4c60bf22745f688aa1016072241506d301ed4fc5dba4dfd764",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.aarch64.rpm",
-			"module": "mysql:8.0:8060020221025181128:9edba152:aarch64",
+			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.x86_64.rpm",
+			"module": "mysql:8.0:8060020221025181128:9edba152:x86_64",
 			"name": "mecab-devel",
 			"reboot_suggested": 0,
 			"release": "2.module_el8.6.0+3340+d764b636",
@@ -318,6 +305,19 @@
 			"release": "16.module_el8.6.0+3340+d764b636",
 			"src": "mecab-ipadic-2.7.0.20070801-16.module_el8.6.0+3340+d764b636.src.rpm",
 			"version": "2.7.0.20070801"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c0b14c42d4982d3da9aee02be557152498892b0b4e4a2434a6881bb17e53eba3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "mecab-devel-0.996-2.module_el8.6.0+3340+d764b636.aarch64.rpm",
+			"module": "mysql:8.0:8060020221025181128:9edba152:aarch64",
+			"name": "mecab-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.6.0+3340+d764b636",
+			"src": "mecab-0.996-2.module_el8.6.0+3340+d764b636.src.rpm",
+			"version": "0.996"
 		},
 		{
 			"arch": "ppc64le",
@@ -991,5 +991,5 @@
 	"severity": "Important",
 	"title": "Important: mysql:8.0 security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1684747072
+	"updated_date": 1684747075
 }
