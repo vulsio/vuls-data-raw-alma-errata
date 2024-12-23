@@ -1,0 +1,130 @@
+{
+	"description": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver.   \n\nSecurity Fix(es):  \n\n  * unbound: Unbounded name compression could lead to Denial of Service (CVE-2024-8508)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2024:11232",
+	"issued_date": 1734393600,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "30802a194c8ae389ffbc60d8b0c81e77cc298d9379a8816a8d6882814e52f3cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-8.el9_5.1.aarch64.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "706c8609114e517bd610f6f0a27d19079a5f6833b6500ebbe6aecc823dd4341c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-8.el9_5.1.aarch64.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f754d111c7fe1ed9399b0dd2679152df03ca8dfee9df552f5ff866f2a2611ac7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-8.el9_5.1.aarch64.rpm",
+			"name": "python3-unbound",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "3d7aa0a2d464979160c7aea8ce4f610a6682097d6ee4e1a7ce7ff6d28165d556",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-8.el9_5.1.i686.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "89b4db0c098230488e3ee976921cd1f45645a1904ab64d04d6324cb40c5e8b9c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-8.el9_5.1.aarch64.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3ddafdbbe266d0e851afbd622dd36e0f97463cb55c49fd89835b8d46e67fe284",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-8.el9_5.1.ppc64le.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e0264c64661cf51939ee52d7ebdee6c01d4cb58cd9850b72da1f47c3dff15fa9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-8.el9_5.1.s390x.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fd5dab054f8adea7047fa7b8e092c686bd5c94d8c25cfe693566c820342c4089",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-8.el9_5.1.x86_64.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "8.el9_5.1",
+			"src": "unbound-1.16.2-8.el9_5.1.src.rpm",
+			"version": "1.16.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2024:11232",
+			"id": "RHSA-2024:11232",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-8508",
+			"id": "CVE-2024-8508",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2316321",
+			"id": "2316321",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2024-11232.html",
+			"id": "ALSA-2024:11232",
+			"type": "self"
+		}
+	],
+	"severity": "Moderate",
+	"title": "Moderate: unbound:1.16.2 security update",
+	"type": "security",
+	"updated_date": 1734942334
+}
