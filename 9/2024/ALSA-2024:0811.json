@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "b4a06531c42fce8cfcf87d59780839a5262ff2988824822f7e0535b9fd1a4dec",
+			"arch": "aarch64",
+			"checksum": "f0b623782594b304e04799e9f23dec04b0858540e38e203832df4ae7d2b8a74c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.x86_64.rpm",
+			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.aarch64.rpm",
 			"name": "sudo-python-plugin",
 			"reboot_suggested": 0,
 			"release": "10.el9_3",
@@ -17,11 +17,23 @@
 			"version": "1.9.5p2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f0b623782594b304e04799e9f23dec04b0858540e38e203832df4ae7d2b8a74c",
+			"arch": "s390x",
+			"checksum": "192048338afdf4067804d1258514a5c76388c648b11a5f9f3ed9ec290c8738bc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.aarch64.rpm",
+			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.s390x.rpm",
+			"name": "sudo-python-plugin",
+			"reboot_suggested": 0,
+			"release": "10.el9_3",
+			"src": "sudo-1.9.5p2-10.el9_3.src.rpm",
+			"version": "1.9.5p2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b4a06531c42fce8cfcf87d59780839a5262ff2988824822f7e0535b9fd1a4dec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.x86_64.rpm",
 			"name": "sudo-python-plugin",
 			"reboot_suggested": 0,
 			"release": "10.el9_3",
@@ -41,18 +53,6 @@
 			"version": "1.9.5p2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "1254f39f3995a137bc47f62081b2cb946d897570191afe7f8cce49af5ce7153d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "sudo-1.9.5p2-10.el9_3.x86_64.rpm",
-			"name": "sudo",
-			"reboot_suggested": 0,
-			"release": "10.el9_3",
-			"src": "sudo-1.9.5p2-10.el9_3.src.rpm",
-			"version": "1.9.5p2"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "d374a6168ebeea530215ee7e043859bf557a234ce41e1972477bce33bb1cf6fd",
 			"checksum_type": "sha256",
@@ -65,12 +65,12 @@
 			"version": "1.9.5p2"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "192048338afdf4067804d1258514a5c76388c648b11a5f9f3ed9ec290c8738bc",
+			"arch": "aarch64",
+			"checksum": "fb58bddf484ec18bc7839f6994f7705db00e0846bf0b69e46d6d864611bb9004",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-python-plugin-1.9.5p2-10.el9_3.s390x.rpm",
-			"name": "sudo-python-plugin",
+			"filename": "sudo-1.9.5p2-10.el9_3.aarch64.rpm",
+			"name": "sudo",
 			"reboot_suggested": 0,
 			"release": "10.el9_3",
 			"src": "sudo-1.9.5p2-10.el9_3.src.rpm",
@@ -89,11 +89,11 @@
 			"version": "1.9.5p2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "fb58bddf484ec18bc7839f6994f7705db00e0846bf0b69e46d6d864611bb9004",
+			"arch": "x86_64",
+			"checksum": "1254f39f3995a137bc47f62081b2cb946d897570191afe7f8cce49af5ce7153d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "sudo-1.9.5p2-10.el9_3.aarch64.rpm",
+			"filename": "sudo-1.9.5p2-10.el9_3.x86_64.rpm",
 			"name": "sudo",
 			"reboot_suggested": 0,
 			"release": "10.el9_3",
