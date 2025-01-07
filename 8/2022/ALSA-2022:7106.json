@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
-			"name": "zlib-static",
-			"reboot_suggested": 0,
-			"release": "19.el8_6",
-			"src": "zlib-1.2.11-19.el8_6.src.rpm",
-			"version": "1.2.11"
-		},
-		{
-			"arch": "i686",
 			"checksum": "13d26ef755ace9e0cf1b616ccc70e829ebfabb2ad28f5ab630f4d8cf747c500f",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -35,6 +23,18 @@
 			"epoch": "0",
 			"filename": "zlib-1.2.11-19.el8_6.i686.rpm",
 			"name": "zlib",
+			"reboot_suggested": 0,
+			"release": "19.el8_6",
+			"src": "zlib-1.2.11-19.el8_6.src.rpm",
+			"version": "1.2.11"
+		},
+		{
+			"arch": "i686",
+			"checksum": "ada217ae3d9cf92b1ca700203564acb319a869c750f6216bc95c63ce8cf22d53",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zlib-static-1.2.11-19.el8_6.i686.rpm",
+			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "19.el8_6",
 			"src": "zlib-1.2.11-19.el8_6.src.rpm",
@@ -174,5 +174,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: zlib security update",
 	"type": "security",
-	"updated_date": 1666786434
+	"updated_date": 1666786436
 }
