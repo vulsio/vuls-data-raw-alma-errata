@@ -5,35 +5,23 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "a79f20e9ce5f982949ef7bc5a0916b6e166c7c8d3893ad0d703f6c96ff9c63d9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-32.el9_0.aarch64.rpm",
-			"name": "zlib-devel",
-			"reboot_suggested": 0,
-			"release": "32.el9_0",
-			"src": "zlib-1.2.11-32.el9_0.src.rpm",
-			"version": "1.2.11"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
-			"name": "zlib-devel",
-			"reboot_suggested": 0,
-			"release": "32.el9_0",
-			"src": "zlib-1.2.11-32.el9_0.src.rpm",
-			"version": "1.2.11"
-		},
-		{
 			"arch": "i686",
 			"checksum": "7aeb04163853e6c1212f944a2b47749d6fc187c41716c21747df46a2aaa7d0a8",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "zlib-devel-1.2.11-32.el9_0.i686.rpm",
+			"name": "zlib-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_0",
+			"src": "zlib-1.2.11-32.el9_0.src.rpm",
+			"version": "1.2.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a79f20e9ce5f982949ef7bc5a0916b6e166c7c8d3893ad0d703f6c96ff9c63d9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zlib-devel-1.2.11-32.el9_0.aarch64.rpm",
 			"name": "zlib-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -65,6 +53,18 @@
 			"version": "1.2.11"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "bd4009fbe4ced90f997b79ebb8733bb6ebfbba530ea731e56a0dccd6b8c33346",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "zlib-1.2.11-32.el9_0.x86_64.rpm",
+			"name": "zlib",
+			"reboot_suggested": 0,
+			"release": "32.el9_0",
+			"src": "zlib-1.2.11-32.el9_0.src.rpm",
+			"version": "1.2.11"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "41b196857449e86b42ab793f328efe1af807585073f423a007bbbde102248c9e",
 			"checksum_type": "sha256",
@@ -78,22 +78,22 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
+			"checksum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
-			"name": "zlib",
+			"filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
+			"name": "zlib-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
 			"src": "zlib-1.2.11-32.el9_0.src.rpm",
 			"version": "1.2.11"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "bd4009fbe4ced90f997b79ebb8733bb6ebfbba530ea731e56a0dccd6b8c33346",
+			"arch": "s390x",
+			"checksum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-1.2.11-32.el9_0.x86_64.rpm",
+			"filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
 			"name": "zlib",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -113,11 +113,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "bd022652eb8dd26837ac7bc1ea3dd7391c9cbe8029faa26f1d04777d86d379be",
+			"arch": "s390x",
+			"checksum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-32.el9_0.aarch64.rpm",
+			"filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -125,11 +125,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
+			"arch": "aarch64",
+			"checksum": "bd022652eb8dd26837ac7bc1ea3dd7391c9cbe8029faa26f1d04777d86d379be",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
+			"filename": "zlib-static-1.2.11-32.el9_0.aarch64.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -174,5 +174,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: zlib security update",
 	"type": "security",
-	"updated_date": 1667424336
+	"updated_date": 1667424335
 }
