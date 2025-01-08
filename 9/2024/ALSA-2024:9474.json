@@ -17,11 +17,11 @@
 			"version": "1.21.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "72b1e25b39d7f034f0715182b15b1890d080f5251c11fa57824f78c011d8e4ad",
+			"arch": "ppc64le",
+			"checksum": "75702577450e95f1d37396763dd774052670920a8b5238590010d3133676ccf9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-4.el9_5.x86_64.rpm",
+			"filename": "krb5-devel-1.21.1-4.el9_5.ppc64le.rpm",
 			"name": "krb5-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_5",
@@ -41,11 +41,11 @@
 			"version": "1.21.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "75702577450e95f1d37396763dd774052670920a8b5238590010d3133676ccf9",
+			"arch": "x86_64",
+			"checksum": "72b1e25b39d7f034f0715182b15b1890d080f5251c11fa57824f78c011d8e4ad",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-4.el9_5.ppc64le.rpm",
+			"filename": "krb5-devel-1.21.1-4.el9_5.x86_64.rpm",
 			"name": "krb5-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_5",
@@ -330,18 +330,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "b91f6e1fb21c50c05ae9276b5f351b5936c9d0f045fa131ce818da4c8dd2cad3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-4.el9_5.s390x.rpm",
-			"name": "krb5-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9_5",
-			"src": "krb5-1.21.1-4.el9_5.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "5b2d0bfe43d0bd23db8e1990c91c09cfbe929abe6dfecb13172fea3e13186d7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -407,6 +395,18 @@
 			"epoch": "0",
 			"filename": "krb5-pkinit-1.21.1-4.el9_5.s390x.rpm",
 			"name": "krb5-pkinit",
+			"reboot_suggested": 0,
+			"release": "4.el9_5",
+			"src": "krb5-1.21.1-4.el9_5.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b91f6e1fb21c50c05ae9276b5f351b5936c9d0f045fa131ce818da4c8dd2cad3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-devel-1.21.1-4.el9_5.s390x.rpm",
+			"name": "krb5-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_5",
 			"src": "krb5-1.21.1-4.el9_5.src.rpm",

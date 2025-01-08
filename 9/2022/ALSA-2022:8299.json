@@ -17,11 +17,11 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "8ffe12dc519f1d2f032b839a84f4a20a19c6e053fd60bf3d0ba47afa17ac039e",
+			"arch": "ppc64le",
+			"checksum": "eeca79424e5fd390b12af8f200c919e85c77784de0ea9c463e1702fdb4260e9b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9.x86_64.rpm",
+			"filename": "libcurl-devel-7.76.1-19.el9.ppc64le.rpm",
 			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9",
@@ -41,11 +41,11 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "eeca79424e5fd390b12af8f200c919e85c77784de0ea9c463e1702fdb4260e9b",
+			"arch": "x86_64",
+			"checksum": "8ffe12dc519f1d2f032b839a84f4a20a19c6e053fd60bf3d0ba47afa17ac039e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9.ppc64le.rpm",
+			"filename": "libcurl-devel-7.76.1-19.el9.x86_64.rpm",
 			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9",
@@ -222,18 +222,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "f816f70826fb8198f6be25ad38bcc548688bb10532492d135738e31c6ffbe27c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9.s390x.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "19.el9",
-			"src": "curl-7.76.1-19.el9.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "1990f6ec30012c4f058dd1dc03d0cc52ef3b06cfb7e8608fe82af1d9c1cd7cfa",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -275,6 +263,18 @@
 			"epoch": "0",
 			"filename": "libcurl-7.76.1-19.el9.s390x.rpm",
 			"name": "libcurl",
+			"reboot_suggested": 0,
+			"release": "19.el9",
+			"src": "curl-7.76.1-19.el9.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f816f70826fb8198f6be25ad38bcc548688bb10532492d135738e31c6ffbe27c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.76.1-19.el9.s390x.rpm",
+			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9",
 			"src": "curl-7.76.1-19.el9.src.rpm",

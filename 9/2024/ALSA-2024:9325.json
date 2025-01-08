@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "5759987383ea3f0f91db645806115b7cfe1116f1c56988cc7c23307a519cd4ef",
+			"arch": "ppc64le",
+			"checksum": "5b03657ce0f1b8298c622a1a26a990fc734b0f0423bac7888dfaae7fcb199508",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-323.1-1.el9_5.x86_64.rpm",
+			"filename": "cockpit-pcp-323.1-1.el9_5.ppc64le.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
@@ -53,11 +53,11 @@
 			"version": "323.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "5b03657ce0f1b8298c622a1a26a990fc734b0f0423bac7888dfaae7fcb199508",
+			"arch": "x86_64",
+			"checksum": "5759987383ea3f0f91db645806115b7cfe1116f1c56988cc7c23307a519cd4ef",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-323.1-1.el9_5.ppc64le.rpm",
+			"filename": "cockpit-pcp-323.1-1.el9_5.x86_64.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
@@ -198,18 +198,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "208f299af2bea8524c58a2442bb402235c12751504e3a2c94085d24ad8fb61ca",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-pcp-323.1-1.el9_5.s390x.rpm",
-			"name": "cockpit-pcp",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "cockpit-323.1-1.el9_5.src.rpm",
-			"version": "323.1"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "17a8fb34b1d70e698e0956501b397440c8577b59578631aec57dfb79f02eab24",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -243,6 +231,18 @@
 			"release": "1.el9_5",
 			"src": "cockpit-323.1-1.el9_5.src.rpm",
 			"version": "323.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "208f299af2bea8524c58a2442bb402235c12751504e3a2c94085d24ad8fb61ca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-323.1-1.el9_5.s390x.rpm",
+			"name": "cockpit-pcp",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "cockpit-323.1-1.el9_5.src.rpm",
+			"version": "323.1"
 		}
 	],
 	"references": [
@@ -270,5 +270,5 @@
 	"severity": "Low",
 	"title": "Low: cockpit security update",
 	"type": "security",
-	"updated_date": 1731930775
+	"updated_date": 1731930774
 }

@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "7aeb04163853e6c1212f944a2b47749d6fc187c41716c21747df46a2aaa7d0a8",
+			"arch": "ppc64le",
+			"checksum": "442afafb865abbd3aa64638dee158ff67c73c07e81b08a4cb17c673e5783f9d2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-32.el9_0.i686.rpm",
+			"filename": "zlib-devel-1.2.11-32.el9_0.ppc64le.rpm",
 			"name": "zlib-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -29,11 +29,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "442afafb865abbd3aa64638dee158ff67c73c07e81b08a4cb17c673e5783f9d2",
+			"arch": "i686",
+			"checksum": "7aeb04163853e6c1212f944a2b47749d6fc187c41716c21747df46a2aaa7d0a8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-32.el9_0.ppc64le.rpm",
+			"filename": "zlib-devel-1.2.11-32.el9_0.i686.rpm",
 			"name": "zlib-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -78,11 +78,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
+			"checksum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
-			"name": "zlib-devel",
+			"filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
+			"name": "zlib",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
 			"src": "zlib-1.2.11-32.el9_0.src.rpm",
@@ -90,11 +90,11 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "86a49ded33cb36b31f4b962aa62cc70cd174856e9398f3a57e76aade91fc6e90",
+			"checksum": "d66b3e3c74e1a0de970e452f2ecf2a25473bd39ec4511cecee4953dbc87f7073",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-1.2.11-32.el9_0.s390x.rpm",
-			"name": "zlib",
+			"filename": "zlib-devel-1.2.11-32.el9_0.s390x.rpm",
+			"name": "zlib-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
 			"src": "zlib-1.2.11-32.el9_0.src.rpm",
@@ -113,11 +113,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
+			"arch": "aarch64",
+			"checksum": "bd022652eb8dd26837ac7bc1ea3dd7391c9cbe8029faa26f1d04777d86d379be",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
+			"filename": "zlib-static-1.2.11-32.el9_0.aarch64.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -125,11 +125,11 @@
 			"version": "1.2.11"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "bd022652eb8dd26837ac7bc1ea3dd7391c9cbe8029faa26f1d04777d86d379be",
+			"arch": "s390x",
+			"checksum": "786a1206d349e64db5f7969555f525f8e3e85b9577ca209b4694238b39b84f7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "zlib-static-1.2.11-32.el9_0.aarch64.rpm",
+			"filename": "zlib-static-1.2.11-32.el9_0.s390x.rpm",
 			"name": "zlib-static",
 			"reboot_suggested": 0,
 			"release": "32.el9_0",
@@ -174,5 +174,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: zlib security update",
 	"type": "security",
-	"updated_date": 1667424335
+	"updated_date": 1667424338
 }

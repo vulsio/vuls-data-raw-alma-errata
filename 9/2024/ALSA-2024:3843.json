@@ -29,11 +29,11 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fbbc9a7d1076662394a743c9f53afd17e5933d123665a7ebfcb69f85bb40bb80",
+			"arch": "ppc64le",
+			"checksum": "ea7f6fc284559f9facaf83a7cad94e913855b7375de564e0f4636282b14cb8cd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.x86_64.rpm",
+			"filename": "cockpit-pcp-311.2-1.el9_4.ppc64le.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -53,11 +53,11 @@
 			"version": "311.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ea7f6fc284559f9facaf83a7cad94e913855b7375de564e0f4636282b14cb8cd",
+			"arch": "x86_64",
+			"checksum": "fbbc9a7d1076662394a743c9f53afd17e5933d123665a7ebfcb69f85bb40bb80",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.ppc64le.rpm",
+			"filename": "cockpit-pcp-311.2-1.el9_4.x86_64.rpm",
 			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
@@ -198,18 +198,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "118fb87b978fc9eb2161f3d1d4d06ec6a77928f8f65c39b44b952c75f1d45771",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "cockpit-pcp-311.2-1.el9_4.s390x.rpm",
-			"name": "cockpit-pcp",
-			"reboot_suggested": 0,
-			"release": "1.el9_4",
-			"src": "cockpit-311.2-1.el9_4.src.rpm",
-			"version": "311.2"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "3516ebe5c9c1076df6ff8ba5db5f62352f776a7ddc517b8c4d743e1e841e682a",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -239,6 +227,18 @@
 			"epoch": "0",
 			"filename": "cockpit-ws-311.2-1.el9_4.s390x.rpm",
 			"name": "cockpit-ws",
+			"reboot_suggested": 0,
+			"release": "1.el9_4",
+			"src": "cockpit-311.2-1.el9_4.src.rpm",
+			"version": "311.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "118fb87b978fc9eb2161f3d1d4d06ec6a77928f8f65c39b44b952c75f1d45771",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "cockpit-pcp-311.2-1.el9_4.s390x.rpm",
+			"name": "cockpit-pcp",
 			"reboot_suggested": 0,
 			"release": "1.el9_4",
 			"src": "cockpit-311.2-1.el9_4.src.rpm",

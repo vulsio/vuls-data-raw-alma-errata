@@ -17,11 +17,11 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9763af6510f356e208841d182dbc8d145d7e80c59be894a2d6e392a85b663056",
+			"arch": "ppc64le",
+			"checksum": "855a4213a2af69a96aecdf445ee9286e1cac82f2ba20f89a20a2492f83fc3fbf",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9_1.1.x86_64.rpm",
+			"filename": "libcurl-devel-7.76.1-19.el9_1.1.ppc64le.rpm",
 			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9_1.1",
@@ -41,11 +41,11 @@
 			"version": "7.76.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "855a4213a2af69a96aecdf445ee9286e1cac82f2ba20f89a20a2492f83fc3fbf",
+			"arch": "x86_64",
+			"checksum": "9763af6510f356e208841d182dbc8d145d7e80c59be894a2d6e392a85b663056",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9_1.1.ppc64le.rpm",
+			"filename": "libcurl-devel-7.76.1-19.el9_1.1.x86_64.rpm",
 			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9_1.1",
@@ -222,18 +222,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "f55baf50a543b53bb5409e025e4a31c60e69e85d38fab9d705abeedebd4d3338",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libcurl-devel-7.76.1-19.el9_1.1.s390x.rpm",
-			"name": "libcurl-devel",
-			"reboot_suggested": 0,
-			"release": "19.el9_1.1",
-			"src": "curl-7.76.1-19.el9_1.1.src.rpm",
-			"version": "7.76.1"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "7c756acf4b31f325cb6402dfa10a97b7274dcd870514ff92304edb7deaaf6b0d",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -275,6 +263,18 @@
 			"epoch": "0",
 			"filename": "curl-7.76.1-19.el9_1.1.s390x.rpm",
 			"name": "curl",
+			"reboot_suggested": 0,
+			"release": "19.el9_1.1",
+			"src": "curl-7.76.1-19.el9_1.1.src.rpm",
+			"version": "7.76.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f55baf50a543b53bb5409e025e4a31c60e69e85d38fab9d705abeedebd4d3338",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libcurl-devel-7.76.1-19.el9_1.1.s390x.rpm",
+			"name": "libcurl-devel",
 			"reboot_suggested": 0,
 			"release": "19.el9_1.1",
 			"src": "curl-7.76.1-19.el9_1.1.src.rpm",
