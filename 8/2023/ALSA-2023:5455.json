@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "4c38bb343f1f64763e64e6716ee678da91ab97fa1a697193cc84bf7d52afd401",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nss_hesiod-2.28-225.el8_8.6.i686.rpm",
+			"name": "nss_hesiod",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "b84aa4e3afc80d9fdc7282b2627338b0da964f55f8f13d10759cc85cb295344c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-static-2.28-225.el8_8.6.i686.rpm",
+			"name": "glibc-static",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d278264d148ec43f40f292272ed6eea26d55dd37dc24686e840fc33bbe4d1a7c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glibc-nss-devel-2.28-225.el8_8.6.i686.rpm",
+			"name": "glibc-nss-devel",
+			"reboot_suggested": 0,
+			"release": "225.el8_8.6",
+			"src": "glibc-2.28-225.el8_8.6.src.rpm",
+			"version": "2.28"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "1a1fe0a74e3863ac919cc508a49ebe965bb7aa2f67732fea3673d236debed292",
 			"checksum_type": "sha256",
@@ -83,42 +119,6 @@
 			"epoch": "0",
 			"filename": "nss_db-2.28-225.el8_8.6.i686.rpm",
 			"name": "nss_db",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "4c38bb343f1f64763e64e6716ee678da91ab97fa1a697193cc84bf7d52afd401",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "nss_hesiod-2.28-225.el8_8.6.i686.rpm",
-			"name": "nss_hesiod",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "b84aa4e3afc80d9fdc7282b2627338b0da964f55f8f13d10759cc85cb295344c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-static-2.28-225.el8_8.6.i686.rpm",
-			"name": "glibc-static",
-			"reboot_suggested": 0,
-			"release": "225.el8_8.6",
-			"src": "glibc-2.28-225.el8_8.6.src.rpm",
-			"version": "2.28"
-		},
-		{
-			"arch": "i686",
-			"checksum": "d278264d148ec43f40f292272ed6eea26d55dd37dc24686e840fc33bbe4d1a7c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glibc-nss-devel-2.28-225.el8_8.6.i686.rpm",
-			"name": "glibc-nss-devel",
 			"reboot_suggested": 0,
 			"release": "225.el8_8.6",
 			"src": "glibc-2.28-225.el8_8.6.src.rpm",
@@ -10404,5 +10404,5 @@
 	"severity": "Important",
 	"title": "Important: glibc security update",
 	"type": "security",
-	"updated_date": 1696547804
+	"updated_date": 1696547788
 }

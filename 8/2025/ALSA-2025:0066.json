@@ -1,0 +1,164 @@
+{
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.  \n\nSecurity Fix(es):  \n\n  * kernel: i40e: fix race condition by adding filter's intermediate sync state (CVE-2024-53088)\n  * kernel: mptcp: cope racing subflow creation in mptcp_rcv_space_adjust (CVE-2024-53122)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0066",
+	"issued_date": 1736294400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "0e7da033a26b82c730343d4f698abbd5c9159dfa60adee4845d9579390175ba5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "36d33bb34b971aafbf82194bcfacaf829cf3407bcb215b61455cc3aea8679e28",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-modules-extra-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-modules-extra",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4779f4b7290efa72a0d00ed7fccc2bf245b1b56f00763d36530677bbecdb86f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-core-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-core",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4b4155da875e77093ff878b05c1dcf8525fe421c4824621e8bdc77ba1a4d4984",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-modules-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-modules",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8902fddb1f8551809995986bb6e848a7fea02135d467ed47e2496cc25acdbee3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-modules-extra-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-modules-extra",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c017c038f10f386a627be8f6bb690f8cf9378b9b89cec74316cb5a14ad0e15d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-modules-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-modules",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c4442002e0d46360077d4b9540d5fb365f7b26c994c93fffce15f857d0967357",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-devel-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-devel",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "d3cbd10d2d94b84612319d2f119333f0453c1a809bedf8eb23dde4937f9012d8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-core-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-core",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f58f5a6e19b85926aa1cccd9949ffd5c69d92450469780abe92858835a8b76a7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "f6cbcc6df5e8469296b6c3d0eeed83799826243ede38142088a278fcd3c58c9b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-devel-4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+			"name": "kernel-rt-devel",
+			"reboot_suggested": 0,
+			"release": "553.34.1.rt7.375.el8_10",
+			"src": "kernel-rt-4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+			"version": "4.18.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0066",
+			"id": "RHSA-2025:0066",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-53088",
+			"id": "CVE-2024-53088",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-53122",
+			"id": "CVE-2024-53122",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2327328",
+			"id": "2327328",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2329932",
+			"id": "2329932",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0066.html",
+			"id": "ALSA-2025:0066",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: kernel-rt security update",
+	"type": "security",
+	"updated_date": 1736371490
+}
