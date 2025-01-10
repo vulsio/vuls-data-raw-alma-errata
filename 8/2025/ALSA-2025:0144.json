@@ -1,0 +1,142 @@
+{
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: Use-after-free when breaking lines in text (CVE-2025-0238)\n  * firefox: Memory corruption when using JavaScript Text Segmentation (CVE-2025-0241)\n  * firefox: Alt-Svc ALPN validation failure when redirected (CVE-2025-0239)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 128.6, and Thunderbird 128.6 (CVE-2025-0243)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 115.19, Firefox ESR 128.6, Thunderbird 115.19, and Thunderbird 128.6 (CVE-2025-0242)\n  * firefox: WebChannel APIs susceptible to confused deputy attack (CVE-2025-0237)\n  * firefox: Compartment mismatch when parsing JavaScript JSON module (CVE-2025-0240)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0144",
+	"issued_date": 1736380800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "aarch64",
+			"checksum": "68fd589c5a74f1b58bca0cc3fc6345312201189e6032266dda7f000ff9d9a8e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.6.0-1.el8_10.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.6.0-1.el8_10.src.rpm",
+			"version": "128.6.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8f2505ab16133b1139abff48fb65e1e564e5607520792e8a21955ae899c61e23",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.6.0-1.el8_10.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.6.0-1.el8_10.src.rpm",
+			"version": "128.6.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3ec0f61f7bae12e854c1733f7e877b7f41cc876f7e07a45ca41f50c3cb5201f5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.6.0-1.el8_10.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.6.0-1.el8_10.src.rpm",
+			"version": "128.6.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "998ed1dcdbda82560fc73514fedbf1f63b5d87ef1ce5c8eff9596246e426f247",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.6.0-1.el8_10.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.6.0-1.el8_10.src.rpm",
+			"version": "128.6.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0144",
+			"id": "RHSA-2025:0144",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0237",
+			"id": "CVE-2025-0237",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0238",
+			"id": "CVE-2025-0238",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0239",
+			"id": "CVE-2025-0239",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0240",
+			"id": "CVE-2025-0240",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0241",
+			"id": "CVE-2025-0241",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0242",
+			"id": "CVE-2025-0242",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0243",
+			"id": "CVE-2025-0243",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336165",
+			"id": "2336165",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336168",
+			"id": "2336168",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336170",
+			"id": "2336170",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336175",
+			"id": "2336175",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336181",
+			"id": "2336181",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336182",
+			"id": "2336182",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336188",
+			"id": "2336188",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0144.html",
+			"id": "ALSA-2025:0144",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1736513750
+}

@@ -1,0 +1,94 @@
+{
+	"description": "Iperf is a tool which can measure maximum TCP bandwidth and tune various parameters and UDP characteristics. Iperf reports bandwidth, delay jitter, and data-gram loss.  \n\nSecurity Fix(es):  \n\n  * iperf: Denial of Service in iperf Due to Improper JSON Handling (CVE-2024-53580)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0168",
+	"issued_date": 1736380800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "83fc34157304c730b9e9b58595f4896af024276e9bd7fb6ada5ac82d714572cf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.5-11.el8_10.i686.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "iperf3-3.5-11.el8_10.src.rpm",
+			"version": "3.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5b7e182f07b60d4b70c999086630fbb1db3ecedbaaecd210e869ca3cb092c13e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.5-11.el8_10.aarch64.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "iperf3-3.5-11.el8_10.src.rpm",
+			"version": "3.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "eabea089ea3d2480696ab64f58e4bb8aa76a475e6795ae6e560a698868a484e9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.5-11.el8_10.x86_64.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "iperf3-3.5-11.el8_10.src.rpm",
+			"version": "3.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "3939fc5b5d1fd3ef28c6c4874ab556a7624b4e35fcd32dce2caf6503112f705f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.5-11.el8_10.ppc64le.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "iperf3-3.5-11.el8_10.src.rpm",
+			"version": "3.5"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b4b518c0d0475a794c16fc6463aa12d573f7fd15012d90480128715223624c65",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "iperf3-3.5-11.el8_10.s390x.rpm",
+			"name": "iperf3",
+			"reboot_suggested": 0,
+			"release": "11.el8_10",
+			"src": "iperf3-3.5-11.el8_10.src.rpm",
+			"version": "3.5"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0168",
+			"id": "RHSA-2025:0168",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-53580",
+			"id": "CVE-2024-53580",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2333146",
+			"id": "2333146",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0168.html",
+			"id": "ALSA-2025:0168",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: iperf3 security update",
+	"type": "security",
+	"updated_date": 1736513447
+}

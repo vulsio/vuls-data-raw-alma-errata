@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "67912f8c565edafa7309c6426f571182e55b4ab75bffee6b4e74fcf99a4ab7a8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-1.el9.i686.rpm",
-			"name": "krb5-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "4da3dada32cecad788b97a665e8ade56fb865895599432b8ee889eb3dfd8a4a0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "c9a007af9d16a3b6d387c74a2e0fea7f656afe6a89ea5b2e5e209d3f074c2aac",
 			"checksum_type": "sha256",
@@ -41,11 +17,35 @@
 			"version": "1.21.1"
 		},
 		{
+			"arch": "i686",
+			"checksum": "67912f8c565edafa7309c6426f571182e55b4ab75bffee6b4e74fcf99a4ab7a8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-devel-1.21.1-1.el9.i686.rpm",
+			"name": "krb5-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "10c8d439451533b9df0120153acfe86127aa025ec6908a657b477c65f88ac155",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "krb5-devel-1.21.1-1.el9.x86_64.rpm",
+			"name": "krb5-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "4da3dada32cecad788b97a665e8ade56fb865895599432b8ee889eb3dfd8a4a0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-devel-1.21.1-1.el9.ppc64le.rpm",
 			"name": "krb5-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -113,72 +113,12 @@
 			"version": "1.21.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "528bc361d0a79b28dabf63b49b5e1240ded67c00ad2c28e903c6d1014afbfab0",
+			"arch": "s390x",
+			"checksum": "ee035006c89d7fadb0a99aa3f6c85ea34ea77e19de468c0badfc4b8b51c63a01",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "krb5-server-ldap-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-server-ldap",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "53f43ad89dd67969fabd92d620937832a18797147b1d6154eb58596ee2c410ae",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-server-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-server",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6402825e418ca40c9266efb31de01cc77de141cc2c15815e0e45f970c889cb14",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libkadm5-1.21.1-1.el9.ppc64le.rpm",
-			"name": "libkadm5",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6b98038e0ef9283d04bee4c3f7eae7d912f9674fb779cddce7251a1f4e3b88ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-pkinit-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-pkinit",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "6f65131a2704fa7ed2dd7bdbf8ec8ba332ca07ec50dcadf015462afbf2c1b6d4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-workstation-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-workstation",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "944ef7415382ae4c27ec27444d4f8bb54da04f64fe25aaa5ebeeaea174715cc2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-libs-1.21.1-1.el9.ppc64le.rpm",
-			"name": "krb5-libs",
+			"filename": "krb5-devel-1.21.1-1.el9.s390x.rpm",
+			"name": "krb5-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
 			"src": "krb5-1.21.1-1.el9.src.rpm",
@@ -251,6 +191,78 @@
 			"epoch": "0",
 			"filename": "krb5-pkinit-1.21.1-1.el9.x86_64.rpm",
 			"name": "krb5-pkinit",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "528bc361d0a79b28dabf63b49b5e1240ded67c00ad2c28e903c6d1014afbfab0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-server-ldap-1.21.1-1.el9.ppc64le.rpm",
+			"name": "krb5-server-ldap",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "53f43ad89dd67969fabd92d620937832a18797147b1d6154eb58596ee2c410ae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-server-1.21.1-1.el9.ppc64le.rpm",
+			"name": "krb5-server",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6402825e418ca40c9266efb31de01cc77de141cc2c15815e0e45f970c889cb14",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libkadm5-1.21.1-1.el9.ppc64le.rpm",
+			"name": "libkadm5",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6b98038e0ef9283d04bee4c3f7eae7d912f9674fb779cddce7251a1f4e3b88ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-pkinit-1.21.1-1.el9.ppc64le.rpm",
+			"name": "krb5-pkinit",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "6f65131a2704fa7ed2dd7bdbf8ec8ba332ca07ec50dcadf015462afbf2c1b6d4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-workstation-1.21.1-1.el9.ppc64le.rpm",
+			"name": "krb5-workstation",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "krb5-1.21.1-1.el9.src.rpm",
+			"version": "1.21.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "944ef7415382ae4c27ec27444d4f8bb54da04f64fe25aaa5ebeeaea174715cc2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "krb5-libs-1.21.1-1.el9.ppc64le.rpm",
+			"name": "krb5-libs",
 			"reboot_suggested": 0,
 			"release": "1.el9",
 			"src": "krb5-1.21.1-1.el9.src.rpm",
@@ -399,18 +411,6 @@
 			"release": "1.el9",
 			"src": "krb5-1.21.1-1.el9.src.rpm",
 			"version": "1.21.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "ee035006c89d7fadb0a99aa3f6c85ea34ea77e19de468c0badfc4b8b51c63a01",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "krb5-devel-1.21.1-1.el9.s390x.rpm",
-			"name": "krb5-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "krb5-1.21.1-1.el9.src.rpm",
-			"version": "1.21.1"
 		}
 	],
 	"references": [
@@ -448,5 +448,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: krb5 security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963525
+	"updated_date": 1699963524
 }

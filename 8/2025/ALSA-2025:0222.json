@@ -1,0 +1,154 @@
+{
+	"description": "The dpdk packages provide the Data Plane Development Kit, which is a set of libraries and drivers for fast packet processing in the user space.  \n\nSecurity Fix(es):  \n\n  * dpdk: Denial Of Service from malicious guest on hypervisors using DPDK Vhost library (CVE-2024-11614)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0222",
+	"issued_date": 1736380800,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "984dd12c42d82b043626d54b4e246bec03471cd2f37cd47dc89c98685313d54a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-doc-23.11-2.el8_10.noarch.rpm",
+			"name": "dpdk-doc",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "043d3568cda769bd12472e4ee8d7003a355e30d2683163adc46e7b80f6679db2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-devel-23.11-2.el8_10.x86_64.rpm",
+			"name": "dpdk-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5323ffb6587dd4643b1021c4c9a122708e93a03a8785d27ba8293ac449bca747",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-devel-23.11-2.el8_10.aarch64.rpm",
+			"name": "dpdk-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ea03fc40d275582dcc07a3765bb773ac0f90e070e624ac23a644a789d600126e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-tools-23.11-2.el8_10.aarch64.rpm",
+			"name": "dpdk-tools",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ed7b276d2bd6f7f0da94dd147b25da53fab8a65f1f3dd04804af73308521adae",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-23.11-2.el8_10.aarch64.rpm",
+			"name": "dpdk",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "22540bbcaabccfd9048034f57d7f7f89002d7bc6564a35e3ac7952810b455029",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-tools-23.11-2.el8_10.x86_64.rpm",
+			"name": "dpdk-tools",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "2bfd23741a027225fc0c794c8264f1b6ba86fa26b6c8a51c63de845eb2c0a377",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-23.11-2.el8_10.x86_64.rpm",
+			"name": "dpdk",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f6472f280a9ffe233eed2be5fe737f13f7cc06596e9a25d698102100d0e466c8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-devel-23.11-2.el8_10.ppc64le.rpm",
+			"name": "dpdk-devel",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "96b150388642e3f3edb9654248c6738d9fe51ba1fd323536783d337f1906f3c8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-tools-23.11-2.el8_10.ppc64le.rpm",
+			"name": "dpdk-tools",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c8222d05ced07a15849b1ae422571c881de466fcedd82d8518c65b2cb83b575f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dpdk-23.11-2.el8_10.ppc64le.rpm",
+			"name": "dpdk",
+			"reboot_suggested": 0,
+			"release": "2.el8_10",
+			"src": "dpdk-23.11-2.el8_10.src.rpm",
+			"version": "23.11"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0222",
+			"id": "RHSA-2025:0222",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-11614",
+			"id": "CVE-2024-11614",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2327955",
+			"id": "2327955",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0222.html",
+			"id": "ALSA-2025:0222",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: dpdk security update",
+	"type": "security",
+	"updated_date": 1736513123
+}
