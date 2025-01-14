@@ -11,14 +11,14 @@
 			"version": "8080020230927094520"
 		},
 		{
-			"arch": "aarch64",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "nodejs",
 			"stream": "16",
 			"version": "8080020230927094520"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "nodejs",
 			"stream": "16",
@@ -80,58 +80,6 @@
 			"version": "16.20.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "21b7641ae3f83c852afa74329a8377b8a23e59a903b3db960eefd0f6abc3d4fd",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "npm-8.19.4-1.16.20.2.2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
-			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
-			"name": "npm",
-			"reboot_suggested": 0,
-			"release": "1.16.20.2.2.module_el8.8.0+3614+204d6f43",
-			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
-			"version": "8.19.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "42fa1998d24fe6caf9a866883106b7e54e843fbf821e86f6c42785809ebacbcd",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-devel-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
-			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
-			"name": "nodejs-devel",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.8.0+3614+204d6f43",
-			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "9474574f5cb27b84eb4502c197aa434ff9fc40e35f7927a059e70c5aabfe9d4f",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
-			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
-			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.8.0+3614+204d6f43",
-			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
-			"version": "16.20.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "c38a32f66c1c558d1ac7c790b789561846c5989a25e6b82f5abd4230b0c285ff",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-full-i18n-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
-			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "2.module_el8.8.0+3614+204d6f43",
-			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
-			"version": "16.20.2"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "42f7fb5310e76e42675b3064728e0d29a1012eb53d8b70ebfba097edefe88585",
 			"checksum_type": "sha256",
@@ -182,6 +130,58 @@
 			"release": "1.16.20.2.2.module_el8.8.0+3614+204d6f43",
 			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
 			"version": "8.19.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "21b7641ae3f83c852afa74329a8377b8a23e59a903b3db960eefd0f6abc3d4fd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-8.19.4-1.16.20.2.2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
+			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.16.20.2.2.module_el8.8.0+3614+204d6f43",
+			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
+			"version": "8.19.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "42fa1998d24fe6caf9a866883106b7e54e843fbf821e86f6c42785809ebacbcd",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-devel-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
+			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
+			"name": "nodejs-devel",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.8.0+3614+204d6f43",
+			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "9474574f5cb27b84eb4502c197aa434ff9fc40e35f7927a059e70c5aabfe9d4f",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
+			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.8.0+3614+204d6f43",
+			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
+			"version": "16.20.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "c38a32f66c1c558d1ac7c790b789561846c5989a25e6b82f5abd4230b0c285ff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-16.20.2-2.module_el8.8.0+3614+204d6f43.aarch64.rpm",
+			"module": "nodejs:16:8080020230927094520:9edba152:aarch64",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "2.module_el8.8.0+3614+204d6f43",
+			"src": "nodejs-16.20.2-2.module_el8.8.0+3614+204d6f43.src.rpm",
+			"version": "16.20.2"
 		},
 		{
 			"arch": "ppc64le",

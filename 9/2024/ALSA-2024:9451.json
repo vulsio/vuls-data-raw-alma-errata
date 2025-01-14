@@ -5,23 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "49cba82bdcfd07780fe57a2e670801995f7398c62df1cd64aa8adc03cbd9818a",
+			"arch": "ppc64le",
+			"checksum": "154dc092b8c36a59a3ac6d3e9db751c1964c689dbe477a1525b95614126bb26b",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3.12-libs-3.12.5-2.el9_5.1.aarch64.rpm",
-			"name": "python3.12-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
-			"version": "3.12.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6422ef816de5b40fff20e3c1c768d3797cef1b3e05dbce8b65e246ddf98e362e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-devel-3.12.5-2.el9_5.1.aarch64.rpm",
+			"filename": "python3.12-devel-3.12.5-2.el9_5.1.ppc64le.rpm",
 			"name": "python3.12-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -29,11 +17,11 @@
 			"version": "3.12.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "914f65080d5d7aac7ff386e2b27335d42300c555be68df7f3847f2cfb643a61a",
+			"arch": "ppc64le",
+			"checksum": "84b186b6df7edad794aea550352183da1980e714113afeb55debe21ce1b19f7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3.12-tkinter-3.12.5-2.el9_5.1.aarch64.rpm",
+			"filename": "python3.12-tkinter-3.12.5-2.el9_5.1.ppc64le.rpm",
 			"name": "python3.12-tkinter",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -41,11 +29,23 @@
 			"version": "3.12.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ebdf188009b9e128e86abc0b4c58746d8cbb34e5738f173dd61200548a034b88",
+			"arch": "ppc64le",
+			"checksum": "8a32f76c3c1ba8cc5fbb32ea8b7d2ba9eb50abeb0f1728c30ad42301a1d89614",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3.12-3.12.5-2.el9_5.1.aarch64.rpm",
+			"filename": "python3.12-libs-3.12.5-2.el9_5.1.ppc64le.rpm",
+			"name": "python3.12-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
+			"version": "3.12.5"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a9cf33a4d9b21b6a9077c09d3120d386c25389536b6fc36e6b9f7c2c492db09c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-3.12.5-2.el9_5.1.ppc64le.rpm",
 			"name": "python3.12",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -137,35 +137,11 @@
 			"version": "3.12.5"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "154dc092b8c36a59a3ac6d3e9db751c1964c689dbe477a1525b95614126bb26b",
+			"arch": "aarch64",
+			"checksum": "49cba82bdcfd07780fe57a2e670801995f7398c62df1cd64aa8adc03cbd9818a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3.12-devel-3.12.5-2.el9_5.1.ppc64le.rpm",
-			"name": "python3.12-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
-			"version": "3.12.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "84b186b6df7edad794aea550352183da1980e714113afeb55debe21ce1b19f7c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-tkinter-3.12.5-2.el9_5.1.ppc64le.rpm",
-			"name": "python3.12-tkinter",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
-			"version": "3.12.5"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "8a32f76c3c1ba8cc5fbb32ea8b7d2ba9eb50abeb0f1728c30ad42301a1d89614",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3.12-libs-3.12.5-2.el9_5.1.ppc64le.rpm",
+			"filename": "python3.12-libs-3.12.5-2.el9_5.1.aarch64.rpm",
 			"name": "python3.12-libs",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -173,11 +149,35 @@
 			"version": "3.12.5"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "a9cf33a4d9b21b6a9077c09d3120d386c25389536b6fc36e6b9f7c2c492db09c",
+			"arch": "aarch64",
+			"checksum": "6422ef816de5b40fff20e3c1c768d3797cef1b3e05dbce8b65e246ddf98e362e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "python3.12-3.12.5-2.el9_5.1.ppc64le.rpm",
+			"filename": "python3.12-devel-3.12.5-2.el9_5.1.aarch64.rpm",
+			"name": "python3.12-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
+			"version": "3.12.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "914f65080d5d7aac7ff386e2b27335d42300c555be68df7f3847f2cfb643a61a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-tkinter-3.12.5-2.el9_5.1.aarch64.rpm",
+			"name": "python3.12-tkinter",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "python3.12-3.12.5-2.el9_5.1.src.rpm",
+			"version": "3.12.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ebdf188009b9e128e86abc0b4c58746d8cbb34e5738f173dd61200548a034b88",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3.12-3.12.5-2.el9_5.1.aarch64.rpm",
 			"name": "python3.12",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -450,5 +450,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: python3.12 security update",
 	"type": "security",
-	"updated_date": 1731930551
+	"updated_date": 1731930550
 }

@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "118dd9528c76c691187e2fbdac9fe12b3b5d8326157e259b22bba6655ca422d0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-server-trust-ad-4.10.2-5.el9_3.alma.1.aarch64.rpm",
-			"name": "ipa-server-trust-ad",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.alma.1",
-			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
-			"version": "4.10.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "1251e2ffb1cb67a73539236d9f295b46fef4c236d269127c5dc142d240f4c785",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-epn-4.10.2-5.el9_3.alma.1.aarch64.rpm",
-			"name": "ipa-client-epn",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.alma.1",
-			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
-			"version": "4.10.2"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "16ba8eee5c0d9852ed9e72219f584538341dee5ea25bb6516795a45ace760256",
 			"checksum_type": "sha256",
@@ -41,12 +17,12 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "232a0ddade1eef68230e175dc69606eeb7c438500e4b07fdc08db89555d9acbb",
+			"arch": "ppc64le",
+			"checksum": "26f18b2e6eebb40464307ce2dabc8d01f63b936eadc6d13a5aa99bc204b5e781",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-client-4.10.2-5.el9_3.alma.1.aarch64.rpm",
-			"name": "ipa-client",
+			"filename": "ipa-server-trust-ad-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"name": "ipa-server-trust-ad",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
 			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
@@ -65,6 +41,30 @@
 			"version": "4.10.2"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "4de45492b9e0413329d2e0f115b6e9806cbbc7084eb6e3bddd42abecbdab2c46",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-server-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"name": "ipa-server",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.alma.1",
+			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
+			"version": "4.10.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "54abe5371f8ef1e4d2467caf645ffc1396804d790f407cc8b3c7145d3e7e9937",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-epn-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"name": "ipa-client-epn",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.alma.1",
+			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
+			"version": "4.10.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "5c9cfe33c8f5a6d616229f3751b5326b564f1f638c39c9cdd906066c12eed42f",
 			"checksum_type": "sha256",
@@ -77,24 +77,24 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "7c0b39142e0be96f23ee1ead9f4cef5b6443562f20656e3a24e3b268b775078f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-samba-4.10.2-5.el9_3.alma.1.aarch64.rpm",
-			"name": "ipa-client-samba",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.alma.1",
-			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
-			"version": "4.10.2"
-		},
-		{
 			"arch": "noarch",
 			"checksum": "899c686d45b06648513fd66138046fe952364dabd24625e1016c7049f8e8cc35",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "ipa-common-4.10.2-5.el9_3.alma.1.noarch.rpm",
 			"name": "ipa-common",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.alma.1",
+			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
+			"version": "4.10.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "95cb0214d920857cf0fb913862e590d9a125b2c3ce346a4bf5670b000cd7b6f1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-samba-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"name": "ipa-client-samba",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
 			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
@@ -137,12 +137,12 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "d9772f8d93a46c589bc93e0946934939c7ac7b5ee683ea7c873575f30a9f9439",
+			"arch": "ppc64le",
+			"checksum": "ceeb894b2021d53e1c0a956f44db1257d839c0d1f782f1c10ac1dac4725ccec9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-server-4.10.2-5.el9_3.alma.1.aarch64.rpm",
-			"name": "ipa-server",
+			"filename": "ipa-client-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"name": "ipa-client",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
 			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
@@ -221,11 +221,11 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "26f18b2e6eebb40464307ce2dabc8d01f63b936eadc6d13a5aa99bc204b5e781",
+			"arch": "aarch64",
+			"checksum": "118dd9528c76c691187e2fbdac9fe12b3b5d8326157e259b22bba6655ca422d0",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-server-trust-ad-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"filename": "ipa-server-trust-ad-4.10.2-5.el9_3.alma.1.aarch64.rpm",
 			"name": "ipa-server-trust-ad",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
@@ -233,23 +233,11 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "4de45492b9e0413329d2e0f115b6e9806cbbc7084eb6e3bddd42abecbdab2c46",
+			"arch": "aarch64",
+			"checksum": "1251e2ffb1cb67a73539236d9f295b46fef4c236d269127c5dc142d240f4c785",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-server-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
-			"name": "ipa-server",
-			"reboot_suggested": 0,
-			"release": "5.el9_3.alma.1",
-			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
-			"version": "4.10.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "54abe5371f8ef1e4d2467caf645ffc1396804d790f407cc8b3c7145d3e7e9937",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-epn-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"filename": "ipa-client-epn-4.10.2-5.el9_3.alma.1.aarch64.rpm",
 			"name": "ipa-client-epn",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
@@ -257,11 +245,23 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "95cb0214d920857cf0fb913862e590d9a125b2c3ce346a4bf5670b000cd7b6f1",
+			"arch": "aarch64",
+			"checksum": "232a0ddade1eef68230e175dc69606eeb7c438500e4b07fdc08db89555d9acbb",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-client-samba-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
+			"filename": "ipa-client-4.10.2-5.el9_3.alma.1.aarch64.rpm",
+			"name": "ipa-client",
+			"reboot_suggested": 0,
+			"release": "5.el9_3.alma.1",
+			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
+			"version": "4.10.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7c0b39142e0be96f23ee1ead9f4cef5b6443562f20656e3a24e3b268b775078f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-samba-4.10.2-5.el9_3.alma.1.aarch64.rpm",
 			"name": "ipa-client-samba",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
@@ -269,12 +269,12 @@
 			"version": "4.10.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ceeb894b2021d53e1c0a956f44db1257d839c0d1f782f1c10ac1dac4725ccec9",
+			"arch": "aarch64",
+			"checksum": "d9772f8d93a46c589bc93e0946934939c7ac7b5ee683ea7c873575f30a9f9439",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "ipa-client-4.10.2-5.el9_3.alma.1.ppc64le.rpm",
-			"name": "ipa-client",
+			"filename": "ipa-server-4.10.2-5.el9_3.alma.1.aarch64.rpm",
+			"name": "ipa-server",
 			"reboot_suggested": 0,
 			"release": "5.el9_3.alma.1",
 			"src": "ipa-4.10.2-5.el9_3.alma.1.src.rpm",
@@ -378,5 +378,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: ipa security update",
 	"type": "security",
-	"updated_date": 1705011965
+	"updated_date": 1705011964
 }

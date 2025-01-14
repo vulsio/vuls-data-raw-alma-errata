@@ -4,7 +4,7 @@
 	"issued_date": 1733356800,
 	"modules": [
 		{
-			"arch": "aarch64",
+			"arch": "ppc64le",
 			"context": "8cf767d6",
 			"name": "redis",
 			"stream": "7",
@@ -25,7 +25,7 @@
 			"version": "9050020241206140833"
 		},
 		{
-			"arch": "ppc64le",
+			"arch": "aarch64",
 			"context": "8cf767d6",
 			"name": "redis",
 			"stream": "7",
@@ -41,25 +41,12 @@
 	],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "2c114e5e77004ee28712b857f95f1006f0b12a6df95654291887750a37cca3c5",
+			"arch": "ppc64le",
+			"checksum": "0d17f256d9a4726551c85b0e501c40bb67d35c8b6dfb041fe9d21958a0a1c600",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-doc-7.2.6-1.module_el9.5.0+130+36ae7635.noarch.rpm",
-			"module": "redis:7:9050020241206140833:8cf767d6:aarch64",
-			"name": "redis-doc",
-			"reboot_suggested": 0,
-			"release": "1.module_el9.5.0+130+36ae7635",
-			"src": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.src.rpm",
-			"version": "7.2.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6778dbeca23026b39790c9587794ee1e1ade3d97d8bca1dbc836c36df9f8f1ee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-7.2.6-1.module_el9.5.0+130+36ae7635.aarch64.rpm",
-			"module": "redis:7:9050020241206140833:8cf767d6:aarch64",
+			"filename": "redis-devel-7.2.6-1.module_el9.5.0+130+36ae7635.ppc64le.rpm",
+			"module": "redis:7:9050020241206140833:8cf767d6:ppc64le",
 			"name": "redis-devel",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.5.0+130+36ae7635",
@@ -67,12 +54,25 @@
 			"version": "7.2.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "aae1bd9619606d1ba8b4ff3c0d98260030a777ff5879da9ab06bdc797f5a5b36",
+			"arch": "noarch",
+			"checksum": "2c114e5e77004ee28712b857f95f1006f0b12a6df95654291887750a37cca3c5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.aarch64.rpm",
-			"module": "redis:7:9050020241206140833:8cf767d6:aarch64",
+			"filename": "redis-doc-7.2.6-1.module_el9.5.0+130+36ae7635.noarch.rpm",
+			"module": "redis:7:9050020241206140833:8cf767d6:ppc64le",
+			"name": "redis-doc",
+			"reboot_suggested": 0,
+			"release": "1.module_el9.5.0+130+36ae7635",
+			"src": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.src.rpm",
+			"version": "7.2.6"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c40b8cec4da06c392269f974b83a2658aeeaeea02b968fa73359db6027cb2372",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.ppc64le.rpm",
+			"module": "redis:7:9050020241206140833:8cf767d6:ppc64le",
 			"name": "redis",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.5.0+130+36ae7635",
@@ -106,12 +106,12 @@
 			"version": "7.2.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0d17f256d9a4726551c85b0e501c40bb67d35c8b6dfb041fe9d21958a0a1c600",
+			"arch": "aarch64",
+			"checksum": "6778dbeca23026b39790c9587794ee1e1ade3d97d8bca1dbc836c36df9f8f1ee",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-devel-7.2.6-1.module_el9.5.0+130+36ae7635.ppc64le.rpm",
-			"module": "redis:7:9050020241206140833:8cf767d6:ppc64le",
+			"filename": "redis-devel-7.2.6-1.module_el9.5.0+130+36ae7635.aarch64.rpm",
+			"module": "redis:7:9050020241206140833:8cf767d6:aarch64",
 			"name": "redis-devel",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.5.0+130+36ae7635",
@@ -119,12 +119,12 @@
 			"version": "7.2.6"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c40b8cec4da06c392269f974b83a2658aeeaeea02b968fa73359db6027cb2372",
+			"arch": "aarch64",
+			"checksum": "aae1bd9619606d1ba8b4ff3c0d98260030a777ff5879da9ab06bdc797f5a5b36",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.ppc64le.rpm",
-			"module": "redis:7:9050020241206140833:8cf767d6:ppc64le",
+			"filename": "redis-7.2.6-1.module_el9.5.0+130+36ae7635.aarch64.rpm",
+			"module": "redis:7:9050020241206140833:8cf767d6:aarch64",
 			"name": "redis",
 			"reboot_suggested": 0,
 			"release": "1.module_el9.5.0+130+36ae7635",

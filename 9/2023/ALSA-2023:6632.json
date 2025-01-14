@@ -5,24 +5,24 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "78870bbcb3a17f520415889ed2e2874f9ec4e479b2a87b957ce7d672d3c07b49",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "shadow-utils-subid-4.9-8.el9.i686.rpm",
-			"name": "shadow-utils-subid",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "shadow-utils-4.9-8.el9.src.rpm",
-			"version": "4.9"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "23bf5c43a25b335103bedae89618438976bab5d2b3d36330bbde4b96cd30e9cb",
 			"checksum_type": "sha256",
 			"epoch": "2",
 			"filename": "shadow-utils-4.9-8.el9.x86_64.rpm",
 			"name": "shadow-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "shadow-utils-4.9-8.el9.src.rpm",
+			"version": "4.9"
+		},
+		{
+			"arch": "i686",
+			"checksum": "78870bbcb3a17f520415889ed2e2874f9ec4e479b2a87b957ce7d672d3c07b49",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "shadow-utils-subid-4.9-8.el9.i686.rpm",
+			"name": "shadow-utils-subid",
 			"reboot_suggested": 0,
 			"release": "8.el9",
 			"src": "shadow-utils-4.9-8.el9.src.rpm",
@@ -65,30 +65,6 @@
 			"version": "4.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "5e7613458d8eb96d5a0145ef3234c74df0b7b9f3eb72dd8140a602308052aa6c",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "shadow-utils-4.9-8.el9.aarch64.rpm",
-			"name": "shadow-utils",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "shadow-utils-4.9-8.el9.src.rpm",
-			"version": "4.9"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "ff5ffe0329dc04689193d648c2f18f43f4538a57fa456fcd5c152e1e6ef89832",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "shadow-utils-subid-4.9-8.el9.aarch64.rpm",
-			"name": "shadow-utils-subid",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "shadow-utils-4.9-8.el9.src.rpm",
-			"version": "4.9"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "392bf13f3c2a6cbe339ac0a977e4727f855ea1fc5c50687b026a1ba0d39b2a57",
 			"checksum_type": "sha256",
@@ -106,6 +82,30 @@
 			"checksum_type": "sha256",
 			"epoch": "2",
 			"filename": "shadow-utils-subid-4.9-8.el9.s390x.rpm",
+			"name": "shadow-utils-subid",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "shadow-utils-4.9-8.el9.src.rpm",
+			"version": "4.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5e7613458d8eb96d5a0145ef3234c74df0b7b9f3eb72dd8140a602308052aa6c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "shadow-utils-4.9-8.el9.aarch64.rpm",
+			"name": "shadow-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "shadow-utils-4.9-8.el9.src.rpm",
+			"version": "4.9"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ff5ffe0329dc04689193d648c2f18f43f4538a57fa456fcd5c152e1e6ef89832",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "shadow-utils-subid-4.9-8.el9.aarch64.rpm",
 			"name": "shadow-utils-subid",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -198,5 +198,5 @@
 	"severity": "Low",
 	"title": "Low: shadow-utils security and bug fix update",
 	"type": "security",
-	"updated_date": 1699963520
+	"updated_date": 1699963584
 }
