@@ -29,18 +29,6 @@
 			"version": "20201107"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "f282e4142f9e64540475d754ae3bed76845a102c5ab8e20dbf6b7044ba05e645",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fontforge-20201107-6.el9.s390x.rpm",
-			"name": "fontforge",
-			"reboot_suggested": 0,
-			"release": "6.el9",
-			"src": "fontforge-20201107-6.el9.src.rpm",
-			"version": "20201107"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "9fe1327a8bbcfe2e032d7ed2be50364aaa49a95a4e672c19e9c66b94147d21ad",
 			"checksum_type": "sha256",
@@ -58,6 +46,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "fontforge-20201107-6.el9.aarch64.rpm",
+			"name": "fontforge",
+			"reboot_suggested": 0,
+			"release": "6.el9",
+			"src": "fontforge-20201107-6.el9.src.rpm",
+			"version": "20201107"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f282e4142f9e64540475d754ae3bed76845a102c5ab8e20dbf6b7044ba05e645",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fontforge-20201107-6.el9.s390x.rpm",
 			"name": "fontforge",
 			"reboot_suggested": 0,
 			"release": "6.el9",
@@ -100,5 +100,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: fontforge security update",
 	"type": "security",
-	"updated_date": 1731930421
+	"updated_date": 1731930444
 }

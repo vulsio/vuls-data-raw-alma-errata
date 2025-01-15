@@ -1,0 +1,94 @@
+{
+	"description": "The rsync utility enables the users to copy and synchronize files locally or across a network. Synchronization with rsync is fast because rsync only sends the differences in files over the network instead of sending whole files. The rsync utility is also used as a mirroring tool.  \n\nSecurity Fix(es):  \n\n  * rsync: Info Leak via Uninitialized Stack Contents (CVE-2024-12085)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0324",
+	"issued_date": 1736899200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "fa7977516dd6fb920d0b41a04102678ad6fc8e3a9d3cd960a143328a67dff746",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rsync-daemon-3.2.3-20.el9_5.1.noarch.rpm",
+			"name": "rsync-daemon",
+			"reboot_suggested": 0,
+			"release": "20.el9_5.1",
+			"src": "rsync-3.2.3-20.el9_5.1.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ca0d6f44a938190f9f4f07908207376116a8184edd6664cdbdf43983ca363f66",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rsync-3.2.3-20.el9_5.1.ppc64le.rpm",
+			"name": "rsync",
+			"reboot_suggested": 0,
+			"release": "20.el9_5.1",
+			"src": "rsync-3.2.3-20.el9_5.1.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3d5bea15d5dfe5be28b25fda7d623d7a8f4571078761369c2eb37cfc7cee0dc9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rsync-3.2.3-20.el9_5.1.x86_64.rpm",
+			"name": "rsync",
+			"reboot_suggested": 0,
+			"release": "20.el9_5.1",
+			"src": "rsync-3.2.3-20.el9_5.1.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "2f994e30ce7adb427e397920fb427c96a83ccb74a0b874b9fd659b0de4dd2d2e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rsync-3.2.3-20.el9_5.1.s390x.rpm",
+			"name": "rsync",
+			"reboot_suggested": 0,
+			"release": "20.el9_5.1",
+			"src": "rsync-3.2.3-20.el9_5.1.src.rpm",
+			"version": "3.2.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "8b6a8091284ebe4d964e7a0134415b40746db6c26bbee71b52c4604dfac2c652",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "rsync-3.2.3-20.el9_5.1.aarch64.rpm",
+			"name": "rsync",
+			"reboot_suggested": 0,
+			"release": "20.el9_5.1",
+			"src": "rsync-3.2.3-20.el9_5.1.src.rpm",
+			"version": "3.2.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0324",
+			"id": "RHSA-2025:0324",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-12085",
+			"id": "CVE-2024-12085",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2330539",
+			"id": "2330539",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2025-0324.html",
+			"id": "ALSA-2025:0324",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: rsync security update",
+	"type": "security",
+	"updated_date": 1736946405
+}

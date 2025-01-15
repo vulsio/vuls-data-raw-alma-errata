@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "2431056636504759d99627ce2a22b17ee7c37f042a7717dc09b6dcc03fa2df5b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bsdtar-3.5.3-4.el9.aarch64.rpm",
+			"name": "bsdtar",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "libarchive-3.5.3-4.el9.src.rpm",
+			"version": "3.5.3"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "32f0a9e04afd2d7afb9675b4c50b598e28bdd4bf05389383cda8fd65b926f01d",
 			"checksum_type": "sha256",
@@ -29,12 +41,12 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2431056636504759d99627ce2a22b17ee7c37f042a7717dc09b6dcc03fa2df5b",
+			"arch": "ppc64le",
+			"checksum": "041d484761b8382c1f9cdc36f3decc47653c20143f30c5e1e0bd0376af1ea318",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "bsdtar-3.5.3-4.el9.aarch64.rpm",
-			"name": "bsdtar",
+			"filename": "libarchive-3.5.3-4.el9.ppc64le.rpm",
+			"name": "libarchive",
 			"reboot_suggested": 0,
 			"release": "4.el9",
 			"src": "libarchive-3.5.3-4.el9.src.rpm",
@@ -77,18 +89,6 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "041d484761b8382c1f9cdc36f3decc47653c20143f30c5e1e0bd0376af1ea318",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libarchive-3.5.3-4.el9.ppc64le.rpm",
-			"name": "libarchive",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "libarchive-3.5.3-4.el9.src.rpm",
-			"version": "3.5.3"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "c16a4f616259ab43ea1cf874eabb8c372eb37cfd0c4e45154d659300ea69b6ff",
 			"checksum_type": "sha256",
@@ -113,18 +113,6 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "i686",
-			"checksum": "55bc5c67ac2b1e247fb43a647fa7d95b148942667f9cd86bb18cc8e8906a7ddb",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libarchive-devel-3.5.3-4.el9.i686.rpm",
-			"name": "libarchive-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9",
-			"src": "libarchive-3.5.3-4.el9.src.rpm",
-			"version": "3.5.3"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "4582efa1d164a7fd8253074f803d2e11758e1f95fbacffd1538de95e47ed7adb",
 			"checksum_type": "sha256",
@@ -137,11 +125,11 @@
 			"version": "3.5.3"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "8ed49b31b4112e8c44f34864475692c034cf2b0700bd8ceb28ed3d4cff86dc9b",
+			"arch": "i686",
+			"checksum": "55bc5c67ac2b1e247fb43a647fa7d95b148942667f9cd86bb18cc8e8906a7ddb",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libarchive-devel-3.5.3-4.el9.s390x.rpm",
+			"filename": "libarchive-devel-3.5.3-4.el9.i686.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -166,6 +154,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libarchive-devel-3.5.3-4.el9.aarch64.rpm",
+			"name": "libarchive-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9",
+			"src": "libarchive-3.5.3-4.el9.src.rpm",
+			"version": "3.5.3"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8ed49b31b4112e8c44f34864475692c034cf2b0700bd8ceb28ed3d4cff86dc9b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libarchive-devel-3.5.3-4.el9.s390x.rpm",
 			"name": "libarchive-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9",
@@ -198,5 +198,5 @@
 	"severity": "Low",
 	"title": "Low: libarchive security update",
 	"type": "security",
-	"updated_date": 1683854338
+	"updated_date": 1683854339
 }
