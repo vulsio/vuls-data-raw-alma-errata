@@ -29,11 +29,11 @@
 			"version": "1.9.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "88cd967f4d67d785ee07d195a27a30dda42c56ed69289da781287ddae8189c76",
+			"arch": "x86_64",
+			"checksum": "76649070726f2d374e967764d907a360c93abfcaa804326bbdec855105abbe4c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-1.9.0-7.el9_2.alma.1.ppc64le.rpm",
+			"filename": "libvpx-1.9.0-7.el9_2.alma.1.x86_64.rpm",
 			"name": "libvpx",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.alma.1",
@@ -41,11 +41,11 @@
 			"version": "1.9.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "76649070726f2d374e967764d907a360c93abfcaa804326bbdec855105abbe4c",
+			"arch": "ppc64le",
+			"checksum": "88cd967f4d67d785ee07d195a27a30dda42c56ed69289da781287ddae8189c76",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-1.9.0-7.el9_2.alma.1.x86_64.rpm",
+			"filename": "libvpx-1.9.0-7.el9_2.alma.1.ppc64le.rpm",
 			"name": "libvpx",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.alma.1",
@@ -77,11 +77,23 @@
 			"version": "1.9.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "fcd57fa049feec8b22f53adcdd038ddc6499f4b4a9dd902f28db232f95fee1a5",
+			"arch": "aarch64",
+			"checksum": "2c273738b6876ddf72f259ec21e4d69f34ff5601c35cd8c5e4c83e18c07e4d42",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.x86_64.rpm",
+			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.aarch64.rpm",
+			"name": "libvpx-devel",
+			"reboot_suggested": 0,
+			"release": "7.el9_2.alma.1",
+			"src": "libvpx-1.9.0-7.el9_2.alma.1.src.rpm",
+			"version": "1.9.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6e7ecf0eb9613ff4b282387ae15b790e678976cd4784a2187ec3e377acffbeb2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.s390x.rpm",
 			"name": "libvpx-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.alma.1",
@@ -101,23 +113,11 @@
 			"version": "1.9.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "2c273738b6876ddf72f259ec21e4d69f34ff5601c35cd8c5e4c83e18c07e4d42",
+			"arch": "x86_64",
+			"checksum": "fcd57fa049feec8b22f53adcdd038ddc6499f4b4a9dd902f28db232f95fee1a5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.aarch64.rpm",
-			"name": "libvpx-devel",
-			"reboot_suggested": 0,
-			"release": "7.el9_2.alma.1",
-			"src": "libvpx-1.9.0-7.el9_2.alma.1.src.rpm",
-			"version": "1.9.0"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "6e7ecf0eb9613ff4b282387ae15b790e678976cd4784a2187ec3e377acffbeb2",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.s390x.rpm",
+			"filename": "libvpx-devel-1.9.0-7.el9_2.alma.1.x86_64.rpm",
 			"name": "libvpx-devel",
 			"reboot_suggested": 0,
 			"release": "7.el9_2.alma.1",

@@ -173,11 +173,11 @@
 			"version": "8.0p1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9e8f59a2ba14c15b29e64b7fd6f840c5a800a595362063578c6d7f047871a8fe",
+			"arch": "aarch64",
+			"checksum": "793fadb5d53d6b693d7ff1cf4ccf849d6ebab14ccac0cd506b7f88ee13d29a90",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-19.el8_9.2.x86_64.rpm",
+			"filename": "openssh-askpass-8.0p1-19.el8_9.2.aarch64.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "19.el8_9.2",
@@ -185,11 +185,11 @@
 			"version": "8.0p1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "793fadb5d53d6b693d7ff1cf4ccf849d6ebab14ccac0cd506b7f88ee13d29a90",
+			"arch": "x86_64",
+			"checksum": "9e8f59a2ba14c15b29e64b7fd6f840c5a800a595362063578c6d7f047871a8fe",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-19.el8_9.2.aarch64.rpm",
+			"filename": "openssh-askpass-8.0p1-19.el8_9.2.x86_64.rpm",
 			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "19.el8_9.2",
@@ -281,6 +281,18 @@
 			"version": "8.0p1"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "23ffd81cfaf69f26834e9fbb3fe2f4b1f3090e8b5eca4ba53d33aab77e871de0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openssh-askpass-8.0p1-19.el8_9.2.ppc64le.rpm",
+			"name": "openssh-askpass",
+			"reboot_suggested": 0,
+			"release": "19.el8_9.2",
+			"src": "openssh-8.0p1-19.el8_9.2.src.rpm",
+			"version": "8.0p1"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "4372aa95600584df9b139404b2d9063f589f8822162485e79b5667b0baf5bddc",
 			"checksum_type": "sha256",
@@ -359,18 +371,6 @@
 			"epoch": "0",
 			"filename": "openssh-keycat-8.0p1-19.el8_9.2.s390x.rpm",
 			"name": "openssh-keycat",
-			"reboot_suggested": 0,
-			"release": "19.el8_9.2",
-			"src": "openssh-8.0p1-19.el8_9.2.src.rpm",
-			"version": "8.0p1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "23ffd81cfaf69f26834e9fbb3fe2f4b1f3090e8b5eca4ba53d33aab77e871de0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openssh-askpass-8.0p1-19.el8_9.2.ppc64le.rpm",
-			"name": "openssh-askpass",
 			"reboot_suggested": 0,
 			"release": "19.el8_9.2",
 			"src": "openssh-8.0p1-19.el8_9.2.src.rpm",

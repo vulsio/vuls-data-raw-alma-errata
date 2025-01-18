@@ -29,11 +29,11 @@
 			"version": "2.0.15"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "106d516f195175378c4b752b59c1f2a2617ba002689864134a866274eab24655",
+			"arch": "x86_64",
+			"checksum": "26cae8b8ad41f2b001fd9ab3767d468c1bed528e995db1f177c81c9dda632cdf",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "raptor2-2.0.15-32.el9_5.ppc64le.rpm",
+			"filename": "raptor2-2.0.15-32.el9_5.x86_64.rpm",
 			"name": "raptor2",
 			"reboot_suggested": 0,
 			"release": "32.el9_5",
@@ -41,11 +41,11 @@
 			"version": "2.0.15"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "26cae8b8ad41f2b001fd9ab3767d468c1bed528e995db1f177c81c9dda632cdf",
+			"arch": "ppc64le",
+			"checksum": "106d516f195175378c4b752b59c1f2a2617ba002689864134a866274eab24655",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "raptor2-2.0.15-32.el9_5.x86_64.rpm",
+			"filename": "raptor2-2.0.15-32.el9_5.ppc64le.rpm",
 			"name": "raptor2",
 			"reboot_suggested": 0,
 			"release": "32.el9_5",
@@ -77,11 +77,23 @@
 			"version": "2.0.15"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "f527622c6cacf0dd7dad33a5d236907982c428bde35d3dc632f4a34460c87672",
+			"arch": "aarch64",
+			"checksum": "f42ce3c8279e7d332c3c457abcc7875f8d21343898a85453c7241ef244c24462",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "raptor2-devel-2.0.15-32.el9_5.x86_64.rpm",
+			"filename": "raptor2-devel-2.0.15-32.el9_5.aarch64.rpm",
+			"name": "raptor2-devel",
+			"reboot_suggested": 0,
+			"release": "32.el9_5",
+			"src": "raptor2-2.0.15-32.el9_5.src.rpm",
+			"version": "2.0.15"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f62d3142c26cb45518608dc136f64a55b40ed320e02439900fbeba80235608a4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "raptor2-devel-2.0.15-32.el9_5.s390x.rpm",
 			"name": "raptor2-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_5",
@@ -101,23 +113,11 @@
 			"version": "2.0.15"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "f42ce3c8279e7d332c3c457abcc7875f8d21343898a85453c7241ef244c24462",
+			"arch": "x86_64",
+			"checksum": "f527622c6cacf0dd7dad33a5d236907982c428bde35d3dc632f4a34460c87672",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "raptor2-devel-2.0.15-32.el9_5.aarch64.rpm",
-			"name": "raptor2-devel",
-			"reboot_suggested": 0,
-			"release": "32.el9_5",
-			"src": "raptor2-2.0.15-32.el9_5.src.rpm",
-			"version": "2.0.15"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "f62d3142c26cb45518608dc136f64a55b40ed320e02439900fbeba80235608a4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "raptor2-devel-2.0.15-32.el9_5.s390x.rpm",
+			"filename": "raptor2-devel-2.0.15-32.el9_5.x86_64.rpm",
 			"name": "raptor2-devel",
 			"reboot_suggested": 0,
 			"release": "32.el9_5",
