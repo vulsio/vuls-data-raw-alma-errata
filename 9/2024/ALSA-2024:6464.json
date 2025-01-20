@@ -29,30 +29,6 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "3e400b2b23d0060c8ceb5fd24451bbb35c941ffa2f256fcdafcbf06d79963454",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-tests-2.68.4-14.el9_4.1.aarch64.rpm",
-			"name": "glib2-tests",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "51eafde5a3122a3f530b6fa815866dc6dfeedb1d11dc7256be5bad719c8f300d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "glib2-devel-2.68.4-14.el9_4.1.aarch64.rpm",
-			"name": "glib2-devel",
-			"reboot_suggested": 0,
-			"release": "14.el9_4.1",
-			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
-			"version": "2.68.4"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "f634d5f62689c108fb80fa6cfaf6475c385062ae8805aaf5ff78e72024deffc2",
 			"checksum_type": "sha256",
@@ -71,6 +47,30 @@
 			"epoch": "0",
 			"filename": "glib2-tests-2.68.4-14.el9_4.1.x86_64.rpm",
 			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "3e400b2b23d0060c8ceb5fd24451bbb35c941ffa2f256fcdafcbf06d79963454",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-tests-2.68.4-14.el9_4.1.aarch64.rpm",
+			"name": "glib2-tests",
+			"reboot_suggested": 0,
+			"release": "14.el9_4.1",
+			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
+			"version": "2.68.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "51eafde5a3122a3f530b6fa815866dc6dfeedb1d11dc7256be5bad719c8f300d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "glib2-devel-2.68.4-14.el9_4.1.aarch64.rpm",
+			"name": "glib2-devel",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
 			"src": "glib2-2.68.4-14.el9_4.1.src.rpm",
@@ -149,11 +149,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "bdc26fdf8a8e52ba07a7468ae53259ef0a91b6a6c7fd302f07c54e44754b22f4",
+			"arch": "aarch64",
+			"checksum": "9bde32db5f34e510972d67825636c55eab3028440515b198f6ec853c8702b44c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-2.68.4-14.el9_4.1.ppc64le.rpm",
+			"filename": "glib2-2.68.4-14.el9_4.1.aarch64.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -161,11 +161,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9bde32db5f34e510972d67825636c55eab3028440515b198f6ec853c8702b44c",
+			"arch": "ppc64le",
+			"checksum": "bdc26fdf8a8e52ba07a7468ae53259ef0a91b6a6c7fd302f07c54e44754b22f4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-2.68.4-14.el9_4.1.aarch64.rpm",
+			"filename": "glib2-2.68.4-14.el9_4.1.ppc64le.rpm",
 			"name": "glib2",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -221,11 +221,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "6591fb5629927f9c6000c9259488bbe5d02a9aff1ec067d3d91b2e59d2464d7c",
+			"arch": "x86_64",
+			"checksum": "94b4efa61cdb9a279497502f7cb9acfe4703afd83a9beafeab94ed99a0faabde",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-14.el9_4.1.ppc64le.rpm",
+			"filename": "glib2-static-2.68.4-14.el9_4.1.x86_64.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",
@@ -233,11 +233,11 @@
 			"version": "2.68.4"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "94b4efa61cdb9a279497502f7cb9acfe4703afd83a9beafeab94ed99a0faabde",
+			"arch": "ppc64le",
+			"checksum": "6591fb5629927f9c6000c9259488bbe5d02a9aff1ec067d3d91b2e59d2464d7c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "glib2-static-2.68.4-14.el9_4.1.x86_64.rpm",
+			"filename": "glib2-static-2.68.4-14.el9_4.1.ppc64le.rpm",
 			"name": "glib2-static",
 			"reboot_suggested": 0,
 			"release": "14.el9_4.1",

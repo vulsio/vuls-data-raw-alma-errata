@@ -6,18 +6,6 @@
 	"packages": [
 		{
 			"arch": "i686",
-			"checksum": "5a259baf145110f07ed95bbc4df0fcedaf6e882c95803f07486d9b6226d3cec9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-1.33.0-6.el8_10.1.i686.rpm",
-			"name": "libnghttp2",
-			"reboot_suggested": 0,
-			"release": "6.el8_10.1",
-			"src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
-			"version": "1.33.0"
-		},
-		{
-			"arch": "i686",
 			"checksum": "c6a9b3973d79d1282f3125e42f3ac6dbae1a5410a3d36581732650fbf410de8e",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -29,11 +17,11 @@
 			"version": "1.33.0"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "2b4f144eac9368df26802bfa11ee7057121263401b73e4c5de2fe398a145836c",
+			"arch": "i686",
+			"checksum": "5a259baf145110f07ed95bbc4df0fcedaf6e882c95803f07486d9b6226d3cec9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libnghttp2-1.33.0-6.el8_10.1.x86_64.rpm",
+			"filename": "libnghttp2-1.33.0-6.el8_10.1.i686.rpm",
 			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "6.el8_10.1",
@@ -53,24 +41,12 @@
 			"version": "1.33.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "79368bd2997f5c266d8b1804c847cc13948ae68db2cb86ac57a83f6880d15aad",
+			"arch": "x86_64",
+			"checksum": "2b4f144eac9368df26802bfa11ee7057121263401b73e4c5de2fe398a145836c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "nghttp2-1.33.0-6.el8_10.1.aarch64.rpm",
-			"name": "nghttp2",
-			"reboot_suggested": 0,
-			"release": "6.el8_10.1",
-			"src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
-			"version": "1.33.0"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "81f0d1acf7006ee1049125535d15d9a7792b113fbafd357f78d116c0f17af7f8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libnghttp2-devel-1.33.0-6.el8_10.1.aarch64.rpm",
-			"name": "libnghttp2-devel",
+			"filename": "libnghttp2-1.33.0-6.el8_10.1.x86_64.rpm",
+			"name": "libnghttp2",
 			"reboot_suggested": 0,
 			"release": "6.el8_10.1",
 			"src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
@@ -94,6 +70,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libnghttp2-devel-1.33.0-6.el8_10.1.x86_64.rpm",
+			"name": "libnghttp2-devel",
+			"reboot_suggested": 0,
+			"release": "6.el8_10.1",
+			"src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
+			"version": "1.33.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "79368bd2997f5c266d8b1804c847cc13948ae68db2cb86ac57a83f6880d15aad",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "nghttp2-1.33.0-6.el8_10.1.aarch64.rpm",
+			"name": "nghttp2",
+			"reboot_suggested": 0,
+			"release": "6.el8_10.1",
+			"src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
+			"version": "1.33.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "81f0d1acf7006ee1049125535d15d9a7792b113fbafd357f78d116c0f17af7f8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libnghttp2-devel-1.33.0-6.el8_10.1.aarch64.rpm",
 			"name": "libnghttp2-devel",
 			"reboot_suggested": 0,
 			"release": "6.el8_10.1",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: nghttp2 security update",
 	"type": "security",
-	"updated_date": 1720007151
+	"updated_date": 1720007153
 }

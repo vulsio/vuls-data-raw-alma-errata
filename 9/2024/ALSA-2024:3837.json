@@ -17,30 +17,6 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "529886fd0edaaece46c1e3ee31a4ba096af6a5ba7e2b3e5b214f0d342bf96886",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-2.4.5-8.el9_4.aarch64.rpm",
-			"name": "389-ds-base",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "5e47a84a8732b226add7c1d7245b80273dc699a37d72a30cf96c93aff4fb57b1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-libs-2.4.5-8.el9_4.aarch64.rpm",
-			"name": "389-ds-base-libs",
-			"reboot_suggested": 0,
-			"release": "8.el9_4",
-			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "8589fbaeff803fdd82376b3116b5b23ddc0bd70f4730ff80f07e844c78b0f799",
 			"checksum_type": "sha256",
@@ -59,6 +35,30 @@
 			"epoch": "0",
 			"filename": "389-ds-base-2.4.5-8.el9_4.x86_64.rpm",
 			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "529886fd0edaaece46c1e3ee31a4ba096af6a5ba7e2b3e5b214f0d342bf96886",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-8.el9_4.aarch64.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "8.el9_4",
+			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5e47a84a8732b226add7c1d7245b80273dc699a37d72a30cf96c93aff4fb57b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-8.el9_4.aarch64.rpm",
+			"name": "389-ds-base-libs",
 			"reboot_suggested": 0,
 			"release": "8.el9_4",
 			"src": "389-ds-base-2.4.5-8.el9_4.src.rpm",
@@ -137,11 +137,11 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "9a7baba9fbee59a744a7f1ac2e65d3f56b44ab6333c46451e37d7da96057906c",
+			"arch": "x86_64",
+			"checksum": "812c9b72d1e358437a2255567e38772b87b0164d1e79dba3bdf2f7c67bb43ba2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-8.el9_4.ppc64le.rpm",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.x86_64.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9_4",
@@ -149,11 +149,11 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "812c9b72d1e358437a2255567e38772b87b0164d1e79dba3bdf2f7c67bb43ba2",
+			"arch": "ppc64le",
+			"checksum": "9a7baba9fbee59a744a7f1ac2e65d3f56b44ab6333c46451e37d7da96057906c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-8.el9_4.x86_64.rpm",
+			"filename": "389-ds-base-devel-2.4.5-8.el9_4.ppc64le.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9_4",

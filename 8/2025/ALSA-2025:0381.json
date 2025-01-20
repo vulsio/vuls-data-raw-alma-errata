@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "697d7c06f78eac1c9b2c66178f9bb4e1236461912e55b931a42eff6d01a388a9",
+			"arch": "x86_64",
+			"checksum": "8c53a33e87df251130c20ad4dae237ab96e2787399a0824b83462c5d0580be7e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.112-1.el8_10.aarch64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.112-1.el8_10.x86_64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -17,11 +17,11 @@
 			"version": "8.0.112"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "8c53a33e87df251130c20ad4dae237ab96e2787399a0824b83462c5d0580be7e",
+			"arch": "aarch64",
+			"checksum": "697d7c06f78eac1c9b2c66178f9bb4e1236461912e55b931a42eff6d01a388a9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.112-1.el8_10.x86_64.rpm",
+			"filename": "dotnet-sdk-8.0-source-built-artifacts-8.0.112-1.el8_10.aarch64.rpm",
 			"name": "dotnet-sdk-8.0-source-built-artifacts",
 			"reboot_suggested": 0,
 			"release": "1.el8_10",
@@ -462,6 +462,30 @@
 		},
 		{
 			"arch": "s390x",
+			"checksum": "86123e0553e9959abc19fb17a971d764e40f1b978a87f4ff80c00c2c7367fb0b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-sdk-dbg-8.0-8.0.112-1.el8_10.s390x.rpm",
+			"name": "dotnet-sdk-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "dotnet8.0-8.0.112-1.el8_10.src.rpm",
+			"version": "8.0.112"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "e3af14403912f94c3556e51871b2c12dbaa5e603590a1d121be86bc00901dce3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "dotnet-runtime-dbg-8.0-8.0.12-1.el8_10.s390x.rpm",
+			"name": "dotnet-runtime-dbg-8.0",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "dotnet8.0-8.0.112-1.el8_10.src.rpm",
+			"version": "8.0.12"
+		},
+		{
+			"arch": "s390x",
 			"checksum": "2ab4aebe695bec1f58584e03fa4a685a51e8220755a0757ac285464023380f87",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -510,18 +534,6 @@
 		},
 		{
 			"arch": "s390x",
-			"checksum": "86123e0553e9959abc19fb17a971d764e40f1b978a87f4ff80c00c2c7367fb0b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-sdk-dbg-8.0-8.0.112-1.el8_10.s390x.rpm",
-			"name": "dotnet-sdk-dbg-8.0",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "dotnet8.0-8.0.112-1.el8_10.src.rpm",
-			"version": "8.0.112"
-		},
-		{
-			"arch": "s390x",
 			"checksum": "903e28d3ebde80bd51fbdfbedcf29724a06853047201ac40dd0f73e2217268a2",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -555,18 +567,6 @@
 			"release": "1.el8_10",
 			"src": "dotnet8.0-8.0.112-1.el8_10.src.rpm",
 			"version": "8.0.112"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "e3af14403912f94c3556e51871b2c12dbaa5e603590a1d121be86bc00901dce3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "dotnet-runtime-dbg-8.0-8.0.12-1.el8_10.s390x.rpm",
-			"name": "dotnet-runtime-dbg-8.0",
-			"reboot_suggested": 0,
-			"release": "1.el8_10",
-			"src": "dotnet8.0-8.0.112-1.el8_10.src.rpm",
-			"version": "8.0.12"
 		},
 		{
 			"arch": "s390x",
