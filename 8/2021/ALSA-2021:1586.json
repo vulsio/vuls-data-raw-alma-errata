@@ -5,18 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gamin-0.1.10-32.el8.aarch64.rpm",
-			"name": "gamin",
-			"reboot_suggested": 0,
-			"release": "32.el8",
-			"src": "gamin-0.1.10-32.el8.src.rpm",
-			"version": "0.1.10"
-		},
-		{
 			"arch": "i686",
 			"checksum": "0157b1149658e254ae11a71a394d847afc6a343383e8b6f822975f8da8784699",
 			"checksum_type": "sha256",
@@ -1626,6 +1614,18 @@
 		},
 		{
 			"arch": "aarch64",
+			"checksum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gamin-0.1.10-32.el8.aarch64.rpm",
+			"name": "gamin",
+			"reboot_suggested": 0,
+			"release": "32.el8",
+			"src": "gamin-0.1.10-32.el8.src.rpm",
+			"version": "0.1.10"
+		},
+		{
+			"arch": "aarch64",
 			"checksum": "0082ea838821076b4b4b90739fb82045ffe0e05afdc5261da152c3fc09644dc8",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -3211,11 +3211,6 @@
 	],
 	"references": [
 		{
-			"href": "https://errata.almalinux.org/8/ALSA-2021-1586.html",
-			"id": "ALSA-2021-1586",
-			"type": "self"
-		},
-		{
 			"href": "https://vulners.com/cve/CVE-2019-13012",
 			"id": "CVE-2019-13012",
 			"type": "cve"
@@ -3274,10 +3269,15 @@
 			"href": "https://vulners.com/cve/CVE-2021-30661",
 			"id": "CVE-2021-30661",
 			"type": "cve"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2021-1586.html",
+			"id": "ALSA-2021-1586",
+			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1621316107
+	"updated_date": 1636712456
 }

@@ -5,54 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "noarch",
-			"checksum": "eb0892025d08d1aeab2b137f2cbd9ae5c0ea1702eb2762ed8c2ae92d59177d7f",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "dpdk-doc-23.11-2.el9_5.noarch.rpm",
-			"name": "dpdk-doc",
-			"reboot_suggested": 0,
-			"release": "2.el9_5",
-			"src": "dpdk-23.11-2.el9_5.src.rpm",
-			"version": "23.11"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "3318de927a85997b9102c453fa8bfd4a86fa63653e1e8ade573466005c8e439c",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "dpdk-tools-23.11-2.el9_5.x86_64.rpm",
-			"name": "dpdk-tools",
-			"reboot_suggested": 0,
-			"release": "2.el9_5",
-			"src": "dpdk-23.11-2.el9_5.src.rpm",
-			"version": "23.11"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ad5f3f0dc61c6787abf94e838c52fdd9fe64204b7d090c5cc1e8ca2f47d8dda6",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "dpdk-23.11-2.el9_5.x86_64.rpm",
-			"name": "dpdk",
-			"reboot_suggested": 0,
-			"release": "2.el9_5",
-			"src": "dpdk-23.11-2.el9_5.src.rpm",
-			"version": "23.11"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "fe17b219b174fc4adbbbc158562ea66ce5329e4c83f5d489996b98792c881d48",
-			"checksum_type": "sha256",
-			"epoch": "2",
-			"filename": "dpdk-devel-23.11-2.el9_5.x86_64.rpm",
-			"name": "dpdk-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_5",
-			"src": "dpdk-23.11-2.el9_5.src.rpm",
-			"version": "23.11"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "0dd6932116a74f9e6f2235afa235fa0519cd935e4bcd0e74d1c9e7c10d387ba6",
 			"checksum_type": "sha256",
@@ -83,6 +35,18 @@
 			"epoch": "2",
 			"filename": "dpdk-23.11-2.el9_5.aarch64.rpm",
 			"name": "dpdk",
+			"reboot_suggested": 0,
+			"release": "2.el9_5",
+			"src": "dpdk-23.11-2.el9_5.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "eb0892025d08d1aeab2b137f2cbd9ae5c0ea1702eb2762ed8c2ae92d59177d7f",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "dpdk-doc-23.11-2.el9_5.noarch.rpm",
+			"name": "dpdk-doc",
 			"reboot_suggested": 0,
 			"release": "2.el9_5",
 			"src": "dpdk-23.11-2.el9_5.src.rpm",
@@ -123,6 +87,42 @@
 			"release": "2.el9_5",
 			"src": "dpdk-23.11-2.el9_5.src.rpm",
 			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3318de927a85997b9102c453fa8bfd4a86fa63653e1e8ade573466005c8e439c",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "dpdk-tools-23.11-2.el9_5.x86_64.rpm",
+			"name": "dpdk-tools",
+			"reboot_suggested": 0,
+			"release": "2.el9_5",
+			"src": "dpdk-23.11-2.el9_5.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ad5f3f0dc61c6787abf94e838c52fdd9fe64204b7d090c5cc1e8ca2f47d8dda6",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "dpdk-23.11-2.el9_5.x86_64.rpm",
+			"name": "dpdk",
+			"reboot_suggested": 0,
+			"release": "2.el9_5",
+			"src": "dpdk-23.11-2.el9_5.src.rpm",
+			"version": "23.11"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "fe17b219b174fc4adbbbc158562ea66ce5329e4c83f5d489996b98792c881d48",
+			"checksum_type": "sha256",
+			"epoch": "2",
+			"filename": "dpdk-devel-23.11-2.el9_5.x86_64.rpm",
+			"name": "dpdk-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_5",
+			"src": "dpdk-23.11-2.el9_5.src.rpm",
+			"version": "23.11"
 		}
 	],
 	"references": [
@@ -150,5 +150,5 @@
 	"severity": "Important",
 	"title": "Important: dpdk security update",
 	"type": "security",
-	"updated_date": 1736513279
+	"updated_date": 1736513281
 }

@@ -66,6 +66,18 @@
 		},
 		{
 			"arch": "x86_64",
+			"checksum": "9920be18159ff1e05157bf7df8c411df4c84215952d466830452c8757f7e9753",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-kvm-4.18.0-553.5.1.rt7.346.el8_10.x86_64.rpm",
+			"name": "kernel-rt-kvm",
+			"reboot_suggested": 0,
+			"release": "553.5.1.rt7.346.el8_10",
+			"src": "kernel-rt-4.18.0-553.5.1.rt7.346.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "a17b0d453aeb2057c85793c25b083c25eac3f3bda1c9daca66e26562363c156c",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -119,18 +131,6 @@
 			"epoch": "0",
 			"filename": "kernel-rt-debug-modules-extra-4.18.0-553.5.1.rt7.346.el8_10.x86_64.rpm",
 			"name": "kernel-rt-debug-modules-extra",
-			"reboot_suggested": 0,
-			"release": "553.5.1.rt7.346.el8_10",
-			"src": "kernel-rt-4.18.0-553.5.1.rt7.346.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "9920be18159ff1e05157bf7df8c411df4c84215952d466830452c8757f7e9753",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-kvm-4.18.0-553.5.1.rt7.346.el8_10.x86_64.rpm",
-			"name": "kernel-rt-kvm",
 			"reboot_suggested": 0,
 			"release": "553.5.1.rt7.346.el8_10",
 			"src": "kernel-rt-4.18.0-553.5.1.rt7.346.el8_10.src.rpm",
@@ -694,5 +694,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: kernel-rt security and bug fix update",
 	"type": "security",
-	"updated_date": 1717612604
+	"updated_date": 1717612605
 }

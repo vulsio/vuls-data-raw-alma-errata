@@ -5,30 +5,6 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "x86_64",
-			"checksum": "3a1c61965f7ad843105aa6af4a734f0b10ced2f7a4554c082555f186bdfcd5c4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-0.0.99.5-5.el9.x86_64.rpm",
-			"name": "toolbox",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "toolbox-0.0.99.5-5.el9.src.rpm",
-			"version": "0.0.99.5"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "bb356c3bd0c7fd0317e354d9e276577eb46bc76052e866e5dc77955105b370f9",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "toolbox-tests-0.0.99.5-5.el9.x86_64.rpm",
-			"name": "toolbox-tests",
-			"reboot_suggested": 0,
-			"release": "5.el9",
-			"src": "toolbox-0.0.99.5-5.el9.src.rpm",
-			"version": "0.0.99.5"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "3383d6b33d4ce3b41baae4cb52db248774f7355e15bc080eb64cfc2d56f967bd",
 			"checksum_type": "sha256",
@@ -70,6 +46,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "toolbox-tests-0.0.99.5-5.el9.ppc64le.rpm",
+			"name": "toolbox-tests",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "toolbox-0.0.99.5-5.el9.src.rpm",
+			"version": "0.0.99.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3a1c61965f7ad843105aa6af4a734f0b10ced2f7a4554c082555f186bdfcd5c4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-0.0.99.5-5.el9.x86_64.rpm",
+			"name": "toolbox",
+			"reboot_suggested": 0,
+			"release": "5.el9",
+			"src": "toolbox-0.0.99.5-5.el9.src.rpm",
+			"version": "0.0.99.5"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "bb356c3bd0c7fd0317e354d9e276577eb46bc76052e866e5dc77955105b370f9",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "toolbox-tests-0.0.99.5-5.el9.x86_64.rpm",
 			"name": "toolbox-tests",
 			"reboot_suggested": 0,
 			"release": "5.el9",
@@ -156,5 +156,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: toolbox security update",
 	"type": "security",
-	"updated_date": 1731930429
+	"updated_date": 1731930430
 }
