@@ -1,0 +1,277 @@
+{
+	"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: Integer overflow in the Redis HRANDFIELD and ZRANDMEMBER commands may lead to denial-of-service (CVE-2023-22458)\n  * redis: Integer overflow in the Redis SETRANGE and SORT/SORT_RO commands may result with false OOM panic (CVE-2022-35977)\n  * redis: Specially crafted SRANDMEMBER, ZRANDMEMBER, and HRANDFIELD commands can trigger an integer overflow (CVE-2022-36021)\n  * redis: String matching commands (like SCAN or KEYS) with a specially crafted pattern to trigger a denial-of-service attack (CVE-2023-25155)\n  * redis: Insufficient validation of HINCRBYFLOAT command (CVE-2023-28856)\n  * redis: heap overflow in the lua cjson and cmsgpack libraries (CVE-2022-24834)\n  * redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n  * redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n  * redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n  * redis: Redis' Lua library commands may lead to remote code execution (CVE-2024-46981)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0595",
+	"issued_date": 1737504000,
+	"modules": [
+		{
+			"arch": "i686",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8100020250122103005"
+		},
+		{
+			"arch": "aarch64",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8100020250122103005"
+		},
+		{
+			"arch": "x86_64",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8100020250122103005"
+		},
+		{
+			"arch": "ppc64le",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8100020250122103005"
+		},
+		{
+			"arch": "s390x",
+			"context": "9edba152",
+			"name": "redis",
+			"stream": "6",
+			"version": "8100020250122103005"
+		}
+	],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "f15138be6567e2c02b4d9d8fec75a985deec0ce9660df5551e4d9ae1e3eaa93f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-doc-6.2.17-1.module_el8.10.0+3946+3de613d5.noarch.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:i686",
+			"name": "redis-doc",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0ca1fc636a8ec567dd9a326e76b4308e2d3f5552a19dd06b354684e3720bcdb4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:aarch64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "cef31bcdf721351f44a7464a81a3f1ed768c566b37b0ba5e4f5a8b96ea7a0165",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:aarch64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "0218d184bb069a166d284b55a52605fe3759245718e1ac4e427ebfa68da9a9a3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.x86_64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:x86_64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ef60a23ea4a5933947fc638aa6c5c38744052093f3b3b84900e14d97c3aa242c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.x86_64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:x86_64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b1765030438d184823da6f51a050c96740e6e1a6a72a6e3d939afa2365112ad8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.ppc64le.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:ppc64le",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dff328dc9e707e23adb2e9ecc55feaffc427fd55feeaed6a68b8cc36b61c70fc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.ppc64le.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:ppc64le",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "0c7180bb9a9be5a2244b56777ec60b2500c6110a3c025d55c19ffcb7a4b58975",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.s390x.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:s390x",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6f31efde5740b66cfd3830d6771e6141a80697d8e62762d00ddfee3bfd26f4cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.s390x.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:s390x",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0595",
+			"id": "RHSA-2025:0595",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-24834",
+			"id": "CVE-2022-24834",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-35977",
+			"id": "CVE-2022-35977",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-36021",
+			"id": "CVE-2022-36021",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-22458",
+			"id": "CVE-2023-22458",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-25155",
+			"id": "CVE-2023-25155",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-28856",
+			"id": "CVE-2023-28856",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45145",
+			"id": "CVE-2023-45145",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31228",
+			"id": "CVE-2024-31228",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31449",
+			"id": "CVE-2024-31449",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-46981",
+			"id": "CVE-2024-46981",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2163132",
+			"id": "2163132",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2163133",
+			"id": "2163133",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2174305",
+			"id": "2174305",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2174306",
+			"id": "2174306",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2187525",
+			"id": "2187525",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2221662",
+			"id": "2221662",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2244940",
+			"id": "2244940",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2317056",
+			"id": "2317056",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2317058",
+			"id": "2317058",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336004",
+			"id": "2336004",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0595.html",
+			"id": "ALSA-2025:0595",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: redis:6 security update",
+	"type": "security",
+	"updated_date": 1737587940
+}
