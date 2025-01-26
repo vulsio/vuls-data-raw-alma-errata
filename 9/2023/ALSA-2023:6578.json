@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "55acbc425afdc9e850dd5590a97de77096e0e54e2836927756e9f76c514ac455",
+			"arch": "i686",
+			"checksum": "01ef5c9e6939a1374d422b157f1c824ff06e89c5ddc4c855ae364f1de033cc0e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-2.0.6-4.el9_3.aarch64.rpm",
+			"filename": "libqb-2.0.6-4.el9_3.i686.rpm",
 			"name": "libqb",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -29,11 +29,11 @@
 			"version": "2.0.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "01ef5c9e6939a1374d422b157f1c824ff06e89c5ddc4c855ae364f1de033cc0e",
+			"arch": "aarch64",
+			"checksum": "55acbc425afdc9e850dd5590a97de77096e0e54e2836927756e9f76c514ac455",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libqb-2.0.6-4.el9_3.i686.rpm",
+			"filename": "libqb-2.0.6-4.el9_3.aarch64.rpm",
 			"name": "libqb",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -77,6 +77,18 @@
 			"version": "2.0.6"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "6c9dcf587d2b35da1c94dbea64b102fbe38252d8f50e218585008aa0fab64115",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libqb-devel-2.0.6-4.el9_3.x86_64.rpm",
+			"name": "libqb-devel",
+			"reboot_suggested": 0,
+			"release": "4.el9_3",
+			"src": "libqb-2.0.6-4.el9_3.src.rpm",
+			"version": "2.0.6"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "255c83f1fc9096c65fa2b0880513e9e3421b336c8a84a634195b34eed14f5f27",
 			"checksum_type": "sha256",
@@ -94,18 +106,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libqb-devel-2.0.6-4.el9_3.ppc64le.rpm",
-			"name": "libqb-devel",
-			"reboot_suggested": 0,
-			"release": "4.el9_3",
-			"src": "libqb-2.0.6-4.el9_3.src.rpm",
-			"version": "2.0.6"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6c9dcf587d2b35da1c94dbea64b102fbe38252d8f50e218585008aa0fab64115",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libqb-devel-2.0.6-4.el9_3.x86_64.rpm",
 			"name": "libqb-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_3",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libqb security update",
 	"type": "security",
-	"updated_date": 1699963517
+	"updated_date": 1699963544
 }

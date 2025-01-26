@@ -5,11 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "5daf39d16c5f8458ff5848fdff93afa458fcf7238848a65fa3a206da4b440ee2",
+			"arch": "i686",
+			"checksum": "32e4aa7821533fbd5288c51e0122f8f8546501adc00c0b0b4ade247353e2e927",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-3.el9_5.1.aarch64.rpm",
+			"filename": "expat-devel-2.5.0-3.el9_5.1.i686.rpm",
 			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
@@ -29,11 +29,11 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "32e4aa7821533fbd5288c51e0122f8f8546501adc00c0b0b4ade247353e2e927",
+			"arch": "aarch64",
+			"checksum": "5daf39d16c5f8458ff5848fdff93afa458fcf7238848a65fa3a206da4b440ee2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-3.el9_5.1.i686.rpm",
+			"filename": "expat-devel-2.5.0-3.el9_5.1.aarch64.rpm",
 			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
@@ -53,24 +53,12 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "63765fcf4d72c9aa663c7ae0a743d5dba47b61bdfc4496b7a7d99bad90e8bbf2",
+			"arch": "s390x",
+			"checksum": "7ca308228a8d85f9447f3897cca6b0f3b60b060cc27745e0d5390798e229d059",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-2.5.0-3.el9_5.1.ppc64le.rpm",
-			"name": "expat",
-			"reboot_suggested": 0,
-			"release": "3.el9_5.1",
-			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
-			"version": "2.5.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "481ec409834355039546de36ec40ac3858c808f333428a4d1d6ffc02891f8eca",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "expat-2.5.0-3.el9_5.1.x86_64.rpm",
-			"name": "expat",
+			"filename": "expat-devel-2.5.0-3.el9_5.1.s390x.rpm",
+			"name": "expat-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
 			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
@@ -82,6 +70,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "expat-2.5.0-3.el9_5.1.i686.rpm",
+			"name": "expat",
+			"reboot_suggested": 0,
+			"release": "3.el9_5.1",
+			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
+			"version": "2.5.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "63765fcf4d72c9aa663c7ae0a743d5dba47b61bdfc4496b7a7d99bad90e8bbf2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "expat-2.5.0-3.el9_5.1.ppc64le.rpm",
 			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
@@ -101,12 +101,12 @@
 			"version": "2.5.0"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "7ca308228a8d85f9447f3897cca6b0f3b60b060cc27745e0d5390798e229d059",
+			"arch": "x86_64",
+			"checksum": "481ec409834355039546de36ec40ac3858c808f333428a4d1d6ffc02891f8eca",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "expat-devel-2.5.0-3.el9_5.1.s390x.rpm",
-			"name": "expat-devel",
+			"filename": "expat-2.5.0-3.el9_5.1.x86_64.rpm",
+			"name": "expat",
 			"reboot_suggested": 0,
 			"release": "3.el9_5.1",
 			"src": "expat-2.5.0-3.el9_5.1.src.rpm",
@@ -150,5 +150,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: expat security update",
 	"type": "security",
-	"updated_date": 1731930426
+	"updated_date": 1731930425
 }

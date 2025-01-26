@@ -5,35 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "7bfcff4873ae506bd7fe9f234358e4540b4199cc70d4d1ce9437b50ef768245a",
+			"arch": "i686",
+			"checksum": "04bc161ebf79dab1518ebb9be5f5528ef46ddaec3190953a67439cbf1aeef462",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-2.42.5-1.el9.aarch64.rpm",
-			"name": "webkit2gtk3",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
-			"version": "2.42.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a0b12450a6ff51782a3d9582347152776d7a4efb56e56c336f240b6b3807ab06",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "webkit2gtk3-devel-2.42.5-1.el9.aarch64.rpm",
-			"name": "webkit2gtk3-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
-			"version": "2.42.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "a4cb016753defdc4418d656ffb7ccd8d63b7c7942c780beaec6c86675f88df61",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "webkit2gtk3-jsc-2.42.5-1.el9.aarch64.rpm",
+			"filename": "webkit2gtk3-jsc-2.42.5-1.el9.i686.rpm",
 			"name": "webkit2gtk3-jsc",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -41,11 +17,35 @@
 			"version": "2.42.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "b4de4ebafbd441ba233e3a8458672dc65caf9552ead109a78f0ed4647da73fca",
+			"arch": "i686",
+			"checksum": "813898782743768ff62325fe88181afe9111c6e45f9a615bdc0f87dc90cf3ded",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-jsc-devel-2.42.5-1.el9.aarch64.rpm",
+			"filename": "webkit2gtk3-devel-2.42.5-1.el9.i686.rpm",
+			"name": "webkit2gtk3-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
+			"version": "2.42.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "86188ff858a29e34c898b319872cbc9e49366f200655df983b23dcbd2ab4fd87",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "webkit2gtk3-2.42.5-1.el9.i686.rpm",
+			"name": "webkit2gtk3",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
+			"version": "2.42.5"
+		},
+		{
+			"arch": "i686",
+			"checksum": "9cf1890eb1f359668901237231d895d4d64ef4580b00a21f6174c09e57ef9398",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "webkit2gtk3-jsc-devel-2.42.5-1.el9.i686.rpm",
 			"name": "webkit2gtk3-jsc-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -101,35 +101,11 @@
 			"version": "2.42.5"
 		},
 		{
-			"arch": "i686",
-			"checksum": "04bc161ebf79dab1518ebb9be5f5528ef46ddaec3190953a67439cbf1aeef462",
+			"arch": "aarch64",
+			"checksum": "7bfcff4873ae506bd7fe9f234358e4540b4199cc70d4d1ce9437b50ef768245a",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-jsc-2.42.5-1.el9.i686.rpm",
-			"name": "webkit2gtk3-jsc",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
-			"version": "2.42.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "813898782743768ff62325fe88181afe9111c6e45f9a615bdc0f87dc90cf3ded",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "webkit2gtk3-devel-2.42.5-1.el9.i686.rpm",
-			"name": "webkit2gtk3-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
-			"version": "2.42.5"
-		},
-		{
-			"arch": "i686",
-			"checksum": "86188ff858a29e34c898b319872cbc9e49366f200655df983b23dcbd2ab4fd87",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "webkit2gtk3-2.42.5-1.el9.i686.rpm",
+			"filename": "webkit2gtk3-2.42.5-1.el9.aarch64.rpm",
 			"name": "webkit2gtk3",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -137,11 +113,35 @@
 			"version": "2.42.5"
 		},
 		{
-			"arch": "i686",
-			"checksum": "9cf1890eb1f359668901237231d895d4d64ef4580b00a21f6174c09e57ef9398",
+			"arch": "aarch64",
+			"checksum": "a0b12450a6ff51782a3d9582347152776d7a4efb56e56c336f240b6b3807ab06",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "webkit2gtk3-jsc-devel-2.42.5-1.el9.i686.rpm",
+			"filename": "webkit2gtk3-devel-2.42.5-1.el9.aarch64.rpm",
+			"name": "webkit2gtk3-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
+			"version": "2.42.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "a4cb016753defdc4418d656ffb7ccd8d63b7c7942c780beaec6c86675f88df61",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "webkit2gtk3-jsc-2.42.5-1.el9.aarch64.rpm",
+			"name": "webkit2gtk3-jsc",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "webkit2gtk3-2.42.5-1.el9.src.rpm",
+			"version": "2.42.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b4de4ebafbd441ba233e3a8458672dc65caf9552ead109a78f0ed4647da73fca",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "webkit2gtk3-jsc-devel-2.42.5-1.el9.aarch64.rpm",
 			"name": "webkit2gtk3-jsc-devel",
 			"reboot_suggested": 0,
 			"release": "1.el9",
@@ -360,5 +360,5 @@
 	"severity": "Important",
 	"title": "Important: webkit2gtk3 security update",
 	"type": "security",
-	"updated_date": 1715093821
+	"updated_date": 1715093820
 }

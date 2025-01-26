@@ -5,23 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "5237ceab6c07e174ddbf866246a00599327c97d80ac160a1b25b6ad936a97ee5",
+			"arch": "i686",
+			"checksum": "15e5ebf735eef9a556d6478717f848186a1b254178e11005f973c26f0a04c9dd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-2.42.6-4.el9_4.aarch64.rpm",
-			"name": "gdk-pixbuf2",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
-			"version": "2.42.6"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "5bdde299e76d24d4da680acc0a0a1af3faa8397447597379514dafcd1d60d097",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-devel-2.42.6-4.el9_4.aarch64.rpm",
+			"filename": "gdk-pixbuf2-devel-2.42.6-4.el9_4.i686.rpm",
 			"name": "gdk-pixbuf2-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
@@ -29,12 +17,24 @@
 			"version": "2.42.6"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "b7a9b1bf48274240bb7f892ab6da6f504effb8392e63fbfae751ffb79849c9b9",
+			"arch": "i686",
+			"checksum": "2bc014c25b7c1c06138adfbb61018620b5e964e8fc1e229860e61faa4f4551ac",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-modules-2.42.6-4.el9_4.aarch64.rpm",
+			"filename": "gdk-pixbuf2-modules-2.42.6-4.el9_4.i686.rpm",
 			"name": "gdk-pixbuf2-modules",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "i686",
+			"checksum": "60fb2b6876bdb04a6d67c5459470e4ff83b24316e21ede16becb3af0e281061f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-2.42.6-4.el9_4.i686.rpm",
+			"name": "gdk-pixbuf2",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
 			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
@@ -77,11 +77,23 @@
 			"version": "2.42.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "15e5ebf735eef9a556d6478717f848186a1b254178e11005f973c26f0a04c9dd",
+			"arch": "aarch64",
+			"checksum": "5237ceab6c07e174ddbf866246a00599327c97d80ac160a1b25b6ad936a97ee5",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-devel-2.42.6-4.el9_4.i686.rpm",
+			"filename": "gdk-pixbuf2-2.42.6-4.el9_4.aarch64.rpm",
+			"name": "gdk-pixbuf2",
+			"reboot_suggested": 0,
+			"release": "4.el9_4",
+			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
+			"version": "2.42.6"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "5bdde299e76d24d4da680acc0a0a1af3faa8397447597379514dafcd1d60d097",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "gdk-pixbuf2-devel-2.42.6-4.el9_4.aarch64.rpm",
 			"name": "gdk-pixbuf2-devel",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
@@ -89,24 +101,12 @@
 			"version": "2.42.6"
 		},
 		{
-			"arch": "i686",
-			"checksum": "2bc014c25b7c1c06138adfbb61018620b5e964e8fc1e229860e61faa4f4551ac",
+			"arch": "aarch64",
+			"checksum": "b7a9b1bf48274240bb7f892ab6da6f504effb8392e63fbfae751ffb79849c9b9",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "gdk-pixbuf2-modules-2.42.6-4.el9_4.i686.rpm",
+			"filename": "gdk-pixbuf2-modules-2.42.6-4.el9_4.aarch64.rpm",
 			"name": "gdk-pixbuf2-modules",
-			"reboot_suggested": 0,
-			"release": "4.el9_4",
-			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
-			"version": "2.42.6"
-		},
-		{
-			"arch": "i686",
-			"checksum": "60fb2b6876bdb04a6d67c5459470e4ff83b24316e21ede16becb3af0e281061f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "gdk-pixbuf2-2.42.6-4.el9_4.i686.rpm",
-			"name": "gdk-pixbuf2",
 			"reboot_suggested": 0,
 			"release": "4.el9_4",
 			"src": "gdk-pixbuf2-2.42.6-4.el9_4.src.rpm",
@@ -210,5 +210,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: gdk-pixbuf2 security update",
 	"type": "security",
-	"updated_date": 1718284803
+	"updated_date": 1718284804
 }

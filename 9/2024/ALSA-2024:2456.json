@@ -5,6 +5,54 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "1b0e6216aa285ff2b09fde2a5789e456445a8e73d0ed0a93df0949d84fc9139c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-pc-modules-2.06-77.el9.alma.1.noarch.rpm",
+			"name": "grub2-pc-modules",
+			"reboot_suggested": 0,
+			"release": "77.el9.alma.1",
+			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "d4419dc59c9f40d93a8a87c55f39e347002dc9ed3f1185cdea105f7a31fe102d",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-efi-x64-modules-2.06-77.el9.alma.1.noarch.rpm",
+			"name": "grub2-efi-x64-modules",
+			"reboot_suggested": 0,
+			"release": "77.el9.alma.1",
+			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "e5ac6ac43c2b18b57fa6bf70a0141c5dbadc0eb7f808cad0545b973d75184232",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-efi-aa64-modules-2.06-77.el9.alma.1.noarch.rpm",
+			"name": "grub2-efi-aa64-modules",
+			"reboot_suggested": 0,
+			"release": "77.el9.alma.1",
+			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
+			"arch": "noarch",
+			"checksum": "fd4804f9aabf9ab0aa42432b26d96c2a942ebbfd80c9ea052e867d50d260cf5c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "grub2-common-2.06-77.el9.alma.1.noarch.rpm",
+			"name": "grub2-common",
+			"reboot_suggested": 0,
+			"release": "77.el9.alma.1",
+			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
+			"version": "2.06"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "13524748a9d5766e2b71c5267b18a5cb1bc9fe31116f19dfb792fe84c11700d6",
 			"checksum_type": "sha256",
@@ -53,60 +101,12 @@
 			"version": "2.06"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "d4419dc59c9f40d93a8a87c55f39e347002dc9ed3f1185cdea105f7a31fe102d",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-efi-x64-modules-2.06-77.el9.alma.1.noarch.rpm",
-			"name": "grub2-efi-x64-modules",
-			"reboot_suggested": 0,
-			"release": "77.el9.alma.1",
-			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "e5ac6ac43c2b18b57fa6bf70a0141c5dbadc0eb7f808cad0545b973d75184232",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-efi-aa64-modules-2.06-77.el9.alma.1.noarch.rpm",
-			"name": "grub2-efi-aa64-modules",
-			"reboot_suggested": 0,
-			"release": "77.el9.alma.1",
-			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "e750b61e2bd5269c34ac2eebeb9c9c8030c635f6aa65b70d4453a4803d355729",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "grub2-tools-minimal-2.06-77.el9.alma.1.ppc64le.rpm",
 			"name": "grub2-tools-minimal",
-			"reboot_suggested": 0,
-			"release": "77.el9.alma.1",
-			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "fd4804f9aabf9ab0aa42432b26d96c2a942ebbfd80c9ea052e867d50d260cf5c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-common-2.06-77.el9.alma.1.noarch.rpm",
-			"name": "grub2-common",
-			"reboot_suggested": 0,
-			"release": "77.el9.alma.1",
-			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
-			"version": "2.06"
-		},
-		{
-			"arch": "noarch",
-			"checksum": "1b0e6216aa285ff2b09fde2a5789e456445a8e73d0ed0a93df0949d84fc9139c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "grub2-pc-modules-2.06-77.el9.alma.1.noarch.rpm",
-			"name": "grub2-pc-modules",
 			"reboot_suggested": 0,
 			"release": "77.el9.alma.1",
 			"src": "grub2-2.06-77.el9.alma.1.src.rpm",
@@ -302,5 +302,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: grub2 security update",
 	"type": "security",
-	"updated_date": 1715094464
+	"updated_date": 1715094456
 }

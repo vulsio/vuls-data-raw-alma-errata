@@ -1,0 +1,82 @@
+{
+	"description": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.  \n\nSecurity Fix(es):  \n\n  * git-lfs: Git LFS permits exfiltration of credentials via crafted HTTP URLs (CVE-2024-53263)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0673",
+	"issued_date": 1737590400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "ppc64le",
+			"checksum": "32b0ef9becbb0bb6b5e4688a2c31d9cc07340579ae803a24411ab81cbfbf17b6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "git-lfs-3.4.1-4.el9_5.ppc64le.rpm",
+			"name": "git-lfs",
+			"reboot_suggested": 0,
+			"release": "4.el9_5",
+			"src": "git-lfs-3.4.1-4.el9_5.src.rpm",
+			"version": "3.4.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "54408b326c5b943bffa1c31c7b37f986dd10187481e5cc5df8214cf40fe6229a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "git-lfs-3.4.1-4.el9_5.aarch64.rpm",
+			"name": "git-lfs",
+			"reboot_suggested": 0,
+			"release": "4.el9_5",
+			"src": "git-lfs-3.4.1-4.el9_5.src.rpm",
+			"version": "3.4.1"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "4bcc8e9a5fb31b492ec2ba09cb413146a306566e92dd6c87ac50c5c4b3958e76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "git-lfs-3.4.1-4.el9_5.x86_64.rpm",
+			"name": "git-lfs",
+			"reboot_suggested": 0,
+			"release": "4.el9_5",
+			"src": "git-lfs-3.4.1-4.el9_5.src.rpm",
+			"version": "3.4.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "c622a750909e25dc8534945fbc8004f7cefe5a3a05e51988d0d9efc88996536a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "git-lfs-3.4.1-4.el9_5.s390x.rpm",
+			"name": "git-lfs",
+			"reboot_suggested": 0,
+			"release": "4.el9_5",
+			"src": "git-lfs-3.4.1-4.el9_5.src.rpm",
+			"version": "3.4.1"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0673",
+			"id": "RHSA-2025:0673",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-53263",
+			"id": "CVE-2024-53263",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2338002",
+			"id": "2338002",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2025-0673.html",
+			"id": "ALSA-2025:0673",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: git-lfs security update",
+	"type": "security",
+	"updated_date": 1737713381
+}

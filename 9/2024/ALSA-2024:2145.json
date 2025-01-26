@@ -5,12 +5,12 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "95073b4303b735c3bf14811e1d68199a296768df3c6dd1aa60c6a1c5e7900abd",
+			"arch": "i686",
+			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-1.7.0-9.el9.aarch64.rpm",
-			"name": "libX11",
+			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
+			"name": "libX11-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -29,24 +29,24 @@
 			"version": "1.7.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "a6a06a5d237066863b4e793dcd60170332ccf9d9cdd113c1c3cbda1c1efd3f69",
+			"arch": "i686",
+			"checksum": "c8907ab5dd52193ff9973f5676a90c7ba957df9cd5109f2577a4e7b1fcbe120d",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-xcb-1.7.0-9.el9.aarch64.rpm",
-			"name": "libX11-xcb",
+			"filename": "libX11-1.7.0-9.el9.i686.rpm",
+			"name": "libX11",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
 			"version": "1.7.0"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "cedf0083cfc850b8a9acc6055e608e624cdcf2a5fc5ef5ef5a717d9054158df6",
+			"arch": "i686",
+			"checksum": "cb78fed074b20d07924fe2bb82a9707002da44c34e2e4a29ccb53594da9e27f8",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.aarch64.rpm",
-			"name": "libX11-devel",
+			"filename": "libX11-xcb-1.7.0-9.el9.i686.rpm",
+			"name": "libX11-xcb",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -89,23 +89,11 @@
 			"version": "1.7.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "28c33f59aa1ff42444d4ff617a1547acf63432d999089f2b42de52338d78f4cc",
+			"arch": "aarch64",
+			"checksum": "95073b4303b735c3bf14811e1d68199a296768df3c6dd1aa60c6a1c5e7900abd",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-devel-1.7.0-9.el9.i686.rpm",
-			"name": "libX11-devel",
-			"reboot_suggested": 0,
-			"release": "9.el9",
-			"src": "libX11-1.7.0-9.el9.src.rpm",
-			"version": "1.7.0"
-		},
-		{
-			"arch": "i686",
-			"checksum": "c8907ab5dd52193ff9973f5676a90c7ba957df9cd5109f2577a4e7b1fcbe120d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-1.7.0-9.el9.i686.rpm",
+			"filename": "libX11-1.7.0-9.el9.aarch64.rpm",
 			"name": "libX11",
 			"reboot_suggested": 0,
 			"release": "9.el9",
@@ -113,12 +101,24 @@
 			"version": "1.7.0"
 		},
 		{
-			"arch": "i686",
-			"checksum": "cb78fed074b20d07924fe2bb82a9707002da44c34e2e4a29ccb53594da9e27f8",
+			"arch": "aarch64",
+			"checksum": "a6a06a5d237066863b4e793dcd60170332ccf9d9cdd113c1c3cbda1c1efd3f69",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libX11-xcb-1.7.0-9.el9.i686.rpm",
+			"filename": "libX11-xcb-1.7.0-9.el9.aarch64.rpm",
 			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "9.el9",
+			"src": "libX11-1.7.0-9.el9.src.rpm",
+			"version": "1.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "cedf0083cfc850b8a9acc6055e608e624cdcf2a5fc5ef5ef5a717d9054158df6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.7.0-9.el9.aarch64.rpm",
+			"name": "libX11-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9",
 			"src": "libX11-1.7.0-9.el9.src.rpm",
@@ -242,5 +242,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: libX11 security update",
 	"type": "security",
-	"updated_date": 1715094306
+	"updated_date": 1715094333
 }

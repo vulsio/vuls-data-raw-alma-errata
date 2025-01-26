@@ -5,23 +5,11 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "aarch64",
-			"checksum": "3074401940f5827c815068f02ee17cdf05f477a10b33d8378b5c0418f823b8ea",
+			"arch": "i686",
+			"checksum": "3703134baa83ba39550e285b8ae7de38271b79a4c1d8b237b516df4bf86f35f2",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-docs-1.5.1-21.el9_5.aarch64.rpm",
-			"name": "pam-docs",
-			"reboot_suggested": 0,
-			"release": "21.el9_5",
-			"src": "pam-1.5.1-21.el9_5.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "aec43fc7c829a54b5c8ff1d3eaf3db3cd9a4e6254c1405e3d9d271b06e6bdbf1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-devel-1.5.1-21.el9_5.aarch64.rpm",
+			"filename": "pam-devel-1.5.1-21.el9_5.i686.rpm",
 			"name": "pam-devel",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -53,11 +41,23 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "i686",
-			"checksum": "3703134baa83ba39550e285b8ae7de38271b79a4c1d8b237b516df4bf86f35f2",
+			"arch": "aarch64",
+			"checksum": "3074401940f5827c815068f02ee17cdf05f477a10b33d8378b5c0418f823b8ea",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-devel-1.5.1-21.el9_5.i686.rpm",
+			"filename": "pam-docs-1.5.1-21.el9_5.aarch64.rpm",
+			"name": "pam-docs",
+			"reboot_suggested": 0,
+			"release": "21.el9_5",
+			"src": "pam-1.5.1-21.el9_5.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "aec43fc7c829a54b5c8ff1d3eaf3db3cd9a4e6254c1405e3d9d271b06e6bdbf1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-devel-1.5.1-21.el9_5.aarch64.rpm",
 			"name": "pam-devel",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -89,12 +89,24 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "48eee587601f83701e4b5df3b531c9297b472e0e9913c1259509a9450e6a9559",
+			"arch": "s390x",
+			"checksum": "3381d41ae9a7894d09e15d3395a00931a9b15ecda3086eca21a96aa907d50ea1",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-1.5.1-21.el9_5.ppc64le.rpm",
-			"name": "pam",
+			"filename": "pam-devel-1.5.1-21.el9_5.s390x.rpm",
+			"name": "pam-devel",
+			"reboot_suggested": 0,
+			"release": "21.el9_5",
+			"src": "pam-1.5.1-21.el9_5.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8982e7a9335c60e602851d5d9f217a41e7436d227e2e86030f327f77ab18876c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-docs-1.5.1-21.el9_5.s390x.rpm",
+			"name": "pam-docs",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
 			"src": "pam-1.5.1-21.el9_5.src.rpm",
@@ -113,11 +125,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "d353cd21aad9a596c0defb8be833c7507cc68c2ec23082801776f86ce2bc968c",
+			"arch": "ppc64le",
+			"checksum": "48eee587601f83701e4b5df3b531c9297b472e0e9913c1259509a9450e6a9559",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-1.5.1-21.el9_5.x86_64.rpm",
+			"filename": "pam-1.5.1-21.el9_5.ppc64le.rpm",
 			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -137,24 +149,12 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "3381d41ae9a7894d09e15d3395a00931a9b15ecda3086eca21a96aa907d50ea1",
+			"arch": "x86_64",
+			"checksum": "d353cd21aad9a596c0defb8be833c7507cc68c2ec23082801776f86ce2bc968c",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-devel-1.5.1-21.el9_5.s390x.rpm",
-			"name": "pam-devel",
-			"reboot_suggested": 0,
-			"release": "21.el9_5",
-			"src": "pam-1.5.1-21.el9_5.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "s390x",
-			"checksum": "8982e7a9335c60e602851d5d9f217a41e7436d227e2e86030f327f77ab18876c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-docs-1.5.1-21.el9_5.s390x.rpm",
-			"name": "pam-docs",
+			"filename": "pam-1.5.1-21.el9_5.x86_64.rpm",
+			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
 			"src": "pam-1.5.1-21.el9_5.src.rpm",
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: pam security update",
 	"type": "security",
-	"updated_date": 1734951039
+	"updated_date": 1734951038
 }

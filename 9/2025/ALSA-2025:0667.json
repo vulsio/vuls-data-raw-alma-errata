@@ -1,0 +1,46 @@
+{
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * jinja2: Jinja has a sandbox breakout through indirect reference to format method (CVE-2024-56326)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0667",
+	"issued_date": 1737590400,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "b37b28e722e1a428ce39b57bf09f41fe44038131bc485aa035e29d46da13d10c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-jinja2-2.11.3-7.el9_5.noarch.rpm",
+			"name": "python3-jinja2",
+			"reboot_suggested": 0,
+			"release": "7.el9_5",
+			"src": "python-jinja2-2.11.3-7.el9_5.src.rpm",
+			"version": "2.11.3"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0667",
+			"id": "RHSA-2025:0667",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-56326",
+			"id": "CVE-2024-56326",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2333856",
+			"id": "2333856",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2025-0667.html",
+			"id": "ALSA-2025:0667",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: python-jinja2 security update",
+	"type": "security",
+	"updated_date": 1737713490
+}
