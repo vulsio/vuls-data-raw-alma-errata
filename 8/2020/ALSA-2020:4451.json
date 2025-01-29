@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "aarch64",
+			"checksum": "1755f74cac2c3d6d41999e0f8499f81734101eb667adaec49960ab39c2650d26",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsoup-2.62.3-2.el8.aarch64.rpm",
+			"name": "libsoup",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "libsoup-2.62.3-2.el8.src.rpm",
+			"version": "2.62.3"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6dcb81cf36a5cdbd090b96e570cd78f654c572874396ab782da1d3e4ffc783b1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-gobject-base-3.28.3-2.el8.aarch64.rpm",
+			"name": "python3-gobject-base",
+			"reboot_suggested": 0,
+			"release": "2.el8",
+			"src": "pygobject3-3.28.3-2.el8.src.rpm",
+			"version": "3.28.3"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "03b27b468de041dede27ba2eb4ca50c7b0ca32c4c134a3f930ed92f2c5ab56d0",
 			"checksum_type": "sha256",
@@ -714,30 +738,6 @@
 		},
 		{
 			"arch": "aarch64",
-			"checksum": "1755f74cac2c3d6d41999e0f8499f81734101eb667adaec49960ab39c2650d26",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsoup-2.62.3-2.el8.aarch64.rpm",
-			"name": "libsoup",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "libsoup-2.62.3-2.el8.src.rpm",
-			"version": "2.62.3"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "6dcb81cf36a5cdbd090b96e570cd78f654c572874396ab782da1d3e4ffc783b1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-gobject-base-3.28.3-2.el8.aarch64.rpm",
-			"name": "python3-gobject-base",
-			"reboot_suggested": 0,
-			"release": "2.el8",
-			"src": "pygobject3-3.28.3-2.el8.src.rpm",
-			"version": "3.28.3"
-		},
-		{
-			"arch": "aarch64",
 			"checksum": "0830fd94c3a73990234b7f3b4b82e696be25e3d8d9b29c7d428de47fad00f9a2",
 			"checksum_type": "sha256",
 			"epoch": "0",
@@ -1435,6 +1435,11 @@
 	],
 	"references": [
 		{
+			"href": "https://errata.almalinux.org/8/ALSA-2020-4451.html",
+			"id": "ALSA-2020-4451",
+			"type": "self"
+		},
+		{
 			"href": "https://vulners.com/cve/CVE-2019-8625",
 			"id": "CVE-2019-8625",
 			"type": "cve"
@@ -1718,15 +1723,10 @@
 			"href": "https://vulners.com/cve/CVE-2021-30762",
 			"id": "CVE-2021-30762",
 			"type": "cve"
-		},
-		{
-			"href": "https://errata.almalinux.org/8/ALSA-2020-4451.html",
-			"id": "ALSA-2020-4451",
-			"type": "self"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: GNOME security, bug fix, and enhancement update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1604431895
 }
