@@ -17,30 +17,6 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "055958bf5a45e96c45ad33e993dc886a8d700b6a9634635af2b4524147663b28",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-docs-1.5.1-21.el9_5.ppc64le.rpm",
-			"name": "pam-docs",
-			"reboot_suggested": 0,
-			"release": "21.el9_5",
-			"src": "pam-1.5.1-21.el9_5.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "71e06919b3da41aaedd6fd52bf34f686b7043aa6d13ce96343dca871039e208c",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-devel-1.5.1-21.el9_5.ppc64le.rpm",
-			"name": "pam-devel",
-			"reboot_suggested": 0,
-			"release": "21.el9_5",
-			"src": "pam-1.5.1-21.el9_5.src.rpm",
-			"version": "1.5.1"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "3074401940f5827c815068f02ee17cdf05f477a10b33d8378b5c0418f823b8ea",
 			"checksum_type": "sha256",
@@ -58,6 +34,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pam-devel-1.5.1-21.el9_5.aarch64.rpm",
+			"name": "pam-devel",
+			"reboot_suggested": 0,
+			"release": "21.el9_5",
+			"src": "pam-1.5.1-21.el9_5.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "055958bf5a45e96c45ad33e993dc886a8d700b6a9634635af2b4524147663b28",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-docs-1.5.1-21.el9_5.ppc64le.rpm",
+			"name": "pam-docs",
+			"reboot_suggested": 0,
+			"release": "21.el9_5",
+			"src": "pam-1.5.1-21.el9_5.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "71e06919b3da41aaedd6fd52bf34f686b7043aa6d13ce96343dca871039e208c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-devel-1.5.1-21.el9_5.ppc64le.rpm",
 			"name": "pam-devel",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -125,11 +125,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "48eee587601f83701e4b5df3b531c9297b472e0e9913c1259509a9450e6a9559",
+			"arch": "aarch64",
+			"checksum": "ca2998d95c60ea337446b509fa4e065a0bb26340be88dc1b523509d9e8c73993",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-1.5.1-21.el9_5.ppc64le.rpm",
+			"filename": "pam-1.5.1-21.el9_5.aarch64.rpm",
 			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -137,11 +137,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "56752b5dbf675982a96e881dcd47b2b0526a0ba82f279f819615c65ddb5e9ded",
+			"arch": "ppc64le",
+			"checksum": "48eee587601f83701e4b5df3b531c9297b472e0e9913c1259509a9450e6a9559",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-1.5.1-21.el9_5.s390x.rpm",
+			"filename": "pam-1.5.1-21.el9_5.ppc64le.rpm",
 			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",
@@ -161,11 +161,11 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "ca2998d95c60ea337446b509fa4e065a0bb26340be88dc1b523509d9e8c73993",
+			"arch": "s390x",
+			"checksum": "56752b5dbf675982a96e881dcd47b2b0526a0ba82f279f819615c65ddb5e9ded",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "pam-1.5.1-21.el9_5.aarch64.rpm",
+			"filename": "pam-1.5.1-21.el9_5.s390x.rpm",
 			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "21.el9_5",

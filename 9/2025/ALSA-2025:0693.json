@@ -1,0 +1,194 @@
+{
+	"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.  \n\nSecurity Fix(es):  \n\n  * redis: heap overflow in the lua cjson and cmsgpack libraries (CVE-2022-24834)\n  * redis: possible bypass of Unix socket permissions on startup (CVE-2023-45145)\n  * redis: Lua library commands may lead to stack overflow and RCE in Redis (CVE-2024-31449)\n  * redis: Denial-of-service due to unbounded pattern matching in Redis (CVE-2024-31228)\n  * redis: Redis' Lua library commands may lead to remote code execution (CVE-2024-46981)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0693",
+	"issued_date": 1737936000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "noarch",
+			"checksum": "54c3cc22155c670b53674226da0b9dfa7cb677202584e77e691154b3c4c9c697",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-doc-6.2.17-1.el9_5.noarch.rpm",
+			"name": "redis-doc",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "i686",
+			"checksum": "d96735a0cd672ff4e813b06cff923110a5a20369ae7baacf0fc2abe9324e260a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.el9_5.i686.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "7ac38721311bc5285e1fa72a8a5dc2312f0564168bde48c5826977e0705d5dfe",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.el9_5.aarch64.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "90cbb48608c063e67d0b4041b64df6d168d17010c59c5a1a055e000f18783580",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.el9_5.aarch64.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "b77295a706b2182c75564a48419c2b11d555a34f2edc41b399a7f38698843d35",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.el9_5.ppc64le.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f0e34c1e087db601f873ee7e2dc0a9d041db0eb4f5311c6d447575d8d106a2cc",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.el9_5.ppc64le.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "3add823940c4f1b72fa4de24d035be5eba9aac0d5c2e86b10553d1604004e77c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.el9_5.x86_64.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "e7a27bb700f47c63faafdf50db56ea7164d3223c8420a790b6c83b896ae4c214",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.el9_5.x86_64.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "82d3e8639efe4036c70e10fc1e4ecbd5fcdd55351eadcbfcd8d0625ea29dc83f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.el9_5.s390x.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "8961213bb15d278bb5c1d30256c8d3dfe22a4fc2cbdb6fbecd97e93ae676f6e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.el9_5.s390x.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "redis-6.2.17-1.el9_5.src.rpm",
+			"version": "6.2.17"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0693",
+			"id": "RHSA-2025:0693",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2022-24834",
+			"id": "CVE-2022-24834",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2023-45145",
+			"id": "CVE-2023-45145",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31228",
+			"id": "CVE-2024-31228",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-31449",
+			"id": "CVE-2024-31449",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-46981",
+			"id": "CVE-2024-46981",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2221662",
+			"id": "2221662",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2244940",
+			"id": "2244940",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2317056",
+			"id": "2317056",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2317058",
+			"id": "2317058",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2336004",
+			"id": "2336004",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/9/ALSA-2025-0693.html",
+			"id": "ALSA-2025:0693",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: redis security update",
+	"type": "security",
+	"updated_date": 1738149414
+}
