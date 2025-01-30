@@ -53,6 +53,42 @@
 			"version": "1.12.9"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "008ed562c082fc9385f6891d6394e35c82f40a7d93b927fc8f9f2093250c500e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-libs-1.12.9-3.el9_5.x86_64.rpm",
+			"name": "flatpak-libs",
+			"reboot_suggested": 0,
+			"release": "3.el9_5",
+			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "6332e580f9f25743881307b27569e30de563fed54e228669a2998b802ac32a76",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-session-helper-1.12.9-3.el9_5.x86_64.rpm",
+			"name": "flatpak-session-helper",
+			"reboot_suggested": 0,
+			"release": "3.el9_5",
+			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
+			"version": "1.12.9"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "b4aa84355f1cfd3e980e36f75b019341f23063083eccebe4d174fac2f5f069c7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "flatpak-1.12.9-3.el9_5.x86_64.rpm",
+			"name": "flatpak",
+			"reboot_suggested": 0,
+			"release": "3.el9_5",
+			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
+			"version": "1.12.9"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "038f775c8d6a44e4ff79bdccd1d99417be816bc0166f7ecd7b085f096d9f3011",
 			"checksum_type": "sha256",
@@ -125,40 +161,28 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "008ed562c082fc9385f6891d6394e35c82f40a7d93b927fc8f9f2093250c500e",
+			"arch": "ppc64le",
+			"checksum": "43d8e1c7de05ed1d6440c0d404602f8bf9f7f781ea030e1dd28c18a35208c6dc",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-libs-1.12.9-3.el9_5.x86_64.rpm",
-			"name": "flatpak-libs",
+			"filename": "bubblewrap-0.4.1-8.el9_5.ppc64le.rpm",
+			"name": "bubblewrap",
 			"reboot_suggested": 0,
-			"release": "3.el9_5",
-			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
-			"version": "1.12.9"
+			"release": "8.el9_5",
+			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
+			"version": "0.4.1"
 		},
 		{
 			"arch": "x86_64",
-			"checksum": "6332e580f9f25743881307b27569e30de563fed54e228669a2998b802ac32a76",
+			"checksum": "e7aa3d43f61e3e1d58942a530dff2f86c1e32848705711334f3ad434dcb705aa",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-session-helper-1.12.9-3.el9_5.x86_64.rpm",
-			"name": "flatpak-session-helper",
+			"filename": "bubblewrap-0.4.1-8.el9_5.x86_64.rpm",
+			"name": "bubblewrap",
 			"reboot_suggested": 0,
-			"release": "3.el9_5",
-			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
-			"version": "1.12.9"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "b4aa84355f1cfd3e980e36f75b019341f23063083eccebe4d174fac2f5f069c7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "flatpak-1.12.9-3.el9_5.x86_64.rpm",
-			"name": "flatpak",
-			"reboot_suggested": 0,
-			"release": "3.el9_5",
-			"src": "flatpak-1.12.9-3.el9_5.src.rpm",
-			"version": "1.12.9"
+			"release": "8.el9_5",
+			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
+			"version": "0.4.1"
 		},
 		{
 			"arch": "s390x",
@@ -197,47 +221,23 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e92adf2b4ae78bfbce0f3ec2d1deadd7023eb255c6c1e220bd5bef748598ae3b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bubblewrap-0.4.1-8.el9_5.aarch64.rpm",
-			"name": "bubblewrap",
-			"reboot_suggested": 0,
-			"release": "8.el9_5",
-			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
-			"version": "0.4.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "43d8e1c7de05ed1d6440c0d404602f8bf9f7f781ea030e1dd28c18a35208c6dc",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bubblewrap-0.4.1-8.el9_5.ppc64le.rpm",
-			"name": "bubblewrap",
-			"reboot_suggested": 0,
-			"release": "8.el9_5",
-			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
-			"version": "0.4.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "e7aa3d43f61e3e1d58942a530dff2f86c1e32848705711334f3ad434dcb705aa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "bubblewrap-0.4.1-8.el9_5.x86_64.rpm",
-			"name": "bubblewrap",
-			"reboot_suggested": 0,
-			"release": "8.el9_5",
-			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
-			"version": "0.4.1"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "75d55ed4baf36f93e32f70939c811d17db688efad2eac42596583636c69e513b",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "bubblewrap-0.4.1-8.el9_5.s390x.rpm",
+			"name": "bubblewrap",
+			"reboot_suggested": 0,
+			"release": "8.el9_5",
+			"src": "bubblewrap-0.4.1-8.el9_5.src.rpm",
+			"version": "0.4.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e92adf2b4ae78bfbce0f3ec2d1deadd7023eb255c6c1e220bd5bef748598ae3b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "bubblewrap-0.4.1-8.el9_5.aarch64.rpm",
 			"name": "bubblewrap",
 			"reboot_suggested": 0,
 			"release": "8.el9_5",
@@ -269,11 +269,11 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "s390x",
-			"checksum": "9e985726a1f0d54568495fa4ec69f3f5f08a5517d2b30daba97a847081c18f77",
+			"arch": "x86_64",
+			"checksum": "8caf3d648227725096cb8d85e158b3edc6fa0d3d5309a060ec7eb86b4865fd6e",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-3.el9_5.s390x.rpm",
+			"filename": "flatpak-devel-1.12.9-3.el9_5.x86_64.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5",
@@ -293,11 +293,11 @@
 			"version": "1.12.9"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "8caf3d648227725096cb8d85e158b3edc6fa0d3d5309a060ec7eb86b4865fd6e",
+			"arch": "s390x",
+			"checksum": "9e985726a1f0d54568495fa4ec69f3f5f08a5517d2b30daba97a847081c18f77",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "flatpak-devel-1.12.9-3.el9_5.x86_64.rpm",
+			"filename": "flatpak-devel-1.12.9-3.el9_5.s390x.rpm",
 			"name": "flatpak-devel",
 			"reboot_suggested": 0,
 			"release": "3.el9_5",
