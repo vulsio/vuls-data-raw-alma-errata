@@ -11,14 +11,14 @@
 			"version": "8100020250122103005"
 		},
 		{
-			"arch": "aarch64",
+			"arch": "x86_64",
 			"context": "9edba152",
 			"name": "redis",
 			"stream": "6",
 			"version": "8100020250122103005"
 		},
 		{
-			"arch": "x86_64",
+			"arch": "aarch64",
 			"context": "9edba152",
 			"name": "redis",
 			"stream": "6",
@@ -54,32 +54,6 @@
 			"version": "6.2.17"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "0ca1fc636a8ec567dd9a326e76b4308e2d3f5552a19dd06b354684e3720bcdb4",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
-			"module": "redis:6:8100020250122103005:9edba152:aarch64",
-			"name": "redis",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.10.0+3946+3de613d5",
-			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
-			"version": "6.2.17"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "cef31bcdf721351f44a7464a81a3f1ed768c566b37b0ba5e4f5a8b96ea7a0165",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
-			"module": "redis:6:8100020250122103005:9edba152:aarch64",
-			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "1.module_el8.10.0+3946+3de613d5",
-			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
-			"version": "6.2.17"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "0218d184bb069a166d284b55a52605fe3759245718e1ac4e427ebfa68da9a9a3",
 			"checksum_type": "sha256",
@@ -99,6 +73,32 @@
 			"epoch": "0",
 			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.x86_64.rpm",
 			"module": "redis:6:8100020250122103005:9edba152:x86_64",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "0ca1fc636a8ec567dd9a326e76b4308e2d3f5552a19dd06b354684e3720bcdb4",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:aarch64",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.module_el8.10.0+3946+3de613d5",
+			"src": "redis-6.2.17-1.module_el8.10.0+3946+3de613d5.src.rpm",
+			"version": "6.2.17"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "cef31bcdf721351f44a7464a81a3f1ed768c566b37b0ba5e4f5a8b96ea7a0165",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.17-1.module_el8.10.0+3946+3de613d5.aarch64.rpm",
+			"module": "redis:6:8100020250122103005:9edba152:aarch64",
 			"name": "redis-devel",
 			"reboot_suggested": 0,
 			"release": "1.module_el8.10.0+3946+3de613d5",

@@ -1,0 +1,260 @@
+{
+	"description": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver.   \n\nSecurity Fix(es):  \n\n  * unbound: unrestricted reconfiguration enabled to anyone that may lead to local privilege escalation (CVE-2024-1488)\n  * unbound: Unbounded name compression could lead to Denial of Service (CVE-2024-8508)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:0837",
+	"issued_date": 1738195200,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "i686",
+			"checksum": "89fddbdd7a2c5ea46592f17d63ef954facc65b3d30459ce6c0abfb7d9054c870",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-5.8.el8_10.i686.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "b297b3d28fa6564aab563d741854a309ff25a72f60f1268a1d2f8af628abe706",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-5.8.el8_10.i686.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "119e960ae45ac6bb70f9343147a00adce1b7e3259639b638ac3d9dc042cd4ebf",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-5.8.el8_10.x86_64.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "8588c5e8c286ecb9f6bf558658256860117ab2ec10040c892febc69c33056d5c",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-5.8.el8_10.x86_64.rpm",
+			"name": "python3-unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "892d21a36ea5aa2510a2c24e1229717604d6c40d7804e711890ddb09e36eb7e8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-5.8.el8_10.x86_64.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c59e954cf9072737be3346f9a18de26be49703cfdcd60d780842d400fc56675e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-5.8.el8_10.x86_64.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "19e41203ea17ae4db05dff208114e957dc2e9224ea6de454f21a1b66a2327ba0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-5.8.el8_10.aarch64.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "2ae73109e52b1aec2941c7a188478ef52d7576dd259ff92e013d7a39efd893cd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-5.8.el8_10.aarch64.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "ee0d72c4d65d615adb0643c13c5d7c8c3701ea8b327ce68c16398a0a0921ed4f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-5.8.el8_10.aarch64.rpm",
+			"name": "python3-unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f1e2ca7c4ab816513b6dde9284871eca4d712707aec61e5bd6f557995a4c3137",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-5.8.el8_10.aarch64.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "41a11c9c33d43f571a5d73c9493e47e7d0fc5b189e7d64aec13079d99afdaa9a",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-5.8.el8_10.ppc64le.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a3a8eef5a2ccd9779bd5f350d8b81aea7ecb9ec5b0c9dea222edb0d9d8983baa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-5.8.el8_10.ppc64le.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a4edd55bd60e94fb7f47ba4472e7b0f6061e7a19db5aa9a61751739ae210e768",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-5.8.el8_10.ppc64le.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ac0ea2d7dae4e26bac055dbba6c13d3d7ae1fbc8290e851f1330a9af28497d21",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-5.8.el8_10.ppc64le.rpm",
+			"name": "python3-unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "4204445400749cd2c4412a8384035171d979bf7491062fd732daa44d2ae7006b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-libs-1.16.2-5.8.el8_10.s390x.rpm",
+			"name": "unbound-libs",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "6fb6cd870e86cae75f42a24e7b117a2135d111d205ec1139324d949d69a34cce",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-unbound-1.16.2-5.8.el8_10.s390x.rpm",
+			"name": "python3-unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "786ea9d8c6e30ed11263b2ccc846d6898657ba8f7fa5df203ea9b2d0e65c2e1f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-1.16.2-5.8.el8_10.s390x.rpm",
+			"name": "unbound",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "b0a967745a2e1725cd0ef42241cb175db45a78426598218f16570b33390463bd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "unbound-devel-1.16.2-5.8.el8_10.s390x.rpm",
+			"name": "unbound-devel",
+			"reboot_suggested": 0,
+			"release": "5.8.el8_10",
+			"src": "unbound-1.16.2-5.8.el8_10.src.rpm",
+			"version": "1.16.2"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:0837",
+			"id": "RHSA-2025:0837",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-1488",
+			"id": "CVE-2024-1488",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2024-8508",
+			"id": "CVE-2024-8508",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2264183",
+			"id": "2264183",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2316321",
+			"id": "2316321",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-0837.html",
+			"id": "ALSA-2025:0837",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: unbound security update",
+	"type": "security",
+	"updated_date": 1738322535
+}
