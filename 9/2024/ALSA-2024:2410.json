@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "3525f39070e8224be2f4bea7aa6ac7190b42d2feebefba8f19ae2a087c27dd95",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "harfbuzz-icu-2.7.4-10.el9.ppc64le.rpm",
+			"name": "harfbuzz-icu",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
+			"version": "2.7.4"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9b02224ff81ab1e0490495305952e06edb82a0c4ec67d82fc0b1d919f12cc816",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "harfbuzz-devel-2.7.4-10.el9.ppc64le.rpm",
+			"name": "harfbuzz-devel",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
+			"version": "2.7.4"
+		},
+		{
 			"arch": "i686",
 			"checksum": "0495b17b3ffd18013d8e12b89cbb83cb2affd697cc48bb3918e8996da8e80fe5",
 			"checksum_type": "sha256",
@@ -77,30 +101,6 @@
 			"version": "2.7.4"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "3525f39070e8224be2f4bea7aa6ac7190b42d2feebefba8f19ae2a087c27dd95",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "harfbuzz-icu-2.7.4-10.el9.ppc64le.rpm",
-			"name": "harfbuzz-icu",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
-			"version": "2.7.4"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9b02224ff81ab1e0490495305952e06edb82a0c4ec67d82fc0b1d919f12cc816",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "harfbuzz-devel-2.7.4-10.el9.ppc64le.rpm",
-			"name": "harfbuzz-devel",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
-			"version": "2.7.4"
-		},
-		{
 			"arch": "i686",
 			"checksum": "5157daf2ab0a03b403d37c60b150b8f0f866754714f81e3d96368e06a16339ce",
 			"checksum_type": "sha256",
@@ -130,6 +130,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "harfbuzz-2.7.4-10.el9.x86_64.rpm",
+			"name": "harfbuzz",
+			"reboot_suggested": 0,
+			"release": "10.el9",
+			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
+			"version": "2.7.4"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "71535647603dfec9804bf768efc41d9e2430d4457a48718e4155e367beff9ad5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "harfbuzz-2.7.4-10.el9.aarch64.rpm",
 			"name": "harfbuzz",
 			"reboot_suggested": 0,
 			"release": "10.el9",
@@ -171,18 +183,6 @@
 			"release": "10.el9",
 			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
 			"version": "2.7.4"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "71535647603dfec9804bf768efc41d9e2430d4457a48718e4155e367beff9ad5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "harfbuzz-2.7.4-10.el9.aarch64.rpm",
-			"name": "harfbuzz",
-			"reboot_suggested": 0,
-			"release": "10.el9",
-			"src": "harfbuzz-2.7.4-10.el9.src.rpm",
-			"version": "2.7.4"
 		}
 	],
 	"references": [
@@ -210,5 +210,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: harfbuzz security update",
 	"type": "security",
-	"updated_date": 1715093894
+	"updated_date": 1715093681
 }

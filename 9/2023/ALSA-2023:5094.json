@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "733288e81d7aadaf84f6fdc61033a0bee53c7ed185139a9d959e0144b0636700",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-7.2.0-14.el9_2.5.alma.1.ppc64le.rpm",
+			"name": "qemu-img",
+			"reboot_suggested": 0,
+			"release": "14.el9_2.5.alma.1",
+			"src": "qemu-kvm-7.2.0-14.el9_2.5.alma.1.src.rpm",
+			"version": "7.2.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "efe4a45a8545af11236dbbccce134d845be91bbc564261f3a96d6530737cacff",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-7.2.0-14.el9_2.5.alma.1.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "14.el9_2.5.alma.1",
+			"src": "qemu-kvm-7.2.0-14.el9_2.5.alma.1.src.rpm",
+			"version": "7.2.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0e8d8c555c2a816f80a172390814269dfa6483997ffdd3de557a89a5316dcf2e",
 			"checksum_type": "sha256",
@@ -383,30 +407,6 @@
 			"epoch": "17",
 			"filename": "qemu-kvm-block-curl-7.2.0-14.el9_2.5.alma.1.aarch64.rpm",
 			"name": "qemu-kvm-block-curl",
-			"reboot_suggested": 0,
-			"release": "14.el9_2.5.alma.1",
-			"src": "qemu-kvm-7.2.0-14.el9_2.5.alma.1.src.rpm",
-			"version": "7.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "733288e81d7aadaf84f6fdc61033a0bee53c7ed185139a9d959e0144b0636700",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-7.2.0-14.el9_2.5.alma.1.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "14.el9_2.5.alma.1",
-			"src": "qemu-kvm-7.2.0-14.el9_2.5.alma.1.src.rpm",
-			"version": "7.2.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "efe4a45a8545af11236dbbccce134d845be91bbc564261f3a96d6530737cacff",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-7.2.0-14.el9_2.5.alma.1.ppc64le.rpm",
-			"name": "qemu-guest-agent",
 			"reboot_suggested": 0,
 			"release": "14.el9_2.5.alma.1",
 			"src": "qemu-kvm-7.2.0-14.el9_2.5.alma.1.src.rpm",

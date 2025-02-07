@@ -17,6 +17,30 @@
 			"version": "6.2.7"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
+			"name": "redis-devel",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "redis-6.2.7-1.el9.src.rpm",
+			"version": "6.2.7"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "redis-6.2.7-1.el9.ppc64le.rpm",
+			"name": "redis",
+			"reboot_suggested": 0,
+			"release": "1.el9",
+			"src": "redis-6.2.7-1.el9.src.rpm",
+			"version": "6.2.7"
+		},
+		{
 			"arch": "i686",
 			"checksum": "7aa3e793576437268a42d168c4febef9a03d425b0d5375e0d73f189024e16528",
 			"checksum_type": "sha256",
@@ -71,30 +95,6 @@
 			"epoch": "0",
 			"filename": "redis-devel-6.2.7-1.el9.aarch64.rpm",
 			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "redis-6.2.7-1.el9.src.rpm",
-			"version": "6.2.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
-			"name": "redis-devel",
-			"reboot_suggested": 0,
-			"release": "1.el9",
-			"src": "redis-6.2.7-1.el9.src.rpm",
-			"version": "6.2.7"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "redis-6.2.7-1.el9.ppc64le.rpm",
-			"name": "redis",
 			"reboot_suggested": 0,
 			"release": "1.el9",
 			"src": "redis-6.2.7-1.el9.src.rpm",
@@ -160,5 +160,5 @@
 	"severity": "Low",
 	"title": "Low: redis security and bug fix update",
 	"type": "security",
-	"updated_date": 1668745089
+	"updated_date": 1668745088
 }

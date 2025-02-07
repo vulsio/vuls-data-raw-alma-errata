@@ -29,6 +29,18 @@
 			"version": "4.10.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "89e1044d6f3e22a248e22127e602a8ace638926fa9ef0a8d925a73ac6b2583ea",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-kubevirt-4.10.0-62.el9_4.5.ppc64le.rpm",
+			"name": "fence-agents-kubevirt",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.5",
+			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
+			"version": "4.10.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "bb8e86bfef0b69d3c507e075d45f573402d5a0993d7200167ee06a3de8e6c7a6",
 			"checksum_type": "sha256",
@@ -47,6 +59,18 @@
 			"epoch": "0",
 			"filename": "fence-agents-virsh-4.10.0-62.el9_4.5.noarch.rpm",
 			"name": "fence-agents-virsh",
+			"reboot_suggested": 0,
+			"release": "62.el9_4.5",
+			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
+			"version": "4.10.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ede37125ba19c787385c0bfb68d1dffd9c10015f7e51edcac842203a224e0ee3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "fence-agents-compute-4.10.0-62.el9_4.5.ppc64le.rpm",
+			"name": "fence-agents-compute",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.5",
 			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
@@ -167,30 +191,6 @@
 			"epoch": "0",
 			"filename": "fence-agents-kubevirt-4.10.0-62.el9_4.5.aarch64.rpm",
 			"name": "fence-agents-kubevirt",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.5",
-			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "89e1044d6f3e22a248e22127e602a8ace638926fa9ef0a8d925a73ac6b2583ea",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-kubevirt-4.10.0-62.el9_4.5.ppc64le.rpm",
-			"name": "fence-agents-kubevirt",
-			"reboot_suggested": 0,
-			"release": "62.el9_4.5",
-			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
-			"version": "4.10.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ede37125ba19c787385c0bfb68d1dffd9c10015f7e51edcac842203a224e0ee3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "fence-agents-compute-4.10.0-62.el9_4.5.ppc64le.rpm",
-			"name": "fence-agents-compute",
 			"reboot_suggested": 0,
 			"release": "62.el9_4.5",
 			"src": "fence-agents-4.10.0-62.el9_4.5.src.rpm",
@@ -858,5 +858,5 @@
 	"severity": "Important",
 	"title": "Important: fence-agents security update",
 	"type": "security",
-	"updated_date": 1726670808
+	"updated_date": 1726670809
 }

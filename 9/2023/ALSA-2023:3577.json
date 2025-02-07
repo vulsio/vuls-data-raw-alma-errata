@@ -4,6 +4,13 @@
 	"issued_date": 1686700800,
 	"modules": [
 		{
+			"arch": "ppc64le",
+			"context": "8cf767d6",
+			"name": "nodejs",
+			"stream": "18",
+			"version": "9020020230623091417"
+		},
+		{
 			"arch": "i686",
 			"context": "8cf767d6",
 			"name": "nodejs",
@@ -25,13 +32,6 @@
 			"version": "9020020230623091417"
 		},
 		{
-			"arch": "ppc64le",
-			"context": "8cf767d6",
-			"name": "nodejs",
-			"stream": "18",
-			"version": "9020020230623091417"
-		},
-		{
 			"arch": "s390x",
 			"context": "8cf767d6",
 			"name": "nodejs",
@@ -41,13 +41,52 @@
 	],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "081bd3ff12bc9e2f37494a2386bc1276db1d9ba1d41a8dbb3abeed8362d66299",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-full-i18n-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
+			"name": "nodejs-full-i18n",
+			"reboot_suggested": 0,
+			"release": "3.module_el9.2.0+30+e3312493",
+			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
+			"version": "18.14.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "15421f5e5bb505c7cdc95bcbc9044d2a3d2525d3916cf727fc16b9a6adf64096",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
+			"name": "nodejs",
+			"reboot_suggested": 0,
+			"release": "3.module_el9.2.0+30+e3312493",
+			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
+			"version": "18.14.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "2ad3268cdabd44f1fe5271f5aa2641b5e7eac4649848a4529d5aeaf5cf9a98fa",
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "nodejs-docs-18.14.2-3.module_el9.2.0+30+e3312493.noarch.rpm",
-			"module": "nodejs:18:9020020230511122142:8cf767d6:i686",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
 			"name": "nodejs-docs",
+			"reboot_suggested": 0,
+			"release": "3.module_el9.2.0+30+e3312493",
+			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
+			"version": "18.14.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2f59734be265dd5d80a22e33faea1cf6f0657d504895d7334d802e6f11c2cced",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "nodejs-devel-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
+			"name": "nodejs-devel",
 			"reboot_suggested": 0,
 			"release": "3.module_el9.2.0+30+e3312493",
 			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
@@ -59,7 +98,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-packaging-2021.06-4.module_el9.1.0+13+d9a595ea.noarch.rpm",
-			"module": "nodejs:18:9020020230511122142:8cf767d6:i686",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
 			"name": "nodejs-packaging",
 			"reboot_suggested": 0,
 			"release": "4.module_el9.1.0+13+d9a595ea",
@@ -72,7 +111,7 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-packaging-bundler-2021.06-4.module_el9.1.0+13+d9a595ea.noarch.rpm",
-			"module": "nodejs:18:9020020230511122142:8cf767d6:i686",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
 			"name": "nodejs-packaging-bundler",
 			"reboot_suggested": 0,
 			"release": "4.module_el9.1.0+13+d9a595ea",
@@ -80,12 +119,25 @@
 			"version": "2021.06"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "f43ea32b3824579b54870c01b49e681edc15f364b4cd50759e56c5aa6c8d7ad1",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "npm-9.5.0-1.18.14.2.3.module_el9.2.0+30+e3312493.ppc64le.rpm",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
+			"name": "npm",
+			"reboot_suggested": 0,
+			"release": "1.18.14.2.3.module_el9.2.0+30+e3312493",
+			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
+			"version": "9.5.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "f50193ade11d258bdd6c8782db590f72eaeb21799f8df9703e96ffd60644688d",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "nodejs-nodemon-2.0.20-2.module_el9.2.0+29+de583a0b.noarch.rpm",
-			"module": "nodejs:18:9020020230511122142:8cf767d6:i686",
+			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
 			"name": "nodejs-nodemon",
 			"reboot_suggested": 0,
 			"release": "2.module_el9.2.0+29+de583a0b",
@@ -197,58 +249,6 @@
 			"version": "18.14.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "081bd3ff12bc9e2f37494a2386bc1276db1d9ba1d41a8dbb3abeed8362d66299",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-full-i18n-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
-			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
-			"name": "nodejs-full-i18n",
-			"reboot_suggested": 0,
-			"release": "3.module_el9.2.0+30+e3312493",
-			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
-			"version": "18.14.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "15421f5e5bb505c7cdc95bcbc9044d2a3d2525d3916cf727fc16b9a6adf64096",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
-			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
-			"name": "nodejs",
-			"reboot_suggested": 0,
-			"release": "3.module_el9.2.0+30+e3312493",
-			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
-			"version": "18.14.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2f59734be265dd5d80a22e33faea1cf6f0657d504895d7334d802e6f11c2cced",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "nodejs-devel-18.14.2-3.module_el9.2.0+30+e3312493.ppc64le.rpm",
-			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
-			"name": "nodejs-devel",
-			"reboot_suggested": 0,
-			"release": "3.module_el9.2.0+30+e3312493",
-			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
-			"version": "18.14.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f43ea32b3824579b54870c01b49e681edc15f364b4cd50759e56c5aa6c8d7ad1",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "npm-9.5.0-1.18.14.2.3.module_el9.2.0+30+e3312493.ppc64le.rpm",
-			"module": "nodejs:18:9020020230623091417:8cf767d6:ppc64le",
-			"name": "npm",
-			"reboot_suggested": 0,
-			"release": "1.18.14.2.3.module_el9.2.0+30+e3312493",
-			"src": "nodejs-18.14.2-3.module_el9.2.0+30+e3312493.src.rpm",
-			"version": "9.5.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "86d3bacce28dd86426bdbeff03e3e25f002c2fe6602434485b59d672bb21e584",
 			"checksum_type": "sha256",
@@ -356,5 +356,5 @@
 	"severity": "Important",
 	"title": "Important: nodejs:18 security update",
 	"type": "security",
-	"updated_date": 1687548654
+	"updated_date": 1687548655
 }

@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "98a97fb1763ee74c4b4389364755c76d847694f9599c73334dcf2d84173b67fd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-libs-3.1.1-2.el9_5.1.ppc64le.rpm",
+			"name": "openexr-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ecc7812cca4b64c536f1160381370f2f34b4a48b124f8952a5062cf1265b7d2b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-3.1.1-2.el9_5.1.ppc64le.rpm",
+			"name": "openexr",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "35b7189e3e2cbac074bf5df3bd9be585d73dfa433a0fb8550866a3d3855f9024",
 			"checksum_type": "sha256",
@@ -65,30 +89,6 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "98a97fb1763ee74c4b4389364755c76d847694f9599c73334dcf2d84173b67fd",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-libs-3.1.1-2.el9_5.1.ppc64le.rpm",
-			"name": "openexr-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ecc7812cca4b64c536f1160381370f2f34b4a48b124f8952a5062cf1265b7d2b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-3.1.1-2.el9_5.1.ppc64le.rpm",
-			"name": "openexr",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "4f4da2fa47652389e9892c13e823bc12585c59a80d6e0799c61556c7565cb71c",
 			"checksum_type": "sha256",
@@ -113,35 +113,11 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "ed05160e4fc216afe7a781f281a1cf32d60efdea2659daa6893b603a61e3e892",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_5.1.ppc64le.rpm",
-			"name": "openexr-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "bbb1f74bd1709c42f3a1775fddfed7a36a676656348fc8b0079af8213c6f0186",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "openexr-devel-3.1.1-2.el9_5.1.i686.rpm",
-			"name": "openexr-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_5.1",
-			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "03011fa397ae83fa5099e46a9e4662fee9dea503c19f5ab2c2d48eb27258cc6d",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_5.1.x86_64.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -161,11 +137,35 @@
 			"version": "3.1.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "03011fa397ae83fa5099e46a9e4662fee9dea503c19f5ab2c2d48eb27258cc6d",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-devel-3.1.1-2.el9_5.1.x86_64.rpm",
+			"name": "openexr-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "9f48e1a33828904b4dea9b8b8a2788f77f4c6cc55864fcb287c7d8bc63b4f6e9",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "openexr-devel-3.1.1-2.el9_5.1.s390x.rpm",
+			"name": "openexr-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_5.1",
+			"src": "openexr-3.1.1-2.el9_5.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ed05160e4fc216afe7a781f281a1cf32d60efdea2659daa6893b603a61e3e892",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-devel-3.1.1-2.el9_5.1.ppc64le.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_5.1",
@@ -198,5 +198,5 @@
 	"severity": "Important",
 	"title": "Important: openexr security update",
 	"type": "security",
-	"updated_date": 1731930426
+	"updated_date": 1731930456
 }

@@ -5,12 +5,36 @@
 	"modules": [],
 	"packages": [
 		{
-			"arch": "i686",
-			"checksum": "222114d44c3506a8ed83220db7fd6f88813188b2e6870658b983b66aee897eae",
+			"arch": "ppc64le",
+			"checksum": "052ca1736c1a7e8e3399977cfb6bafd75aa8ab3238680ff934960340a38d9ec8",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "cups-devel-2.3.3op2-27.el9_4.i686.rpm",
+			"filename": "cups-devel-2.3.3op2-27.el9_4.ppc64le.rpm",
 			"name": "cups-devel",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "454c2214e85a2219f4ee07c550b0853996cc20b2cebf29cceb332c88cbb70b0c",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-client-2.3.3op2-27.el9_4.ppc64le.rpm",
+			"name": "cups-client",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "5d6508beb56b257f18550dde3fa0672a8d84161e520e4e1c66a243bf264f0daa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-ipptool-2.3.3op2-27.el9_4.ppc64le.rpm",
+			"name": "cups-ipptool",
 			"reboot_suggested": 0,
 			"release": "27.el9_4",
 			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
@@ -23,6 +47,54 @@
 			"epoch": "1",
 			"filename": "cups-filesystem-2.3.3op2-27.el9_4.noarch.rpm",
 			"name": "cups-filesystem",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "8d0ca5fc60d13caddf84f1446c4a0864d60228d2dc1bbd8907b1a4a8d4c72648",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-printerapp-2.3.3op2-27.el9_4.ppc64le.rpm",
+			"name": "cups-printerapp",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c97b21c6e7135ab378d2cfa4bbc633068f38fb3339585c07b6ff763d1ebc03ff",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-2.3.3op2-27.el9_4.ppc64le.rpm",
+			"name": "cups",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fc8195fa191a05ce31ffaa4586f28d1d4e8ee3d4cea7c4f6580ba44446a678d2",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-lpd-2.3.3op2-27.el9_4.ppc64le.rpm",
+			"name": "cups-lpd",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "i686",
+			"checksum": "222114d44c3506a8ed83220db7fd6f88813188b2e6870658b983b66aee897eae",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-devel-2.3.3op2-27.el9_4.i686.rpm",
+			"name": "cups-devel",
 			"reboot_suggested": 0,
 			"release": "27.el9_4",
 			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
@@ -173,78 +245,6 @@
 			"version": "2.3.3op2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "052ca1736c1a7e8e3399977cfb6bafd75aa8ab3238680ff934960340a38d9ec8",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-devel-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups-devel",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "454c2214e85a2219f4ee07c550b0853996cc20b2cebf29cceb332c88cbb70b0c",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-client-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups-client",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "5d6508beb56b257f18550dde3fa0672a8d84161e520e4e1c66a243bf264f0daa",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-ipptool-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups-ipptool",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "8d0ca5fc60d13caddf84f1446c4a0864d60228d2dc1bbd8907b1a4a8d4c72648",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-printerapp-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups-printerapp",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c97b21c6e7135ab378d2cfa4bbc633068f38fb3339585c07b6ff763d1ebc03ff",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "fc8195fa191a05ce31ffaa4586f28d1d4e8ee3d4cea7c4f6580ba44446a678d2",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-lpd-2.3.3op2-27.el9_4.ppc64le.rpm",
-			"name": "cups-lpd",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "334b7d50e474d95cc6da4dcbb41b90b44bf660a989b423e1e13c00c38462f0d6",
 			"checksum_type": "sha256",
@@ -274,6 +274,18 @@
 			"checksum_type": "sha256",
 			"epoch": "1",
 			"filename": "cups-libs-2.3.3op2-27.el9_4.x86_64.rpm",
+			"name": "cups-libs",
+			"reboot_suggested": 0,
+			"release": "27.el9_4",
+			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
+			"version": "2.3.3op2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "506b9be5b70284ddc4e6434c1ed0bc61121282ea9ffeb90896d647168eb071aa",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "cups-libs-2.3.3op2-27.el9_4.aarch64.rpm",
 			"name": "cups-libs",
 			"reboot_suggested": 0,
 			"release": "27.el9_4",
@@ -363,18 +375,6 @@
 			"release": "27.el9_4",
 			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
 			"version": "2.3.3op2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "506b9be5b70284ddc4e6434c1ed0bc61121282ea9ffeb90896d647168eb071aa",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "cups-libs-2.3.3op2-27.el9_4.aarch64.rpm",
-			"name": "cups-libs",
-			"reboot_suggested": 0,
-			"release": "27.el9_4",
-			"src": "cups-2.3.3op2-27.el9_4.src.rpm",
-			"version": "2.3.3op2"
 		}
 	],
 	"references": [
@@ -402,5 +402,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: cups security update",
 	"type": "security",
-	"updated_date": 1721832313
+	"updated_date": 1721832334
 }

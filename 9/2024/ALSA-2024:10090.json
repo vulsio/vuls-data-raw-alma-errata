@@ -5,12 +5,60 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "013568b3392d5482f4f8cf8dabc25f38e7ffefe4c1c486a354567fafeda6ff0e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.14.1-1.el9_5.ppc64le.rpm",
+			"name": "tigervnc-server-minimal",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
+			"version": "1.14.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "374ef950ba7057a9bd9b18894b46f5f99f749f9efe76b7f0d2343216e4728945",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.14.1-1.el9_5.ppc64le.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
+			"version": "1.14.1"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "49a61a3344e8e4098d4df30e2e8aa25437cb433d2f58ddc65cfe1302368fc24a",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "tigervnc-selinux-1.14.1-1.el9_5.noarch.rpm",
 			"name": "tigervnc-selinux",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
+			"version": "1.14.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "ac89c6763e29ebc66fa52b8a12d55da8cc0dbad638103ad89cd2e4fb606608e0",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.14.1-1.el9_5.ppc64le.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "1.el9_5",
+			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
+			"version": "1.14.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "cb5cdd135929592cb397bf186b76c92ed3c4702fdec6528e79a0cb0587bd3771",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.14.1-1.el9_5.ppc64le.rpm",
+			"name": "tigervnc-server",
 			"reboot_suggested": 0,
 			"release": "1.el9_5",
 			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
@@ -137,54 +185,6 @@
 			"version": "1.14.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "013568b3392d5482f4f8cf8dabc25f38e7ffefe4c1c486a354567fafeda6ff0e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-minimal-1.14.1-1.el9_5.ppc64le.rpm",
-			"name": "tigervnc-server-minimal",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
-			"version": "1.14.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "374ef950ba7057a9bd9b18894b46f5f99f749f9efe76b7f0d2343216e4728945",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-1.14.1-1.el9_5.ppc64le.rpm",
-			"name": "tigervnc",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
-			"version": "1.14.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "ac89c6763e29ebc66fa52b8a12d55da8cc0dbad638103ad89cd2e4fb606608e0",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-module-1.14.1-1.el9_5.ppc64le.rpm",
-			"name": "tigervnc-server-module",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
-			"version": "1.14.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "cb5cdd135929592cb397bf186b76c92ed3c4702fdec6528e79a0cb0587bd3771",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-1.14.1-1.el9_5.ppc64le.rpm",
-			"name": "tigervnc-server",
-			"reboot_suggested": 0,
-			"release": "1.el9_5",
-			"src": "tigervnc-1.14.1-1.el9_5.src.rpm",
-			"version": "1.14.1"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "9912b6f49fb609ece0e46140caa7a9e279148ad4bf65c7929d99499f34be52c0",
 			"checksum_type": "sha256",
@@ -258,5 +258,5 @@
 	"severity": "Important",
 	"title": "Important: tigervnc security update",
 	"type": "security",
-	"updated_date": 1733136476
+	"updated_date": 1733136477
 }

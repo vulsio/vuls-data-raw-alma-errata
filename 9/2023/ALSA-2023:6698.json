@@ -5,12 +5,36 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "1c1c08d69f510a402bf334d1a488cf68a4c6b9174ad8d79c7e2eecce3cff72ec",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ncurses-devel-6.2-10.20210508.el9.ppc64le.rpm",
+			"name": "ncurses-devel",
+			"reboot_suggested": 0,
+			"release": "10.20210508.el9",
+			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
+			"version": "6.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "35e1bd78bb33c310be53e5163f4e464607de7423cb31515685d7239383c49596",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "ncurses-term-6.2-10.20210508.el9.noarch.rpm",
 			"name": "ncurses-term",
+			"reboot_suggested": 0,
+			"release": "10.20210508.el9",
+			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
+			"version": "6.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "fc3ff16ecf330d1802898ce71897ecff43c6f3d642581ed44dc1c91374147e0e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ncurses-c++-libs-6.2-10.20210508.el9.ppc64le.rpm",
+			"name": "ncurses-c++-libs",
 			"reboot_suggested": 0,
 			"release": "10.20210508.el9",
 			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
@@ -89,30 +113,6 @@
 			"version": "6.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "1c1c08d69f510a402bf334d1a488cf68a4c6b9174ad8d79c7e2eecce3cff72ec",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ncurses-devel-6.2-10.20210508.el9.ppc64le.rpm",
-			"name": "ncurses-devel",
-			"reboot_suggested": 0,
-			"release": "10.20210508.el9",
-			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
-			"version": "6.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "fc3ff16ecf330d1802898ce71897ecff43c6f3d642581ed44dc1c91374147e0e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ncurses-c++-libs-6.2-10.20210508.el9.ppc64le.rpm",
-			"name": "ncurses-c++-libs",
-			"reboot_suggested": 0,
-			"release": "10.20210508.el9",
-			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
-			"version": "6.2"
-		},
-		{
 			"arch": "i686",
 			"checksum": "285db6dc6f610f75ef6863dcb0a383eae394c2b33bff283189cb49ac7fae4c58",
 			"checksum_type": "sha256",
@@ -185,6 +185,30 @@
 			"version": "6.2"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "8ea472a27269d688200d9e4e31e678f8d18fa4d7097f0ae208d0e590f65b3505",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ncurses-6.2-10.20210508.el9.aarch64.rpm",
+			"name": "ncurses",
+			"reboot_suggested": 0,
+			"release": "10.20210508.el9",
+			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
+			"version": "6.2"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "b4282770dce240892644cc117585c5a27324d8deb0beba3fcf549b241e0a13c5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ncurses-libs-6.2-10.20210508.el9.aarch64.rpm",
+			"name": "ncurses-libs",
+			"reboot_suggested": 0,
+			"release": "10.20210508.el9",
+			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
+			"version": "6.2"
+		},
+		{
 			"arch": "s390x",
 			"checksum": "19f6a73969c819731b2b7e06a893a71194cde1343f288c3e5d9d82e70d25d171",
 			"checksum_type": "sha256",
@@ -227,30 +251,6 @@
 			"epoch": "0",
 			"filename": "ncurses-6.2-10.20210508.el9.s390x.rpm",
 			"name": "ncurses",
-			"reboot_suggested": 0,
-			"release": "10.20210508.el9",
-			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
-			"version": "6.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "8ea472a27269d688200d9e4e31e678f8d18fa4d7097f0ae208d0e590f65b3505",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ncurses-6.2-10.20210508.el9.aarch64.rpm",
-			"name": "ncurses",
-			"reboot_suggested": 0,
-			"release": "10.20210508.el9",
-			"src": "ncurses-6.2-10.20210508.el9.src.rpm",
-			"version": "6.2"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "b4282770dce240892644cc117585c5a27324d8deb0beba3fcf549b241e0a13c5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ncurses-libs-6.2-10.20210508.el9.aarch64.rpm",
-			"name": "ncurses-libs",
 			"reboot_suggested": 0,
 			"release": "10.20210508.el9",
 			"src": "ncurses-6.2-10.20210508.el9.src.rpm",

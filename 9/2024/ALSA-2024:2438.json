@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "b65d32ee4b21dbceaff1f6cb35b75a79d19868eb7773c4c731a5a7703a42f900",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-docs-1.5.1-19.el9.ppc64le.rpm",
+			"name": "pam-docs",
+			"reboot_suggested": 0,
+			"release": "19.el9",
+			"src": "pam-1.5.1-19.el9.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c2a853f61f6f68f423956c5cec6067c6bc5766096f0bf00b2fca6451c31d7d03",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-devel-1.5.1-19.el9.ppc64le.rpm",
+			"name": "pam-devel",
+			"reboot_suggested": 0,
+			"release": "19.el9",
+			"src": "pam-1.5.1-19.el9.src.rpm",
+			"version": "1.5.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "765d0723d2a4284fb705acf18f112516b0caec0c271c58ce210ac3241afa5724",
 			"checksum_type": "sha256",
@@ -65,30 +89,6 @@
 			"version": "1.5.1"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "b65d32ee4b21dbceaff1f6cb35b75a79d19868eb7773c4c731a5a7703a42f900",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-docs-1.5.1-19.el9.ppc64le.rpm",
-			"name": "pam-docs",
-			"reboot_suggested": 0,
-			"release": "19.el9",
-			"src": "pam-1.5.1-19.el9.src.rpm",
-			"version": "1.5.1"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c2a853f61f6f68f423956c5cec6067c6bc5766096f0bf00b2fca6451c31d7d03",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-devel-1.5.1-19.el9.ppc64le.rpm",
-			"name": "pam-devel",
-			"reboot_suggested": 0,
-			"release": "19.el9",
-			"src": "pam-1.5.1-19.el9.src.rpm",
-			"version": "1.5.1"
-		},
-		{
 			"arch": "i686",
 			"checksum": "aa43e2ef5806472f74b1f5dc15a066fbe331e4b855d5a1ad7de9059bddea763f",
 			"checksum_type": "sha256",
@@ -118,6 +118,18 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "pam-1.5.1-19.el9.x86_64.rpm",
+			"name": "pam",
+			"reboot_suggested": 0,
+			"release": "19.el9",
+			"src": "pam-1.5.1-19.el9.src.rpm",
+			"version": "1.5.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "e563af3669ca10803f787c84725be012365c7f681f23928f8514dd33fc92db41",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "pam-1.5.1-19.el9.aarch64.rpm",
 			"name": "pam",
 			"reboot_suggested": 0,
 			"release": "19.el9",
@@ -159,18 +171,6 @@
 			"release": "19.el9",
 			"src": "pam-1.5.1-19.el9.src.rpm",
 			"version": "1.5.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "e563af3669ca10803f787c84725be012365c7f681f23928f8514dd33fc92db41",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "pam-1.5.1-19.el9.aarch64.rpm",
-			"name": "pam",
-			"reboot_suggested": 0,
-			"release": "19.el9",
-			"src": "pam-1.5.1-19.el9.src.rpm",
-			"version": "1.5.1"
 		}
 	],
 	"references": [
@@ -198,5 +198,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: pam security update",
 	"type": "security",
-	"updated_date": 1715093684
+	"updated_date": 1715093685
 }

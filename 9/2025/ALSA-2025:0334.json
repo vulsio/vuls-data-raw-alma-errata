@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "0cb2b6aaeb4c9e5edfa2d72421861681c6f3e6b5920dba53e32793bcebea9837",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-server-4.12.2-1.el9_5.3.ppc64le.rpm",
+			"name": "ipa-server",
+			"reboot_suggested": 0,
+			"release": "1.el9_5.3",
+			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
+			"version": "4.12.2"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "1bccf32a24ee4e2787ffd28eb9167aefd8d578c7c34c567fbf7da594f3a0d273",
 			"checksum_type": "sha256",
@@ -47,6 +59,18 @@
 			"epoch": "0",
 			"filename": "ipa-selinux-4.12.2-1.el9_5.3.noarch.rpm",
 			"name": "ipa-selinux",
+			"reboot_suggested": 0,
+			"release": "1.el9_5.3",
+			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
+			"version": "4.12.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "69ccf901bb7ac3ce53076985de832580ff16d2470934226703936fd5c30b1896",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-samba-4.12.2-1.el9_5.3.ppc64le.rpm",
+			"name": "ipa-client-samba",
 			"reboot_suggested": 0,
 			"release": "1.el9_5.3",
 			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
@@ -119,6 +143,42 @@
 			"epoch": "0",
 			"filename": "ipa-selinux-luna-4.12.2-1.el9_5.3.noarch.rpm",
 			"name": "ipa-selinux-luna",
+			"reboot_suggested": 0,
+			"release": "1.el9_5.3",
+			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
+			"version": "4.12.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "c6584e4140a4690344e77c6a6a9f4e827384f7d46e9cfad551036446353ad8b3",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-4.12.2-1.el9_5.3.ppc64le.rpm",
+			"name": "ipa-client",
+			"reboot_suggested": 0,
+			"release": "1.el9_5.3",
+			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
+			"version": "4.12.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e7e2f38b774e2bbf98b446665e3bf85c5dae8d325c7b3e635b47930dc05e12d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-server-trust-ad-4.12.2-1.el9_5.3.ppc64le.rpm",
+			"name": "ipa-server-trust-ad",
+			"reboot_suggested": 0,
+			"release": "1.el9_5.3",
+			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
+			"version": "4.12.2"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f3f6fe3b5afe160b12bfa1bc41ad6e31838e7ebd370da9cd9ff23325be66c79e",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "ipa-client-epn-4.12.2-1.el9_5.3.ppc64le.rpm",
+			"name": "ipa-client-epn",
 			"reboot_suggested": 0,
 			"release": "1.el9_5.3",
 			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
@@ -245,66 +305,6 @@
 			"version": "4.12.2"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "0cb2b6aaeb4c9e5edfa2d72421861681c6f3e6b5920dba53e32793bcebea9837",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-server-4.12.2-1.el9_5.3.ppc64le.rpm",
-			"name": "ipa-server",
-			"reboot_suggested": 0,
-			"release": "1.el9_5.3",
-			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
-			"version": "4.12.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "69ccf901bb7ac3ce53076985de832580ff16d2470934226703936fd5c30b1896",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-samba-4.12.2-1.el9_5.3.ppc64le.rpm",
-			"name": "ipa-client-samba",
-			"reboot_suggested": 0,
-			"release": "1.el9_5.3",
-			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
-			"version": "4.12.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "c6584e4140a4690344e77c6a6a9f4e827384f7d46e9cfad551036446353ad8b3",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-4.12.2-1.el9_5.3.ppc64le.rpm",
-			"name": "ipa-client",
-			"reboot_suggested": 0,
-			"release": "1.el9_5.3",
-			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
-			"version": "4.12.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e7e2f38b774e2bbf98b446665e3bf85c5dae8d325c7b3e635b47930dc05e12d1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-server-trust-ad-4.12.2-1.el9_5.3.ppc64le.rpm",
-			"name": "ipa-server-trust-ad",
-			"reboot_suggested": 0,
-			"release": "1.el9_5.3",
-			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
-			"version": "4.12.2"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "f3f6fe3b5afe160b12bfa1bc41ad6e31838e7ebd370da9cd9ff23325be66c79e",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "ipa-client-epn-4.12.2-1.el9_5.3.ppc64le.rpm",
-			"name": "ipa-client-epn",
-			"reboot_suggested": 0,
-			"release": "1.el9_5.3",
-			"src": "ipa-4.12.2-1.el9_5.3.src.rpm",
-			"version": "4.12.2"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "2dc93b3a11b6c4410ddc6cd1bf3ce06c87455db05dfaa7a01e103347ecdca497",
 			"checksum_type": "sha256",
@@ -402,5 +402,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: ipa security update",
 	"type": "security",
-	"updated_date": 1737148700
+	"updated_date": 1737148701
 }

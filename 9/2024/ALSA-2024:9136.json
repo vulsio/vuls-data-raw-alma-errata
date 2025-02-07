@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "55c836e79d8e9609ae18f3816415744569f810a3187d5baa9823364bc1f05aa2",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-guest-agent-9.0.0-10.el9_5.ppc64le.rpm",
+			"name": "qemu-guest-agent",
+			"reboot_suggested": 0,
+			"release": "10.el9_5",
+			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
+			"version": "9.0.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "e113c2d3e5fed7ce2f1987143df12e5f0880a88763102782162d90b954efac74",
+			"checksum_type": "sha256",
+			"epoch": "17",
+			"filename": "qemu-img-9.0.0-10.el9_5.ppc64le.rpm",
+			"name": "qemu-img",
+			"reboot_suggested": 0,
+			"release": "10.el9_5",
+			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
+			"version": "9.0.0"
+		},
+		{
 			"arch": "x86_64",
 			"checksum": "0ba868411af12fa2a891d1331de4ef29a0dc3449842732d0abd0d7da5bd7f454",
 			"checksum_type": "sha256",
@@ -425,30 +449,6 @@
 			"version": "9.0.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "55c836e79d8e9609ae18f3816415744569f810a3187d5baa9823364bc1f05aa2",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-guest-agent-9.0.0-10.el9_5.ppc64le.rpm",
-			"name": "qemu-guest-agent",
-			"reboot_suggested": 0,
-			"release": "10.el9_5",
-			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
-			"version": "9.0.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "e113c2d3e5fed7ce2f1987143df12e5f0880a88763102782162d90b954efac74",
-			"checksum_type": "sha256",
-			"epoch": "17",
-			"filename": "qemu-img-9.0.0-10.el9_5.ppc64le.rpm",
-			"name": "qemu-img",
-			"reboot_suggested": 0,
-			"release": "10.el9_5",
-			"src": "qemu-kvm-9.0.0-10.el9_5.src.rpm",
-			"version": "9.0.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "346afaddb71b88ad73b47956d1d8c7a4713130c164f60aefb8e9ce8f0c7f95f8",
 			"checksum_type": "sha256",
@@ -674,5 +674,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: qemu-kvm security update",
 	"type": "security",
-	"updated_date": 1731930936
+	"updated_date": 1731930430
 }

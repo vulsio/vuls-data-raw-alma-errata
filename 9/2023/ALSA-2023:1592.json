@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "06d56e6ebfb8be154bd41efd78c2f97c77cb2e0d437cf7b00be0fde18db26a1f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-1.12.0-5.el9_1.2.ppc64le.rpm",
+			"name": "tigervnc",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2acea8e2645a0a436e6d96af40ebca33543daebdfd47a6c6ad586216489658d1",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-module-1.12.0-5.el9_1.2.ppc64le.rpm",
+			"name": "tigervnc-server-module",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "2ad4b6a6488ca31b057eb3cb4f6d73353faac50f363cae37fafc4d736c87114c",
 			"checksum_type": "sha256",
@@ -17,12 +41,36 @@
 			"version": "1.12.0"
 		},
 		{
+			"arch": "ppc64le",
+			"checksum": "3b39992d7143d1b73b1cc1d43c84e0c30319dbfdb0cf82d02946880b36278636",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-1.12.0-5.el9_1.2.ppc64le.rpm",
+			"name": "tigervnc-server",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "75e3b6a43db5608e112099a7647d48eefe274349a7446b3a6af3bc47f50af9fc",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "tigervnc-license-1.12.0-5.el9_1.2.noarch.rpm",
 			"name": "tigervnc-license",
+			"reboot_suggested": 0,
+			"release": "5.el9_1.2",
+			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
+			"version": "1.12.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "a5298b81557bec8710b104588071eed94822169b9b500b57dca21c60af0b16df",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "tigervnc-server-minimal-1.12.0-5.el9_1.2.ppc64le.rpm",
+			"name": "tigervnc-server-minimal",
 			"reboot_suggested": 0,
 			"release": "5.el9_1.2",
 			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
@@ -137,54 +185,6 @@
 			"version": "1.12.0"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "06d56e6ebfb8be154bd41efd78c2f97c77cb2e0d437cf7b00be0fde18db26a1f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-1.12.0-5.el9_1.2.ppc64le.rpm",
-			"name": "tigervnc",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "2acea8e2645a0a436e6d96af40ebca33543daebdfd47a6c6ad586216489658d1",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-module-1.12.0-5.el9_1.2.ppc64le.rpm",
-			"name": "tigervnc-server-module",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "3b39992d7143d1b73b1cc1d43c84e0c30319dbfdb0cf82d02946880b36278636",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-1.12.0-5.el9_1.2.ppc64le.rpm",
-			"name": "tigervnc-server",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "a5298b81557bec8710b104588071eed94822169b9b500b57dca21c60af0b16df",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "tigervnc-server-minimal-1.12.0-5.el9_1.2.ppc64le.rpm",
-			"name": "tigervnc-server-minimal",
-			"reboot_suggested": 0,
-			"release": "5.el9_1.2",
-			"src": "tigervnc-1.12.0-5.el9_1.2.src.rpm",
-			"version": "1.12.0"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "1f284c30cefc0e8473eeeafd49c699069a85c031bb9a420f1a7e5c520a0d1939",
 			"checksum_type": "sha256",
@@ -258,5 +258,5 @@
 	"severity": "Important",
 	"title": "Important: tigervnc security update",
 	"type": "security",
-	"updated_date": 1680694700
+	"updated_date": 1680694702
 }
