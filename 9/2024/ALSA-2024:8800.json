@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "cd45f0e42646f52efe9e8b85b9d6f2ffe112e5814ed5a56b642d7fab20ecaee5",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-libs-3.1.1-2.el9_4.1.i686.rpm",
+			"name": "openexr-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_4.1",
+			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "390d062c5075922b7268d9df018977939d360169033e1e619a88ac2142a482d7",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-libs-3.1.1-2.el9_4.1.aarch64.rpm",
+			"name": "openexr-libs",
+			"reboot_suggested": 0,
+			"release": "2.el9_4.1",
+			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "55b6560b438cf8d05b278663f6d5e4f7d016b3e6d5aefa24aa221704a51e9f93",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-3.1.1-2.el9_4.1.aarch64.rpm",
+			"name": "openexr",
+			"reboot_suggested": 0,
+			"release": "2.el9_4.1",
+			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "65df10086ddde998e5b07220bee3bd039e20033ce4a77632ab85de00e21a8cef",
 			"checksum_type": "sha256",
@@ -22,18 +58,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "openexr-libs-3.1.1-2.el9_4.1.ppc64le.rpm",
-			"name": "openexr-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_4.1",
-			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "i686",
-			"checksum": "cd45f0e42646f52efe9e8b85b9d6f2ffe112e5814ed5a56b642d7fab20ecaee5",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-libs-3.1.1-2.el9_4.1.i686.rpm",
 			"name": "openexr-libs",
 			"reboot_suggested": 0,
 			"release": "2.el9_4.1",
@@ -65,30 +89,6 @@
 			"version": "3.1.1"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "390d062c5075922b7268d9df018977939d360169033e1e619a88ac2142a482d7",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-libs-3.1.1-2.el9_4.1.aarch64.rpm",
-			"name": "openexr-libs",
-			"reboot_suggested": 0,
-			"release": "2.el9_4.1",
-			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "55b6560b438cf8d05b278663f6d5e4f7d016b3e6d5aefa24aa221704a51e9f93",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-3.1.1-2.el9_4.1.aarch64.rpm",
-			"name": "openexr",
-			"reboot_suggested": 0,
-			"release": "2.el9_4.1",
-			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
 			"arch": "s390x",
 			"checksum": "090cd942b418304dfe59c4613a5c71c33a4e16fe1b1fa6ceca09fea9e8c5bc24",
 			"checksum_type": "sha256",
@@ -113,6 +113,18 @@
 			"version": "3.1.1"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "56e83b3bcdf940c9bcd69a6cd02c5f21ddb5a34afdc845e2f6f4be0399b8ea35",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "openexr-devel-3.1.1-2.el9_4.1.x86_64.rpm",
+			"name": "openexr-devel",
+			"reboot_suggested": 0,
+			"release": "2.el9_4.1",
+			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
+			"version": "3.1.1"
+		},
+		{
 			"arch": "i686",
 			"checksum": "817360e8fb16fe2e7978ed7796df4340c2baee9360fe8e344e78ab6379642c5d",
 			"checksum_type": "sha256",
@@ -130,18 +142,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "openexr-devel-3.1.1-2.el9_4.1.aarch64.rpm",
-			"name": "openexr-devel",
-			"reboot_suggested": 0,
-			"release": "2.el9_4.1",
-			"src": "openexr-3.1.1-2.el9_4.1.src.rpm",
-			"version": "3.1.1"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "56e83b3bcdf940c9bcd69a6cd02c5f21ddb5a34afdc845e2f6f4be0399b8ea35",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "openexr-devel-3.1.1-2.el9_4.1.x86_64.rpm",
 			"name": "openexr-devel",
 			"reboot_suggested": 0,
 			"release": "2.el9_4.1",
@@ -198,5 +198,5 @@
 	"severity": "Important",
 	"title": "Important: openexr security update",
 	"type": "security",
-	"updated_date": 1730761488
+	"updated_date": 1730761487
 }

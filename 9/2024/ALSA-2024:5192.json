@@ -5,6 +5,42 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "noarch",
+			"checksum": "997deceabd3440cbb5e7221f2b55f9b34c4f83cb166e3a748bd3d5c89b6475ee",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "python3-lib389-2.4.5-9.el9_4.noarch.rpm",
+			"name": "python3-lib389",
+			"reboot_suggested": 0,
+			"release": "9.el9_4",
+			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "61b681a1344f882bd4280f993317f8a6a8bc4585f0d21fdf54b8dcfdfeb4a530",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-2.4.5-9.el9_4.aarch64.rpm",
+			"name": "389-ds-base",
+			"reboot_suggested": 0,
+			"release": "9.el9_4",
+			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "97a127ea75363e24bac156358d8db3f09df68ae186daa89f53e5f6d421752ab6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "389-ds-base-libs-2.4.5-9.el9_4.aarch64.rpm",
+			"name": "389-ds-base-libs",
+			"reboot_suggested": 0,
+			"release": "9.el9_4",
+			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
+			"version": "2.4.5"
+		},
+		{
 			"arch": "ppc64le",
 			"checksum": "45ae0ee1e4835f295f9054e7a52d3dd7dd8d7a91bd2bf9e938aacdcd7ff3e6f6",
 			"checksum_type": "sha256",
@@ -29,18 +65,6 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "noarch",
-			"checksum": "997deceabd3440cbb5e7221f2b55f9b34c4f83cb166e3a748bd3d5c89b6475ee",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "python3-lib389-2.4.5-9.el9_4.noarch.rpm",
-			"name": "python3-lib389",
-			"reboot_suggested": 0,
-			"release": "9.el9_4",
-			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "73f3d6bd35590d889cc699bf67ce5cf24ca71a0d2f7826f4a60fd02657a1eba8",
 			"checksum_type": "sha256",
@@ -58,30 +82,6 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "389-ds-base-libs-2.4.5-9.el9_4.x86_64.rpm",
-			"name": "389-ds-base-libs",
-			"reboot_suggested": 0,
-			"release": "9.el9_4",
-			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "61b681a1344f882bd4280f993317f8a6a8bc4585f0d21fdf54b8dcfdfeb4a530",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-2.4.5-9.el9_4.aarch64.rpm",
-			"name": "389-ds-base",
-			"reboot_suggested": 0,
-			"release": "9.el9_4",
-			"src": "389-ds-base-2.4.5-9.el9_4.src.rpm",
-			"version": "2.4.5"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "97a127ea75363e24bac156358d8db3f09df68ae186daa89f53e5f6d421752ab6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "389-ds-base-libs-2.4.5-9.el9_4.aarch64.rpm",
 			"name": "389-ds-base-libs",
 			"reboot_suggested": 0,
 			"release": "9.el9_4",
@@ -113,11 +113,11 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "e0fd820f5a57cf508707adc2ecba139fcd29961812a55696be945fdef00064ce",
+			"arch": "x86_64",
+			"checksum": "495f442140d399c4b7835795b06c0501e511233a790f66bcda7c29e7dcc53bc4",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-9.el9_4.aarch64.rpm",
+			"filename": "389-ds-base-devel-2.4.5-9.el9_4.x86_64.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9_4",
@@ -125,11 +125,11 @@
 			"version": "2.4.5"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "495f442140d399c4b7835795b06c0501e511233a790f66bcda7c29e7dcc53bc4",
+			"arch": "aarch64",
+			"checksum": "e0fd820f5a57cf508707adc2ecba139fcd29961812a55696be945fdef00064ce",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "389-ds-base-devel-2.4.5-9.el9_4.x86_64.rpm",
+			"filename": "389-ds-base-devel-2.4.5-9.el9_4.aarch64.rpm",
 			"name": "389-ds-base-devel",
 			"reboot_suggested": 0,
 			"release": "9.el9_4",
