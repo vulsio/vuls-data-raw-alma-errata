@@ -1,0 +1,172 @@
+{
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 135, Thunderbird 135, Firefox ESR 128.7, and Thunderbird 128.7 (CVE-2025-1017)\n  * firefox: thunderbird: Use-after-free in Custom Highlight (CVE-2025-1010)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 135, Thunderbird 135, Firefox ESR 115.20, Firefox ESR 128.7, Thunderbird 115.20, and Thunderbird 128.7 (CVE-2025-1016)\n  * firefox: thunderbird: Potential opening of private browsing tabs in normal browsing windows (CVE-2025-1013)\n  * firefox: thunderbird: A bug in WebAssembly code generation could result in a crash (CVE-2025-1011)\n  * thunderbird: Unsanitized address book fields (CVE-2025-1015)\n  * firefox: thunderbird: Use-after-free in XSLT (CVE-2025-1009)\n  * thunderbird: Address of e-mail sender can be spoofed by malicious email (CVE-2025-0510)\n  * firefox: thunderbird: Certificate length was not properly checked (CVE-2025-1014)\n  * firefox: thunderbird: Use-after-free during concurrent delazification (CVE-2025-1012)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:1292",
+	"issued_date": 1739232000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "c28b479a9e37d9d1b5c788147aa7cd04287c7504a98c0b40eb1b8c805a7767ef",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.7.0-1.el8_10.alma.1.x86_64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.7.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "6083d207cd9d02cc5f6c6ff743c49e3e0a9a19eacadef57ef4e80a3f49a24bb2",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.7.0-1.el8_10.alma.1.aarch64.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.7.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "046b0fcb9864b617f9eb6b435abf72628197bcd44e54a200625652c88caf9ee6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.7.0-1.el8_10.alma.1.ppc64le.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.7.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "f704bab4a2592efd1168324c9fc300d5e3683788f0786e06c20e059cc6b23fdd",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "thunderbird-128.7.0-1.el8_10.alma.1.s390x.rpm",
+			"name": "thunderbird",
+			"reboot_suggested": 0,
+			"release": "1.el8_10.alma.1",
+			"src": "thunderbird-128.7.0-1.el8_10.alma.1.src.rpm",
+			"version": "128.7.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:1292",
+			"id": "RHSA-2025:1292",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-0510",
+			"id": "CVE-2025-0510",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1009",
+			"id": "CVE-2025-1009",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1010",
+			"id": "CVE-2025-1010",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1011",
+			"id": "CVE-2025-1011",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1012",
+			"id": "CVE-2025-1012",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1013",
+			"id": "CVE-2025-1013",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1014",
+			"id": "CVE-2025-1014",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1015",
+			"id": "CVE-2025-1015",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1016",
+			"id": "CVE-2025-1016",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1017",
+			"id": "CVE-2025-1017",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343748",
+			"id": "2343748",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343750",
+			"id": "2343750",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343752",
+			"id": "2343752",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343754",
+			"id": "2343754",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343756",
+			"id": "2343756",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343759",
+			"id": "2343759",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343760",
+			"id": "2343760",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343762",
+			"id": "2343762",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343764",
+			"id": "2343764",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343765",
+			"id": "2343765",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-1292.html",
+			"id": "ALSA-2025:1292",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: thunderbird security update",
+	"type": "security",
+	"updated_date": 1739311740
+}

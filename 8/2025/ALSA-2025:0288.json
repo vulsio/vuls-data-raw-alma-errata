@@ -5,6 +5,18 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "i686",
+			"checksum": "19456f238c378ba18d4ceef2915fb0339722256dba32cb28ed10b3e51969c4f9",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.i686.rpm",
+			"name": "NetworkManager-libnm-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
+			"version": "1.40.16"
+		},
+		{
 			"arch": "noarch",
 			"checksum": "5f5e4e696455a18a6bf22459884d6cdf3c476bbc2b29a4638ccb40ecc14ffde6",
 			"checksum_type": "sha256",
@@ -59,18 +71,6 @@
 			"epoch": "1",
 			"filename": "NetworkManager-dispatcher-routing-rules-1.40.16-18.el8_10.noarch.rpm",
 			"name": "NetworkManager-dispatcher-routing-rules",
-			"reboot_suggested": 0,
-			"release": "18.el8_10",
-			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
-			"version": "1.40.16"
-		},
-		{
-			"arch": "i686",
-			"checksum": "19456f238c378ba18d4ceef2915fb0339722256dba32cb28ed10b3e51969c4f9",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.i686.rpm",
-			"name": "NetworkManager-libnm-devel",
 			"reboot_suggested": 0,
 			"release": "18.el8_10",
 			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
@@ -197,18 +197,6 @@
 			"version": "1.40.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "9f4f2f2b54a3b3e997ee984cf16c2a80c169af0ab2695a12d7fd095342984aef",
-			"checksum_type": "sha256",
-			"epoch": "1",
-			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.x86_64.rpm",
-			"name": "NetworkManager-libnm-devel",
-			"reboot_suggested": 0,
-			"release": "18.el8_10",
-			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
-			"version": "1.40.16"
-		},
-		{
 			"arch": "aarch64",
 			"checksum": "12cda9ea857bdd289f3212950e7d91df00d8a7b7513f2c29ae8f73355e5336d6",
 			"checksum_type": "sha256",
@@ -329,6 +317,18 @@
 			"version": "1.40.16"
 		},
 		{
+			"arch": "x86_64",
+			"checksum": "9f4f2f2b54a3b3e997ee984cf16c2a80c169af0ab2695a12d7fd095342984aef",
+			"checksum_type": "sha256",
+			"epoch": "1",
+			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.x86_64.rpm",
+			"name": "NetworkManager-libnm-devel",
+			"reboot_suggested": 0,
+			"release": "18.el8_10",
+			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
+			"version": "1.40.16"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "98aacba0c7f28624602d26997276f9f8e5238ad1fed2dd4fd9fb39a5913be9ac",
 			"checksum_type": "sha256",
@@ -341,11 +341,11 @@
 			"version": "1.40.16"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "8696a77881d72a1d78a121e53e2dbd3c2620fafc00327f82da58e08b790fdab3",
+			"arch": "x86_64",
+			"checksum": "f3d7ca467a39152547b3ed01dc3916e9844bb04a754c77bc187bc938d547a98b",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.aarch64.rpm",
+			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.x86_64.rpm",
 			"name": "NetworkManager-cloud-setup",
 			"reboot_suggested": 0,
 			"release": "18.el8_10",
@@ -353,11 +353,11 @@
 			"version": "1.40.16"
 		},
 		{
-			"arch": "x86_64",
-			"checksum": "f3d7ca467a39152547b3ed01dc3916e9844bb04a754c77bc187bc938d547a98b",
+			"arch": "aarch64",
+			"checksum": "8696a77881d72a1d78a121e53e2dbd3c2620fafc00327f82da58e08b790fdab3",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.x86_64.rpm",
+			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.aarch64.rpm",
 			"name": "NetworkManager-cloud-setup",
 			"reboot_suggested": 0,
 			"release": "18.el8_10",
@@ -486,11 +486,11 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "eb665306528dc834b3b2be47f76d43691e3ec2963aed5ce9fb9e6c714877d822",
+			"checksum": "706a903d5778877ad9522be947d8a62a33bc729001d4a6afd98ce5cfa011c5cd",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.ppc64le.rpm",
-			"name": "NetworkManager-cloud-setup",
+			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.ppc64le.rpm",
+			"name": "NetworkManager-libnm-devel",
 			"reboot_suggested": 0,
 			"release": "18.el8_10",
 			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
@@ -498,11 +498,11 @@
 		},
 		{
 			"arch": "ppc64le",
-			"checksum": "706a903d5778877ad9522be947d8a62a33bc729001d4a6afd98ce5cfa011c5cd",
+			"checksum": "eb665306528dc834b3b2be47f76d43691e3ec2963aed5ce9fb9e6c714877d822",
 			"checksum_type": "sha256",
 			"epoch": "1",
-			"filename": "NetworkManager-libnm-devel-1.40.16-18.el8_10.ppc64le.rpm",
-			"name": "NetworkManager-libnm-devel",
+			"filename": "NetworkManager-cloud-setup-1.40.16-18.el8_10.ppc64le.rpm",
+			"name": "NetworkManager-cloud-setup",
 			"reboot_suggested": 0,
 			"release": "18.el8_10",
 			"src": "NetworkManager-1.40.16-18.el8_10.src.rpm",
@@ -673,5 +673,5 @@
 	"severity": "Moderate",
 	"title": "Moderate: Bug fix of NetworkManager",
 	"type": "security",
-	"updated_date": 1736803642
+	"updated_date": 1736803627
 }

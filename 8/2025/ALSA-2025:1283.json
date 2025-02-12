@@ -1,0 +1,152 @@
+{
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.  \n\nSecurity Fix(es):  \n\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 135, Thunderbird 135, Firefox ESR 128.7, and Thunderbird 128.7 (CVE-2025-1017)\n  * firefox: thunderbird: Use-after-free in Custom Highlight (CVE-2025-1010)\n  * firefox: thunderbird: Memory safety bugs fixed in Firefox 135, Thunderbird 135, Firefox ESR 115.20, Firefox ESR 128.7, Thunderbird 115.20, and Thunderbird 128.7 (CVE-2025-1016)\n  * firefox: thunderbird: Potential opening of private browsing tabs in normal browsing windows (CVE-2025-1013)\n  * firefox: thunderbird: A bug in WebAssembly code generation could result in a crash (CVE-2025-1011)\n  * firefox: thunderbird: Use-after-free in XSLT (CVE-2025-1009)\n  * firefox: thunderbird: Certificate length was not properly checked (CVE-2025-1014)\n  * firefox: thunderbird: Use-after-free during concurrent delazification (CVE-2025-1012)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+	"id": "ALSA-2025:1283",
+	"issued_date": 1739232000,
+	"modules": [],
+	"packages": [
+		{
+			"arch": "x86_64",
+			"checksum": "58a1878891650f9107afcd9d856d8b235518c005ad843b4b28ae4a4938104840",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.7.0-1.el8_10.x86_64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.7.0-1.el8_10.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "d88d4a720ae6c96225a27176c01f4c17d40b16d18698cda8ec925e5d0ac2348f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.7.0-1.el8_10.aarch64.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.7.0-1.el8_10.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "f40086b4d54e66f78eeac9e53b8dcfe0b4f818222dfa1de8bd6684a6e6813020",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.7.0-1.el8_10.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.7.0-1.el8_10.src.rpm",
+			"version": "128.7.0"
+		},
+		{
+			"arch": "s390x",
+			"checksum": "38c44e5d22118127165a3e37ef397341094f66d157e00ad03e6465339093d377",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-128.7.0-1.el8_10.s390x.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el8_10",
+			"src": "firefox-128.7.0-1.el8_10.src.rpm",
+			"version": "128.7.0"
+		}
+	],
+	"references": [
+		{
+			"href": "https://access.redhat.com/errata/RHSA-2025:1283",
+			"id": "RHSA-2025:1283",
+			"type": "rhsa"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1009",
+			"id": "CVE-2025-1009",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1010",
+			"id": "CVE-2025-1010",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1011",
+			"id": "CVE-2025-1011",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1012",
+			"id": "CVE-2025-1012",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1013",
+			"id": "CVE-2025-1013",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1014",
+			"id": "CVE-2025-1014",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1016",
+			"id": "CVE-2025-1016",
+			"type": "cve"
+		},
+		{
+			"href": "https://access.redhat.com/security/cve/CVE-2025-1017",
+			"id": "CVE-2025-1017",
+			"type": "cve"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343748",
+			"id": "2343748",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343750",
+			"id": "2343750",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343752",
+			"id": "2343752",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343754",
+			"id": "2343754",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343756",
+			"id": "2343756",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343760",
+			"id": "2343760",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343764",
+			"id": "2343764",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://bugzilla.redhat.com/2343765",
+			"id": "2343765",
+			"type": "bugzilla"
+		},
+		{
+			"href": "https://errata.almalinux.org/8/ALSA-2025-1283.html",
+			"id": "ALSA-2025:1283",
+			"type": "self"
+		}
+	],
+	"severity": "Important",
+	"title": "Important: firefox security update",
+	"type": "security",
+	"updated_date": 1739311606
+}
