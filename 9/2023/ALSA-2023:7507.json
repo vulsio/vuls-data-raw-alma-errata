@@ -5,6 +5,30 @@
 	"modules": [],
 	"packages": [
 		{
+			"arch": "ppc64le",
+			"checksum": "d7d423741e62aaa0b6ecbb5024eaafbdbb4ae37c2e9920b4d4dba1972701fb61",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.ppc64le.rpm",
+			"name": "firefox-x11",
+			"reboot_suggested": 0,
+			"release": "1.el9_3.alma.1",
+			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
+			"version": "115.5.0"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "dab6756faa6f3560fa6530d5a490d42949df011b0fabd0eed006042d81ff0a1f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "firefox-115.5.0-1.el9_3.alma.1.ppc64le.rpm",
+			"name": "firefox",
+			"reboot_suggested": 0,
+			"release": "1.el9_3.alma.1",
+			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
+			"version": "115.5.0"
+		},
+		{
 			"arch": "aarch64",
 			"checksum": "6766a878da4568ce3bb690963966f65c80431d83991ea1f3bccb17864ebb1037",
 			"checksum_type": "sha256",
@@ -47,30 +71,6 @@
 			"epoch": "0",
 			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.x86_64.rpm",
 			"name": "firefox-x11",
-			"reboot_suggested": 0,
-			"release": "1.el9_3.alma.1",
-			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
-			"version": "115.5.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "d7d423741e62aaa0b6ecbb5024eaafbdbb4ae37c2e9920b4d4dba1972701fb61",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-x11-115.5.0-1.el9_3.alma.1.ppc64le.rpm",
-			"name": "firefox-x11",
-			"reboot_suggested": 0,
-			"release": "1.el9_3.alma.1",
-			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
-			"version": "115.5.0"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "dab6756faa6f3560fa6530d5a490d42949df011b0fabd0eed006042d81ff0a1f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "firefox-115.5.0-1.el9_3.alma.1.ppc64le.rpm",
-			"name": "firefox",
 			"reboot_suggested": 0,
 			"release": "1.el9_3.alma.1",
 			"src": "firefox-115.5.0-1.el9_3.alma.1.src.rpm",
@@ -186,5 +186,5 @@
 	"severity": "Important",
 	"title": "Important: firefox security update",
 	"type": "security",
-	"updated_date": 1701279013
+	"updated_date": 1701279012
 }

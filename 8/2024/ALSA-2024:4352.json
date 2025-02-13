@@ -78,11 +78,35 @@
 		},
 		{
 			"arch": "x86_64",
+			"checksum": "ac235a7d288d7cecc9f30ce34c5a4382da3646c8b2d904e16affe5a562e9111b",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-kvm-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
+			"name": "kernel-rt-kvm",
+			"reboot_suggested": 0,
+			"release": "553.8.1.rt7.349.el8_10",
+			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "af16df1c46aa2b805df2971471cdd25ad955f7a581917db13ffab3490434454b",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "kernel-rt-debug-devel-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
 			"name": "kernel-rt-debug-devel",
+			"reboot_suggested": 0,
+			"release": "553.8.1.rt7.349.el8_10",
+			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "c4f3f999e348335e949000eb5971710dfaeda551dfa4f431779fc8a809ee06b8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-kvm-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
+			"name": "kernel-rt-debug-kvm",
 			"reboot_suggested": 0,
 			"release": "553.8.1.rt7.349.el8_10",
 			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
@@ -119,30 +143,6 @@
 			"epoch": "0",
 			"filename": "kernel-rt-debug-modules-extra-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
 			"name": "kernel-rt-debug-modules-extra",
-			"reboot_suggested": 0,
-			"release": "553.8.1.rt7.349.el8_10",
-			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ac235a7d288d7cecc9f30ce34c5a4382da3646c8b2d904e16affe5a562e9111b",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-kvm-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
-			"name": "kernel-rt-kvm",
-			"reboot_suggested": 0,
-			"release": "553.8.1.rt7.349.el8_10",
-			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "c4f3f999e348335e949000eb5971710dfaeda551dfa4f431779fc8a809ee06b8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-debug-kvm-4.18.0-553.8.1.rt7.349.el8_10.x86_64.rpm",
-			"name": "kernel-rt-debug-kvm",
 			"reboot_suggested": 0,
 			"release": "553.8.1.rt7.349.el8_10",
 			"src": "kernel-rt-4.18.0-553.8.1.rt7.349.el8_10.src.rpm",
@@ -744,5 +744,5 @@
 	"severity": "Important",
 	"title": "Important: kernel-rt security and bug fix update",
 	"type": "security",
-	"updated_date": 1720462040
+	"updated_date": 1720462041
 }

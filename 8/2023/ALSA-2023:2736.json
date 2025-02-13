@@ -78,11 +78,35 @@
 		},
 		{
 			"arch": "x86_64",
+			"checksum": "6e716ec3fe2e9d4e896bba13619567e87f21ce10f8dcb2888bd515e9ea71bbd6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-debug-kvm-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
+			"name": "kernel-rt-debug-kvm",
+			"reboot_suggested": 0,
+			"release": "477.10.1.rt7.274.el8_8",
+			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
 			"checksum": "9fb8a5bc6c754f35afb7d8d42b31ac8a22436809e126639775cac32f1641028d",
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "kernel-rt-devel-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
 			"name": "kernel-rt-devel",
+			"reboot_suggested": 0,
+			"release": "477.10.1.rt7.274.el8_8",
+			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
+			"version": "4.18.0"
+		},
+		{
+			"arch": "x86_64",
+			"checksum": "ac9dca0048b5178f4b83b33610359676d0e9e6a02e57b313b63d67a5e0ce32b8",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "kernel-rt-kvm-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
+			"name": "kernel-rt-kvm",
 			"reboot_suggested": 0,
 			"release": "477.10.1.rt7.274.el8_8",
 			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
@@ -119,30 +143,6 @@
 			"epoch": "0",
 			"filename": "kernel-rt-modules-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
 			"name": "kernel-rt-modules",
-			"reboot_suggested": 0,
-			"release": "477.10.1.rt7.274.el8_8",
-			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "6e716ec3fe2e9d4e896bba13619567e87f21ce10f8dcb2888bd515e9ea71bbd6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-debug-kvm-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
-			"name": "kernel-rt-debug-kvm",
-			"reboot_suggested": 0,
-			"release": "477.10.1.rt7.274.el8_8",
-			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
-			"version": "4.18.0"
-		},
-		{
-			"arch": "x86_64",
-			"checksum": "ac9dca0048b5178f4b83b33610359676d0e9e6a02e57b313b63d67a5e0ce32b8",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "kernel-rt-kvm-4.18.0-477.10.1.rt7.274.el8_8.x86_64.rpm",
-			"name": "kernel-rt-kvm",
 			"reboot_suggested": 0,
 			"release": "477.10.1.rt7.274.el8_8",
 			"src": "kernel-rt-4.18.0-477.10.1.rt7.274.el8_8.src.rpm",
@@ -554,5 +554,5 @@
 	"severity": "Important",
 	"title": "Important: kernel-rt security and bug fix update",
 	"type": "security",
-	"updated_date": 1684533774
+	"updated_date": 1684533810
 }
