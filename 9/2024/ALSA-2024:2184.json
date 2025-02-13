@@ -41,30 +41,6 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
-			"arch": "ppc64le",
-			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
-			"name": "libsndfile-utils",
-			"reboot_suggested": 0,
-			"release": "8.el9",
-			"src": "libsndfile-1.0.31-8.el9.src.rpm",
-			"version": "1.0.31"
-		},
-		{
 			"arch": "x86_64",
 			"checksum": "24d124f85877b68696a0569bcac283ea4bfbd826c4c541a28716bd28381fbc05",
 			"checksum_type": "sha256",
@@ -82,6 +58,30 @@
 			"checksum_type": "sha256",
 			"epoch": "0",
 			"filename": "libsndfile-utils-1.0.31-8.el9.x86_64.rpm",
+			"name": "libsndfile-utils",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "2d4d9e499ef7504a5797d8c6e21c94d4bdcf24ef631c47a6bfbdce7cce59e907",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-1.0.31-8.el9.ppc64le.rpm",
+			"name": "libsndfile",
+			"reboot_suggested": 0,
+			"release": "8.el9",
+			"src": "libsndfile-1.0.31-8.el9.src.rpm",
+			"version": "1.0.31"
+		},
+		{
+			"arch": "ppc64le",
+			"checksum": "673d09ba3c4b0080307ac110ce01c58685e9daf58f78c1e0f0d8aa2d6b29befa",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libsndfile-utils-1.0.31-8.el9.ppc64le.rpm",
 			"name": "libsndfile-utils",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -137,11 +137,11 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "b1710e80ef70fe6340f822d769bf49b3735ec859ceef8117fbe3f5ee16693dca",
+			"arch": "ppc64le",
+			"checksum": "c1bd45d605e3e6fc5e248ce9a9bfbba74794fcab30afec37ce71033c45fc9663",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsndfile-devel-1.0.31-8.el9.aarch64.rpm",
+			"filename": "libsndfile-devel-1.0.31-8.el9.ppc64le.rpm",
 			"name": "libsndfile-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",
@@ -161,11 +161,11 @@
 			"version": "1.0.31"
 		},
 		{
-			"arch": "ppc64le",
-			"checksum": "c1bd45d605e3e6fc5e248ce9a9bfbba74794fcab30afec37ce71033c45fc9663",
+			"arch": "aarch64",
+			"checksum": "b1710e80ef70fe6340f822d769bf49b3735ec859ceef8117fbe3f5ee16693dca",
 			"checksum_type": "sha256",
 			"epoch": "0",
-			"filename": "libsndfile-devel-1.0.31-8.el9.ppc64le.rpm",
+			"filename": "libsndfile-devel-1.0.31-8.el9.aarch64.rpm",
 			"name": "libsndfile-devel",
 			"reboot_suggested": 0,
 			"release": "8.el9",
