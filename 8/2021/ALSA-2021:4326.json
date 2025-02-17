@@ -17,6 +17,42 @@
 			"version": "1.6.8"
 		},
 		{
+			"arch": "aarch64",
+			"checksum": "9984ea9af21cb403225a36d6d50f572e6a70a1d7bc58bbcb2b7b7ea9cfd53c4f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-devel-1.6.8-5.el8.aarch64.rpm",
+			"name": "libX11-devel",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libX11-1.6.8-5.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "eeb63b277dc4766d73a384f1900b511d0f53cf39c71c3771fbd7cb4c5070130f",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-xcb-1.6.8-5.el8.aarch64.rpm",
+			"name": "libX11-xcb",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libX11-1.6.8-5.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
+			"arch": "aarch64",
+			"checksum": "f655b703faf14c3a3533a4a3611f15151096237eedf6b3e9cf326839521190d6",
+			"checksum_type": "sha256",
+			"epoch": "0",
+			"filename": "libX11-1.6.8-5.el8.aarch64.rpm",
+			"name": "libX11",
+			"reboot_suggested": 0,
+			"release": "5.el8",
+			"src": "libX11-1.6.8-5.el8.src.rpm",
+			"version": "1.6.8"
+		},
+		{
 			"arch": "i686",
 			"checksum": "77a71df76cbd5d209cb085e9699873cdfe1d56f034c0cb14352d16e085ec8dac",
 			"checksum_type": "sha256",
@@ -89,42 +125,6 @@
 			"version": "1.6.8"
 		},
 		{
-			"arch": "aarch64",
-			"checksum": "9984ea9af21cb403225a36d6d50f572e6a70a1d7bc58bbcb2b7b7ea9cfd53c4f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-devel-1.6.8-5.el8.aarch64.rpm",
-			"name": "libX11-devel",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libX11-1.6.8-5.el8.src.rpm",
-			"version": "1.6.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "eeb63b277dc4766d73a384f1900b511d0f53cf39c71c3771fbd7cb4c5070130f",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-xcb-1.6.8-5.el8.aarch64.rpm",
-			"name": "libX11-xcb",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libX11-1.6.8-5.el8.src.rpm",
-			"version": "1.6.8"
-		},
-		{
-			"arch": "aarch64",
-			"checksum": "f655b703faf14c3a3533a4a3611f15151096237eedf6b3e9cf326839521190d6",
-			"checksum_type": "sha256",
-			"epoch": "0",
-			"filename": "libX11-1.6.8-5.el8.aarch64.rpm",
-			"name": "libX11",
-			"reboot_suggested": 0,
-			"release": "5.el8",
-			"src": "libX11-1.6.8-5.el8.src.rpm",
-			"version": "1.6.8"
-		},
-		{
 			"arch": "ppc64le",
 			"checksum": "575ae78aa5116e3ed3668874a9b30d9387678241d7e7ff88f73f0706ec3de581",
 			"checksum_type": "sha256",
@@ -163,18 +163,18 @@
 	],
 	"references": [
 		{
-			"href": "https://vulners.com/cve/CVE-2021-31535",
-			"id": "CVE-2021-31535",
-			"type": "cve"
-		},
-		{
 			"href": "https://errata.almalinux.org/8/ALSA-2021-4326.html",
 			"id": "ALSA-2021-4326",
 			"type": "self"
+		},
+		{
+			"href": "https://vulners.com/cve/CVE-2021-31535",
+			"id": "CVE-2021-31535",
+			"type": "cve"
 		}
 	],
 	"severity": "Moderate",
 	"title": "Moderate: libX11 security update",
 	"type": "security",
-	"updated_date": 1636712456
+	"updated_date": 1636462977
 }
